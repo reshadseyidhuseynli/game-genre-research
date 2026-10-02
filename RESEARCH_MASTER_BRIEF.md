@@ -1663,6 +1663,26 @@ Cyber Manhunt üzrə əsas research mərhələsi tamamlanıb:
 - information-driven gameplay də repetition-dan immun deyil;
 - full realism tələb olunmur, selective authenticity üçüncü oyunda da işləyir.
 
+### The Operator deep research
+
+The Operator üzrə əsas research mərhələsi tamamlanıb:
+
+- verified Steam dataset: **3,781 review**
+- positive: **3,392**
+- negative: **389**
+- `analysis/the-operator/theme-analysis.md`
+- `analysis/the-operator/deep-research.md`
+- `analysis/comparisons/cyber-manhunt-vs-the-operator.md`
+
+Əsas nəticələr:
+
+- focused evidence tools Cyber Manhunt-dan daha yüksək clarity yaradır;
+- interface/audio “operator” fantasy-sini çox güclü dəstəkləyir;
+- linearlıq və zəif player agency əsas design riskidir;
+- ending/closure və qısa content recommendation-a ciddi təsir edir;
+- bir dəfə istifadə olunan mechanic-lər variety yaradır, amma mastery yaratmır;
+- clarity və agency birlikdə dizayn edilməlidir.
+
 ### Three-game comparison
 
 Tamamlanıb:
@@ -1728,13 +1748,23 @@ Bu bölmə yeni sessiyada “nə hazırdır?” sualının source of truth-udur.
 - ✅ `analysis/comparisons/hacknet-vs-midnight-protocol.md`
 - ✅ `analysis/comparisons/hacknet-midnight-protocol-cyber-manhunt.md`
 
-### The Operator — current target
+### The Operator — complete
 
-- ✅ `analysis/the-operator/research-kickoff.md`
+- ✅ verified Steam dataset: **3,781 reviews**
+- ✅ `data/reports/the-operator/summary.md`
+- ⏳ deterministic v4 theme artifacts — local `theme_pipeline` run/push pending
+- ✅ `analysis/the-operator/theme-analysis.md`
+- ✅ `analysis/the-operator/deep-research.md`
+- ✅ `analysis/comparisons/cyber-manhunt-vs-the-operator.md`
+- ℹ️ `analysis/the-operator/research-kickoff.md` — historical planning context, superseded
+
+### Orwell — current target
+
+- ✅ `analysis/orwell/research-kickoff.md`
 - ⏳ Steam dataset — pending
 - ⏳ theme analysis — pending
 - ⏳ deep research — pending
-- ⏳ Cyber Manhunt vs The Operator comparison — pending
+- ⏳ Orwell vs Need to Know comparison — pending
 
 ### Final package
 
@@ -1752,30 +1782,29 @@ Bu inventory hər major milestone-dan sonra yenilənməlidir.
 
 # 18. Hazırkı növbəti addım
 
-**Cyber Manhunt deterministic theme artifacts + növbəti digital-investigation target.**
+**The Operator deterministic theme artifacts + Orwell dataset collection.**
 
-Cyber Manhunt dataset və analysis tamamlanıb.
+The Operator dataset və əsas research tamamlanıb.
 
 Əvvəl reproducibility artefaktlarını yarat:
 
-1. `python -m src.theme_pipeline --game cyber-manhunt`
-2. generated `data/processed/cyber-manhunt/themes/` və `data/reports/cyber-manhunt/theme-candidates.md` fayllarını push et.
+1. `python -m src.theme_pipeline --game the-operator`
+2. generated `data/processed/the-operator/themes/` və `data/reports/the-operator/theme-candidates.md` fayllarını push et.
 
-Bundan sonra növbəti research target seçilməlidir.
+Növbəti Tier A target: **Orwell: Keeping an Eye On You**
 
-Növbəti target seçilib: **The Operator**
+- key: `orwell`
+- Steam App ID: `491950`
+- kickoff: `analysis/orwell/research-kickoff.md`
 
-- key: `the-operator`
-- Steam App ID: `1771980`
-- kickoff: `analysis/the-operator/research-kickoff.md`
+Əsas research sualı:
 
-The Operator Cyber Manhunt-un əsas research sualını test edəcək:
+> information selection və consequence digital investigation-a real agency əlavə edirmi?
 
-> scripted clue progression əvəzinə focused analysis tools və evidence comparison player-a daha real deduction hissi verirmi?
-
-Bundan sonrakı yüksək informasiya dəyərli namizədlər:
-- Mainlining — hacking + investigation + choice;
-- Orwell — information selection + surveillance + ethics.
+Orwell-dan sonra planned Tier A target:
+- Mainlining
+- SIMULACRA
+- SIMULACRA 3
 
 ---
 
