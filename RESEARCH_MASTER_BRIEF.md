@@ -8,18 +8,18 @@ Bu sənəd **Oyun Janrı Araşdırması** layihəsinin əsas kontekst və davaml
 
 - məqsədini;
 - araşdırma suallarını;
-- əhatə dairəsi-u;
+- əhatə dairəsini;
 - istifadə edilən metodologiyanı;
 - məlumat və dəlil qaydalarını;
 - hər oyun üçün görüləcək işi;
 - oyunlararası müqayisə üsulunu;
-- final deliverable-ları;
+- yekun təqdimat sənədlərini;
 - rəhbərliyə təqdim ediləcək yekun hesabat strukturunu;
 - cari vəziyyəti və növbəti addımı
 
 müəyyən edir.
 
-Bu layihənin məqsədi **indidən oyun ideyası seçmək deyil**. Məqsəd ideya yaratmazdan və dəqiqləşdirməzdən əvvəl bazarda mövcud olan oxşar oyunları sistemli şəkildə öyrənmək, işləyən və işləməyən nümunələri tapmaq və komandanın sonrakı concept qərarlarını dəlil ilə dəstəkləməkdir.
+Bu layihənin məqsədi **indidən oyun ideyası seçmək deyil**. Məqsəd ideya yaratmazdan və dəqiqləşdirməzdən əvvəl bazarda mövcud olan oxşar oyunları sistemli şəkildə öyrənmək, işləyən və işləməyən nümunələri tapmaq və komandanın sonrakı konsept qərarlarını dəlil ilə dəstəkləməkdir.
 
 ---
 
