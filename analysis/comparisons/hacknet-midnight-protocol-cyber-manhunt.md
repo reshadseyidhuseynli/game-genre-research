@@ -2,37 +2,37 @@
 
 ## 1. Məqsəd
 
-Bu comparison üç fərqli computer-interface design modelini müqayisə edir:
+Bu müqayisə üç fərqli computer-interface dizayn modelini müqayisə edir:
 
-- **Hacknet** — execution/terminal depth
-- **Midnight Protocol** — tactical/system depth
-- **Cyber Manhunt** — information/deduction depth
+- **Hacknet** — execution/terminal dərinlik
+- **Midnight Protocol** — tactical/system dərinlik
+- **Cyber Manhunt** — information/deduction dərinlik
 
-Məqsəd “ən yaxşı oyunu” seçmək deyil. Məqsəd hansı depth modelinin hansı problemi həll etdiyini və hansı yeni risk yaratdığını anlamaqdır.
+Məqsəd “ən yaxşı oyunu” seçmək deyil. Məqsəd hansı dərinlik modelinin hansı problemi həll etdiyini və hansı yeni risk yaratdığını anlamaqdır.
 
 ---
 
-# 2. Dataset snapshot
+# 2. məlumat toplusu snapshot
 
 | Metrik | Hacknet | Midnight Protocol | Cyber Manhunt |
 |---|---:|---:|---:|
 | Verified reviews | 11,773 | 301 | 847 |
-| Positive ratio | **94.13%** | **84.05%** | **80.40%** |
-| Avg positive playtime | 13.06h | 17.01h | 12.07h |
-| Avg negative playtime | 4.40h | 5.59h | 6.33h |
+| müsbət ratio | **94.13%** | **84.05%** | **80.40%** |
+| Avg müsbət oyun müddəti | 13.06h | 17.01h | 12.07h |
+| Avg mənfi oyun müddəti | 4.40h | 5.59h | 6.33h |
 
-Dataset ölçüləri çox fərqlidir. Absolute mention count-lar birbaşa müqayisə edilmir; əsasən pattern direction, relative negative concentration, cohort shape və semantic audit müqayisə olunur.
+məlumat toplusu ölçüləri çox fərqlidir. Absolute mention count-lar birbaşa müqayisə edilmir; əsasən nümunə direction, relative mənfi concentration, cohort shape və məna yönümlü yoxlama müqayisə olunur.
 
 ---
 
 # 3. Early-session cohort müqayisəsi
 
-| Playtime | Hacknet | Midnight Protocol | Cyber Manhunt |
+| oyun müddəti | Hacknet | Midnight Protocol | Cyber Manhunt |
 |---|---:|---:|---:|
-| 0–1h positive | 67.05% | 76.19% | **27.78%** |
-| 1–3h positive | 86.59% | **62.22%** | **44.07%** |
-| 3–10h positive | 95.79% | 75.95% | 80.49% |
-| 10h+ positive | 98.57% | 95.51% | 90.72% |
+| 0–1h müsbət | 67.05% | 76.19% | **27.78%** |
+| 1–3h müsbət | 86.59% | **62.22%** | **44.07%** |
+| 3–10h müsbət | 95.79% | 75.95% | 80.49% |
+| 10h+ müsbət | 98.57% | 95.51% | 90.72% |
 
 Üç oyun üç fərqli onboarding problemi göstərir.
 
@@ -40,7 +40,7 @@ Dataset ölçüləri çox fərqlidir. Absolute mention count-lar birbaşa müqay
 
 Əsas risk ilk saatdır.
 
-Player:
+oyunçu:
 - terminaldan qorxa bilər;
 - command vocabulary-ni anlamaya bilər;
 - fantasy-ni dərhal qəbul etməyə bilər.
@@ -49,20 +49,20 @@ Player:
 
 Əsas risk 1–3 saatdır.
 
-Player initial controls-u başa düşür, amma sonra:
+oyunçu initial controls-u başa düşür, amma sonra:
 - loadout;
 - trace;
 - tactical systems;
-- uncertainty;
+- qeyri-müəyyənlik;
 - recovery
 
-birlikdə friction yaradır.
+birlikdə çətinlik yaradır.
 
 ## Cyber Manhunt
 
 Ən sərt risk ilk 3 saatdır.
 
-Player investigation gözləyir, amma early experience:
+oyunçu investigation gözləyir, amma early experience:
 - scripted progression;
 - clue-order dependency;
 - localization;
@@ -71,17 +71,17 @@ Player investigation gözləyir, amma early experience:
 
 ilə expectation mismatch yarada bilir.
 
-### Cross-game principle
+### oyunlararası principle
 
-> **Onboarding yalnız controls öyrətmək deyil. Player-in oyunun “necə düşünülməli olduğunu” öyrəndiyi mərhələ ayrıca dizayn edilməlidir.**
+> **Onboarding yalnız controls öyrətmək deyil. oyunçu-in oyunun “necə düşünülməli olduğunu” öyrəndiyi mərhələ ayrıca dizayn edilməlidir.**
 
 ---
 
-# 4. Üç fərqli depth modeli
+# 4. Üç fərqli dərinlik modeli
 
-## 4.1. Hacknet — Execution Depth
+## 4.1. Hacknet — Execution dərinlik
 
-Player skill əsasən:
+oyunçu bacarıq əsasən:
 - command flow;
 - speed;
 - terminal familiarity;
@@ -95,42 +95,42 @@ Player skill əsasən:
 - “hacker kimi hiss etmək” tez yaranır.
 
 Risk:
-- decision space tez görünür;
+- qərar space tez görünür;
 - tool-lar “key”ə çevrilir;
-- eyni command sequence repetition yaradır.
+- eyni əmr ardıcıllığı təkrarçılıq yaradır.
 
 ---
 
-## 4.2. Midnight Protocol — Tactical/System Depth
+## 4.2. Midnight Protocol — Tactical/System dərinlik
 
-Player skill:
-- planning;
+oyunçu bacarıq:
+- planlama;
 - loadout;
 - resource allocation;
 - route;
-- action economy;
-- consequence
+- hərəkət büdcəsi;
+- nəticə
 
 üzərindədir.
 
 Üstünlük:
-- Hacknet-dən daha çox meaningful choice;
+- Hacknet-dən daha çox meaningful seçim;
 - build identity;
-- moral/reputation layer;
+- moral/reputation qat;
 - daha çox tactical mastery.
 
 Risk:
-- complexity;
-- opaque failure;
-- RNG/fairness;
-- retry/recovery friction;
+- mürəkkəblik;
+- opaque uğursuzluq;
+- RNG (təsadüfi nəticə mexanizmi) və ədalətlilik;
+- retry/recovery çətinlik;
 - keyboard overhead.
 
 ---
 
-## 4.3. Cyber Manhunt — Information/Deduction Depth
+## 4.3. Cyber Manhunt — Information/Deduction dərinlik
 
-Player skill ideal halda:
+oyunçu bacarıq ideal halda:
 - search;
 - clue interpretation;
 - relationship inference;
@@ -140,22 +140,22 @@ Player skill ideal halda:
 üzərində olmalıdır.
 
 Üstünlük:
-- technical complexity azdır;
+- technical mürəkkəblik azdır;
 - information özü reward olur;
-- story və gameplay eyni materialdan qurulur;
+- hekayə və oyun gedişi eyni materialdan qurulur;
 - real-world relevance güclüdür.
 
 Risk:
-- player özü infer etmirsə gameplay checklist-ə çevrilir;
+- oyunçu özü infer etmirsə oyun gedişi checklist-ə çevrilir;
 - scripted triggers knowledge state-i tanımır;
 - search exact routing olur;
 - clue collection UI hunt-a çevrilir.
 
 ---
 
-# 5. Repetition — üçündə də eyni fundamental problem
+# 5. təkrarçılıq — üçündə də eyni fundamental problem
 
-Repetition forması dəyişir.
+təkrarçılıq forması dəyişir.
 
 ## Hacknet
 
@@ -188,65 +188,65 @@ search
 
 ### Genre-level hypothesis
 
-> **Repetition interface-dən gəlmir. Oyunçunun verdiyi qərarın strukturu dəyişməyəndə yaranır.**
+> **təkrarçılıq interface-dən gəlmir. Oyunçunun verdiyi qərarın strukturu dəyişməyəndə yaranır.**
 
-Bu artıq üç fərqli mechanic modelində təkrarlanır.
+Bu artıq üç fərqli mexanika modelində təkrarlanır.
 
-**Confidence: High**
+**etibarlılıq: High**
 
 ---
 
-# 6. “More Depth” problemi
+# 6. “More dərinlik” problemi
 
 Araşdırma göstərir ki, sadə cavab:
 
-> “daha çox mechanic əlavə et”
+> “daha çox mexanika əlavə et”
 
 deyil.
 
-Hacknet-də az system depth repetition yaradır.
+Hacknet-də az system dərinlik təkrarçılıq yaradır.
 
-Midnight Protocol-da çox system interaction:
+Midnight Protocol-da çox system qarşılıqlı əlaqə:
 - learning cost;
-- failure opacity;
+- uğursuzluq opacity;
 - fairness risk
 
 yaradır.
 
-Cyber Manhunt-da information miqdarı çox ola bilər, amma player-in inference freedom-u azdırsa real deduction depth yaranmır.
+Cyber Manhunt-da information miqdarı çox ola bilər, amma oyunçu-in inference freedom-u azdırsa real deduction dərinlik yaranmır.
 
 ### Principle
 
-> **Depth feature sayına yox, meaningful decision density-yə görə ölçülməlidir.**
+> **dərinlik feature sayına yox, meaningful qərar density-yə görə ölçülməlidir.**
 
 Yaxşı qərar:
 - fərqli nəticələr yaradır;
-- player onu anlayır;
+- oyunçu onu anlayır;
 - əvvəlki məlumatdan istifadə edir;
 - future state-i dəyişir;
 - bir neçə mümkün approach içindən seçilir.
 
 ---
 
-# 7. Realism və Authenticity
+# 7. realizm və həqiqilik hissi
 
 Üç oyunda da eyni nəticə güclənir.
 
 ## Hacknet
 
-Full technical realism yoxdur, amma terminal vocabulary authenticity yaradır.
+Full technical realizm yoxdur, amma terminal vocabulary həqiqilik hissi yaradır.
 
 ## Midnight Protocol
 
-Developer açıq şəkildə fun-first abstraction seçib.
+yaradıcı açıq şəkildə fun-first abstraction seçib.
 
 ## Cyber Manhunt
 
-Real social/privacy patterns və human behavior authenticity yaradır.
+Real social/privacy nümunələr və human behavior həqiqilik hissi yaradır.
 
-### Cross-game principle
+### oyunlararası principle
 
-> **Full simulation vacib deyil. Selective authenticity və coherent cause/effect daha vacibdir.**
+> **Full simulation vacib deyil. seçilmiş həqiqilik hissi və ardıcıl cause/effect daha vacibdir.**
 
 Risk isə budur:
 
@@ -254,43 +254,43 @@ Risk isə budur:
 
 ---
 
-# 8. Story-nin rolu
+# 8. hekayə-nin rolu
 
-Üç oyunda story optional ornament deyil.
+Üç oyunda hekayə optional ornament deyil.
 
 ## Hacknet
 
-Story simple loop-a context və mystery verir.
+hekayə simple loop-a context və mystery verir.
 
 ## Midnight Protocol
 
-Story tactical systems və moral choices-a meaning verir.
+hekayə tactical systems və moral seçimlər-a meaning verir.
 
 ## Cyber Manhunt
 
-Story investigation data-sının özüdür.
+hekayə investigation məlumat-sının özüdür.
 
 ### Principle
 
-> **Computer-interface oyunlarında narrative delivery ilə gameplay data mümkün qədər eyni materialdan qurulanda immersion artır.**
+> **Computer-interface oyunlarında narrative delivery ilə oyun gedişi məlumat mümkün qədər eyni materialdan qurulanda oyuna dalma hissi artır.**
 
 Email, logs, profiles, messages və files:
 - lore;
 - clue;
 - objective;
-- consequence
+- nəticə
 
 funksiyalarını eyni anda daşıya bilər.
 
 ---
 
-# 9. Player Agency
+# 9. oyunçu qərar sərbəstliyi
 
 ## Hacknet
 
 Əsasən linear və scripted.
 
-Player agency daha çox:
+oyunçu qərar sərbəstliyi daha çox:
 - exploration;
 - optional files;
 - execution style
@@ -299,7 +299,7 @@ səviyyəsindədir.
 
 ## Midnight Protocol
 
-Ən güclü agency modeli:
+Ən güclü qərar sərbəstliyi modeli:
 - loadout;
 - moral direction;
 - reputation;
@@ -308,34 +308,34 @@ səviyyəsindədir.
 
 ## Cyber Manhunt
 
-High-level story choice var, amma micro-level investigation bəzən həddindən artıq scripted-dir.
+High-level hekayə seçim var, amma micro-level investigation bəzən həddindən artıq scripted-dir.
 
 ### Əsas lesson
 
-Agency iki səviyyədə ölçülməlidir:
+qərar sərbəstliyi iki səviyyədə ölçülməlidir:
 
-1. **strategic agency** — hansı nəticəni istəyirəm?
-2. **procedural agency** — ora necə çatıram?
+1. **strategic qərar sərbəstliyi** — hansı nəticəni istəyirəm?
+2. **procedural qərar sərbəstliyi** — ora necə çatıram?
 
 Midnight Protocol birincidə güclüdür.
 
-Cyber Manhunt-un əsas opportunity-si ikincidədir.
+Cyber Manhunt-un əsas imkan-si ikincidədir.
 
 ---
 
-# 10. Failure və Recovery
+# 10. uğursuzluq və Recovery
 
 ## Hacknet
 
-Failure çox vaxt explainable:
+uğursuzluq çox vaxt explainable:
 - speed;
 - timing;
 - execution.
 
 ## Midnight Protocol
 
-Failure bəzən:
-- uncertainty;
+uğursuzluq bəzən:
+- qeyri-müəyyənlik;
 - randomness;
 - wrong preparation
 
@@ -343,9 +343,9 @@ ilə bağlıdır və retry cost problemi böyüdür.
 
 ## Cyber Manhunt
 
-Failure çox vaxt “combat failure” deyil.
+uğursuzluq çox vaxt “combat uğursuzluq” deyil.
 
-Əsas failure:
+Əsas uğursuzluq:
 - stuck olmaq;
 - doğru clue-u sistemin qəbul etməməsi;
 - puzzle instruction-u başa düşməmək;
@@ -354,9 +354,9 @@ Failure çox vaxt “combat failure” deyil.
 
 ### Principle
 
-> **Failure player-a nəyi səhv düşündüyünü öyrətməlidir.**
+> **uğursuzluq oyunçu-a nəyi səhv düşündüyünü öyrətməlidir.**
 
-Investigation game üçün “stuck state” əsl failure state-dir.
+Investigation game üçün “stuck state” əsl uğursuzluq state-dir.
 
 ---
 
@@ -390,7 +390,7 @@ idarə edir.
 
 ### Principle
 
-> **Information-heavy oyunda UI complexity player cognitive load-un bir hissəsidir.**
+> **Information-heavy oyunda UI mürəkkəblik oyunçu cognitive load-un bir hissəsidir.**
 
 ---
 
@@ -402,28 +402,28 @@ Araşdırmadan hazırda ən dəyərli üç komponent görünür.
 
 - immediate fantasy;
 - organic snooping;
-- interface immersion;
+- interface oyuna dalma hissi;
 - memorable rule-breaking moments.
 
 ## Midnight Protocol-dan
 
 - meaningful preparation;
-- player identity;
-- consequence;
-- tactical choice.
+- oyunçu identity;
+- nəticə;
+- tactical seçim.
 
 ## Cyber Manhunt-dan
 
 - information graph;
-- human/social layer;
-- evidence-based discovery;
+- human/social qat;
+- dəlil-based discovery;
 - real-world relevance.
 
 Bunları sadəcə feature stack etmək düzgün deyil.
 
 Əsas sual:
 
-> **Bir dominant core loop daxilində bunların hansı minimum kombinasiyası ən yüksək decision density yaradır?**
+> **Bir dominant core loop daxilində bunların hansı minimum kombinasiyası ən yüksək qərar density yaradır?**
 
 ---
 
@@ -431,16 +431,16 @@ Bunları sadəcə feature stack etmək düzgün deyil.
 
 Hələ final idea deyil.
 
-Hazır evidence belə bir design territory-ni maraqlı göstərir:
+Hazır dəlil belə bir dizayn territory-ni maraqlı göstərir:
 
-> **Accessible digital-investigation fantasy with systemic information discovery and meaningful consequence.**
+> **Accessible digital-investigation fantasy with systemic information discovery and meaningful nəticə.**
 
 Yəni:
 
 - Hacknet qədər tez başa düşülən;
 - Midnight Protocol qədər mənalı qərar verən;
 - Cyber Manhunt qədər information-driven;
-- amma hər üçünün əsas friction-lərindən qaçan.
+- amma hər üçünün əsas çətinlik-lərindən qaçan.
 
 Potential core:
 
@@ -461,43 +461,43 @@ Bu “hack → next mission”dan daha sistemik ola bilər.
 
 ## Principle 1 — Fantasy first
 
-Player özünü kim kimi hiss edir?
+oyunçu özünü kim kimi hiss edir?
 
-## Principle 2 — Depth = meaningful decisions
+## Principle 2 — dərinlik = meaningful decisions
 
 Feature sayı metric deyil.
 
-## Principle 3 — Player knowledge real state olmalıdır
+## Principle 3 — oyunçu knowledge real state olmalıdır
 
 Investigation sistemləri exact trigger-dən asılı qalmamalıdır.
 
-## Principle 4 — Multiple routes repetition-ı azaldır
+## Principle 4 — Multiple routes təkrarçılıq-ı azaldır
 
 Eyni objective bir neçə approach ilə həll oluna bilməlidir.
 
-## Principle 5 — Failure explainable olmalıdır
+## Principle 5 — uğursuzluq explainable olmalıdır
 
 Randomness və opaque triggers mastery-ni öldürür.
 
-## Principle 6 — UI player cognition-un extension-ıdır
+## Principle 6 — UI oyunçu cognition-un extension-ıdır
 
-Information-heavy design-də xüsusilə.
+Information-heavy dizayn-də xüsusilə.
 
-## Principle 7 — Story gameplay data-sında yaşamalıdır
+## Principle 7 — hekayə oyun gedişi məlumat-sında yaşamalıdır
 
 Separate exposition minimum olmalıdır.
 
-## Principle 8 — Selective authenticity kifayətdir
+## Principle 8 — seçilmiş həqiqilik hissi kifayətdir
 
-Full realism tələb deyil.
+tam realizm tələb deyil.
 
-## Principle 9 — Consequence identity yaradır
+## Principle 9 — nəticə identity yaradır
 
 Action future state-i dəyişməlidir.
 
 ## Principle 10 — Early-session real victory lazımdır
 
-İlk 30–60 dəqiqədə player öz inference/skill-i ilə meaningful nəticə əldə etməlidir.
+İlk 30–60 dəqiqədə oyunçu öz inference/bacarıq-i ilə meaningful nəticə əldə etməlidir.
 
 ---
 
@@ -505,43 +505,43 @@ Action future state-i dəyişməlidir.
 
 | Risk | Hacknet | Midnight Protocol | Cyber Manhunt |
 |---|---|---|---|
-| Repetition | High | High | High |
-| Syntax/UI friction | Medium | High | Medium-High |
-| Complexity cliff | Low-Medium | High | Medium |
-| Opaque failure | Low | High | High |
-| Weak procedural agency | High | Medium | High |
-| Weak strategic agency | High | Lower | Medium |
-| Story dependency | High | High | High |
+| təkrarçılıq | High | High | High |
+| Syntax/UI çətinlik | Medium | High | Medium-High |
+| mürəkkəblik cliff | Low-Medium | High | Medium |
+| Opaque uğursuzluq | Low | High | High |
+| Weak procedural qərar sərbəstliyi | High | Medium | High |
+| Weak strategic qərar sərbəstliyi | High | Lower | Medium |
+| hekayə dependency | High | High | High |
 | Localization sensitivity | Medium | Medium | **Very High** |
-| Technical instability | High review impact | Medium | Medium |
-| Player knowledge not recognized | Low | Medium | **High** |
+| Technical instability | High rəy impact | Medium | Medium |
+| oyunçu knowledge not recognized | Low | Medium | **High** |
 
 ---
 
-# 16. Opportunity Map
+# 16. imkan Map
 
-| Opportunity | Evidence |
+| imkan | dəlil |
 |---|---|
-| Systemic information graph | Cyber Manhunt clue/search friction |
-| Meaningful consequence | Midnight Protocol choice/reputation |
+| Systemic information graph | Cyber Manhunt clue/search çətinlik |
+| Meaningful nəticə | Midnight Protocol seçim/reputation |
 | Organic exploration | Hacknet snooping/discovery |
-| Explainable deterministic challenge | Midnight RNG/fairness issue |
-| Multiple evidence routes | Cyber Manhunt linearity issue |
-| Hybrid low-friction interface | Hacknet/MP input friction |
-| Strong evidence workspace | Cyber Manhunt UI load |
-| Returning-player support | Hacknet command memory + complex investigation context |
-| Memorable system-breaking moments | Hacknet və Midnight positive recall |
+| Explainable deterministic çətinlik | Midnight RNG (təsadüfi nəticə mexanizmi) və ədalətlilik issue |
+| Multiple dəlil routes | Cyber Manhunt linearity issue |
+| Hybrid low-çətinlik interface | Hacknet/MP giriş üsulu çətinlik |
+| Strong dəlil workspace | Cyber Manhunt UI load |
+| Returning-oyunçu support | Hacknet command memory + complex investigation context |
+| Memorable system-breaking moments | Hacknet və Midnight müsbət recall |
 
 ---
 
-# 17. Növbəti research sualı
+# 17. Növbəti araşdırma sualı
 
-Bu üç oyun artıq hacking/interface design-in üç əsas depth istiqamətini göstərir.
+Bu üç oyun artıq hacking/interface dizayn-in üç əsas dərinlik istiqamətini göstərir.
 
 Növbəti mərhələ üçün ən informasiya dəyərli oyunlar:
 
-- **The Operator** — modern digital investigation və evidence workflow;
-- **Mainlining** — hacking + investigation + choice;
+- **The Operator** — modern digital investigation və dəlil iş axını;
+- **Mainlining** — hacking + investigation + seçim;
 - **Orwell** — information selection + ethics + surveillance.
 
 Əsas sual:
@@ -569,6 +569,6 @@ Bu cavabdan sonra genre-level principles daha etibarlı şəkildə formalaşdır
 
 # Status
 
-**Comparison:** tamamlanıb  
+**müqayisə:** tamamlanıb  
 **Games:** Hacknet + Midnight Protocol + Cyber Manhunt  
 **Növbəti:** digital-investigation reference ilə scripted-vs-systemic investigation hipotezini test etmək.
