@@ -2007,6 +2007,19 @@ Növbəti əsas Tier A target:
 
 SIMULACRA found-device / phone-interface xəttinin əsas baseline oyunudur.
 
+Artıq tamamlanıb:
+
+- ✅ Steam App ID yoxlanıb: **712730**
+- ✅ `config/games.yaml` entry əlavə olunub
+- ✅ `analysis/simulacra/research-kickoff.md`
+
+Cari mərhələ:
+
+- ⏳ Steam dataset collection
+- ⏳ verification/statistics
+- ⏳ deterministik theme artefaktları
+- ⏳ semantic audit və Tier A hesabatları
+
 Əsas araşdırma sualı:
 
 > **Desktop/browser/terminal tipli oyunlardan fərqli olaraq telefonun özünü oyun dünyasına çevirmək investigation, immersion, informasiya yaddaşı, agency və qorxu/təzyiq hissini necə dəyişir?**
@@ -2024,10 +2037,7 @@ Xüsusi müqayisə istiqamətləri:
 
 Növbəti iş:
 
-1. SIMULACRA üçün düzgün Steam App ID və məhsul məlumatını yoxla;
-2. `config/games.yaml` entry yarat;
-3. `analysis/simulacra/research-kickoff.md` hazırla;
-4. lokal dataset pipeline:
+1. lokal dataset pipeline:
 
 ```bash
 py -m src.pipeline --game simulacra
@@ -2035,8 +2045,8 @@ py -m src.verify --game simulacra
 py -m src.theme_pipeline --game simulacra
 ```
 
-5. generated artefaktları push et;
-6. sonra tam Tier A audit və hesabatlar.
+2. generated artefaktları push et;
+3. sonra tam Tier A audit və hesabatlar.
 
 Mainlining-dən çıxan yeni cross-game principle:
 
