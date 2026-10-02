@@ -25,7 +25,7 @@ Oyun real dəyər yaradır:
 Amma bu dəyər aşağıdakılarla zəifləyir:
 - sərt xətti irəliləyiş;
 - ipucu və dəlilin sistem tərəfindən qəbulu problemləri;
-- lokallaşdırma və yazı açarfiyyəti;
+- lokallaşdırma və yazı keyfiyyəti;
 - UI istifadəsində çətinlik;
 - təkrarlanan məlumat iş axını;
 - bəzi birdəfəlik mini-oyunlarda aydınlıq və vaxtlama problemi.
@@ -44,9 +44,9 @@ Amma bu dəyər aşağıdakılarla zəifləyir:
 
 ---
 
-# 1. Araşdırmanın əhatəsi və məlumat açarfiyyəti
+# 1. Araşdırmanın əhatəsi və məlumat keyfiyyəti
 
-məlumat toplusunun kəsimi: **2026-10-02**
+Məlumat toplusunun kəsimi: **2026-10-02**
 
 - xam rəylər: 847
 - təkrarsız rəylər: 847
@@ -86,7 +86,7 @@ Bu Cyber Manhunt-u Hacknet və Midnight Protocol-dan ayırır:
 ```text
 Hacknet → özünü haker kimi hiss etmə
 Midnight Protocol → tactical özünü haker kimi hiss etmə
-Cyber Manhunt → rəqəmsal araşdırmaçı və sosial/kiber müşahidəçi fantasy
+Cyber Manhunt → rəqəmsal araşdırmaçı və sosial/kiber müşahidəçi rol hissi
 ```
 
 ---
@@ -124,7 +124,7 @@ Cyber Manhunt-un əsas rol hissidir:
 
 > **“Mən rəqəmsal izlərdən insanların kim olduğunu və nə baş verdiyini çıxara bilirəm.”**
 
-Bu fantasy üç hissədən yaranır.
+Bu rol hissi üç hissədən yaranır.
 
 ## 4.1. Məlumat üstünlüyü
 
@@ -150,7 +150,7 @@ Bu Hacknet-in fayl sistemi curiosity-sini daha social direction-a aparır.
 
 Əsas ilkin cəlbedici amillər:
 
-- Orwell tipli araşdırma fantasy;
+- Orwell tipli araşdırma rol hissi;
 - hacker/detective premise;
 - computer desktop interfeys;
 - real həyatdakı məxfilik və cyber themes;
@@ -171,7 +171,7 @@ kimi hiss olunursa, disappointment çox tez yaranır.
 
 # 6. İnsanlar niyə davam edir?
 
-10h+ cohort-da müsbət rəy nisbəti **90.72%**-dir.
+10h+ qrup-da müsbət rəy nisbəti **90.72%**-dir.
 
 Bu causation deyil, amma uzun oynayan audience-in nəyi dəyərləndirdiyini nümunə-lar göstərir:
 
@@ -287,7 +287,7 @@ LINEARITY_SCRIPTING namizəd-lərində:
 - **55.88% mənfi**
 - məlumat toplusu baseline-dan **2.85×** yüksək mənfi concentration.
 
-Bu ən güclü dizayn risk-lərdən biridir.
+Bu ən güclü dizayn risklərdən biridir.
 
 Investigation game-də oyunçu iki state daşıyır:
 
@@ -353,7 +353,7 @@ INFORMATION_SEARCH:
 - 93 mentions
 - **30.11% mənfi**
 
-Core fantasy güclüdür.
+Core rol hissi güclüdür.
 
 Problem search engine-in çox deterministic olmasıdır.
 
@@ -605,7 +605,7 @@ Amma bəzi mənfi rəylər:
 
 | Intent | Outcome |
 |---|---|
-| Real-world social resonance | Güclü concept, amma ingilis dili writing açarfiyyəti təsiri azalda bilir |
+| Real-world social resonance | Güclü concept, amma ingilis dili writing keyfiyyəti təsiri azalda bilir |
 | Accessible cyber-araşdırma | əlçatanlıq yüksəkdir, amma bəzi oyunçu üçün dərinlik çox scripted-dir |
 | Social-engineering həqiqilik hissi | mövzu güclüdür, mexanika dərinlik mixed-dir |
 | hekayə-driven puzzle | hekayə oyunda qalma yaradır, puzzle aydınlıq inconsistent-dir |
@@ -615,7 +615,7 @@ Amma bəzi mənfi rəylər:
 
 # 21. Əsas uğur faktorları
 
-## 21.1. Güclü və fərqli fantasy
+## 21.1. Güclü və fərqli rol hissi
 
 “İnsanların rəqəmsal həyatını araşdırmaq” dərhal başa düşülür.
 
@@ -637,7 +637,7 @@ oyunçu peşəkar technical knowledge olmadan oynaya bilir.
 
 ---
 
-# 22. Əsas uğursuzluq nümunə-lər
+# 22. Əsas uğursuzluq nümunələr
 
 1. **Scripted progression oyunçu knowledge-i tanımır.**
 2. **Localization/writing text-heavy oyun gedişi-i birbaşa zəiflədir.**
@@ -735,7 +735,7 @@ Hər üçündə eyni problem başqa formada görünür:
 ```text
 repeated cognitive task
 → pattern becomes visible
-→ fantasy weakens
+→ rol hissi weakens
 ```
 
 Bu artıq genre-level dizayn principle üçün güclü dəlil-dir.
@@ -746,14 +746,14 @@ Bu artıq genre-level dizayn principle üçün güclü dəlil-dir.
 
 Amma bu feature stacking kimi edilməməlidir.
 
-Core dizayn əvvəlcə bir əsas fantasy və bir əsas qərar loop ətrafında qurulmalıdır.
+Core dizayn əvvəlcə bir əsas rol hissi və bir əsas qərar loop ətrafında qurulmalıdır.
 
 ---
 
 # 26. Açıq suallar
 
 1. Cyber Manhunt 2 original-dakı linearity və dəlil-state problemlərini nə qədər həll edib?
-2. Original-da ingilis dili localization improvement patch-ləri rəy cohort-larında ölçülə bilərmi?
+2. Original-da ingilis dili localization improvement patch-ləri rəy qrup-larında ölçülə bilərmi?
 3. The Operator eyni məlumat-driven loop-u daha az scripted hiss etdirirmi?
 4. Orwell daha az mexanika ilə daha güclü məntiqi nəticə çıxarma/ethical tension yaradırmı?
 5. Mainlining məlumat-search və hakerlik arasında necə balans qurur?
