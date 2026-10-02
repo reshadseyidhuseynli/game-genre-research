@@ -357,6 +357,105 @@ Araşdırılan sual:
 
 ---
 
+
+## 8.4. Research depth plan — source of truth
+
+Bütün oyunlar eyni dərinlikdə araşdırılmayacaq. Research vaxtını və evidence keyfiyyətini balanslamaq üçün oyunlar üç tier-ə bölünür.
+
+### Tier A — Full Deep Research
+
+Bu oyunlar final genre conclusions üçün əsas evidence bazasını təşkil edir. Hər biri üçün mümkün qədər:
+
+- full Steam review dataset;
+- verification;
+- deterministic statistics;
+- theme/aspect scan;
+- semantic audit;
+- external research;
+- developer intent;
+- professional/community sources;
+- `analysis/<game>/deep-research.md`
+
+hazırlanmalıdır.
+
+| Oyun | Səbəb | Status |
+|---|---|---|
+| Hacknet | Terminal/hacker fantasy və accessibility baseline | **Tamamlanıb** |
+| Midnight Protocol | Tactical/system-depth contrast | **Tamamlanıb** |
+| Cyber Manhunt | Information/deduction və social-engineering modeli | **Tamamlanıb** |
+| The Operator | Focused evidence-analysis və modern investigation UX | **Növbəti** |
+| Orwell: Keeping an Eye On You | Surveillance, information selection, ethics | Not started |
+| Mainlining | Hacking + investigation + choice; underperforming comparator | Not started |
+| SIMULACRA | Found-device/phone investigation baseline | Not started |
+| SIMULACRA 3 | Eyni franchise daxilində weaker outcome comparison | Not started |
+
+Tier A siyahısı research-in əsas məcburi oyun setidir. Oyun yalnız ciddi data-access problemi və ya scope dəyişməsi səbəbilə çıxarıla bilər; səbəb master brief-də qeyd edilməlidir.
+
+### Tier B — Focused Comparative Research
+
+Bu oyunlara full deep research yalnız əlavə evidence lazım olarsa tətbiq edilir. Default metod:
+
+- product/market snapshot;
+- store positioning;
+- targeted Steam review sample və ya kiçik dataset;
+- əsas positive/negative pattern-lər;
+- relevant developer/professional/community source-lar;
+- mövcud Tier A hipotezlərini test edən qısa focused report.
+
+| Oyun | Əsas research rolu |
+|---|---|
+| Cyber Manhunt 2 | Original-dakı localization/linearity problemlərinin sequel-də necə dəyişdiyini yoxlamaq |
+| Need to Know | Orwell üçün weaker surveillance/bureaucracy comparator |
+| Song of Farca | Remote investigation, surveillance və dialogue/choice |
+| Grey Hack | Simulation-heavy hacking və realism/accessibility ekstremi |
+| NITE Team 4 | Daha professional/realistic cyber-operation fantasy |
+| Hypnospace Outlaw | Fictional internet, exploration və information archaeology |
+| CaseCracker | Case-solving, clue relationship və deduction structure |
+| Welcome to the Game II | Browser/interface fantasy, pressure və systemic threat |
+
+Tier B oyunu gözlənilmədən çox vacib yeni pattern göstərərsə **Tier A-ya yüksəldilə bilər**.
+
+### Tier C — Quick Reference / Context
+
+Bu oyunlar əsas evidence bazası deyil. Onlardan konkret sualı cavablandırmaq, market/context nümunəsi vermək və ya müəyyən mechanic-i yoxlamaq üçün istifadə olunur.
+
+- SIMULACRA 2
+- CaseCracker2
+- Emily is Away seriyası
+- Scrutinized
+- hackmud
+- A Normal Lost Phone
+- Another Lost Phone: Laura’s Story
+- NeuroNet: Mendax Proxy
+- Keyword: A Spider’s Thread
+- Tech Support: Error Unknown
+- Welcome to the Game (birinci oyun, lazım olduqda sequel context üçün)
+
+Quick-reference research adətən:
+- store/market snapshot;
+- 10–30 yüksək-informasiya review;
+- 1–3 external source;
+- konkret research sualına qısa qeyd
+
+ilə məhdudlaşır.
+
+### Tier dəyişmə qaydası
+
+Tier-lər tam sərt deyil, amma özbaşına dəyişdirilməməlidir.
+
+Oyun yalnız bu hallarda yuxarı tier-ə qaldırılır:
+1. mövcud genre principle-i ciddi şəkildə təkzib edir;
+2. əvvəl görmədiyimiz yeni player fantasy və ya failure mode göstərir;
+3. əsas comparison üçün boşluğu doldurur;
+4. final opportunity/risk qərarını material şəkildə dəyişə bilər.
+
+Oyun aşağı tier-ə yalnız:
+- data əlçatmazdır;
+- digər oyunla demək olar eyni evidence verir;
+- research saturation artıq həmin sualı kifayət qədər cavablandırıb
+
+hallarında keçirilə bilər.
+
 # 9. Araşdırma metodu — hər oyun üçün addımlar
 
 Hər oyun mümkün qədər eyni metodla araşdırılmalıdır ki, sonradan müqayisə mənalı olsun.
@@ -1356,6 +1455,66 @@ Bundan sonra ideya generation/selection ayrıca mərhələ kimi başlayır.
 
 ---
 
+
+## 16.1. Praktik stop condition — araşdırmanı nə vaxt dayandırırıq?
+
+Definition of Done yalnız “bütün siyahını oxuduq” demək deyil. Research aşağıdakı dörd şərt birlikdə ödənəndə bağlanır:
+
+### A. Məcburi coverage
+
+- bütün **Tier A** oyunları tamamlanıb və ya çıxarılma səbəbi sənədləşdirilib;
+- terminal/hacking, digital investigation, surveillance/information-selection və found-device/interface istiqamətlərinin hər birində ən azı bir güclü reference və bir contrast nümunəsi var.
+
+### B. Məcburi comparison-lar
+
+Minimum aşağıdakı comparison-lar olmalıdır:
+
+- Hacknet vs Midnight Protocol — **tamamlanıb**;
+- Cyber Manhunt vs The Operator — planned;
+- Cyber Manhunt vs Mainlining — planned;
+- Orwell vs Need to Know — planned;
+- SIMULACRA vs SIMULACRA 3 — planned.
+
+Lazım olduqda 3+ oyunlu thematic comparison-lar ayrıca hazırlanır.
+
+### C. Research saturation
+
+Son 2–3 yeni deep/focused oyun:
+- yeni major player fantasy;
+- yeni recurring failure mode;
+- final design principles-i ciddi dəyişən yeni evidence
+
+gətirmirsə və əsas nəticələr təkrar təsdiqlənirsə, əlavə oyunların marginal research value-su aşağı sayılır.
+
+Bu nöqtədən sonra yeni oyun əlavə etmək əvəzinə synthesis və decision-support sənədlərinə keçilir.
+
+### D. Final decision-support package
+
+Aşağıdakı final fayllar hazır olmadan research bitmiş sayılmır:
+
+```text
+analysis/final/
+├── market-landscape.md
+├── genre-synthesis.md
+├── design-principles.md
+├── opportunity-map.md
+├── risk-register.md
+├── concept-evaluation-framework.md
+└── executive-genre-research-report.md
+```
+
+Bu faylların rolu:
+
+- `market-landscape.md` — bazar/subgenre xəritəsi və representative games;
+- `genre-synthesis.md` — cross-game recurring pattern-lər;
+- `design-principles.md` — evidence-backed design qaydaları;
+- `opportunity-map.md` — həll olunmamış player/product opportunity-ləri;
+- `risk-register.md` — yeni concept üçün əsas risklər və validation üsulları;
+- `concept-evaluation-framework.md` — sonradan yaradılan ideyaları müqayisə etmək üçün rubric;
+- `executive-genre-research-report.md` — rəhbərliyə təqdim ediləcək əsas professional report.
+
+**Yeni oyun ideyasının yaradılması research Definition of Done-a daxil deyil.** Idea generation bu package tamamlandıqdan sonra ayrıca product-discovery mərhələsidir.
+
 # 17. Cari vəziyyət — 2026-10-02
 
 ## Tamamlanan
@@ -1523,6 +1682,73 @@ Tamamlanıb:
 Cyber Manhunt üçün v3 taxonomy ilə deterministik theme output-ların lokal pipeline vasitəsilə generasiyası hələ push edilməlidir.
 
 ---
+
+
+## 17.1. Hazır faylların mərkəzləşdirilmiş inventory-si
+
+Bu bölmə yeni sessiyada “nə hazırdır?” sualının source of truth-udur.
+
+### Project / methodology
+
+- ✅ `RESEARCH_MASTER_BRIEF.md`
+- ✅ `AGENTS.md`
+- ✅ `README.md`
+- ✅ `config/games.yaml`
+- ✅ `config/theme_taxonomy.yaml`
+- ✅ `config/aspect_taxonomy.yaml`
+
+### Hacknet — complete
+
+- ✅ `data/reports/hacknet/summary.md`
+- ✅ `data/reports/hacknet/theme-candidates.md`
+- ✅ `data/processed/hacknet/themes/statistics.json`
+- ✅ `analysis/hacknet/theme-analysis.md`
+- ✅ `analysis/hacknet/deep-research.md`
+
+### Midnight Protocol — complete
+
+- ✅ `data/reports/midnight-protocol/summary.md`
+- ✅ `data/reports/midnight-protocol/theme-candidates.md`
+- ✅ `data/processed/midnight-protocol/themes/statistics.json`
+- ✅ `analysis/midnight-protocol/theme-analysis.md`
+- ✅ `analysis/midnight-protocol/deep-research.md`
+- ℹ️ `analysis/midnight-protocol/research-kickoff.md` — historical planning context, superseded
+
+### Cyber Manhunt — complete
+
+- ✅ `data/reports/cyber-manhunt/summary.md`
+- ✅ `data/reports/cyber-manhunt/theme-candidates.md`
+- ✅ `data/processed/cyber-manhunt/themes/statistics.json`
+- ✅ `analysis/cyber-manhunt/theme-analysis.md`
+- ✅ `analysis/cyber-manhunt/deep-research.md`
+- ℹ️ `analysis/cyber-manhunt/research-kickoff.md` — historical planning context, superseded
+
+### Completed comparisons
+
+- ✅ `analysis/comparisons/hacknet-vs-midnight-protocol.md`
+- ✅ `analysis/comparisons/hacknet-midnight-protocol-cyber-manhunt.md`
+
+### The Operator — current target
+
+- ✅ `analysis/the-operator/research-kickoff.md`
+- ⏳ Steam dataset — pending
+- ⏳ theme analysis — pending
+- ⏳ deep research — pending
+- ⏳ Cyber Manhunt vs The Operator comparison — pending
+
+### Final package
+
+Hazırda yaradılmayıb:
+
+- ⏳ `analysis/final/market-landscape.md`
+- ⏳ `analysis/final/genre-synthesis.md`
+- ⏳ `analysis/final/design-principles.md`
+- ⏳ `analysis/final/opportunity-map.md`
+- ⏳ `analysis/final/risk-register.md`
+- ⏳ `analysis/final/concept-evaluation-framework.md`
+- ⏳ `analysis/final/executive-genre-research-report.md`
+
+Bu inventory hər major milestone-dan sonra yenilənməlidir.
 
 # 18. Hazırkı növbəti addım
 
