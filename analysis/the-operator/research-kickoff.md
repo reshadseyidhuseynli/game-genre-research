@@ -2,7 +2,15 @@
 
 ## Status
 
-Bu sənəd The Operator üçün Steam dataset toplanmazdan əvvəl research istiqamətini müəyyən edir.
+Bu sənəd The Operator dataset-dən əvvəl hazırlanmış kickoff sənədidir və historical planning context kimi saxlanılır.
+
+Research artıq tamamlanıb. Cari nəticələr üçün:
+
+- `analysis/the-operator/deep-research.md`
+- `analysis/the-operator/theme-analysis.md`
+- `analysis/comparisons/cyber-manhunt-vs-the-operator.md`
+
+istifadə olunmalıdır.
 
 ## Niyə növbəti target budur?
 
@@ -102,4 +110,4 @@ name: The Operator
 steam_app_id: 1771980
 ```
 
-Növbəti mərhələ verified Steam review dataset collection-dır.
+Verified dataset sonradan toplanıb: **3,781 review**. Kickoff hipotezləri final research-də test edilib və bu sənəd artıq source of truth deyil.
