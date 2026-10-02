@@ -1,10 +1,10 @@
-# Orwell: Keeping an Eye On You — Research Kickoff
+# Orwell: Keeping an Eye On You — araşdırma Kickoff
 
 ## Status
 
-Bu sənəd Orwell dataset-dən əvvəl hazırlanmış kickoff sənədidir və historical planning context kimi saxlanılır.
+Bu sənəd Orwell məlumat toplusu-dən əvvəl hazırlanmış kickoff sənədidir və historical planlama context kimi saxlanılır.
 
-Research artıq tamamlanıb. Cari source of truth:
+araşdırma artıq tamamlanıb. Cari source of truth:
 
 - `analysis/orwell/deep-research.md`
 - `analysis/orwell/theme-analysis.md`
@@ -13,35 +13,35 @@ Need to Know focused comparator ayrıca növbəti mərhələdir.
 
 ## Niyə növbəti Tier A target budur?
 
-Hacknet, Midnight Protocol, Cyber Manhunt və The Operator birlikdə artıq üç əsas depth modelini göstərdi:
+Hacknet, Midnight Protocol, Cyber Manhunt və The Operator birlikdə artıq üç əsas dərinlik modelini göstərdi:
 
-- execution/terminal depth;
-- tactical/system depth;
-- information/deduction depth.
+- execution/terminal dərinlik;
+- tactical/system dərinlik;
+- information/deduction dərinlik.
 
 Orwell növbəti vacib sualı test edir:
 
-> **Investigation depth yalnız məlumatı tapmaqdan yox, hansı məlumatı sistemə vermək və onun consequence-nı qəbul etməkdən yarana bilərmi?**
+> **Investigation dərinlik yalnız məlumatı tapmaqdan yox, hansı məlumatı sistemə vermək və onun nəticə-nı qəbul etməkdən yarana bilərmi?**
 
 Bu surveillance/information-selection xəttidir.
 
-## Product snapshot
+## məhsul snapshot
 
 Steam App ID: **491950**
 
 - Name: Orwell: Keeping an Eye On You
-- Developer: Osmotic Studios
+- yaradıcı: Osmotic Studios
 - Publisher: Daedalic Entertainment
 - Release: 27 October 2016
-- Single-player
-- Store positioning: investigation, surveillance, choices/consequences, dystopian narrative.
-- Current public Steam English review display: təxminən **90% positive**.
+- Single-oyunçu
+- mağaza positioning: investigation, surveillance, seçimlər/nəticələr, dystopian narrative.
+- Current public Steam English rəy display: təxminən **90% müsbət**.
 
 Official premise:
 
-Player governmental security system daxilində citizen-lərin public və private digital data-sını araşdırır. Vacib design twist budur ki, bütün tapılan məlumat avtomatik istifadə edilmir; player hansı information-un security forces-a ötürüləcəyinə qərar verir və bu seçimlərin nəticələri olur.
+oyunçu governmental security system daxilində citizen-lərin public və private digital məlumat-sını araşdırır. Vacib dizayn twist budur ki, bütün tapılan məlumat avtomatik istifadə edilmir; oyunçu hansı information-un security forces-a ötürüləcəyinə qərar verir və bu seçimlərin nəticələri olur.
 
-## Niyə research üçün dəyərlidir?
+## Niyə araşdırma üçün dəyərlidir?
 
 Cyber Manhunt və The Operator əsasən:
 
@@ -53,28 +53,28 @@ Orwell isə əlavə edir:
 
 > **“Tapdığım məlumatdan hansını təqdim etməliyəm?”**
 
-Bu information selection-ı gameplay decision-a çevirir.
+Bu information selection-ı oyun gedişi qərar-a çevirir.
 
 Beləliklə investigation loop:
 
-information discovery → interpretation → selection → consequence
+information discovery → interpretation → selection → nəticə
 
 modelinə keçir.
 
-## Əsas research sualları
+## Əsas araşdırma sualları
 
-1. Information selection real player agency yaradırmı?
-2. Player bir data point-in context-dən çıxarıla biləcəyini hiss edirmi?
+1. Information selection real oyunçu qərar sərbəstliyi yaradırmı?
+2. oyunçu bir məlumat point-in context-dən çıxarıla biləcəyini hiss edirmi?
 3. Contradictory information necə idarə olunur?
-4. Consequence kifayət qədər görünəndirmi?
-5. Ethical tension gameplay-dən doğur, yoxsa yalnız narrative mesaj kimi qalır?
-6. Player information-u gizlətmək və ya ötürmək arasında meaningful trade-off görürmü?
-7. Search/research hissəsi Cyber Manhunt qədər scripted görünürmü?
-8. Evidence interface player knowledge-i yaxşı idarə edirmi?
+4. nəticə kifayət qədər görünəndirmi?
+5. Ethical tension oyun gedişi-dən doğur, yoxsa yalnız narrative mesaj kimi qalır?
+6. oyunçu information-u gizlətmək və ya ötürmək arasında meaningful trade-off görürmü?
+7. Search/araşdırma hissəsi Cyber Manhunt qədər scripted görünürmü?
+8. dəlil interface oyunçu knowledge-i yaxşı idarə edirmi?
 9. Reading load nə qədər yüksəkdir?
-10. Repetition information-selection loop-da necə yaranır?
-11. Choice-lar ending və character outcomes-a real təsir edirmi?
-12. Game player-a “correct moral answer” diktə edir, yoxsa ambiguity saxlayır?
+10. təkrarçılıq information-selection loop-da necə yaranır?
+11. seçim-lar ending və character outcomes-a real təsir edirmi?
+12. Game oyunçu-a “correct moral answer” diktə edir, yoxsa ambiguity saxlayır?
 
 ## Cyber Manhunt / The Operator ilə ilkin contrast
 
@@ -83,17 +83,17 @@ Cyber Manhunt:
 - sərt clue/progression riski.
 
 The Operator:
-- focused evidence;
-- yüksək clarity;
-- weak procedural/narrative agency riski.
+- focused dəlil;
+- yüksək aydınlıq;
+- weak procedural/narrative qərar sərbəstliyi riski.
 
 Orwell üçün əsas test:
 
-> focused data selection + consequence player-a daha çox real agency verirmi?
+> focused məlumat selection + nəticə oyunçu-a daha çox real qərar sərbəstliyi verirmi?
 
 ## Yeni aspect ehtimalları
 
-Dataset tələb edərsə aşağıdakı aspect-lər ayrıca genişləndirilə bilər:
+məlumat toplusu tələb edərsə aşağıdakı aspect-lər ayrıca genişləndirilə bilər:
 
 - INFORMATION_SELECTION
 - CONTEXT_AMBIGUITY
@@ -103,11 +103,11 @@ Dataset tələb edərsə aşağıdakı aspect-lər ayrıca genişləndirilə bil
 - READING_LOAD
 - MORAL_AMBIGUITY
 
-Bunlar review sample audit-dən əvvəl final taxonomy-yə əlavə edilməməlidir.
+Bunlar rəy nümunə yoxlama-dən əvvəl final taxonomy-yə əlavə edilməməlidir.
 
 ## Public source
 
-Steam Store:  
+Steam mağaza:  
 https://store.steampowered.com/app/491950/
 
 ## Növbəti addım
@@ -118,4 +118,4 @@ Config repository-yə əlavə olunub:
     name: Orwell: Keeping an Eye On You
     steam_app_id: 491950
 
-Verified dataset sonradan toplanıb: **8,549 review**. Kickoff hipotezləri final research-də test edilib və bu sənəd artıq source of truth deyil.
+Verified məlumat toplusu sonradan toplanıb: **8,549 rəy**. Kickoff hipotezləri final araşdırma-də test edilib və bu sənəd artıq source of truth deyil.
