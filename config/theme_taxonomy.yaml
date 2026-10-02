@@ -1,4 +1,4 @@
-version: 4
+version: 5
 description: >
   Computer-interface / hacking / digital-investigation oyunları üçün deterministik theme-candidate retrieval taxonomy.
   Bu qaydalar final semantic classification deyil; review-ləri sonrakı aspect analysis
@@ -483,3 +483,100 @@ themes:
       - '\blisten to\b'
       - '\bcutscenes?\b'
       - '\bblack screen\b'
+
+
+  INFORMATION_SELECTION:
+    label_az: Məlumat seçimi və ötürülməsi
+    patterns:
+      - '\bsubmit(?:ted|ting)? (?:the )?(?:data|information|info)\b'
+      - '\bupload(?:ed|ing)? (?:the )?(?:data|information|info)\b'
+      - '\bfeed(?:ing)? (?:the )?(?:data|information|info)\b'
+      - '\bwithhold(?:ing|held)?\b'
+      - '\bhold back\b'
+      - '\brelevant (?:data|information|info)\b'
+
+  PRIVACY_SURVEILLANCE:
+    label_az: Privacy və surveillance
+    patterns:
+      - '\bprivacy\b'
+      - '\bsurveillance\b'
+      - '\bbig brother\b'
+      - '\bprivate (?:messages?|files?|data|information)\b'
+      - '\bspying\b'
+      - '\bsnoop(?:ing)?\b'
+      - '\bpersonal data\b'
+      - '\bmass surveillance\b'
+
+  CONSEQUENCE_VISIBILITY:
+    label_az: Seçim nəticələrinin görünməsi
+    patterns:
+      - '\bconsequences?\b'
+      - '\bchoices? matter\b'
+      - '\bchoices? don.t matter\b'
+      - '\bdifferent outcomes?\b'
+      - '\baffect(?:s|ed|ing)? (?:the )?(?:story|outcome|ending|people|characters)\b'
+
+  CONTRADICTORY_EVIDENCE:
+    label_az: Ziddiyyətli və etibarsız evidence
+    patterns:
+      - '\bcontradict(?:ion|ory|ing|ed)\b'
+      - '\bconflicting (?:data|information|info|evidence)\b'
+      - '\binconsistent\b'
+      - '\bdiscrepanc(?:y|ies)\b'
+      - '\bwrong information\b'
+      - '\bfalse information\b'
+      - '\bmisinformation\b'
+
+  INFORMATION_IRREVERSIBILITY:
+    label_az: Məlumat qərarının geri dönməzliyi
+    patterns:
+      - '\bcan.t (?:take|undo|remove|retract)\b'
+      - '\bcannot (?:take|undo|remove|retract)\b'
+      - '\bno (?:way to )?(?:undo|remove|retract)\b'
+      - '\bonce (?:you )?(?:upload|submit|send)\b'
+      - '\birreversible\b'
+      - '\bno going back\b'
+
+  READING_LOAD:
+    label_az: Oxu yükü
+    patterns:
+      - '\btoo much reading\b'
+      - '\ba lot of reading\b'
+      - '\bmostly reading\b'
+      - '\breading simulator\b'
+      - '\bread(?:ing)? through\b'
+      - '\bwall of text\b'
+      - '\btext[- ]heavy\b'
+      - '\bresearch paper\b'
+
+  MORAL_AMBIGUITY:
+    label_az: Moral ambiguity və etik dilemma
+    patterns:
+      - '\bmoral(?:s|ity|ly)?\b'
+      - '\bethic(?:s|al|ally)?\b'
+      - '\bconscience\b'
+      - '\bright (?:or|and) wrong\b'
+      - '\bgrey area\b'
+      - '\bgray area\b'
+      - '\bdilemma\b'
+      - '\bpolitical agenda\b'
+      - '\bpreach(?:y|ing)?\b'
+
+  AUTO_HIGHLIGHTING:
+    label_az: Avtomatik highlight və clue yönləndirməsi
+    patterns:
+      - '\bhighlight(?:ed|ing|s)?\b'
+      - '\bpre[- ]?highlighted\b'
+      - '\byellow (?:text|highlight)\b'
+      - '\bmarked (?:text|information|info)\b'
+
+  INTERPRETATION_GUIDANCE:
+    label_az: NPC/system tərəfindən interpretasiya yönləndirməsi
+    patterns:
+      - '\badvisor\b'
+      - '\bhandler\b'
+      - '\bsupervisor\b'
+      - '\btells? you what to\b'
+      - '\btells? you exactly\b'
+      - '\bspoon[- ]?fed\b'
+      - '\bspoonfeeding\b'
