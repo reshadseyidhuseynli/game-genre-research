@@ -1446,45 +1446,80 @@ Hacknet üzrə əsas per-game research mərhələsi tamamlanıb:
 
 Hacknet nəticələri artıq növbəti oyun üzərində test edilməlidir.
 
-### Midnight Protocol kickoff
+### Midnight Protocol deep research
 
-Növbəti comparison target repository config-ə əlavə olunub:
+Midnight Protocol üzrə əsas research mərhələsi tamamlanıb:
 
-- key: `midnight-protocol`
-- Steam App ID: `1162700`
+- verified Steam dataset: **301 English review**
+- positive: **253**
+- negative: **48**
+- `analysis/midnight-protocol/theme-analysis.md`
+- `analysis/midnight-protocol/deep-research.md`
 
-İlkin external research:
+Bütün 48 negative review semantic audit edilib. Əsas nəticələr:
 
-`analysis/midnight-protocol/research-kickoff.md`
+- turn-based tactical model Hacknet-dən daha çox decision depth yaradır;
+- RNG/fairness və retry/rollback əsas failure driver-ləridir;
+- 1–3h cohort xüsusi risk nöqtəsidir;
+- keyboard-only control həm immersion driver, həm UX friction-dır;
+- choice/reputation Hacknet-də zəif olan player agency/consequence problemini xeyli yaxşı həll edir;
+- selective authenticity prinsipi ikinci oyunda da təsdiqlənir.
 
-Developer intent, keyboard-only design, turn-based hacking, onboarding, RNG/failure və Hacknet comparison hipotezləri sənədləşdirilib.
+### Hacknet vs Midnight Protocol
 
-Steam review dataset hələ toplanmayıb.
+Comparison tamamlanıb:
+
+`analysis/comparisons/hacknet-vs-midnight-protocol.md`
+
+Əsas cross-game tension:
+
+```text
+Hacknet:
+fast fantasy payoff
+→ simple loop
+→ repetition risk
+
+Midnight Protocol:
+deeper decision model
+→ higher system/cognitive load
+→ fairness + recovery + friction risk
+```
+
+### Cyber Manhunt kickoff
+
+Növbəti target config-ə əlavə olunub:
+
+- key: `cyber-manhunt`
+- Steam App ID: `1216710`
+
+İlkin research:
+
+`analysis/cyber-manhunt/research-kickoff.md`
+
+Bu mərhələ terminal hacking nəticələrini digital investigation, social engineering, privacy və information-deduction gameplay-də test edəcək.
 
 ---
 
 # 18. Hazırkı növbəti addım
 
-**Midnight Protocol Steam dataset collection və verification.**
+**Cyber Manhunt Steam dataset collection və verification.**
 
-Hazırda Hacknet research milestone-u tamamlanıb.
+Hacknet və Midnight Protocol per-game research və onların comparison-u tamamlanıb.
 
 Növbəti addımlar:
 
-1. `python -m src.pipeline --game midnight-protocol` ilə Steam metadata və English review dataset topla;
+1. `python -m src.pipeline --game cyber-manhunt` ilə English Steam dataset topla;
 2. verification uğurla tamamlanmalıdır;
 3. generated raw/processed/report fayllarını repository-yə push et;
-4. basic statistics-i oxu;
-5. Midnight Protocol üçün theme candidate scan işə sal;
-6. semantic audit apar;
-7. `analysis/midnight-protocol/deep-research.md` hazırla;
-8. sonra `analysis/comparisons/hacknet-vs-midnight-protocol.md` yarat.
+4. basic statistics və helpful/recent/low/high samples-i audit et;
+5. Cyber Manhunt-specific taxonomy-ni yalnız data tələb etdikdən sonra genişləndir;
+6. full candidate scan və semantic audit apar;
+7. `analysis/cyber-manhunt/deep-research.md` hazırla;
+8. nəticələri Hacknet/Midnight Protocol ilə digital-investigation səviyyəsində müqayisə et.
 
-İlkin external research artıq:
+İlkin brief:
 
-`analysis/midnight-protocol/research-kickoff.md`
-
-faylındadır.
+`analysis/cyber-manhunt/research-kickoff.md`
 
 ---
 
