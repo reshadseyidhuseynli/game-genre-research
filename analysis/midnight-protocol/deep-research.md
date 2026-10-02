@@ -2,16 +2,16 @@
 
 ## Rəhbərlik üçün xülasə
 
-Midnight Protocol terminal və hakerlik janrında Hacknet-dən fərqli bir problem həll etməyə çalışır: hacking-i sürətli əmrlərin icrası kimi yox, **növbə əsaslı taktiki qərar sistemi** kimi təqdim edir.
+Midnight Protocol terminal və hakerlik janrında Hacknet-dən fərqli bir problem həll etməyə çalışır: hakerlik-i sürətli əmrlərin icrası kimi yox, **növbə əsaslı taktiki qərar sistemi** kimi təqdim edir.
 
 Oyun bunu üç əsas qatı birləşdirərək edir:
 
 ```text
-hacker fantasy
+özünü haker kimi hiss etmə
 +
-turn-based tactical network gameplay
+növbə əsaslı taktiki şəbəkə oyun gedişi
 +
-story / moral choice / nüfuz
+hekayə / etik seçim / nüfuz
 ```
 
 Yoxlanmış Steam məlumat toplusu:
@@ -23,7 +23,7 @@ Yoxlanmış Steam məlumat toplusu:
 
 Əsas nəticə:
 
-> **Midnight Protocol Hacknet-in dayaz “alət = key” probleminə real mexaniki dərinlik əlavə edir, amma bunun əvəzində RNG (təsadüfi nəticə mexanizmi) və ədalətlilik, yenidən cəhd/bərpa, alət dəstinin qeyri-müəyyənliyi, yalnız klaviatura ilə idarəetmənin yaratdığı çətinlik və təlim hissəsindən sonrakı mürəkkəblik problemləri yaradır.**
+> **Midnight Protocol Hacknet-in dayaz “alət = açar” probleminə real mexaniki dərinlik əlavə edir, amma bunun əvəzində RNG (təsadüfi nəticə mexanizmi) və ədalətlilik, yenidən cəhd/bərpa, alət dəstinin qeyri-müəyyənliyi, yalnız klaviatura ilə idarəetmənin yaratdığı çətinlik və təlim hissəsindən sonrakı mürəkkəblik problemləri yaradır.**
 
 Oyunun ən güclü tərəfləri:
 
@@ -42,7 +42,7 @@ Oyunun ən güclü tərəfləri:
 - geri qaytarma/yenidən cəhd modelinin bunu daha ağrılı etməsi;
 - izlənmə sayğacı və gediş limitlərinin sınaq aparma ilə toqquşması;
 - yalnız klaviatura ilə idarəetmənin bəzi hərəkətləri süni şəkildə yavaşlatması;
-- təlim hissəsi-dan sonra 1–3 saatlıq mərhələdə yüksək çətinlik;
+- təlim hissəsindən sonra 1–3 saatlıq mərhələdə yüksək çətinlik;
 - daha çox sistem olmasına baxmayaraq müəyyən mərhələdə təkrarçılıq;
 - bəzi qərar/nəticələrin həddindən artıq sərt və geri dönməz hiss olunması.
 
@@ -61,11 +61,11 @@ Hacknet ilə birlikdə baxanda artıq iki oyunlararası prinsip güclənir:
 
 ---
 
-# 1. Araşdırmanın əhatəsi və məlumat keyfiyyəti
+# 1. Araşdırmanın əhatəsi və məlumat açarfiyyəti
 
 ## 1.1. Steam məlumat toplusu
 
-Snapshot: **2026-10-02**
+Məlumat kəsimi: **2026-10-02**
 
 - xam rəylər: 301
 - təkrarsız rəylər: 301
@@ -91,7 +91,7 @@ Oxunub:
 - 50 az oyun müddətli rəy;
 - 25 son dövr müsbət rəy.
 
-Bu, mənfi uğursuzluq nümunəsi-ləri üçün yüksək etibarlılıq verir.
+Bu, mənfi uğursuzluq nümunələri üçün yüksək etibarlılıq verir.
 
 ## 1.3. Xarici mənbələr
 
@@ -105,7 +105,7 @@ Bu, mənfi uğursuzluq nümunəsi-ləri üçün yüksək etibarlılıq verir.
 
 ## 1.4. Məhdudiyyətlər
 
-- Steam rəy müəllifləri bütün oyunçu oyunçu kütləsi deyil;
+- Steam rəy müəllifləri bütün oyunçu kütləsi deyil;
 - ümumi tövsiyə aspekt üzrə münasibət deyil;
 - namizəd mövzu yoxlama regex əsaslı seçim-dir;
 - oyun müddəti korrelyasiya səbəb-nəticə əlaqəsi demək deyil;
@@ -132,7 +132,7 @@ Steam mağazası description:
 
 > taktiki narrative-driven RPG with unique yalnız klaviatura ilə controls
 
-mağazanın verdiyi vəd üç hissəyə bölünür:
+Mağazanın verdiyi vəd üç hissəyə bölünür:
 
 1. haker rol hissi;
 2. taktiki RPG;
@@ -142,13 +142,13 @@ Bu Hacknet-dən vacib şəkildə fərqlənir.
 
 Hacknet əsasən:
 
-> “terminal hacking simulator / hacker experience”
+> “terminal hakerlik simulator / hacker experience”
 
 kimi oxunur.
 
 Midnight Protocol isə:
 
-> “hacking mövzu içində taktiki RPG”
+> “hakerlik mövzu içində taktiki RPG”
 
 kimi daha düzgün anlaşılır.
 
@@ -176,7 +176,7 @@ tapşırıq seç
 → məqsəd və optional data tap
 → qərar ver
 → network-dən çıx
-→ nüfuz/story nəticəsi al
+→ nüfuz/hekayə nəticəsi al
 → yeni tool / tapşırıq / branch aç
 ```
 
@@ -207,7 +207,7 @@ rol hissi üç qat-də qurulur.
 
 ## 4.1. Physical rol hissi
 
-Real keyboard istifadə olunur.
+Real açarboard istifadə olunur.
 
 Oyunçu əmr yazır.
 
@@ -247,7 +247,7 @@ Midnight Protocol ikinci və üçüncü qatı daha çox inkişaf etdirir.
 
 Screenshot və mağaza description-da dərhal fərqlənir.
 
-“Only keyboard”:
+“Only açarboard”:
 
 - qeyri-adi görünür;
 - özünü haker kimi hiss etmə-ni bir cümlədə izah edir;
@@ -466,9 +466,9 @@ Bəzi oyunçu üçün:
 
 Bu onlar üçün haker rol hissini zəiflədir.
 
-Əsas problem mexanika-in keyfiyyəti yox, gözlənti-dır.
+Əsas problem mexanika-in açarfiyyəti yox, gözlənti-dır.
 
-mağaza page taktiki RPG deyir, amma “hacking” word-u daha güclü prior gözlənti yarada bilər.
+mağaza page taktiki RPG deyir, amma “hakerlik” word-u daha güclü prior gözlənti yarada bilər.
 
 ## 10.2. Typing-in oyun gedişi funksiyası azalır
 
@@ -499,7 +499,7 @@ RNG_FAIRNESS:
 - 36 mentions
 - 13 mənfi
 - 36.11% mənfi
-- overall baseline-dan 2.26× yüksək.
+- ümumi baseline-dan 2.26× yüksək.
 
 Bütün 48 mənfi rəy yoxlama-i də bunu təsdiqləyir.
 
@@ -648,14 +648,14 @@ Amma bu causation deyil.
 
 yaradıcı-in məqsədi:
 
-> fiziki keyboard-u rol hissinin hissəsinə çevirmək.
+> fiziki açarboard-u rol hissinin hissəsinə çevirmək.
 
 rəylərdə bu açıq şəkildə işləyir.
 
 müsbət geribildirim:
 
 - typing satisfying;
-- keyboard özünü haker kimi hiss etmə-ni artırır;
+- açarboard özünü haker kimi hiss etmə-ni artırır;
 - mouse olmaması distinctive hiss edir;
 - “in the zone” state yaradır.
 
@@ -735,7 +735,7 @@ Bəzi mənfi geribildirim:
 
 ilə bağlıdır.
 
-Amma overall hekayə signal çox güclüdür.
+Amma ümumi hekayə signal çox güclüdür.
 
 ---
 
@@ -772,7 +772,7 @@ Midnight Protocol-da:
 
 - intranet;
 - optional intel;
-- side information;
+- side məlumat;
 - hidden ipucus;
 - secrets;
 - easter eggs
@@ -791,7 +791,7 @@ Midnight Protocol-da taktiki tapşırıq grammar daha dominantdır.
 
 Bu gələcək oyun üçün imkan göstərir:
 
-> Hacknet-in organic information exploration-u + Midnight Protocol-un mənalı seçims-i birləşdirilə bilər.
+> Hacknet-in organic məlumat exploration-u + Midnight Protocol-un mənalı seçims-i birləşdirilə bilər.
 
 ---
 
@@ -848,7 +848,7 @@ Hacknet ilə müqayisədə technical complaints əsas dominant uğursuzluq deyil
 
 Axtardığı:
 
-- keyboard;
+- açarboard;
 - terminal;
 - cyber aesthetic;
 - “I’m in” rol hissi.
@@ -879,7 +879,7 @@ Axtardığı:
 
 Oyunun çox güclü ikinci audience-i budur.
 
-## 22.4. Real-hacking/simulation audience
+## 22.4. Real-hakerlik/simulation audience
 
 Bu audience risklidir.
 
@@ -887,7 +887,7 @@ Midnight Protocol özünü simulator-dan daha çox taktiki RPG kimi position etd
 
 Amma bəzi rəy müəllifi yenə:
 
-> “bu hacking deyil, board game-dir”
+> “bu hakerlik deyil, board game-dir”
 
 deyir.
 
@@ -911,14 +911,14 @@ deyir.
 
 ## 24.1. Distinctive concept
 
-yalnız klaviatura ilə taktiki hacking RPG asanlıqla fərqlənir.
+yalnız klaviatura ilə taktiki hakerlik RPG asanlıqla fərqlənir.
 
 ## 24.2. Strong experience stack
 
 ```text
 typing
 + tactics
-+ story
++ hekayə
 + choices
 + cyber təqdimat
 ```
@@ -953,7 +953,7 @@ Mövcud dəlil bir neçə mümkün izah verir:
 
 “Hacking game” deyəndə bəzi oyunçu Hacknet/Uplink gözləyir.
 
-“taktiki RPG” deyəndə isə terminal/keyboard niche görünür.
+“taktiki RPG” deyəndə isə terminal/açarboard niche görünür.
 
 məhsul iki audience arasında qalır.
 
@@ -963,9 +963,9 @@ Fərqləndirir, amma eyni zamanda audience-i daraldır.
 
 ## 25.3. İlk 1–3 saat risklidir
 
-Potential oyunçu təlim hissəsi-dan sonra core system mürəkkəblik ilə üzləşir.
+Potential oyunçu təlim hissəsindən sonra core system mürəkkəblik ilə üzləşir.
 
-## 25.4. taktiki board-game identity hacking audience-in bir hissəsinə uyğun deyil
+## 25.4. taktiki board-game identity hakerlik audience-in bir hissəsinə uyğun deyil
 
 məhsul quality yaxşı olsa da TAM daha dar ola bilər.
 
@@ -1017,7 +1017,7 @@ Fiziki giriş mövzu ilə uyğun gələndə oyuna dalma hissi artır.
 
 # 27. Qaçmalı olduğumuz risklər
 
-## 1. Hidden information + geri dönməz uğursuzluq
+## 1. Hidden məlumat + geri dönməz uğursuzluq
 
 Bu fairness-i dağıda bilər.
 
@@ -1043,7 +1043,7 @@ araşdırma üçün nəfəs sahəsi lazımdır.
 
 ## 7. Genre gözlənti uyğunsuzluğu
 
-mağazanın verdiyi vəd actual əsas oyun dövrü-u düzgün anlatmalıdır.
+Mağazanın verdiyi vəd actual əsas oyun dövrü-u düzgün anlatmalıdır.
 
 ---
 
@@ -1056,7 +1056,7 @@ mağazanın verdiyi vəd actual əsas oyun dövrü-u düzgün anlatmalıdır.
 - Hacknet-in organic fayl sistemi/məlumat kəşfi-si;
 - Midnight Protocol-un seçim/nüfuz/nəticə sistemi.
 
-## 28.2. Explainable taktiki hacking
+## 28.2. Explainable taktiki hakerlik
 
 taktiki dərinlik saxla, amma təsadüfilik minimum və readable olsun.
 
@@ -1089,7 +1089,7 @@ ilə işləyə bilər.
 Keyboard rol hissi saxlanıla bilər, amma:
 
 - autocomplete;
-- history;
+- hihekayə;
 - aliases;
 - click-equivalent optional shortcuts;
 - context-aware suggestions
@@ -1099,7 +1099,7 @@ Keyboard rol hissi saxlanıla bilər, amma:
 ## 28.6. Information → qərar → nəticə loop
 
 ```text
-discover information
+discover məlumat
 → interpret
 → choose
 → act
@@ -1185,7 +1185,7 @@ https://store.steampowered.com/app/1162700/
 **[W2] oyunun yaradıcısı ilə — Hacking for cavabs in taktiki narrative game Midnight Protocol**  
 https://www.gamedeveloper.com/design/hacking-answers-tactical-narrative-game-midnight-protocol
 
-**[W3] Quarter to Three — Midnight Protocol hacks into the sweet spot between storytelling and strategiya**  
+**[W3] Quarter to Three — Midnight Protocol hacks into the sweet spot between hekayətelling and strategiya**  
 https://www.quartertothree.com/fp/2022/01/16/midnight-protocol-hacks-into-the-sweet-spot-between-storytelling-and-strategy/
 
 **[W4] Softpedia — Midnight Protocol rəy**  
@@ -1198,5 +1198,5 @@ https://www.softpedia.com/reviews/games/pc/midnight-protocol-review-534571.shtml
 **Mərhələ:** Midnight Protocol per-game deep araşdırma — əsas mərhələ tamamlanıb  
 **məlumat toplusu:** 301 verified ingilisdilli Steam rəyi  
 **mənfi rəys audited:** 48/48  
-**bütün rəy toplusu üzrə namizəd əhatə:** 75.08%  
+**bütün rəy toplusu üzrə namizəd əhatəsi:** 75.08%  
 **Növbəti:** `analysis/comparisons/hacknet-vs-midnight-protocol.md`
