@@ -181,7 +181,7 @@ Amma The Operator-un cost-u:
 - mastery azdır;
 - hər yeni sequence daha çox content production tələb edir.
 
-Production trade-off:
+Production kompromis:
 
 Reusable system → daha ucuz content scaling → təkrarçılıq riski.
 
