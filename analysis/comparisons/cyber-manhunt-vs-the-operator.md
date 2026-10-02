@@ -6,7 +6,7 @@
 
 > Digital investigation oyun gedişi-i nə vaxt real deduction hissi yaradır, nə vaxt scripted hekayə progression-a çevrilir?
 
-Cyber Manhunt və The Operator eyni yüksək səviyyəli fantasy-ni fərqli yollarla qurur.
+Cyber Manhunt və The Operator eyni yüksək səviyyəli rol hissi-ni fərqli yollarla qurur.
 
 - Cyber Manhunt — daha geniş information-search və social-məlumat chain.
 - The Operator — daha focused dəlil set və peşəkar təhlil tools.
@@ -52,7 +52,7 @@ Strength:
 - information graph hissi;
 - snooping və curiosity;
 - human/social qat;
-- böyük discovery fantasy.
+- böyük discovery rol hissi.
 
 Risk:
 - exact query;
@@ -225,8 +225,8 @@ Cyber Manhunt-dan:
 
 The Operator-dan:
 - focused problem framing aydınlıq yaradır;
-- polished tool UI competence fantasy-ni gücləndirir;
-- audio remote-action fantasy üçün vacibdir;
+- polished tool UI competence rol hissi-ni gücləndirir;
+- audio remote-action rol hissi üçün vacibdir;
 - qısa set-piece structure təkrarçılıq-ı azaldır;
 - həddindən artıq guidance qərar sərbəstliyi-ni öldürür;
 - one-off tool variety mastery deyil.
