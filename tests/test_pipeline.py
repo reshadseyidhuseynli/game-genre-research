@@ -13,6 +13,7 @@ from src.processors.clean_reviews import normalize, samples
 from src.processors.deduplicate import deduplicate
 from src.processors.segment_reviews import segment
 from src.processors.statistics import calculate
+from src.processors.theme_candidates import load_taxonomy, detect_themes, calculate as calculate_theme_candidates
 
 GAME = {'key': 'fixture', 'name': 'Fixture', 'steam_app_id': 1, 'request_delay_seconds': 1, 'sample_size': 50}
 
@@ -118,6 +119,33 @@ class DeterministicTests(unittest.TestCase):
                 import csv
                 rows = list(csv.DictReader(handle))
             self.assertEqual(rows, [{'text': 'one\r\ntwo'}])
+
+    def test_theme_candidate_detection(self):
+        taxonomy = load_taxonomy()
+        detected = detect_themes(
+            'The story was great, but the same commands over and over became repetitive. '
+            'The soundtrack kept me immersed.',
+            taxonomy
+        )
+        self.assertIn('STORY_NARRATIVE', detected)
+        self.assertIn('REPETITION', detected)
+        self.assertIn('SOUND_AUDIO', detected)
+        self.assertIn('IMMERSION', detected)
+
+    def test_theme_candidate_statistics_are_not_aspect_sentiment(self):
+        taxonomy = load_taxonomy()
+        positive = normalize(review(review='Great story but very repetitive same commands.'), GAME)
+        negative = normalize(review('2', review='The story was weak and repetitive.', voted_up=False), GAME)
+        candidates, stats, theme_samples = calculate_theme_candidates([positive, negative], taxonomy, 5)
+        self.assertEqual(len(candidates), 2)
+        story = stats['themes']['STORY_NARRATIVE']
+        repetition = stats['themes']['REPETITION']
+        self.assertEqual(story['mention_count'], 2)
+        self.assertEqual(story['positive_reviews'], 1)
+        self.assertEqual(story['negative_reviews'], 1)
+        self.assertEqual(repetition['mention_count'], 2)
+        self.assertEqual(len(theme_samples['REPETITION']['positive']), 1)
+        self.assertEqual(len(theme_samples['REPETITION']['negative']), 1)
 
 
 class CollectorTests(unittest.TestCase):
