@@ -1,4 +1,4 @@
-version: 2
+version: 3
 description: >
   Computer-interface / hacking / digital-investigation oyunları üçün semantic aspect taxonomy.
   Bu taxonomy final qualitative coding üçündür; regex candidate retrieval taxonomy-dən ayrıdır.
@@ -161,6 +161,46 @@ aspects:
     label_az: Texnologiyaya maraq / gateway effekti
     definition: Oyunun real professional training vermədən terminal, programming və cybersecurity marağı yaratması.
 
+  LOCALIZATION_WRITING:
+    label_az: Lokalizasiya və yazı keyfiyyəti
+    definition: Tərcümə, grammar, wording, dialogue və text-heavy narrative-in təbii və aydın olması.
+
+  LINEARITY_SCRIPTING:
+    label_az: Linearity və scripted progression
+    definition: Oyunçunun düzgün nəticəni bilsə belə yalnız əvvəlcədən təyin olunmuş sıra, clue və ya trigger ilə irəliləyə bilməsi.
+
+  CLUE_EVIDENCE_QUALITY:
+    label_az: Clue və evidence keyfiyyəti
+    definition: Hansı məlumatın toplanabilən, relevant, kifayət qədər görünən və məntiqi evidence kimi qəbul edilməsinin keyfiyyəti.
+
+  DEDUCTION_REASONING:
+    label_az: Deduction və reasoning
+    definition: Oyunçunun məlumatları özü əlaqələndirib nəticə çıxarması, hipotez qurması və aha momentləri yaşaması.
+
+  PUZZLE_CLARITY:
+    label_az: Puzzle clarity və fairness
+    definition: Puzzle/minigame qaydalarının aydınlığı, solution logic-in izah edilə bilməsi və trial-and-error-a məcbur etməməsi.
+
+  INFORMATION_SEARCH:
+    label_az: Information search və data gathering
+    definition: Search engine, profiles, email, account, browser və database vasitəsilə məlumat tapmaq və toplamaq.
+
+  SOCIAL_ENGINEERING:
+    label_az: Social engineering
+    definition: Phishing, impersonation, telefon/söhbət və insan davranışı üzərindən access və information əldə etmə mexanikaları.
+
+  TIMED_EVENTS:
+    label_az: Timed events və time pressure
+    definition: Investigation/puzzle daxilində vaxt limiti və timer-in fairness, readability və stress-ə təsiri.
+
+  PUBLIC_OPINION_MINIGAME:
+    label_az: Public opinion / influence minigame
+    definition: Media/popularity/public-opinion manipulyasiyası ilə bağlı xüsusi minigame və onun clarity/fairness keyfiyyəti.
+
+  ETHICAL_SOCIAL_THEME:
+    label_az: Etik və sosial mövzular
+    definition: Privacy, cyber violence, harassment, moral dilemma və oyunun sosial mesajının təsiri.
+
 coding_rules:
   - Overall Steam recommendation aspect sentiment kimi istifadə edilməməlidir.
   - Bir review eyni aspect üçün həm müsbət, həm mənfi fikir verirsə mixed seç.
@@ -175,3 +215,7 @@ coding_rules:
   - Keyboard-only input immersion üçün positive, usability üçün negative ola bilər; KEYBOARD_ONLY və UI_USABILITY ayrıca label-lənməlidir.
   - Loadout/build müxtəlifliyi yalnız çox seçim olması ilə positive sayılmır; dominant build və məcburi slotlar varsa mixed/negative ola bilər.
   - Retry/rollback sistemi PLAYER_AGENCY-dən ayrıdır; seçim çox olsa belə failure-dan recovery zəif ola bilər.
+  - Investigation oyunlarında clue tapmaqla deduction ayrılmalıdır: oyunçu məlumatı tapa bilər, amma nəticəni özü çıxarmaya bilər.
+  - Linearity/scripted progression ayrıca label-lənməlidir: düzgün nəticəni əvvəlcədən bilmək progression trigger-i keçməyə kifayət etmirsə bu agency və deduction-dan fərqli problemdir.
+  - Text-heavy oyunlarda LOCALIZATION_WRITING gameplay keyfiyyətinə birbaşa təsir edə bilər; tərcümə sadəcə presentation problemi sayılmamalıdır.
+  - Puzzle clarity və difficulty ayrılmalıdır: puzzle çətin ola bilər, amma həll məntiqi sonradan izah edilə bilirsə fair qala bilər.
