@@ -1374,10 +1374,18 @@ Generated output-lar script lokalda işə salındıqdan sonra:
 
 - `data/processed/hacknet/themes/candidates.jsonl`
 - `data/processed/hacknet/themes/statistics.json`
-- `data/processed/hacknet/themes/samples/`
+- `data/processed/hacknet/themes/samples/<theme>_positive.csv`
+- `data/processed/hacknet/themes/samples/<theme>_negative.csv`
+- `data/processed/hacknet/themes/samples/<theme>_audit.csv`
 - `data/reports/hacknet/theme-candidates.md`
 
 olacaq.
+
+Vahid command:
+
+`python -m src.theme_pipeline --game hacknet`
+
+`positive/negative` sample-lar helpful review-ləri prioritetləşdirir. `audit` sample-lar isə recommendation və playtime cohort-ları arasında deterministik balans yaradır ki, validation yalnız viral/helpful review-lərə bağlı qalmasın.
 
 
 ### Research infrastructure
