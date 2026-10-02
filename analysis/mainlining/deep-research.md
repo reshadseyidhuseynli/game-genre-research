@@ -1,0 +1,897 @@
+# Mainlining — Dərin araşdırma
+
+## 1. Rəhbərlik üçün xülasə
+
+Mainlining-in əsas dəyəri real hacking simulyasiyası olmaq deyil.
+
+Ən yaxşı vəziyyətdə oyun belə bir rol hissi yaradır:
+
+> **rəqəmsal izlərdən şəxsiyyət, məkan və cinayət dəlili çıxarıb işi özüm həll etdim.**
+
+Bu səbəbdən Mainlining-i “Hacknet-in daha zəif terminal versiyası” kimi oxumaq düzgün deyil. O, əslində:
+
+> **hacking elementli rəqəmsal detektiv / point-and-click adventure**
+
+kimi daha yaxşı başa düşülür.
+
+Yoxlanmış Steam snapshot-u:
+
+- **304 rəy**
+- **230 müsbət**
+- **74 mənfi**
+- **75.66% müsbət**
+- median oyun müddəti: **4.82 saat**
+
+Əsas güclər:
+
+- desktop-as-world immersion;
+- məlumat axtarışı və clue əlaqələndirməsi;
+- yüngül, əlçatan hacking fantasy-si;
+- personajları e-poçt, chat və fayllardan tanımaq;
+- pixel art, parody software, soundtrack və yumor;
+- bəzi case-lərdə bir neçə mümkün arrest/outcome.
+
+Əsas zəifliklər:
+
+- konkret developer-tagged evidence-in tələb edilməsi;
+- səhv submission-da hansı komponentin yanlış olduğunun aydın olmaması;
+- terminal və mətn girişinin zəif usability-si;
+- persistent bug/crash/freeze;
+- eyni hacking ardıcıllığının təkrarı;
+- qeydlərin və case məlumatının zəif saxlanması;
+- store-un yaratdığı geniş investigation/sandbox gözləntisi ilə daha xətti real təcrübə arasındakı fərq.
+
+Ən vacib nəticə:
+
+> **Mainlining göstərir ki, araşdırma oyununun əsas etibar müqaviləsi “mən düzgün nəticə çıxarmışamsa sistem bunu tanıyacaq”dır. Bu müqavilə pozulanda puzzle çətin deyil, ədalətsiz görünür.**
+
+---
+
+# 2. Araşdırma əhatəsi
+
+Dataset snapshot: **2026-10-02**
+
+- raw: 304
+- unique: 304
+- duplicate: 0
+- müsbət: 230
+- mənfi: 74
+- median: 4.82h
+- orta: 6.17h
+- müsbət orta: 7.00h
+- mənfi orta: 3.58h
+
+Semantic audit:
+
+- **74/74 mənfi rəy**
+- **39 fərqli müsbət rəy** — helpful + recent + high-playtime istiqamətində
+
+Deterministik taxonomy:
+
+- version 5
+- coverage: **77.30%**
+
+Cari Steam store ayrıca 285 rəy / 77% müsbət göstərir. API snapshot ilə store display eyni filtr deyil və ayrıca metrik kimi saxlanılır.
+
+---
+
+# 3. Məhsulun kimliyi
+
+Mainlining-də oyunçu MI7 agentidir.
+
+Mərkəzi fəaliyyət:
+
+```text
+iş tapşırığı
+→ açıq internet məlumatı
+→ IP / hesab / cihaz izi
+→ sistemə giriş
+→ fayl, chat, e-poçt
+→ şəxsiyyət qur
+→ məkan tap
+→ cinayət dəlili seç
+→ arrest təqdim et
+→ növbəti iş
+```
+
+Bu dövr üç fantasy-ni birləşdirir:
+
+1. **haker** — giriş əldə edirəm;
+2. **detektiv** — parçalanmış məlumatı birləşdirirəm;
+3. **dövlət agenti** — qərarımı sistemə təqdim edib həbs yaradıram.
+
+Müsbət oyunçular üçün ən vacib hissə adətən ikinci və üçüncü hissənin birləşməsidir.
+
+---
+
+# 4. Oyunçu niyə başlayır?
+
+Əsas acquisition hook-ları:
+
+- hacking etiketi;
+- simulated desktop;
+- dövlət cyber-agent rolu;
+- cinayət şəbəkəsini tapmaq;
+- real proqramları xatırladan parody tətbiqlər;
+- point-and-click + puzzle qarışığı;
+- “500-dən çox cinayətkar” və daha geniş investigation space vədi;
+- suspect / evidence / location üzərindən qərar vermək.
+
+Kickstarter minimum məqsədini keçib:
+
+- £15,822 pledged;
+- £15,000 goal;
+- 628 backer.
+
+Bu böyük bazar hit-i sübut etmir, amma niche premise-in ilkin maraq yaratdığını göstərir.
+
+---
+
+# 5. Oyunçu niyə davam edir?
+
+Müsbət auditdə əsas davam səbəbləri:
+
+- clue chain;
+- adların sonrakı case-lərdə yenidən görünməsi;
+- müxtəlif şəxslərin rəqəmsal həyatına baxmaq;
+- e-poçt və chat-dən şəxsiyyət çıxarmaq;
+- hekayə;
+- yumor;
+- OS parody-ləri;
+- musiqi və rahat atmosfer;
+- puzzle-lərin çox ağır olmaması;
+- “özüm tapdım” hissi.
+
+Müsbət rəylərin bir hissəsi hacking-in çox sadə olduğunu qəbul edir, amma bunu problem saymır.
+
+Bu çox vacib segment fərqidir.
+
+### Razı audience
+
+> “Mən tam cyber simulyasiya istəmirəm; rəqəmsal detektiv oyunu istəyirəm.”
+
+### Narazı audience
+
+> “Mən real hacking / Hacknet / Uplink dərinliyi gözləyirdim.”
+
+Məhsul mövqeyi bu iki gözləntini qarışdıra bilir.
+
+---
+
+# 6. İlk sessiya
+
+| Müddət | Rəy | Müsbət |
+|---|---:|---:|
+| 0–1h | 23 | 34.78% |
+| 1–3h | 48 | 62.50% |
+| 3–10h | 201 | 80.10% |
+| 10h+ | 32 | 96.88% |
+
+Mainlining-in ilk saatı risklidir.
+
+Amma Cyber Manhunt ilə müqayisədə:
+
+- Cyber Manhunt 0–1h: 27.78%
+- Mainlining 0–1h: 34.78%
+- Cyber Manhunt 1–3h: 44.07%
+- Mainlining 1–3h: 62.50%
+
+Mainlining yeni oyunçuya əsas fantasy-ni daha tez çatdıra bilir.
+
+Onun böyük problemi daha sonra toplanan sürtünmədir:
+
+- dəlil qəbulu;
+- terminal;
+- bug;
+- save/restart;
+- repetition.
+
+Yəni:
+
+> **ilk case maraq yaradır; sistemə etibar sonrakı case-lərdə sınanır.**
+
+---
+
+# 7. Investigation depth
+
+Müsbət audit göstərir ki Mainlining-də real deduction momentləri var.
+
+Oyunçu:
+
+- username;
+- website;
+- IP;
+- file;
+- real ad;
+- location;
+- relationship
+
+arasında əlaqə qurur.
+
+`DEPTH_CHALLENGE`:
+
+- 79 mention;
+- 13.9% mənfi;
+- baseline-dan 0.57×.
+
+`INVESTIGATION_DISCOVERY`:
+
+- 49 mention;
+- 20.4% mənfi;
+- baseline-dan 0.84×.
+
+Bu iki siqnal göstərir:
+
+> **araşdırma və challenge özü satisfaction driver-dir.**
+
+Problem həmin reasoning-in sistemə təqdim edilməsi mərhələsində yaranır.
+
+---
+
+# 8. Dəlil qəbulu — əsas sistem qüsuru
+
+Mainlining-in iş sonluğu üç hissəyə bağlıdır:
+
+```text
+suspect
++
+location
++
+evidence
+```
+
+Bu, nəzəri olaraq yaxşı hypothesis submission modelidir.
+
+Amma semantic audit-də təkrarlanan problem:
+
+- bir neçə məntiqli evidence mövcuddur;
+- oyun yalnız birini qəbul edir;
+- daha güclü görünən sənəd rədd edilə bilir;
+- location üçün mətn evidence-i ilə sistemin qəbul etdiyi cavab uyğun gəlməyə bilir;
+- bəzən guide müəllifləri belə səhv cavab yazıb sonra düzəldir.
+
+Bu, puzzle design üçün ciddi siqnaldır.
+
+### Problem model
+
+```text
+world facts
+→ oyunçu inference
+→ developer-tagged answer
+```
+
+Əgər inference və tagged answer eyni deyilsə, oyunçu:
+
+> “Mən səhv düşünmüşəm”
+
+demir.
+
+Daha çox:
+
+> “Oyunun hansı faylı istədiyini təxmin etməliyəm”
+
+deyir.
+
+### Dizayn prinsipi
+
+> **Dəlil sistemi “doğru file” yox, “yetərli sübut state-i” modelləşdirməlidir.**
+
+Məsələn:
+
+```text
+CRIME_PROVEN = document A OR chat B OR transaction C+D
+LOCATION_CONFIRMED = address E OR live signal F
+IDENTITY_CONFIRMED = account G + alias H
+```
+
+Bu model redundant paths qəbul edir.
+
+---
+
+# 9. Failure feedback
+
+Investigation oyununda səhv cavab özü problem deyil.
+
+Problem:
+
+> **səhvdən yeni məlumat çıxmamasıdır.**
+
+Mainlining-də mənfi audit göstərir ki, sistem:
+
+- person;
+- evidence;
+- location
+
+arasından hansının yanlış olduğunu bəzən demir və ya yanıltıcı mesaj verir.
+
+Nəticə:
+
+```text
+wrong
+→ random alternate evidence
+→ wrong
+→ random alternate location
+→ wrong
+→ walkthrough
+```
+
+Bu deduction-u brute-force-a çevirir.
+
+### Gələcək oyun üçün
+
+Feedback tam cavabı deməməlidir.
+
+Amma epistemik kateqoriya verməlidir:
+
+- identity confidence low;
+- location outdated;
+- evidence insufficient;
+- evidence irrelevant;
+- evidence illegally obtained;
+- contradiction unresolved.
+
+Beləliklə oyunçu reasoning modelini düzəldə bilər.
+
+---
+
+# 10. Hacking — məqsəd yox, access layer
+
+Mainlining-in hacking əmrləri çox sadədir.
+
+Bu özü problem deyil.
+
+Müsbət oyunçular üçün:
+
+> sadə terminal texniki baryeri azaldır və araşdırmanı ön plana çıxarır.
+
+Problem eyni ardıcıllığın çox təkrar edilməsidir:
+
+```text
+ping
+→ iphack
+→ list
+→ download
+```
+
+`REPETITION`:
+
+- 18 mention;
+- 66.7% mənfi;
+- baseline-dan 2.74×.
+
+Bu Hacknet-dən çıxan prinsipə yeni təsdiq verir:
+
+> **terminalın dərinliyi command sayından yox, command-ın hansı qərarı açmasından gəlir.**
+
+Mainlining-də terminal çox vaxt qərar yox, giriş ritualıdır.
+
+### Daha sağlam model
+
+Hacking:
+
+- hansı giriş üsulunu seçəcəyinə;
+- iz buraxıb-buraxmayacağına;
+- nə qədər məlumat götürəcəyinə;
+- hansı məlumatın dəyişəcəyinə;
+- target-in davranışına
+
+təsir etməlidir.
+
+---
+
+# 11. Terminal UX və “real görünüş” paradoksu
+
+Yaradıcı müsahibəsində Sam Read simulated desktop-un real OS vərdişlərini oyuna daşıdığını qeyd edir.
+
+Bu rəy məlumatında birbaşa görünür.
+
+Oyunçu terminal görür və gözləyir:
+
+- cursor navigation;
+- history;
+- copy/paste;
+- düzgün error;
+- sürətli typing;
+- command editing.
+
+Oyun bunların bir hissəsini vermir.
+
+`TERMINAL_UI`:
+
+- 33 mention;
+- 39.4% mənfi;
+- baseline-dan 1.62×.
+
+### Principle
+
+> **Interface semantik olaraq nə qədər real görünürsə, affordance-ları da o qədər real gözlənilir.**
+
+Tam terminal simulyasiyası lazım deyil.
+
+Amma terminal görünüşü ilə mobil text-field davranışı bir-birinə zidd hiss olunur.
+
+---
+
+# 12. Fictional OS — ən böyük atmosfer üstünlüyü
+
+Desktop formatı Mainlining-in ən fərqləndirici güclərindəndir.
+
+Müsbət auditdə:
+
+- Windows XP nostaljisi;
+- müxtəlif OS parody-ləri;
+- browser;
+- notepad;
+- saxta cloud xidmətləri;
+- chat;
+- xəritə;
+- pixel art;
+- typing/click sound
+
+tez-tez təriflənir.
+
+Bu **interface-as-world** prinsipinə güclü dəlildir.
+
+Oyunçu ayrı HUD görmür.
+
+HUD:
+
+> dünyanın özüdür.
+
+Bu SIMULACRA / Hypnospace Outlaw mərhələsi üçün xüsusilə vacib bridge-dir.
+
+---
+
+# 13. Fictional OS-un usability problemi
+
+Atmosfer güclü olsa da, iş mühiti kimi zəifliklər var:
+
+- resize yoxdur;
+- minimize məhduddur;
+- click-through;
+- window focus bug;
+- notepad character limit;
+- cursor editing yoxdur;
+- qeydlər silinir;
+- file/case history saxlanmır.
+
+Bu təsadüfi convenience problemi deyil.
+
+Digital-investigation oyununda oyunçunun əsas cognitive task-ı:
+
+> **məlumatı saxlamaq və əlaqələndirməkdir.**
+
+UI həmin yaddaşı zəiflədərsə, difficulty puzzle-dan yox, interface-dən gəlir.
+
+### Principle
+
+> **Evidence workspace challenge yaratmamalıdır; challenge evidence-in mənasında olmalıdır.**
+
+---
+
+# 14. Case continuity və məlumat yaddaşı
+
+Bir neçə rəy case-lər arasında:
+
+- notes;
+- downloaded files;
+- website history;
+- person records
+
+saxlanmamasını tənqid edir.
+
+Bu hekayə üçün xüsusi itki yaradır.
+
+Əgər narrative case-lər arasında davam edirsə, oyunçu knowledge base də davam etməlidir.
+
+Əks halda:
+
+```text
+story memory = persistent
+system memory = reset
+```
+
+uyğunsuzluğu yaranır.
+
+### Opportunity
+
+Persistent investigation workspace:
+
+- people;
+- aliases;
+- organisations;
+- websites;
+- evidence;
+- unresolved hypotheses;
+- previous arrests;
+- source provenance.
+
+Bu, gələcək concept üçün yüksək dəyərli opportunity-dir.
+
+---
+
+# 15. Story və character
+
+Yaradıcı Sam Read character-i text style vasitəsilə çatdırmaq istədiyini qeyd edib.
+
+Rəylərdə bunun işləyən nümunələri var:
+
+- e-poçt üslubu;
+- humour;
+- parody software;
+- agent mesajları;
+- chat logs;
+- recurring names.
+
+Müsbət rəylər hekayəni çox vaxt “solid”, “fun”, “intriguing” kimi qiymətləndirir.
+
+Amma mənfi tərəf:
+
+- generic archetypes;
+- ton keçidləri;
+- typo;
+- placeholder;
+- bəzi zəif case transitions.
+
+Hekayə güclüdür, amma oyunun əsas satisfaction driver-i tək deyil.
+
+Daha düzgün model:
+
+```text
+story
++
+investigation competence
++
+desktop immersion
+```
+
+---
+
+# 16. Moral choice və qərar sərbəstliyi
+
+PC Gamer müsahibəsində yaradıcı hər case-də üç outcome və bəzi hallarda:
+
+- başqa şəxsi həbs etmək;
+- fərqli evidence ilə daha uzun sentence almaq;
+- hətta falsified evidence istifadə etmək
+
+kimi subtle moral choice modelini izah edir.
+
+Bu maraqlı sistemdir.
+
+Müsbət rəylərdə də birdən çox mümkün arrest/outcome qeyd olunur.
+
+Amma:
+
+- uzunmüddətli story dəyişimi zəifdir;
+- yanlış arrest üçün ciddi cəza olmaya bilir;
+- replay value aşağı hesab olunur;
+- bəzi variantlar “real branch”dən çox fərqli final scoring kimi qalır.
+
+### Nəticə
+
+Mainlining-də əsas agency:
+
+> **narrative authorship deyil, procedural competence-dir.**
+
+Oyunçunun əsas zövqü:
+
+> “Mən hansı dünya yaratdım?”
+
+deyil.
+
+Daha çox:
+
+> **“Mən bu işi özüm həll etdim.”**
+
+Bu iki fantasy qarışdırılmamalıdır.
+
+---
+
+# 17. Consequence
+
+`CONSEQUENCE_VISIBILITY` az həcmli olsa da müsbət rəylərdə görünür.
+
+Case sonunda:
+
+- arrest;
+- xəbər məqaləsi;
+- sentence;
+- növbəti narrative state
+
+oyunçuya müəyyən feedback verir.
+
+Amma sistemin problemi:
+
+- yanlış arrest bəzən ciddi cost yaratmır;
+- story çox vaxt davam edir;
+- evidence choice uzunmüddətli state-i az dəyişir.
+
+Bu səbəbdən consequence var, amma agency-ni tam gücləndirmir.
+
+### Dərs
+
+> **Investigation action nəticə yaratmalıdır; nəticənin özü də növbəti investigation space-i dəyişməlidir.**
+
+---
+
+# 18. Məhsul vədi və expectation mismatch
+
+Cari store mətni:
+
+- “skill, judgement and cunningness”;
+- case-i nə vaxt bağlamağa qərar vermək;
+- tez hərəkətdə böyük criminal lead-i qaçırmaq;
+- gecikəndə suspect-in qaçması;
+- 500-dən çox known criminal
+
+vəd edir.
+
+Bu mətn sandbox-a yaxın mental model yarada bilər.
+
+Amma real təcrübə:
+
+- 13 əsas case;
+- mission-scoped target-lar;
+- hacking yalnız aktiv case-də işləyən resurslara bağlı;
+- hekayə böyük ölçüdə xətti;
+- digər yüzlərlə profil real sandbox kimi araşdırılmır.
+
+Bu səbəbdən bəzi oyunçular:
+
+> “video/store mənə başqa oyun satdı”
+
+hissi yaşayır.
+
+Bu kommersiya baxımından vacibdir.
+
+### Principle
+
+> **Marketinq dominant interaction freedom-u dəqiq ifadə etməlidir.**
+
+---
+
+# 19. Bugs və polish
+
+`BUGS_COMPATIBILITY` ən güclü texniki siqnaldır:
+
+- 59 mention;
+- 31 mənfi;
+- 52.5% mənfi;
+- baseline-dan 2.16×.
+
+Mənfi rəylərdə:
+
+- crash;
+- freeze;
+- lost input;
+- click-through;
+- broken progression;
+- autosave;
+- placeholder;
+- window problems
+
+var.
+
+Ən vacib məsələ zamanıdır.
+
+Şikayətlər yalnız 2017 deyil.
+
+2021, 2022, 2024, 2025 və 2026 rəylərində də:
+
+- keystroke;
+- freeze;
+- restart;
+- terminal;
+- evidence
+
+problemləri görünür.
+
+Deməli:
+
+> **technical debt yalnız launch tarixinin artefaktı deyil.**
+
+---
+
+# 20. Uğur pattern-ləri
+
+1. **Interface-as-world** çox güclü rol hissi yaradır.
+2. Access-dən sonra information discovery real reward-dur.
+3. Yüngül hacking daha geniş audience üçün əlçatandır.
+4. Puzzle və araşdırma düzgün işləyəndə “özüm tapdım” hissi verir.
+5. Pixel art və parody software identity yaradır.
+6. Story e-poçt/file/chat materialına inteqrasiya olunur.
+7. Short-to-medium length bəzi audience üçün üstünlükdür.
+8. Technical realism olmadan hacker/detective fantasy işləyə bilir.
+9. Multiple case outcomes müəyyən replay və agency siqnalı verir.
+
+---
+
+# 21. Uğursuzluq pattern-ləri
+
+1. Exact developer-tagged evidence tələb olunur.
+2. Failure feedback hansı komponentin səhv olduğunu demir.
+3. Terminal editing və input zəifdir.
+4. Repetitive access ritualı.
+5. Fictional OS gözəl görünür, amma investigation workspace kimi zəifdir.
+6. Case-lər arasında knowledge persistence yoxdur.
+7. Bug-lar uzun müddət qalıb.
+8. Store broader freedom expectation yaradır.
+9. Hacking audience-i üçün mexanika çox shallow ola bilər.
+10. Wrong choice cost-u bəzən çox aşağıdır.
+11. Story variation real branching səviyyəsinə çatmır.
+12. Logical evidence ilə system-accepted evidence ayrılır.
+
+---
+
+# 22. Cyber Manhunt ilə əsas fərq
+
+Cyber Manhunt:
+
+> daha geniş information gathering və social-engineering fantasy-si, amma sərt scripted clue progression.
+
+Mainlining:
+
+> daha manual desktop exploration və daha az hand-holding, amma final evidence submission çox sərt ola bilir.
+
+Yəni:
+
+### Cyber Manhunt problemi
+
+```text
+cavabı bilirəm
+→ amma required clue trigger yoxdur
+```
+
+### Mainlining problemi
+
+```text
+cinayəti sübut edə bilirəm
+→ amma required evidence object deyil
+```
+
+Birincisi progression recognition problemidir.
+
+İkincisi evidence semantics problemidir.
+
+Hər ikisinin kökü:
+
+> **sistem oyunçunun bildiyini kifayət qədər modelləşdirmir.**
+
+---
+
+# 23. Need to Know ilə əlaqə
+
+Need to Know-da:
+
+> rule text ilə system acceptance arasında boşluq.
+
+Mainlining-də:
+
+> evidence meaning ilə system acceptance arasında boşluq.
+
+Bu iki oyun birlikdə göstərir:
+
+> **“correctness” designer-in gizli answer key-i olmamalıdır; oyun dünyasının açıq qaydalarından çıxarıla bilməlidir.**
+
+Əgər oyunçu world model-ə əsasən müdafiə edilə bilən cavab verirsə, sistem bunu ya qəbul etməli, ya da niyə yetərsiz olduğunu izah etməlidir.
+
+---
+
+# 24. Bizim gələcək oyun üçün konkret dizayn constraints
+
+1. **Knowledge state explicit model olsun.**
+2. Bir faktın birdən çox source-u ola bilsin.
+3. Evidence “file ID” yox, semantic fact təmin etsin.
+4. Hypothesis submission hissələrə bölünsün.
+5. Failure feedback komponent səviyyəsində olsun.
+6. Wrong answer cost-u olsun, amma random guessing-i təşviq etməsin.
+7. Notes və source provenance persistent olsun.
+8. Case history saxlanılsın.
+9. Window/tab management real iş axınına uyğun olsun.
+10. Terminal varsa basic editing affordance-ları məcburidir.
+11. Hacking hər dəfə eyni access ritualı olmamalıdır.
+12. New cases yeni reasoning grammar gətirməlidir.
+13. Marketinq sandbox deyirsə sistem sandbox olmalıdır.
+14. Procedural competence və narrative agency ayrıca ölçülməlidir.
+15. Bug-free input və save investigation oyununun əsas gameplay requirement-ıdır.
+
+---
+
+# 25. Opportunity istiqaməti
+
+Mainlining-dən çıxan ən güclü opportunity:
+
+```text
+open information
+→ multiple source discovery
+→ persistent knowledge graph
+→ hypothesis
+→ evidence bundle
+→ action
+→ component-level feedback
+→ changed world state
+→ new information
+```
+
+Bu model:
+
+- Cyber Manhunt-un geniş məlumat araşdırmasını;
+- Mainlining-in desktop competence fantasy-sini;
+- Orwell-un consequence modelini
+
+birləşdirə bilər.
+
+Amma:
+
+- exact clue;
+- exact evidence;
+- auto-highlight;
+- forced branch
+
+problemlərini daşımamalıdır.
+
+Bu hələ final oyun ideyası deyil.
+
+---
+
+# 26. Risk xəritəsi
+
+| Risk | Mainlining siqnalı | Gələcək validation |
+|---|---|---|
+| Exact evidence acceptance | **Çox yüksək** | redundant evidence test |
+| Failure feedback | **Çox yüksək** | component-level hypothesis test |
+| Terminal input friction | **Yüksək** | typing/editing usability |
+| Repetition | **Yüksək** | 60–120 dəq action grammar audit |
+| Bug/save loss | **Yüksək** | long-session recovery QA |
+| UI working-memory load | **Yüksək** | multi-source case usability |
+| Hacking expectation mismatch | Orta-Yüksək | store concept test |
+| Story agency | Orta | persistent outcome test |
+| Technical realism | Aşağı-Orta | target audience expectation test |
+| Onboarding | Orta | novice first-case test |
+
+---
+
+# 27. Confidence matrix
+
+| Nəticə | Etibarlılıq |
+|---|---|
+| Investigation fantasy əsas gücdür | High |
+| Hacking özü deyil, information linkage əsas reward-dur | High |
+| Exact evidence acceptance əsas failure mode-dur | High |
+| Failure feedback brute-force riskini artırır | High |
+| Terminal UX rol hissini zəiflədir | High |
+| Repetition access ritualından yaranır | High |
+| Realism əsas problem deyil, consistency əsasdır | High |
+| Interface-as-world güclü opportunity-dir | High |
+| Mainlining əsasən competence fantasy verir | High |
+| Narrative agency məhduddur | Medium-High |
+| Store broad freedom expectation yaradır | High |
+| Persistent knowledge workspace böyük opportunity-dir | High |
+
+---
+
+# 28. Mənbələr
+
+## Repository
+
+- `analysis/mainlining/research-kickoff.md`
+- `analysis/mainlining/theme-analysis.md`
+- `data/reports/mainlining/summary.md`
+- `data/reports/mainlining/theme-candidates.md`
+- `data/processed/mainlining/reviews.jsonl`
+- `data/processed/mainlining/statistics.json`
+- `data/processed/mainlining/themes/statistics.json`
+
+## Xarici
+
+- Steam — https://store.steampowered.com/app/454950/Mainlining/
+- Kickstarter — https://www.kickstarter.com/projects/mainlining/mainlining
+- PC Gamer — https://www.pcgamer.com/heading-down-the-rabbit-hole-in-hacking-sim-mainlining/
+- PCGamesN — https://www.pcgamesn.com/mainlining/mainlining-has-you-hacking-the-hacktivists-from-the-comfort-of-somebody-elses-desktop
+- itch.io — https://samreadgraves.itch.io/mainlining
+
+## Status
+
+**Tier A dərin araşdırma:** tamamlanıb  
+**Növbəti:** təqdimat xülasəsi + Cyber Manhunt müqayisəsi
