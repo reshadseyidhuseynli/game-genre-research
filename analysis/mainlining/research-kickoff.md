@@ -2,16 +2,19 @@
 
 ## Status
 
-Bu sənəd Mainlining üçün məlumat toplusu toplanmazdan əvvəl hazırlanmış kickoff sənədidir.
+Bu sənəd Mainlining məlumat toplusu toplanmazdan əvvəl hazırlanmış tarixi kickoff sənədidir.
+
+**Araşdırma artıq tamamlanıb.** Cari əsas sənədlər:
+
+- `analysis/mainlining/theme-analysis.md`
+- `analysis/mainlining/deep-research.md`
+- `analysis/mainlining/presentation-brief.md`
+- `analysis/comparisons/cyber-manhunt-vs-mainlining.md`
 
 **Tier:** A — tam dərin araşdırma  
 **Steam App ID:** `454950`
 
-Cari mərhələ:
-
-> **research kickoff → Steam dataset collection**
-
-Final nəticələr bu sənəddə yazılmayacaq. Kickoff-un məqsədi hansı sualların yoxlanacağını əvvəlcədən müəyyən etmək və sonradan ilkin fərziyyələrlə real nəticələri müqayisə edə bilməkdir.
+Kickoff-un məqsədi ilkin sualları və fərziyyələri saxlamaqdır; final nəticə üçün yuxarıdakı sənədlər source of truth-dur.
 
 ---
 
@@ -483,14 +486,14 @@ steam_app_id: 454950
 Dataset toplamaq üçün:
 
 ```bash
-python -m src.pipeline --game mainlining
+py -m src.pipeline --game mainlining
 ```
 
 Sonra:
 
 ```bash
-python -m src.verify --game mainlining
-python -m src.theme_pipeline --game mainlining
+py -m src.verify --game mainlining
+py -m src.theme_pipeline --game mainlining
 ```
 
 Pipeline nəticələri push edildikdən sonra məna yönümlü audit və dərin araşdırma davam etdirilməlidir.
@@ -539,9 +542,12 @@ Final finding deyil; kickoff risk namizədləri və sonrakı semantic audit üç
 
 # 13. Status
 
-**Mərhələ:** kickoff tamamlanıb  
+**Mərhələ:** araşdırma tamamlanıb  
 **Tier:** A  
 **Steam target:** 454950  
-**Config:** repository-yə əlavə olunub  
-**Dataset:** hələ repository-də yoxdur  
-**Növbəti:** `python -m src.pipeline --game mainlining`
+**Verified dataset:** **304 rəy**  
+**Müsbət:** **230**  
+**Mənfi:** **74**  
+**Deterministik v5 theme artefaktları:** tamamlanıb  
+**Məna yönümlü audit:** 74/74 mənfi + 39 məqsədli müsbət rəy  
+**Növbəti əsas target:** SIMULACRA
