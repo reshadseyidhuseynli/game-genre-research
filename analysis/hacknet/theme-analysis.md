@@ -1,38 +1,38 @@
-# Hacknet — Review Theme Analizi
+# Hacknet — rəy mövzu Analizi
 
 ## 1. Məqsəd
 
-Bu sənəd Hacknet üçün 11,773 verified Steam review üzərində aparılan full-corpus theme candidate scan və onun semantic audit nəticələrini saxlayır.
+Bu sənəd Hacknet üçün 11,773 verified Steam rəy üzərində aparılan bütün rəy toplusu üzrə mövzu namizədi scan və onun məna yönümlü yoxlama nəticələrini saxlayır.
 
 Bu sənədin rolu:
 
-- review-lərdə hansı mövzuların geniş yayıldığını ölçmək;
-- hansı mövzuların negative review-lərdə normadan daha çox toplandığını görmək;
-- keyword nəticələrini semantic audit ilə yoxlamaq;
-- Hacknet üzrə design/product nəticələrini daha ölçülə bilən evidence ilə gücləndirmək.
+- rəy-lərdə hansı mövzuların geniş yayıldığını ölçmək;
+- hansı mövzuların mənfi rəy-lərdə normadan daha çox toplandığını görmək;
+- keyword nəticələrini məna yönümlü yoxlama ilə yoxlamaq;
+- Hacknet üzrə dizayn/məhsul nəticələrini daha ölçülə bilən dəlil ilə gücləndirmək.
 
-Bu sənəd **final full-dataset aspect sentiment classification deyil**.
+Bu sənəd **final full-məlumat toplusu aspekt üzrə münasibət classification deyil**.
 
 Hazır metod iki mərhələdən ibarətdir:
 
-1. bütün 11,773 review üzərində deterministik regex/keyword candidate retrieval;
-2. hər theme üçün recommendation və playtime cohort-ları üzrə audit sample-larının semantic yoxlanması.
+1. bütün 11,773 rəy üzərində deterministik regex/keyword namizəd retrieval;
+2. hər mövzu üçün recommendation və oyun müddəti qrupu-ları üzrə audit sample-larının məna yönümlü yoxlanması.
 
-Full LLM classification infrastructure hazırda yoxdur. Buna görə aşağıdakı rəqəmlər “theme-i müsbət qiymətləndirən review faizi” kimi şərh edilməməlidir.
+Full LLM classification infrastructure hazırda yoxdur. Buna görə aşağıdakı rəqəmlər “mövzu-i müsbət qiymətləndirən rəy faizi” kimi şərh edilməməlidir.
 
 ---
 
-# 2. Dataset bazası
+# 2. məlumat toplusu bazası
 
-- Total verified reviews: **11,773**
-- Positive reviews: **11,082**
-- Negative reviews: **691**
-- Dataset overall positive ratio: **94.13%**
-- Dataset overall negative ratio: **5.87%**
-- Ən azı bir theme candidate-i tutulan review: **6,009**
-- Candidate coverage: **51.04%**
+- Total verified rəylər: **11,773**
+- müsbət rəys: **11,082**
+- mənfi rəys: **691**
+- məlumat toplusu overall müsbət rəy nisbəti: **94.13%**
+- məlumat toplusu overall mənfi rəy nisbəti: **5.87%**
+- Ən azı bir mövzu namizədi-i tutulan rəy: **6,009**
+- namizəd coverage: **51.04%**
 
-Candidate coverage-in 51% olması o demək deyil ki, qalan review-lər bu mövzular haqqında heç nə demir. Regex retrieval yalnız açıq lexical siqnalları tutur. Qısa, zarafat tipli və ya başqa sözlərlə eyni fikri bildirən review-lər qaça bilər.
+namizəd coverage-in 51% olması o demək deyil ki, qalan rəy-lər bu mövzular haqqında heç nə demir. Regex retrieval yalnız açıq lexical siqnalları tutur. Qısa, zarafat tipli və ya başqa sözlərlə eyni fikri bildirən rəy-lər qaça bilər.
 
 ---
 
@@ -40,9 +40,9 @@ Candidate coverage-in 51% olması o demək deyil ki, qalan review-lər bu mövzu
 
 Məsələn:
 
-- REPETITION candidate-i 517 review-da tapılıb;
-- onların 120-si negative Steam review-dur;
-- həmin qrupun negative review nisbəti 23.21%-dir.
+- REPETITION namizəd-i 517 rəy-da tapılıb;
+- onların 120-si negative Steam rəy-dur;
+- həmin qrupun mənfi rəy nisbəti 23.21%-dir.
 
 Amma bu:
 
@@ -52,60 +52,60 @@ demək deyil.
 
 Düzgün şərh:
 
-> “Repetition söz və pattern-ləri ilə tutulmuş review-lərdə negative Steam recommendation bütün dataset-lə müqayisədə xeyli daha çox cəmlənib.”
+> “Repetition söz və nümunə-ləri ilə tutulmuş rəy-lərdə negative Steam tövsiyəsi bütün məlumat toplusu-lə müqayisədə xeyli daha çox cəmlənib.”
 
-Bu fərq dizayn siqnalıdır, aspect sentiment-in özü deyil.
+Bu fərq dizayn siqnalıdır, aspekt üzrə münasibət-in özü deyil.
 
 ---
 
-# 4. Full-corpus theme nəticələri
+# 4. bütün rəy toplusu üzrə mövzu nəticələri
 
-| Theme | Mention | Dataset payı | Negative review payı | Dataset baseline-a nisbət | Semantic audit nəticəsi |
+| mövzu | Mention | məlumat toplusu payı | mənfi rəy payı | məlumat toplusu baseline-a nisbət | məna yönümlü yoxlama nəticəsi |
 |---|---:|---:|---:|---:|---|
-| STORY_NARRATIVE | 2,422 | 20.57% | 3.92% | 0.67× | Əsasən müsbət, amma story təkbaşına zəif core loop-u xilas etmir |
-| TERMINAL_UI | 2,269 | 19.27% | 7.05% | 1.20× | İkiüzlü siqnal: fantasy-ni gücləndirir, technical/usability friction da yaradır |
-| DEPTH_CHALLENGE | 1,534 | 13.03% | 6.26% | 1.07× | Qarışıq; hazır theme çox genişdir və depth/difficulty/puzzle ayrılmalıdır |
+| STORY_NARRATIVE | 2,422 | 20.57% | 3.92% | 0.67× | Əsasən müsbət, amma hekayə təkbaşına zəif əsas oyun dövrü-u xilas etmir |
+| TERMINAL_UI | 2,269 | 19.27% | 7.05% | 1.20× | İkiüzlü siqnal: rol hissi-ni gücləndirir, technical/usability çətinlik da yaradır |
+| DEPTH_CHALLENGE | 1,534 | 13.03% | 6.26% | 1.07× | Qarışıq; hazır mövzu çox genişdir və dərinlik/difficulty/puzzle ayrılmalıdır |
 | SOUND_AUDIO | 1,116 | 9.48% | 3.58% | 0.61× | Güclü müsbət dəstək, xüsusilə atmosphere və tension üçün |
 | REALISM_ACCURACY | 932 | 7.92% | 4.08% | 0.69× | Qarışıq: “real deyil, amma yaxşı abstraction-dır” fikri çox yayılıb |
-| IMMERSION | 910 | 7.73% | 2.42% | 0.41× | Güclü müsbət driver; repetition onu poza bilir |
-| INVESTIGATION_DISCOVERY | 610 | 5.18% | 3.93% | 0.67× | Əsasən müsbət; files/clues/exploration gameplay-i dərinləşdirir |
-| UI_USABILITY | 534 | 4.54% | 8.80% | 1.50× | Interface fantasy-si güclü olsa da real usability complaint-ləri var |
-| REPETITION | 517 | 4.39% | 23.21% | **3.95×** | Güclü mənfi theme; positive review-lərdə belə tez-tez caveat kimi görünür |
+| IMMERSION | 910 | 7.73% | 2.42% | 0.41× | Güclü müsbət amil; repetition onu poza bilir |
+| INVESTIGATION_DISCOVERY | 610 | 5.18% | 3.93% | 0.67× | Əsasən müsbət; files/ipucus/exploration oyun gedişi-i dərinləşdirir |
+| UI_USABILITY | 534 | 4.54% | 8.80% | 1.50× | Interface rol hissi-si güclü olsa da real usability complaint-ləri var |
+| REPETITION | 517 | 4.39% | 23.21% | **3.95×** | Güclü mənfi mövzu; müsbət rəy-lərdə belə tez-tez caveat kimi görünür |
 | BUGS_COMPATIBILITY | 502 | 4.26% | 27.29% | **4.65×** | Ən güclü negative concentration; launch/compatibility/save problemləri |
 | ONBOARDING_CLARITY | 462 | 3.92% | 12.55% | **2.14×** | Qarışıq; tutorial bəzilərinə yaxşı işləyir, digərləri kritik nöqtələrdə ilişir |
-| MOD_REPLAYABILITY | 405 | 3.44% | 2.22% | 0.38× | Güclü müsbət long-tail; orta playtime da çox yüksəkdir |
-| HACKER_FANTASY | 401 | 3.41% | 1.75% | **0.30×** | Ən təmiz müsbət theme-lərdən biri |
+| MOD_təkrar oynama dəyəri | 405 | 3.44% | 2.22% | 0.38× | Güclü müsbət long-tail; orta oyun müddəti da çox yüksəkdir |
+| HACKER_FANTASY | 401 | 3.41% | 1.75% | **0.30×** | Ən təmiz müsbət mövzu-lərdən biri |
 | PLAYER_AGENCY | 154 | 1.31% | 16.23% | **2.77×** | Linear/forced path complaint-ləri; hidden exploration bunun əks müsbət nümunəsidir |
-| LENGTH_CONTENT | 143 | 1.21% | 3.50% | 0.60× | Aşağı coverage; “qısa amma yaxşı” və “daha çox content istəyirəm” qarışıqdır |
+| LENGTH_məzmun | 143 | 1.21% | 3.50% | 0.60× | Aşağı coverage; “qısa amma yaxşı” və “daha çox məzmun istəyirəm” qarışıqdır |
 | EDUCATIONAL_IMPACT | 107 | 0.91% | 2.80% | 0.48× | Müsbət, amma real cybersecurity təlimindən çox maraq/intro/inspiration rolundadır |
-| WORLD_REACTIVITY | 48 | 0.41% | 20.83% | **3.55×** | Aşağı say, amma aydın complaint: log/consequence/world response dayazdır |
+| WORLD_REACTIVITY | 48 | 0.41% | 20.83% | **3.55×** | Aşağı say, amma aydın complaint: log/nəticə/world response dayazdır |
 | PACING_WAITING | 46 | 0.39% | 13.04% | **2.22×** | Aşağı say; waiting/progress-bar və temp complaint-ləri var |
 
-**Baseline:** bütün dataset-də negative recommendation 5.87%-dir.
+**Baseline:** bütün məlumat toplusu-də negative recommendation 5.87%-dir.
 
-“Dataset baseline-a nisbət” yalnız negative-review concentration göstəricisidir. Məsələn 4× nəticə həmin theme-in səbəb olduğunu sübut etmir.
+“məlumat toplusu baseline-a nisbət” yalnız negative-rəy concentration göstəricisidir. Məsələn 4× nəticə həmin mövzu-in səbəb olduğunu sübut etmir.
 
 ---
 
 # 5. Ən vacib quantitative siqnallar
 
-## 5.1. Repetition əsas design riskidir
+## 5.1. Repetition əsas dizayn riskidir
 
 REPETITION:
 
-- 517 candidate review;
-- dataset-in 4.39%-i;
-- 120 negative review;
+- 517 namizəd rəy;
+- məlumat toplusu-in 4.39%-i;
+- 120 mənfi rəy;
 - 23.21% negative recommendation;
-- dataset baseline-dan təxminən **3.95 dəfə** yüksək negative concentration.
+- məlumat toplusu baseline-dan təxminən **3.95 dəfə** yüksək negative concentration.
 
-Semantic audit-də ən vacib pattern:
+məna yönümlü yoxlama-də ən vacib nümunə:
 
-Positive review-lər belə tez-tez bunu deyir:
+müsbət rəy-lər belə tez-tez bunu deyir:
 
 > oyun ümumilikdə yaxşıdır, amma sistemləri hack etmək bir müddətdən sonra eyni sequence-ə çevrilir.
 
-Negative review-lərdə isə bu daha sərtdir:
+mənfi rəy-lərdə isə bu daha sərtdir:
 
 ```text
 probe
@@ -122,25 +122,25 @@ Problem terminal interaction-ın bir müddətdən sonra **decision yox, muscle-m
 
 ### Co-occurrence
 
-REPETITION candidate-lərinin:
+REPETITION namizəd-lərinin:
 
 - 244-ü TERMINAL_UI ilə birlikdədir — **47.2%**
 - 230-u STORY_NARRATIVE ilə birlikdədir — **44.5%**
 - 187-si DEPTH_CHALLENGE ilə birlikdədir — **36.2%**
 
-Bu, repetition complaint-in core experience-dan kənar kiçik problem olmadığını göstərən əlavə siqnaldır. O, terminal loop, perceived depth və story experience ilə tez-tez eyni review daxilində müzakirə olunur.
+Bu, repetition complaint-in core experience-dan kənar kiçik problem olmadığını göstərən əlavə siqnaldır. O, terminal loop, perceived dərinlik və hekayə experience ilə tez-tez eyni rəy daxilində müzakirə olunur.
 
-**Confidence: High**
+**etibarlılıq: High**
 
 ---
 
-# 6. Bugs/compatibility ayrıca böyük failure driver-dir
+# 6. Bugs/compatibility ayrıca böyük uğursuzluq amil-dir
 
 BUGS_COMPATIBILITY:
 
-- 502 candidate review;
-- 4.26% dataset share;
-- 137 negative review;
+- 502 namizəd rəy;
+- 4.26% məlumat toplusu share;
+- 137 mənfi rəy;
 - 27.29% negative recommendation;
 - baseline-dan **4.65 dəfə** yüksək negative concentration.
 
@@ -158,53 +158,53 @@ görünür.
 
 Burada vacib distinction:
 
-> Gameplay design complaint ilə technical reliability complaint eyni report-da qarışdırılmamalıdır.
+> oyun gedişi dizayn complaint ilə technical reliability complaint eyni report-da qarışdırılmamalıdır.
 
-Hacknet üçün bəzi negative recommendation-lər oyunun concept/gameplay-ni bəyənən, amma texniki problemlərə görə tövsiyə etməyən oyunçulardan gəlir.
+Hacknet üçün bəzi negative recommendation-lər oyunun concept/oyun gedişi-ni bəyənən, amma texniki problemlərə görə tövsiyə etməyən oyunçulardan gəlir.
 
-Bu sonrakı cross-game comparison-larda ayrıca sütun olmalıdır.
+Bu sonrakı cross-game müqayisə-larda ayrıca sütun olmalıdır.
 
-**Confidence: High**
+**etibarlılıq: High**
 
 ---
 
-# 7. Hacker fantasy — məhsulun ən təmiz müsbət value proposition-larından biridir
+# 7. özünü haker kimi hiss etmə — məhsulun ən təmiz müsbət value proposition-larından biridir
 
 HACKER_FANTASY:
 
-- 401 explicit candidate mention;
-- 98.25% overall positive review ratio;
+- 401 explicit namizəd mention;
+- 98.25% overall müsbət rəy nisbəti;
 - negative concentration yalnız 1.75%;
 - baseline negative rate-in təxminən 0.30 misli.
 
-Bu theme çox dar regex ilə tutulur, ona görə 3.41% share real prevalence kimi qəbul edilməməlidir. Əksinə, bu yalnız açıq şəkildə “feel like a hacker / become a hacker / hackerman” deyən review-lərdir.
+Bu mövzu çox dar regex ilə tutulur, ona görə 3.41% share real prevalence kimi qəbul edilməməlidir. Əksinə, bu yalnız açıq şəkildə “feel like a hacker / become a hacker / hackerman” deyən rəy-lərdir.
 
-Semantic audit çox ardıcıldır:
+məna yönümlü yoxlama çox ardıcıldır:
 
 - “makes you feel like a hacker”;
-- “Hollywood hacker fantasy”;
+- “Hollywood özünü haker kimi hiss etmə”;
 - terminal + ports + trace + commands;
-- real hacking bilmədən fantasy-ni yaşamaq.
+- real hacking bilmədən rol hissi-ni yaşamaq.
 
 Maraqlı nüans:
 
-Negative review belə bəzən Hacknet-in hacker fantasy-ni yaxşı yaratdığını etiraf edir, amma repetition və dayazlıq səbəbilə final recommendation mənfi olur.
+mənfi rəy belə bəzən Hacknet-in özünü haker kimi hiss etmə-ni yaxşı yaratdığını etiraf edir, amma repetition və dayazlıq səbəbilə final recommendation mənfi olur.
 
 Bu çox vacibdir:
 
-> **Hook uğurludur; uzunmüddətli problem hook-un içindəki core loop-un kifayət qədər inkişaf etməməsidir.**
+> **ilkin cəlbedicilik uğurludur; uzunmüddətli problem ilkin cəlbedicilik-un içindəki əsas oyun dövrü-un kifayət qədər inkişaf etməməsidir.**
 
-**Confidence: High**
+**etibarlılıq: High**
 
 ---
 
-# 8. Immersion güclü driver-dir, amma kövrəkdir
+# 8. Immersion güclü amil-dir, amma kövrəkdir
 
 IMMERSION:
 
-- 910 candidate review;
+- 910 namizəd rəy;
 - 7.73% share;
-- 97.58% overall positive ratio;
+- 97.58% overall müsbət rəy nisbəti;
 - negative concentration 2.42%.
 
 Audit-də immersion aşağıdakılardan yaranır:
@@ -212,15 +212,15 @@ Audit-də immersion aşağıdakılardan yaranır:
 - terminal;
 - fictional OS;
 - real terminlər;
-- story;
+- hekayə;
 - trace pressure;
 - sistemə “icazəsiz daxil olma” hissi;
-- audio/visual feedback.
+- audio/visual geribildirim.
 
 Negative audit nümunələri isə göstərir ki, immersion çox vaxt əvvəlcə işləyir, sonra:
 
 - repetition;
-- challenge çatışmazlığı;
+- çətinlik çatışmazlığı;
 - obvious scripted loop;
 - shallow system logic
 
@@ -228,43 +228,43 @@ onu sındırır.
 
 Deməli immersion statik art asset deyil.
 
-> **Immersion sistemin inandırıcılığına bağlıdır; oyunçu sistemin pattern-ini çox tez görəndə fantasy zəifləyir.**
+> **Immersion sistemin inandırıcılığına bağlıdır; oyunçu sistemin nümunə-ini çox tez görəndə rol hissi zəifləyir.**
 
-**Confidence: High**
+**etibarlılıq: High**
 
 ---
 
-# 9. Story çox görünür və əsasən müsbət kontekstdədir
+# 9. hekayə çox görünür və əsasən müsbət kontekstdədir
 
-STORY_NARRATIVE ən çox tutulan theme-dir:
+STORY_NARRATIVE ən çox tutulan mövzu-dir:
 
-- 2,422 review;
-- 20.57% dataset share;
-- 96.08% overall positive ratio.
+- 2,422 rəy;
+- 20.57% məlumat toplusu share;
+- 96.08% overall müsbət rəy nisbəti.
 
-STORY ilə TERMINAL_UI 833 review-da birlikdə görünür.
+hekayə ilə TERMINAL_UI 833 rəy-da birlikdə görünür.
 
 Bu iki sistemin bir-birindən ayrı olmadığını gücləndirir:
 
-> Hacknet-in story-si terminal/fake OS içində yaşandığı üçün interface özü narrative delivery mexanizmidir.
+> Hacknet-in hekayə-si terminal/fake OS içində yaşandığı üçün interface özü narrative delivery mexanizmidir.
 
 Digər güclü co-occurrence:
 
-- STORY + SOUND: 625
-- STORY + IMMERSION: 394
-- STORY + INVESTIGATION: 348
+- hekayə + SOUND: 625
+- hekayə + IMMERSION: 394
+- hekayə + araşdırma: 348
 
-Investigation candidate-lərinin 57%-dən çoxu story ilə birlikdədir.
+araşdırma namizəd-lərinin 57%-dən çoxu hekayə ilə birlikdədir.
 
-Bu pattern göstərir ki, Hacknet-də “story”, “files araşdırmaq” və “hacking interface” ayrıca feature-lər kimi yox, eyni experience stack-in hissələri kimi qəbul edilir.
+Bu nümunə göstərir ki, Hacknet-də “hekayə”, “files araşdırmaq” və “hacking interface” ayrıca feature-lər kimi yox, eyni experience stack-in hissələri kimi qəbul edilir.
 
 Amma audit-də negative nümunələr də var:
 
 - plot linear görünür;
-- writing bəzən zəif sayılır;
-- story core loop repetition-ını həmişə daşıya bilmir.
+- yazı keyfiyyəti bəzən zəif sayılır;
+- hekayə əsas oyun dövrü repetition-ını həmişə daşıya bilmir.
 
-**Confidence: High**
+**etibarlılıq: High**
 
 ---
 
@@ -272,11 +272,11 @@ Amma audit-də negative nümunələr də var:
 
 SOUND_AUDIO:
 
-- 1,116 candidate review;
+- 1,116 namizəd rəy;
 - 9.48% share;
-- 96.42% overall positive ratio.
+- 96.42% overall müsbət rəy nisbəti.
 
-Sound mention-larının 56%-i STORY ilə birlikdədir.
+Sound mention-larının 56%-i hekayə ilə birlikdədir.
 
 Audit-də soundtrack:
 
@@ -288,11 +288,11 @@ Audit-də soundtrack:
 
 ilə əlaqələndirilir.
 
-Bu, interface-heavy oyunlar üçün vacib design nəticəsidir:
+Bu, interface-heavy oyunlar üçün vacib dizayn nəticəsidir:
 
-> 3D action və character animation az olduqda audio feedback və music daha çox emosional yük daşıyır.
+> 3D action və character animation az olduqda audio geribildirim və music daha çox emosional yük daşıyır.
 
-**Confidence: High**
+**etibarlılıq: High**
 
 ---
 
@@ -300,17 +300,17 @@ Bu, interface-heavy oyunlar üçün vacib design nəticəsidir:
 
 TERMINAL_UI:
 
-- 2,269 review;
+- 2,269 rəy;
 - 19.27% share;
-- 92.95% overall positive ratio;
+- 92.95% overall müsbət rəy nisbəti;
 - negative concentration baseline-dan yalnız bir qədər yüksəkdir: 1.20×.
 
-Bu theme-in semantic audit-i iki fərqli audience göstərir.
+Bu mövzu-in məna yönümlü yoxlama-i iki fərqli audience göstərir.
 
 ## Müsbət tərəf
 
 - typing özü satisfying-dir;
-- terminal “hacker” fantasy-si yaradır;
+- terminal “hacker” rol hissi-si yaradır;
 - real Unix flavor-u authenticity verir;
 - GUI-dən fərqli experience yaradır.
 
@@ -331,7 +331,7 @@ Nəticə:
 
 > **Real sistemə nə qədər çox oxşayırsansa, həmin sistemin real davranışına olan expectation da artır.**
 
-**Confidence: High**
+**etibarlılıq: High**
 
 ---
 
@@ -339,25 +339,25 @@ Nəticə:
 
 REALISM_ACCURACY:
 
-- 932 candidate review;
+- 932 namizəd rəy;
 - 7.92% share;
-- 95.92% overall positive ratio.
+- 95.92% overall müsbət rəy nisbəti.
 
 Bu ilk baxışda “realism çox bəyənilir” kimi görünə bilər.
 
-Semantic audit bunu təsdiqləmir.
+məna yönümlü yoxlama bunu təsdiqləmir.
 
-Əslində çox positive review belə deyir:
+Əslində çox müsbət rəy belə deyir:
 
 - real hacking deyil;
 - hacking həddindən artıq abstract-dır;
 - amma real hacking oyun üçün çox tedious olardı;
 - seçilmiş Unix/port/terminal vocabulary kifayət qədər authenticity yaradır.
 
-Digər tərəfdə technical negative review-lər:
+Digər tərəfdə technical mənfi rəy-lər:
 
 - inaccurate Unix behavior;
-- fake tools;
+- fake alətlər;
 - yanlış proxy/log/file-system logic
 
 şikayət edir.
@@ -368,24 +368,24 @@ Deməli əsas prinsip:
 
 Marketing bu distinction-u düzgün qurmalıdır.
 
-**Confidence: High**
+**etibarlılıq: High**
 
 ---
 
-# 13. Investigation/discovery core loop-u dərinləşdirən hissədir
+# 13. araşdırma/kəşf əsas oyun dövrü-u dərinləşdirən hissədir
 
 INVESTIGATION_DISCOVERY:
 
-- 610 candidate review;
+- 610 namizəd rəy;
 - 5.18% share;
-- 96.07% overall positive ratio;
-- orta playtime 15.63 saat.
+- 96.07% overall müsbət rəy nisbəti;
+- orta oyun müddəti 15.63 saat.
 
-Candidate-lərin 57%-i STORY ilə birlikdədir.
+namizəd-lərin 57%-i hekayə ilə birlikdədir.
 
-Semantic audit-də ən yaxşı nümunələr:
+məna yönümlü yoxlama-də ən yaxşı nümunələr:
 
-- files içində clue tapmaq;
+- files içində ipucu tapmaq;
 - mission üçün lazım olmayan məlumatı araşdırmaq;
 - IP/header kimi əlavə detail-dən yeni node tapmaq;
 - insanların private data-sına baxmaq;
@@ -393,27 +393,27 @@ Semantic audit-də ən yaxşı nümunələr:
 
 Bu hissələr basic cracking sequence-dən fərqli olaraq real curiosity və decision yaradır.
 
-> **Hacknet-in daha çox dərinləşdirilə biləcək istiqaməti “daha real exploit” yox, information discovery və inference layer-dir.**
+> **Hacknet-in daha çox dərinləşdirilə biləcək istiqaməti “daha real exploit” yox, məlumat kəşfi və inference layer-dir.**
 
-**Confidence: Medium-High**
+**etibarlılıq: Medium-High**
 
 ---
 
-# 14. Onboarding həm uğurlu, həm də risklidir
+# 14. ilkin öyrətmə həm uğurlu, həm də risklidir
 
 ONBOARDING_CLARITY:
 
-- 462 candidate review;
+- 462 namizəd rəy;
 - 12.55% negative;
 - baseline-dan **2.14×** yüksək negative concentration.
 
-Positive review-lərdə:
+müsbət rəy-lərdə:
 
 - tutorial kifayət qədər rahatdır;
 - `help` command işləyir;
-- non-technical player terminala daxil ola bilir.
+- non-technical oyunçu terminala daxil ola bilir.
 
-Negative review-lərdə:
+mənfi rəy-lərdə:
 
 - konkret critical event-də nə etməli olduğu aydın deyil;
 - tutorial normal state-i öyrədir, exceptional state-i yox;
@@ -422,17 +422,17 @@ Negative review-lərdə:
 
 Bu iki nəticə zidd deyil.
 
-Hacknet initial onboarding-i yaxşı edə bilər, amma:
+Hacknet initial ilkin öyrətmə-i yaxşı edə bilər, amma:
 
-> **situational onboarding və returning-player recovery zəif qala bilər.**
+> **situational ilkin öyrətmə və returning-oyunçu bərpa zəif qala bilər.**
 
 Bizim oyun üçün tutorial yalnız başlanğıc sequence olmamalıdır.
 
-**Confidence: Medium-High**
+**etibarlılıq: Medium-High**
 
 ---
 
-# 15. Player agency və world reactivity — aşağı volume, yüksək risk siqnalı
+# 15. oyunçunun qərar sərbəstliyi və təsiri və dünyanın reaksiyası — aşağı volume, yüksək risk siqnalı
 
 PLAYER_AGENCY:
 
@@ -446,48 +446,48 @@ WORLD_REACTIVITY:
 - 20.83% negative;
 - baseline-dan **3.55×** yüksək.
 
-Bu theme-lərin retrieval coverage-i dar olduğu üçün prevalence haqqında güclü nəticə çıxarmaq olmaz.
+Bu mövzu-lərin retrieval coverage-i dar olduğu üçün prevalence haqqında güclü nəticə çıxarmaq olmaz.
 
-Amma semantic audit consistent complaint göstərir:
+Amma məna yönümlü yoxlama consistent complaint göstərir:
 
 - linear path;
-- no meaningful consequence;
+- no mənalı nəticə;
 - logs bəzən əhəmiyyətsizdir;
 - hacked world kifayət qədər cavab vermir;
-- bəzi “choice” hissləri real sistemik nəticə yaratmır.
+- bəzi “seçim” hissləri real sistemik nəticə yaratmır.
 
-Eyni zamanda positive review-lərdə hidden server, optional clue və gözlənilməz “sən hack olunursan” sequence-i yüksək dəyər yaradır.
+Eyni zamanda müsbət rəy-lərdə hidden server, optional ipucu və gözlənilməz “sən hack olunursan” sequence-i yüksək dəyər yaradır.
 
 Bu contrast vacibdir:
 
 > Oyunçular scripted surprise-i sevir, amma sistemik reactivity daha zəifdir.
 
-Bu bizim gələcək concept üçün böyük opportunity ola bilər.
+Bu bizim gələcək concept üçün böyük imkan ola bilər.
 
-**Confidence: Medium**
+**etibarlılıq: Medium**
 
 ---
 
-# 16. Mod support uzunmüddətli dəyəri ciddi artırır
+# 16. mod dəstəyi uzunmüddətli dəyəri ciddi artırır
 
-MOD_REPLAYABILITY:
+MOD_təkrar oynama dəyəri:
 
-- 405 candidate review;
-- 97.78% overall positive ratio;
-- average playtime: **25.19 saat** — theme-lər arasında ən yüksək göstəricilərdən biri;
+- 405 namizəd rəy;
+- 97.78% overall müsbət rəy nisbəti;
+- average oyun müddəti: **25.19 saat** — mövzu-lər arasında ən yüksək göstəricilərdən biri;
 - 257 mention 10h+ cohort-dadır.
 
 Bu causation deyil: uzun oynayan oyunçu mod haqqında daha çox yaza bilər.
 
-Amma evidence istiqaməti güclüdür:
+Amma dəlil istiqaməti güclüdür:
 
-- Workshop/custom extensions əlavə content verir;
-- base-game loop finite olsa da community content ömrü uzadır;
-- story/interface engine başqa hekayələri daşıya bilir.
+- Workshop/custom extensions əlavə məzmun verir;
+- base-game loop finite olsa da community məzmun ömrü uzadır;
+- hekayə/interface engine başqa hekayələri daşıya bilir.
 
-Bizim oyun üçün launch feature kimi şərt deyil, amma content-heavy UI oyunlarında creator tools yüksək leverage yarada bilər.
+Bizim oyun üçün launch feature kimi şərt deyil, amma məzmun-heavy UI oyunlarında creator alətlər yüksək leverage yarada bilər.
 
-**Confidence: Medium-High**
+**etibarlılıq: Medium-High**
 
 ---
 
@@ -495,9 +495,9 @@ Bizim oyun üçün launch feature kimi şərt deyil, amma content-heavy UI oyunl
 
 EDUCATIONAL_IMPACT:
 
-- 107 explicit candidate review;
-- 97.20% overall positive ratio;
-- orta playtime 15.94 saat.
+- 107 explicit namizəd rəy;
+- 97.20% overall müsbət rəy nisbəti;
+- orta oyun müddəti 15.94 saat.
 
 Audit göstərir ki, iki fikir paralel yaşayır:
 
@@ -508,17 +508,17 @@ Ona görə:
 
 > Hacknet-i educational simulator kimi yox, technology-interest gateway kimi düşünmək daha düzgündür.
 
-Bu positioning həm expectation mismatch-i azaldır, həm də positive secondary value-ni qoruyur.
+Bu təqdimat həm expectation mismatch-i azaldır, həm də positive secondary value-ni qoruyur.
 
-**Confidence: Medium**
+**etibarlılıq: Medium**
 
 ---
 
 # 18. Taxonomy audit nəticəsi
 
-Current retrieval taxonomy faydalıdır, amma final semantic taxonomy üçün bəzi theme-lər bölünməlidir.
+Current retrieval taxonomy faydalıdır, amma final məna yönümlü taxonomy üçün bəzi mövzu-lər bölünməlidir.
 
-## Bölünməli theme-lər
+## Bölünməli mövzu-lər
 
 ### DEPTH_CHALLENGE
 
@@ -548,7 +548,7 @@ Final aspect taxonomy-də ayrılmalıdır.
 
 Final taxonomy-də belə ayrılma faydalıdır:
 
-- CONSEQUENCES
+- nəticələr
 - WORLD_REACTIVITY / PERSISTENCE
 - TRACE / URGENCY
 
@@ -556,7 +556,7 @@ Final taxonomy-də belə ayrılma faydalıdır:
 
 # 19. Final aspect taxonomy üçün tövsiyə
 
-Növbəti mərhələdə semantic coding üçün aşağıdakı aspect-lər daha düzgündür:
+Növbəti mərhələdə məna yönümlü coding üçün aşağıdakı aspect-lər daha düzgündür:
 
 ```text
 HACKER_FANTASY
@@ -603,23 +603,23 @@ Bu taxonomy digər oyunlarla müqayisədə də mümkün qədər reusable saxlanm
 
 ---
 
-# 20. Hacknet üçün evidence-backed design nəticələri
+# 20. Hacknet üçün dəlil-backed dizayn nəticələri
 
-## 20.1. Hook düzgündür
+## 20.1. ilkin cəlbedicilik düzgündür
 
-Hacker fantasy explicit mention-larda çox güclü müsbət siqnaldır.
+özünü haker kimi hiss etmə explicit mention-larda çox güclü müsbət siqnaldır.
 
-**Dərs:** fantasy-ni azaltmaq yox, onu daha uzun müddət daşıya biləcək sistem qurmaq lazımdır.
+**Dərs:** rol hissi-ni azaltmaq yox, onu daha uzun müddət daşıya biləcək sistem qurmaq lazımdır.
 
-## 20.2. Core loop-un novelty-si tez görünə bilər
+## 20.2. əsas oyun dövrü-un novelty-si tez görünə bilər
 
-Repetition negative concentration-u çox yüksəkdir və terminal/depth ilə güclü co-occurrence edir.
+Repetition negative concentration-u çox yüksəkdir və terminal/dərinlik ilə güclü co-occurrence edir.
 
 **Dərs:** yeni target sadəcə yeni port və daha uzun wait olmamalıdır.
 
-## 20.3. Information gameplay hacking gameplay-dən daha çox expansion potential göstərir
+## 20.3. Information oyun gedişi hacking oyun gedişi-dən daha çox expansion potential göstərir
 
-Investigation/discovery pattern-i story ilə güclü bağlıdır və audit-də curiosity yaradır.
+araşdırma/kəşf nümunə-i hekayə ilə güclü bağlıdır və audit-də curiosity yaradır.
 
 **Dərs:** access əldə etmək məqsəd yox, daha maraqlı information problem-in giriş qapısı ola bilər.
 
@@ -635,48 +635,48 @@ Terminal real görünürsə, technical user onun real davranışını gözləyir
 
 **Dərs:** ya standard behavior-a yaxın ol, ya da fictional abstraction olduğunu aydın göstər.
 
-## 20.6. Consequence promise varsa, sistem onu yerinə yetirməlidir
+## 20.6. nəticə promise varsa, sistem onu yerinə yetirməlidir
 
-Log, trace və hacking risk kimi təqdim edilirsə, oyunçu onların real consequence yaratmasını gözləyir.
+Log, trace və hacking risk kimi təqdim edilirsə, oyunçu onların real nəticə yaratmasını gözləyir.
 
 **Dərs:** decorative systems immersion-ı uzun müddətdə zəiflədə bilər.
 
-## 20.7. Audio design core sistemdir
+## 20.7. Audio dizayn core sistemdir
 
-Sound/story/immersion birlikdə güclü görünür.
+Sound/hekayə/immersion birlikdə güclü görünür.
 
-**Dərs:** computer-interface oyunda audio production başlanğıcdan gameplay design-a daxil edilməlidir.
+**Dərs:** computer-interface oyunda audio production başlanğıcdan oyun gedişi dizayn-a daxil edilməlidir.
 
-## 20.8. Returning player ayrıca use-case-dir
+## 20.8. fasilədən sonra qayıdan oyunçu ayrıca use-case-dir
 
 Command vocabulary normal control scheme deyil.
 
-**Dərs:** recap, contextual help, recent commands, notes/evidence sistemi lazımdır.
+**Dərs:** recap, contextual help, recent commands, notes/dəlil sistemi lazımdır.
 
-## 20.9. Technical stability research nəticələrində ayrıca saxlanmalıdır
+## 20.9. Technical stability araşdırma nəticələrində ayrıca saxlanmalıdır
 
 Bugs ən yüksək negative concentration verir.
 
-**Dərs:** bir oyunun “niyə negative review alması” ilə “design niyə işləmir” eyni sual deyil.
+**Dərs:** bir oyunun “niyə mənfi rəy alması” ilə “dizayn niyə işləmir” eyni sual deyil.
 
 ---
 
-# 21. Cari confidence matrix
+# 21. Cari Etibarlılıq cədvəli
 
-| Nəticə | Confidence |
+| Nəticə | etibarlılıq |
 |---|---|
-| Repetition əsas design failure pattern-dir | High |
-| Hacker fantasy əsas value proposition-dır | High |
-| Immersion əsas satisfaction driver-dir | High |
-| Story experience-in əsas hissəsidir | High |
+| Repetition əsas dizayn uğursuzluq nümunəsi-dir | High |
+| özünü haker kimi hiss etmə əsas value proposition-dır | High |
+| Immersion əsas satisfaction amil-dir | High |
+| hekayə experience-in əsas hissəsidir | High |
 | Soundtrack experience-i gücləndirir | High |
-| Technical bugs negative reviews-a ciddi təsir edir | High |
+| Technical bugs mənfi rəys-a ciddi təsir edir | High |
 | Full realism tələb olunmur; selective authenticity işləyir | High |
 | Terminal technical audience üçün expectation riski yaradır | High |
-| Investigation/discovery daha dərin gameplay üçün opportunity-dir | Medium-High |
-| Mod support uzunömürlülüyü artırır | Medium-High |
-| Onboarding-in problem nöqtələri situational/returning-player xarakterlidir | Medium-High |
-| Agency/consequence/world reactivity böyük opportunity-dir | Medium |
+| araşdırma/kəşf daha dərin oyun gedişi üçün imkan-dir | Medium-High |
+| mod dəstəyi uzunömürlülüyü artırır | Medium-High |
+| ilkin öyrətmə-in problem nöqtələri situational/returning-oyunçu xarakterlidir | Medium-High |
+| qərar sərbəstliyi/nəticə/dünyanın reaksiyası böyük imkan-dir | Medium |
 | Educational value daha çox gateway/inspiration-dır | Medium |
 | Pacing/waiting ayrıca böyük problem-dir | Low-Medium — retrieval sayı azdır |
 
@@ -684,28 +684,28 @@ Bugs ən yüksək negative concentration verir.
 
 # 22. Məhdudiyyətlər
 
-1. Candidate retrieval semantic model deyil.
-2. Theme frequency lexical coverage-dən asılıdır.
-3. Overall Steam recommendation aspect sentiment deyil.
+1. namizəd retrieval məna yönümlü model deyil.
+2. mövzu frequency lexical coverage-dən asılıdır.
+3. Overall Steam tövsiyəsi aspekt üzrə münasibət deyil.
 4. Audit sample-lar helpful və cohort-balanced seçimlərdən ibarətdir; population-random survey deyil.
-5. Review yazanlar bütün player population-u təmsil etmir.
-6. Playtime ilə sentiment əlaqəsi self-selection daşıyır.
+5. rəy yazanlar bütün oyunçu population-u təmsil etmir.
+6. oyun müddəti ilə sentiment əlaqəsi self-selection daşıyır.
 7. Co-occurrence causation deyil.
-8. Bəzi uzun review-lər birdən çox theme-i eyni anda daşıyır.
+8. Bəzi uzun rəy-lər birdən çox mövzu-i eyni anda daşıyır.
 
-Buna görə bu sənədin rəqəmləri **design evidence** kimi istifadə olunur, exact population psychology kimi yox.
+Buna görə bu sənədin rəqəmləri **dizayn dəlil** kimi istifadə olunur, exact population psychology kimi yox.
 
 ---
 
 # 23. Növbəti addım
 
-Hacknet üçün full-corpus retrieval + semantic audit artıq kifayət qədər güclü bazadır.
+Hacknet üçün bütün rəy toplusu üzrə retrieval + məna yönümlü yoxlama artıq kifayət qədər güclü bazadır.
 
 Növbəti addımlar:
 
-1. final semantic aspect taxonomy-ni ayrıca config kimi sabitləşdirmək;
+1. final məna yönümlü aspect taxonomy-ni ayrıca config kimi sabitləşdirmək;
 2. Hacknet `deep-research.md` sənədinə bu quantitative nəticələrin executive versiyasını əlavə etmək;
 3. Hacknet report-u master brief-dəki per-game professional struktura yaxınlaşdırmaq;
-4. bundan sonra **Midnight Protocol** üçün eyni data/research metoduna keçmək;
+4. bundan sonra **Midnight Protocol** üçün eyni data/araşdırma metoduna keçmək;
 5. sonra Hacknet vs Midnight Protocol müqayisəsi aparmaq.
 
