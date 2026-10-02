@@ -10,7 +10,7 @@ Bu sənəd The Operator üçün verified Steam rəy məlumat toplusu üzərində
 
 Qısa cavab:
 
-> **Qismən.** The Operator investigation fantasy-ni daha aydın, polished və accessible təqdim edir, amma oyunçu-a verilən real procedural qərar sərbəstliyi məhduddur. Əsas risk artıq clue ambiguity deyil; **linearity, hand-holding, meaningful seçim çatışmazlığı, qısa content və closure problemidir.**
+> **Qismən.** The Operator investigation rol hissi-ni daha aydın, polished və accessible təqdim edir, amma oyunçu-a verilən real procedural qərar sərbəstliyi məhduddur. Əsas risk artıq clue ambiguity deyil; **linearity, hand-holding, meaningful seçim çatışmazlığı, qısa content və closure problemidir.**
 
 ---
 
@@ -37,7 +37,7 @@ Snapshot: **2026-10-02**
 
 ---
 
-## 3. oyun müddəti cohort-ları
+## 3. oyun müddəti qrup-ları
 
 | oyun müddəti | Reviews | müsbət ratio |
 |---|---:|---:|
@@ -48,14 +48,14 @@ Snapshot: **2026-10-02**
 
 The Operator-da əsas risk ilk saatdır, amma Cyber Manhunt qədər sərt deyil.
 
-0–1h cohort-un zəifliyi iki qrupa bölünür:
+0–1h qrup-un zəifliyi iki qrupa bölünür:
 
 - məhsul expectation mismatch;
 - çox tez “railroaded / hekayə-first” hissi alan oyunçu-lər.
 
-3–10h cohort çox güclüdür; bu da game-in əsas 3–5 saatlıq run uzunluğuna uyğundur.
+3–10h qrup çox güclüdür; bu da game-in əsas 3–5 saatlıq run uzunluğuna uyğundur.
 
-10h+ cohort-un bir qədər aşağı düşməsi replay/achievement və content limitləri ilə əlaqəli ola bilər, amma causation kimi təqdim edilmir.
+10h+ qrup-un bir qədər aşağı düşməsi replay/achievement və content limitləri ilə əlaqəli ola bilər, amma causation kimi təqdim edilmir.
 
 ---
 
@@ -100,7 +100,7 @@ Bu rəqəmlər aspect sentiment deyil. Onlar həmin mövzu-i qeyd edən rəy-lə
 
 ## 5. Əsas nəticə: polished investigation, amma aşağı procedural qərar sərbəstliyi
 
-The Operator-un UI-si, presentation-ı və tool-ları çox oyunçu üçün inandırıcı “operator” fantasy-si yaradır.
+The Operator-un UI-si, presentation-ı və tool-ları çox oyunçu üçün inandırıcı “operator” rol hissi-si yaradır.
 
 müsbət rəy-lərdə:
 
@@ -149,7 +149,7 @@ Bu iki mövzu 151 rəy-da birlikdə görünür.
 
 ### dizayn lesson
 
-> **Investigation fantasy üçün tool realizm kifayət deyil. oyunçu nəticəni necə tapacağı və nə edəcəyi üzərində real təsir hiss etməlidir.**
+> **Investigation rol hissi üçün tool realizm kifayət deyil. oyunçu nəticəni necə tapacağı və nə edəcəyi üzərində real təsir hiss etməlidir.**
 
 ---
 
@@ -235,7 +235,7 @@ LENGTH_CONTENT:
 - baseline-dan **2.08×** yüksək.
 
 mənfi rəy-lərdə əsas fikir:
-- mexanika-lər maraqlıdır;
+- mexanikalar maraqlıdır;
 - oyunçu onları yeni öyrənəndə oyun bitir;
 - bir neçə fərqli independent case gözlənilir;
 - actual content bir əsas conspiracy arc-a çevrilir;
@@ -277,7 +277,7 @@ Bu variety yaradır, amma mastery yaratmır.
 
 > **Bir mexanika yalnız bir dəfə istifadə olunursa, o mexanika deyil, set-piece ola bilər.**
 
-Bu pis deyil. Amma mağaza/game fantasy “peşəkar operator toolbox”dırsa, oyunçu tool-ların sonradan kombinə olunmasını gözləyə bilər.
+Bu pis deyil. Amma mağaza/game rol hissi “peşəkar operator toolbox”dırsa, oyunçu tool-ların sonradan kombinə olunmasını gözləyə bilər.
 
 ---
 
@@ -303,7 +303,7 @@ Amma complaint:
 - çox puzzle asandır;
 - səhv seçim dərhal correct edilir;
 - bəzi sequence-lər “moon logic” və ya over-scripted görünür;
-- ən maraqlı mexanika-lər təkrar istifadə olunmur.
+- ən maraqlı mexanikalar təkrar istifadə olunmur.
 
 ### Nəticə
 
@@ -328,14 +328,14 @@ UI_USABILITY:
 - **20.91% mənfi**
 
 müsbət dəlil:
-- fictional OS;
+- uydurma əməliyyat sistemi;
 - clean high-tech interface;
 - voice acting;
 - music;
 - in-world calculator/notepad;
 - databases;
 - terminal;
-- full-screen desk-work fantasy.
+- full-screen desk-work rol hissi.
 
 yaradıcı Bastien Giafferi interface-i real OS-lərdən elementlər götürərək, hər tool-un “real software necə işləyərdi?” sualı ilə dizayn etdiyini deyir. Terminal isə əvvəl daha böyük role üçün düşünülüb, sonra oyuna dalma hissi/completeness qat-i kimi saxlanıb.
 
@@ -412,7 +412,7 @@ Bu, maraqlı kompromis-dur:
 
 ## 16. yaradıcı intent vs oyunçu outcome
 
-### Intent: “guy in the chair” fantasy
+### Intent: “guy in the chair” rol hissi
 
 **Outcome:** çox uğurludur.
 
@@ -475,7 +475,7 @@ Bu çox vacib dizayn nəticəsidir.
 5. **Tool variety system dərinlik deyil.**
 6. **Ending short narrative məhsul üçün kritik satisfaction qat-dir.**
 7. **seçim təqdim edilirsə nəticə expectation yaranır.**
-8. **UI və audio interface-game fantasy-nin əsas hissəsidir.**
+8. **UI və audio interface-game rol hissi-nin əsas hissəsidir.**
 9. **Single-playthrough intent mağaza/narrative promise ilə uyğunlaşdırılmalıdır.**
 10. **Investigation oyunçu-a ən azı bəzi nəticələri guidance olmadan çıxarmağa imkan verməlidir.**
 
