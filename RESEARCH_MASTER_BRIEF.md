@@ -73,7 +73,7 @@ Sənədlərin rolu:
 
 Araşdırdığımız sahə geniş mənada belədir:
 
-> **Computer-interface / fictional OS / terminal / hacking / digital araşdırma / surveillance / found-device tipli oyunlar.**
+> **Computer-interface / uydurma əməliyyat sistemi / terminal / hacking / digital araşdırma / surveillance / found-device tipli oyunlar.**
 
 Bu oyunlarda əsas oyun gedişi klassik 3D dünya və ya action sistemi deyil. Oyunçu əsasən:
 
@@ -111,7 +111,7 @@ Araşdırmanın məqsədi “filan oyunu kopyalayaq” nəticəsinə gəlmək de
 Məqsəd:
 
 1. bazarda artıq sınanmış yanaşmaları anlamaq;
-2. təkrarlanan uğur nümunə-lərini tapmaq;
+2. təkrarlanan uğur nümunələrini tapmaq;
 3. təkrarlanan uğursuzluq nümunəsi-lərini tapmaq;
 4. oyunçu expectation-ları anlamaq;
 5. underserved / zəif həll olunmuş ehtiyacları tapmaq;
@@ -414,7 +414,7 @@ Bu oyunlara tam dərin araşdırma yalnız əlavə dəlil lazım olarsa tətbiq 
 - Məhsul və bazar görünüşü;
 - mağaza təqdimat;
 - targeted Steam rəy nümunə və ya kiçik məlumat toplusu;
-- əsas müsbət/mənfi nümunə-lər;
+- əsas müsbət/mənfi nümunələr;
 - relevant yaradıcı/peşəkar/icma mənbə-lar;
 - mövcud Tier A hipotezlərini test edən qısa focused hesabat.
 
@@ -647,7 +647,7 @@ Model/prompt versiyası mümkün olduqda saxlanmalıdır.
 
 ---
 
-## Mərhələ 7 — oyun müddəti və cohort təhlil
+## Mərhələ 7 — oyun müddəti və qrup təhlil
 
 Araşdır:
 
@@ -903,7 +903,7 @@ mövzu/aspect cədvəlləri:
 
 ## 12. oyunçu geribildirim — Qualitative
 
-Ən vacib nümunə-lər:
+Ən vacib nümunələr:
 
 - nə bəyənilir;
 - nə bəyənilmir;
@@ -1047,7 +1047,7 @@ Məsələn:
 - digital araşdırma;
 - surveillance;
 - found phone/device;
-- fictional OS/internet;
+- uydurma əməliyyat sistemi/internet;
 - interface narrative.
 
 ## 3. oyunçu Jobs / Fantasies
@@ -1522,7 +1522,7 @@ analysis/final/
 Bu faylların rolu:
 
 - `market-landscape.md` — bazar/subgenre xəritəsi və representative games;
-- `genre-synthesis.md` — oyunlararası recurring nümunə-lər;
+- `genre-synthesis.md` — oyunlararası recurring nümunələr;
 - `design-principles.md` — dəlil-backed dizayn qaydaları;
 - `opportunity-map.md` — həll olunmamış oyunçu/məhsul imkan-ləri;
 - `risk-register.md` — yeni concept üçün əsas risklər və validation üsulları;
@@ -1635,7 +1635,7 @@ Bütün 48 mənfi rəy məna yönümlü yoxlama edilib. Əsas nəticələr:
 
 - növbə əsaslı taktiki model Hacknet-dən daha çox qərar dərinlik yaradır;
 - RNG (təsadüfi nəticə mexanizmi) və ədalətlilik və yenidən cəhd/rollback əsas uğursuzluq amil-ləridir;
-- 1–3h cohort xüsusi risk nöqtəsidir;
+- 1–3h qrup xüsusi risk nöqtəsidir;
 - yalnız klaviatura ilə control həm oyuna dalma hissi amil, həm UX çətinlik-dır;
 - seçim/reputation Hacknet-də zəif olan oyunçunun qərar sərbəstliyi və təsiri/nəticə problemini xeyli yaxşı həll edir;
 - seçilmiş həqiqilik hissi prinsipi ikinci oyunda da təsdiqlənir.
@@ -1650,7 +1650,7 @@ müqayisə tamamlanıb:
 
 ```text
 Hacknet:
-fast fantasy payoff
+fast rol hissi payoff
 → simple loop
 → repetition risk
 
@@ -1672,8 +1672,8 @@ Cyber Manhunt üzrə əsas araşdırma mərhələsi tamamlanıb:
 
 Əsas nəticələr:
 
-- 0–3h cohort çox yüksək risk daşıyır: 95 rəyin 59-u mənfi-dir;
-- LINEARITY_SCRIPTING ən güclü dizayn risk-lərindən biridir;
+- 0–3h qrup çox yüksək risk daşıyır: 95 rəyin 59-u mənfi-dir;
+- LINEARITY_SCRIPTING ən güclü dizayn risklərindən biridir;
 - lokallaşdırma/yazı keyfiyyəti text-heavy oyun gedişi-ə birbaşa təsir edir;
 - araşdırma rol hissi güclüdür, amma exact ipucu/progression dependency məntiqi nəticə çıxarma hissini zəiflədir;
 - information-driven oyun gedişi də təkrarçılıq-dan immun deyil;
@@ -1696,7 +1696,7 @@ The Operator üzrə əsas araşdırma mərhələsi tamamlanıb:
 - interface/audio “operator” rol hissi-sini çox güclü dəstəkləyir;
 - linearlıq və zəif oyunçunun qərar sərbəstliyi və təsiri əsas dizayn riskidir;
 - final və tamamlanma hissi və qısa məzmun recommendation-a ciddi təsir edir;
-- bir dəfə istifadə olunan mexanika-lər variety yaradır, amma mastery yaratmır;
+- bir dəfə istifadə olunan mexanikalar variety yaradır, amma mastery yaratmır;
 - aydınlıq və qərar sərbəstliyi birlikdə dizayn edilməlidir.
 
 ### Orwell deep araşdırma
