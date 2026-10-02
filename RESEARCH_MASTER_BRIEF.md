@@ -51,6 +51,27 @@ Yeni AI sessiyası və ya yeni komanda üzvü bu ardıcıllıqla başlamalıdır
 6. Bu sənədin sonundakı **Cari vəziyyət** bölməsini oxu.
 7. Hazır milestone tamamlanmadan özbaşına yeni oyun və ya yeni araşdırma istiqamətinə keçmə.
 
+## Oyun üzrə `analysis/<game>/` qovluğu üçün məcburi standart
+
+Tamamlanmış hər oyun qovluğunda **yalnız bu 3 fayl** saxlanmalıdır:
+
+```text
+analysis/<game>/
+├── research-kickoff.md
+├── theme-analysis.md
+└── deep-research.md
+```
+
+Rollar:
+
+- `research-kickoff.md` — məlumat toplanmazdan əvvəl məqsəd, əsas suallar və ilkin fərziyyələr;
+- `theme-analysis.md` — rəy məlumatları, mövzu statistikası və məna yönümlü yoxlamanın detallı dəlil qatı;
+- `deep-research.md` — komanda və rəhbərlik üçün əsas yekun oyun hesabatı.
+
+Araşdırma zamanı yaradılan aralıq audit, korpus yoxlaması, qeydlər və sınaq faylları son nəticələr bu üç sənədə inteqrasiya edildikdən sonra `analysis/<game>/` qovluğunda saxlanmamalıdır. Lazım gəlsə onların tarixçəsi Git-də qalır.
+
+Bu qaydanın məqsədi bütün oyunlarda eyni naviqasiya və sənəd strukturu saxlamaqdır.
+
 Sənədlərin rolu:
 
 | Fayl / qovluq | Rolu |
@@ -1812,7 +1833,7 @@ Bu bölmə yeni sessiyada “nə hazırdır?” sualının əsas istinad-udur.
 - ✅ `data/reports/hacknet/summary.md`
 - ✅ `data/reports/hacknet/theme-candidates.md`
 - ✅ `data/processed/hacknet/themes/statistics.json`
-- ✅ `analysis/hacknet/research-kickoff.md` — retrospektiv şəkildə bərpa edilmiş ilkin plan
+- ✅ `analysis/hacknet/research-kickoff.md` — ilkin araşdırma planı; tamamlandıqdan sonra tarixi kontekst kimi saxlanılır
 - ✅ `analysis/hacknet/theme-analysis.md`
 - ✅ `analysis/hacknet/deep-research.md`
 
