@@ -52,7 +52,7 @@ Oyunçu:
 2. **Nəticə görünəndir.** Seçilən məlumat dünyada reaksiya yaradır.
 3. **Etik seçim dialoq menyusu olmadan yaranır.**
 4. **Kontekst vacibdir.** Eyni cümlə zarafat, qəzəb və ya real fakt ola bilər.
-5. **Məlumatın mənbə və etibarlılığı** gameplay materialına çevrilir.
+5. **Məlumatın mənbə və etibarlılığı** oyun gedişi materialına çevrilir.
 6. **Story ilə mechanic eyni materialdan qurulur.**
 7. Player bias və system bias oyunun mövzusuna çevrilir.
 
@@ -61,7 +61,7 @@ Oyunçu:
 1. **Auto-highlight** relevant məlumatı əvvəlcədən göstərir və discovery hissini azaldır.
 2. **Məsləhətçi bəzən oyunçu əvəzinə interpretasiya edir.**
 3. **İrəliləyiş üçün məcburi məlumat parçaları** real seçim hissini zəiflədə bilər.
-4. **Ziddiyyətli dəlillər üçün bəzən kifayət qədər kontekst yoxdur**, qərar informed choice yox, guess olur.
+4. **Ziddiyyətli dəlillər üçün bəzən kifayət qədər kontekst yoxdur**, qərar informed seçim yox, guess olur.
 5. **Ötürülmüş məlumat geri qaytarılmır**, amma yeni dəlil sonradan əvvəlki nəticəni səhv göstərə bilər.
 6. **Drag/upload əməl dövrü** uzun müddətdə təkrarlana bilir.
 7. İlk saatda əsas dəyər tam görünmədiyi üçün oyun “highlight olunmuş mətni sürükləmək” kimi görünə bilər.
@@ -76,14 +76,14 @@ Bunu göstərən faktlar:
 - 8,549 yoxlanmış Steam rəyi;
 - 90.48% müsbət rəy;
 - 2016 buraxılışına baxmayaraq davamlı yüksək görünürlük;
-- sequel və tanınan franchise kimliyi.
+- sequel və tanınan seriya kimliyi.
 
 ### Güclü nəticəni izah edən əsas hipotezlər
 
 - Çox güclü və bir cümlədə izah olunan konsept: “dövlət surveillance sistemində hansı məlumatın rəsmi həqiqətə çevriləcəyinə sən qərar verirsən”.
 - Real dünyadakı privacy və surveillance müzakirələri ilə yüksək əlaqə.
 - Texniki bilik tələb etmədən “məlumat gücü” fantaziyası.
-- Seçimlərin nəticəsinin görünməsi oyunçuda agency hissi yaradır.
+- Seçimlərin nəticəsinin görünməsi oyunçuda qərar sərbəstliyi hissi yaradır.
 - Hekayə və mechanic bir-birindən ayrı deyil.
 - Hər qərar oyunçunun öz etik mövqeyini hiss etdirməyə imkan verir.
 
@@ -103,7 +103,7 @@ Bunu göstərən faktlar:
 - görünən immediate və delayed consequence;
 - kontekst və mənbə etibarlılığı;
 - public → private → hidden məlumat qatları;
-- etik dilemma gameplay daxilində.
+- etik dilemma oyun gedişi daxilində.
 
 **Qaç:**
 - relevance-i oyunçu əvəzinə tam highlight etmək;
