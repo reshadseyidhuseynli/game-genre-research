@@ -1537,14 +1537,19 @@ Cyber Manhunt dataset və analysis tamamlanıb.
 
 Bundan sonra növbəti research target seçilməlidir.
 
-Hazır ən yüksək informasiya dəyərli namizədlər:
-- The Operator — modern evidence/investigation workflow;
+Növbəti target seçilib: **The Operator**
+
+- key: `the-operator`
+- Steam App ID: `1771980`
+- kickoff: `analysis/the-operator/research-kickoff.md`
+
+The Operator Cyber Manhunt-un əsas research sualını test edəcək:
+
+> scripted clue progression əvəzinə focused analysis tools və evidence comparison player-a daha real deduction hissi verirmi?
+
+Bundan sonrakı yüksək informasiya dəyərli namizədlər:
 - Mainlining — hacking + investigation + choice;
 - Orwell — information selection + surveillance + ethics.
-
-Prioritet sual:
-
-> Cyber Manhunt-un scripted investigation problemini başqa digital-investigation oyunları necə həll edir?
 
 ---
 
