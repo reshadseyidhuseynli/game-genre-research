@@ -23,5 +23,8 @@ games:
   - key: simulacra
     name: SIMULACRA
     steam_app_id: 712730
+  - key: simulacra-3
+    name: SIMULACRA 3
+    steam_app_id: 1925970
 sample_size: 50
 request_delay_seconds: 2
