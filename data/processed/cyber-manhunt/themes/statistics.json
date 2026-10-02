@@ -1,0 +1,719 @@
+{
+  "method": "deterministic_regex_candidate_retrieval",
+  "warning": "Theme hits are retrieval candidates, not final semantic/aspect labels. Positive ratio is the Steam recommendation ratio among reviews mentioning the theme, not aspect-level sentiment.",
+  "taxonomy_version": 3,
+  "taxonomy_sha256": "30538fefc56c114b760bd77d2e8b6440a5860a730195c5d2bbfd8c17c19a7d55",
+  "total_reviews": 847,
+  "reviews_with_any_theme_candidate": 543,
+  "coverage_ratio": 0.641086186540732,
+  "themes": {
+    "HACKER_FANTASY": {
+      "label_az": "Hacker fantasy-si",
+      "mention_count": 7,
+      "mention_ratio": 0.008264462809917356,
+      "positive_reviews": 6,
+      "negative_reviews": 1,
+      "positive_ratio": 0.8571428571428571,
+      "average_playtime_at_review_hours": 12.564285714285715,
+      "playtime_segments": {
+        "0-1h": 1,
+        "1-3h": 1,
+        "10h+": 3,
+        "3-10h": 2
+      }
+    },
+    "IMMERSION": {
+      "label_az": "Immersion və atmosferə daxil olma",
+      "mention_count": 66,
+      "mention_ratio": 0.07792207792207792,
+      "positive_reviews": 47,
+      "negative_reviews": 19,
+      "positive_ratio": 0.7121212121212122,
+      "average_playtime_at_review_hours": 10.945707070707071,
+      "playtime_segments": {
+        "0-1h": 4,
+        "1-3h": 3,
+        "10h+": 30,
+        "3-10h": 29
+      }
+    },
+    "TERMINAL_UI": {
+      "label_az": "Terminal və command-line interfeysi",
+      "mention_count": 7,
+      "mention_ratio": 0.008264462809917356,
+      "positive_reviews": 3,
+      "negative_reviews": 4,
+      "positive_ratio": 0.42857142857142855,
+      "average_playtime_at_review_hours": 7.602380952380953,
+      "playtime_segments": {
+        "0-1h": 2,
+        "10h+": 3,
+        "3-10h": 2
+      }
+    },
+    "STORY_NARRATIVE": {
+      "label_az": "Story və narrative",
+      "mention_count": 315,
+      "mention_ratio": 0.371900826446281,
+      "positive_reviews": 253,
+      "negative_reviews": 62,
+      "positive_ratio": 0.8031746031746032,
+      "average_playtime_at_review_hours": 12.124708994708994,
+      "playtime_segments": {
+        "0-1h": 7,
+        "1-3h": 12,
+        "10h+": 177,
+        "3-10h": 119
+      }
+    },
+    "INVESTIGATION_DISCOVERY": {
+      "label_az": "Araşdırma, kəşf və clue tapma",
+      "mention_count": 190,
+      "mention_ratio": 0.2243211334120425,
+      "positive_reviews": 149,
+      "negative_reviews": 41,
+      "positive_ratio": 0.7842105263157895,
+      "average_playtime_at_review_hours": 11.520877192982457,
+      "playtime_segments": {
+        "0-1h": 3,
+        "1-3h": 10,
+        "10h+": 91,
+        "3-10h": 86
+      }
+    },
+    "SOUND_AUDIO": {
+      "label_az": "Soundtrack və audio",
+      "mention_count": 38,
+      "mention_ratio": 0.0448642266824085,
+      "positive_reviews": 35,
+      "negative_reviews": 3,
+      "positive_ratio": 0.9210526315789473,
+      "average_playtime_at_review_hours": 15.953508771929824,
+      "playtime_segments": {
+        "0-1h": 1,
+        "1-3h": 1,
+        "10h+": 24,
+        "3-10h": 12
+      }
+    },
+    "REPETITION": {
+      "label_az": "Təkrarçılıq",
+      "mention_count": 57,
+      "mention_ratio": 0.06729634002361275,
+      "positive_reviews": 32,
+      "negative_reviews": 25,
+      "positive_ratio": 0.5614035087719298,
+      "average_playtime_at_review_hours": 11.540643274853801,
+      "playtime_segments": {
+        "1-3h": 7,
+        "10h+": 29,
+        "3-10h": 21
+      }
+    },
+    "DEPTH_CHALLENGE": {
+      "label_az": "Dərinlik, challenge və problem həlli",
+      "mention_count": 189,
+      "mention_ratio": 0.2231404958677686,
+      "positive_reviews": 145,
+      "negative_reviews": 44,
+      "positive_ratio": 0.7671957671957672,
+      "average_playtime_at_review_hours": 12.656084656084657,
+      "playtime_segments": {
+        "0-1h": 5,
+        "1-3h": 8,
+        "10h+": 93,
+        "3-10h": 83
+      }
+    },
+    "REALISM_ACCURACY": {
+      "label_az": "Realizm və texniki düzgünlük",
+      "mention_count": 36,
+      "mention_ratio": 0.04250295159386069,
+      "positive_reviews": 33,
+      "negative_reviews": 3,
+      "positive_ratio": 0.9166666666666666,
+      "average_playtime_at_review_hours": 13.16712962962963,
+      "playtime_segments": {
+        "0-1h": 2,
+        "1-3h": 3,
+        "10h+": 21,
+        "3-10h": 10
+      }
+    },
+    "ONBOARDING_CLARITY": {
+      "label_az": "Onboarding, tutorial və aydınlıq",
+      "mention_count": 38,
+      "mention_ratio": 0.0448642266824085,
+      "positive_reviews": 25,
+      "negative_reviews": 13,
+      "positive_ratio": 0.6578947368421053,
+      "average_playtime_at_review_hours": 7.589912280701755,
+      "playtime_segments": {
+        "0-1h": 5,
+        "1-3h": 3,
+        "10h+": 14,
+        "3-10h": 16
+      }
+    },
+    "WORLD_REACTIVITY": {
+      "label_az": "Consequence, urgency və dünyanın reaktivliyi",
+      "mention_count": 6,
+      "mention_ratio": 0.0070838252656434475,
+      "positive_reviews": 5,
+      "negative_reviews": 1,
+      "positive_ratio": 0.8333333333333334,
+      "average_playtime_at_review_hours": 9.702777777777778,
+      "playtime_segments": {
+        "10h+": 4,
+        "3-10h": 2
+      }
+    },
+    "UI_USABILITY": {
+      "label_az": "UI/UX və istifadə rahatlığı",
+      "mention_count": 34,
+      "mention_ratio": 0.04014167650531287,
+      "positive_reviews": 21,
+      "negative_reviews": 13,
+      "positive_ratio": 0.6176470588235294,
+      "average_playtime_at_review_hours": 12.209803921568627,
+      "playtime_segments": {
+        "0-1h": 4,
+        "1-3h": 2,
+        "10h+": 19,
+        "3-10h": 9
+      }
+    },
+    "BUGS_COMPATIBILITY": {
+      "label_az": "Bug və compatibility",
+      "mention_count": 43,
+      "mention_ratio": 0.05076741440377804,
+      "positive_reviews": 33,
+      "negative_reviews": 10,
+      "positive_ratio": 0.7674418604651163,
+      "average_playtime_at_review_hours": 11.100387596899225,
+      "playtime_segments": {
+        "0-1h": 4,
+        "1-3h": 3,
+        "10h+": 21,
+        "3-10h": 15
+      }
+    },
+    "LENGTH_CONTENT": {
+      "label_az": "Oyun uzunluğu və content miqdarı",
+      "mention_count": 12,
+      "mention_ratio": 0.014167650531286895,
+      "positive_reviews": 10,
+      "negative_reviews": 2,
+      "positive_ratio": 0.8333333333333334,
+      "average_playtime_at_review_hours": 11.134722222222223,
+      "playtime_segments": {
+        "10h+": 6,
+        "3-10h": 6
+      }
+    },
+    "MOD_REPLAYABILITY": {
+      "label_az": "Mod, Workshop və replayability",
+      "mention_count": 18,
+      "mention_ratio": 0.021251475796930343,
+      "positive_reviews": 15,
+      "negative_reviews": 3,
+      "positive_ratio": 0.8333333333333334,
+      "average_playtime_at_review_hours": 12.542592592592593,
+      "playtime_segments": {
+        "0-1h": 1,
+        "10h+": 14,
+        "3-10h": 3
+      }
+    },
+    "PLAYER_AGENCY": {
+      "label_az": "Seçim və player agency",
+      "mention_count": 29,
+      "mention_ratio": 0.03423848878394333,
+      "positive_reviews": 15,
+      "negative_reviews": 14,
+      "positive_ratio": 0.5172413793103449,
+      "average_playtime_at_review_hours": 9.160344827586206,
+      "playtime_segments": {
+        "0-1h": 1,
+        "1-3h": 5,
+        "10h+": 11,
+        "3-10h": 12
+      }
+    },
+    "PACING_WAITING": {
+      "label_az": "Pacing, gözləmə və temp",
+      "mention_count": 7,
+      "mention_ratio": 0.008264462809917356,
+      "positive_reviews": 5,
+      "negative_reviews": 2,
+      "positive_ratio": 0.7142857142857143,
+      "average_playtime_at_review_hours": 7.188095238095237,
+      "playtime_segments": {
+        "10h+": 2,
+        "3-10h": 5
+      }
+    },
+    "EDUCATIONAL_IMPACT": {
+      "label_az": "Öyrənmə və texnologiyaya maraq yaratma",
+      "mention_count": 0,
+      "mention_ratio": 0.0,
+      "positive_reviews": 0,
+      "negative_reviews": 0,
+      "positive_ratio": null,
+      "average_playtime_at_review_hours": null,
+      "playtime_segments": {}
+    },
+    "TACTICAL_TURN_BASED": {
+      "label_az": "Turn-based taktika və action economy",
+      "mention_count": 1,
+      "mention_ratio": 0.0011806375442739079,
+      "positive_reviews": 1,
+      "negative_reviews": 0,
+      "positive_ratio": 1.0,
+      "average_playtime_at_review_hours": 10.833333333333334,
+      "playtime_segments": {
+        "10h+": 1
+      }
+    },
+    "RNG_FAIRNESS": {
+      "label_az": "RNG, luck və fairness",
+      "mention_count": 18,
+      "mention_ratio": 0.021251475796930343,
+      "positive_reviews": 6,
+      "negative_reviews": 12,
+      "positive_ratio": 0.3333333333333333,
+      "average_playtime_at_review_hours": 8.903703703703705,
+      "playtime_segments": {
+        "0-1h": 1,
+        "1-3h": 5,
+        "10h+": 6,
+        "3-10h": 6
+      }
+    },
+    "RETRY_ROLLBACK": {
+      "label_az": "Retry, rollback və mission recovery",
+      "mention_count": 11,
+      "mention_ratio": 0.012987012987012988,
+      "positive_reviews": 7,
+      "negative_reviews": 4,
+      "positive_ratio": 0.6363636363636364,
+      "average_playtime_at_review_hours": 11.889393939393939,
+      "playtime_segments": {
+        "0-1h": 1,
+        "10h+": 5,
+        "3-10h": 5
+      }
+    },
+    "LOADOUT_BUILD": {
+      "label_az": "Loadout, deck və build seçimi",
+      "mention_count": 34,
+      "mention_ratio": 0.04014167650531287,
+      "positive_reviews": 21,
+      "negative_reviews": 13,
+      "positive_ratio": 0.6176470588235294,
+      "average_playtime_at_review_hours": 12.125,
+      "playtime_segments": {
+        "0-1h": 1,
+        "1-3h": 6,
+        "10h+": 15,
+        "3-10h": 12
+      }
+    },
+    "KEYBOARD_ONLY": {
+      "label_az": "Keyboard-only control",
+      "mention_count": 0,
+      "mention_ratio": 0.0,
+      "positive_reviews": 0,
+      "negative_reviews": 0,
+      "positive_ratio": null,
+      "average_playtime_at_review_hours": null,
+      "playtime_segments": {}
+    },
+    "URGENCY_TRACE": {
+      "label_az": "Trace, turn cap və urgency",
+      "mention_count": 9,
+      "mention_ratio": 0.010625737898465172,
+      "positive_reviews": 4,
+      "negative_reviews": 5,
+      "positive_ratio": 0.4444444444444444,
+      "average_playtime_at_review_hours": 13.661111111111111,
+      "playtime_segments": {
+        "10h+": 6,
+        "3-10h": 3
+      }
+    },
+    "CHOICE_REPUTATION": {
+      "label_az": "Moral seçim, reputation və branching",
+      "mention_count": 7,
+      "mention_ratio": 0.008264462809917356,
+      "positive_reviews": 6,
+      "negative_reviews": 1,
+      "positive_ratio": 0.8571428571428571,
+      "average_playtime_at_review_hours": 8.559523809523808,
+      "playtime_segments": {
+        "0-1h": 1,
+        "10h+": 4,
+        "3-10h": 2
+      }
+    },
+    "LOCALIZATION_WRITING": {
+      "label_az": "Lokalizasiya, yazı və dialoq keyfiyyəti",
+      "mention_count": 188,
+      "mention_ratio": 0.22195985832349469,
+      "positive_reviews": 120,
+      "negative_reviews": 68,
+      "positive_ratio": 0.6382978723404256,
+      "average_playtime_at_review_hours": 10.95868794326241,
+      "playtime_segments": {
+        "0-1h": 11,
+        "1-3h": 16,
+        "10h+": 87,
+        "3-10h": 74
+      }
+    },
+    "LINEARITY_SCRIPTING": {
+      "label_az": "Linearity və sərt scripted progression",
+      "mention_count": 34,
+      "mention_ratio": 0.04014167650531287,
+      "positive_reviews": 15,
+      "negative_reviews": 19,
+      "positive_ratio": 0.4411764705882353,
+      "average_playtime_at_review_hours": 9.515196078431373,
+      "playtime_segments": {
+        "0-1h": 2,
+        "1-3h": 5,
+        "10h+": 13,
+        "3-10h": 14
+      }
+    },
+    "CLUE_EVIDENCE_QUALITY": {
+      "label_az": "Clue və evidence keyfiyyəti",
+      "mention_count": 120,
+      "mention_ratio": 0.14167650531286896,
+      "positive_reviews": 85,
+      "negative_reviews": 35,
+      "positive_ratio": 0.7083333333333334,
+      "average_playtime_at_review_hours": 11.235833333333334,
+      "playtime_segments": {
+        "0-1h": 1,
+        "1-3h": 7,
+        "10h+": 56,
+        "3-10h": 56
+      }
+    },
+    "DEDUCTION_REASONING": {
+      "label_az": "Deduction və reasoning",
+      "mention_count": 68,
+      "mention_ratio": 0.08028335301062574,
+      "positive_reviews": 46,
+      "negative_reviews": 22,
+      "positive_ratio": 0.6764705882352942,
+      "average_playtime_at_review_hours": 10.859313725490196,
+      "playtime_segments": {
+        "0-1h": 5,
+        "1-3h": 6,
+        "10h+": 30,
+        "3-10h": 27
+      }
+    },
+    "PUZZLE_CLARITY": {
+      "label_az": "Puzzle aydınlığı və fairness",
+      "mention_count": 181,
+      "mention_ratio": 0.21369539551357733,
+      "positive_reviews": 128,
+      "negative_reviews": 53,
+      "positive_ratio": 0.7071823204419889,
+      "average_playtime_at_review_hours": 12.133701657458563,
+      "playtime_segments": {
+        "0-1h": 4,
+        "1-3h": 8,
+        "10h+": 91,
+        "3-10h": 78
+      }
+    },
+    "INFORMATION_SEARCH": {
+      "label_az": "Information search və data gathering",
+      "mention_count": 92,
+      "mention_ratio": 0.10861865407319952,
+      "positive_reviews": 64,
+      "negative_reviews": 28,
+      "positive_ratio": 0.6956521739130435,
+      "average_playtime_at_review_hours": 10.221014492753623,
+      "playtime_segments": {
+        "0-1h": 5,
+        "1-3h": 9,
+        "10h+": 38,
+        "3-10h": 40
+      }
+    },
+    "SOCIAL_ENGINEERING": {
+      "label_az": "Social engineering və phishing",
+      "mention_count": 51,
+      "mention_ratio": 0.0602125147579693,
+      "positive_reviews": 34,
+      "negative_reviews": 17,
+      "positive_ratio": 0.6666666666666666,
+      "average_playtime_at_review_hours": 8.970588235294118,
+      "playtime_segments": {
+        "0-1h": 5,
+        "1-3h": 6,
+        "10h+": 20,
+        "3-10h": 20
+      }
+    },
+    "TIMED_EVENTS": {
+      "label_az": "Timed event və time-limit friction",
+      "mention_count": 35,
+      "mention_ratio": 0.04132231404958678,
+      "positive_reviews": 23,
+      "negative_reviews": 12,
+      "positive_ratio": 0.6571428571428571,
+      "average_playtime_at_review_hours": 14.913333333333334,
+      "playtime_segments": {
+        "1-3h": 1,
+        "10h+": 25,
+        "3-10h": 9
+      }
+    },
+    "PUBLIC_OPINION_MINIGAME": {
+      "label_az": "Public opinion / influence minigame",
+      "mention_count": 13,
+      "mention_ratio": 0.015348288075560802,
+      "positive_reviews": 6,
+      "negative_reviews": 7,
+      "positive_ratio": 0.46153846153846156,
+      "average_playtime_at_review_hours": 13.143589743589745,
+      "playtime_segments": {
+        "10h+": 7,
+        "3-10h": 6
+      }
+    },
+    "ETHICAL_SOCIAL_THEME": {
+      "label_az": "Etik və sosial mövzular",
+      "mention_count": 21,
+      "mention_ratio": 0.024793388429752067,
+      "positive_reviews": 17,
+      "negative_reviews": 4,
+      "positive_ratio": 0.8095238095238095,
+      "average_playtime_at_review_hours": 12.776190476190477,
+      "playtime_segments": {
+        "0-1h": 1,
+        "10h+": 12,
+        "3-10h": 8
+      }
+    }
+  },
+  "top_theme_pairs": [
+    {
+      "themes": [
+        "DEPTH_CHALLENGE",
+        "PUZZLE_CLARITY"
+      ],
+      "count": 147
+    },
+    {
+      "themes": [
+        "LOCALIZATION_WRITING",
+        "STORY_NARRATIVE"
+      ],
+      "count": 119
+    },
+    {
+      "themes": [
+        "DEPTH_CHALLENGE",
+        "STORY_NARRATIVE"
+      ],
+      "count": 117
+    },
+    {
+      "themes": [
+        "PUZZLE_CLARITY",
+        "STORY_NARRATIVE"
+      ],
+      "count": 116
+    },
+    {
+      "themes": [
+        "INVESTIGATION_DISCOVERY",
+        "STORY_NARRATIVE"
+      ],
+      "count": 115
+    },
+    {
+      "themes": [
+        "CLUE_EVIDENCE_QUALITY",
+        "INVESTIGATION_DISCOVERY"
+      ],
+      "count": 105
+    },
+    {
+      "themes": [
+        "INVESTIGATION_DISCOVERY",
+        "LOCALIZATION_WRITING"
+      ],
+      "count": 84
+    },
+    {
+      "themes": [
+        "LOCALIZATION_WRITING",
+        "PUZZLE_CLARITY"
+      ],
+      "count": 82
+    },
+    {
+      "themes": [
+        "DEPTH_CHALLENGE",
+        "INVESTIGATION_DISCOVERY"
+      ],
+      "count": 80
+    },
+    {
+      "themes": [
+        "CLUE_EVIDENCE_QUALITY",
+        "STORY_NARRATIVE"
+      ],
+      "count": 74
+    },
+    {
+      "themes": [
+        "INVESTIGATION_DISCOVERY",
+        "PUZZLE_CLARITY"
+      ],
+      "count": 73
+    },
+    {
+      "themes": [
+        "DEPTH_CHALLENGE",
+        "LOCALIZATION_WRITING"
+      ],
+      "count": 70
+    },
+    {
+      "themes": [
+        "INFORMATION_SEARCH",
+        "INVESTIGATION_DISCOVERY"
+      ],
+      "count": 58
+    },
+    {
+      "themes": [
+        "INFORMATION_SEARCH",
+        "STORY_NARRATIVE"
+      ],
+      "count": 57
+    },
+    {
+      "themes": [
+        "CLUE_EVIDENCE_QUALITY",
+        "DEPTH_CHALLENGE"
+      ],
+      "count": 56
+    },
+    {
+      "themes": [
+        "CLUE_EVIDENCE_QUALITY",
+        "LOCALIZATION_WRITING"
+      ],
+      "count": 55
+    },
+    {
+      "themes": [
+        "DEDUCTION_REASONING",
+        "STORY_NARRATIVE"
+      ],
+      "count": 51
+    },
+    {
+      "themes": [
+        "CLUE_EVIDENCE_QUALITY",
+        "PUZZLE_CLARITY"
+      ],
+      "count": 49
+    },
+    {
+      "themes": [
+        "CLUE_EVIDENCE_QUALITY",
+        "INFORMATION_SEARCH"
+      ],
+      "count": 48
+    },
+    {
+      "themes": [
+        "INFORMATION_SEARCH",
+        "LOCALIZATION_WRITING"
+      ],
+      "count": 45
+    },
+    {
+      "themes": [
+        "IMMERSION",
+        "STORY_NARRATIVE"
+      ],
+      "count": 44
+    },
+    {
+      "themes": [
+        "INFORMATION_SEARCH",
+        "PUZZLE_CLARITY"
+      ],
+      "count": 43
+    },
+    {
+      "themes": [
+        "DEPTH_CHALLENGE",
+        "INFORMATION_SEARCH"
+      ],
+      "count": 40
+    },
+    {
+      "themes": [
+        "DEDUCTION_REASONING",
+        "INVESTIGATION_DISCOVERY"
+      ],
+      "count": 39
+    },
+    {
+      "themes": [
+        "DEDUCTION_REASONING",
+        "LOCALIZATION_WRITING"
+      ],
+      "count": 38
+    },
+    {
+      "themes": [
+        "REPETITION",
+        "STORY_NARRATIVE"
+      ],
+      "count": 37
+    },
+    {
+      "themes": [
+        "DEDUCTION_REASONING",
+        "PUZZLE_CLARITY"
+      ],
+      "count": 35
+    },
+    {
+      "themes": [
+        "SOCIAL_ENGINEERING",
+        "STORY_NARRATIVE"
+      ],
+      "count": 34
+    },
+    {
+      "themes": [
+        "DEDUCTION_REASONING",
+        "DEPTH_CHALLENGE"
+      ],
+      "count": 34
+    },
+    {
+      "themes": [
+        "IMMERSION",
+        "LOCALIZATION_WRITING"
+      ],
+      "count": 32
+    }
+  ],
+  "source_reviews_sha256": "13391cf2449f07a01e9e01727fafee0b7c0f371d8a7dec412bbca3c92a91e08b"
+}

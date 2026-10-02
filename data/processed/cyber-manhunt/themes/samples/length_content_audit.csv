@@ -1,0 +1,218 @@
+review_id,steam_app_id,game_key,game_name,language,review_text_raw,review_text_clean,recommended,created_at,updated_at,playtime_forever_minutes,playtime_at_review_minutes,playtime_last_two_weeks_minutes,votes_up,votes_funny,weighted_vote_score,steam_purchase,received_for_free,written_during_early_access,refunded,author_steam_id,author_num_games_owned,author_num_reviews,is_empty,is_very_short,review_length_chars,review_length_words,playtime_forever_hours,playtime_at_review_hours,playtime_segment,overall_sentiment
+84063430,1216710,cyber-manhunt,Cyber Manhunt,english,"Overall a good game, especially if you enjoyed Orwell and Hypnospace Outlaw. Here the major focus is on compiling peoples information, so that you can generate their passwords and find out more about them. All that works well enough and it's fun working out what happened, along with how everyone connects together.
+
+However the game does have some issues that stuck out to me:
+The first chapters has a poorer English translation, than the rest. It's not so bad that you can't understand whats going on, but it's still kind of annoying.
+While the translation improves, a few issues do creep in later on, such as a female character being referred to as 'he' in a phone call, or the voiced dialogue not quite matching the text.
+Considering the type of game, it was probably inevitable but I sometime found myself pouring over everything trying to find the one piece of information I needed to continue.
+Sometimes, even when I had collected enough data, the related event would fail to trigger, leaving me unable to progress. I was always able to reload an auto-save, and the event would then play normally, but it often took me a few minutes to realise I needed to do this.
+One type of puzzle , is a mobile phone lock-screen which was very annoying to solve. Even with a clue it was tedious to work out the answer, resulting in a lot of guess-work. It also was done under a time-limit.
+
+It's still a good game despite these issues, and I look forward to more content being added in future.","Overall a good game, especially if you enjoyed Orwell and Hypnospace Outlaw. Here the major focus is on compiling peoples information, so that you can generate their passwords and find out more about them. All that works well enough and it's fun working out what happened, along with how everyone connects together. However the game does have some issues that stuck out to me: The first chapters has a poorer English translation, than the rest. It's not so bad that you can't understand whats going on, but it's still kind of annoying. While the translation improves, a few issues do creep in later on, such as a female character being referred to as 'he' in a phone call, or the voiced dialogue not quite matching the text. Considering the type of game, it was probably inevitable but I sometime found myself pouring over everything trying to find the one piece of information I needed to continue. Sometimes, even when I had collected enough data, the related event would fail to trigger, leaving me unable to progress. I was always able to reload an auto-save, and the event would then play normally, but it often took me a few minutes to realise I needed to do this. One type of puzzle , is a mobile phone lock-screen which was very annoying to solve. Even with a clue it was tedious to work out the answer, resulting in a lot of guess-work. It also was done under a time-limit. It's still a good game despite these issues, and I look forward to more content being added in future.",True,2021-01-05T11:52:24+00:00,2021-01-05T11:52:24+00:00,1290.0,540.0,0.0,0.0,0.0,0.5,True,False,True,False,76561198364031946,,16.0,False,False,1485,266,21.5,9.0,3-10h,positive
+88228214,1216710,cyber-manhunt,Cyber Manhunt,english,"*You need to buy the DLC to get all achievements.
+
+[b]My playtime:[/b] 17.2h (based on Steam, 27/38 achievement)
+[b]Grindy Achievement(s):[/b] No  (1 achievement require you to idle for ~30 minutes).
+[b]Optional Achievement(s):[/b] Yes (26 achievements).
+[b]Difficult Achievement(s):[/b] No.
+
+[h1]Intro[/h1]
+You work for [i]Titan[/i], one of the big companies in [i]Allivia[/i]. Your job? Looking for people's information on the internet. [b]Cyber Manhunt[/b] is a game that will show you the dark side of the internet from leaving your personal information everywhere.
+
+[b]Pros:[/b]
+- 5 chapters
+- Minigames and riddles on some chapters
+- All voices are dubbed
+
+[b]Cons:[/b]
+- Some riddles are too vague to solve
+- Most timed events are too short, relying you on retrying the event again to get the job done
+
+[h1]Should you buy this game?[/h1]
+[b]Yes.[/b]
+[i]If you are looking for other games that look like [url=https://store.steampowered.com/app/491950/Orwell_Keeping_an_Eye_On_You/][b]Orwell: Keeping an Eye On You[/b][/url] ([url=https://steamcommunity.com/profiles/76561198132503739/recommended/491950]my review[/url]), buy this game at a sale.[/i]
+
+[hr][/hr]
+[h1]In-Depth Review[/h1]
+
+[h3]Graphics[/h3]
+The game uses a similar design as the [i]Mac[/i] operating system. A list of applications is available at the bottom of the screen, centered with some additional info such as news, objectives, and collected information on each corner of the screen. Although the game incorporates applications and websites that you usually use every day, some applications are also specifically designed for the game. However, they are not maximized, leaving a lot of empty spaces behind. Some people with reading difficulties might benefit from the use of space and bigger text, especially the browser.
+
+[h3]Story[/h3]
+The story is divided into 5 chapters, each with a different focus in mind. You'll investigate different people in each chapter except for a few characters that will appear in more than one chapters, connecting their involvement in a bigger picture. While you'll benefit more from the story by remembering these reoccurring characters, each chapter can still be enjoyed separately.
+
+Some cutscenes are also introduced between each chapter, focusing on you and the company that you worked in. Everything will be wrapped up in the ending, which is also connected with the conclusion of the last chapter. While the story might come as a surprise to some people, it didn't affect me much since I played a game with a similar concept before. However, some parts of the story feel a bit odd, mostly due to the translation and different dialogue choices in the game.
+
+https://steamcommunity.com/sharedfiles/filedetails/?id=2421076473 
+
+[h3]The Game[/h3]
+[b]Investigation[/b]
+The main feature of [b]Cyber Manhunt[/b] is a cyber investigation, where you have to collect someone’s profile by gathering information online. It tries to make it as realistic as the real world by collecting data from social media, news portals, and other websites while incorporating some fantasy elements as well. A company database is available at your disposal, which you can use to gather more detailed data from some input.
+
+However, finding the correct information tend to be troublesome since you need to hover your mouse to the text before collecting them. Some information that seems to be useful also tends to not be collectible if the developer chooses not to make it so, turning everything into a “hovering my mouse to every sentence that I could see” game just to satisfy the condition. The game also has no clue system which might halt your progression if you accidentally miss one piece of information that is buried beneath the haystack of information.
+
+https://steamcommunity.com/sharedfiles/filedetails/?id=2421076590 
+
+The introduction of the cracking tool is also a bit ridiculous. You can put some personal information of the target on the app and voila, you'll get the target's password. The game doesn't seem to give a quick option to copy and paste all of the required info in one click though - there are 6 fields to fill, and filling them one by one every time is very tiring. Moreover, the tool only gives one password and strangely, it works for almost every account that the target uses. While this doesn't make sense, some people actually do these kinds of stuff so I'm not sure whether the game does this on purpose to remind us not to do this practice or not. 
+
+[b]Riddles and Minigames[/b]
+Some riddles are tricky and not obvious enough to solve. Although some clues are available, they tend to be confusing since you need to know various things beforehand, such as how house numbering works and the date format that the developer intended to use. The game tends to use the MMDD format for dates and I kept on using the DDMM format out of habit, which goes worse when the year is also involved. One riddle also requires you to unlock a phone with a pattern that is not possible to do in an actual phone, triggering some confusion. To make it worse, everything must be done within a time limit, which is almost impossible to accomplish on your first try.
+
+On the other hand, I had fun playing the minigames. Some of them are similar to other puzzle games like [url=https://store.steampowered.com/app/367580/Hook/][b]Hook[/b][/url], while some are more original. The tutorials that are provided before you start some minigames also help you to understand how they work. However, one minigame is quite difficult to understand, especially if you want to unlock a certain achievement.
+
+https://steamcommunity.com/sharedfiles/filedetails/?id=2421077117 
+
+[b]Length and Replayability[/b]
+Steam says that I finished the game in 12.6h, while the in-game clock states that I did it in ~12.2h. Each chapter can be finished in 1-2 hours, which can take longer if you want to get some achievements. Despite the achievement mentioning three endings, two of them are similar to each other while the last one is a bad ending that will lead you to a game over screen. There is no reason to replay the game apart from unlocking achievements.
+
+[b]Problem[/b]
+You can't skip cutscenes. The game also doesn't allow you to open the menu to load your save at some point, forcing you to restart the game manually. While I usually don't mind with this, the game has a slow loading time, making achievement hunting to be annoying sometimes.
+
+[h1]Specs[/h1]
+Intel Core i5-9300H 2.40GHz, 8GB RAM, NVIDIA GeForce GTX 1650
+
+[h1]Conclusion[/h1]
+To be honest, I thought that the game will be similar to [url=https://store.steampowered.com/app/365450/Hacknet/][b]Hacknet[/b][/url] ([url=https://steamcommunity.com/profiles/76561198132503739/recommended/365450]my review[/url]) where you have to hack into servers and steal some information. It turns out that it's more similar to [url=https://store.steampowered.com/app/491950/Orwell_Keeping_an_Eye_On_You/][b]Orwell: Keeping an Eye On You[/b][/url] ([url=https://steamcommunity.com/profiles/76561198132503739/recommended/491950]my review[/url]) and although I don't mind with the similarity, this game feels like an inferior version of that game with some additional features. It was tiring to hover my mouse on every text to find clues and doing it when I was reading the text ruins my concentration. Some translations are also a bit off and although it's still possible to understand the story, it can ruin the immersion sometimes. However, the game is still enjoyable if you are looking for a similar game to [b]Orwell[/b] and don't mind with some annoyances.
+
+[quote]This game was reviewed with a key provided by the developer for free through [url=https://discord.gg/xc22zZP]Reviewers' Paradise[/url], a group that connects both developers and reviewers in one place[/quote]
+
+[quote]Visit SaveOrQuit.com for detailed game reviews, posted daily![/quote]","*You need to buy the DLC to get all achievements. [b]My playtime:[/b] 17.2h (based on Steam, 27/38 achievement) [b]Grindy Achievement(s):[/b] No (1 achievement require you to idle for ~30 minutes). [b]Optional Achievement(s):[/b] Yes (26 achievements). [b]Difficult Achievement(s):[/b] No. [h1]Intro[/h1] You work for [i]Titan[/i], one of the big companies in [i]Allivia[/i]. Your job? Looking for people's information on the internet. [b]Cyber Manhunt[/b] is a game that will show you the dark side of the internet from leaving your personal information everywhere. [b]Pros:[/b] - 5 chapters - Minigames and riddles on some chapters - All voices are dubbed [b]Cons:[/b] - Some riddles are too vague to solve - Most timed events are too short, relying you on retrying the event again to get the job done [h1]Should you buy this game?[/h1] [b]Yes.[/b] [i]If you are looking for other games that look like [url=https://store.steampowered.com/app/491950/Orwell_Keeping_an_Eye_On_You/][b]Orwell: Keeping an Eye On You[/b][/url] ([url=https://steamcommunity.com/profiles/76561198132503739/recommended/491950]my review[/url]), buy this game at a sale.[/i] [hr][/hr] [h1]In-Depth Review[/h1] [h3]Graphics[/h3] The game uses a similar design as the [i]Mac[/i] operating system. A list of applications is available at the bottom of the screen, centered with some additional info such as news, objectives, and collected information on each corner of the screen. Although the game incorporates applications and websites that you usually use every day, some applications are also specifically designed for the game. However, they are not maximized, leaving a lot of empty spaces behind. Some people with reading difficulties might benefit from the use of space and bigger text, especially the browser. [h3]Story[/h3] The story is divided into 5 chapters, each with a different focus in mind. You'll investigate different people in each chapter except for a few characters that will appear in more than one chapters, connecting their involvement in a bigger picture. While you'll benefit more from the story by remembering these reoccurring characters, each chapter can still be enjoyed separately. Some cutscenes are also introduced between each chapter, focusing on you and the company that you worked in. Everything will be wrapped up in the ending, which is also connected with the conclusion of the last chapter. While the story might come as a surprise to some people, it didn't affect me much since I played a game with a similar concept before. However, some parts of the story feel a bit odd, mostly due to the translation and different dialogue choices in the game. https://steamcommunity.com/sharedfiles/filedetails/?id=2421076473 [h3]The Game[/h3] [b]Investigation[/b] The main feature of [b]Cyber Manhunt[/b] is a cyber investigation, where you have to collect someone’s profile by gathering information online. It tries to make it as realistic as the real world by collecting data from social media, news portals, and other websites while incorporating some fantasy elements as well. A company database is available at your disposal, which you can use to gather more detailed data from some input. However, finding the correct information tend to be troublesome since you need to hover your mouse to the text before collecting them. Some information that seems to be useful also tends to not be collectible if the developer chooses not to make it so, turning everything into a “hovering my mouse to every sentence that I could see” game just to satisfy the condition. The game also has no clue system which might halt your progression if you accidentally miss one piece of information that is buried beneath the haystack of information. https://steamcommunity.com/sharedfiles/filedetails/?id=2421076590 The introduction of the cracking tool is also a bit ridiculous. You can put some personal information of the target on the app and voila, you'll get the target's password. The game doesn't seem to give a quick option to copy and paste all of the required info in one click though - there are 6 fields to fill, and filling them one by one every time is very tiring. Moreover, the tool only gives one password and strangely, it works for almost every account that the target uses. While this doesn't make sense, some people actually do these kinds of stuff so I'm not sure whether the game does this on purpose to remind us not to do this practice or not. [b]Riddles and Minigames[/b] Some riddles are tricky and not obvious enough to solve. Although some clues are available, they tend to be confusing since you need to know various things beforehand, such as how house numbering works and the date format that the developer intended to use. The game tends to use the MMDD format for dates and I kept on using the DDMM format out of habit, which goes worse when the year is also involved. One riddle also requires you to unlock a phone with a pattern that is not possible to do in an actual phone, triggering some confusion. To make it worse, everything must be done within a time limit, which is almost impossible to accomplish on your first try. On the other hand, I had fun playing the minigames. Some of them are similar to other puzzle games like [url=https://store.steampowered.com/app/367580/Hook/][b]Hook[/b][/url], while some are more original. The tutorials that are provided before you start some minigames also help you to understand how they work. However, one minigame is quite difficult to understand, especially if you want to unlock a certain achievement. https://steamcommunity.com/sharedfiles/filedetails/?id=2421077117 [b]Length and Replayability[/b] Steam says that I finished the game in 12.6h, while the in-game clock states that I did it in ~12.2h. Each chapter can be finished in 1-2 hours, which can take longer if you want to get some achievements. Despite the achievement mentioning three endings, two of them are similar to each other while the last one is a bad ending that will lead you to a game over screen. There is no reason to replay the game apart from unlocking achievements. [b]Problem[/b] You can't skip cutscenes. The game also doesn't allow you to open the menu to load your save at some point, forcing you to restart the game manually. While I usually don't mind with this, the game has a slow loading time, making achievement hunting to be annoying sometimes. [h1]Specs[/h1] Intel Core i5-9300H 2.40GHz, 8GB RAM, NVIDIA GeForce GTX 1650 [h1]Conclusion[/h1] To be honest, I thought that the game will be similar to [url=https://store.steampowered.com/app/365450/Hacknet/][b]Hacknet[/b][/url] ([url=https://steamcommunity.com/profiles/76561198132503739/recommended/365450]my review[/url]) where you have to hack into servers and steal some information. It turns out that it's more similar to [url=https://store.steampowered.com/app/491950/Orwell_Keeping_an_Eye_On_You/][b]Orwell: Keeping an Eye On You[/b][/url] ([url=https://steamcommunity.com/profiles/76561198132503739/recommended/491950]my review[/url]) and although I don't mind with the similarity, this game feels like an inferior version of that game with some additional features. It was tiring to hover my mouse on every text to find clues and doing it when I was reading the text ruins my concentration. Some translations are also a bit off and although it's still possible to understand the story, it can ruin the immersion sometimes. However, the game is still enjoyable if you are looking for a similar game to [b]Orwell[/b] and don't mind with some annoyances. [quote]This game was reviewed with a key provided by the developer for free through [url=https://discord.gg/xc22zZP]Reviewers' Paradise[/url], a group that connects both developers and reviewers in one place[/quote] [quote]Visit SaveOrQuit.com for detailed game reviews, posted daily![/quote]",True,2021-03-11T05:52:02+00:00,2021-08-01T03:17:57+00:00,1215.0,1033.0,0.0,60.0,1.0,0.7810111045837402,False,True,False,False,76561198132503739,,806.0,False,False,7863,1188,20.25,17.216666666666665,10h+,positive
+90212967,1216710,cyber-manhunt,Cyber Manhunt,english,"Due to story content I can not recommend this game.
+
+I played through the entire story in 13 hours and I really wish I hadn't played it. The core game play loop of the game is enjoyable. There are clear translation errors both linguistically and probably culturally but those can be fixed. There is a prologue and 5 chapters and each chapter is a good length for a gaming session. The prologue and Chapters 1, 3, and 4 are quite interesting with the end of Chapter 3 and Chapter 4 being where the game shines. 
+
+The store page does not mention anything about the plot of the game. Every time you start the game there is an unskippable content warning. It recommends only players 16 and up. It mentions abuse and bullying as subjects that come up in the game. I was not prepared for Chapter 2 where the story centers around sex slavery of a young woman. Nor was I prepared that part way through Chapter 5 you read a website about human trafficking and animal abuse. You get one ""clue"" from that website and it tells you a little bit about the plot, but both points are brought up later in a much less graphic and traumatizing way. If I hadn't guessed that Chapter 5 was the last chapter I would have quit the game right there. 
+
+If the game was just the prologue and Chapters 1, 3, 4, and the end sequence of Chapter 5, I would highly recommend this game. If the animal abuse and human trafficking parts of Chapter 5 were not there in any way shape or form, I would recommend the game with some caveats. With the story as is, I can not recommend that people play it. Chapter 5 made me feel violated, and that I had not consented to what it put me through. If I had known the plot I would not have bought this game. 
+
+Due to story content I can not recommend this game.","Due to story content I can not recommend this game. I played through the entire story in 13 hours and I really wish I hadn't played it. The core game play loop of the game is enjoyable. There are clear translation errors both linguistically and probably culturally but those can be fixed. There is a prologue and 5 chapters and each chapter is a good length for a gaming session. The prologue and Chapters 1, 3, and 4 are quite interesting with the end of Chapter 3 and Chapter 4 being where the game shines. The store page does not mention anything about the plot of the game. Every time you start the game there is an unskippable content warning. It recommends only players 16 and up. It mentions abuse and bullying as subjects that come up in the game. I was not prepared for Chapter 2 where the story centers around sex slavery of a young woman. Nor was I prepared that part way through Chapter 5 you read a website about human trafficking and animal abuse. You get one ""clue"" from that website and it tells you a little bit about the plot, but both points are brought up later in a much less graphic and traumatizing way. If I hadn't guessed that Chapter 5 was the last chapter I would have quit the game right there. If the game was just the prologue and Chapters 1, 3, 4, and the end sequence of Chapter 5, I would highly recommend this game. If the animal abuse and human trafficking parts of Chapter 5 were not there in any way shape or form, I would recommend the game with some caveats. With the story as is, I can not recommend that people play it. Chapter 5 made me feel violated, and that I had not consented to what it put me through. If I had known the plot I would not have bought this game. Due to story content I can not recommend this game.",False,2021-04-12T22:22:50+00:00,2021-04-12T22:22:50+00:00,781.0,781.0,0.0,4.0,3.0,0.4618377685546875,False,False,False,False,76561198004616576,,2.0,False,False,1760,336,13.016666666666667,13.016666666666667,10h+,negative
+150191831,1216710,cyber-manhunt,Cyber Manhunt,english,"Enjoyable game.
+
+~9 hours to complete (without DLC).
+Some puzzles are a little obscure (wave-length matching? one very specific phone password), but the rest is very intuitive and compelling. The stories definitely hooked me and left me wanting for more every time I'd delve a clue further.
+The game does lack a little bit of polish, the interface, while intuitive, does tend to be a little non-responsive at times. The translation to English is a little lacking in polish as well -- The intent and details are still very easy to understand, but the syntax and tone often feel off.
+
+For someone that liked Ace Attorney and Hacknet, this feels like a nice fusion in the middle of both genres. Would recommend to a fan of both of these types of games, while staying wary of the lack of polish.","Enjoyable game. ~9 hours to complete (without DLC). Some puzzles are a little obscure (wave-length matching? one very specific phone password), but the rest is very intuitive and compelling. The stories definitely hooked me and left me wanting for more every time I'd delve a clue further. The game does lack a little bit of polish, the interface, while intuitive, does tend to be a little non-responsive at times. The translation to English is a little lacking in polish as well -- The intent and details are still very easy to understand, but the syntax and tone often feel off. For someone that liked Ace Attorney and Hacknet, this feels like a nice fusion in the middle of both genres. Would recommend to a fan of both of these types of games, while staying wary of the lack of polish.",True,2023-11-15T21:58:53+00:00,2023-11-15T21:58:53+00:00,797.0,525.0,0.0,2.0,0.0,0.5224719047546387,True,False,False,False,76561198044666738,,4.0,False,False,789,140,13.283333333333333,8.75,3-10h,positive
+85553116,1216710,cyber-manhunt,Cyber Manhunt,english,"DIFFICULTY ~
+✅ Easy
+🔲 Normal
+🔲 Hard
+🔲 A challenge to be reckoned
+🔲 In the heat of confrontation, treat your opponent with respect
+
+
+~ GRAPHICS ~
+🔲 MS Paint
+🔲 Bad
+🔲 Meh
+🔲 Graphics don't matter for this game
+✅Good (nothing special)
+🔲 An original artistic direction
+🔲 Beautiful
+🔲 Masterpiece
+
+
+~ STORY ~
+🔲 This game has no story
+🔲 Basic element of the contractual requirements
+🔲 It's there for people who want it
+🔲 Well written
+✅ Leading to more in-depth researches/thoughts
+🔲 A model to get inspired by
+
+
+~ LENGTH ~
+🔲 Long enough for a cup of tea
+🔲 Short
+🔲 Average
+✅ Long
+🔲 To infinity and beyond
+
+
+~ MUSIC ~
+🔲 Just filling noises/No music
+🔲 Trivial and uneventful
+✅ Good and/or fitting the game's artistic dispositions
+🔲 Memorable
+🔲 Transcending whispers of a forgotten world
+
+
+~ INTEREST ~
+🔲 I would rather watch paint dry
+🔲 Hard to enjoy
+🔲 Repetitive and/or uninspired
+🔲 A good moment
+🔲 Sticking out of the pack
+✅ You will remember it long after
+
+
+~ REPLAYABILITY ~
+✅ A one-time experience
+🔲 Only for achievements
+🔲 If you wait a few months/years (or with mods)
+🔲 Definitely
+🔲 Infinitely replayable (or almost)
+
+
+~ BUGS ~
+🔲 Never heard of
+✅ Minor bugs
+🔲 Can get annoying
+🔲 Impacts the player's experience
+🔲 The game itself is a big terrarium for bugs
+
+
+~ REQUIREMENTS ~
+🔲 You can run it on a microwave
+✅ Low
+🔲 Average
+🔲 High end
+🔲 NASA computer
+
+
+~ PRICE ~
+🔲 Free
+🔲 Underpriced
+✅ Perfect Price
+🔲 Could be cheaper
+🔲 Overpriced
+🔲 Complete waste of money
+
+
+~ WORTH BUYING ~
+🔲 No
+🔲 If you have nothing else to play
+🔲 Wait for sale
+✅ Yes","DIFFICULTY ~ ✅ Easy 🔲 Normal 🔲 Hard 🔲 A challenge to be reckoned 🔲 In the heat of confrontation, treat your opponent with respect ~ GRAPHICS ~ 🔲 MS Paint 🔲 Bad 🔲 Meh 🔲 Graphics don't matter for this game ✅Good (nothing special) 🔲 An original artistic direction 🔲 Beautiful 🔲 Masterpiece ~ STORY ~ 🔲 This game has no story 🔲 Basic element of the contractual requirements 🔲 It's there for people who want it 🔲 Well written ✅ Leading to more in-depth researches/thoughts 🔲 A model to get inspired by ~ LENGTH ~ 🔲 Long enough for a cup of tea 🔲 Short 🔲 Average ✅ Long 🔲 To infinity and beyond ~ MUSIC ~ 🔲 Just filling noises/No music 🔲 Trivial and uneventful ✅ Good and/or fitting the game's artistic dispositions 🔲 Memorable 🔲 Transcending whispers of a forgotten world ~ INTEREST ~ 🔲 I would rather watch paint dry 🔲 Hard to enjoy 🔲 Repetitive and/or uninspired 🔲 A good moment 🔲 Sticking out of the pack ✅ You will remember it long after ~ REPLAYABILITY ~ ✅ A one-time experience 🔲 Only for achievements 🔲 If you wait a few months/years (or with mods) 🔲 Definitely 🔲 Infinitely replayable (or almost) ~ BUGS ~ 🔲 Never heard of ✅ Minor bugs 🔲 Can get annoying 🔲 Impacts the player's experience 🔲 The game itself is a big terrarium for bugs ~ REQUIREMENTS ~ 🔲 You can run it on a microwave ✅ Low 🔲 Average 🔲 High end 🔲 NASA computer ~ PRICE ~ 🔲 Free 🔲 Underpriced ✅ Perfect Price 🔲 Could be cheaper 🔲 Overpriced 🔲 Complete waste of money ~ WORTH BUYING ~ 🔲 No 🔲 If you have nothing else to play 🔲 Wait for sale ✅ Yes",True,2021-01-29T10:56:56+00:00,2021-04-13T04:03:35+00:00,1640.0,812.0,0.0,0.0,0.0,0.47826087474823,True,False,False,False,76561198859376578,,22.0,False,False,1513,299,27.333333333333332,13.533333333333333,10h+,positive
+107417488,1216710,cyber-manhunt,Cyber Manhunt,english,"I wanted to like this game as it's clear that quite a bit of effort was put into making it, and (at least at the date of this review) the developer is still trying to improve on it.  The graphics are nice and I like this genre of game.  Game play length is decent, you can complete it within 9-10 hours at a leisurely pace.
+
+Having said that, I can't bring myself to recommend it.  The worst part of the game is the writing. Aside from some translation and grammatical errors which I can ignore, the nicest way I can put it is that the writing style is simply not for me. The characters are so incredibly tropey, dramatic and honestly cringey in the way they speak. The twists and turns are juvenile and the themes are simplistic and shallow. The game doesn't say anything you don't already know (i.e. wouldn't it be bad if hackers are able to use your private data on social media for nefarious means? Really makes you think!).
+
+Aside from the writing, the game play is okay though fairly repetitive.  The game does try to keep you engaged with new mini games that pop up, though at least one puzzle right at the end of the game is completely frustrating in a way that makes no sense and when you're under time pressure as well. By that point, I just wanted the game to be finished.
+
+I'm sure there's an audience for this game (maybe younger people?) but it's not for me unfortunately.","I wanted to like this game as it's clear that quite a bit of effort was put into making it, and (at least at the date of this review) the developer is still trying to improve on it. The graphics are nice and I like this genre of game. Game play length is decent, you can complete it within 9-10 hours at a leisurely pace. Having said that, I can't bring myself to recommend it. The worst part of the game is the writing. Aside from some translation and grammatical errors which I can ignore, the nicest way I can put it is that the writing style is simply not for me. The characters are so incredibly tropey, dramatic and honestly cringey in the way they speak. The twists and turns are juvenile and the themes are simplistic and shallow. The game doesn't say anything you don't already know (i.e. wouldn't it be bad if hackers are able to use your private data on social media for nefarious means? Really makes you think!). Aside from the writing, the game play is okay though fairly repetitive. The game does try to keep you engaged with new mini games that pop up, though at least one puzzle right at the end of the game is completely frustrating in a way that makes no sense and when you're under time pressure as well. By that point, I just wanted the game to be finished. I'm sure there's an audience for this game (maybe younger people?) but it's not for me unfortunately.",False,2022-01-06T01:28:14+00:00,2022-01-06T01:28:14+00:00,717.0,717.0,0.0,3.0,0.0,0.517241358757019,False,False,False,False,76561197997846529,,20.0,False,False,1379,258,11.95,11.95,10h+,negative
+77774844,1216710,cyber-manhunt,Cyber Manhunt,english,"Even though this game is still in development, it I enjoy it and it is worth the money even if no more content is ever added. The game's story is very strong and kept me wanting to keep playing for hours. The stories I have completed have taken a long time and were well thought out and planned. This game is simple enough for anyone to play, but complex enough that almost anyone will get stumped every once and a while. Overall, I would pay more than the asking price for this game after playing it and while I hope they continue to update the game since there are only a few stories right now, I would also be interested in more content even if it is a dlc.","Even though this game is still in development, it I enjoy it and it is worth the money even if no more content is ever added. The game's story is very strong and kept me wanting to keep playing for hours. The stories I have completed have taken a long time and were well thought out and planned. This game is simple enough for anyone to play, but complex enough that almost anyone will get stumped every once and a while. Overall, I would pay more than the asking price for this game after playing it and while I hope they continue to update the game since there are only a few stories right now, I would also be interested in more content even if it is a dlc.",True,2020-10-18T18:18:58+00:00,2020-10-18T18:18:58+00:00,465.0,184.0,0.0,0.0,0.0,0.5,True,False,True,False,76561198316528635,,6.0,False,False,660,129,7.75,3.066666666666667,3-10h,positive
+96463383,1216710,cyber-manhunt,Cyber Manhunt,english,"Cyber Manhunt is a phishing/hacking/social engineering simulator in the vein of Orwell. You play an investigator for a cyber security firm in a fictional country, but unlike Orwell you don't go after anti-government activists. Instead your prey consists of internet extortionists, perverts and other kinds of antisocial creeps, as you dig through their online profiles and uncover their sordid secrets.
+
+Other reviews have described the gameplay at length, so I won't be repeating it. I will say this though: this game is amazing ... if not for the reasons you might think. But you'll have to play it to find out ...","Cyber Manhunt is a phishing/hacking/social engineering simulator in the vein of Orwell. You play an investigator for a cyber security firm in a fictional country, but unlike Orwell you don't go after anti-government activists. Instead your prey consists of internet extortionists, perverts and other kinds of antisocial creeps, as you dig through their online profiles and uncover their sordid secrets. Other reviews have described the gameplay at length, so I won't be repeating it. I will say this though: this game is amazing ... if not for the reasons you might think. But you'll have to play it to find out ...",True,2021-07-27T15:25:11+00:00,2021-07-27T15:25:11+00:00,1879.0,667.0,0.0,0.0,0.0,0.5,True,False,False,False,76561197997737028,,33.0,False,False,615,102,31.316666666666666,11.116666666666667,10h+,positive
+88068571,1216710,cyber-manhunt,Cyber Manhunt,english,"If you are interested in Cybersecurity this is the game for you! Obviously its not identicle to what you would do as a Cybersecurity analyst. But it is close. As someone who is Studying to be a CyberSecurity Analylist and specialise in a few post grad cert. I throughouly enjoyed this game. Was a stuck a few times? sure. The game doesn't have a really good tutorial. But once you get the grove of things, I think after mission 4-5 you will understand how the game 100% completely works. I give it a 8/10 and I hope the devs continue to release more content for this game.","If you are interested in Cybersecurity this is the game for you! Obviously its not identicle to what you would do as a Cybersecurity analyst. But it is close. As someone who is Studying to be a CyberSecurity Analylist and specialise in a few post grad cert. I throughouly enjoyed this game. Was a stuck a few times? sure. The game doesn't have a really good tutorial. But once you get the grove of things, I think after mission 4-5 you will understand how the game 100% completely works. I give it a 8/10 and I hope the devs continue to release more content for this game.",True,2021-03-08T09:13:44+00:00,2021-03-08T09:13:44+00:00,230.0,229.0,0.0,0.0,0.0,0.5,True,False,False,False,76561198041127721,,71.0,False,False,572,107,3.8333333333333335,3.816666666666667,3-10h,positive
+137915928,1216710,cyber-manhunt,Cyber Manhunt,english,"The game and both DLC are totally recommended, since you don't take too long to end the game, play it with time, there are a lot of moments when you can't pause the game.
+
+Final Review:
+
+Base Game: 9/10; too short but good
+Home Sweet Home DLC: 8/10; hard to understand properly.
+Hello World DLC: 10/10; Fantastic in everything, and you can know why ""God"" is doing all that he was doing and you play as him. It's more a ""prologue"" chapter.
+
+Overall: 10/10. Love it","The game and both DLC are totally recommended, since you don't take too long to end the game, play it with time, there are a lot of moments when you can't pause the game. Final Review: Base Game: 9/10; too short but good Home Sweet Home DLC: 8/10; hard to understand properly. Hello World DLC: 10/10; Fantastic in everything, and you can know why ""God"" is doing all that he was doing and you play as him. It's more a ""prologue"" chapter. Overall: 10/10. Love it",True,2023-05-07T01:13:20+00:00,2023-05-07T01:13:20+00:00,2756.0,1846.0,0.0,0.0,0.0,0.5,True,False,False,False,76561198293337962,,5.0,False,False,460,86,45.93333333333333,30.766666666666666,10h+,positive
+76313455,1216710,cyber-manhunt,Cyber Manhunt,english,"Good side:
+1) Easy gaming control
+2) Love the cases solving, the stories are based on true stories.
+3) You do slightly need to use your brain to find all the clues.
+
+Down side:
+1) It's not too difficult to find all the clues especially with the cursor, all you need to do is to go through all the lines (sometimes even without having to read the messages) as the cursor will automatically highlight the suspicious points.
+2) The chapters are too short, three chapters are not enough.
+
+Overall, I like the game, it could be better but it's not bad either.","Good side: 1) Easy gaming control 2) Love the cases solving, the stories are based on true stories. 3) You do slightly need to use your brain to find all the clues. Down side: 1) It's not too difficult to find all the clues especially with the cursor, all you need to do is to go through all the lines (sometimes even without having to read the messages) as the cursor will automatically highlight the suspicious points. 2) The chapters are too short, three chapters are not enough. Overall, I like the game, it could be better but it's not bad either.",True,2020-09-21T03:50:27+00:00,2020-09-21T03:50:27+00:00,869.0,380.0,0.0,0.0,0.0,0.5,True,False,True,False,76561198329191238,,3.0,False,False,552,102,14.483333333333333,6.333333333333333,3-10h,positive
+75212539,1216710,cyber-manhunt,Cyber Manhunt,english,Sad the game still feels really short but i hope that the dev team can fix this with updates for a longer experience,Sad the game still feels really short but i hope that the dev team can fix this with updates for a longer experience,True,2020-08-31T09:53:06+00:00,2020-08-31T09:53:06+00:00,770.0,303.0,0.0,0.0,0.0,0.4761904776096344,True,False,True,False,76561198846065823,,6.0,False,False,116,23,12.833333333333334,5.05,3-10h,positive

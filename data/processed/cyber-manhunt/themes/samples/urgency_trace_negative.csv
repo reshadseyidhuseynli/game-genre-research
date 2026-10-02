@@ -1,0 +1,84 @@
+review_id,steam_app_id,game_key,game_name,language,review_text_raw,review_text_clean,recommended,created_at,updated_at,playtime_forever_minutes,playtime_at_review_minutes,playtime_last_two_weeks_minutes,votes_up,votes_funny,weighted_vote_score,steam_purchase,received_for_free,written_during_early_access,refunded,author_steam_id,author_num_games_owned,author_num_reviews,is_empty,is_very_short,review_length_chars,review_length_words,playtime_forever_hours,playtime_at_review_hours,playtime_segment,overall_sentiment
+85693387,1216710,cyber-manhunt,Cyber Manhunt,english,"I'd recommend anyone who's interested in playing it to wait until it's out of early access when some of the issues has hopefully been ironed out.
+
+Good: 
+- The game's story and art is good.
+- Decent interface (well coded).
+
+Bad: 
+- Puzzles often have unrealistic time limits or forces you to guess the answer, and after the time runs  or you guess wrong you have to rewatch all of the dialogue before the puzzle started.
+- Evidence often don't make sense, things that seem irrelevant are often evidence and vice versa.
+- Plenty of spelling mistakes.
+- The 5th chapter can't be completed at the moment due to a bug,
+- The game doesn't reward you for thinking on your own when collecting evidence or hacking people (with a few exceptions).
+- There isn't really a difficulty curve and the game never really opens up in terms of gameplay.","I'd recommend anyone who's interested in playing it to wait until it's out of early access when some of the issues has hopefully been ironed out. Good: - The game's story and art is good. - Decent interface (well coded). Bad: - Puzzles often have unrealistic time limits or forces you to guess the answer, and after the time runs or you guess wrong you have to rewatch all of the dialogue before the puzzle started. - Evidence often don't make sense, things that seem irrelevant are often evidence and vice versa. - Plenty of spelling mistakes. - The 5th chapter can't be completed at the moment due to a bug, - The game doesn't reward you for thinking on your own when collecting evidence or hacking people (with a few exceptions). - There isn't really a difficulty curve and the game never really opens up in terms of gameplay.",False,2021-01-31T13:27:31+00:00,2021-01-31T13:27:31+00:00,953.0,874.0,0.0,7.0,1.0,0.5618009567260742,True,False,True,False,76561198062680418,,5.0,False,False,829,150,15.883333333333333,14.566666666666666,10h+,negative
+91448069,1216710,cyber-manhunt,Cyber Manhunt,english,"Really wish I could recommend this game but the bugs and poor translation ruin what would have otherwise been a cool experience. Ran into two game breaking bugs, one fixed after a reset and the other remains to be fixed, in the last chapter. After solving a puzzle the game reverts back to a state before the puzzle was solved, while the timer continues to countdown.
+
+Another huge problem, especially in the last chapter, is the game is throwing a ton of background lore at you while an onscreen timer ticks away, in a scenario where the game can't even be paused. The interface already makes it hard to quickly grab information, but now you have to grab it while racing the clock, and solving puzzles. Your option is either to go slow and actually absorb the lore (failing and having to repeat after multiple attempts), or go quickly and miss anything story related. 
+
+The concept of this game is great and almost done well here. ALMOST. It needs better translation and better writing, way less bugs and a better UI. Whether it was script or direction, the voice acting was not up to par either.
+
+Playing for so long only for the game to break at the end really soured me on it, but I'm hoping the devs can fix it for their next iteration, because there is definite potential here.","Really wish I could recommend this game but the bugs and poor translation ruin what would have otherwise been a cool experience. Ran into two game breaking bugs, one fixed after a reset and the other remains to be fixed, in the last chapter. After solving a puzzle the game reverts back to a state before the puzzle was solved, while the timer continues to countdown. Another huge problem, especially in the last chapter, is the game is throwing a ton of background lore at you while an onscreen timer ticks away, in a scenario where the game can't even be paused. The interface already makes it hard to quickly grab information, but now you have to grab it while racing the clock, and solving puzzles. Your option is either to go slow and actually absorb the lore (failing and having to repeat after multiple attempts), or go quickly and miss anything story related. The concept of this game is great and almost done well here. ALMOST. It needs better translation and better writing, way less bugs and a better UI. Whether it was script or direction, the voice acting was not up to par either. Playing for so long only for the game to break at the end really soured me on it, but I'm hoping the devs can fix it for their next iteration, because there is definite potential here.",False,2021-05-04T23:36:34+00:00,2021-05-04T23:36:34+00:00,1505.0,1476.0,0.0,4.0,0.0,0.5930331349372864,True,False,False,False,76561197975678852,,56.0,False,False,1279,232,25.083333333333332,24.6,10h+,negative
+165130988,1216710,cyber-manhunt,Cyber Manhunt,english,"This game has a couple of problems:
+1. Some of the things you have to deduce are really far fetched. Like:
+[spoiler]You're supposed to figure out which limb a person has injured by assuming that all people are right handed[/spoiler]. I needed to look that up, after like 20 minutes.
+2. To get the achievement for each chapter you have to get all the evidence and the only way to get evidence is to hover over every text, because if it is evidence it will be marked red. This can be turned of in the settings, but that just makes it even harder!
+3. While doing a dialogue you may need to know things along the lines of 'when does this person do x?' and you can't look it up while doing the dialogue which mean it's basically 'choose something random; it's the wrong choice; look it up; advance dialogue; repeat'. I'm sorry but it can't remember every minute detail that may or may not be relevant in a dialogue tree, 30 minutes down the line.
+4. QoL features I wish the game had. These are not really a problem but would be nice:
+  - The back, forward and reload buttons in the browser don't work.
+  - You can't enter URLs in the browser
+  - Sometimes the browser opens new tabs, sometimes it doesn't. Would be nice if 'new tab' was bound to middle mouse button and 'open here' to left click.
+  - The password cracker, which seems to be made to be like a dictionary attack thingie, doesn't crack the password unless it has ALL information even if the information isn't contained in the password e.g. 
+  ""Name: Susi""
+  ""Date of birth: 1.1.1970""
+  resulting password is '111970""
+  It wouldn't need the name for that.
+  - Sometimes text messages appear on both sides of account and sometimes they're only on one side e.g.
+  You lock into Alice's and Bob's account and on Alice's account the conversation is
+  A: ""Hi long time no see""
+  B: ""Are you ghosting me?""
+  
+  And on Bob's account it's
+  A: ""Hi long time no see""
+  B: ""Are you ghosting me?""
+  one day later
+  B: ""Sorry. Didn't see your messages. Here's the super secret info you need.""
+  A: ""Thank you""
+  - Calling a person before you're supposed to just tells you that they're not available currently.
+  - Hacking things is less like a puzzle and more of 'type this into a text box, then you have 5 minutes to find what you want and if you don't succeed you restart and have to type the text into the box again'. Like it's actually type a text into a box. It's 'this is the password `ERGT467´ type this into the text box below'. The time limit just seems pointless and the having to repeat everything after you run out of time seems frustrating.","This game has a couple of problems: 1. Some of the things you have to deduce are really far fetched. Like: [spoiler]You're supposed to figure out which limb a person has injured by assuming that all people are right handed[/spoiler]. I needed to look that up, after like 20 minutes. 2. To get the achievement for each chapter you have to get all the evidence and the only way to get evidence is to hover over every text, because if it is evidence it will be marked red. This can be turned of in the settings, but that just makes it even harder! 3. While doing a dialogue you may need to know things along the lines of 'when does this person do x?' and you can't look it up while doing the dialogue which mean it's basically 'choose something random; it's the wrong choice; look it up; advance dialogue; repeat'. I'm sorry but it can't remember every minute detail that may or may not be relevant in a dialogue tree, 30 minutes down the line. 4. QoL features I wish the game had. These are not really a problem but would be nice: - The back, forward and reload buttons in the browser don't work. - You can't enter URLs in the browser - Sometimes the browser opens new tabs, sometimes it doesn't. Would be nice if 'new tab' was bound to middle mouse button and 'open here' to left click. - The password cracker, which seems to be made to be like a dictionary attack thingie, doesn't crack the password unless it has ALL information even if the information isn't contained in the password e.g. ""Name: Susi"" ""Date of birth: 1.1.1970"" resulting password is '111970"" It wouldn't need the name for that. - Sometimes text messages appear on both sides of account and sometimes they're only on one side e.g. You lock into Alice's and Bob's account and on Alice's account the conversation is A: ""Hi long time no see"" B: ""Are you ghosting me?"" And on Bob's account it's A: ""Hi long time no see"" B: ""Are you ghosting me?"" one day later B: ""Sorry. Didn't see your messages. Here's the super secret info you need."" A: ""Thank you"" - Calling a person before you're supposed to just tells you that they're not available currently. - Hacking things is less like a puzzle and more of 'type this into a text box, then you have 5 minutes to find what you want and if you don't succeed you restart and have to type the text into the box again'. Like it's actually type a text into a box. It's 'this is the password `ERGT467´ type this into the text box below'. The time limit just seems pointless and the having to repeat everything after you run out of time seems frustrating.",False,2024-05-11T11:04:44+00:00,2024-05-11T11:04:44+00:00,527.0,503.0,0.0,4.0,0.0,0.5817490816116333,True,False,False,False,76561198248829392,,6.0,False,False,2555,474,8.783333333333333,8.383333333333333,3-10h,negative
+125037153,1216710,cyber-manhunt,Cyber Manhunt,english,"No.
+I know that real hackers were not work like movies.
+They were not smashing keyboard with there flashing fingers, no nerdy graphics in monitors.
+
+So just keep this away from this conversation.
+
+This game is more than like point and click.
+Just click someones name, click clues, click save.
+Open correct tools, click copy, paste, proceed.
+click click click click and lots of more clicks.
+
+Many things are weird and unacceptable.
+As for convenience, but also nuance.
+Such as, When you find someones picture and save it, it doesn't go to someone's main profile. only just as clue of unknown person.
+But if you find someone's name even if you haven't seen his or her face, automatically found picture of them and saved as profile.
+
+And many mini-games to clear objectives, are one time used and so hard to clear at first time.
+But there's no proper tutorials or how to play. Even countdown exist.
+
+No multitask exist. [even there's countdown mission]
+when you cracked someone's data, you should wait about ten secs to do nothing.
+Can't check internet, crack other people, call someone, copying shared data.
+When you call to someone, you cannot check clues to use phishing or bluffing.
+and every call is unknown for first, so easy to fail, and that 'Ashley bxtch' keep shxtting and crapping.
+
+Seriously? What hacker is exist which one handed and blind and stupid enough that take phone via there precious one hand and not to see there screen to check data?
+
+Sorry but, Simply this game is just a shxt.
+If you want click, just go find other clicker games.
+If you want to be like hacker? There is many more games better then this.
+If you want to become detective? Seriously? This game?","No. I know that real hackers were not work like movies. They were not smashing keyboard with there flashing fingers, no nerdy graphics in monitors. So just keep this away from this conversation. This game is more than like point and click. Just click someones name, click clues, click save. Open correct tools, click copy, paste, proceed. click click click click and lots of more clicks. Many things are weird and unacceptable. As for convenience, but also nuance. Such as, When you find someones picture and save it, it doesn't go to someone's main profile. only just as clue of unknown person. But if you find someone's name even if you haven't seen his or her face, automatically found picture of them and saved as profile. And many mini-games to clear objectives, are one time used and so hard to clear at first time. But there's no proper tutorials or how to play. Even countdown exist. No multitask exist. [even there's countdown mission] when you cracked someone's data, you should wait about ten secs to do nothing. Can't check internet, crack other people, call someone, copying shared data. When you call to someone, you cannot check clues to use phishing or bluffing. and every call is unknown for first, so easy to fail, and that 'Ashley bxtch' keep shxtting and crapping. Seriously? What hacker is exist which one handed and blind and stupid enough that take phone via there precious one hand and not to see there screen to check data? Sorry but, Simply this game is just a shxt. If you want click, just go find other clicker games. If you want to be like hacker? There is many more games better then this. If you want to become detective? Seriously? This game?",False,2022-11-06T09:17:53+00:00,2022-11-06T09:17:53+00:00,1030.0,602.0,0.0,3.0,0.0,0.4939091205596924,True,False,False,False,76561198119982480,,38.0,False,False,1674,294,17.166666666666668,10.033333333333333,10h+,negative
+188723193,1216710,cyber-manhunt,Cyber Manhunt,english,"Cyber Manhunt is a take on an Orwell style game, but it lacks the polish and quality of those titles. Sometimes you can find a piece of information that you need (for example, a character's name) earlier in a chapter, but the game won't let you 'learn' it until you reach a later point because it isn't the specific place where the game wants you to collect that information. Certain dialogue choices are vague and their outcomes are unpredictable. Sometimes the game will ask you to provide specific information that you collected (or information that the game never clearly gave) but won't let you access your 'notes'.
+
+There are a few interesting minigames scattered throughout, but some of them give a strict time limit and vague guidance as to what you need to do. Failure just sets you back a short time, but in some instances you're forced to sit through unskippable dialogue scenes to get back to the minigame.
+
+There are a lot of good ideas here, and the chapters and overall story are fairly interesting, but the overall presentation makes this more of a frustrating experience than a fun one.","Cyber Manhunt is a take on an Orwell style game, but it lacks the polish and quality of those titles. Sometimes you can find a piece of information that you need (for example, a character's name) earlier in a chapter, but the game won't let you 'learn' it until you reach a later point because it isn't the specific place where the game wants you to collect that information. Certain dialogue choices are vague and their outcomes are unpredictable. Sometimes the game will ask you to provide specific information that you collected (or information that the game never clearly gave) but won't let you access your 'notes'. There are a few interesting minigames scattered throughout, but some of them give a strict time limit and vague guidance as to what you need to do. Failure just sets you back a short time, but in some instances you're forced to sit through unskippable dialogue scenes to get back to the minigame. There are a lot of good ideas here, and the chapters and overall story are fairly interesting, but the overall presentation makes this more of a frustrating experience than a fun one.",False,2025-02-25T12:41:46+00:00,2025-02-25T12:41:46+00:00,261.0,261.0,0.0,2.0,0.0,0.523809552192688,True,False,False,False,76561198055275168,,44.0,False,False,1101,192,4.35,4.35,3-10h,negative
