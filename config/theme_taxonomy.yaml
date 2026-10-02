@@ -20,7 +20,6 @@ themes:
       - '\bimmersed\b'
       - '\bfelt like\b'
       - '\bmakes? (?:me|you) feel\b'
-      - '\bin the game\b'
 
   TERMINAL_UI:
     label_az: Terminal və command-line interfeysi
@@ -180,10 +179,11 @@ themes:
   PLAYER_AGENCY:
     label_az: Seçim və player agency
     patterns:
-      - '\bchoices?\b'
-      - '\blinear\b'
+      - '\bno choices?\b'
+      - '\bmeaningful choices?\b'
+      - '\blinear(?:ity)?\b'
       - '\bmultiple endings?\b'
-      - '\bbranch(?:ing|es)?\b'
+      - '\bbranching (?:story|storyline|path|paths)\b'
       - '\bforced to\b'
       - '\bonly one way\b'
       - '\bfreedom\b'
@@ -193,9 +193,9 @@ themes:
     patterns:
       - '\bpacing\b'
       - '\btoo slow\b'
-      - '\bslow(?:ly)?\b'
-      - '\bwaiting\b'
-      - '\bwait (?:for|quite|until)\b'
+      - '\bslow pacing\b'
+      - '\bwait(?:ing)? around\b'
+      - '\bwaiting for (?:the )?(?:same|tool|program|animation|process|hack)\b'
       - '\bwatching animations?\b'
       - '\btime pressure\b'
 
