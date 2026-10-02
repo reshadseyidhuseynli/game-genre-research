@@ -85,7 +85,7 @@ LOCALIZATION_WRITING 188 rəy-da tutulur və mənfi payı **36.17%**-dir. Text-h
 
 ### Investigation və search
 
-Investigation fantasy özü geniş maraq yaradır, amma search çox istiqamətləndirici və yalnız bir doğru query/progression qəbul edəndə “araşdırma” yox, “scripted routing” kimi hiss oluna bilir.
+Investigation rol hissi özü geniş maraq yaradır, amma search çox istiqamətləndirici və yalnız bir doğru query/progression qəbul edəndə “araşdırma” yox, “scripted routing” kimi hiss oluna bilir.
 
 ### təkrarçılıq
 
@@ -109,7 +109,7 @@ REALISM_ACCURACY namizəd-lərində mənfi payı yalnız **8.33%**-dir. Bu, əvv
 
 ## yaradıcı intent ilə uyğunluq
 
-yaradıcı materiallarında privacy, cyber violence, real hadisələr və social-engineering araşdırma əsas məqsədlər kimi göstərilir. rəy-lər real-world relevance və investigation fantasy-ni təsdiqləyir, amma English localization və sərt scripted progression bu məqsədin təsirini zəiflədən əsas execution problemləridir.
+yaradıcı materiallarında privacy, cyber violence, real hadisələr və social-engineering araşdırma əsas məqsədlər kimi göstərilir. rəy-lər real-world relevance və investigation rol hissi-ni təsdiqləyir, amma English localization və sərt scripted progression bu məqsədin təsirini zəiflədən əsas execution problemləridir.
 
 ## oyunlararası implication
 
