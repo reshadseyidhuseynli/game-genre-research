@@ -1,0 +1,127 @@
+{
+  "endpoint": "https://api.steampowered.com/IUserReviewsService/GetAppReviews/v1/",
+  "params": {
+    "appid": 454950,
+    "languages": [
+      "english"
+    ],
+    "filter": 1,
+    "review_type": 0,
+    "purchase_type": 1,
+    "num_per_page": 100,
+    "filter_offtopic_activity": false,
+    "cursor": "AoJwp4CT7tkCfpPIcA=="
+  },
+  "collected_at": "2026-10-02T21:07:10.597713+00:00",
+  "response": {
+    "response": {
+      "query_summary": {
+        "num_reviews": 4
+      },
+      "reviews": [
+        {
+          "recommendationid": "29507717",
+          "author": {
+            "steamid": "76561198062198079",
+            "num_reviews": 68,
+            "playtime_forever": 432,
+            "playtime_last_two_weeks": 0,
+            "playtime_at_review": 200,
+            "last_played": 1512577269
+          },
+          "language": "english",
+          "review": "This game is one of the few that make you think",
+          "timestamp_created": 1485458979,
+          "timestamp_updated": 1485458979,
+          "voted_up": true,
+          "votes_up": 4,
+          "votes_funny": 0,
+          "weighted_vote_score": 0.30556461215019226,
+          "comment_count": 0,
+          "steam_purchase": true,
+          "received_for_free": false,
+          "written_during_early_access": false,
+          "primarily_steam_deck": false,
+          "refunded": false
+        },
+        {
+          "recommendationid": "29507574",
+          "author": {
+            "steamid": "76561197991759803",
+            "num_reviews": 23,
+            "playtime_forever": 389,
+            "playtime_last_two_weeks": 0,
+            "playtime_at_review": 209,
+            "last_played": 1486500796
+          },
+          "language": "english",
+          "review": "If you're old enough (or retro gamer enough) to remember that Carmen Sandiego game from 1992 where you had to hop around the world gathering evidence of crimes, pinning faces to names, and figuring out who did what crime and where - you'll absolutely LOVE this kind of game.\n\nI love point-and-clicks, and I love hacksims. This doesn't do either seperately very well, but does both together great!\n\nFrom a point-and-click side of things, the interface is easy to use, the humor is there, the exploration and investigation is thoughtful. Sometimes it doesn't make it too obvious what you must do next, and you have to try a ton of evidence to move on, but it's executed decently.\n\nThe hacksim perspective is a little on the tame side compared to others. You get basic hack commands that \"just work\", and you realize quickly that taking notes isn't usually required since the help screen is always available. You also don't have to rely on advanced commands or speed timed elements as you do with other hacksims (though I've only played the game for a VERY short amount of time at this point, so I'm assuming a lot) making the hacking element very much a secondary aspect of the game. \n\nIn that respect, it's definitely more of a point-and-click than a hacksim where you would have to probe networks, get through firewalls, obtain information, delete your trail... instead, in this you just get in and sort through the evidence. It's about proving someone is guilty of something. It's about digging through their personal sites, blogs, photos.... all very Carmen Sandiego, like I said before.\n\nIt's one of the best I've played in recent memory and the nods to the various OSes, software, companies, etc. is hilarious and leaves me feeling very satisfied.",
+          "timestamp_created": 1485458487,
+          "timestamp_updated": 1485458487,
+          "voted_up": true,
+          "votes_up": 41,
+          "votes_funny": 2,
+          "weighted_vote_score": 0.7831026315689087,
+          "comment_count": 0,
+          "steam_purchase": false,
+          "received_for_free": true,
+          "written_during_early_access": false,
+          "primarily_steam_deck": false,
+          "refunded": false
+        },
+        {
+          "recommendationid": "29507317",
+          "author": {
+            "steamid": "76561198024136518",
+            "num_reviews": 2,
+            "playtime_forever": 281,
+            "playtime_last_two_weeks": 0,
+            "playtime_at_review": 223,
+            "last_played": 1486226151
+          },
+          "language": "english",
+          "review": "This game is the best 'hacking' game i have played so far! When youre playing this game, it really feels like you have become a mi7 agent. I would suggest buying this if youre into hacking and being a detective. I would recommend not using a guide :)\n\nHave fun!\n\n9/10!",
+          "timestamp_created": 1485457554,
+          "timestamp_updated": 1485457554,
+          "voted_up": true,
+          "votes_up": 3,
+          "votes_funny": 0,
+          "weighted_vote_score": 0.4106007218360901,
+          "comment_count": 0,
+          "steam_purchase": true,
+          "received_for_free": false,
+          "written_during_early_access": false,
+          "primarily_steam_deck": false,
+          "refunded": false
+        },
+        {
+          "recommendationid": "29505766",
+          "author": {
+            "steamid": "76561197989724295",
+            "num_reviews": 12,
+            "playtime_forever": 757,
+            "playtime_last_two_weeks": 0,
+            "playtime_at_review": 177,
+            "last_played": 1487221625
+          },
+          "language": "english",
+          "review": "TL;DR (good deal of gameplay from free demo):  Mainlining is a fun adventure game with a clever and unique twist where you hack computers, websites, and other devices to mine information on the different cases presented to you.  The game doesn't hold your hand, so the cases can present a fun little challenge beyond the first tutorial.  Highly recommended!  If you want to see a playthrough of the first (tutorial) case, check out this video (Demo version):\n\nhttps://www.youtube.com/watch?v=Kek4zO0OF_8\n\nFULL REVIEW:  Mainlining, the point-and-click hacking adventure game, casts the player as an employee of MI7 in charge of investigating various cyber-crimes and tracking suspects through electronic means.  You are given tools (e.g., electronic trackers, a simplified command-line, web browser, etc) in order to collect information, put together clues, and ultimately arrest the right person.\n\nThere is a lot of unique gameplay in Mainlining since, unlike other adventure games, the puzzles and stories you try to untangle are pieced together from short emails, blog posts, and other electronic files.  The game does a good job of not holding your hand (e.g., by telling you which sites to hack, etc) but does provide sufficient in-context clues so that the task isn’t impossible and/or a guessing game.  It’s also a game that very much should be played with a pen and paper handy because you’ll need to track which websites/IP addresses you have collected, which you have hacked, which files you have or have not read or downloaded, and which suspects you wish to pursue.  Note that there IS a “notes” application (because the game looks like a computer desktop), but that fills up quickly.\n\nOverall, the game is challenging, unique, and very entertaining (it’s got a good self-aware/internet-aware sense of humor) while still retaining the hallmarks of good adventure games: good story, good gameplay mechanics, and good pacing.  I would definitely recommend this game or, at the least, would suggest you check out the demo (which contains the first two cases from the full game—and save files apparently carry over).",
+          "timestamp_created": 1485452162,
+          "timestamp_updated": 1485452481,
+          "voted_up": true,
+          "votes_up": 17,
+          "votes_funny": 0,
+          "weighted_vote_score": 0.576223611831665,
+          "comment_count": 0,
+          "steam_purchase": true,
+          "received_for_free": false,
+          "written_during_early_access": false,
+          "primarily_steam_deck": false,
+          "refunded": false
+        }
+      ],
+      "cursor": "AoJwvab27dkCdo7HcA==",
+      "total_matching": 304
+    }
+  }
+}

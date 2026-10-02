@@ -1,0 +1,15 @@
+review_id,steam_app_id,game_key,game_name,language,review_text_raw,review_text_clean,recommended,created_at,updated_at,playtime_forever_minutes,playtime_at_review_minutes,playtime_last_two_weeks_minutes,votes_up,votes_funny,weighted_vote_score,steam_purchase,received_for_free,written_during_early_access,refunded,author_steam_id,author_num_games_owned,author_num_reviews,is_empty,is_very_short,review_length_chars,review_length_words,playtime_forever_hours,playtime_at_review_hours,playtime_segment,overall_sentiment
+34741529,454950,mainlining,Mainlining,english,"Solve cases by pseudo-hacking other people's accounts and look for contextual clues to the case at hand. Submit the suspect, location, and evidence pointing to the case to produce an arrest.
+
+I just finished the 3rd case. I've had to look online for help in every case. This makes me think the game is poorly designed.
+
+A few good ideas, but overall poor execution.
+
+Good ideas
+- I like the pixel art
+- I enjoy the pseudo emulation of an older Operating System
+
+Poor Execution
+- there are seemingly several ways to try to convict a suspect, given the multitude of evidence pieces one can submit; however this quickly turns into trial-and-error. Given a suspect / location / evidence combination, you'll be graded right or wrong. Submitting a wrong answer does not produce a penalty. You end up submitting several combinations in order to solve the case. This becomes frustrating, as it's no longer a logic-based game, but one where you *think* you have it right, get it wrong, then submit all other logical combinations in frustration.
+
+It's almost there, but not good enough for me to recommend.","Solve cases by pseudo-hacking other people's accounts and look for contextual clues to the case at hand. Submit the suspect, location, and evidence pointing to the case to produce an arrest. I just finished the 3rd case. I've had to look online for help in every case. This makes me think the game is poorly designed. A few good ideas, but overall poor execution. Good ideas - I like the pixel art - I enjoy the pseudo emulation of an older Operating System Poor Execution - there are seemingly several ways to try to convict a suspect, given the multitude of evidence pieces one can submit; however this quickly turns into trial-and-error. Given a suspect / location / evidence combination, you'll be graded right or wrong. Submitting a wrong answer does not produce a penalty. You end up submitting several combinations in order to solve the case. This becomes frustrating, as it's no longer a logic-based game, but one where you *think* you have it right, get it wrong, then submit all other logical combinations in frustration. It's almost there, but not good enough for me to recommend.",False,2017-09-04T18:50:59+00:00,2017-09-04T18:50:59+00:00,118.0,70.0,0.0,8.0,0.0,0.4582463502883911,True,False,False,False,76561197999531554,,36.0,False,False,1091,188,1.9666666666666666,1.1666666666666667,1-3h,negative

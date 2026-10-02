@@ -1,0 +1,39 @@
+review_id,steam_app_id,game_key,game_name,language,review_text_raw,review_text_clean,recommended,created_at,updated_at,playtime_forever_minutes,playtime_at_review_minutes,playtime_last_two_weeks_minutes,votes_up,votes_funny,weighted_vote_score,steam_purchase,received_for_free,written_during_early_access,refunded,author_steam_id,author_num_games_owned,author_num_reviews,is_empty,is_very_short,review_length_chars,review_length_words,playtime_forever_hours,playtime_at_review_hours,playtime_segment,overall_sentiment
+50498671,454950,mainlining,Mainlining,english,"A good game, but could use some polish to become a great one.
+
+Let me start with a pro/con list so you don't have to sift through my personal thoughts in longform.
+
+Pros:
+-Doesn't hold your hand, feels 'authentic'. You feel like you're hacking, in some small way.
+-Satisfying UI, easy to navigate without tutorial.
+-Challenging without being mind-bendingly difficult or frustrating (usually).
+-Interesting story with fun twists and turns and a lot of personal flourish to make it feel alive.
+-Offers several solutions to almost every case, the result is up to what you turn in.
+-Good music and ambient sound.
+Cons:
+-Bit of a buggy mess sometimes. Had to reset several cases when things stopped working, and had the entire game freeze at one point.
+-Doesn't do much to make you feel ""involved"" in the story...you are a silent and non-engaging protagonist. Things happen to you and around you, you do not really interact except hacking.
+-A few times, it suffers from ""Figure out what the devs were thinking"" syndrome.
+-Lots of typos and a few places where things were not implemented but were left in the script for players to see
+
+Mainlining is a good game with a lot of potential. I love the concept of an adventure game told through hacking and desktop UIs. But it really needs a good strong polish to truly be a satisfying experience. It's a short, light-hearted bit of fun, which I enjoyed! Don't expect a deep hacking experience like Uplink...this is primarily an adventure game. However, the narrative was too short and not engaging enough for me to really feel totally sucked in or invested....exciting things lose their emphasis because it's all told to you the same way with very little pause for breath or impact, or it happens ""off screen"".
+
+However, I think this game is fun, interesting, unique and worth a play for sure. I found it easy to forgive its little hiccups and lack of polish because I was so charmed by Mainlining. If you enjoy feeling like a hacker, government intrigue, solving mysteries and adventure games, I think you will really find something to like here.","A good game, but could use some polish to become a great one. Let me start with a pro/con list so you don't have to sift through my personal thoughts in longform. Pros: -Doesn't hold your hand, feels 'authentic'. You feel like you're hacking, in some small way. -Satisfying UI, easy to navigate without tutorial. -Challenging without being mind-bendingly difficult or frustrating (usually). -Interesting story with fun twists and turns and a lot of personal flourish to make it feel alive. -Offers several solutions to almost every case, the result is up to what you turn in. -Good music and ambient sound. Cons: -Bit of a buggy mess sometimes. Had to reset several cases when things stopped working, and had the entire game freeze at one point. -Doesn't do much to make you feel ""involved"" in the story...you are a silent and non-engaging protagonist. Things happen to you and around you, you do not really interact except hacking. -A few times, it suffers from ""Figure out what the devs were thinking"" syndrome. -Lots of typos and a few places where things were not implemented but were left in the script for players to see Mainlining is a good game with a lot of potential. I love the concept of an adventure game told through hacking and desktop UIs. But it really needs a good strong polish to truly be a satisfying experience. It's a short, light-hearted bit of fun, which I enjoyed! Don't expect a deep hacking experience like Uplink...this is primarily an adventure game. However, the narrative was too short and not engaging enough for me to really feel totally sucked in or invested....exciting things lose their emphasis because it's all told to you the same way with very little pause for breath or impact, or it happens ""off screen"". However, I think this game is fun, interesting, unique and worth a play for sure. I found it easy to forgive its little hiccups and lack of polish because I was so charmed by Mainlining. If you enjoy feeling like a hacker, government intrigue, solving mysteries and adventure games, I think you will really find something to like here.",True,2019-05-05T17:53:11+00:00,2019-05-05T17:53:11+00:00,369.0,369.0,0.0,3.0,0.0,0.5522387623786926,True,False,False,False,76561198069168029,,6.0,False,False,2083,360,6.15,6.15,3-10h,positive
+45847027,454950,mainlining,Mainlining,english,"I loved it!
+A puzzle game that made me feel like a real hacker using the back door to snoop around on websites.
+Some cases were easy to solve, some were a lot harder to solve [spoiler] Like that one case where I didn't take into account that RL time was used in-game. [/spoiler]","I loved it! A puzzle game that made me feel like a real hacker using the back door to snoop around on websites. Some cases were easy to solve, some were a lot harder to solve [spoiler] Like that one case where I didn't take into account that RL time was used in-game. [/spoiler]",True,2018-11-16T20:01:57+00:00,2018-11-16T20:01:57+00:00,445.0,445.0,0.0,2.0,3.0,0.553158700466156,True,False,False,False,76561198262827575,,5.0,False,False,278,54,7.416666666666667,7.416666666666667,3-10h,positive
+89602230,454950,mainlining,Mainlining,english,"Pretty good game. The story was fun and somewhat easy to follow. There was also a lot of info you can dig out on your own.
+
+Pros:
+-Good story
+-Makes you feel like a hacker
+-Immersive
+-Never a dull moment
+
+Cons:
+-Solutions to puzzles are inconsistent and sometimes the solution needs to be googled because of how weird it is.
+-Though the game does not baby you, a lot of the info needs to be inferred.
+-Short story
+-No replayability (not all cases you have the option of different jail sentences)
+
+Rating: 6/10","Pretty good game. The story was fun and somewhat easy to follow. There was also a lot of info you can dig out on your own. Pros: -Good story -Makes you feel like a hacker -Immersive -Never a dull moment Cons: -Solutions to puzzles are inconsistent and sometimes the solution needs to be googled because of how weird it is. -Though the game does not baby you, a lot of the info needs to be inferred. -Short story -No replayability (not all cases you have the option of different jail sentences) Rating: 6/10",True,2021-04-03T01:28:13+00:00,2021-04-03T01:28:13+00:00,478.0,478.0,0.0,0.0,0.0,0.5,False,True,False,False,76561198159204314,,56.0,False,False,506,93,7.966666666666667,7.966666666666667,3-10h,positive
