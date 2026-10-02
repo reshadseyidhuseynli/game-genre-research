@@ -1,0 +1,729 @@
+review_id,steam_app_id,game_key,game_name,language,review_text_raw,review_text_clean,recommended,created_at,updated_at,playtime_forever_minutes,playtime_at_review_minutes,playtime_last_two_weeks_minutes,votes_up,votes_funny,weighted_vote_score,steam_purchase,received_for_free,written_during_early_access,refunded,author_steam_id,author_num_games_owned,author_num_reviews,is_empty,is_very_short,review_length_chars,review_length_words,playtime_forever_hours,playtime_at_review_hours,playtime_segment,overall_sentiment
+17512782,365450,hacknet,Hacknet,english,"Hack the Planet!!
+
+I was a fan of Uplink back in the day, but it is certainly time for a modern quality release! I streamed Hacknet for 5 hours the other night and we had a great time experiencing what the world had to offer. You would think I rocketed through the game faster, but honestly much of the time was spent messing around in servers and poking around. The intuitive gameplay, explorable content, and the way the game handles failure made for a really enjoyable experience. 
+
+One thing I enjoyed was how intiutive everything was. This isn't linux, this isn't MS-DOS, this isn't even hacking per se. It's an adventure game with a command line interface. Hacking concepts and tools are abstracted for playablilty though it should be noted that there are some real hacking suites out there that are scarily easier to use then what you find in the game.
+
+I'd love to go into details about the exciting things I found, but half of the fun is exploring. One big suggestion I have is to read through the help command in your OS - all 3 pages. Your HacknetOS has a lot of functionality that you wouldn't normally expect. The commands can also let you have a lot of fun! I had a ball changing some IRC logs and websites to include my viewers names to much embarassment and laughs. 
+
+An aspect I appreciated is that the punishment for making mistakes is firm but fair. Going into too much detail would be spoiling, but suffice it to say don't just get cozy clicking on the GUI for everything you do. Know your commands and they will treat you well in return.
+
+I did encounter a few minor bugs, some graphic glitches dealing with text, however none were game breaking and I documented this information back to the company. At the stage I'm at in the game there were no hardware upgrades, but I have uncovered a number of hacking tools to provide alternate forms of entry into more difficult servers.
+
+I'm happy to share more of my experience with you, or if you'd like just stop by the channel to see it in action.
+
+DISCLAIMER: I was provided a pre-relase copy of the game by Surprise Attack Games with no additional compensation or influence. Heck I like the game so much I'm picking up a copy to give away to my viewers. :)
+
+
+EDIT:  After a few more streams of the game, and now about 15 more hours spent with Hacknet I'm still loving the experience  The universe is solid, with some very interesting servers you encounter that make homages to pop culture and game references in some instances.  The banter logs are proabably my favorite things to hunt down as it makes it feel a little more real that people are using these boxes.
+
+As for those miffed about me talking about my stream?  I respect your thumbs down, but potential buyers got to see Hacknet in action and it helped them make a purchasing decision (lots of YES!).  Totally worth it.","Hack the Planet!! I was a fan of Uplink back in the day, but it is certainly time for a modern quality release! I streamed Hacknet for 5 hours the other night and we had a great time experiencing what the world had to offer. You would think I rocketed through the game faster, but honestly much of the time was spent messing around in servers and poking around. The intuitive gameplay, explorable content, and the way the game handles failure made for a really enjoyable experience. One thing I enjoyed was how intiutive everything was. This isn't linux, this isn't MS-DOS, this isn't even hacking per se. It's an adventure game with a command line interface. Hacking concepts and tools are abstracted for playablilty though it should be noted that there are some real hacking suites out there that are scarily easier to use then what you find in the game. I'd love to go into details about the exciting things I found, but half of the fun is exploring. One big suggestion I have is to read through the help command in your OS - all 3 pages. Your HacknetOS has a lot of functionality that you wouldn't normally expect. The commands can also let you have a lot of fun! I had a ball changing some IRC logs and websites to include my viewers names to much embarassment and laughs. An aspect I appreciated is that the punishment for making mistakes is firm but fair. Going into too much detail would be spoiling, but suffice it to say don't just get cozy clicking on the GUI for everything you do. Know your commands and they will treat you well in return. I did encounter a few minor bugs, some graphic glitches dealing with text, however none were game breaking and I documented this information back to the company. At the stage I'm at in the game there were no hardware upgrades, but I have uncovered a number of hacking tools to provide alternate forms of entry into more difficult servers. I'm happy to share more of my experience with you, or if you'd like just stop by the channel to see it in action. DISCLAIMER: I was provided a pre-relase copy of the game by Surprise Attack Games with no additional compensation or influence. Heck I like the game so much I'm picking up a copy to give away to my viewers. :) EDIT: After a few more streams of the game, and now about 15 more hours spent with Hacknet I'm still loving the experience The universe is solid, with some very interesting servers you encounter that make homages to pop culture and game references in some instances. The banter logs are proabably my favorite things to hunt down as it makes it feel a little more real that people are using these boxes. As for those miffed about me talking about my stream? I respect your thumbs down, but potential buyers got to see Hacknet in action and it helped them make a purchasing decision (lots of YES!). Totally worth it.",True,2015-08-13T00:01:53+00:00,2015-08-13T15:20:03+00:00,2370.0,1591.0,0.0,1045.0,91.0,0.924241840839386,False,False,False,False,76561197974440706,,14.0,False,False,2830,516,39.5,26.516666666666666,10h+,positive
+23438798,365450,hacknet,Hacknet,english,"I took down a hacker's proxy. Then I try to take down his main machine, but he catches me offguard and starts tracing me back. Before I know it, my machine BSODs and I have to reboot. I check my email and find an email from the hacker where he taunts me. I know it's game, but I couldn't resist and replied ""Fuck you."" Then I got a reply ""Yeah, fuck you too buddy."" and an achievement.
+
+10/10, would BSOD again.","I took down a hacker's proxy. Then I try to take down his main machine, but he catches me offguard and starts tracing me back. Before I know it, my machine BSODs and I have to reboot. I check my email and find an email from the hacker where he taunts me. I know it's game, but I couldn't resist and replied ""Fuck you."" Then I got a reply ""Yeah, fuck you too buddy."" and an achievement. 10/10, would BSOD again.",True,2016-06-07T17:45:41+00:00,2016-06-07T17:45:41+00:00,545.0,537.0,0.0,694.0,1004.0,0.9175307750701904,False,False,False,False,76561198028129574,,37.0,False,False,410,81,9.083333333333334,8.95,3-10h,positive
+25668682,365450,hacknet,Hacknet,english,">Started the game, revealed new commands 30 mins in
+>One command is ""openCDTray""
+>Accessed my ingame PC
+>Typed ""openCDTray""
+>My actual PC's disc tray opened
+>Panicked like a motherf*cker
+
+10/10",">Started the game, revealed new commands 30 mins in >One command is ""openCDTray"" >Accessed my ingame PC >Typed ""openCDTray"" >My actual PC's disc tray opened >Panicked like a motherf*cker 10/10",True,2016-09-24T11:46:31+00:00,2016-09-24T11:47:05+00:00,714.0,714.0,0.0,575.0,917.0,0.9162151217460632,True,False,False,False,76561198077024528,,4.0,False,False,192,30,11.9,11.9,10h+,positive
+137523446,365450,hacknet,Hacknet,english,"I'd personally like it more if I didn't do hacking for a living.
+
+I can't help but find flaws in its guitar-hero style approach to cyber security.
+
+This game is at its strongest when it closest resembles real hacking: problem solving through enumeration, weaponization and exploitation. This is especially evident when you are plundering compromised hard drives and linking information together to achieve a goal.
+
+The game is at its weakest when it relies too much on the ""hacking tools"". It's like a less comprehensive version of Metasploit and Nmap where you just use the same modules over and over again. For me, it got boring fast and I would constantly try to rush through the repetition.
+
+Props to whole game being playable from the CLI though.
+
+Solid game, but if you want to do real hacking, go to TryHackMe or HackTheBox.
+
+8/10
+
+EDIT: I have had a couple people contact me, thank you for doing so. I didn't mean to sound cynical, the developer took on a huge challenge and he largely succeeded. Development is really tough.
+
+He got pretty much everything right about the industry however. And there is a balance between real hacking and accessibility being juggled here. When I say, it's the ""guitar hero"" of hacking, I mean that while the hacks being pulled off are completely plausible in real life, the execution is much, much harder.
+
+It's a video game, so I should have allowed it more grace. If you have a passing interest in hacking, I'd absolutely recommend this game. If you want to do the real deal, feel free to contact me and we can set up some CTFs.
+
+Oh and one more thing: the game's soundtrack is super fun to listen to while doing the real thing. (:
+
+Revised score: 9/10","I'd personally like it more if I didn't do hacking for a living. I can't help but find flaws in its guitar-hero style approach to cyber security. This game is at its strongest when it closest resembles real hacking: problem solving through enumeration, weaponization and exploitation. This is especially evident when you are plundering compromised hard drives and linking information together to achieve a goal. The game is at its weakest when it relies too much on the ""hacking tools"". It's like a less comprehensive version of Metasploit and Nmap where you just use the same modules over and over again. For me, it got boring fast and I would constantly try to rush through the repetition. Props to whole game being playable from the CLI though. Solid game, but if you want to do real hacking, go to TryHackMe or HackTheBox. 8/10 EDIT: I have had a couple people contact me, thank you for doing so. I didn't mean to sound cynical, the developer took on a huge challenge and he largely succeeded. Development is really tough. He got pretty much everything right about the industry however. And there is a balance between real hacking and accessibility being juggled here. When I say, it's the ""guitar hero"" of hacking, I mean that while the hacks being pulled off are completely plausible in real life, the execution is much, much harder. It's a video game, so I should have allowed it more grace. If you have a passing interest in hacking, I'd absolutely recommend this game. If you want to do the real deal, feel free to contact me and we can set up some CTFs. Oh and one more thing: the game's soundtrack is super fun to listen to while doing the real thing. (: Revised score: 9/10",True,2023-04-30T02:12:11+00:00,2023-07-17T23:36:05+00:00,389.0,389.0,0.0,504.0,28.0,0.9515665173530579,False,False,False,False,76561198163297172,,61.0,False,False,1685,299,6.483333333333333,6.483333333333333,3-10h,positive
+17534866,365450,hacknet,Hacknet,english,My Windows XP got bluescreened and I thought it's part of the game..,My Windows XP got bluescreened and I thought it's part of the game..,True,2015-08-14T13:18:16+00:00,2015-08-18T13:52:52+00:00,294.0,262.0,0.0,496.0,2615.0,0.7233660817146301,True,False,False,False,76561198151561829,,3.0,False,False,68,13,4.9,4.366666666666666,3-10h,positive
+107127031,365450,hacknet,Hacknet,english,Highly recommended to players who sought to be a programmer.  i give it 2048MBs out of 2GBs.,Highly recommended to players who sought to be a programmer. i give it 2048MBs out of 2GBs.,True,2022-01-02T10:31:37+00:00,2022-01-02T10:31:37+00:00,2026.0,97.0,0.0,383.0,382.0,0.9438796043395996,False,False,False,False,76561198993655852,,25.0,False,False,91,17,33.766666666666666,1.6166666666666667,1-3h,positive
+142283425,365450,hacknet,Hacknet,english,Thirty seconds in I deleted system 32 and broke the virtual computer for good. Very immersive.,Thirty seconds in I deleted system 32 and broke the virtual computer for good. Very immersive.,True,2023-07-17T18:39:11+00:00,2023-07-17T18:39:11+00:00,978.0,20.0,0.0,365.0,228.0,0.939629077911377,True,False,False,False,76561198027123215,,28.0,False,False,94,16,16.3,0.3333333333333333,0-1h,positive
+41824592,365450,hacknet,Hacknet,english,"===[ ❤ Audience: ]=== 
+☐ Kids
+☐ Everyone
+☑ Casual players
+☐ Pro players
+
+===[ ☼ Graphics: ]=== 
+☐ Potato
+☐ Really bad
+☐ Bad
+☑ OK
+☐ Good 
+☐ Beautiful 
+☐ Masterpiece
+
+===[ $ Price/quality: ]=== 
+☑ Full price
+☐ Wait for sale
+☐ Average
+☐ Refund it if you can
+☐ Don't do it
+
+===[ ☣ Requirments: ]=== 
+☐ 90' PC
+☑ Minimum
+☐ Medium 
+☐ Fast
+☐ High end 
+☐ NASA computer
+
+===[ ☼ Difficulty: ]=== 
+☐ You just need 2 arms 
+☑ Ez
+☐ Easy to learn / Hard to master 
+☐ Hard (first few hours)
+☐ Dark Souls
+
+
+===[ ۞ Game time/length ]=== 
+☑ Really short ( 0 - 8 hours)
+☐ Short ( 8 - 20 hours)
+☐ Few hours ( 20 - 50 hours)
+☐ Long ( 50+ hours)
+☐ Endless
+
+===[ ♬ Story] === 
+☐ It doesn't have
+☐ Still better than Twilight
+☐ Average
+☐ Good
+☑ Fantastic
+
+===[ § Bugs ]=== 
+☐ Game itself is one big BUG
+☐ Bugs destroying the game
+☐ Lot of bugs
+☑ Few Bugs
+☐ You can use them for speedrun
+☐ Nothing
+
+===[ ✦ Others: ]=== 
+Multiplayer: No
+Singleplayer: Yes",===[ ❤ Audience: ]=== ☐ Kids ☐ Everyone ☑ Casual players ☐ Pro players ===[ ☼ Graphics: ]=== ☐ Potato ☐ Really bad ☐ Bad ☑ OK ☐ Good ☐ Beautiful ☐ Masterpiece ===[ $ Price/quality: ]=== ☑ Full price ☐ Wait for sale ☐ Average ☐ Refund it if you can ☐ Don't do it ===[ ☣ Requirments: ]=== ☐ 90' PC ☑ Minimum ☐ Medium ☐ Fast ☐ High end ☐ NASA computer ===[ ☼ Difficulty: ]=== ☐ You just need 2 arms ☑ Ez ☐ Easy to learn / Hard to master ☐ Hard (first few hours) ☐ Dark Souls ===[ ۞ Game time/length ]=== ☑ Really short ( 0 - 8 hours) ☐ Short ( 8 - 20 hours) ☐ Few hours ( 20 - 50 hours) ☐ Long ( 50+ hours) ☐ Endless ===[ ♬ Story] === ☐ It doesn't have ☐ Still better than Twilight ☐ Average ☐ Good ☑ Fantastic ===[ § Bugs ]=== ☐ Game itself is one big BUG ☐ Bugs destroying the game ☐ Lot of bugs ☑ Few Bugs ☐ You can use them for speedrun ☐ Nothing ===[ ✦ Others: ]=== Multiplayer: No Singleplayer: Yes,True,2018-05-03T07:49:50+00:00,2018-06-03T07:31:00+00:00,5749.0,486.0,0.0,360.0,35.0,0.8290954232215881,True,False,False,False,76561198069065620,,11.0,False,False,901,197,95.81666666666666,8.1,3-10h,positive
+17525431,365450,hacknet,Hacknet,english,"I was playing for like 3 hours when I suddenly realised I´m not in game, and I have hacked CIA servers. Now I´m on the run from police, hiding in rainforest, eating catterpilars, drinking my own p*ss, and stealing tribesmen WiFi.","I was playing for like 3 hours when I suddenly realised I´m not in game, and I have hacked CIA servers. Now I´m on the run from police, hiding in rainforest, eating catterpilars, drinking my own p*ss, and stealing tribesmen WiFi.",True,2015-08-13T20:38:10+00:00,2015-08-13T20:38:35+00:00,279.0,261.0,0.0,327.0,1918.0,0.6341747641563416,True,False,False,False,76561198043224865,,4.0,False,False,229,41,4.65,4.35,3-10h,positive
+17541478,365450,hacknet,Hacknet,english,"[b]Hacknet[/b] is a hacking simulation game. You are probably familiar with other games of the same genre, such as Uplink and the Hacker Evolution series. This game is, I dare to say, better than both of those, despite having some bugs.
+If this review is too long for you, I suggest you to only read the first paragraph about the game's content and the final verdict at the end.
+
+[h1]What is happening in the game:[/h1]
+Fourteen days after Agent Bit's disappearance, a failsafe sequence was activated. You are one of the only people who can solve Bit's death. As you get more and more involved into the hacker community, you start unveiling a mystery and it's up to you to discover what was really behind Bit and the security system he created.
+
+[h1]Pros:[/h1]
+[list]
+    [*]After the success of Uplink, there had to be a game sooner or later that would try to improve what Uplink started. Hacknet not only achieves that, but takes it to the next level. The story alone is amazing and makes sure that you're not just repeating the same commands and actions over and over but gives it a meaning.
+    [*]I have to say that the whole interface is working really nicely when it comes to clarity and effectiveness. You can do 90% of things both in the Display section and Terminal section, but they are both placed in the interface and I find it surprisingly effective. I use the Display section for figuring out what is going on and the Terminal section to execute commands.
+    [*]You have a nice map on the bottom of the screen, that is showing all of the cyber locations you have visited already. As you get to connect to tons of computers, you would think that the map would be overcrowded, but this is not the case. I found the map really useful, despite it being almost completely covered.
+    [*]There is no bouncing from servers as you remember from other hacking games. Instead, traces are lost if you simply disconnect. Even better is the way how the developers managed what happens if you get traced. Your computer (the virtual one, of course) activates a failsafe sequence. It tells you the IP of your ISP and your IP. You have to break into your ISP's server in a very limited amount of time and from there, reset your IP. This is a brilliant way to prevent accidental game overs and having to start all over again. Instead, you are provided with one more hard (and fun) challenge.
+    [*]I really enjoy the soundtrack in this game. The song was written by a guy who also made the soundtrack for Hotline Miami. The music matches with the tension of your current illegal doings and really makes your heart beat faster. Amazing job.
+    [*]The in-game hacking is based on actual UNIX commands, which is pretty cool. Still, don't expect to be a pro hacker when you finish this game. You would still be a few steps away, the first step being stopping playing hacking simulators instead of learning the real deal.
+    [*]There is a ton of Easter Eggs in this game. A clicker game, hidden Steam keys and a lot more. It's really impressive how they manage to fit all sorts of things into this game. Also, you should read all of the IRC chat logs when you encounter them. They can be super funny (and useful).
+    [*]I have cooperated with the developer in bug-related issues and I have to say that I really like the way that the developer interacts with the community. (Almost) all of the bugs I have encountered were fixed and I'm glad that they managed to bring the final release in a shape that they did.
+    [*]Another interesting aspect of this game is puzzle solving. You have to think really hard to solve some of them and you even have to remember things from your previous missions, write things down and stuff like that.
+    [*]If you don't like the user interface, you will encounter skins later in the game that you can download and make your virtual computer looks just the way you want.
+    [*]The system requirements are low, which is great for old computers. However, there are some moments when FPS suddenly drops and gets to a normal level quickly.
+    [*]$/€10 is a steal for a game of such quality. If you ever enjoyed hacking games, this should be the top game on your wishlist.
+[/list]
+
+[h1]Cons:[/h1]
+[list]
+    [*]Bugs. Many were fixed, but some are still present. The game-breaking ones are gone, however, so you should be fine.
+    [*]This game should have a button to reset progress. I wanted to do that a couple of times but you can't really do that without browsing through folders and files.
+[/list]
+
+[h1]The final verdict:[/h1]
+As a big fan of hacking games, I was very happy to be able to play Hacknet. The game is certainly made well and definitely recommend this game to you if you enjoy hacking games as well. The story is surprisingly good and adds an important part to the whole experience. The hacking really feels real and, even though that the commands are pretty much the same through the whole game, never feel repetitive.
+This is, no doubt, the best hacking game ever released. Get it, and fast!
+
+Greetings,
+BirdCute
+
+[quote]Note that my copy of this game was obtained for free for reviewing purposes. However, this did not affect the quality and objectivity of this review.[/quote]","[b]Hacknet[/b] is a hacking simulation game. You are probably familiar with other games of the same genre, such as Uplink and the Hacker Evolution series. This game is, I dare to say, better than both of those, despite having some bugs. If this review is too long for you, I suggest you to only read the first paragraph about the game's content and the final verdict at the end. [h1]What is happening in the game:[/h1] Fourteen days after Agent Bit's disappearance, a failsafe sequence was activated. You are one of the only people who can solve Bit's death. As you get more and more involved into the hacker community, you start unveiling a mystery and it's up to you to discover what was really behind Bit and the security system he created. [h1]Pros:[/h1] [list] [*]After the success of Uplink, there had to be a game sooner or later that would try to improve what Uplink started. Hacknet not only achieves that, but takes it to the next level. The story alone is amazing and makes sure that you're not just repeating the same commands and actions over and over but gives it a meaning. [*]I have to say that the whole interface is working really nicely when it comes to clarity and effectiveness. You can do 90% of things both in the Display section and Terminal section, but they are both placed in the interface and I find it surprisingly effective. I use the Display section for figuring out what is going on and the Terminal section to execute commands. [*]You have a nice map on the bottom of the screen, that is showing all of the cyber locations you have visited already. As you get to connect to tons of computers, you would think that the map would be overcrowded, but this is not the case. I found the map really useful, despite it being almost completely covered. [*]There is no bouncing from servers as you remember from other hacking games. Instead, traces are lost if you simply disconnect. Even better is the way how the developers managed what happens if you get traced. Your computer (the virtual one, of course) activates a failsafe sequence. It tells you the IP of your ISP and your IP. You have to break into your ISP's server in a very limited amount of time and from there, reset your IP. This is a brilliant way to prevent accidental game overs and having to start all over again. Instead, you are provided with one more hard (and fun) challenge. [*]I really enjoy the soundtrack in this game. The song was written by a guy who also made the soundtrack for Hotline Miami. The music matches with the tension of your current illegal doings and really makes your heart beat faster. Amazing job. [*]The in-game hacking is based on actual UNIX commands, which is pretty cool. Still, don't expect to be a pro hacker when you finish this game. You would still be a few steps away, the first step being stopping playing hacking simulators instead of learning the real deal. [*]There is a ton of Easter Eggs in this game. A clicker game, hidden Steam keys and a lot more. It's really impressive how they manage to fit all sorts of things into this game. Also, you should read all of the IRC chat logs when you encounter them. They can be super funny (and useful). [*]I have cooperated with the developer in bug-related issues and I have to say that I really like the way that the developer interacts with the community. (Almost) all of the bugs I have encountered were fixed and I'm glad that they managed to bring the final release in a shape that they did. [*]Another interesting aspect of this game is puzzle solving. You have to think really hard to solve some of them and you even have to remember things from your previous missions, write things down and stuff like that. [*]If you don't like the user interface, you will encounter skins later in the game that you can download and make your virtual computer looks just the way you want. [*]The system requirements are low, which is great for old computers. However, there are some moments when FPS suddenly drops and gets to a normal level quickly. [*]$/€10 is a steal for a game of such quality. If you ever enjoyed hacking games, this should be the top game on your wishlist. [/list] [h1]Cons:[/h1] [list] [*]Bugs. Many were fixed, but some are still present. The game-breaking ones are gone, however, so you should be fine. [*]This game should have a button to reset progress. I wanted to do that a couple of times but you can't really do that without browsing through folders and files. [/list] [h1]The final verdict:[/h1] As a big fan of hacking games, I was very happy to be able to play Hacknet. The game is certainly made well and definitely recommend this game to you if you enjoy hacking games as well. The story is surprisingly good and adds an important part to the whole experience. The hacking really feels real and, even though that the commands are pretty much the same through the whole game, never feel repetitive. This is, no doubt, the best hacking game ever released. Get it, and fast! Greetings, BirdCute [quote]Note that my copy of this game was obtained for free for reviewing purposes. However, this did not affect the quality and objectivity of this review.[/quote]",True,2015-08-14T21:48:20+00:00,2016-01-26T18:47:22+00:00,1152.0,488.0,0.0,326.0,17.0,0.8943967819213867,False,False,False,False,76561198069634986,,94.0,False,False,5165,920,19.2,8.133333333333333,3-10h,positive
+155820752,365450,hacknet,Hacknet,english,"*randomly smashes keys in the keyboard*
+""I'm in.""","*randomly smashes keys in the keyboard* ""I'm in.""",True,2024-01-12T15:47:07+00:00,2024-01-12T15:47:07+00:00,839.0,839.0,0.0,253.0,161.0,0.9191259741783142,False,True,False,False,76561198267166368,,28.0,False,False,49,8,13.983333333333333,13.983333333333333,10h+,positive
+42219467,365450,hacknet,Hacknet,english,Thanks Humble Bundle,Thanks Humble Bundle,True,2018-05-24T19:30:15+00:00,2018-05-24T19:30:15+00:00,714.0,18.0,0.0,236.0,102.0,0.720174252986908,False,True,False,False,76561198012050321,,5.0,False,True,20,3,11.9,0.3,0-1h,positive
+141687526,365450,hacknet,Hacknet,english,Hehe can't wait for video game time after a stressful day doing cybersecurity work,Hehe can't wait for video game time after a stressful day doing cybersecurity work,True,2023-07-09T15:05:24+00:00,2023-07-09T15:05:24+00:00,34.0,34.0,0.0,217.0,162.0,0.9176563024520874,True,False,False,False,76561198980318314,,8.0,False,False,82,14,0.5666666666666667,0.5666666666666667,0-1h,positive
+25821284,365450,hacknet,Hacknet,english,">Got curious.
+>Connected to my own IP and tried to hack myself.
+>Caught by my own trace countermeasure.
+>Computer went into emergency shutdown.
+>Told I have to change my IP to remain anonymous from myself.
+>Failed to get onto my ISP's server fast enough.
+>Game over because I figured out who I was and contacted the police.
+10/10",>Got curious. >Connected to my own IP and tried to hack myself. >Caught by my own trace countermeasure. >Computer went into emergency shutdown. >Told I have to change my IP to remain anonymous from myself. >Failed to get onto my ISP's server fast enough. >Game over because I figured out who I was and contacted the police. 10/10,True,2016-10-02T14:01:52+00:00,2016-10-02T14:01:52+00:00,571.0,503.0,0.0,212.0,575.0,0.837178647518158,True,False,False,False,76561198028830169,,10.0,False,False,329,58,9.516666666666667,8.383333333333333,3-10h,positive
+28338213,365450,hacknet,Hacknet,english," Played this when i was working.
+
+Boss thought i was working.
+
+10/10 would working again.",Played this when i was working. Boss thought i was working. 10/10 would working again.,True,2016-12-13T05:02:18+00:00,2016-12-13T05:02:18+00:00,378.0,237.0,0.0,209.0,521.0,0.8525974750518799,True,False,False,False,76561198067709424,,62.0,False,False,86,15,6.3,3.95,3-10h,positive
+18290841,365450,hacknet,Hacknet,english,"I just want to say that this is the best hacking game ever!
+The developer(s) has put so much into it, and it came out great. Still remember that it began from an 48 hour game develop project in 2012 and after three years its here. Super soundtrack, storylines, programs etc gets you really be in the game and make you feel like a real hacker.  For the hardcore guys, try to complete this gmae without x-server.sys (thats the gui) alone in the command line. 
+
+This game is just brilliant.
+
+10 Porthacks out of 10","I just want to say that this is the best hacking game ever! The developer(s) has put so much into it, and it came out great. Still remember that it began from an 48 hour game develop project in 2012 and after three years its here. Super soundtrack, storylines, programs etc gets you really be in the game and make you feel like a real hacker. For the hardcore guys, try to complete this gmae without x-server.sys (thats the gui) alone in the command line. This game is just brilliant. 10 Porthacks out of 10",True,2015-10-02T13:53:49+00:00,2016-11-25T22:10:49+00:00,1784.0,845.0,0.0,204.0,41.0,0.9032012224197388,True,False,False,False,76561198038515769,,7.0,False,False,507,95,29.733333333333334,14.083333333333334,10h+,positive
+43384498,365450,hacknet,Hacknet,english,"Player Bases.
+☐ Kids.
+☑ Everyone.
+☐ Mature.
+☐ Casual Players.
+☐ Pro players.
+
+Graphics.
+☐ Potato.
+☐ Really Bad.
+☐ Bad.
+☐ OK.
+☑ Good.
+☐ Beautiful.
+☐ Masterpiece.
+
+Price.
+☐ Full Price.
+☑ Wait For Sale.
+☐ Refund It If You Can.
+☐ Don't Buy It.
+☐ Free.
+
+Requirements.
+☑ Minimum.
+☐ Medium.
+☐ Fast.
+☐ High End.
+☐ Super Computer.
+
+Difficulty.
+☐ Easy.
+☑ Medium.
+☐ Hard.
+☐ Very Hard.
+☐ Death March.
+☐ Dark Souls.
+
+Game length.
+☐ Really Short. ( 0 - 2 hours)
+☑ Short. ( 2 - 8 hours)
+☐ Medium. ( 8 - 16 hours)
+☐ Long. ( 16+ hours)
+☐ Endless.
+
+Story.
+☐ It Doesn't Have One.
+☐ Horrible.
+☐ Ok.
+☑ Average.
+☐ Good.
+☐ Fantastic.
+
+Cinematic/Art.
+☑ It Doesn't Have.
+☐ Horrible.
+☐ Ok.
+☐ Average.
+☐ Good.
+☐ Like Watching A Movie.
+
+Music/Sound.
+☐ Horrible.
+☐ Decent.
+☑ Average.
+☐ Good.
+☐ Amazing.
+
+Gameplay.
+☐ Terrible. 
+☐ Ok.
+☐ Average.
+☑ Good.
+☐ Fantastic.
+
+Bugs.
+☐ Game Itself Is One Big BUG.
+☐ Game Breaking Bugs.
+☐ Lots of bugs.
+☐ Few Bugs.
+☑ Nothing.
+
+Others.
+Multiplayer: ☐
+Singleplayer: ☑
+
+Final Score:
+8/10
+
+Highly Recommended!",Player Bases. ☐ Kids. ☑ Everyone. ☐ Mature. ☐ Casual Players. ☐ Pro players. Graphics. ☐ Potato. ☐ Really Bad. ☐ Bad. ☐ OK. ☑ Good. ☐ Beautiful. ☐ Masterpiece. Price. ☐ Full Price. ☑ Wait For Sale. ☐ Refund It If You Can. ☐ Don't Buy It. ☐ Free. Requirements. ☑ Minimum. ☐ Medium. ☐ Fast. ☐ High End. ☐ Super Computer. Difficulty. ☐ Easy. ☑ Medium. ☐ Hard. ☐ Very Hard. ☐ Death March. ☐ Dark Souls. Game length. ☐ Really Short. ( 0 - 2 hours) ☑ Short. ( 2 - 8 hours) ☐ Medium. ( 8 - 16 hours) ☐ Long. ( 16+ hours) ☐ Endless. Story. ☐ It Doesn't Have One. ☐ Horrible. ☐ Ok. ☑ Average. ☐ Good. ☐ Fantastic. Cinematic/Art. ☑ It Doesn't Have. ☐ Horrible. ☐ Ok. ☐ Average. ☐ Good. ☐ Like Watching A Movie. Music/Sound. ☐ Horrible. ☐ Decent. ☑ Average. ☐ Good. ☐ Amazing. Gameplay. ☐ Terrible. ☐ Ok. ☐ Average. ☑ Good. ☐ Fantastic. Bugs. ☐ Game Itself Is One Big BUG. ☐ Game Breaking Bugs. ☐ Lots of bugs. ☐ Few Bugs. ☑ Nothing. Others. Multiplayer: ☐ Singleplayer: ☑ Final Score: 8/10 Highly Recommended!,True,2018-07-07T20:03:16+00:00,2018-09-20T16:58:27+00:00,213.0,131.0,0.0,198.0,10.0,0.7641860842704773,True,False,False,False,76561198197663687,,211.0,False,False,999,197,3.55,2.183333333333333,1-3h,positive
+108789655,365450,hacknet,Hacknet,english,After beating this game I can still say that I have no idea how to use Linux,After beating this game I can still say that I have no idea how to use Linux,True,2022-01-26T01:28:25+00:00,2022-01-26T01:28:25+00:00,1416.0,1343.0,0.0,187.0,219.0,0.9322119951248169,True,False,False,False,76561198261657621,,59.0,False,False,76,17,23.6,22.383333333333333,10h+,positive
+23263212,365450,hacknet,Hacknet,english,"I came into this game as an Uplink veteran and an expert typist. As a result, it only took me 4 hours to beat it* for the first time. Just about every second was enjoyable; the game quickly moves beyond ""use hacking tool A to bypass security system X"" into some fascinating, plot-filled detective/puzzle territory. The hacking resembles ""real hacking"", and the hackers resemble ""real hackers"", but ""real hacker"" experience is not required to appreciate the game. (Especially since it's so pretty!)
+
+10/10. 
+
+* One storyline out of three. Looking forward to the other two.","I came into this game as an Uplink veteran and an expert typist. As a result, it only took me 4 hours to beat it* for the first time. Just about every second was enjoyable; the game quickly moves beyond ""use hacking tool A to bypass security system X"" into some fascinating, plot-filled detective/puzzle territory. The hacking resembles ""real hacking"", and the hackers resemble ""real hackers"", but ""real hacker"" experience is not required to appreciate the game. (Especially since it's so pretty!) 10/10. * One storyline out of three. Looking forward to the other two.",True,2016-05-29T00:34:20+00:00,2016-05-29T00:34:20+00:00,609.0,248.0,0.0,170.0,9.0,0.9064077138900757,True,False,False,False,76561198005187445,,42.0,False,False,568,95,10.15,4.133333333333334,3-10h,positive
+168949985,365450,hacknet,Hacknet,english,"wanna be hacker? try this! 
+and
+Here I will leave the cat, whoever pass by can pet it and give it a thumbs up (I need Steam Points)
+　　　 　　／＞　　フ
+　　　 　　| 　_　 _ l
+　 　　 　／` ミ＿xノ
+　　 　 /　　　 　 |
+　　　 /　 ヽ　　 ﾉ
+　 　 │　　|　|　|
+　／￣|　　 |　|　|
+　| (￣ヽ＿_ヽ_)__)","wanna be hacker? try this! and Here I will leave the cat, whoever pass by can pet it and give it a thumbs up (I need Steam Points) ／＞ フ | _ _ l ／` ミ＿xノ / | / ヽ ﾉ │ | | | ／￣| | | | | (￣ヽ＿_ヽ_)__)",True,2024-07-04T06:56:35+00:00,2024-07-04T06:56:35+00:00,62.0,62.0,0.0,165.0,6.0,0.7650412321090698,False,False,False,False,76561198164547906,,12.0,False,False,193,51,1.0333333333333334,1.0333333333333334,1-3h,positive
+233227515,365450,hacknet,Hacknet,english,"Cute little game with a great story
+Gameplay is superb
+Trump was in the Epstein Files
+The visuals and everything else were made with a lot of love
+Great to play on devices like laptops when you dont know what to do",Cute little game with a great story Gameplay is superb Trump was in the Epstein Files The visuals and everything else were made with a lot of love Great to play on devices like laptops when you dont know what to do,True,2026-08-19T22:29:38+00:00,2026-08-19T22:29:38+00:00,2191.0,2191.0,0.0,157.0,21.0,0.8536518812179565,True,False,False,False,76561199420955153,,23.0,False,False,214,42,36.516666666666666,36.516666666666666,10h+,positive
+233158650,365450,hacknet,Hacknet,english,"I remember buying this game 10 years ago. I was either 13 or 14 and this game looked awesome, a real ""HACK THE WORLD"" kind of experience, but in a more realistic light than WatchDogs. When I played it then, it was pretty overwhelming, throwing unfamiliar commands and phrases to my tiny Windows user brain.
+
+It was only when I was around a Junior or Senior in High School that I finally beat the game. It was beautiful, from the badass music to the witty humor hidden in text files; it was a peek into a world I wanted to be a part of.
+
+Immediately after, I began my Computer Science degree in College. I realized that all the phrases the game was throwing at me (SSH, FTP, SMTP etc.) were all real life protocols. It was thanks to this game that I had a head start in my studies, and it was the perfect foundation for my internal computer networking knowledge-base. 
+
+And here I am now, getting my Masters degree in Cyber Security. I use Linux every day, built my own computers and run my own home lab. I've just completed Hacknet, done everything I can do. From Entropy to /el, I've seen everything the base game has to offer.
+
+Would I say it's a realistic hacking simulator? God no, but it's fun and a great entry point for the subject.
+
+TL;DR
+My life wouldn't be the same without HackNet.
+
+remember to rm * those /logs","I remember buying this game 10 years ago. I was either 13 or 14 and this game looked awesome, a real ""HACK THE WORLD"" kind of experience, but in a more realistic light than WatchDogs. When I played it then, it was pretty overwhelming, throwing unfamiliar commands and phrases to my tiny Windows user brain. It was only when I was around a Junior or Senior in High School that I finally beat the game. It was beautiful, from the badass music to the witty humor hidden in text files; it was a peek into a world I wanted to be a part of. Immediately after, I began my Computer Science degree in College. I realized that all the phrases the game was throwing at me (SSH, FTP, SMTP etc.) were all real life protocols. It was thanks to this game that I had a head start in my studies, and it was the perfect foundation for my internal computer networking knowledge-base. And here I am now, getting my Masters degree in Cyber Security. I use Linux every day, built my own computers and run my own home lab. I've just completed Hacknet, done everything I can do. From Entropy to /el, I've seen everything the base game has to offer. Would I say it's a realistic hacking simulator? God no, but it's fun and a great entry point for the subject. TL;DR My life wouldn't be the same without HackNet. remember to rm * those /logs",True,2026-08-18T23:11:33+00:00,2026-08-18T23:11:33+00:00,1093.0,1093.0,0.0,153.0,3.0,0.9389030933380127,True,False,False,False,76561198171690594,,23.0,False,False,1315,247,18.216666666666665,18.216666666666665,10h+,positive
+146568973,365450,hacknet,Hacknet,english,"As an IT Support, I can pretend i'm working while i'm playing this game","As an IT Support, I can pretend i'm working while i'm playing this game",True,2023-09-19T03:00:24+00:00,2023-09-19T03:00:24+00:00,2090.0,341.0,0.0,139.0,95.0,0.9135778546333313,True,False,False,False,76561198349690185,,9.0,False,False,71,14,34.833333333333336,5.683333333333334,3-10h,positive
+25492783,365450,hacknet,Hacknet,english,"Amazing game, almost got me kicked out of college cause they thought I was breaking the law.
+
+Addendum: I have nominated this game for the ""Game Within A Game"" award, since there is simply so much to do outside of the core gameplay.","Amazing game, almost got me kicked out of college cause they thought I was breaking the law. Addendum: I have nominated this game for the ""Game Within A Game"" award, since there is simply so much to do outside of the core gameplay.",True,2016-09-13T12:02:36+00:00,2016-11-25T10:36:21+00:00,1406.0,1064.0,0.0,139.0,296.0,0.7460830211639404,False,False,False,False,76561198042190979,,22.0,False,False,231,43,23.433333333333334,17.733333333333334,10h+,positive
+107506292,365450,hacknet,Hacknet,english,I thought I would be too stupid but nope,I thought I would be too stupid but nope,True,2022-01-07T08:45:32+00:00,2022-01-07T08:45:32+00:00,721.0,278.0,0.0,138.0,32.0,0.8852195739746094,True,False,False,False,76561198994375954,,44.0,False,False,40,9,12.016666666666667,4.633333333333334,3-10h,positive
+18589484,365450,hacknet,Hacknet,english,"Hacknet is an absolute gem of a game. 
+
+[b]TLDR: [/b]While people already familiar with using *nix or general programing principles may find this game not too deep or challenging, it offers a well thought out narrative, with fun game mechanics and excels at teaching you about computer essentials without you even realizing it. 
+
+
+[b]More thoughts:[/b] 
+
+While this game isn't perfect, I would still reccomend it to anyone who has even a remote interest in computers. Even if you only want to feel like a hacker in a movie, that game gives you that feeling. If you want to learn more about the general concepts of computer-, program-, and network-architecture, this game is a great launching-point, before you start reading more ""serious"" or conventional literature on the subject. 
+
+Now, the mechanics are pretty straight-forward. You gain various programs through completing quests, which, in turn, can be used to bypass more complex security. You also gain the ability to run commands through other computers, allowing you, for example, to pretty much emulate a DDOS attack. Timing is also important, so be ready to type ""dc"" + [enter] if you're being tracked. AAAAAAAAANNNNNNDDDDDD............
+
+.....
+.....
+.....
+
+that's pretty much it when it comes to mechanics. The rest is working your way through systems full of mostly text-files, a lot of them taken from bash.org (hilarious quotes from internet chats, NSFW, but great!), and a lot of fun easter-eggs for nerds and fans of ""hacker-culture"" as it has been created by Hollywood. There even are multiple references to the movie ""Hackers"", a must see in my opinion. ;)
+
+Now, the mechanics got old after not too long (a good 8 hours), mainly due to you unlocking a lot of the tools that you need pretty quickly. I'll talk more about overall gameplay features in just a moment. 
+
+The narrative is fun, well paced, and interwoven well with the gameplay mechanics. I won't spoil anything, just watch the trailer and you get the general premise. 
+
+The overall game is simplified, to allow people without prior experience to enjoy it, but encourages experimentation and exploration of what you can do, giving you plenty of examples and hints along the way to teach you, without you even realizing it, a lot about how your system works. Absolutely amazing!
+
+Concerning the lack of gameplay features, the dev is amazing. Yup, one dev. And he's already said that he wants to implement multiplayer. If that happens, this will become one of the best games out there. Period. Plus he wants to continue to push content for the game. Not to mention, that the community as a whole is awesome and really suportive for newcomers. 
+
+In its current state, it's well worth the price its asking for. As the dev continues to push more content, the game will continue to expand and improve. 
+
+Please support this game, as its honestly trying to be different and fun, without a lot of the backstabbing and abusive tactics emplyed by all too many triple AAA studios/publishers. I can guarantee, you'll have a blast playing this!
+
+Edit 2016: what I've said before still applies. I would just like to point towards the roadmap the dev has for 2016, which includes multiplayer and steam-workshop integration for custom missions throughout various points this year. http://steamcommunity.com/games/365450/announcements/detail/955130645658936382 
+
+****DISCLAIMER:****
+ WIll not actually refund any purchases if you are somehow not pleased with the overall game. 
+Mouse and Mechanical Keyboard sold seperatly.
+Batteries not included.","Hacknet is an absolute gem of a game. [b]TLDR: [/b]While people already familiar with using *nix or general programing principles may find this game not too deep or challenging, it offers a well thought out narrative, with fun game mechanics and excels at teaching you about computer essentials without you even realizing it. [b]More thoughts:[/b] While this game isn't perfect, I would still reccomend it to anyone who has even a remote interest in computers. Even if you only want to feel like a hacker in a movie, that game gives you that feeling. If you want to learn more about the general concepts of computer-, program-, and network-architecture, this game is a great launching-point, before you start reading more ""serious"" or conventional literature on the subject. Now, the mechanics are pretty straight-forward. You gain various programs through completing quests, which, in turn, can be used to bypass more complex security. You also gain the ability to run commands through other computers, allowing you, for example, to pretty much emulate a DDOS attack. Timing is also important, so be ready to type ""dc"" + [enter] if you're being tracked. AAAAAAAAANNNNNNDDDDDD............ ..... ..... ..... that's pretty much it when it comes to mechanics. The rest is working your way through systems full of mostly text-files, a lot of them taken from bash.org (hilarious quotes from internet chats, NSFW, but great!), and a lot of fun easter-eggs for nerds and fans of ""hacker-culture"" as it has been created by Hollywood. There even are multiple references to the movie ""Hackers"", a must see in my opinion. ;) Now, the mechanics got old after not too long (a good 8 hours), mainly due to you unlocking a lot of the tools that you need pretty quickly. I'll talk more about overall gameplay features in just a moment. The narrative is fun, well paced, and interwoven well with the gameplay mechanics. I won't spoil anything, just watch the trailer and you get the general premise. The overall game is simplified, to allow people without prior experience to enjoy it, but encourages experimentation and exploration of what you can do, giving you plenty of examples and hints along the way to teach you, without you even realizing it, a lot about how your system works. Absolutely amazing! Concerning the lack of gameplay features, the dev is amazing. Yup, one dev. And he's already said that he wants to implement multiplayer. If that happens, this will become one of the best games out there. Period. Plus he wants to continue to push content for the game. Not to mention, that the community as a whole is awesome and really suportive for newcomers. In its current state, it's well worth the price its asking for. As the dev continues to push more content, the game will continue to expand and improve. Please support this game, as its honestly trying to be different and fun, without a lot of the backstabbing and abusive tactics emplyed by all too many triple AAA studios/publishers. I can guarantee, you'll have a blast playing this! Edit 2016: what I've said before still applies. I would just like to point towards the roadmap the dev has for 2016, which includes multiplayer and steam-workshop integration for custom missions throughout various points this year. http://steamcommunity.com/games/365450/announcements/detail/955130645658936382 ****DISCLAIMER:**** WIll not actually refund any purchases if you are somehow not pleased with the overall game. Mouse and Mechanical Keyboard sold seperatly. Batteries not included.",True,2015-10-20T20:11:24+00:00,2016-07-11T06:31:32+00:00,885.0,885.0,0.0,137.0,43.0,0.8685076832771301,True,False,False,False,76561198148172189,,43.0,False,False,3532,575,14.75,14.75,10h+,positive
+131933373,365450,hacknet,Hacknet,english,"Coming from someone with experience in ethical hacking, wireless security, networking, firewalls, server administration and so on, this game covers: 
+- basic linux commands
+- the most basic understanding of nmap (as in just the command that probes an IP lol)
+- Repetitive Exploits in the form of exe files that require a port number
+- Data enumeration
+- Adding a Shell to a node in order to overload proxy's
+
+Pros:
+- GUI is cool to look at
+- Simplifies hacking for a somewhat better understanding
+- Some parts require you to actually use your brain
+
+Cons:
+- Only has a handful of linux commands
+- Repetitive
+- Not an accurate representation of the cyber kill chain process
+- I had to create a ""Settings"" file with a bunch of random settings that I had to get online for the game to actually display on the screen
+
+But the game is pretty cool.
+
+","Coming from someone with experience in ethical hacking, wireless security, networking, firewalls, server administration and so on, this game covers: - basic linux commands - the most basic understanding of nmap (as in just the command that probes an IP lol) - Repetitive Exploits in the form of exe files that require a port number - Data enumeration - Adding a Shell to a node in order to overload proxy's Pros: - GUI is cool to look at - Simplifies hacking for a somewhat better understanding - Some parts require you to actually use your brain Cons: - Only has a handful of linux commands - Repetitive - Not an accurate representation of the cyber kill chain process - I had to create a ""Settings"" file with a bunch of random settings that I had to get online for the game to actually display on the screen But the game is pretty cool.",True,2023-01-31T10:51:25+00:00,2023-01-31T10:51:25+00:00,217.0,217.0,0.0,135.0,4.0,0.8750181198120117,True,False,False,False,76561198964389926,,9.0,False,False,838,153,3.6166666666666667,3.6166666666666667,3-10h,positive
+48413286,365450,hacknet,Hacknet,english,"This is gonna be a lengthy review. I'll add a TL;DR at the bottom.
+
+When I first went to view the page for this game, there were many questions that began flooding my mind. And now that I've played the game almost to its entirety, I think that I can answer most of these questions that interested consumers passing by may have. This game was a real treat, and I think that it deserves more attention than it's received.
+
+
+[h1] Is Hacknet realistic? [/h1]
+
+If you mean ""realistic"" as in ""Is this game close to hacking in real life?"" then the answer is no. This game is not realistic because it is fun and doesn't make you paranoid. You are in possession of a bunch of hacking tools that put up the kinds of graphics you'd expect to be running on computers in a 90's hacker film, and the way these tools work is by executing them and waiting for the flashy hacking graphics to stop flashing so that you can run another flashy hacker tool until you gain administrative system access. Granted, it's more complex than that, which is why this game is really enjoyable, but you're not going to be writing complex algorithms to overload proxy servers and bypass tracing measures. That's what the 90's tools are for.
+
+That being said, this may be as close as gaming will ever come to realistic hacking. Because anything that tries to be precicely like real hacking that doesn't give you fancy hacker programs probably isn't going to be a very fun game. And this, again, is a fun game. The entire game takes place on a computer's operating system, and every hack you perform is done through this system. In addition, the commands you use are based on real UNIX commands, even if the commands are typically used to activate the previously-mentioned hacking programs. It's certainly more realistic than games where you push a button and your character goes [i]""I'm in"" [/i] like Watch_Dogs and Quadrilateral Cowboy (That isn't to say that they're bad games, just that they're not trying to be realistic hacking simulations which, again, isn't necessarily a bad thing).
+
+
+[h1] Is this game immersive? Will I feel like a hacker even if I'm not performing real hacks? [/h1]
+
+Oh, yes. If you want to feel like the genius hacker that always appears in Hollywood films but rarely gets any time for actual character development, then this game is for you. The presentation of this game is great, and it really helps to sell that feeling of accomplishment that you get when you pull off a successful job. After about 30 minutes in, I had to re-check the steam store to make sure that I wasn't accessing a multiplayer hacking simulator. But nope, I was even able to play this game in airplane mode. As the store page mentions, there are very few things that break the immersion by being obvious parts of a video game. To complete a job, you email the client explaining that you've finished. To acquire a new tool, you have to copy said tool to your home computer from its rightful owner. 
+
+And this immersive presentation goes a long way in the overall experience. I know that not everybody responds the same way, but I found certain parts to incite genuine emotion in a way that few other games have managed to pull off. Like when you're given the option to accept a job in which [spoiler]you have to euthanize a dying man by hacking his pacemaker [/spoiler], or when [spoiler]you run ""OpenCDtray"" on your own system and your real computer's disc tray opens and may potentially scare the hell out of you[/spoiler]. So even if you're using overpowered tools to open systems that nobody bothers to check, you'll probably still feel really good doing so.
+
+
+[h1] Do I need to know coding or hacking in order to understand this game? [/h1]
+
+No, you don't. The tutorial explains everything pretty well, and it makes sure that you understand how the systems work before even thinking about letting you out into the hacking world. No coding is required (I'm not even sure if coding algorithms is possible with the interface), and most of the game's difficulty comes with memorizing the commands and executing them at the appropriate times. That being said, if you don't know a whole lot about computers, the most difficult task will probably be [spoiler] getting your interface back after being locked to terminal mode by another hacker [/spoiler]. But if you experiment enough, then you'll ususally find the solutions to most of the challenges, and there are plenty of walkthroughs and tips out there if you end up getting desperate. But I was able to finish the game with little prior programming experience. If you know how to navigate a computer's interface or have downloaded and fixed mods on to other games, then you'll probably be fine with this game. Just, you know, don't delete important files or screw up on a trace aversion. I don't know if this game prevents you from screwing yourself over, and everybody's too scared to find out.
+
+
+[h1] Is the game worth ten bucks? [/h1]
+
+Yeah, I'd say so. You'll probably get around 10 hours out of it if you're doing the main story without any outside assitance, 14-15 hours if you're also doing the labrynths DLC. I'd say that it's not everybody's cup of tea; surely, your relative who spends all day exclusively playing [i] Fortnite [/i] would probably get turned off by this, but odds are you're at least mildly interested in this game if you're reading this review right now, considering that this game gets talked about as much as what brand of toilet paper you prefer when you're finished up on the toilet. So yeah, I'd recommend this game to anybody reading this review.
+
+
+[h1] Oh, boy. It's one of those games that tries to sell its soundtrack as DLC. Is it good enough to warrant a purchase? [/h1]
+
+I was honestly surprised by this game's soundtrack. Again, I understand that everybody has different tastes in music, but I found this particular OST track good to write and do homework to. It felt really good to listen to in-game while hacking servers and computers. The music is used as sort of an indicator on what part of the game you're currently at, and when the song changes, you know you're probably making progress. I found that [spoiler] Roller Mobster by Carpenter Brut [/spoiler] fit this game better than it did for HM2. That being said, I haven't purchased the soundtrack since most of it is available on YouTube anyways. And yes, it's ten dollars. Fifteen dollars for the main game and DLC soundtrack. So while I'll admit that the soundtrack is pretty good, I'd only spend the extra fifteen bucks if you like having the songs directly at your fingertips at all times.
+
+
+[h1] TL;DR [/h1]
+
+This is a great game that may be as close to realistic hacking as gaming will come while still remaining enjoyable. The presentation and aeshetic really add a lot to it, and you don't need to be experienced with programming or hacking in order to complete it. It's worth the money and gives around 10 hours of playtime assuming you don't mess up massively and have to start a new game. I'm gonna give this a thumbs up, and I wish it came out later so that I could put it in my favorite 2018 games list.","This is gonna be a lengthy review. I'll add a TL;DR at the bottom. When I first went to view the page for this game, there were many questions that began flooding my mind. And now that I've played the game almost to its entirety, I think that I can answer most of these questions that interested consumers passing by may have. This game was a real treat, and I think that it deserves more attention than it's received. [h1] Is Hacknet realistic? [/h1] If you mean ""realistic"" as in ""Is this game close to hacking in real life?"" then the answer is no. This game is not realistic because it is fun and doesn't make you paranoid. You are in possession of a bunch of hacking tools that put up the kinds of graphics you'd expect to be running on computers in a 90's hacker film, and the way these tools work is by executing them and waiting for the flashy hacking graphics to stop flashing so that you can run another flashy hacker tool until you gain administrative system access. Granted, it's more complex than that, which is why this game is really enjoyable, but you're not going to be writing complex algorithms to overload proxy servers and bypass tracing measures. That's what the 90's tools are for. That being said, this may be as close as gaming will ever come to realistic hacking. Because anything that tries to be precicely like real hacking that doesn't give you fancy hacker programs probably isn't going to be a very fun game. And this, again, is a fun game. The entire game takes place on a computer's operating system, and every hack you perform is done through this system. In addition, the commands you use are based on real UNIX commands, even if the commands are typically used to activate the previously-mentioned hacking programs. It's certainly more realistic than games where you push a button and your character goes [i]""I'm in"" [/i] like Watch_Dogs and Quadrilateral Cowboy (That isn't to say that they're bad games, just that they're not trying to be realistic hacking simulations which, again, isn't necessarily a bad thing). [h1] Is this game immersive? Will I feel like a hacker even if I'm not performing real hacks? [/h1] Oh, yes. If you want to feel like the genius hacker that always appears in Hollywood films but rarely gets any time for actual character development, then this game is for you. The presentation of this game is great, and it really helps to sell that feeling of accomplishment that you get when you pull off a successful job. After about 30 minutes in, I had to re-check the steam store to make sure that I wasn't accessing a multiplayer hacking simulator. But nope, I was even able to play this game in airplane mode. As the store page mentions, there are very few things that break the immersion by being obvious parts of a video game. To complete a job, you email the client explaining that you've finished. To acquire a new tool, you have to copy said tool to your home computer from its rightful owner. And this immersive presentation goes a long way in the overall experience. I know that not everybody responds the same way, but I found certain parts to incite genuine emotion in a way that few other games have managed to pull off. Like when you're given the option to accept a job in which [spoiler]you have to euthanize a dying man by hacking his pacemaker [/spoiler], or when [spoiler]you run ""OpenCDtray"" on your own system and your real computer's disc tray opens and may potentially scare the hell out of you[/spoiler]. So even if you're using overpowered tools to open systems that nobody bothers to check, you'll probably still feel really good doing so. [h1] Do I need to know coding or hacking in order to understand this game? [/h1] No, you don't. The tutorial explains everything pretty well, and it makes sure that you understand how the systems work before even thinking about letting you out into the hacking world. No coding is required (I'm not even sure if coding algorithms is possible with the interface), and most of the game's difficulty comes with memorizing the commands and executing them at the appropriate times. That being said, if you don't know a whole lot about computers, the most difficult task will probably be [spoiler] getting your interface back after being locked to terminal mode by another hacker [/spoiler]. But if you experiment enough, then you'll ususally find the solutions to most of the challenges, and there are plenty of walkthroughs and tips out there if you end up getting desperate. But I was able to finish the game with little prior programming experience. If you know how to navigate a computer's interface or have downloaded and fixed mods on to other games, then you'll probably be fine with this game. Just, you know, don't delete important files or screw up on a trace aversion. I don't know if this game prevents you from screwing yourself over, and everybody's too scared to find out. [h1] Is the game worth ten bucks? [/h1] Yeah, I'd say so. You'll probably get around 10 hours out of it if you're doing the main story without any outside assitance, 14-15 hours if you're also doing the labrynths DLC. I'd say that it's not everybody's cup of tea; surely, your relative who spends all day exclusively playing [i] Fortnite [/i] would probably get turned off by this, but odds are you're at least mildly interested in this game if you're reading this review right now, considering that this game gets talked about as much as what brand of toilet paper you prefer when you're finished up on the toilet. So yeah, I'd recommend this game to anybody reading this review. [h1] Oh, boy. It's one of those games that tries to sell its soundtrack as DLC. Is it good enough to warrant a purchase? [/h1] I was honestly surprised by this game's soundtrack. Again, I understand that everybody has different tastes in music, but I found this particular OST track good to write and do homework to. It felt really good to listen to in-game while hacking servers and computers. The music is used as sort of an indicator on what part of the game you're currently at, and when the song changes, you know you're probably making progress. I found that [spoiler] Roller Mobster by Carpenter Brut [/spoiler] fit this game better than it did for HM2. That being said, I haven't purchased the soundtrack since most of it is available on YouTube anyways. And yes, it's ten dollars. Fifteen dollars for the main game and DLC soundtrack. So while I'll admit that the soundtrack is pretty good, I'd only spend the extra fifteen bucks if you like having the songs directly at your fingertips at all times. [h1] TL;DR [/h1] This is a great game that may be as close to realistic hacking as gaming will come while still remaining enjoyable. The presentation and aeshetic really add a lot to it, and you don't need to be experienced with programming or hacking in order to complete it. It's worth the money and gives around 10 hours of playtime assuming you don't mess up massively and have to start a new game. I'm gonna give this a thumbs up, and I wish it came out later so that I could put it in my favorite 2018 games list.",True,2019-01-19T04:55:38+00:00,2019-01-19T05:28:33+00:00,509.0,348.0,0.0,133.0,8.0,0.9176079630851746,True,False,False,False,76561198052842298,,4.0,False,False,7115,1263,8.483333333333333,5.8,3-10h,positive
+43587145,365450,hacknet,Hacknet,english,"[h1]01010100 01101000 01100101 00100000 01110010 01100101 01110110 01101001 01100101 01110111[/h1]
+
+[b]01000110 01101111 01110010 00100000 01110100 01101000 01100101 00100000 01100011 01101111 01101101 01110000 01110101 01110100 01100101 01110010 00100000 01100111 01100101 01100101 01101011 01110011[/b]
+
+
+01010100 01101000 01101001 01110011 00100000 01101001 01110011 00100000 01101111 01101110 01100101 00100000 01101111 01100110 00100000 01110100 01101000 01101111 01110011 01100101 00100000 01100111 01100001 01101101 01100101 01110011 00100000 01001001 00100000 01100011 01100001 01101110 00100000 01110010 01100101 01100011 01101111 01101101 01101101 01100101 01101110 01100100 00101100 00100000 01101001 01110100 00100111 01110011 00100000 01100111 01101111 01110100 00100000 01100001 00100000 01100010 01110010 01100101 01100001 01110100 01101000 00100000 01101111 01100110 00100000 01100110 01110010 01100101 01110011 01101000 00100000 01100001 01101001 01110010 00100000 01100001 01101110 01100100 00100000 01100001 00100000 01101110 01100101 01110111 00100000 01100011 01101111 01100001 01110100 00100000 01101111 01100110 00100000 01110000 01100001 01101001 01101110 01110100 00101110 00100000 01010100 01101000 01100101 00100000 01100111 01100001 01101101 01100101 00100000 01101001 01110011 00100000 01110011 01110100 01101001 01101100 01101100 00100000 01110000 01110010 01100101 01110100 01110100 01111001 00100000 01110011 01101001 01101101 01110000 01101100 01100101 00101110 00100000 01000010 01110101 01110100 00100000 01001001 00100000 01100111 01110101 01100101 01110011 01110011 00100000 01110100 01101000 01100001 01110100 00100111 01110011 00100000 01100010 01100101 01100011 01100001 01110101 01110011 01100101 00100000 01110111 01100101 00100111 01110010 01100101 00100000 01100001 00100000 01100010 01110101 01101110 01100011 01101000 00100000 01101111 01100110 00100000 01110011 01100011 01110010 01101001 01110000 01110100 00100000 01101011 01101001 01100100 01100100 01101001 01100101 01110011 00101110 00100000 01000111 01110010 01100101 01100001 01110100 00100000 01010011 01101111 01110101 01101110 01100100 01110100 01110010 01100001 01100011 01101011 00101100 00100000 01100111 01110010 01100101 01100001 01110100 00100000 01100111 01100001 01101101 01100101 01110000 01101100 01100001 01111001 00101100 00100000 01110111 01101111 01110101 01101100 01100100 00100000 01110010 01100101 01100011 01101111 01101101 01101101 01100101 01101110 01100100 00100000 01101001 01110100 00101110 00100000 00111001 00101111 00110001 00110000
+
+
+",[h1]01010100 01101000 01100101 00100000 01110010 01100101 01110110 01101001 01100101 01110111[/h1] [b]01000110 01101111 01110010 00100000 01110100 01101000 01100101 00100000 01100011 01101111 01101101 01110000 01110101 01110100 01100101 01110010 00100000 01100111 01100101 01100101 01101011 01110011[/b] 01010100 01101000 01101001 01110011 00100000 01101001 01110011 00100000 01101111 01101110 01100101 00100000 01101111 01100110 00100000 01110100 01101000 01101111 01110011 01100101 00100000 01100111 01100001 01101101 01100101 01110011 00100000 01001001 00100000 01100011 01100001 01101110 00100000 01110010 01100101 01100011 01101111 01101101 01101101 01100101 01101110 01100100 00101100 00100000 01101001 01110100 00100111 01110011 00100000 01100111 01101111 01110100 00100000 01100001 00100000 01100010 01110010 01100101 01100001 01110100 01101000 00100000 01101111 01100110 00100000 01100110 01110010 01100101 01110011 01101000 00100000 01100001 01101001 01110010 00100000 01100001 01101110 01100100 00100000 01100001 00100000 01101110 01100101 01110111 00100000 01100011 01101111 01100001 01110100 00100000 01101111 01100110 00100000 01110000 01100001 01101001 01101110 01110100 00101110 00100000 01010100 01101000 01100101 00100000 01100111 01100001 01101101 01100101 00100000 01101001 01110011 00100000 01110011 01110100 01101001 01101100 01101100 00100000 01110000 01110010 01100101 01110100 01110100 01111001 00100000 01110011 01101001 01101101 01110000 01101100 01100101 00101110 00100000 01000010 01110101 01110100 00100000 01001001 00100000 01100111 01110101 01100101 01110011 01110011 00100000 01110100 01101000 01100001 01110100 00100111 01110011 00100000 01100010 01100101 01100011 01100001 01110101 01110011 01100101 00100000 01110111 01100101 00100111 01110010 01100101 00100000 01100001 00100000 01100010 01110101 01101110 01100011 01101000 00100000 01101111 01100110 00100000 01110011 01100011 01110010 01101001 01110000 01110100 00100000 01101011 01101001 01100100 01100100 01101001 01100101 01110011 00101110 00100000 01000111 01110010 01100101 01100001 01110100 00100000 01010011 01101111 01110101 01101110 01100100 01110100 01110010 01100001 01100011 01101011 00101100 00100000 01100111 01110010 01100101 01100001 01110100 00100000 01100111 01100001 01101101 01100101 01110000 01101100 01100001 01111001 00101100 00100000 01110111 01101111 01110101 01101100 01100100 00100000 01110010 01100101 01100011 01101111 01101101 01101101 01100101 01101110 01100100 00100000 01101001 01110100 00101110 00100000 00111001 00101111 00110001 00110000,True,2018-07-17T15:36:08+00:00,2018-07-17T15:36:08+00:00,337.0,162.0,0.0,131.0,267.0,0.7692108750343323,False,False,False,False,76561198054660001,,88.0,False,False,2562,283,5.616666666666666,2.7,1-3h,positive
+140302496,365450,hacknet,Hacknet,english,I received this product for free and now i wish I had paid for it,I received this product for free and now i wish I had paid for it,True,2023-06-18T21:51:01+00:00,2023-06-18T21:51:01+00:00,362.0,362.0,0.0,130.0,42.0,0.8929561972618103,False,True,False,False,76561199095830282,,7.0,False,False,65,15,6.033333333333333,6.033333333333333,3-10h,positive
+155990773,365450,hacknet,Hacknet,english,Bought this game with crates i sold on cs2,Bought this game with crates i sold on cs2,True,2024-01-14T20:14:31+00:00,2024-01-14T20:14:48+00:00,109.0,90.0,0.0,124.0,62.0,0.7789468765258789,True,False,False,False,76561198154956571,,46.0,False,False,42,9,1.8166666666666667,1.5,1-3h,positive
+130596254,365450,hacknet,Hacknet,english,Makes ya feel like Mr. Robot even though you know damn well you don't even know how to change a download directory.,Makes ya feel like Mr. Robot even though you know damn well you don't even know how to change a download directory.,True,2023-01-10T21:30:10+00:00,2023-01-10T21:30:10+00:00,811.0,742.0,0.0,116.0,105.0,0.8748565912246704,True,False,False,False,76561199081480276,,14.0,False,False,115,22,13.516666666666667,12.366666666666667,10h+,positive
+42164482,365450,hacknet,Hacknet,english,"[url=https://kinglink-reviews.com/2018/05/21/hacknet-review/] Full Review [/url] --  [url=http://store.steampowered.com/curator/31803828-Kinglink-Reviews/] Curator Site [/url]
+
+Hacking games are weird. There are games with hacking as an ability such as Deus Ex or Watch Dogs but that’s not what I’m talking about. Those game have a “hacking mechanic” which at best is a mini-game and at worst is a button press. There are also games where the focus is on “hacking” systems and while it’s almost never realistic it usually can take steps in that direction and still be fun. Hacknet is one of those games, and it is an excellent example of why I enjoy those games.
+
+So there are two sets of games I play. Normal games, stuff like Far Cry, Destiny, Bayonetta that average gamers can enjoy the same as me. Then there are the special games. I call them “programmer games” And they’re not all the same, they don’t have the same style of gameplay but most are made for the analytical mind of a programmer. Programmer games to me are games like Factorio, and pretty much every Zachtronics game (Which I will start reviewing soon, I promise, Zach your day will come!). And Uplink. Yes, Uplink is certainly there.
+
+Uplink might be the first game I ever played where I felt a bond with the developer. I didn’t just like Uplink. I loved every minute of it. I was a novice with computers (and in some ways maybe I still am) but Uplink gave me the feeling that I was hacking into computers, and racing to beat a trace to avoid detection. Uplink was a blast. It was a great game. Hell in the back of my mind whenever I’m running a route trace (tracert) or pinging a server, I still imagine the map of the world and believe it’s following a single line on it.
+
+I’m not the only person who liked Uplink. I can say that with absolute certainty because Hacknet clearly was developed to be similar to Uplink. Now two people can come up with the same idea, but Hacknet came out a decade after Uplink and even has a mission about someone copying “Introversion’s” game idea in Hacknet. Introversion is the name of the company that made Uplink.
+
+Because of that, I’m sure the question comes up if this is a clone. While I have a very long version of why it doesn’t matter, the question would carry more weight if Hacknet didn’t differentiate itself from Uplink, or if Uplink was still developed. Introversion has gone on to make other amazing games, including the current “Prison Architect”. While Uplink is a clear inspiration, it’s also just the starting point, and Hacknet ran with it in so many directions that I’m impressed.
+
+But there is one thought that Hacknet didn’t improve on Uplink. Uplink has a rather solid story, and it’s exciting from the first moment to the end of the game. I remember playing it a number of times, and the story drove me on to finish it in more than one way.
+
+Hacknet, on the other hand, has a weaker story. Most of the story is done through missions and while there are some choices the player can make, or choose between a number of groups, there’s not really a reason or a purpose for it.
+
+The real story of Hacknet only appears at the end and it only becomes a major event for a number of missions in a row, but it’s never has a strong pull to finish it, instead you just want to keep completing missions and because of that the story pulls you along. I feel like a lot of the story comes out of nowhere.
+
+That’s not to say there are no interesting stories in Hacknet, but they’re more about the current mission you are on or just side stories that develop the world. It’s a shame because it’s one of the big flaws in the game in my opinion. The game feels like it tries to be open to the player making choices so it’s free-form but then backloads all the major story events to the end. I’d have loved to see the major story develop into emergency situations you deal with throughout the game and you could get the feeling you are competing against something even if you weren’t.
+
+The bigger problem to me though is the story doesn’t tend to listen to the rules it has set up for its universe. You start the game and eventually join a hacking group. The first group are “White Hats” which means constructive hacking. They don’t exactly follow those rules, but while they can be destructive, they have a moral code that’s critical for them. It’s a good mantra to follow, and I like the idea of it.
+
+The problem is the game never follows it up. In fact, a few missions are hollow when you realize there’s no positives or negatives for how you do jobs. The group might claim they’re “White Hats” and they told me to only delete what was necessary on one assignment. I trashed the computer and destroyed everything I could. The group never brought up my destructive nature. In fact, from that point onward, I found I could go against almost all the rules that the story developed for me.
+
+For instance, Hacknet stresses deleting logs are important, and this was critical in Uplink. If you left logs in Uplink, people would be able to backtrace you even after you disconnected. However, in Hacknet there are two problems. First disconnecting from a server leaves a final log entry that’s deadly. In real life, you could wipe the log, have a program delete them after a timed execution or crash a server to avoid writing a disconnect if it matters. But none of these are required because of the second issue. Leaving the logs alone makes no difference. It’s a story element that doesn’t actually have gameplay attached to it.
+
+I want to say both of these are acceptable and they are, but in fact, they annoy me a lot. The logs were a core system in Uplink and while the new game doesn’t have to be exactly like Uplink, Hacknet talks about deleting logs as critical. If they make it a major part of the story, they should require it since they said it was important.
+
+So this has started to evolve into a discussion on the gameplay, and the gameplay is either the best part or the worst part of Hacknet. It will pretty much come down to the question of if the player can use a terminal effectively.
+
+If you take a random server in Hacknet, you’ll usually be presented with a login prompt and the ability to “probe the network”. Almost always you will have to probe the network, from there the game will tell you what type of security measures the servers have. It might be a proxy server that you have to overload with other servers or a Firewall that means there’s an analysis program you have to run and figure out a passcode by reading off the letters that remain after analysis. You’ll almost always have to open ports on the system so you can crack the password, and you open ports by running exploits. Almost all of this is only done through the console. You can probe with the mouse, but the exploits require running the programs manually and giving them the ports.
+
+The thing is, this is rather fun to me. I love the hacking aspects, and eventually when there’s a time limit it gets even better, trying to get everything done against a ticking clock because you have to run all the exploits, overload the proxy, figure out the firewall, and then do whatever you intended on the computer before it locks you out again.
+
+The downside is the trace is always the same length of time. In Uplink there’s an idea of proxies which worked, as you could build a longer trace time but here, you just directly attack the computer and either have enough time, disconnect before you’re finished or run out of time.
+
+If you want to read more and see a final score, you can see the full review with pictures at https://kinglink-reviews.com/2018/05/21/hacknet-review/  You can also check out my Curator page at If you want to hear more from me, you can show me that by following my curator at http://store.steampowered.com/curator/31803828-Kinglink-Reviews/","[url=https://kinglink-reviews.com/2018/05/21/hacknet-review/] Full Review [/url] -- [url=http://store.steampowered.com/curator/31803828-Kinglink-Reviews/] Curator Site [/url] Hacking games are weird. There are games with hacking as an ability such as Deus Ex or Watch Dogs but that’s not what I’m talking about. Those game have a “hacking mechanic” which at best is a mini-game and at worst is a button press. There are also games where the focus is on “hacking” systems and while it’s almost never realistic it usually can take steps in that direction and still be fun. Hacknet is one of those games, and it is an excellent example of why I enjoy those games. So there are two sets of games I play. Normal games, stuff like Far Cry, Destiny, Bayonetta that average gamers can enjoy the same as me. Then there are the special games. I call them “programmer games” And they’re not all the same, they don’t have the same style of gameplay but most are made for the analytical mind of a programmer. Programmer games to me are games like Factorio, and pretty much every Zachtronics game (Which I will start reviewing soon, I promise, Zach your day will come!). And Uplink. Yes, Uplink is certainly there. Uplink might be the first game I ever played where I felt a bond with the developer. I didn’t just like Uplink. I loved every minute of it. I was a novice with computers (and in some ways maybe I still am) but Uplink gave me the feeling that I was hacking into computers, and racing to beat a trace to avoid detection. Uplink was a blast. It was a great game. Hell in the back of my mind whenever I’m running a route trace (tracert) or pinging a server, I still imagine the map of the world and believe it’s following a single line on it. I’m not the only person who liked Uplink. I can say that with absolute certainty because Hacknet clearly was developed to be similar to Uplink. Now two people can come up with the same idea, but Hacknet came out a decade after Uplink and even has a mission about someone copying “Introversion’s” game idea in Hacknet. Introversion is the name of the company that made Uplink. Because of that, I’m sure the question comes up if this is a clone. While I have a very long version of why it doesn’t matter, the question would carry more weight if Hacknet didn’t differentiate itself from Uplink, or if Uplink was still developed. Introversion has gone on to make other amazing games, including the current “Prison Architect”. While Uplink is a clear inspiration, it’s also just the starting point, and Hacknet ran with it in so many directions that I’m impressed. But there is one thought that Hacknet didn’t improve on Uplink. Uplink has a rather solid story, and it’s exciting from the first moment to the end of the game. I remember playing it a number of times, and the story drove me on to finish it in more than one way. Hacknet, on the other hand, has a weaker story. Most of the story is done through missions and while there are some choices the player can make, or choose between a number of groups, there’s not really a reason or a purpose for it. The real story of Hacknet only appears at the end and it only becomes a major event for a number of missions in a row, but it’s never has a strong pull to finish it, instead you just want to keep completing missions and because of that the story pulls you along. I feel like a lot of the story comes out of nowhere. That’s not to say there are no interesting stories in Hacknet, but they’re more about the current mission you are on or just side stories that develop the world. It’s a shame because it’s one of the big flaws in the game in my opinion. The game feels like it tries to be open to the player making choices so it’s free-form but then backloads all the major story events to the end. I’d have loved to see the major story develop into emergency situations you deal with throughout the game and you could get the feeling you are competing against something even if you weren’t. The bigger problem to me though is the story doesn’t tend to listen to the rules it has set up for its universe. You start the game and eventually join a hacking group. The first group are “White Hats” which means constructive hacking. They don’t exactly follow those rules, but while they can be destructive, they have a moral code that’s critical for them. It’s a good mantra to follow, and I like the idea of it. The problem is the game never follows it up. In fact, a few missions are hollow when you realize there’s no positives or negatives for how you do jobs. The group might claim they’re “White Hats” and they told me to only delete what was necessary on one assignment. I trashed the computer and destroyed everything I could. The group never brought up my destructive nature. In fact, from that point onward, I found I could go against almost all the rules that the story developed for me. For instance, Hacknet stresses deleting logs are important, and this was critical in Uplink. If you left logs in Uplink, people would be able to backtrace you even after you disconnected. However, in Hacknet there are two problems. First disconnecting from a server leaves a final log entry that’s deadly. In real life, you could wipe the log, have a program delete them after a timed execution or crash a server to avoid writing a disconnect if it matters. But none of these are required because of the second issue. Leaving the logs alone makes no difference. It’s a story element that doesn’t actually have gameplay attached to it. I want to say both of these are acceptable and they are, but in fact, they annoy me a lot. The logs were a core system in Uplink and while the new game doesn’t have to be exactly like Uplink, Hacknet talks about deleting logs as critical. If they make it a major part of the story, they should require it since they said it was important. So this has started to evolve into a discussion on the gameplay, and the gameplay is either the best part or the worst part of Hacknet. It will pretty much come down to the question of if the player can use a terminal effectively. If you take a random server in Hacknet, you’ll usually be presented with a login prompt and the ability to “probe the network”. Almost always you will have to probe the network, from there the game will tell you what type of security measures the servers have. It might be a proxy server that you have to overload with other servers or a Firewall that means there’s an analysis program you have to run and figure out a passcode by reading off the letters that remain after analysis. You’ll almost always have to open ports on the system so you can crack the password, and you open ports by running exploits. Almost all of this is only done through the console. You can probe with the mouse, but the exploits require running the programs manually and giving them the ports. The thing is, this is rather fun to me. I love the hacking aspects, and eventually when there’s a time limit it gets even better, trying to get everything done against a ticking clock because you have to run all the exploits, overload the proxy, figure out the firewall, and then do whatever you intended on the computer before it locks you out again. The downside is the trace is always the same length of time. In Uplink there’s an idea of proxies which worked, as you could build a longer trace time but here, you just directly attack the computer and either have enough time, disconnect before you’re finished or run out of time. If you want to read more and see a final score, you can see the full review with pictures at https://kinglink-reviews.com/2018/05/21/hacknet-review/ You can also check out my Curator page at If you want to hear more from me, you can show me that by following my curator at http://store.steampowered.com/curator/31803828-Kinglink-Reviews/",True,2018-05-21T18:37:06+00:00,2018-05-21T18:37:28+00:00,878.0,878.0,0.0,115.0,3.0,0.8440322875976562,False,False,False,False,76561197970761123,,956.0,False,False,7836,1408,14.633333333333333,14.633333333333333,10h+,positive
+31747073,365450,hacknet,Hacknet,english,01000111 01110010 01100101 01100001 01110100 00100000 01100111 01100001 01101101 01100101 00100001 00100000 01001000 01101001 01100111 01101000 01101100 01111001 00100000 01110010 01100101 01100011 01101111 01101101 01101101 01100101 01101110 01100100 01100101 01100100 00100001,01000111 01110010 01100101 01100001 01110100 00100000 01100111 01100001 01101101 01100101 00100001 00100000 01001000 01101001 01100111 01101000 01101100 01111001 00100000 01110010 01100101 01100011 01101111 01101101 01101101 01100101 01101110 01100100 01100101 01100100 00100001,True,2017-05-14T12:29:27+00:00,2017-05-14T12:29:27+00:00,1026.0,420.0,0.0,112.0,227.0,0.6234081983566284,False,False,False,False,76561198074803527,,1.0,False,False,278,31,17.1,7.0,3-10h,positive
+17512993,365450,hacknet,Hacknet,english,"[b]DISCLAIMER: I was provided a press review copy for the purposes of documenting the game for PCGamingWiki, a publicly-editable technical wiki for games.[/b]
+
+What would happen if you gamified the idea that you found a copy of an OS which was so dead-simple to use, anyone with basic computer and investigative skills could hack into [i]anything[/i]? You'd get Hacknet, an excellent hacking game designed to be the spiritual successor to Uplink. Slick graphics, a sliding difficulty designed to get you introduced to the game's mechancis one-by-one, and an in-the-background story which is surprisingly pointient and explores not only how insecure computers really are to a dedicated hacker, but the ramifications, both practical and mornal, of an OS designed to hack anything.
+
+[b]TL;DR:[/b] It's a short, satisfying hacking game which, despite how complicated it seems at the outset, eases you into its mechanics, world, and story, and gives you the surprising, satisfying feeling of being both a master hacker and Sherlock Holmes at the same time.
+
+[h1]Is this Uplink 2.0?[/h1]
+For the mandatory ""Is this Uplink 2.0"" part of the review: no. This is [i]not[/i] the spiritual successor hardcore fans of Uplink have been looking for because:
+[list]
+[*] You use a 'real' computer with fixed specs, with HacknetOS running on top of it as a VM (Virtual Machine).
+[*] The game is command-line based with some GUI helpers, such as an IP map, optional GUI-based system navigation, and a note app.
+[*] You can only run computer-compromising apps via command-line.
+[*] The game's story, despite being subtle, in the background, and without limitations (i.e. x number of connections before game over), drives the game, and your actions are ultimately in service of the story.
+[/list]
+
+If none of the above scared you off, then read on because this spiritual sequel is, in spite of the above, a worthy one IMO...
+[h1]Gameplay[/h1]
+As mentioned above, Hacknet uses its command-line for much of the hacking, with a few GUI helpers for those tasks too cumbersome to exclusively do in the GUI, like keeping track of all the known IPs and keeping notes. Despite this, there are only a few core commands, and are remarkably easy-to-remember with repeated use - and the game is [i]very[/i] careful to ensure you do - and often relate to what they do. For example, to crack an in-game computer's SSH port, run SSHcrack [insert port number here]. This is further helped by the addition of command auto-completion - something the game teaches you how to use very quickly. So, that SSHcrack command I just mentioned? All you really need to type in is SSH, press the TAB key, add the port number, and press the Enter key. Believe me - it makes your life a [i]lot[/i] easier.
+
+The hacking itself is simple: connect to the target, probe the computer for weaknesses, then execute programs to exploit their weaknesses. Some computers require some preperatory work, such as computers with proxies effectively require you to use other computers you've compromised to attack them, while others might require you to find a piece of cracking software to open them up, bypass a firewall by running special software to solve its encryption, and so on. At first, it isn't so difficult - just run the apps, and watch the magic happen. Later on, you'll begin to regularly encounter computers which will attempt to passively hunt your computer down and force it to reboot - complete with a giant timer showing you the exact time to failure - requiring you to run multiple apps at once. Since your computer only has so much memory, you'll need to play Tetris with the apps, shutting down those you don't need and running the ones which bypass the easiest weaknessess. Beating the clock and compromising a computer with a second to spare is an accomplishment in an of itself which never gets old.
+
+Another good thing is the game understands how counter-intuitive command-line use is for the average user, so through the use of an initial tutorial (which can be skipped once you know how to terminate it) and missions which slowly slide up in difficulty as they teach the basic mechanics, you'll eventually come to grips with the commands you need to hack. And once you do, it starts giving you missions which, combined with the clear, clever visuals (more on those later), allow you to feel like a master hacker in a way different from other hacking games because you'll often need to do something which most hacking games leave out entirely or towards the very end.
+
+[b]You get to be Sherlock Holmes.[/b]
+
+You see, because people, even those with good security sense, tend to forget or excuse security issues, they also tend to leave stuff on their computers, mobile devices, and e-mail accounts. IP addresses to secret files, administrator (admin) passwords for top-secret servers and their most private e-mails - you name it, they'll leave it. As such, any good hacker needs to dig through files to find all those details so they can find what they need with the least amount of effort - allowing you to find hidden servers, open files which would otherwise be closed to you, and skip dangerous, time-consuming, and sometimes impossible system hacks by simply logging in as the administrator. You'll be surprised how satisfied you'll feel following a trail of clues to your ultimate objective, making an impossible task suddenly seem trivial - and end up finding some hilarious stuff in the process as you dig through all the files which don't matter.
+
+All that said, there are some things which make the game easier than it should be. A key part of the gameplay is erasing anything in the system's logs indicating you were there so the authorities can't track your hacks back to you. In theory, this means deleting every log file before leaving the server; in practice, all you have to do in most cases is start deleting all the log files, disconnect from the server, wait for all the files to be deleted, then come back. ""How can I delete files from a computer I just disconnected from?"" you ask. You shouldn't, but the game lets you. This means that as long as the computer doesn't have a rotating admin password - and most don't - what should be down-to-the-wire hacks end up being trivial. Furthermore, any future accessing of the computer will be ignored - even if you never delete the logs after the first time.
+
+Oddly enough, that one problem with the gameplay is...actually a bonus in my eyes, since it enables you to focus more on solving the challenging Sherlock Holmes-esque puzzles.
+[h1]Story[/h1]
+I can't really touch on the story much as to do so would ruin the surprise and horror it provides late in the game. I can say, though, that the story, while simple, is quite sophisticated, as it explores through your actions just what kind of power HacknetOS gives those who own it in today's digital age, where everything - and I do mean [i]everything[/i] - is connected to the Internet and, thus, can be compromised, pried open, and tampered with.
+[h1]Graphics[/h1]
+The graphics in Hacknet are very minimalistic and clean, meaning you can see exactly what's what with minimal effort. There are also some optional, subtle effects which emulate a CRT computer monitor, adding to the realism. The standout graphics come from the apps, as they show you in fun and clever ways how they're progressing, whether it shows you punching through an SSH table with every section hacked turned green or beat out an SMTP mail server's sorting algorithm to force it to shut down and open up to you.
+[h1]Additional Thoughts[/h1]
+I really wish the game opened up towards the middle - it would've been fun exploring the world wide web, finding hidden sub-plots as you tear through the world's computers like tissue paper, as a reprieve from the short story. Speaking of the story, I also wish it were longer - the game's puzzles were clever and unique, and I so desperately wanted more content.","[b]DISCLAIMER: I was provided a press review copy for the purposes of documenting the game for PCGamingWiki, a publicly-editable technical wiki for games.[/b] What would happen if you gamified the idea that you found a copy of an OS which was so dead-simple to use, anyone with basic computer and investigative skills could hack into [i]anything[/i]? You'd get Hacknet, an excellent hacking game designed to be the spiritual successor to Uplink. Slick graphics, a sliding difficulty designed to get you introduced to the game's mechancis one-by-one, and an in-the-background story which is surprisingly pointient and explores not only how insecure computers really are to a dedicated hacker, but the ramifications, both practical and mornal, of an OS designed to hack anything. [b]TL;DR:[/b] It's a short, satisfying hacking game which, despite how complicated it seems at the outset, eases you into its mechanics, world, and story, and gives you the surprising, satisfying feeling of being both a master hacker and Sherlock Holmes at the same time. [h1]Is this Uplink 2.0?[/h1] For the mandatory ""Is this Uplink 2.0"" part of the review: no. This is [i]not[/i] the spiritual successor hardcore fans of Uplink have been looking for because: [list] [*] You use a 'real' computer with fixed specs, with HacknetOS running on top of it as a VM (Virtual Machine). [*] The game is command-line based with some GUI helpers, such as an IP map, optional GUI-based system navigation, and a note app. [*] You can only run computer-compromising apps via command-line. [*] The game's story, despite being subtle, in the background, and without limitations (i.e. x number of connections before game over), drives the game, and your actions are ultimately in service of the story. [/list] If none of the above scared you off, then read on because this spiritual sequel is, in spite of the above, a worthy one IMO... [h1]Gameplay[/h1] As mentioned above, Hacknet uses its command-line for much of the hacking, with a few GUI helpers for those tasks too cumbersome to exclusively do in the GUI, like keeping track of all the known IPs and keeping notes. Despite this, there are only a few core commands, and are remarkably easy-to-remember with repeated use - and the game is [i]very[/i] careful to ensure you do - and often relate to what they do. For example, to crack an in-game computer's SSH port, run SSHcrack [insert port number here]. This is further helped by the addition of command auto-completion - something the game teaches you how to use very quickly. So, that SSHcrack command I just mentioned? All you really need to type in is SSH, press the TAB key, add the port number, and press the Enter key. Believe me - it makes your life a [i]lot[/i] easier. The hacking itself is simple: connect to the target, probe the computer for weaknesses, then execute programs to exploit their weaknesses. Some computers require some preperatory work, such as computers with proxies effectively require you to use other computers you've compromised to attack them, while others might require you to find a piece of cracking software to open them up, bypass a firewall by running special software to solve its encryption, and so on. At first, it isn't so difficult - just run the apps, and watch the magic happen. Later on, you'll begin to regularly encounter computers which will attempt to passively hunt your computer down and force it to reboot - complete with a giant timer showing you the exact time to failure - requiring you to run multiple apps at once. Since your computer only has so much memory, you'll need to play Tetris with the apps, shutting down those you don't need and running the ones which bypass the easiest weaknessess. Beating the clock and compromising a computer with a second to spare is an accomplishment in an of itself which never gets old. Another good thing is the game understands how counter-intuitive command-line use is for the average user, so through the use of an initial tutorial (which can be skipped once you know how to terminate it) and missions which slowly slide up in difficulty as they teach the basic mechanics, you'll eventually come to grips with the commands you need to hack. And once you do, it starts giving you missions which, combined with the clear, clever visuals (more on those later), allow you to feel like a master hacker in a way different from other hacking games because you'll often need to do something which most hacking games leave out entirely or towards the very end. [b]You get to be Sherlock Holmes.[/b] You see, because people, even those with good security sense, tend to forget or excuse security issues, they also tend to leave stuff on their computers, mobile devices, and e-mail accounts. IP addresses to secret files, administrator (admin) passwords for top-secret servers and their most private e-mails - you name it, they'll leave it. As such, any good hacker needs to dig through files to find all those details so they can find what they need with the least amount of effort - allowing you to find hidden servers, open files which would otherwise be closed to you, and skip dangerous, time-consuming, and sometimes impossible system hacks by simply logging in as the administrator. You'll be surprised how satisfied you'll feel following a trail of clues to your ultimate objective, making an impossible task suddenly seem trivial - and end up finding some hilarious stuff in the process as you dig through all the files which don't matter. All that said, there are some things which make the game easier than it should be. A key part of the gameplay is erasing anything in the system's logs indicating you were there so the authorities can't track your hacks back to you. In theory, this means deleting every log file before leaving the server; in practice, all you have to do in most cases is start deleting all the log files, disconnect from the server, wait for all the files to be deleted, then come back. ""How can I delete files from a computer I just disconnected from?"" you ask. You shouldn't, but the game lets you. This means that as long as the computer doesn't have a rotating admin password - and most don't - what should be down-to-the-wire hacks end up being trivial. Furthermore, any future accessing of the computer will be ignored - even if you never delete the logs after the first time. Oddly enough, that one problem with the gameplay is...actually a bonus in my eyes, since it enables you to focus more on solving the challenging Sherlock Holmes-esque puzzles. [h1]Story[/h1] I can't really touch on the story much as to do so would ruin the surprise and horror it provides late in the game. I can say, though, that the story, while simple, is quite sophisticated, as it explores through your actions just what kind of power HacknetOS gives those who own it in today's digital age, where everything - and I do mean [i]everything[/i] - is connected to the Internet and, thus, can be compromised, pried open, and tampered with. [h1]Graphics[/h1] The graphics in Hacknet are very minimalistic and clean, meaning you can see exactly what's what with minimal effort. There are also some optional, subtle effects which emulate a CRT computer monitor, adding to the realism. The standout graphics come from the apps, as they show you in fun and clever ways how they're progressing, whether it shows you punching through an SSH table with every section hacked turned green or beat out an SMTP mail server's sorting algorithm to force it to shut down and open up to you. [h1]Additional Thoughts[/h1] I really wish the game opened up towards the middle - it would've been fun exploring the world wide web, finding hidden sub-plots as you tear through the world's computers like tissue paper, as a reprieve from the short story. Speaking of the story, I also wish it were longer - the game's puzzles were clever and unique, and I so desperately wanted more content.",True,2015-08-13T00:24:02+00:00,2015-08-13T00:30:19+00:00,726.0,726.0,0.0,109.0,6.0,0.7982984185218811,False,False,False,False,76561198018245183,,1.0,False,False,7944,1354,12.1,12.1,10h+,positive
+28186422,365450,hacknet,Hacknet,english,"When this game first came out I took a glance at the video and screenshots and thought to myself ""Jesus, why would anyone want to play a game that looks like this?""  I'm on the store page now and I see I even have it tagged as ""Not Interested"" because I was so sure it was something that I would never be into. 
+
+A couple of days ago I received it as part of a Humble Bundle and just accepted that you usually get some garbage in your humble bundle.  Booted it up, because I always like to at least try out games that end up in my library, and I'm hooked.
+
+Super immersive and satisfying game to play.  Judged a book by its cover and was wrong.","When this game first came out I took a glance at the video and screenshots and thought to myself ""Jesus, why would anyone want to play a game that looks like this?"" I'm on the store page now and I see I even have it tagged as ""Not Interested"" because I was so sure it was something that I would never be into. A couple of days ago I received it as part of a Humble Bundle and just accepted that you usually get some garbage in your humble bundle. Booted it up, because I always like to at least try out games that end up in my library, and I'm hooked. Super immersive and satisfying game to play. Judged a book by its cover and was wrong.",True,2016-12-04T15:34:44+00:00,2016-12-04T15:34:44+00:00,742.0,651.0,0.0,102.0,2.0,0.897547721862793,False,False,False,False,76561198001473127,,3.0,False,False,638,128,12.366666666666667,10.85,10h+,positive
+175453076,365450,hacknet,Hacknet,english,"I was impressed that he captured the gameability and Bellance, which are prone to collapse in this kind of game.
+Above all, the soundtrack is great.
+이런 류의 게임에서 자칫하면 무너지기 쉬운 게임성과 벨런스를 절묘하게 잘 잡아냈다는 데 감탄했습니다.
+무엇보다 사운드트랙이 훌륭합니다.
+
+Thirty seconds in I deleted system 32 and broke the virtual computer for good. Very immersive.
+30초 만에 시스템 32를 삭제하고 가상 컴퓨터를 영구적으로 파손했습니다. 매우 몰입감이 뛰어납니다.","I was impressed that he captured the gameability and Bellance, which are prone to collapse in this kind of game. Above all, the soundtrack is great. 이런 류의 게임에서 자칫하면 무너지기 쉬운 게임성과 벨런스를 절묘하게 잘 잡아냈다는 데 감탄했습니다. 무엇보다 사운드트랙이 훌륭합니다. Thirty seconds in I deleted system 32 and broke the virtual computer for good. Very immersive. 30초 만에 시스템 32를 삭제하고 가상 컴퓨터를 영구적으로 파손했습니다. 매우 몰입감이 뛰어납니다.",True,2024-09-21T13:06:18+00:00,2024-09-21T13:06:18+00:00,199.0,8.0,0.0,102.0,0.0,0.887782096862793,False,False,False,False,76561198102107891,,1755.0,False,False,376,70,3.316666666666667,0.13333333333333333,0-1h,positive
+25570477,365450,hacknet,Hacknet,english,"First hacking game i ever played and i can proudly say that this was a really cool experience. Took me a total of 10 hours to complete the full singleplayer/story mode (could have probably been quicker, but there are so much things that side track you from the story, like funny logs and chats you can read on other peoples PC xD). Everything about this game is just awesome the story, the puzzles, the contracts, the music, the commands you have to use etc. just overall a pretty well thought game and amazingly executed/developed by the developers. I'm probably going to be doing a second playthrough of the game just to get more achievements and see if i can beat it quicker this time, but YEAH I WOULD DEFINITELY RECOMMEND THIS GAME!!!
+
+PS: NEVER DELETE UR X-SERVER.SYS FILE!!!!!!!!!!!! (BAD THINGS WILL HAPPEN WHEN U DO THAT XD)
+
+9.7/10 Would hack it again!","First hacking game i ever played and i can proudly say that this was a really cool experience. Took me a total of 10 hours to complete the full singleplayer/story mode (could have probably been quicker, but there are so much things that side track you from the story, like funny logs and chats you can read on other peoples PC xD). Everything about this game is just awesome the story, the puzzles, the contracts, the music, the commands you have to use etc. just overall a pretty well thought game and amazingly executed/developed by the developers. I'm probably going to be doing a second playthrough of the game just to get more achievements and see if i can beat it quicker this time, but YEAH I WOULD DEFINITELY RECOMMEND THIS GAME!!! PS: NEVER DELETE UR X-SERVER.SYS FILE!!!!!!!!!!!! (BAD THINGS WILL HAPPEN WHEN U DO THAT XD) 9.7/10 Would hack it again!",True,2016-09-18T14:30:29+00:00,2016-09-18T14:30:29+00:00,607.0,607.0,0.0,102.0,7.0,0.8513383865356445,False,False,False,False,76561198132708477,,20.0,False,False,860,152,10.116666666666667,10.116666666666667,10h+,positive
+17562681,365450,hacknet,Hacknet,english,finally i know how to haCk and can join anonymouse,finally i know how to haCk and can join anonymouse,True,2015-08-16T07:10:24+00:00,2015-08-16T07:10:24+00:00,250.0,250.0,0.0,102.0,467.0,0.5470938086509705,True,False,False,False,76561198001737925,,69.0,False,False,50,10,4.166666666666667,4.166666666666667,3-10h,positive
+24060931,365450,hacknet,Hacknet,english,"> Download on laptop
+> Get really into the the game to the point were it looks like I'm actually hacking 
+> Go on vacation to California
+> Play while in airport
+> 20 mins from boarding time, a security officer sees me in a green hoodie typing stuff into a hacker-like console 
+> Runs over and tells me to put my hands up and give him the laptop
+> Tell him that its a game called Hacknet
+> Calls another security guard who recognized it as a game he plays
+> Make flight in time
+
+  10/10 Would get arrested for hacking again","> Download on laptop > Get really into the the game to the point were it looks like I'm actually hacking > Go on vacation to California > Play while in airport > 20 mins from boarding time, a security officer sees me in a green hoodie typing stuff into a hacker-like console > Runs over and tells me to put my hands up and give him the laptop > Tell him that its a game called Hacknet > Calls another security guard who recognized it as a game he plays > Make flight in time 10/10 Would get arrested for hacking again",True,2016-07-03T20:50:44+00:00,2018-02-19T04:50:31+00:00,615.0,606.0,0.0,101.0,387.0,0.7729535102844238,True,False,False,False,76561198220871040,,9.0,False,False,517,103,10.25,10.1,10h+,positive
+39522095,365450,hacknet,Hacknet,english,"One of my favourite games.
+
+TIP: Open a word document (or if you are on mac, notes) and write the shortcuts and what they mean. FOr example write ""rm = delete"" or something like that. That way, if you don't play for awhile, or you just forget, you can always look back at it. Anyway, here's mine:
+
+
+rm = delete
+
+scp = download
+
+porthack = break active security
+
+mv = rename
+
+cat = flag as active file
+
+replace “example1” “example2” = replace
+
+ps = get the UID, PID, and name
+
+dc = disconnect
+
+connect = connect to that ip
+
+kbt = medical port
+SSH = ssh
+FTP = Ftp server
+smtp = smt
+webserverworm
+sqlmemcoruppter
+
+Eos:
+
+user: admin
+pass: alpine
+
+analyze = analyze the firewall
+
+solve [firewall solution]
+","One of my favourite games. TIP: Open a word document (or if you are on mac, notes) and write the shortcuts and what they mean. FOr example write ""rm = delete"" or something like that. That way, if you don't play for awhile, or you just forget, you can always look back at it. Anyway, here's mine: rm = delete scp = download porthack = break active security mv = rename cat = flag as active file replace “example1” “example2” = replace ps = get the UID, PID, and name dc = disconnect connect = connect to that ip kbt = medical port SSH = ssh FTP = Ftp server smtp = smt webserverworm sqlmemcoruppter Eos: user: admin pass: alpine analyze = analyze the firewall solve [firewall solution]",True,2018-01-21T21:57:44+00:00,2018-01-21T21:57:44+00:00,442.0,271.0,0.0,100.0,4.0,0.8983762860298157,True,False,False,False,76561198164950057,,14.0,False,False,684,128,7.366666666666666,4.516666666666667,3-10h,positive
+142290736,365450,hacknet,Hacknet,english,hold up im entering the mainframe,hold up im entering the mainframe,True,2023-07-17T20:54:45+00:00,2023-07-17T20:54:45+00:00,468.0,468.0,0.0,98.0,55.0,0.8377903699874878,False,False,False,False,76561198163572263,,39.0,False,False,33,6,7.8,7.8,3-10h,positive
+25795594,365450,hacknet,Hacknet,english,"By far one of the best games I've ever played. Plays like a detective game, but it's clear, logical and extremely cool.
+Overall had an amazing experience with this game.
+
+Pros:
+- Nice display
+- Command typing is easy, fun, and helps set the tone
+- Halarious and interesting personal documents and chat logs to read.
+- Mixes up the gameplay a bit
+- Interesting story progression
+- Some amazing puzzles
+- Makes you feel very tense
+- Good tutorial
+- Lots of interesting (although unrealistic) hacking techniques
+
+Cons:
+- Definitely not enough essays, notes, chat logs, etc. to read
+- No idea why I find the exact same documents on seperate machines, little indication of the person behind each computer having their own life and personality (with one amazing exeption)
+- Hacking ports specifically doesn't ever get much more interesting, becomes somewhat routine
+- Some bugs (I haven't personally come across any game breaking ones)","By far one of the best games I've ever played. Plays like a detective game, but it's clear, logical and extremely cool. Overall had an amazing experience with this game. Pros: - Nice display - Command typing is easy, fun, and helps set the tone - Halarious and interesting personal documents and chat logs to read. - Mixes up the gameplay a bit - Interesting story progression - Some amazing puzzles - Makes you feel very tense - Good tutorial - Lots of interesting (although unrealistic) hacking techniques Cons: - Definitely not enough essays, notes, chat logs, etc. to read - No idea why I find the exact same documents on seperate machines, little indication of the person behind each computer having their own life and personality (with one amazing exeption) - Hacking ports specifically doesn't ever get much more interesting, becomes somewhat routine - Some bugs (I haven't personally come across any game breaking ones)",True,2016-10-01T08:11:13+00:00,2016-10-01T08:11:13+00:00,1005.0,902.0,0.0,95.0,4.0,0.8570956587791443,True,False,False,False,76561198116750205,,11.0,False,False,927,156,16.75,15.033333333333333,10h+,positive
+17533054,365450,hacknet,Hacknet,english,"Quick Look: 
+
+https://www.youtube.com/watch?v=8OS56eABcCA
+
+Summary: 
+
+A great little hacking game that reminds me heavily of Uplink. It adds a sense of authenticity and realism by using real world tools and commands. There are many secrets to find and it's a fantastic example of attention to detail in game design. A must buy for anyone with a server admin background and those interested in a more realistic approach to hacking in games. 
+
+Pros: 
+
+Theme
+Presentation
+Game Design
+Command Line
+
+Cons:
+
+Writing
+User Interface
+Bugs",Quick Look: https://www.youtube.com/watch?v=8OS56eABcCA Summary: A great little hacking game that reminds me heavily of Uplink. It adds a sense of authenticity and realism by using real world tools and commands. There are many secrets to find and it's a fantastic example of attention to detail in game design. A must buy for anyone with a server admin background and those interested in a more realistic approach to hacking in games. Pros: Theme Presentation Game Design Command Line Cons: Writing User Interface Bugs,True,2015-08-14T10:34:45+00:00,2015-08-14T10:37:08+00:00,741.0,737.0,0.0,94.0,9.0,0.830306351184845,True,False,False,False,76561198005512621,,83.0,False,False,518,82,12.35,12.283333333333333,10h+,positive
+32549855,365450,hacknet,Hacknet,english,"Absolutely brilliant! Completed it in about 8 gripping hours. One of the best and most original gaming experiences I had so far (and I play since 1985). If you enjoyed Uplink, this will blow you away.
+EDIT: After finding the ""third party"" I gave the game another go and gained all achievements, resulting in 12 thrilling hours of play time.
+ANOTHER EDIT: Couldn't stop playing and got myself Labyrinths, which I just completed and this game HYPED me. Taking the game to another metalevel really got me, the finale was outstanding. This is one of my top 50 games of all time, seriously.","Absolutely brilliant! Completed it in about 8 gripping hours. One of the best and most original gaming experiences I had so far (and I play since 1985). If you enjoyed Uplink, this will blow you away. EDIT: After finding the ""third party"" I gave the game another go and gained all achievements, resulting in 12 thrilling hours of play time. ANOTHER EDIT: Couldn't stop playing and got myself Labyrinths, which I just completed and this game HYPED me. Taking the game to another metalevel really got me, the finale was outstanding. This is one of my top 50 games of all time, seriously.",True,2017-06-18T21:09:20+00:00,2017-06-26T19:52:40+00:00,1590.0,1288.0,0.0,91.0,4.0,0.8949235677719116,True,False,False,False,76561198027172002,,14.0,False,False,585,103,26.5,21.466666666666665,10h+,positive
+154268596,365450,hacknet,Hacknet,english,"A) has an actual hack command
+B) runs on a toaster (10 y/o netbook) that itself runs on arch linux",A) has an actual hack command B) runs on a toaster (10 y/o netbook) that itself runs on arch linux,True,2023-12-24T04:58:46+00:00,2023-12-24T04:58:46+00:00,1054.0,1054.0,0.0,89.0,13.0,0.8712934255599976,False,True,False,False,76561197999010422,,28.0,False,False,98,20,17.566666666666666,17.566666666666666,10h+,positive
+155883832,365450,hacknet,Hacknet,english,sudo rm -rf /*,sudo rm -rf /*,True,2024-01-13T12:31:07+00:00,2024-01-13T12:31:07+00:00,1380.0,744.0,0.0,88.0,45.0,0.8501558899879456,True,False,False,False,76561199061663348,,3.0,False,True,14,4,23.0,12.4,10h+,positive
+110250645,365450,hacknet,Hacknet,english,"---{ Graphics }---
+☐ You forget what reality is
+☐ Beautiful
+☑ Good
+☐ Decent
+☐ Bad
+☐ Don‘t look too long at it
+☐ MS-DOS
+
+---{ Gameplay }---
+☑ Very good
+☐ Good
+☐ It's just gameplay
+☐ Mehh
+☐ Watch paint dry instead
+☐ Just don't
+
+---{ Audio }---
+☐ Eargasm
+☑ Very good
+☐ Good
+☐ Not too bad
+☐ Bad
+☐ I'm now deaf
+
+---{ Audience }---
+☐ Kids
+☑ Teens
+☑ Adults
+☐ Grandma
+
+---{ PC Requirements }---
+☑ Check if you can run paint
+☐ Potato
+☐ Decent
+☐ Fast
+☐ Rich boi
+☐ Ask NASA if they have a spare computer
+
+---{ Difficulty }---
+☐ Just press 'W'
+☐ Easy
+☐ Easy to learn / Hard to master
+☑ Significant brain usage
+☐ Difficult
+☐ Dark Souls
+
+---{ Grind }---
+☑ Nothing to grind
+☐ Only if u care about leaderboards/ranks
+☐ Isn't necessary to progress
+☐ Average grind level
+☐ Too much grind
+☐ You'll need a second live for grinding
+
+---{ Story }---
+☐ No Story
+☐ Some lore
+☐ Average
+☐ Good
+☑ Lovely
+☐ It'll replace your life
+
+---{ Game Time }---
+☐ Long enough for a cup of coffee
+☐ Short
+☐ Average
+☑ Long
+☐ To infinity and beyond
+
+---{ Price }---
+☐ It's free!
+☑ Worth the price
+☐ If it's on sale
+☐ If u have some spare money left
+☐ Not recommended
+☐ You could also just burn your money
+
+---{ Bugs }---
+☑ Never heard of
+☐ Minor bugs
+☐ Can get annoying
+☐ ARK: Survival Evolved
+☐ The game itself is a big terrarium for bugs
+
+---{ ? / 10 }---
+☐ 1
+☐ 2
+☐ 3
+☐ 4
+☐ 5
+☐ 6
+☐ 7
+☐ 8
+☑ 9
+☐ 10",---{ Graphics }--- ☐ You forget what reality is ☐ Beautiful ☑ Good ☐ Decent ☐ Bad ☐ Don‘t look too long at it ☐ MS-DOS ---{ Gameplay }--- ☑ Very good ☐ Good ☐ It's just gameplay ☐ Mehh ☐ Watch paint dry instead ☐ Just don't ---{ Audio }--- ☐ Eargasm ☑ Very good ☐ Good ☐ Not too bad ☐ Bad ☐ I'm now deaf ---{ Audience }--- ☐ Kids ☑ Teens ☑ Adults ☐ Grandma ---{ PC Requirements }--- ☑ Check if you can run paint ☐ Potato ☐ Decent ☐ Fast ☐ Rich boi ☐ Ask NASA if they have a spare computer ---{ Difficulty }--- ☐ Just press 'W' ☐ Easy ☐ Easy to learn / Hard to master ☑ Significant brain usage ☐ Difficult ☐ Dark Souls ---{ Grind }--- ☑ Nothing to grind ☐ Only if u care about leaderboards/ranks ☐ Isn't necessary to progress ☐ Average grind level ☐ Too much grind ☐ You'll need a second live for grinding ---{ Story }--- ☐ No Story ☐ Some lore ☐ Average ☐ Good ☑ Lovely ☐ It'll replace your life ---{ Game Time }--- ☐ Long enough for a cup of coffee ☐ Short ☐ Average ☑ Long ☐ To infinity and beyond ---{ Price }--- ☐ It's free! ☑ Worth the price ☐ If it's on sale ☐ If u have some spare money left ☐ Not recommended ☐ You could also just burn your money ---{ Bugs }--- ☑ Never heard of ☐ Minor bugs ☐ Can get annoying ☐ ARK: Survival Evolved ☐ The game itself is a big terrarium for bugs ---{ ? / 10 }--- ☐ 1 ☐ 2 ☐ 3 ☐ 4 ☐ 5 ☐ 6 ☐ 7 ☐ 8 ☑ 9 ☐ 10,True,2022-02-14T20:41:45+00:00,2022-02-14T20:41:45+00:00,1212.0,1212.0,0.0,88.0,4.0,0.8241089582443237,False,False,False,False,76561198211699015,,25.0,False,False,1346,299,20.2,20.2,10h+,positive
+159643650,365450,hacknet,Hacknet,english,"Got a cat here. Friends passing by can touch him and click Like to pet him once.
+　　　　 　　 ＿＿
+　　　 　　／＞　　フ
+　　　 　　| 　_　 _ l
+　 　　 　／` ミ＿xノ
+　　 　 /　　　 　 |
+　　　 /　 ヽ　　 ﾉ
+　 　 │　　|　|　|
+　／￣|　　 |　|　|
+　| (￣ヽ＿_ヽ_)__)
+　二つ",Got a cat here. Friends passing by can touch him and click Like to pet him once. ＿＿ ／＞ フ | _ _ l ／` ミ＿xノ / | / ヽ ﾉ │ | | | ／￣| | | | | (￣ヽ＿_ヽ_)__) 二つ,True,2024-03-01T23:24:35+00:00,2024-03-01T23:24:35+00:00,327.0,309.0,0.0,87.0,1.0,0.6265707612037659,False,False,False,False,76561198175112866,,76.0,False,False,149,42,5.45,5.15,3-10h,positive
+17704122,365450,hacknet,Hacknet,english,"Many will claim that this is like playing the next version of Uplink since it is the most realistic hacking type game since Uplink was released. A very cult genre I think with very few games making a significant mark. I cannot claim to have played that classic so I will have to describe this entertaining game called Hacknet without any past comparisons. I will say that the reason it is compared though is because it takes the hacking seriously and isn't just some casual hacking game for the masses. 
+
+Hacknet has almost no graphics (Maybe about 5 image files in the entire game), it has no video. It is only you looking at a computer screen full of numbers and files. You are a hacker, not Rambo, or James Bond, or Batman. You don't shoot at criminals and punch clowns in the face to save the day. You are a hacker that has found yourself in the middle of some hacking factions that may have stumbled into something big. You get some simple clues at the start that something is going on, but as you delve deeper into the hacking world, get recruited by more skillful hacking groups, and find more mysterious actions going on in your hacking exploits you will get asked to help find out what happened to a popular hacker that has gone missing. Just like everything in the hacking community, all useful information is hidden on systems which need to be hacked into. While looking for that information you will uncover many more secrets as you figure out exactly what happened. A final ending that could be considered a ""shock"". Very intriguing storyline and way to tell a story all through computer documents, e-mails, IRC chats, etc. 
+
+While the tutorials, and the game itself is friendly to those who have no experience entering command lines, or hacking at all, it may not exactly be for the most casual of gamers. If you are a VERY slow typist you may have some issues when it comes to hacking into computers here in the time frames that are allowed. They have made it easier for you by allowing you to hit ""TAB"" in certain places to have the game auto-complete command lines if there is nothing else that has the exact same characters and you are in the proper place to do so, however. It absolutely helps to have some typing speed, or at least the knowledge of where all the keys on the keyboard are without having to search them out all the time though. You will have issues if you are THAT slow.  
+
+You are tasked with finding various tools to run .exe files allowing you to open up ports on the computers you hack before running a PortHack program to get access to its files. Some computers early on are very easy to hack with only having to open 1-2 ports, but as you find more tools you may have to open as many as 5 ports, break through a firewall, and get through a proxy all on the same PC while avoiding a tracer too! So it becomes a bit quicker later on where you must know the commands and how to crack the security of various systems as the game progresses while fighting a clock too. You should pick up these skills as you play, but the knowledge of how to access certain databases will require a bit more thought at times. This is where the game adds a bit of strategy and puzzling into the mix. You need to think about what you are trying to do, search through maybe several other computers not just tools, but possibly passwords to OTHER computers, and even find ways to crack encrypted files! So it isn't always completely straightforward with the game holding your hand to get what you need. You will absolutely need to think somewhat critically here to reach your goals. IT is very refreshing to find a game that doesn't just offer you solutions on a silver platter and challenges you to figure things out yourself. It is quite rewarding in some cases to find a solution after thinking all your options through. Sometimes you can even find solutions to future problems by just HACKING into things you aren't even supposed to be working on for no other reason than because you felt like it. 
+
+Hacknet had a few bugs when I got it at release, but it appears that most have been taken care of. I finished the game, but I had a quest that didn't trigger properly so I had to hack my way around into other things to find the info I needed to proceed. Something that really wasn't that big a deal because it felt like I was actually doing something I figured out myself to get around a problem. The triggers have been patched now though as far as I know. Other than that nothing I ran into. 
+
+Hacknet does make you feel like a hacker if you have never done any hacking before in your life. It does use real world terminology and command lines to satisfy those that have in the past too so it isn't just for the hacker n00bs out there. The fast paced and tech-y music playing in the background was designed to make you feel like you are hacking systems as a hero in a movie. Punching in commands as fast you can can before getting caught is definitely helped by the pace of the music playing while you are trying to look into the dirty secrets of every computer you hack into. 
+
+I found Hacknet to be a fantastic feeling of hacking and mystery solving. While you may feel that the middle gets a little bit repetitive when it comes to the hacking, it does usually change up enough in what you need to use to keep the pacing OK. Usually what you find in the files, and of course the ending was payoff enough to continue through if you start to feel like you are staring at a flashing screen too long. I absolutely would not recommend this game to a casual gamer at all. Unlike say a point and click adventure, the puzzles you solve here will require quick thinking and quick fingers at times. Most players will be fine with this, but this is a game that require MUCH more activity on the keyboard than it does with a mouse. So you are typing commands for what you need to do in, and not using a mouse to solve puzzles as much. If you don't read the help files, the tutorial, and look at the academic databases in the game you will not be able to figure things out. If you want a brainless game this one is not for you.
+
+The game has trading cards of course and Steam Achievements, which should be fairly easy to 100% if you can get through the game. This game should take you anywhere from 5-10 hours. More if you look ar ound some and find every secret I suspect.
+
+NOTE: Something I didn't talk about, because I am unsure what it consists of, is that Hacknet will be releasing a patch at some point that includes not just Steam Workshop to add more player made ""questing"", but it will also have Multiplayer! Like I said I don't know much about those aspects, but they are definitely coming. MP was in the game before Steam so it already exists, but the developers didn't feel it was working well enough yet to release with the Steam release. They wanted to stamp out any single player bugs first before bringing in these other features.","Many will claim that this is like playing the next version of Uplink since it is the most realistic hacking type game since Uplink was released. A very cult genre I think with very few games making a significant mark. I cannot claim to have played that classic so I will have to describe this entertaining game called Hacknet without any past comparisons. I will say that the reason it is compared though is because it takes the hacking seriously and isn't just some casual hacking game for the masses. Hacknet has almost no graphics (Maybe about 5 image files in the entire game), it has no video. It is only you looking at a computer screen full of numbers and files. You are a hacker, not Rambo, or James Bond, or Batman. You don't shoot at criminals and punch clowns in the face to save the day. You are a hacker that has found yourself in the middle of some hacking factions that may have stumbled into something big. You get some simple clues at the start that something is going on, but as you delve deeper into the hacking world, get recruited by more skillful hacking groups, and find more mysterious actions going on in your hacking exploits you will get asked to help find out what happened to a popular hacker that has gone missing. Just like everything in the hacking community, all useful information is hidden on systems which need to be hacked into. While looking for that information you will uncover many more secrets as you figure out exactly what happened. A final ending that could be considered a ""shock"". Very intriguing storyline and way to tell a story all through computer documents, e-mails, IRC chats, etc. While the tutorials, and the game itself is friendly to those who have no experience entering command lines, or hacking at all, it may not exactly be for the most casual of gamers. If you are a VERY slow typist you may have some issues when it comes to hacking into computers here in the time frames that are allowed. They have made it easier for you by allowing you to hit ""TAB"" in certain places to have the game auto-complete command lines if there is nothing else that has the exact same characters and you are in the proper place to do so, however. It absolutely helps to have some typing speed, or at least the knowledge of where all the keys on the keyboard are without having to search them out all the time though. You will have issues if you are THAT slow. You are tasked with finding various tools to run .exe files allowing you to open up ports on the computers you hack before running a PortHack program to get access to its files. Some computers early on are very easy to hack with only having to open 1-2 ports, but as you find more tools you may have to open as many as 5 ports, break through a firewall, and get through a proxy all on the same PC while avoiding a tracer too! So it becomes a bit quicker later on where you must know the commands and how to crack the security of various systems as the game progresses while fighting a clock too. You should pick up these skills as you play, but the knowledge of how to access certain databases will require a bit more thought at times. This is where the game adds a bit of strategy and puzzling into the mix. You need to think about what you are trying to do, search through maybe several other computers not just tools, but possibly passwords to OTHER computers, and even find ways to crack encrypted files! So it isn't always completely straightforward with the game holding your hand to get what you need. You will absolutely need to think somewhat critically here to reach your goals. IT is very refreshing to find a game that doesn't just offer you solutions on a silver platter and challenges you to figure things out yourself. It is quite rewarding in some cases to find a solution after thinking all your options through. Sometimes you can even find solutions to future problems by just HACKING into things you aren't even supposed to be working on for no other reason than because you felt like it. Hacknet had a few bugs when I got it at release, but it appears that most have been taken care of. I finished the game, but I had a quest that didn't trigger properly so I had to hack my way around into other things to find the info I needed to proceed. Something that really wasn't that big a deal because it felt like I was actually doing something I figured out myself to get around a problem. The triggers have been patched now though as far as I know. Other than that nothing I ran into. Hacknet does make you feel like a hacker if you have never done any hacking before in your life. It does use real world terminology and command lines to satisfy those that have in the past too so it isn't just for the hacker n00bs out there. The fast paced and tech-y music playing in the background was designed to make you feel like you are hacking systems as a hero in a movie. Punching in commands as fast you can can before getting caught is definitely helped by the pace of the music playing while you are trying to look into the dirty secrets of every computer you hack into. I found Hacknet to be a fantastic feeling of hacking and mystery solving. While you may feel that the middle gets a little bit repetitive when it comes to the hacking, it does usually change up enough in what you need to use to keep the pacing OK. Usually what you find in the files, and of course the ending was payoff enough to continue through if you start to feel like you are staring at a flashing screen too long. I absolutely would not recommend this game to a casual gamer at all. Unlike say a point and click adventure, the puzzles you solve here will require quick thinking and quick fingers at times. Most players will be fine with this, but this is a game that require MUCH more activity on the keyboard than it does with a mouse. So you are typing commands for what you need to do in, and not using a mouse to solve puzzles as much. If you don't read the help files, the tutorial, and look at the academic databases in the game you will not be able to figure things out. If you want a brainless game this one is not for you. The game has trading cards of course and Steam Achievements, which should be fairly easy to 100% if you can get through the game. This game should take you anywhere from 5-10 hours. More if you look ar ound some and find every secret I suspect. NOTE: Something I didn't talk about, because I am unsure what it consists of, is that Hacknet will be releasing a patch at some point that includes not just Steam Workshop to add more player made ""questing"", but it will also have Multiplayer! Like I said I don't know much about those aspects, but they are definitely coming. MP was in the game before Steam so it already exists, but the developers didn't feel it was working well enough yet to release with the Steam release. They wanted to stamp out any single player bugs first before bringing in these other features.",True,2015-08-25T05:08:45+00:00,2015-09-20T08:05:39+00:00,1287.0,1287.0,0.0,83.0,5.0,0.8537988066673279,True,False,False,False,76561197983747223,,72.0,False,False,6940,1293,21.45,21.45,10h+,positive

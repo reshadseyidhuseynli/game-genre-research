@@ -163,6 +163,18 @@ class CollectorTests(unittest.TestCase):
             get_json('https://example.test', {}, validate, session=session, sleep=lambda _: None, attempts=2)
         self.assertEqual(session.get.call_count, 2)
 
+    def test_terminal_page_without_reviews_is_valid(self):
+        payload = {
+            'response': {
+                'query_summary': {
+                    'num_reviews': 0
+                },
+                'cursor': 'same-cursor',
+                'total_matching': 11776
+            }
+        }
+        validate(payload)
+
 
 if __name__ == '__main__':
     unittest.main()

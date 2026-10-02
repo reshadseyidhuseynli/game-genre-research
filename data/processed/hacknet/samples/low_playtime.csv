@@ -1,0 +1,192 @@
+review_id,steam_app_id,game_key,game_name,language,review_text_raw,review_text_clean,recommended,created_at,updated_at,playtime_forever_minutes,playtime_at_review_minutes,playtime_last_two_weeks_minutes,votes_up,votes_funny,weighted_vote_score,steam_purchase,received_for_free,written_during_early_access,refunded,author_steam_id,author_num_games_owned,author_num_reviews,is_empty,is_very_short,review_length_chars,review_length_words,playtime_forever_hours,playtime_at_review_hours,playtime_segment,overall_sentiment
+26371873,365450,hacknet,Hacknet,english,"In my humble opinion, the best hacking simulator since Uplink.","In my humble opinion, the best hacking simulator since Uplink.",True,2016-11-02T12:13:03+00:00,2016-11-02T12:13:03+00:00,238.0,1.0,0.0,1.0,0.0,0.5,False,False,False,False,76561198032174254,,60.0,False,False,62,10,3.966666666666667,0.016666666666666666,0-1h,positive
+43432267,365450,hacknet,Hacknet,english,"It's a great game, but it gets difficult since you can only use ~800MB of RAM.","It's a great game, but it gets difficult since you can only use ~800MB of RAM.",True,2018-07-09T21:54:28+00:00,2018-07-09T21:54:28+00:00,455.0,1.0,0.0,0.0,0.0,0.5,False,True,False,False,76561198267642900,,18.0,False,False,78,16,7.583333333333333,0.016666666666666666,0-1h,positive
+47119966,365450,hacknet,Hacknet,english,very interesting game!,very interesting game!,True,2018-11-27T11:23:48+00:00,2018-11-27T11:23:48+00:00,347.0,1.0,0.0,0.0,0.0,0.5,False,True,False,False,76561198134336379,,2.0,False,True,22,3,5.783333333333333,0.016666666666666666,0-1h,positive
+43863948,365450,hacknet,Hacknet,english,very interesting,very interesting,True,2018-08-01T01:09:49+00:00,2018-08-01T01:09:49+00:00,48875.0,3.0,0.0,5.0,0.0,0.48581889271736145,False,True,False,False,76561198211974065,,121.0,False,True,16,2,814.5833333333334,0.05,0-1h,positive
+32836574,365450,hacknet,Hacknet,english,Great game! I was hacking to find free [strike]viruses[/strike] sony vegas pro! It was amazing! 2/-10,Great game! I was hacking to find free [strike]viruses[/strike] sony vegas pro! It was amazing! 2/-10,True,2017-06-27T00:42:22+00:00,2017-06-27T00:42:22+00:00,110.0,4.0,0.0,1.0,2.0,0.5209580659866333,True,False,False,False,76561198320987120,,10.0,False,False,101,16,1.8333333333333333,0.06666666666666667,0-1h,positive
+118024988,365450,hacknet,Hacknet,english,"Nice game to get started into code, recommended at all 9/10","Nice game to get started into code, recommended at all 9/10",True,2022-07-01T22:50:28+00:00,2022-07-01T22:50:28+00:00,5.0,5.0,0.0,0.0,0.0,0.5,True,False,False,False,76561199188723132,,9.0,False,False,59,11,0.08333333333333333,0.08333333333333333,0-1h,positive
+133192373,365450,hacknet,Hacknet,english,Doesn't work. I get a black screen. The suggested beta just exits at start.,Doesn't work. I get a black screen. The suggested beta just exits at start.,False,2023-02-19T19:21:15+00:00,2023-02-19T19:21:15+00:00,58.0,5.0,0.0,0.0,0.0,0.5,False,False,False,False,76561197965071512,,99.0,False,False,75,14,0.9666666666666667,0.08333333333333333,0-1h,negative
+135115576,365450,hacknet,Hacknet,english,it was fun but to hard for my brain,it was fun but to hard for my brain,True,2023-03-21T18:32:51+00:00,2023-03-21T18:32:51+00:00,89.0,5.0,0.0,0.0,1.0,0.5,True,False,False,False,76561198044964979,,9.0,False,False,35,9,1.4833333333333334,0.08333333333333333,0-1h,positive
+145806679,365450,hacknet,Hacknet,english,"despite my playtime as of the review, ive enjoyed the game. its great! in my opinion, worth the price. sure, it has its vices, what game doesnt? the game isnt realistic to real life hacking, but i think its hard to make a game thats realistic and fun when it comes to hacking and/or programming games as it will be only for a specific audience which reduces who would play and enjoy the game by alot. its a bit repetitive with how hacking to most systems is the same, but i enjoyed many puzzles that this game provided, especially in the labyrinth DLC. this game isnt perfect, no game is but id say its honestly the closest of any games of this genre that i played. the music is one of the few game soundtracks that i actually liked and would listen to in my spare time. the multiple times that arent just port openers are fun and useful!... well most of them (looking at you, Clock.exe). but id say that some are underused, like the log creator and opener, theyre required to be used i think 2-3 times, but the gap between their uses is too big which makes those tools easily forgettable and can make some puzzles hard to impossible without googling how to solve them. id also say that the map can sometimes be hard to use with time, as if youre looking for a specific server, its hard to find it due to there being so many, even with the map organiser tool provided in the labyrinth DLC. i also love how the trace mechanic isnt an immediate game over like in other hacking games where there are also traces, instead you get a saving grace thats (in my opinion) too easy to complete once youve done it once as the process doesnt change if you need to do it many times. i also love how you can use either the GUI or visual part to play the game or the terminal, you are rarely forced to use either. the many customisation options are very fun and well made, they give you a fresh look at your game, either just changing how it looks to where some things are placed. and then theres the story, now im not an emotional personal and ill admit, i havent cried at the ending but i loved it and felt sorry for our favorite guy, especially after the ending cutscene. i had to replay the game to realise that what he meant is that the remaining copy is ours, the actual game. the labyrinth dlc also messes with the games directory, i would have loved to see more of this mechanic but i more than understand why it isnt used as it would likely get annoying. i also really like how there are what i presume are steam keys, i doubt there are any unredeemed keys after 8 years so i dont know what the keys are for, but its a nice gesture. the dev speaking to us after completing the game and letting us know the ips for some fun servers like ""cheaters stash"" basically letting us get most binary files (port openers and trace stopper) and others. the labyrinths ending is definitely an unexpected twist and while the choice doesnt matter its still nice to have one. i also immensely enjoyed the labyrinth DLC (if you havent noticed already), i enjoyed how the mission and hub actually looked like and the addition of letting us communicate with the others despite our inability to speak. it could also potentially be used if there was a multiplayer, like a race or trying to speedrun many preset missions, either trying to help or stall your friends and you could communicate as a nice feature, maybe making info on server1 vital to help solve a puzzle on server2 or something like that. also the amount of secrets or easter eggs there are is a very nice and fun addition. the shells are imo underused and their trap is rarely used, i think i used it like once or twice on my second playthrough and it actually did something. and there are the fan made DLCs which is great, you can still play even after you complete the actual game.
+
+In short: i enjoyed the game very much, the characters (which are unfortunately few) are lovable. the game has its vices but those are few and often just mild annoyances. ill definitely be replaying the game and its DLC aswell as the fan made ones. its worth its price, but if you think its not for you, you can wait for a discount.","despite my playtime as of the review, ive enjoyed the game. its great! in my opinion, worth the price. sure, it has its vices, what game doesnt? the game isnt realistic to real life hacking, but i think its hard to make a game thats realistic and fun when it comes to hacking and/or programming games as it will be only for a specific audience which reduces who would play and enjoy the game by alot. its a bit repetitive with how hacking to most systems is the same, but i enjoyed many puzzles that this game provided, especially in the labyrinth DLC. this game isnt perfect, no game is but id say its honestly the closest of any games of this genre that i played. the music is one of the few game soundtracks that i actually liked and would listen to in my spare time. the multiple times that arent just port openers are fun and useful!... well most of them (looking at you, Clock.exe). but id say that some are underused, like the log creator and opener, theyre required to be used i think 2-3 times, but the gap between their uses is too big which makes those tools easily forgettable and can make some puzzles hard to impossible without googling how to solve them. id also say that the map can sometimes be hard to use with time, as if youre looking for a specific server, its hard to find it due to there being so many, even with the map organiser tool provided in the labyrinth DLC. i also love how the trace mechanic isnt an immediate game over like in other hacking games where there are also traces, instead you get a saving grace thats (in my opinion) too easy to complete once youve done it once as the process doesnt change if you need to do it many times. i also love how you can use either the GUI or visual part to play the game or the terminal, you are rarely forced to use either. the many customisation options are very fun and well made, they give you a fresh look at your game, either just changing how it looks to where some things are placed. and then theres the story, now im not an emotional personal and ill admit, i havent cried at the ending but i loved it and felt sorry for our favorite guy, especially after the ending cutscene. i had to replay the game to realise that what he meant is that the remaining copy is ours, the actual game. the labyrinth dlc also messes with the games directory, i would have loved to see more of this mechanic but i more than understand why it isnt used as it would likely get annoying. i also really like how there are what i presume are steam keys, i doubt there are any unredeemed keys after 8 years so i dont know what the keys are for, but its a nice gesture. the dev speaking to us after completing the game and letting us know the ips for some fun servers like ""cheaters stash"" basically letting us get most binary files (port openers and trace stopper) and others. the labyrinths ending is definitely an unexpected twist and while the choice doesnt matter its still nice to have one. i also immensely enjoyed the labyrinth DLC (if you havent noticed already), i enjoyed how the mission and hub actually looked like and the addition of letting us communicate with the others despite our inability to speak. it could also potentially be used if there was a multiplayer, like a race or trying to speedrun many preset missions, either trying to help or stall your friends and you could communicate as a nice feature, maybe making info on server1 vital to help solve a puzzle on server2 or something like that. also the amount of secrets or easter eggs there are is a very nice and fun addition. the shells are imo underused and their trap is rarely used, i think i used it like once or twice on my second playthrough and it actually did something. and there are the fan made DLCs which is great, you can still play even after you complete the actual game. In short: i enjoyed the game very much, the characters (which are unfortunately few) are lovable. the game has its vices but those are few and often just mild annoyances. ill definitely be replaying the game and its DLC aswell as the fan made ones. its worth its price, but if you think its not for you, you can wait for a discount.",True,2023-09-06T18:56:46+00:00,2023-09-06T18:56:46+00:00,618.0,5.0,0.0,0.0,0.0,0.5,True,False,False,False,76561198854616991,,24.0,False,False,4154,780,10.3,0.08333333333333333,0-1h,positive
+147175583,365450,hacknet,Hacknet,english,"This game is not for stupid people. I am stupid people
+",This game is not for stupid people. I am stupid people,False,2023-09-28T02:24:31+00:00,2023-09-28T02:24:31+00:00,198.0,5.0,0.0,183.0,275.0,0.8570340871810913,False,False,False,False,76561199403228388,,12.0,False,False,54,11,3.3,0.08333333333333333,0-1h,negative
+171525675,365450,hacknet,Hacknet,english,"Ok ive entered the beta password and it accepted it, but do i have to hack the game to play the game? complete black screen with a little white box(steam logo usually there). i didnt pay much but it seems so interesting, anybody else figure this out? now it opened a windows screen but wont allow me to do anything i almost thought i got hacked
+Please Help! i want to play, i will change my review to a thumbs up if i can get it to work!
+
+Ok figured it out for anybody wanting to play this, i went to properties and where it says beta (first line) click the bottom one if using windows then also paste this in the beta [password area at the bottom of the beta page :hacknetxnabranch there ya go now it started up!!","Ok ive entered the beta password and it accepted it, but do i have to hack the game to play the game? complete black screen with a little white box(steam logo usually there). i didnt pay much but it seems so interesting, anybody else figure this out? now it opened a windows screen but wont allow me to do anything i almost thought i got hacked Please Help! i want to play, i will change my review to a thumbs up if i can get it to work! Ok figured it out for anybody wanting to play this, i went to properties and where it says beta (first line) click the bottom one if using windows then also paste this in the beta [password area at the bottom of the beta page :hacknetxnabranch there ya go now it started up!!",True,2024-08-06T03:51:23+00:00,2024-08-06T03:58:23+00:00,18.0,5.0,0.0,0.0,0.0,0.5,True,False,False,False,76561199040440644,,46.0,False,False,713,140,0.3,0.08333333333333333,0-1h,positive
+171526335,365450,hacknet,Hacknet,english,"Finally i can full filled my dream of becoming a hacker in this game.  ( im not pathetic )
+Also, this car name boogie.
+boogie is proud of you for coming this far.
+click like to pet boogie >
+⣿⣿⣿⠟⠛⠛⠻⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡟⢋⣩⣉⢻⣿⡇
+⣿⣿⣿⠀⣿⣶⣕⣈⠹⠿⠿⠿⠿⠟⠛⣛⢋⣰⠣⣿⣿⠀⣿⣿
+⣿⣿⣿⡀⣿⣿⣿⣧⢻⣿⣶⣷⣿⣿⣿⣿⣿⣿⠿⠶⡝⠀⣿⣿
+⣿⣿⣿⣷⠘⣿⣿⣿⢏⣿⣿⣋⣀⣈⣻⣿⣿⣷⣤⣤⣿⡐⢿⣿
+⣿⣿⣿⣿⣆⢩⣝⣫⣾⣿⣿⣿⣿⡟⠿⠿⠦⠀⠸⠿⣻⣿⡄⢻
+⣿⣿⣿⣿⣿⡄⢻⣿⣿⣿⣿⣿⣿⣿⣿⣶⣶⣾⣿⣿⣿⣿⠇⣼
+⣿⣿⣿⣿⣿⣿⡄⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡟⣰⣿","Finally i can full filled my dream of becoming a hacker in this game. ( im not pathetic ) Also, this car name boogie. boogie is proud of you for coming this far. click like to pet boogie > ⣿⣿⣿⠟⠛⠛⠻⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡟⢋⣩⣉⢻⣿⡇ ⣿⣿⣿⠀⣿⣶⣕⣈⠹⠿⠿⠿⠿⠟⠛⣛⢋⣰⠣⣿⣿⠀⣿⣿ ⣿⣿⣿⡀⣿⣿⣿⣧⢻⣿⣶⣷⣿⣿⣿⣿⣿⣿⠿⠶⡝⠀⣿⣿ ⣿⣿⣿⣷⠘⣿⣿⣿⢏⣿⣿⣋⣀⣈⣻⣿⣿⣷⣤⣤⣿⡐⢿⣿ ⣿⣿⣿⣿⣆⢩⣝⣫⣾⣿⣿⣿⣿⡟⠿⠿⠦⠀⠸⠿⣻⣿⡄⢻ ⣿⣿⣿⣿⣿⡄⢻⣿⣿⣿⣿⣿⣿⣿⣿⣶⣶⣾⣿⣿⣿⣿⠇⣼ ⣿⣿⣿⣿⣿⣿⡄⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡟⣰⣿",True,2024-08-06T04:09:23+00:00,2024-08-06T04:09:23+00:00,5.0,5.0,0.0,16.0,2.0,0.6437768340110779,True,False,False,False,76561198188327994,,9.0,False,False,363,46,0.08333333333333333,0.08333333333333333,0-1h,positive
+23490805,365450,hacknet,Hacknet,english,"Bought game, downloaded it. Then nothing, it doesnt work. steam is a thief and doesnt care about its customers.","Bought game, downloaded it. Then nothing, it doesnt work. steam is a thief and doesnt care about its customers.",False,2016-06-10T21:02:36+00:00,2016-06-10T21:02:36+00:00,6.0,5.0,0.0,0.0,0.0,0.37440434098243713,True,False,False,True,76561198270753214,,4.0,False,False,111,19,0.1,0.08333333333333333,0-1h,negative
+29552117,365450,hacknet,Hacknet,english,I don't want to have to memorize commands,I don't want to have to memorize commands,False,2017-01-28T23:00:30+00:00,2017-01-28T23:00:30+00:00,455.0,5.0,0.0,0.0,1.0,0.2103092074394226,True,False,False,False,76561197975291280,,142.0,False,False,41,8,7.583333333333333,0.08333333333333333,0-1h,negative
+42264890,365450,hacknet,Hacknet,english,Cool beans.,Cool beans.,True,2018-05-26T02:45:47+00:00,2018-05-26T02:45:47+00:00,5.0,5.0,0.0,0.0,0.0,0.46961328387260437,False,False,False,False,76561198837726499,,1.0,False,True,11,2,0.08333333333333333,0.08333333333333333,0-1h,positive
+42273693,365450,hacknet,Hacknet,english,Boring as hell... -_-,Boring as hell... -_-,False,2018-05-26T09:39:19+00:00,2018-05-26T09:39:19+00:00,5.0,5.0,0.0,1.0,0.0,0.3499469757080078,False,True,False,False,76561198424280751,,15.0,False,True,21,4,0.08333333333333333,0.08333333333333333,0-1h,negative
+42287273,365450,hacknet,Hacknet,english,"Can't play it, screen is super tiny. Tried countless suggestions from forums regarding Windows compatibility settings and using the XNA branch of this app. None of it made the game playable. When it was big enough to see, it was either blurry or partly off the screen with no way to select half the things. I'm pretty persistent when it comes to getting things to work, and this game looks really fun, but I've had no luck. I've heard that changing my Windows resolution might help, but I draw the line at changing system settings every time I play a game, that shouldn't be necessary. I might try it again on a different machine or OS some day.
+
+I'm using a Geforce GTX 1080 with Windows running at 4k resolution, pretty standard for any modern gaming setup.","Can't play it, screen is super tiny. Tried countless suggestions from forums regarding Windows compatibility settings and using the XNA branch of this app. None of it made the game playable. When it was big enough to see, it was either blurry or partly off the screen with no way to select half the things. I'm pretty persistent when it comes to getting things to work, and this game looks really fun, but I've had no luck. I've heard that changing my Windows resolution might help, but I draw the line at changing system settings every time I play a game, that shouldn't be necessary. I might try it again on a different machine or OS some day. I'm using a Geforce GTX 1080 with Windows running at 4k resolution, pretty standard for any modern gaming setup.",False,2018-05-26T18:12:10+00:00,2018-05-26T18:12:10+00:00,5.0,5.0,0.0,0.0,0.0,0.5,False,False,False,False,76561197970946271,,12.0,False,False,758,137,0.08333333333333333,0.08333333333333333,0-1h,negative
+42634497,365450,hacknet,Hacknet,english,very boring...,very boring...,False,2018-06-10T17:29:38+00:00,2018-06-10T17:29:38+00:00,5.0,5.0,0.0,1.0,0.0,0.25609955191612244,False,True,False,False,76561198416739382,,15.0,False,True,14,2,0.08333333333333333,0.08333333333333333,0-1h,negative
+42844480,365450,hacknet,Hacknet,english,The game looks fun but as of yet I haven't been able to play the game ive done everything they said to fix it then downloaded the xna beta and now it still doesn't start,The game looks fun but as of yet I haven't been able to play the game ive done everything they said to fix it then downloaded the xna beta and now it still doesn't start,False,2018-06-19T16:37:14+00:00,2018-06-19T16:37:14+00:00,351.0,5.0,0.0,0.0,1.0,0.5,True,False,False,False,76561198150973903,,8.0,False,False,169,35,5.85,0.08333333333333333,0-1h,negative
+43304326,365450,hacknet,Hacknet,english,"This game doesn't start. D:
+
+My Vote is 0.",This game doesn't start. D: My Vote is 0.,False,2018-07-04T19:03:25+00:00,2018-07-16T23:31:20+00:00,5.0,5.0,0.0,0.0,1.0,0.4350692331790924,False,False,False,False,76561198284404487,,23.0,False,False,41,9,0.08333333333333333,0.08333333333333333,0-1h,negative
+44725551,365450,hacknet,Hacknet,english,black screen,black screen,False,2018-09-14T11:24:55+00:00,2018-09-14T11:24:55+00:00,5.0,5.0,0.0,0.0,0.0,0.44368600845336914,False,True,False,False,76561198318299205,,35.0,False,True,12,2,0.08333333333333333,0.08333333333333333,0-1h,negative
+46342324,365450,hacknet,Hacknet,english,Hacknet presents a version of hacking that is a bit Hollywoodized. It’s also fabulously entertaining and exciting. It reminds me of Uplink in all the right ways and as such deserves your attention.,Hacknet presents a version of hacking that is a bit Hollywoodized. It’s also fabulously entertaining and exciting. It reminds me of Uplink in all the right ways and as such deserves your attention.,True,2018-11-22T15:14:07+00:00,2018-11-22T15:14:07+00:00,312.0,5.0,0.0,0.0,0.0,0.5,False,False,False,False,76561198338828244,,5.0,False,False,197,33,5.2,0.08333333333333333,0-1h,positive
+50912710,365450,hacknet,Hacknet,english,Fun game,Fun game,True,2019-05-28T16:32:24+00:00,2019-05-28T16:32:24+00:00,5.0,5.0,0.0,2.0,0.0,0.5454545617103577,False,False,False,False,76561198949316442,,4.0,False,True,8,2,0.08333333333333333,0.08333333333333333,0-1h,positive
+53731550,365450,hacknet,Hacknet,english,Got it free on Humble Bundle. I'm 4 hours in and I'm loving it. It's a great game to play offline. It's crashing when you alt-tab on fullscreen mode and it should be fixed,Got it free on Humble Bundle. I'm 4 hours in and I'm loving it. It's a great game to play offline. It's crashing when you alt-tab on fullscreen mode and it should be fixed,True,2019-07-06T00:51:12+00:00,2019-07-06T00:51:12+00:00,5.0,5.0,0.0,0.0,0.0,0.5,False,True,False,False,76561198134547763,,28.0,False,False,171,34,0.08333333333333333,0.08333333333333333,0-1h,positive
+71988678,365450,hacknet,Hacknet,english,"I thought this would be fun because I actually do CTF competitions regularly, but it's really not.
+You're better off doing the many labs available online to practice real skills.
+I basically quit the game after noticing that it doesn't have wildcards implemented properly. Like, come on.","I thought this would be fun because I actually do CTF competitions regularly, but it's really not. You're better off doing the many labs available online to practice real skills. I basically quit the game after noticing that it doesn't have wildcards implemented properly. Like, come on.",False,2020-07-04T02:02:06+00:00,2020-07-04T02:02:06+00:00,5.0,5.0,0.0,1.0,0.0,0.530386745929718,True,False,False,False,76561198027120547,,20.0,False,False,287,47,0.08333333333333333,0.08333333333333333,0-1h,negative
+88361095,365450,hacknet,Hacknet,english,"⡴⠑⡄⠀⠀⠀⠀⠀⠀⠀ ⣀⣀⣤⣤⣤⣀⡀
+⠸⡇⠀⠿⡀⠀⠀⠀⣀⡴⢿⣿⣿⣿⣿⣿⣿⣿⣷⣦⡀
+⠀⠀⠀⠀⠑⢄⣠⠾⠁⣀⣄⡈⠙⣿⣿⣿⣿⣿⣿⣿⣿⣆
+⠀⠀⠀⠀⢀⡀⠁⠀⠀⠈⠙⠛⠂⠈⣿⣿⣿⣿⣿⠿⡿⢿⣆
+⠀⠀⠀⢀⡾⣁⣀⠀⠴⠂⠙⣗⡀⠀⢻⣿⣿⠭⢤⣴⣦⣤⣹⠀⠀⠀⢀⢴⣶⣆
+⠀⠀⢀⣾⣿⣿⣿⣷⣮⣽⣾⣿⣥⣴⣿⣿⡿⢂⠔⢚⡿⢿⣿⣦⣴⣾⠸⣼⡿
+⠀⢀⡞⠁⠙⠻⠿⠟⠉⠀⠛⢹⣿⣿⣿⣿⣿⣌⢤⣼⣿⣾⣿⡟⠉
+⠀⣾⣷⣶⠇⠀⠀⣤⣄⣀⡀⠈⠻⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡇
+⠀⠉⠈⠉⠀⠀⢦⡈⢻⣿⣿⣿⣶⣶⣶⣶⣤⣽⡹⣿⣿⣿⣿⡇
+⠀⠀⠀⠀⠀⠀⠀⠉⠲⣽⡻⢿⣿⣿⣿⣿⣿⣿⣷⣜⣿⣿⣿⡇
+⠀⠀ ⠀⠀⠀⠀⠀⢸⣿⣿⣷⣶⣮⣭⣽⣿⣿⣿⣿⣿⣿⣿⠇
+⠀⠀⠀⠀⠀⠀⣀⣀⣈⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠇
+⠀⠀⠀⠀⠀⠀⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠃",⡴⠑⡄⠀⠀⠀⠀⠀⠀⠀ ⣀⣀⣤⣤⣤⣀⡀ ⠸⡇⠀⠿⡀⠀⠀⠀⣀⡴⢿⣿⣿⣿⣿⣿⣿⣿⣷⣦⡀ ⠀⠀⠀⠀⠑⢄⣠⠾⠁⣀⣄⡈⠙⣿⣿⣿⣿⣿⣿⣿⣿⣆ ⠀⠀⠀⠀⢀⡀⠁⠀⠀⠈⠙⠛⠂⠈⣿⣿⣿⣿⣿⠿⡿⢿⣆ ⠀⠀⠀⢀⡾⣁⣀⠀⠴⠂⠙⣗⡀⠀⢻⣿⣿⠭⢤⣴⣦⣤⣹⠀⠀⠀⢀⢴⣶⣆ ⠀⠀⢀⣾⣿⣿⣿⣷⣮⣽⣾⣿⣥⣴⣿⣿⡿⢂⠔⢚⡿⢿⣿⣦⣴⣾⠸⣼⡿ ⠀⢀⡞⠁⠙⠻⠿⠟⠉⠀⠛⢹⣿⣿⣿⣿⣿⣌⢤⣼⣿⣾⣿⡟⠉ ⠀⣾⣷⣶⠇⠀⠀⣤⣄⣀⡀⠈⠻⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡇ ⠀⠉⠈⠉⠀⠀⢦⡈⢻⣿⣿⣿⣶⣶⣶⣶⣤⣽⡹⣿⣿⣿⣿⡇ ⠀⠀⠀⠀⠀⠀⠀⠉⠲⣽⡻⢿⣿⣿⣿⣿⣿⣿⣷⣜⣿⣿⣿⡇ ⠀⠀ ⠀⠀⠀⠀⠀⢸⣿⣿⣷⣶⣮⣭⣽⣿⣿⣿⣿⣿⣿⣿⠇ ⠀⠀⠀⠀⠀⠀⣀⣀⣈⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠇ ⠀⠀⠀⠀⠀⠀⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠃,True,2021-03-13T13:23:45+00:00,2021-03-13T13:23:45+00:00,127.0,5.0,0.0,3.0,2.0,0.5158730149269104,False,False,False,False,76561197974473041,,756.0,False,False,321,15,2.1166666666666667,0.08333333333333333,0-1h,positive
+127412401,365450,hacknet,Hacknet,english,Make you feel like you are a real pro.,Make you feel like you are a real pro.,True,2022-11-28T17:00:12+00:00,2022-11-28T17:00:12+00:00,6.0,6.0,0.0,0.0,0.0,0.5,False,True,False,False,76561198247796602,,7.0,False,False,38,9,0.1,0.1,0-1h,positive
+131954081,365450,hacknet,Hacknet,english,"Uhhh.. what is the point of this? Just to click a bunch of nodes?
+Losing faith more and more in the Steam reviewers lately.... used to be able to go to Steam for a pretty accurate review of games I was looking at but this ... and some dumb side scroller i tried last week have overwhelmingly positive reviews lol. HOWWWW?!?!",Uhhh.. what is the point of this? Just to click a bunch of nodes? Losing faith more and more in the Steam reviewers lately.... used to be able to go to Steam for a pretty accurate review of games I was looking at but this ... and some dumb side scroller i tried last week have overwhelmingly positive reviews lol. HOWWWW?!?!,False,2023-01-31T17:48:14+00:00,2023-01-31T17:49:59+00:00,6.0,6.0,0.0,10.0,2.0,0.45556554198265076,False,False,False,False,76561198054325563,,88.0,False,False,324,61,0.1,0.1,0-1h,negative
+161705864,365450,hacknet,Hacknet,english,I use arch btw,I use arch btw,True,2024-03-29T07:05:37+00:00,2024-03-29T07:05:37+00:00,6.0,6.0,0.0,6.0,8.0,0.5970695614814758,False,False,False,False,76561198353586996,,2.0,False,True,14,4,0.1,0.1,0-1h,positive
+171563669,365450,hacknet,Hacknet,english,cant play the game i launch it and i have a blackscreen idk what to do,cant play the game i launch it and i have a blackscreen idk what to do,False,2024-08-06T17:16:38+00:00,2024-08-06T17:16:38+00:00,7.0,6.0,0.0,0.0,1.0,0.4761904776096344,True,False,False,False,76561199548715415,,13.0,False,False,70,16,0.11666666666666667,0.1,0-1h,negative
+17519800,365450,hacknet,Hacknet,english,11/10. Real hack.,11/10. Real hack.,True,2015-08-13T12:57:08+00:00,2015-08-13T12:57:08+00:00,231.0,6.0,0.0,0.0,0.0,0.5,True,False,False,False,76561198089447357,,27.0,False,True,17,3,3.85,0.1,0-1h,positive
+23489736,365450,hacknet,Hacknet,english,"I have now tried to get this game running on my windows 10 6gb Nvidia gtx 285 for over a day and it simply does not start.After some time I reached the main menu however the game crashes imediatelly when I click on any button. 
+
+I have then checked the discussion boards and they are full of other people having similiar issues. 
+
+To make long story short, I have now requested a refund. I suggest that everyone else does the same.
+Live is simply too short to fight with bad software like this.
+
+I you are honestly thinking about buying this game, I strongly suggest you first check the dicussion boards or better play a demo to see that it starts on your system.
+
+In the current state I cannot advise to buy this.","I have now tried to get this game running on my windows 10 6gb Nvidia gtx 285 for over a day and it simply does not start.After some time I reached the main menu however the game crashes imediatelly when I click on any button. I have then checked the discussion boards and they are full of other people having similiar issues. To make long story short, I have now requested a refund. I suggest that everyone else does the same. Live is simply too short to fight with bad software like this. I you are honestly thinking about buying this game, I strongly suggest you first check the dicussion boards or better play a demo to see that it starts on your system. In the current state I cannot advise to buy this.",False,2016-06-10T19:48:49+00:00,2016-06-10T19:48:49+00:00,6.0,6.0,0.0,0.0,0.0,0.48076924681663513,True,False,False,True,76561198073518452,,22.0,False,False,708,134,0.1,0.1,0-1h,negative
+26033869,365450,hacknet,Hacknet,english,"Does not work, it freezes and crashes when I boot it up, then it freezes and crashes steam. Please be honest when you say that a game is available for mac, when it clearly is not.","Does not work, it freezes and crashes when I boot it up, then it freezes and crashes steam. Please be honest when you say that a game is available for mac, when it clearly is not.",False,2016-10-14T18:46:04+00:00,2016-10-14T18:46:04+00:00,6.0,6.0,0.0,0.0,0.0,0.4987601935863495,True,False,False,False,76561198135613753,,68.0,False,False,179,36,0.1,0.1,0-1h,negative
+33657908,365450,hacknet,Hacknet,english,"Game wont start. Have tried to reinstall and use the developers fix, but it's not working. 
+
+So, dear developer; Fix it, not with a guide on the community pages, but a real one, which fixes the issues you have known FOR YEARS. Man up and take responsibility for the game you have created!!","Game wont start. Have tried to reinstall and use the developers fix, but it's not working. So, dear developer; Fix it, not with a guide on the community pages, but a real one, which fixes the issues you have known FOR YEARS. Man up and take responsibility for the game you have created!!",False,2017-07-19T19:31:20+00:00,2017-07-19T19:31:20+00:00,6.0,6.0,0.0,0.0,0.0,0.49504950642585754,True,False,False,False,76561198274337988,,2.0,False,False,287,53,0.1,0.1,0-1h,negative
+37963713,365450,hacknet,Hacknet,english,"No matter what I do, I can't get this to work on Windows 10, on 3 different machines.
+
+Wont even run, crashes after setup.
+
+What a piece of garbage.
+
+I know what I'm doing, been in IT for three decades
+
+Had to try to run it 50 times to get the ""5 minutes playtime needed for review""","No matter what I do, I can't get this to work on Windows 10, on 3 different machines. Wont even run, crashes after setup. What a piece of garbage. I know what I'm doing, been in IT for three decades Had to try to run it 50 times to get the ""5 minutes playtime needed for review""",False,2017-11-30T22:57:52+00:00,2017-11-30T22:57:52+00:00,6.0,6.0,0.0,4.0,2.0,0.33713290095329285,True,False,False,False,76561198013899852,,17.0,False,False,278,57,0.1,0.1,0-1h,negative
+38006794,365450,hacknet,Hacknet,english,"Had to refund this game, since I can´t play it. The screen gets white while in tutorial and nothing works.","Had to refund this game, since I can´t play it. The screen gets white while in tutorial and nothing works.",False,2017-12-02T15:28:41+00:00,2017-12-02T15:28:41+00:00,36.0,6.0,0.0,0.0,0.0,0.4330708384513855,True,False,False,False,76561198091539769,,8.0,False,False,106,20,0.6,0.1,0-1h,negative
+42279874,365450,hacknet,Hacknet,english,"Buy this ONLY IF you enjoy coding and hacking simulation, if not, you're probably not going to be liking this, also alot of frustation and boredom.","Buy this ONLY IF you enjoy coding and hacking simulation, if not, you're probably not going to be liking this, also alot of frustation and boredom.",False,2018-05-26T13:42:06+00:00,2018-05-26T13:44:14+00:00,96.0,6.0,0.0,6.0,3.0,0.3688233196735382,False,False,False,False,76561198071135261,,282.0,False,False,147,26,1.6,0.1,0-1h,negative
+42638076,365450,hacknet,Hacknet,english,"NOTE: I have 0 hours played at the time of this review because I haven't played with Steam (got it in the Humble Down Under Bundle and only played the DRM-free version)
+
+This game is fun. Note, I didn't say realistic. It's a hacking game, and like every other hacking game (except some CTFs, but those are more competitions than games) it takes many liberties to make it actually fun for most people. I like it; even as someone who occasionally participates in CTFs, it's fun to chill and absorb myself in this game's fictional world of downloading exploits from 1337 hax0rs and hacking the mainframe. But it still has some ties to realism, for example the notion of getting into one device through another (ex. one mission has you get access to someone's laptop by exploting their phone). Plus, you can substitute some of its easy to remember fake commands for real ones (probe => nmap, forget others but I think there are more).","NOTE: I have 0 hours played at the time of this review because I haven't played with Steam (got it in the Humble Down Under Bundle and only played the DRM-free version) This game is fun. Note, I didn't say realistic. It's a hacking game, and like every other hacking game (except some CTFs, but those are more competitions than games) it takes many liberties to make it actually fun for most people. I like it; even as someone who occasionally participates in CTFs, it's fun to chill and absorb myself in this game's fictional world of downloading exploits from 1337 hax0rs and hacking the mainframe. But it still has some ties to realism, for example the notion of getting into one device through another (ex. one mission has you get access to someone's laptop by exploting their phone). Plus, you can substitute some of its easy to remember fake commands for real ones (probe => nmap, forget others but I think there are more).",True,2018-06-10T20:17:57+00:00,2018-06-10T20:17:57+00:00,7.0,6.0,0.0,1.0,0.0,0.523809552192688,False,False,False,False,76561198056696473,,6.0,False,False,929,165,0.11666666666666667,0.1,0-1h,positive
+42655174,365450,hacknet,Hacknet,english,learned to hack the pentagon,learned to hack the pentagon,True,2018-06-11T15:10:35+00:00,2018-06-11T15:10:35+00:00,388.0,6.0,0.0,3.0,10.0,0.5384615063667297,True,False,False,False,76561198070568724,,48.0,False,False,28,5,6.466666666666667,0.1,0-1h,positive
+43723387,365450,hacknet,Hacknet,english,Can't game to load. Always crash.,Can't game to load. Always crash.,False,2018-07-24T20:57:06+00:00,2018-07-24T20:57:06+00:00,129.0,6.0,0.0,2.0,5.0,0.4399999976158142,True,False,False,False,76561198276224774,,7.0,False,False,33,6,2.15,0.1,0-1h,negative
+46117534,365450,hacknet,Hacknet,english,This game is pretty darn nice if you are on to software stuff,This game is pretty darn nice if you are on to software stuff,True,2018-11-22T01:52:42+00:00,2018-11-22T01:52:42+00:00,6.0,6.0,0.0,0.0,0.0,0.46961328387260437,False,True,False,False,76561198047956994,,7.0,False,False,61,13,0.1,0.1,0-1h,positive
+46500743,365450,hacknet,Hacknet,english,Decent Game,Decent Game,True,2018-11-23T02:55:03+00:00,2018-11-23T02:55:03+00:00,132.0,6.0,0.0,0.0,0.0,0.5,False,True,False,False,76561198047513477,,11.0,False,True,11,2,2.2,0.1,0-1h,positive
+46501815,365450,hacknet,Hacknet,english,Decent Game,Decent Game,True,2018-11-23T03:06:03+00:00,2018-11-23T03:06:03+00:00,313.0,6.0,0.0,0.0,0.0,0.5,False,True,False,False,76561198056033999,,11.0,False,True,11,2,5.216666666666667,0.1,0-1h,positive
+47514758,365450,hacknet,Hacknet,english,The game settings don't work,The game settings don't work,False,2018-12-14T02:20:51+00:00,2018-12-14T02:20:51+00:00,6.0,6.0,0.0,0.0,0.0,0.4663238227367401,False,True,False,False,76561198045804695,,34.0,False,False,28,5,0.1,0.1,0-1h,negative
+49524443,365450,hacknet,Hacknet,english,"Broken game, can't even start it.","Broken game, can't even start it.",False,2019-03-12T23:29:10+00:00,2019-03-12T23:29:10+00:00,7.0,6.0,0.0,1.0,1.0,0.4267241358757019,True,False,False,False,76561198175291919,,47.0,False,False,33,6,0.11666666666666667,0.1,0-1h,negative
+52258250,365450,hacknet,Hacknet,english,bro.. im epichacker.. hack.l;......,bro.. im epichacker.. hack.l;......,True,2019-06-30T01:05:27+00:00,2019-06-30T01:05:27+00:00,10.0,6.0,0.0,0.0,0.0,0.5,False,True,False,False,76561198150402300,,76.0,False,True,35,4,0.16666666666666666,0.1,0-1h,positive
+52572464,365450,hacknet,Hacknet,english,Very good game worth the price tag,Very good game worth the price tag,True,2019-06-30T19:48:39+00:00,2019-06-30T19:48:39+00:00,39.0,6.0,0.0,0.0,0.0,0.5,True,False,False,False,76561198334330441,,3.0,False,False,34,7,0.65,0.1,0-1h,positive
+59643729,365450,hacknet,Hacknet,english,"game doesn't even start lol
+",game doesn't even start lol,False,2019-12-11T03:54:11+00:00,2019-12-11T03:54:11+00:00,6.0,6.0,0.0,0.0,0.0,0.48076924681663513,False,True,False,False,76561198134156184,,17.0,False,False,27,5,0.1,0.1,0-1h,negative
+61820575,365450,hacknet,Hacknet,english,"---{Graphics}---
+☐ You forget what reality is
+☐ Beautiful
+☐ Good
+☐ Decent
+☐ Bad
+☐ Don‘t look too long at it
+☑ Gnome.
+
+---{Gameplay}---
+☑ Gnome.
+☐ Good
+☐ It‘s just gameplay
+☐ Mehh
+☐ Starring at walls is better
+☐ Just don‘t
+
+---{Audio}---
+☐ Eargasm
+☐ Very good
+☐ Good
+☐ Not too bad
+☑ Gnome.
+☐ Earrape
+
+---{Audience}---
+☐ Kids
+☐ Teens
+☑ Gnome.
+☐ Human
+☐ Lizards
+
+---{PC Requirements}---
+☐ Check if you can run paint
+☐ Potato
+☑ Gnome.
+☐ Fast
+☐ Rich boiiiiii
+☐ Ask NASA if they have a spare computer
+
+---{Difficulity}---
+☐ Just press ‚A‘
+☐ Easy
+☑ Gnome.
+☐ Easy to learn / Hard to master
+☐ Difficult
+☐ Dark Souls
+
+---{Grind}---
+☑ Gnome.
+☐ Only if u care about leaderboards/ranks
+☐ Isnt necessary to progress
+☐ Average grind level
+☐ Too much grind
+☐ You‘ll need a second live for grinding
+
+---{Story}---
+☑ Gnome.
+☐ Text or Audio floating around
+☐ Average
+☐ Good
+☐ Lovely
+☐ It‘ll replace your life
+
+---{Game Time}---
+☐ Long enough for a cup of coffee
+☐ Short
+☑ Gnome.
+☐ Long
+☐ To infinity and beyond
+
+---{Price}---
+☐ It’s free!
+☐ Worth the price
+☑ Gnome.
+☐ Not recommended
+☐ You could also just burn your money
+
+---{Bugs}---
+☐ Never heard of
+☐ Minor bugs
+☑ Gnome.
+☐ ARK: Survival Evolved
+☐ The game itself is a big terrarium for bugs
+",---{Graphics}--- ☐ You forget what reality is ☐ Beautiful ☐ Good ☐ Decent ☐ Bad ☐ Don‘t look too long at it ☑ Gnome. ---{Gameplay}--- ☑ Gnome. ☐ Good ☐ It‘s just gameplay ☐ Mehh ☐ Starring at walls is better ☐ Just don‘t ---{Audio}--- ☐ Eargasm ☐ Very good ☐ Good ☐ Not too bad ☑ Gnome. ☐ Earrape ---{Audience}--- ☐ Kids ☐ Teens ☑ Gnome. ☐ Human ☐ Lizards ---{PC Requirements}--- ☐ Check if you can run paint ☐ Potato ☑ Gnome. ☐ Fast ☐ Rich boiiiiii ☐ Ask NASA if they have a spare computer ---{Difficulity}--- ☐ Just press ‚A‘ ☐ Easy ☑ Gnome. ☐ Easy to learn / Hard to master ☐ Difficult ☐ Dark Souls ---{Grind}--- ☑ Gnome. ☐ Only if u care about leaderboards/ranks ☐ Isnt necessary to progress ☐ Average grind level ☐ Too much grind ☐ You‘ll need a second live for grinding ---{Story}--- ☑ Gnome. ☐ Text or Audio floating around ☐ Average ☐ Good ☐ Lovely ☐ It‘ll replace your life ---{Game Time}--- ☐ Long enough for a cup of coffee ☐ Short ☑ Gnome. ☐ Long ☐ To infinity and beyond ---{Price}--- ☐ It’s free! ☐ Worth the price ☑ Gnome. ☐ Not recommended ☐ You could also just burn your money ---{Bugs}--- ☐ Never heard of ☐ Minor bugs ☑ Gnome. ☐ ARK: Survival Evolved ☐ The game itself is a big terrarium for bugs,True,2020-01-14T01:21:14+00:00,2020-01-14T01:21:14+00:00,6.0,6.0,0.0,1.0,2.0,0.47229018807411194,False,False,False,False,76561198055119582,,2062.0,False,False,1215,237,0.1,0.1,0-1h,positive
+67308142,365450,hacknet,Hacknet,english,best hacking type game,best hacking type game,True,2020-04-14T16:54:26+00:00,2020-04-14T16:54:26+00:00,23.0,6.0,0.0,0.0,0.0,0.5,False,False,False,False,76561198121527623,,54.0,False,True,22,4,0.38333333333333336,0.1,0-1h,positive

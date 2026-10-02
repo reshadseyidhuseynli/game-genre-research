@@ -1,0 +1,9 @@
+{
+  "raw_reviews": 11773,
+  "unique_reviews": 11773,
+  "duplicates_removed": 0,
+  "raw_sha256": "3b1e5e97f05a02d006c5d9d0da0842e06d95d767358d3db303c5ebb931dae425",
+  "processed_sha256": "7da510daf60791ceafe9f55730610fd04d1871eda232ec08641ed6d5bd898242",
+  "sample_size": 50,
+  "schema_version": 1
+}
