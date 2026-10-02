@@ -21,11 +21,11 @@ Məqsəd “ən yaxşı oyunu” seçmək deyil. Məqsəd hansı dərinlik model
 | Avg müsbət oyun müddəti | 13.06h | 17.01h | 12.07h |
 | Avg mənfi oyun müddəti | 4.40h | 5.59h | 6.33h |
 
-məlumat toplusu ölçüləri çox fərqlidir. Absolute mention count-lar birbaşa müqayisə edilmir; əsasən nümunə direction, relative mənfi concentration, cohort shape və məna yönümlü yoxlama müqayisə olunur.
+məlumat toplusu ölçüləri çox fərqlidir. Absolute mention count-lar birbaşa müqayisə edilmir; əsasən nümunə direction, relative mənfi concentration, qrup shape və məna yönümlü yoxlama müqayisə olunur.
 
 ---
 
-# 3. Early-session cohort müqayisəsi
+# 3. Early-session qrup müqayisəsi
 
 | oyun müddəti | Hacknet | Midnight Protocol | Cyber Manhunt |
 |---|---:|---:|---:|
@@ -43,7 +43,7 @@ məlumat toplusu ölçüləri çox fərqlidir. Absolute mention count-lar birba�
 oyunçu:
 - terminaldan qorxa bilər;
 - command vocabulary-ni anlamaya bilər;
-- fantasy-ni dərhal qəbul etməyə bilər.
+- rol hissi-ni dərhal qəbul etməyə bilər.
 
 ## Midnight Protocol
 
@@ -90,7 +90,7 @@ oyunçu bacarıq əsasən:
 üzərindədir.
 
 Üstünlük:
-- fantasy payoff sürətlidir;
+- rol hissi payoff sürətlidir;
 - qaydalar sadədir;
 - “hacker kimi hiss etmək” tez yaranır.
 
@@ -366,7 +366,7 @@ Investigation game üçün “stuck state” əsl uğursuzluq state-dir.
 
 ## Hacknet
 
-UI = fantasy surface.
+UI = rol hissi surface.
 
 ## Midnight Protocol
 
@@ -400,7 +400,7 @@ Araşdırmadan hazırda ən dəyərli üç komponent görünür.
 
 ## Hacknet-dən
 
-- immediate fantasy;
+- immediate rol hissi;
 - organic snooping;
 - interface oyuna dalma hissi;
 - memorable rule-breaking moments.
@@ -433,7 +433,7 @@ Hələ final idea deyil.
 
 Hazır dəlil belə bir dizayn territory-ni maraqlı göstərir:
 
-> **Accessible digital-investigation fantasy with systemic information discovery and meaningful nəticə.**
+> **Accessible digital-investigation rol hissi with systemic information discovery and meaningful nəticə.**
 
 Yəni:
 
@@ -459,7 +459,7 @@ Bu “hack → next mission”dan daha sistemik ola bilər.
 
 # 14. Transferable Principles
 
-## Principle 1 — Fantasy first
+## Principle 1 — Rol hissi first
 
 oyunçu özünü kim kimi hiss edir?
 
