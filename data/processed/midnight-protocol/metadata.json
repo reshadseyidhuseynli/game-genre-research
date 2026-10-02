@@ -1,0 +1,74 @@
+{
+  "name": "Midnight Protocol",
+  "release_date": {
+    "coming_soon": false,
+    "date": "Oct 13, 2021"
+  },
+  "developers": [
+    "LuGus Studios"
+  ],
+  "publishers": [
+    "Iceberg Interactive"
+  ],
+  "is_free": false,
+  "short_description": "Midnight Protocol is a tactical narrative-driven RPG with unique keyboard-only controls. Hack into servers, beat security systems and discover encrypted secrets while you try to find answers to why and how you got doxxed.",
+  "genres": [
+    {
+      "id": "1",
+      "description": "Action"
+    },
+    {
+      "id": "25",
+      "description": "Adventure"
+    },
+    {
+      "id": "23",
+      "description": "Indie"
+    },
+    {
+      "id": "3",
+      "description": "RPG"
+    },
+    {
+      "id": "2",
+      "description": "Strategy"
+    }
+  ],
+  "categories": [
+    {
+      "id": 2,
+      "description": "Single-player"
+    },
+    {
+      "id": 22,
+      "description": "Steam Achievements"
+    },
+    {
+      "id": 29,
+      "description": "Steam Trading Cards"
+    },
+    {
+      "id": 30,
+      "description": "Steam Workshop"
+    },
+    {
+      "id": 23,
+      "description": "Steam Cloud"
+    },
+    {
+      "id": 17,
+      "description": "Includes level editor"
+    },
+    {
+      "id": 62,
+      "description": "Family Sharing"
+    }
+  ],
+  "supported_languages": "English, German, Russian, Simplified Chinese, Japanese",
+  "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1162700/header.jpg?t=1772459425",
+  "steam_app_id": 1162700,
+  "price": 374,
+  "currency": "USD",
+  "price_unit": "minor currency units",
+  "store_url": "https://store.steampowered.com/app/1162700/"
+}

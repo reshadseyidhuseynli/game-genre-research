@@ -1,0 +1,52 @@
+{
+  "endpoint": "https://api.steampowered.com/IUserReviewsService/GetAppReviews/v1/",
+  "params": {
+    "appid": 1162700,
+    "languages": [
+      "english"
+    ],
+    "filter": 1,
+    "review_type": 0,
+    "purchase_type": 1,
+    "num_per_page": 100,
+    "filter_offtopic_activity": false,
+    "cursor": "AoJ41L2bvfwCfoijgQM="
+  },
+  "collected_at": "2026-10-02T15:53:27.683337+00:00",
+  "response": {
+    "response": {
+      "query_summary": {
+        "num_reviews": 1
+      },
+      "reviews": [
+        {
+          "recommendationid": "100994859",
+          "author": {
+            "steamid": "76561198011502743",
+            "num_reviews": 199,
+            "playtime_forever": 187,
+            "playtime_last_two_weeks": 0,
+            "playtime_at_review": 150,
+            "last_played": 1634505981
+          },
+          "language": "english",
+          "review": "Sleek ui, very user friendly. Not as complicate as it looks on pictures the game does a good job of easing you into things. \n\nIt is turn based so you can think things through and can restart every mission. Seems interesting.\n\nFirst look below : \n\nhttps://www.youtube.com/watch?v=uEMeYGsoStE\n",
+          "timestamp_created": 1634138840,
+          "timestamp_updated": 1634138840,
+          "voted_up": true,
+          "votes_up": 9,
+          "votes_funny": 0,
+          "weighted_vote_score": 0.5305280089378357,
+          "comment_count": 0,
+          "steam_purchase": false,
+          "received_for_free": true,
+          "written_during_early_access": false,
+          "primarily_steam_deck": false,
+          "refunded": false
+        }
+      ],
+      "cursor": "AoJwvPuQvfwCe/KhgQM=",
+      "total_matching": 301
+    }
+  }
+}
