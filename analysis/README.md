@@ -135,6 +135,7 @@ Hazır müqayisələr:
 - `hacknet-vs-midnight-protocol.md`
 - `hacknet-midnight-protocol-cyber-manhunt.md`
 - `cyber-manhunt-vs-the-operator.md`
+- `orwell-vs-need-to-know.md`
 
 ## `analysis/final/`
 
