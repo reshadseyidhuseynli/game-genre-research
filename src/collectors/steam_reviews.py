@@ -12,12 +12,23 @@ ENDPOINT = 'https://api.steampowered.com/IUserReviewsService/GetAppReviews/v1/'
 
 def validate(payload):
     body = payload.get('response')
-    if not isinstance(body, dict) or not isinstance(body.get('reviews'), list):
+    if not isinstance(body, dict):
+        raise ValueError('Review response missing response object')
+
+    reviews = body.get('reviews')
+    if reviews is None:
+        summary = body.get('query_summary')
+        if isinstance(summary, dict) and summary.get('num_reviews') == 0:
+            return
         raise ValueError('Review response missing reviews list')
-    for row in body['reviews']:
+
+    if not isinstance(reviews, list):
+        raise ValueError('Review response reviews field is not a list')
+
+    for row in reviews:
         if not isinstance(row, dict) or not row.get('recommendationid') or row.get('language') != 'english':
             raise ValueError('Invalid review identifier or non-English review')
-    if body['reviews'] and not body.get('cursor'):
+    if reviews and not body.get('cursor'):
         raise ValueError('Non-empty page missing cursor')
 
 
@@ -59,7 +70,7 @@ def collect(game, data_dir, fetch=get_json, sleep=time.sleep):
             first_summary = body.get('query_summary')
             first_matching = body.get('total_matching')
             started = page['collected_at']
-        batch = body['reviews']
+        batch = body.get('reviews', [])
         rows.extend(batch)
         logging.info('Page %s: %s reviews; total %s', index + 1, len(batch), len(rows))
         index += 1
