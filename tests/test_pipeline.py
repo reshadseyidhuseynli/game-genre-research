@@ -132,6 +132,21 @@ class DeterministicTests(unittest.TestCase):
         self.assertIn('SOUND_AUDIO', detected)
         self.assertIn('IMMERSION', detected)
 
+
+    def test_digital_investigation_theme_detection(self):
+        taxonomy = load_taxonomy()
+        detected = detect_themes(
+            'The translation is rough and the puzzle is unclear. '
+            'I found the clue, but the linear story would not let me continue until '
+            'I clicked the exact evidence. The phishing and social engineering ideas were interesting.',
+            taxonomy
+        )
+        self.assertIn('LOCALIZATION_WRITING', detected)
+        self.assertIn('PUZZLE_CLARITY', detected)
+        self.assertIn('CLUE_EVIDENCE_QUALITY', detected)
+        self.assertIn('LINEARITY_SCRIPTING', detected)
+        self.assertIn('SOCIAL_ENGINEERING', detected)
+
     def test_tactical_hacking_theme_detection(self):
         taxonomy = load_taxonomy()
         detected = detect_themes(
