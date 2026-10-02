@@ -146,6 +146,7 @@ class DeterministicTests(unittest.TestCase):
         self.assertEqual(repetition['mention_count'], 2)
         self.assertEqual(len(theme_samples['REPETITION']['positive']), 1)
         self.assertEqual(len(theme_samples['REPETITION']['negative']), 1)
+        self.assertEqual(len(theme_samples['REPETITION']['audit']), 2)
 
 
 class CollectorTests(unittest.TestCase):
