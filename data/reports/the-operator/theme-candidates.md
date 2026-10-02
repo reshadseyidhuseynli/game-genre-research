@@ -1,20 +1,20 @@
-# The Operator — Theme Candidate Corpus Scan
+# The Operator — Bütün rəylər üzrə mövzu namizədlərinin yoxlanması
 
-> Bu report final semantic classification deyil. Regex/keyword qaydaları ilə tapılan
-> review namizədlərini və həmin review-lərin Steam recommendation/playtime paylanmasını göstərir.
-> Theme-in positive ratio-su aspect sentiment deyil; həmin theme-i qeyd edən review-lərin
-> overall Steam recommendation ratio-sudur.
+> Bu hesabat yekun məna yönümlü təsnifat deyil. Regex/açar söz qaydaları ilə tapılan
+> rəy namizədlərini və həmin rəylərin Steam tövsiyəsi və oyun müddəti üzrə paylanmasını göstərir.
+> Mövzunun müsbət rəy nisbəti həmin aspektə münasibət demək deyil; bu, həmin mövzunu qeyd edən
+> rəylərin ümumi Steam tövsiyə nisbətidir.
 
-## Coverage
+## Əhatə
 
-- Total reviews: 3781
-- Reviews with at least one theme candidate: 2526
-- Candidate coverage: 66.81%
-- Taxonomy version: 4
+- Ümumi rəylər: 3781
+- Ən azı bir mövzu namizədi tutulan rəylər: 2526
+- Namizəd əhatəsi: 66.81%
+- Taksonomiya versiyası: 4
 
-## Theme statistics
+## Mövzu statistikası
 
-| Theme | Azərbaycan dilində | Mentions | Share | Positive reviews | Negative reviews | Overall positive ratio | Avg playtime at review |
+| Maşın etiketi | Azərbaycan dilində | Qeyd sayı | Pay | Müsbət rəylər | Mənfi rəylər | Ümumi müsbət rəy nisbəti | Rəy anındakı orta oyun müddəti |
 |---|---|---:|---:|---:|---:|---:|---:|
 | STORY_NARRATIVE | Story və narrative | 1983 | 52.45% | 1695 | 288 | 85.48% | 4.54h |
 | DEPTH_CHALLENGE | Dərinlik, challenge və problem həlli | 752 | 19.89% | 628 | 124 | 83.51% | 4.60h |
@@ -57,9 +57,9 @@
 | HACKER_FANTASY | Hacker fantasy-si | 0 | 0.00% | 0 | 0 | n/a | n/a |
 | PUBLIC_OPINION_MINIGAME | Public opinion / influence minigame | 0 | 0.00% | 0 | 0 | n/a | n/a |
 
-## Top theme co-occurrences
+## Ən çox birlikdə görünən mövzular
 
-| Theme A | Theme B | Reviews |
+| Mövzu A | Mövzu B | Rəy sayı |
 |---|---|---:|
 | DEPTH_CHALLENGE | PUZZLE_CLARITY | 635 |
 | DEPTH_CHALLENGE | STORY_NARRATIVE | 591 |
@@ -92,10 +92,10 @@
 | SAVE_REPLAY | STORY_NARRATIVE | 108 |
 | DEPTH_CHALLENGE | DIALOGUE_EXPOSITION | 103 |
 
-## Interpretation rules
+## Şərh qaydaları
 
-- Bu nəticələr theme prevalence üçün ilkin retrieval siqnalıdır.
-- Bir review theme keyword-u daşısa da həmin aspect-i tərifləməyə və ya tənqid etməyə bilər.
-- Overall positive/negative recommendation aspect sentiment kimi istifadə edilməməlidir.
-- Theme-lər üzrə generated positive/negative sample CSV-ləri manual/LLM audit üçün istifadə olunmalıdır.
-- Final rəqəmlər audit edilmiş aspect classification-dan sonra analysis/<game>/deep-research.md faylına keçirilməlidir.
+- Bu nəticələr mövzuların yayılması üçün ilkin seçim siqnalıdır.
+- Bir rəydə mövzuya aid açar sözün olması həmin aspektin mütləq tərifləndiyi və ya tənqid edildiyi demək deyil.
+- Ümumi müsbət/mənfi Steam tövsiyəsi aspekt üzrə münasibət kimi istifadə edilməməlidir.
+- Mövzular üzrə yaradılan müsbət/mənfi nümunə CSV-ləri əl ilə və ya LLM ilə məna yönümlü yoxlama üçün istifadə olunur.
+- Yekun rəqəmlər yoxlanmış aspekt təsnifatından sonra analysis/<game>/deep-research.md faylına keçirilir.
