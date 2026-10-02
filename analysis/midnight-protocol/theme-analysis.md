@@ -9,7 +9,7 @@ Bu sənəd Midnight Protocol üçün verified Steam rəy məlumat toplusu-in ful
 - oyunçuların ən çox hansı mövzuları müzakirə etdiyini ölçmək;
 - hansı mövzu-lərin mənfi rəy-lərdə normadan daha çox toplandığını görmək;
 - müsbət və mənfi rəy-lərdə eyni mexanika-in necə fərqli qəbul edildiyini ayırmaq;
-- Midnight Protocol-un Hacknet-dən fərqli olaraq hansı yeni dizayn trade-off-ları yaratdığını müəyyən etmək;
+- Midnight Protocol-un Hacknet-dən fərqli olaraq hansı yeni dizayn kompromis-ları yaratdığını müəyyən etmək;
 - sonrakı `Hacknet vs Midnight Protocol` müqayisə üçün dəlil bazası hazırlamaqdır.
 
 Bu sənəd rəy text-lərin sadə müsbət/mənfi xülasəsi deyil.
@@ -668,7 +668,7 @@ yüksək dəyər yaradır.
 
 yaradıcı də fourth-wall secrets və curiosity-ni xüsusi dizayn məqsədi kimi qeyd edir.
 
-Lakin bu sistem Hacknet-də olduğu qədər core loop-un mərkəzində görünmür.
+Lakin bu sistem Hacknet-də olduğu qədər əsas oyun dövrü-un mərkəzində görünmür.
 
 Midnight Protocol daha çox:
 
@@ -770,7 +770,7 @@ oyunçu outcome:
 - müsbət: çox güclü fantasy və distinctive identity;
 - mənfi: inefficient UI və repetitive typing.
 
-**Intent achieved, trade-off realdır.**
+**Intent achieved, kompromis realdır.**
 
 ---
 
@@ -960,7 +960,7 @@ loop-u çox güclü ola bilər.
 | Retry/recovery RNG problemini böyüdür | High |
 | 1–3h xüsusi risk cohort-udur | High |
 | hekayə əsas oyunda qalma amil-dir | High |
-| Keyboard-only güclü oyuna dalma hissi + UX trade-off yaradır | High |
+| Keyboard-only güclü oyuna dalma hissi + UX kompromis yaradır | High |
 | Turn-based sistem real-time speed requirement-i uğurla azaldır | High |
 | Hacker fantasy güclü value proposition-dır | High |
 | Loadout sistemi real qərar sərbəstliyi yaradır, amma mandatory/dominant build riski var | High |
