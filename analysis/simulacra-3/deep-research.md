@@ -1,0 +1,932 @@
+# SIMULACRA 3 — Dərin araşdırma
+
+## 1. Rəhbərlik üçün xülasə
+
+SIMULACRA 3-ün əsas problemi “pis sequel” olmaqdan daha konkret şəkildə izah oluna bilər:
+
+> **Oyun found-phone formuluna yeni sistemlər və daha geniş world scope əlavə edib, amma ilk oyunun ən güclü elementi olan şəxsi telefon intimacy-sini, character density-ni və interface-native horror-u zəiflədib.**
+
+Verified Steam dataset:
+
+- **267 rəy**
+- **157 müsbət**
+- **110 mənfi**
+- **58.80% müsbət**
+- median oyun müddəti: **5.30 saat**
+
+Birinci SIMULACRA baseline:
+
+- **3,209 rəy**
+- **90.53% müsbət**
+- median: **4.67 saat**
+
+Əsas uğurlu dəyişikliklər:
+
+- Atlas spatial knowledge system-i;
+- Stonecreek world-building;
+- house/security-camera sequence;
+- paranormal-detective audience üçün daha açıq mystery;
+- bəzi oyunçular üçün daha likable Ruby/Paul.
+
+Əsas uğursuzluqlar:
+
+- phone artıq cihaz sahibinin zəngin character portrait-i deyil;
+- az app və az character;
+- Paul haqqında intimacy aşağıdır;
+- Ruby social graph-ı və guidance layer-i həddindən artıq mərkəzləşdirir;
+- relevance marker-ləri investigation-u checklist hissinə çevirə bilir;
+- technology/social-media horror generic paranormal ghost story-yə yaxınlaşır;
+- horror və audio intensity azalır;
+- choice-lar daha kosmetik görünür;
+- fast-forward/skip kimi əvvəlki həllər geri düşür;
+- puzzle language qeyri-sabitdir;
+- production polish və writing problemləri qalır.
+
+Ən vacib cross-game dərs:
+
+> **Sequel depth əlavə etmək üçün sistem qatlarını artırmaq kifayət deyil; original fantasy-nin hansı elementinin oyunçu üçün əsl reward olduğunu qorumaq lazımdır.**
+
+---
+
+# 2. Araşdırma əhatəsi
+
+Dataset:
+
+- Steam App ID: `1925970`
+- 267 unique English review
+- duplicate: 0
+- 58.80% positive
+- 41.20% negative
+- median: 5.30h
+- average: 5.91h
+
+Semantic audit:
+
+- **110/110 mənfi rəy**
+- **43 məqsədli müsbət rəy**
+
+Deterministik taxonomy:
+
+- v5
+- coverage: **62.55%**
+
+---
+
+# 3. Məhsul nədir?
+
+SIMULACRA 3 üçün əsas premise:
+
+> Stonecreek şəhərində insanlar yoxa çıxır və oyunçu Paul Castillo-nun telefonundan istifadə edərək jurnalist Ruby Myers ilə birlikdə işi araşdırır.
+
+Əsas sistemlər:
+
+- phone UI;
+- messages;
+- media;
+- browser/content;
+- Atlas;
+- map/location;
+- dialogue;
+- FMV/video calls;
+- puzzle/set-piece mechanics;
+- branching endings.
+
+Əsas dövr:
+
+```text
+telefonu araşdır
+→ relevant clue scan et
+→ Atlas / location ilə əlaqələndir
+→ Ruby ilə danış
+→ yeni area/data aç
+→ puzzle/set-piece
+→ qərar
+→ story progression
+```
+
+Bu dövr ilk SIMULACRA-dan daha formal investigation structure yaradır.
+
+---
+
+# 4. Franchise divergence rəqəmlə
+
+| Metrik | SIMULACRA | SIMULACRA 3 |
+|---|---:|---:|
+| Rəy sayı | 3,209 | 267 |
+| Müsbət pay | **90.53%** | **58.80%** |
+| Mənfi pay | 9.47% | **41.20%** |
+| Median playtime | 4.67h | 5.30h |
+| 0–1h müsbət | **59.81%** | **37.50%** |
+| 1–3h müsbət | **78.83%** | 65.22% |
+| 3–10h müsbət | **92.45%** | 58.05% |
+| 10h+ müsbət | 95.30% | 73.91% |
+
+Bu, yalnız early churn problemi deyil.
+
+SIMULACRA 3-də hətta 3–10h əsas completion cohort-da belə positive ratio təxminən **58%**-dir.
+
+Yəni dissatisfaction:
+
+> yalnız “oyunu anlamadım və refund etdim” problemi deyil.
+
+Full-run experience də audience-i bölür.
+
+---
+
+# 5. Original fantasy nə idi?
+
+SIMULACRA 1-in güclü fantasy-si:
+
+> **“Başqa insanın şəxsi telefonunu əlimdə tuturam və onun rəqəmsal həyatını qazaraq həqiqəti tapıram.”**
+
+Bu fantasy dörd sistemi birləşdirirdi:
+
+1. familiar phone grammar;
+2. voyeuristic curiosity;
+3. personal character discovery;
+4. interface corruption horror.
+
+Yəni telefon:
+
+> **tool + world + character archive + threat**
+
+idi.
+
+SIMULACRA 3-də bu dörd qatın bir hissəsi ayrılır.
+
+Telefon:
+- tool qalır;
+- world qalır;
+- character archive zəifləyir;
+- threat daha çox phone-dan kənar paranormal entity-yə keçir.
+
+Bu divergence əsas məhsul fərqidir.
+
+---
+
+# 6. Paul-un telefonu niyə daha “boş” hiss olunur?
+
+110 mənfi rəydə təkrarlanan franchise comparison:
+
+- fewer apps;
+- fewer contacts;
+- fewer incidental interactions;
+- less private history;
+- less personality;
+- less surprise;
+- less useful flavor content.
+
+Bu yalnız content count deyil.
+
+İlk oyunda lazımsız görünən məlumat:
+
+- Anna-nın real həyat yaşadığı illuziyasını yaradırdı;
+- gameplay olmayan detail world credibility artırırdı;
+- bəzi detail sonradan clue ola bilərdi.
+
+SIMULACRA 3-də daha çox data birbaşa:
+
+> objective / Atlas / progression
+
+funksiyasına bağlıdır.
+
+### Nəticə
+
+> **Efficiency artdıqca diegetic authenticity azalırsa interface daha “oyun sistemi” kimi görünür.**
+
+---
+
+# 7. Productive redundancy
+
+Bu franchise-dən vacib yeni principle çıxır:
+
+> **Bəzi redundant məlumat usability waste yox, world-believability investment-dir.**
+
+Məsələn:
+
+- random contact;
+- cavabsız call;
+- irrelevant photo;
+- secondary social post;
+- easter egg;
+- useless app behavior.
+
+Əgər hər element:
+- yalnız quest üçün varsa,
+oyunçu sistemi tez görür.
+
+Əgər bəzi element:
+- sadəcə dünya üçün varsa,
+o zaman relevant clue-u tapmaq real discovery kimi hiss olunur.
+
+Bu informasiya oyunlarında çox vacibdir.
+
+---
+
+# 8. Scope shift: person → town
+
+SIMULACRA 1:
+
+> Anna.
+
+SIMULACRA 3:
+
+> Stonecreek.
+
+Bu çox böyük narrative design dəyişməsidir.
+
+### Üstünlük
+
+- world-building;
+- folklore;
+- location;
+- community;
+- multiple victims;
+- broader mystery.
+
+### Risk
+
+- heç bir personaj kifayət qədər dərin olmur;
+- phone owner sadəcə mystery giriş nöqtəsinə çevrilir;
+- emotional stake diffuz olur;
+- player town lore bilir, amma insanlara bağlanmır.
+
+Semantic audit ikinci istiqamətin dominant olduğunu göstərir.
+
+### Principle
+
+> **Scope böyüdükcə emotional anchor ayrıca gücləndirilməlidir.**
+
+---
+
+# 9. Character graph
+
+İlk oyunda:
+
+- Anna;
+- Greg;
+- Taylor;
+- Ashley;
+- digər əlaqələr
+
+bir-birinə zidd social information yaradırdı.
+
+Bunlar puzzle-dan çox:
+
+> **human uncertainty graph**
+
+yaradırdı.
+
+SIMULACRA 3-də böyük hissədə Ruby əsas interaction hub-dır.
+
+Digər personajlar:
+
+- daha gec;
+- daha qısa;
+- daha az münasibət;
+- daha az cross-character tension
+
+ilə təqdim olunur.
+
+Nəticə:
+
+> social graph azaldıqca player deduction da “kimə inanım?” səviyyəsindən “növbəti objective nədir?” səviyyəsinə keçə bilir.
+
+---
+
+# 10. Ruby və role clarity
+
+Intern + journalist setup ilkin clarity verir.
+
+Bu birinci oyunun “nə üçün mən bunu edirəm?” absurdluğunu müəyyən qədər həll edə bilər.
+
+Müsbət audience:
+- Ruby-ni guide kimi bəyənir;
+- daha formal investigation rolunu sevir.
+
+Mənfi audience:
+- Ruby-ni annoying;
+- bossy;
+- tutorial-like;
+- over-present
+
+hesab edir.
+
+### Trade-off
+
+```text
+daha konkret role
+→ daha aydın objective
+→ daha az self-insertion
+→ daha çox NPC guidance dependency
+```
+
+Bu digər oyunlarda gördüyümüz principle ilə uyğundur:
+
+> clarity və agency ayrı optimizasiya edilməlidir.
+
+---
+
+# 11. Atlas niyə vacibdir?
+
+Atlas bu araşdırmada sadəcə bir app deyil.
+
+Bu, franchise üçün:
+
+> **implicit knowledge → explicit knowledge representation**
+
+keçididir.
+
+İlk oyunda:
+- oyunçu öz beynində əlaqə qurur.
+
+SIMULACRA 3:
+- sistem həmin əlaqəni location/scan/progression state kimi formalizasiya edir.
+
+Bu çox maraqlı istiqamətdir.
+
+### Potensial gələcək value
+
+Atlas tipli sistem:
+- clue provenance;
+- entity relation;
+- timeline;
+- location;
+- contradiction;
+- hypothesis
+
+göstərə bilər.
+
+Amma SIMULACRA 3 implementation-da scan/relevance marker çox güclüdürsə:
+
+> reasoning-in özünü avtomatlaşdırır.
+
+### Principle
+
+> **Knowledge graph cavabı göstərməməlidir; oyunçunun qurduğu cavabın strukturunu saxlamalıdır.**
+
+---
+
+# 12. Marker problemi
+
+Bir mənfi review çox dəqiq problemi ifadə edir:
+
+> relevant content-də marker görünür və oyunçu sadəcə həmin icon-u gözləyir.
+
+Bu UI convenience-dir.
+
+Amma investigation fantasy-də:
+
+> relevance tapmaq özü core verb-dirsə,
+
+marker həmin core verb-i avtomatlaşdıra bilər.
+
+Bu Orwell-dakı auto-highlighting problemi ilə eyni ailədədir.
+
+### Cross-game pattern
+
+Orwell:
+- system datachunk highlight edir.
+
+SIMULACRA 3:
+- clue relevance marker-lə görünür.
+
+Hər ikisində risk:
+
+> **system observation işini oyunçudan alır.**
+
+---
+
+# 13. Puzzle grammar
+
+Review-lər puzzle barədə iki əks nəticə verir:
+
+### “Çox asandır”
+
+- handholding;
+- obvious clue;
+- direct marker.
+
+### “Çox anlaşılmazdır”
+
+- arbitrary;
+- unclear goal;
+- no hint;
+- Atlas confusing.
+
+Bu contradiction real puzzle quality haqqında güclü məlumatdır.
+
+Əsas problem likely:
+
+> **difficulty calibration yox, interaction language inconsistency.**
+
+Oyunçu bir mechanic öyrənir:
+- marker tap.
+
+Sonra başqa mechanic:
+- heç bir eyni rule yoxdur.
+
+### Dərs
+
+> **Mürəkkəblik yalnız qaydaları öyrəndikdən sonra sağlamdır.**
+
+---
+
+# 14. Single-use systems
+
+SIMULACRA 3 daha çox mechanic təqdim edir.
+
+Amma review auditində:
+- bəzi mechanics yalnız bir sequence;
+- bəzi tutorial yalnız bir use;
+- başqa mechanic sonra heç qayıtmır.
+
+Bu:
+
+> content variety
+
+yaradır.
+
+Amma:
+- mastery;
+- strategy;
+- transferable learning
+
+yaratmır.
+
+The Operator-da da oxşar problem görülmüşdü.
+
+### Principle
+
+> **Mechanic count depth deyil; reuse + recombination depth yaradır.**
+
+---
+
+# 15. House sequence niyə işləyir?
+
+House/security-camera hissəsi demək olar bütün review spektrində müsbət qeyd olunur.
+
+Burada:
+
+- UI;
+- real-time risk;
+- observation;
+- spatial reasoning;
+- horror;
+- action consequence
+
+bir yerdə işləyir.
+
+Bu franchise-in ən güclü “future direction” siqnalıdır.
+
+Əsas səbəb:
+
+> oyunçu horror-a baxmır; horror interface vasitəsilə idarə olunur.
+
+Bu birinci SIMULACRA-nın interface-corruption strength-i ilə eyni prinsipin daha aktiv versiyasıdır.
+
+---
+
+# 16. Horror identity drift
+
+SIMULACRA 1 horror-u:
+
+> digital intimacy-dən gəlir.
+
+Sən şəxsi phone içindəsən və phone özü qeyri-normal olur.
+
+SIMULACRA 3:
+- ghost-like folklore;
+- town haunting;
+- physical monster representation;
+- paranormal mythology.
+
+Bu standalone olaraq pis deyil.
+
+Müsbət audience bunu məhz bəyənir.
+
+Amma franchise identity baxımından:
+
+> phone artıq threat-in səbəbi yox, viewer/controller olur.
+
+Bu thematic cohesion-i azaldır.
+
+### Principle
+
+> **Interface-as-world oyunda antagonist də interface logic ilə münasibət qurmalıdır.**
+
+---
+
+# 17. Horror quantity vs horror integration
+
+Bəzi review-lər sadəcə:
+
+> “jumpscare azdır”
+
+deyir.
+
+Amma əsas məsələ scare count deyil.
+
+Birinci oyun üçün mənfi auditdə əksinə:
+- jumpscare çox və cheap idi.
+
+Bu vacibdir.
+
+SIMULACRA 3-dən çıxan dərs:
+
+> **Problem “daha çox jumpscare lazımdır” deyil.**
+
+Problem:
+
+- interface dread;
+- ambient uncertainty;
+- subtle corruption;
+- threat presence
+
+azalıb.
+
+Yəni doğru metric:
+
+> scare frequency yox, **horror-system integration**.
+
+---
+
+# 18. Digital social commentary itkisi
+
+Franchise fan-ları ilk oyunları:
+
+- dating;
+- online persona;
+- influencer culture;
+- digital identity;
+- phone addiction
+
+mövzuları ilə əlaqələndirir.
+
+SIMULACRA 3:
+- town myth;
+- gentrification/community;
+- folklore
+
+istiqamətinə keçir.
+
+Bu yeni mövzular özlüyündə legit-dir.
+
+Amma phone mechanic ilə daha zəif semantik bağa malikdir.
+
+### Principle
+
+> **Theme və core verb bir-birini gücləndirəndə identity yaranır.**
+
+Phone investigation + digital social commentary:
+- tight fit.
+
+Phone investigation + town ghost:
+- daha loose fit.
+
+---
+
+# 19. Choice system və reactivity
+
+Mənfi auditdə:
+- choice-lar cosmetic;
+- selected response sonrası alternative də deyilə bilir;
+- state difference azdır;
+- outcome-a təsir əsasən son hissəyə yığılır.
+
+Müsbət auditdə:
+- bəzi ending variation bəyənilir;
+- call response maraqlıdır.
+
+Əsas principle:
+
+> **Dialogue choice-un dəyəri “mən hansı cümləni seçdim?” deyil; “hansı gələcək state-lər dəyişdi?” sualıdır.**
+
+SIMULACRA 3-də perceived state divergence zəifdir.
+
+---
+
+# 20. Replay regression
+
+Birinci oyun:
+- New Game+;
+- daha sürətli chat.
+
+Üçüncü:
+- fast-forward yoxdur;
+- scene repetition;
+- multiple ending üçün full-run friction.
+
+Bu sequel design-də vacib dərsdir.
+
+### Sequel expectation rule
+
+> **Əvvəlki oyunda həll edilmiş quality-of-life problemi sequel-də “optional” feature sayılmır; baseline expectation-a çevrilir.**
+
+---
+
+# 21. Ending payoff
+
+Mənfi rəylərdə:
+- abrupt ending;
+- text-card exposition;
+- weak confrontation;
+- limited consequence presentation
+
+şikayətləri var.
+
+Əgər oyunun böyük hissəsi:
+- video;
+- FMV;
+- interactive media
+
+ilə gedirsə, finalın static summary olması:
+
+> presentation energy-də geriləmə
+
+kimi görünür.
+
+### Principle
+
+> **Climax presentation fidelity-si oyun boyu qurulan interaction fidelity-sindən aşağı düşməməlidir.**
+
+---
+
+# 22. Pacing
+
+SIMULACRA 3-də iki pacing problemi üst-üstə düşür:
+
+1. exposition/dialogue çoxluğu;
+2. interaction density aşağılığı.
+
+Review-lərdə:
+- “yapping”;
+- “boring book”;
+- “pain dry”;
+- “20 new things to read”
+
+tipli reaksiyalar təkrarlanır.
+
+Bu yalnız reading load deyil.
+
+Problem:
+
+> oxunan məlumatın nə qədərinin qərar və ya inference yaratmasıdır.
+
+### Principle
+
+> **Text volume yox, actionable information density pacing-i müəyyən edir.**
+
+---
+
+# 23. UI və audio polish
+
+Audio:
+- volume inconsistency;
+- ambience azalması;
+- dialogue/video mix.
+
+UI:
+- image-view lock;
+- chat navigation;
+- bugs;
+- confusing town/Atlas navigation.
+
+Bug mention deterministik olaraq baseline-dan yuxarı deyil.
+
+Amma franchise context-də:
+- release polish perception-a;
+- “rushed” narrative-a
+
+qatqı verir.
+
+Yəni bugs əsas causal explanation deyil.
+
+---
+
+# 24. “Rushed / low budget” perception
+
+Çox rəy:
+- rushed;
+- unfinished;
+- budget cut;
+- demo-like
+
+deyir.
+
+Bu verified development fact deyil.
+
+Bu **player perception** kimi sənədləşdirilməlidir.
+
+Bu perception-a səbəb olan müşahidə edilən məhsul siqnalları:
+
+- az character;
+- az app;
+- single-use mechanic;
+- abrupt ending;
+- uneven CG;
+- audio mix;
+- missing fast-forward;
+- bugs.
+
+### Dərs
+
+> **Oyunçu büdcəni bilmir; content/system cohesion-dan production completeness infer edir.**
+
+---
+
+# 25. Müsbət audience və alternative positioning
+
+SIMULACRA 3-ü sevən audience:
+
+- paranormal mystery istəyir;
+- çox jumpscare istəmir;
+- detective puzzle sevir;
+- Stonecreek lore-unı bəyənir;
+- Atlas-dan zövq alır;
+- franchise formula change-i problem saymır.
+
+Bu göstərir ki:
+
+> **SIMULACRA 3 standalone paranormal detective game kimi daha uyğun positioning tapa bilərdi.**
+
+Franchise adının yaratdığı expectation:
+- found-phone horror;
+- social digital theme;
+- intimate phone;
+- character web
+
+ilə conflict yaranır.
+
+---
+
+# 26. Market/positioning dərsi
+
+Əgər məhsul fundamental fantasy-ni dəyişirsə:
+
+> sequel nömrəsi acquisition-a kömək edə bilər, amma satisfaction benchmark-ı da qaldırır.
+
+Standalone/spinoff:
+- daha aşağı franchise contract;
+- yeni audience expectation.
+
+Mainline “3”:
+- feature continuity;
+- identity continuity;
+- quality-of-life continuity
+
+gözlənilir.
+
+---
+
+# 27. SIMULACRA 1 vs 3 — fundamental model
+
+## SIMULACRA 1
+
+```text
+familiar phone
+→ intimate personal data
+→ social graph
+→ self-directed snooping
+→ interface corruption
+→ relationship choices
+→ ending
+```
+
+## SIMULACRA 3
+
+```text
+phone shell
+→ formal clue scan
+→ Atlas/location
+→ Ruby guidance
+→ town lore
+→ set-piece
+→ final choices
+→ ending
+```
+
+Birincidə core reward:
+> person + phone discovery.
+
+Üçüncüdə:
+> case progression + town mystery.
+
+Bu dəyişiklik franchise divergence-i izah edən ən güclü modeldir.
+
+---
+
+# 28. Bizim layihə üçün concrete design constraints
+
+1. **Device owner üçün minimum personal-data density təyin et.**
+2. Hər useful clue arasında believable non-clue content saxla.
+3. Knowledge graph clue relevance-i avtomatik həll etməsin.
+4. Marker istifadə edilirsə observation deyil, organization işini asanlaşdırsın.
+5. NPC guide hypothesis verməsin; context versin.
+6. Social graph ən azı bir neçə müstəqil motive yaratmalıdır.
+7. Core theme interface behavior ilə bağlı olmalıdır.
+8. Horror interface-native system event kimi işləməlidir.
+9. Puzzle grammar reuse edilməlidir.
+10. Yeni mechanic ən azı 2–3 meaningful recombination görməlidir.
+11. Active set-piece-lər static exposition-u əvəz etməlidir.
+12. Choice state divergence tracking edilməlidir.
+13. Replay friction əvvəlcədən ölçülməlidir.
+14. Sequel/reference baseline features regression test kimi saxlanmalıdır.
+15. “World scope” artıranda emotional anchor ayrıca design objective olmalıdır.
+
+---
+
+# 29. Opportunity istiqaməti
+
+Üç oyundan alınan güclü elementləri birləşdirən model:
+
+```text
+realistic personal device
+→ rich personal archive
+→ incidental + relevant data
+→ player discovers relevance
+→ knowledge graph organizes findings
+→ multiple human contacts
+→ hypothesis
+→ interface-native action
+→ world/contact reaction
+→ new or corrupted device state
+```
+
+Burada:
+
+- SIMULACRA 1-in intimacy-si;
+- SIMULACRA 3 Atlas-ın organization potential-ı;
+- Cyber Manhunt-un information breadth-i;
+- Orwell-un consequence clarity-si
+
+birləşə bilər.
+
+---
+
+# 30. Risk xəritəsi
+
+| Risk | Siqnal | Validation |
+|---|---|---|
+| Phone feels like menu | **Çox yüksək** | device-believability test |
+| Character intimacy low | **Çox yüksək** | personal-data recall interview |
+| Guidance overreach | Yüksək | unguided hypothesis test |
+| Auto relevance | Yüksək | clue salience test |
+| Puzzle grammar inconsistency | Yüksək | first-time transfer test |
+| Horror/theme disconnect | Yüksək | thematic cohesion interview |
+| Cosmetic choices | Yüksək | state divergence audit |
+| Replay friction | Yüksək | second-run timing |
+| Scope diffusion | Yüksək | character attachment test |
+| Audio/polish | Orta | headset QA |
+| Single-use mechanics | Yüksək | mechanic reuse map |
+
+---
+
+# 31. Confidence matrix
+
+| Nəticə | Etibarlılıq |
+|---|---|
+| Franchise satisfaction divergence realdır | High |
+| Phone personality/personal density azalıb | High |
+| Breadth intimacy-ni əvəz edib | High |
+| Atlas concept olaraq güclü opportunity-dir | High |
+| Relevance marker deduction-u zəiflədə bilər | High |
+| Character graph daha zəifdir | High |
+| Ruby guidance social diversity-ni azaldır | High |
+| Horror interface-dən ayrılıb | High |
+| Choice reactivity perceived olaraq aşağıdır | High |
+| Replay QoL regression ciddi riskdir | High |
+| Standalone positioning daha uyğun ola bilərdi | Medium |
+| Platform fit divergence-in bir hissəsini izah edə bilər | Medium |
+
+---
+
+# 32. Mənbələr
+
+## Repository
+
+- `analysis/simulacra-3/research-kickoff.md`
+- `analysis/simulacra-3/theme-analysis.md`
+- `data/raw/simulacra-3/review_pages/`
+- `data/processed/simulacra-3/statistics.json`
+- `data/processed/simulacra-3/themes/statistics.json`
+- `data/reports/simulacra-3/summary.md`
+- `data/reports/simulacra-3/theme-candidates.md`
+
+## Franchise baseline
+
+- `analysis/simulacra/deep-research.md`
+- `analysis/simulacra/theme-analysis.md`
+
+## Xarici kontekst
+
+Kickoff sənədində qeyd olunan:
+- Steam store;
+- Apple App Store;
+- Kakuchopurei;
+- Kaigan Games franchise/interview mənbələri.
+
+## Status
+
+**Tier A dərin araşdırma:** tamamlanıb  
+**Növbəti:** presentation brief + SIMULACRA vs SIMULACRA 3 comparison
