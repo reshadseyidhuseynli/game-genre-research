@@ -2,7 +2,7 @@
 
 ## 0. Bu sənəd nə üçündür?
 
-Bu sənəd **Game Genre araşdırma** layihəsinin əsas kontekst və davamlılıq sənədidir.
+Bu sənəd **Oyun Janrı Araşdırması** layihəsinin əsas kontekst və davamlılıq sənədidir.
 
 Əgər əvvəlki ChatGPT söhbətinin konteksti itərsə, yeni chat açılsa və ya layihəni başqa bir AI/komanda üzvü davam etdirsə, əvvəlcə bu fayl oxunmalıdır. Bu sənəd layihənin:
 
@@ -10,16 +10,16 @@ Bu sənəd **Game Genre araşdırma** layihəsinin əsas kontekst və davamlıl�
 - araşdırma suallarını;
 - əhatə dairəsi-u;
 - istifadə edilən metodologiyanı;
-- data və dəlil qaydalarını;
+- məlumat və dəlil qaydalarını;
 - hər oyun üçün görüləcək işi;
 - oyunlararası müqayisə üsulunu;
 - final deliverable-ları;
-- rəhbərliyə təqdim ediləcək yekun report strukturunu;
+- rəhbərliyə təqdim ediləcək yekun hesabat strukturunu;
 - cari vəziyyəti və növbəti addımı
 
 müəyyən edir.
 
-Bu layihənin məqsədi **indidən oyun ideyası seçmək deyil**. Məqsəd ideya yaratmazdan və dəqiqləşdirməzdən əvvəl bazarda mövcud olan oxşar oyunları sistemli şəkildə öyrənmək, işləyən və işləməyən nümunə-ləri tapmaq və komandanın sonrakı concept qərarlarını dəlil ilə dəstəkləməkdir.
+Bu layihənin məqsədi **indidən oyun ideyası seçmək deyil**. Məqsəd ideya yaratmazdan və dəqiqləşdirməzdən əvvəl bazarda mövcud olan oxşar oyunları sistemli şəkildə öyrənmək, işləyən və işləməyən nümunələri tapmaq və komandanın sonrakı concept qərarlarını dəlil ilə dəstəkləməkdir.
 
 ---
 
@@ -44,7 +44,7 @@ Bu qayda əvvəlki və gələcək bütün `analysis/` sənədlərinə tətbiq ed
 Yeni AI sessiyası və ya yeni komanda üzvü bu ardıcıllıqla başlamalıdır:
 
 1. **Bu faylı tam oxu:** `RESEARCH_MASTER_BRIEF.md`
-2. **Data pipeline qaydalarını oxu:** `AGENTS.md`
+2. **məlumat pipeline qaydalarını oxu:** `AGENTS.md`
 3. **Repo-nun texniki istifadəsini oxu:** `README.md`
 4. `analysis/` qovluğunda hazır olan araşdırmaları yoxla.
 5. `data/reports/` və `data/processed/` altında hansı oyunların datasının hazır olduğunu yoxla.
@@ -56,16 +56,16 @@ Sənədlərin rolu:
 | Fayl / qovluq | Rolu |
 |---|---|
 | `RESEARCH_MASTER_BRIEF.md` | Layihənin məqsədi, metodologiyası, deliverable standartı və cari araşdırma istiqaməti |
-| `AGENTS.md` | Kod, data collection, reproducibility və pipeline qaydaları |
+| `AGENTS.md` | Kod, məlumat collection, reproducibility və pipeline qaydaları |
 | `README.md` | Texniki setup və command-lar |
-| `data/raw/<game>/` | Mənbədən gələn dəyişdirilməmiş xam data |
-| `data/processed/<game>/` | Təmizlənmiş və analysis-ready data |
+| `data/raw/<game>/` | Mənbədən gələn dəyişdirilməmiş xam məlumat |
+| `data/processed/<game>/` | Təmizlənmiş və təhlil-ready məlumat |
 | `data/reports/<game>/summary.md` | Avtomatik, deterministik statistik xülasə; interpretasiya etmir |
 | `analysis/<game>/deep-research.md` | Həmin oyun üzrə qualitative + quantitative + external araşdırma interpretasiyası |
 | `analysis/comparisons/` | Oxşar oyunların birbaşa müqayisəsi |
 | `analysis/final/` | Rəhbərliyə və komanda qərarlarına təqdim ediləcək yekun sənədlər |
 
-Əgər sənədlər arasında araşdırma məqsədi baxımından uyğunsuzluq varsa, bu master brief əsas götürülür. Kod/data integrity məsələlərində isə `AGENTS.md` qaydaları qorunmalıdır.
+Əgər sənədlər arasında araşdırma məqsədi baxımından uyğunsuzluq varsa, bu master brief əsas götürülür. Kod/məlumat integrity məsələlərində isə `AGENTS.md` qaydaları qorunmalıdır.
 
 ---
 
@@ -104,7 +104,7 @@ Bu araşdırma-in sonunda komanda yeni oyun ideyasını yaratmalı və ya mövcu
 
 Yəni araşdırmanın əsas biznes/məhsul sualı belədir:
 
-> **Bu geniş janrda hansı oyunçu rol hissi-si, oyun gedişi loop-u, UI modeli, narrative delivery üsulu və sistem dərinliyi işləyir; hansı yanaşmalar repetition, confusion, shallow oyun gedişi, yanlış expectation və zəif bazar response yaradır; bizim komanda hansı imkan-ləri daha ağıllı şəkildə hədəfləyə bilər?**
+> **Bu geniş janrda hansı oyunçu rol hissi-si, oyun gedişi loop-u, UI modeli, narrative delivery üsulu və sistem dərinliyi işləyir; hansı yanaşmalar təkrarçılıq, confusion, dayaz oyun gedişi, yanlış expectation və zəif bazar response yaradır; bizim komanda hansı imkan-ləri daha ağıllı şəkildə hədəfləyə bilər?**
 
 Araşdırmanın məqsədi “filan oyunu kopyalayaq” nəticəsinə gəlmək deyil.
 
@@ -126,8 +126,8 @@ Hər oyun və bütün janr üzrə aşağıdakı suallara cavab axtarılır.
 
 ## 4.1. Attraction / purchase
 
-- Oyun bir cümlədə hansı rol hissi-ni satır?
-- İnsan niyə store page-də buna maraq göstərir?
+- Oyun bir cümlədə hansı rol hissini satır?
+- İnsan niyə mağaza page-də buna maraq göstərir?
 - Trailer, screenshot və description hansı vədi verir?
 - Oyun hansı auditoriyanı cəlb edir?
 - Hansı bazar təqdimat işləyir?
@@ -139,7 +139,7 @@ Hər oyun və bütün janr üzrə aşağıdakı suallara cavab axtarılır.
 - ilk əyləncəli ana qədər vaxt nə qədərdir?
 - ilkin öyrətmə necə işləyir?
 - İlk saatlarda niyə insanlar qalır və ya çıxır?
-- UI və command sistemi qorxuducudur, yoxsa rol hissi-ni gücləndirir?
+- UI və command sistemi qorxuducudur, yoxsa rol hissini gücləndirir?
 
 ## 4.3. əsas oyun dövrü
 
@@ -149,10 +149,10 @@ Hər oyun və bütün janr üzrə aşağıdakı suallara cavab axtarılır.
 - alət-lar real seçim yaradır, yoxsa sadəcə doğru “açarı” seçməkdir?
 - Oyunçu problem həll edir, yoxsa məlum sequence-ni təkrar edir?
 
-## 4.4. oyunçunun rol hissi və immersion
+## 4.4. oyunçunun rol hissi və oyuna dalma hissi
 
 - Oyunçu özünü kim kimi hiss etməlidir?
-- UI bu rol hissi-ni necə yaradır?
+- UI bu rol hissini necə yaradır?
 - Audio, visual geribildirim, typing, network, files, messages və s. bu hissə necə xidmət edir?
 - Realizm nə qədər lazımdır?
 - “Kifayət qədər real” ilə “oynamaq üçün sadələşdirilmiş” arasındakı balans necə qurulub?
@@ -171,15 +171,15 @@ Hər oyun və bütün janr üzrə aşağıdakı suallara cavab axtarılır.
 - hekayə necə təqdim olunur?
 - Email, file, log, chat, voice, cutscene və s. hansı rolu oynayır?
 - hekayə oyun gedişi-in içindədir, yoxsa oyun gedişi-dən ayrıdır?
-- hekayə repetition-ı gizlədir, yoxsa mechanic özü kifayət qədər güclüdür?
+- hekayə təkrarçılıq-ı gizlədir, yoxsa mexanika özü kifayət qədər güclüdür?
 - Yadda qalan narrative/oyun gedişi momentləri hansılardır?
 
 ## 4.7. Progression və pacing
 
-- Yeni alət, mechanic, permission, hekayə layer nə vaxt açılır?
+- Yeni alət, mexanika, permission, hekayə qat nə vaxt açılır?
 - Oyun nə vaxt monotonlaşmağa başlayır?
 - Difficulty necə artır?
-- Progression real yeni decision yaradır, yoxsa sadəcə daha çox eyni action verir?
+- Progression real yeni qərar yaradır, yoxsa sadəcə daha çox eyni action verir?
 - Oyun uzunluğu əsas oyun dövrü-a uyğundurmu?
 
 ## 4.8. nəticə və dünyanın reaksiyası
@@ -192,7 +192,7 @@ Hər oyun və bütün janr üzrə aşağıdakı suallara cavab axtarılır.
 ## 4.9. çətinlik və uğursuzluq
 
 - Ən çox mənfi rəy yazdıran səbəblər hansılardır?
-- Repetition harada yaranır?
+- təkrarçılıq harada yaranır?
 - UI çətinlik varmı?
 - Instructions qeyri-müəyyəndirmi?
 - Realizm expectation-u pozulurmu?
@@ -204,7 +204,7 @@ Hər oyun və bütün janr üzrə aşağıdakı suallara cavab axtarılır.
 - təkrar oynama dəyəri varmı?
 - Multiple path / finals varmı?
 - mod dəstəyi varmı?
-- Community məzmun ömrü uzadırmı?
+- icma məzmun ömrü uzadırmı?
 - Sequel-də nələr dəyişib və nəticə yaxşılaşıb/pisləşibmi?
 
 ---
@@ -243,8 +243,8 @@ Məsələn:
 - qiymət;
 - rəy sayı;
 - Steam tövsiyəsi ratio;
-- developer-in açıq dediyi məlumat;
-- oyunda bir mechanic-in mövcud olması.
+- yaradıcı-in açıq dediyi məlumat;
+- oyunda bir mexanika-in mövcud olması.
 
 Bunlar mənbə ilə birbaşa göstərilə bilər.
 
@@ -252,8 +252,8 @@ Bunlar mənbə ilə birbaşa göstərilə bilər.
 
 Məsələn:
 
-- müxtəlif Steam rəy sample-larında repetition şikayətinin təkrar görünməsi;
-- Reddit və professional rəy-lərdə eyni problemin qeyd olunması;
+- müxtəlif Steam rəy nümunə-larında təkrarçılıq şikayətinin təkrar görünməsi;
+- Reddit və peşəkar rəylərdə eyni problemin qeyd olunması;
 - oyun müddəti segmentlərində aydın fərqin görünməsi.
 
 Bu artıq sadə anecdote deyil, amma yenə də səbəb-nəticə kimi təqdim edilməməlidir.
@@ -262,11 +262,11 @@ Bu artıq sadə anecdote deyil, amma yenə də səbəb-nəticə kimi təqdim edi
 
 Məsələn:
 
-> “Hacknet-in əsas commercial üstünlüyü realizm yox, özünü haker kimi hiss etmə-sinin accessibility ilə verilməsidir.”
+> “Hacknet-in əsas commercial üstünlüyü realizm yox, özünü haker kimi hiss etmə-sinin əlçatanlıq ilə verilməsidir.”
 
 Bu dəlil-dən çıxarılan məhsul/dizayn nəticəsidir.
 
-Final report-da A, B və C bir-biri ilə qarışdırılmamalıdır.
+Final hesabat-da A, B və C bir-biri ilə qarışdırılmamalıdır.
 
 ---
 
@@ -313,7 +313,7 @@ Məqsəd yalnız uğurlu oyunları öyrənmək deyil.
 - Keyword: A Spider’s Thread
 - Tech Support: Error Unknown
 
-Bu siyahı dəyişə bilər. Oyunların “successful / medium / weak” təsnifatı moral keyfiyyət hökmü deyil; bazar/rəy/traction kontekstində araşdırma grouping-dir və istifadə edilən metriklər hər report-da ayrıca göstərilməlidir.
+Bu siyahı dəyişə bilər. Oyunların “successful / medium / weak” təsnifatı moral keyfiyyət hökmü deyil; bazar/rəy/traction kontekstində araşdırma grouping-dir və istifadə edilən metriklər hər hesabat-da ayrıca göstərilməlidir.
 
 ---
 
@@ -321,7 +321,7 @@ Bu siyahı dəyişə bilər. Oyunların “successful / medium / weak” təsnif
 
 Ən çox informasiya verəcəyi gözlənilən müqayisələr:
 
-## 8.1. Terminal/hacking
+## 8.1. terminal və hakerlik
 
 ```text
 Hacknet
@@ -353,7 +353,7 @@ Need to Know
 
 Araşdırılan sual:
 
-> Information-axtarış və araşdırma oyun gedişi-i nə vaxt satisfying məntiqi nəticə çıxarma olur, nə vaxt sadəcə text/data oxumağa çevrilir?
+> Information-axtarış və araşdırma oyun gedişi-i nə vaxt satisfying məntiqi nəticə çıxarma olur, nə vaxt sadəcə text/məlumat oxumağa çevrilir?
 
 ## 8.3. Found-device / phone interface
 
@@ -385,46 +385,46 @@ Bu oyunlar final genre conclusions üçün əsas dəlil bazasını təşkil edir
 - full Steam rəy məlumat toplusu;
 - verification;
 - deterministic statistics;
-- mövzu/aspect scan;
+- mövzu/aspect yoxlama;
 - məna yönümlü yoxlama;
 - external araşdırma;
-- developer intent;
-- professional/community mənbələr;
+- yaradıcı intent;
+- peşəkar/icma mənbələr;
 - `analysis/<game>/deep-research.md`
 
 hazırlanmalıdır.
 
 | Oyun | Səbəb | vəziyyət |
 |---|---|---|
-| Hacknet | Terminal/özünü haker kimi hiss etmə və accessibility baseline | **Tamamlanıb** |
+| Hacknet | Terminal/özünü haker kimi hiss etmə və əlçatanlıq baseline | **Tamamlanıb** |
 | Midnight Protocol | taktiki/system-dərinlik contrast | **Tamamlanıb** |
 | Cyber Manhunt | Information/məntiqi nəticə çıxarma və social-engineering modeli | **Tamamlanıb** |
-| The Operator | Focused dəlil-analysis və modern araşdırma UX | **Növbəti** |
+| The Operator | Focused dəlil-təhlil və modern araşdırma UX | **Növbəti** |
 | Orwell: Keeping an Eye On You | Surveillance, information selection, ethics | Not started |
 | Mainlining | Hacking + araşdırma + seçim; underperforming comparator | Not started |
 | SIMULACRA | Found-device/phone araşdırma baseline | Not started |
 | SIMULACRA 3 | Eyni franchise daxilində weaker outcome müqayisə | Not started |
 
-Tier A siyahısı araşdırma-in əsas məcburi oyun setidir. Oyun yalnız ciddi data-access problemi və ya əhatə dairəsi dəyişməsi səbəbilə çıxarıla bilər; səbəb master brief-də qeyd edilməlidir.
+Tier A siyahısı araşdırma-in əsas məcburi oyun setidir. Oyun yalnız ciddi məlumat-access problemi və ya əhatə dairəsi dəyişməsi səbəbilə çıxarıla bilər; səbəb master brief-də qeyd edilməlidir.
 
 ### Tier B — Məqsədli müqayisəli araşdırma
 
 Bu oyunlara tam dərin araşdırma yalnız əlavə dəlil lazım olarsa tətbiq edilir. Default metod:
 
 - Məhsul və bazar görünüşü;
-- store təqdimat;
-- targeted Steam rəy sample və ya kiçik məlumat toplusu;
-- əsas positive/negative nümunə-lər;
-- relevant developer/professional/community mənbə-lar;
-- mövcud Tier A hipotezlərini test edən qısa focused report.
+- mağaza təqdimat;
+- targeted Steam rəy nümunə və ya kiçik məlumat toplusu;
+- əsas müsbət/mənfi nümunə-lər;
+- relevant yaradıcı/peşəkar/icma mənbə-lar;
+- mövcud Tier A hipotezlərini test edən qısa focused hesabat.
 
 | Oyun | Əsas araşdırma rolu |
 |---|---|
 | Cyber Manhunt 2 | Original-dakı lokallaşdırma/linearity problemlərinin sequel-də necə dəyişdiyini yoxlamaq |
 | Need to Know | Orwell üçün weaker surveillance/bureaucracy comparator |
 | Song of Farca | Remote araşdırma, surveillance və dialogue/seçim |
-| Grey Hack | Simulation-heavy hacking və realism/accessibility ekstremi |
-| NITE Team 4 | Daha professional/realistic cyber-operation rol hissi |
+| Grey Hack | Simulation-heavy hacking və realizm/əlçatanlıq ekstremi |
+| NITE Team 4 | Daha peşəkar/realistic cyber-operation rol hissi |
 | Hypnospace Outlaw | Fictional internet, exploration və information archaeology |
 | CaseCracker | Case-solving, ipucu relationship və məntiqi nəticə çıxarma structure |
 | Welcome to the Game II | Browser/interface rol hissi, pressure və sistemli threat |
@@ -433,7 +433,7 @@ Tier B oyunu gözlənilmədən çox vacib yeni nümunə göstərərsə **Tier A-
 
 ### Tier C — Sürətli istinad / kontekst
 
-Bu oyunlar əsas dəlil bazası deyil. Onlardan konkret sualı cavablandırmaq, bazar/context nümunəsi vermək və ya müəyyən mechanic-i yoxlamaq üçün istifadə olunur.
+Bu oyunlar əsas dəlil bazası deyil. Onlardan konkret sualı cavablandırmaq, bazar/context nümunəsi vermək və ya müəyyən mexanika-i yoxlamaq üçün istifadə olunur.
 
 - SIMULACRA 2
 - CaseCracker2
@@ -448,7 +448,7 @@ Bu oyunlar əsas dəlil bazası deyil. Onlardan konkret sualı cavablandırmaq, 
 - Welcome to the Game (birinci oyun, lazım olduqda sequel context üçün)
 
 Quick-reference araşdırma adətən:
-- store/bazar snapshot;
+- mağaza/bazar snapshot;
 - 10–30 yüksək-informasiya rəy;
 - 1–3 external mənbə;
 - konkret araşdırma sualına qısa qeyd
@@ -466,7 +466,7 @@ Oyun yalnız bu hallarda yuxarı tier-ə qaldırılır:
 4. final imkan/risk qərarını material şəkildə dəyişə bilər.
 
 Oyun aşağı tier-ə yalnız:
-- data əlçatmazdır;
+- məlumat əlçatmazdır;
 - digər oyunla demək olar eyni dəlil verir;
 - araşdırma saturation artıq həmin sualı kifayət qədər cavablandırıb
 
@@ -481,15 +481,15 @@ Hər oyun mümkün qədər eyni metodla araşdırılmalıdır ki, sonradan müqa
 Topla:
 
 - release date;
-- developer/publisher;
+- yaradıcı/publisher;
 - current/base price;
 - Steam rəy sayı;
-- positive/mənfi rəy nisbəti;
+- müsbət/mənfi rəy nisbəti;
 - estimated owners/sales varsa;
 - estimate mənbəyi;
 - rəy volume;
 - Steam tags;
-- store description;
+- mağaza description;
 - screenshots/trailer təqdimat;
 - DLC/sequel/mod dəstəyi;
 - təxmini oyun uzunluğu;
@@ -505,9 +505,9 @@ Mümkün olduqda bir neçə estimate mənbəyi triangulate edilməlidir.
 
 ## Mərhələ 2 — Steam rəy məlumat toplusu
 
-Mümkün qədər bütün English public rəy-ləri topla.
+Mümkün qədər bütün English public rəyləri topla.
 
-Minimum metadata:
+Minimum metaməlumat:
 
 - rəy id;
 - recommendation;
@@ -515,13 +515,13 @@ Minimum metadata:
 - creation/update date;
 - oyun müddəti at rəy;
 - total oyun müddəti;
-- helpful votes;
+- faydalı votes;
 - purchase/free/refund flags;
-- author rəy count və mövcud digər metadata.
+- author rəy count və mövcud digər metaməlumat.
 
-Raw data immutable saxlanmalıdır.
+Raw məlumat immutable saxlanmalıdır.
 
-Processed data raw data-dan yenidən yaradıla bilməlidir.
+Processed məlumat raw məlumat-dan yenidən yaradıla bilməlidir.
 
 ---
 
@@ -533,7 +533,7 @@ Processed data raw data-dan yenidən yaradıla bilməlidir.
 - oyun müddəti conversion;
 - oyun müddəti segmentation;
 - basic statistics;
-- deterministic helpful/recent/low/high oyun müddəti samples;
+- deterministic faydalı/son dövr/low/high oyun müddəti nümunələr;
 - verification.
 
 Bu mərhələdə interpretation edilməməlidir.
@@ -546,22 +546,22 @@ Bu mərhələdə interpretation edilməməlidir.
 
 ## Mərhələ 4 — Qualitative taxonomy kəşf
 
-Əvvəlcə rəy-lərin seçilmiş, müxtəlif sample-ları oxunmalıdır:
+Əvvəlcə rəylərin seçilmiş, müxtəlif nümunə-ları oxunmalıdır:
 
-- helpful positive;
-- helpful negative;
-- recent positive;
-- recent negative;
+- faydalı müsbət;
+- faydalı mənfi;
+- son dövr müsbət;
+- son dövr mənfi;
 - low oyun müddəti;
 - high oyun müddəti;
-- lazım olduqda random/stratified sample.
+- lazım olduqda random/stratified nümunə.
 
 Məqsəd əvvəlcədən hazırlanmış mövzu siyahısını kor-koranə tətbiq etmək yox, **oyunun öz datasından taxonomy çıxarmaqdır**.
 
 İlkin ümumi mövzu nümunələri:
 
 - oyunçunun rol hissi;
-- immersion;
+- oyuna dalma hissi;
 - UI;
 - terminal;
 - hekayə;
@@ -574,9 +574,9 @@ Məqsəd əvvəlcədən hazırlanmış mövzu siyahısını kor-koranə tətbiq 
 - puzzle;
 - difficulty;
 - ilkin öyrətmə;
-- repetition;
+- təkrarçılıq;
 - dərinlik;
-- realism;
+- realizm;
 - texniki düzgünlük;
 - oyunçunun qərar sərbəstliyi və təsiri;
 - nəticələr;
@@ -592,9 +592,9 @@ Hər oyun üçün taxonomy genişlənə və ya dəyişə bilər.
 
 ---
 
-## Mərhələ 5 — Aspect-based rəy analysis
+## Mərhələ 5 — Aspect-based rəy təhlil
 
-Sadəcə rəy-un overall positive/negative olması kifayət deyil.
+Sadəcə rəyin overall müsbət/mənfi olması kifayət deyil.
 
 Məsələn:
 
@@ -611,7 +611,7 @@ HACKING_LOOP → negative
 Hər rəy:
 
 - 0..N mövzu;
-- hər mövzu üçün sentiment: positive / negative / mixed / neutral;
+- hər mövzu üçün sentiment: müsbət / mənfi / mixed / neutral;
 - lazım olsa etibarlılıq
 
 daşıya bilər.
@@ -620,12 +620,12 @@ Mümkün qədər full məlumat toplusu classification edilir.
 
 Əgər full-məlumat toplusu LLM classification texniki və ya cost səbəbindən mümkün deyilsə:
 
-1. stratified sample yaradılır;
-2. taxonomy həmin sample üzərində tətbiq edilir;
+1. stratified nümunə yaradılır;
+2. taxonomy həmin nümunə üzərində tətbiq edilir;
 3. keyword-assisted genişlənmə aparılır;
-4. nəticənin sample-based olduğu report-da açıq yazılır.
+4. nəticənin nümunə-based olduğu hesabat-da açıq yazılır.
 
-Heç vaxt sample nəticəsi full population faizi kimi təqdim edilmir.
+Heç vaxt nümunə nəticəsi full population faizi kimi təqdim edilmir.
 
 ---
 
@@ -633,9 +633,9 @@ Heç vaxt sample nəticəsi full population faizi kimi təqdim edilmir.
 
 Avtomatik classification kor-koranə qəbul edilməməlidir.
 
-Minimum audit:
+Minimum yoxlama:
 
-- positive və negative;
+- müsbət və mənfi;
 - low və high oyun müddəti;
 - common və rare mövzu-lər
 
@@ -647,7 +647,7 @@ Model/prompt versiyası mümkün olduqda saxlanmalıdır.
 
 ---
 
-## Mərhələ 7 — oyun müddəti və cohort analysis
+## Mərhələ 7 — oyun müddəti və cohort təhlil
 
 Araşdır:
 
@@ -655,14 +655,14 @@ Araşdır:
 - 1–3h;
 - 3–10h;
 - 10h+;
-- recent vs historical;
-- helpful vs ordinary;
+- son dövr vs historical;
+- faydalı vs ordinary;
 - refunded varsa;
 - technical complaint vs dizayn complaint.
 
 Əsas suallar:
 
-- erkən churn-a bənzər negative geribildirim nədir?
+- erkən churn-a bənzər mənfi geribildirim nədir?
 - uzun oynayanların şikayəti nədir?
 - uzun oynayanlar hansı dəyərə görə qalır?
 - illər keçdikcə complaint profile dəyişirmi?
@@ -671,7 +671,7 @@ Correlation səbəb-nəticə kimi təqdim edilməməlidir.
 
 ---
 
-## Mərhələ 8 — Reddit və community araşdırma
+## Mərhələ 8 — Reddit və icma araşdırma
 
 Axtar:
 
@@ -684,7 +684,7 @@ Axtar:
 - “games like X”;
 - “why did you stop playing?”;
 - sequel müqayisə;
-- technical audience reaction.
+- texniki auditoriya reaction.
 
 Xüsusilə yüksək dəyərli cümlələr:
 
@@ -693,7 +693,7 @@ Xüsusilə yüksək dəyərli cümlələr:
 - “I stopped because…”
 - “The part I still remember is…”
 
-Community materialı Steam rəy-ləri ilə cross-check edilməlidir.
+icma materialı Steam rəyləri ilə cross-check edilməlidir.
 
 ---
 
@@ -714,12 +714,12 @@ Buna görə oyun gedişi dəlil ayrıca vacibdir.
 
 Analiz ediləcək:
 
-- ilk interaction;
-- tutorial;
+- ilk qarşılıqlı əlaqə;
+- təlim hissəsi;
 - ilk əyləncəli ana qədər vaxt;
-- mechanic introduction timeline;
+- mexanika introduction timeline;
 - neçə dəqiqədən bir yeni sistem açılır;
-- interaction density;
+- qarşılıqlı əlaqə density;
 - reading vs doing balansı;
 - uğursuzluq/yenidən cəhd;
 - UI çətinlik;
@@ -729,29 +729,29 @@ Video/transcript dəlil rəy fikri ilə qarışdırılmamalıdır.
 
 ---
 
-## Mərhələ 10 — Professional rəylər
+## Mərhələ 10 — peşəkar rəylər
 
-Professional rəy-lərin rolu:
+peşəkar rəylərin rolu:
 
 - structure/pacing;
-- game-dizayn language;
+- oyun dizaynı language;
 - broader müqayisə;
 - launch-period problemləri
 
 haqqında əlavə context verməkdir.
 
-Professional rəy oyunçu datasını əvəz etmir.
+peşəkar rəy oyunçu datasını əvəz etmir.
 
 ---
 
-## Mərhələ 11 — Developer interview / postmortem
+## Mərhələ 11 — yaradıcı interview / postmortem
 
 Mümkün olduqda araşdır:
 
-- developer-in ilkin məqsədi;
+- yaradıcı-in ilkin məqsədi;
 - prototype necə yaranıb;
 - target audience;
-- hansı mechanic dəyişdirilib;
+- hansı mexanika dəyişdirilib;
 - development constraints;
 - hansı geribildirim-ə reaksiya verilib;
 - sequel/DLC-də niyə dəyişiklik edilib;
@@ -767,13 +767,13 @@ player experienced outcome
 
 ---
 
-## Mərhələ 12 — Store təqdimat analizi
+## Mərhələ 12 — mağaza təqdimat analizi
 
 Araşdır:
 
 - oyun özünü hansı cümlə ilə satır;
 - screenshot-lar nə göstərir;
-- trailer-də hansı interaction prioritetdir;
+- trailer-də hansı qarşılıqlı əlaqə prioritetdir;
 - tags hansı expectation yaradır;
 - “realistic”, “simulation”, “hekayə-rich” və s. sözlər oyunçu expectation-a necə təsir edir.
 
@@ -793,9 +793,9 @@ Bu sənəd sadəcə mənbə summary deyil; **dizayn/məhsul interpretation** olm
 
 ---
 
-# 10. Hər oyun üçün deep-araşdırma report standartı
+# 10. Hər oyun üçün deep-araşdırma hesabat standartı
 
-Hər `analysis/<game>/deep-research.md` mümkün qədər eyni professional strukturu izləməlidir.
+Hər `analysis/<game>/deep-research.md` mümkün qədər eyni peşəkar strukturu izləməlidir.
 
 ## 1. Rəhbərlik üçün xülasə
 
@@ -816,13 +816,13 @@ Rəhbər yalnız bu bölməni oxusa belə əsas mənzərəni anlamalıdır.
 - tarix aralığı;
 - external mənbə-lar;
 - limitations;
-- classification coverage;
+- classification əhatə;
 - etibarlılıq.
 
 ## 3. Məhsul və bazar görünüşü
 
 - release;
-- developer/publisher;
+- yaradıcı/publisher;
 - price;
 - traction göstəriciləri;
 - rəy göstəriciləri;
@@ -841,9 +841,9 @@ Rəhbər yalnız bu bölməni oxusa belə əsas mənzərəni anlamalıdır.
 
 - ilkin cəlbedicilik;
 - rol hissi;
-- store promise;
+- mağaza promise;
 - visual identity;
-- novelty;
+- yenilik effekti;
 - audience motivation.
 
 ## 6. oyunda qalma: insanlar niyə davam edir?
@@ -855,29 +855,29 @@ Rəhbər yalnız bu bölməni oxusa belə əsas mənzərəni anlamalıdır.
 - tension;
 - collection;
 - curiosity;
-- social/community məzmun.
+- social/icma məzmun.
 
 ## 7. ilkin öyrətmə və ilk sessiya
 
 - first 5/15/30/60 min;
 - çətinlik;
-- early negative mövzular;
+- early mənfi mövzular;
 - learning curve.
 
 ## 8. əsas oyun dövrü və sistem dərinliyi
 
 - loop breakdown;
 - qərar sıxlığı;
-- mechanic variation;
+- mexanika variation;
 - progression;
-- repetition onset;
+- təkrarçılıq onset;
 - mənalı seçim.
 
-## 9. UI/UX və Immersion
+## 9. UI/UX və oyuna dalma hissi
 
 - interface-as-world;
 - usability;
-- authenticity;
+- həqiqilik hissi;
 - audio/visual geribildirim;
 - technical-user expectation.
 
@@ -895,8 +895,8 @@ Rəhbər yalnız bu bölməni oxusa belə əsas mənzərəni anlamalıdır.
 mövzu/aspect cədvəlləri:
 
 - mention count;
-- positive;
-- negative;
+- müsbət;
+- mənfi;
 - mixed;
 - segmentlər;
 - mümkün olduqda oyun müddəti fərqləri.
@@ -929,7 +929,7 @@ Hansı audience üçün oyun işləyir və harada expectation mismatch yaranır?
 
 ## 15. Yaradıcı məqsədi ilə oyunçu təcrübəsinin müqayisəsi
 
-Developer məqsədi məlumdursa, real oyunçu geribildirim ilə müqayisə et.
+yaradıcı məqsədi məlumdursa, real oyunçu geribildirim ilə müqayisə et.
 
 ## 16. Uğurun / zəifliyin izah hipotezləri
 
@@ -971,7 +971,7 @@ Daxili məlumat toplusu və Açıq mənbələr.
 
 ---
 
-# 11. Oyunlararası müqayisə report standartı
+# 11. Oyunlararası müqayisə hesabat standartı
 
 Path:
 
@@ -987,7 +987,7 @@ Nəyi anlamaq üçün müqayisə edirik?
 
 ## 2. Why These Games Are Comparable
 
-Ortaq rol hissi, mechanic, audience və ya interface.
+Ortaq rol hissi, mexanika, audience və ya interface.
 
 ## 3. Məhsul və bazar görünüşü
 
@@ -999,7 +999,7 @@ Eyni metriklərlə yan-yana.
 
 ## 6. ilkin öyrətmə
 
-## 7. dərinlik və Repetition
+## 7. dərinlik və təkrarçılıq
 
 ## 8. Narrative Integration
 
@@ -1023,7 +1023,7 @@ Bu müqayisədən bizim layihəyə nə keçir?
 
 ---
 
-# 12. Cross-game genre synthesis
+# 12. oyunlararası genre synthesis
 
 Path:
 
@@ -1031,7 +1031,7 @@ Path:
 
 Bu sənəd individual oyunları təkrar xülasə etməməlidir.
 
-Məqsəd **oyunlar arasında təkrarlanan nümunə-ləri** çıxarmaqdır.
+Məqsəd **oyunlar arasında təkrarlanan nümunələri** çıxarmaqdır.
 
 Struktur:
 
@@ -1060,7 +1060,7 @@ Nə click və interest yaradır?
 
 ## 5. Satisfaction amillər
 
-Nə positive geribildirim yaradır?
+Nə müsbət geribildirim yaradır?
 
 ## 6. oyunda qalma amillər
 
@@ -1071,10 +1071,10 @@ Nə oyunçunu davam etdirməyə sövq edir?
 Məsələn:
 
 - repetitive fake hacking;
-- too much reading without interaction;
+- too much reading without qarşılıqlı əlaqə;
 - no mənalı nəticə;
 - confusing ilkin öyrətmə;
-- shallow “alət = key” systems;
+- dayaz “alət = key” systems;
 - fake seçim;
 - weak final;
 - technical instability;
@@ -1108,7 +1108,7 @@ Yeni oyunda ən böyük risklər hansılardır?
 
 ## 18. dizayn prinsipləri
 
-Yalnız bir neçə oyunda yox, cross-game dəlil ilə dəstəklənən qaydalar.
+Yalnız bir neçə oyunda yox, oyunlararası dəlil ilə dəstəklənən qaydalar.
 
 ## 19. Açıq suallar
 
@@ -1116,9 +1116,9 @@ Yalnız bir neçə oyunda yox, cross-game dəlil ilə dəstəklənən qaydalar.
 
 ---
 
-# 13. Rəhbərliyə təqdim ediləcək FINAL REPORT
+# 13. Rəhbərliyə təqdim ediləcək FINAL hesabat
 
-Əsas professional deliverable:
+Əsas peşəkar deliverable:
 
 `analysis/final/executive-genre-research-report.md`
 
@@ -1128,9 +1128,9 @@ Bu sənəd araşdırma arxivindən fərqlənməlidir.
 
 Məqsəd:
 
-> rəhbərin və game/məhsul komandasının 20–40 dəqiqə ərzində bazarı, oyunçu ehtiyaclarını, işləyən/işləməyən nümunə-ləri və concept development üçün əsas constraint-ləri anlaya bilməsi.
+> rəhbərin və game/məhsul komandasının 20–40 dəqiqə ərzində bazarı, oyunçu ehtiyaclarını, işləyən/işləməyən nümunələri və concept development üçün əsas constraint-ləri anlaya bilməsi.
 
-Final report aşağıdakı struktura sahib olmalıdır.
+Final hesabat aşağıdakı struktura sahib olmalıdır.
 
 ---
 
@@ -1200,10 +1200,10 @@ Hər rol hissi dəlil və oyun nümunələri ilə göstərilməlidir.
 
 ## 5. What Makes These Games Work
 
-Cross-game dəlil əsasında:
+oyunlararası dəlil əsasında:
 
 - ilkin cəlbedicilik;
-- immersion;
+- oyuna dalma hissi;
 - məlumat kəşfi;
 - sistem dərinliyi;
 - narrative integration;
@@ -1285,7 +1285,7 @@ Hələ konkret oyun ideyası deyil.
 Məsələn imkan-lər belə kateqoriyalaşdırıla bilər:
 
 - underserved rol hissi;
-- interaction imkan;
+- qarşılıqlı əlaqə imkan;
 - narrative imkan;
 - system-dərinlik imkan;
 - multiplayer/social imkan;
@@ -1311,12 +1311,12 @@ Yeni concept üçün əvvəlcədən görünən risklər:
 
 Məsələn:
 
-- novelty tez bitir;
+- yenilik effekti tez bitir;
 - command loop repetitive olur;
 - çox reading;
-- false realism expectation;
+- false realizm expectation;
 - məzmun production cost;
-- ilkin öyrətmə complexity;
+- ilkin öyrətmə mürəkkəblik;
 - weak təkrar oynama dəyəri;
 - UI çətinlik.
 
@@ -1333,8 +1333,8 @@ Mümkün sahələr:
 - rol hissi aydınlıq;
 - ilkin cəlbedicilik;
 - ilk əyləncəli ana qədər vaxt;
-- mechanic dərinlik;
-- repetition resistance;
+- mexanika dərinlik;
+- təkrarçılıq resistance;
 - narrative/oyun gedişi integration;
 - kəşf;
 - nəticə;
@@ -1367,35 +1367,35 @@ araşdırma bitəndən sonra:
 Rəhbər üçün də görünən olmalıdır.
 
 - Steam rəy bias;
-- public-data limitations;
-- owner estimate uncertainty;
+- public-məlumat limitations;
+- owner estimate qeyri-müəyyənlik;
 - self-selection;
 - rəy ≠ all oyunçular;
 - correlation ≠ causation;
 - game-playing yerine video/walkthrough dəlil istifadə edilməsi;
 - LLM classification limitations.
 
-Bu bölmə report-un etibarlılığı üçün vacibdir.
+Bu bölmə hesabat-un etibarlılığı üçün vacibdir.
 
 ---
 
 ## 15. Appendix
 
 - game list;
-- per-game report links;
-- müqayisə report links;
+- per-game hesabat links;
+- müqayisə hesabat links;
 - taxonomy;
-- data dictionary;
+- məlumat dictionary;
 - mənbə list;
 - əlavə cədvəllər.
 
 ---
 
-# 14. Final report-un keyfiyyət standartı
+# 14. Final hesabat-un keyfiyyət standartı
 
 Yekun sənədlər “ChatGPT cavabı” kimi görünməməlidir.
 
-Onlar professional araşdırma deliverable kimi hazırlanmalıdır.
+Onlar peşəkar araşdırma deliverable kimi hazırlanmalıdır.
 
 ## Yazı standartı
 
@@ -1405,13 +1405,13 @@ Onlar professional araşdırma deliverable kimi hazırlanmalıdır.
 - nəticə ilə dəlil ayrılmalıdır;
 - hər vacib nəticənin mənbəsi olmalıdır;
 - çox uzun rəy quote-ları istifadə edilməməlidir;
-- raw data əsas mətni boğmamalıdır;
+- raw məlumat əsas mətni boğmamalıdır;
 - leadership üçün ən vacib məlumat yuxarıda olmalıdır;
-- detail appendix və per-game report-lara ötürülməlidir.
+- detail appendix və per-game hesabat-lara ötürülməlidir.
 
 ## Vizual standart
 
-Final mərhələdə report-da mümkün olduqda:
+Final mərhələdə hesabat-da mümkün olduqda:
 
 - müqayisə tables;
 - mövzu charts;
@@ -1444,9 +1444,9 @@ etibarlılıq dəlil breadth və consistency-yə əsaslanmalıdır, “model his
 - Owner estimate-i exact sales kimi göstərmə.
 - “Successful game-də bu feature var, deməli feature uğurun səbəbidir” kimi səbəb-nəticə qurma.
 - Əvvəlcədən sevdiyimiz ideyanı doğrulamaq üçün dəlil seçmə.
-- Bütün technical audience-i eyni hesab etmə.
-- mənfi rəy-ləri yalnız “oyunçunun başa düşməməsi” kimi dismiss etmə.
-- müsbət rəy-ləri də avtomatik dizayn validation sayma.
+- Bütün texniki auditoriya-i eyni hesab etmə.
+- mənfi rəyləri yalnız “oyunçunun başa düşməməsi” kimi dismiss etmə.
+- müsbət rəyləri də avtomatik dizayn validation sayma.
 - Oyunları yalnız feature checklist ilə müqayisə etmə; rol hissi və oyunçu experience əsasdır.
 - araşdırma bitmədən konkret yeni concept-ə emosional bağlanma.
 
@@ -1458,14 +1458,14 @@ araşdırma mərhələsi o zaman tamamlanmış sayılır ki:
 
 1. əsas representative oyunların per-game deep araşdırma-i var;
 2. ən vacib successful-vs-underperforming müqayisə-lar hazırdır;
-3. recurring positive və negative mövzu-lər cross-game səviyyədə müəyyən edilib;
+3. recurring müsbət və mənfi mövzu-lər oyunlararası səviyyədə müəyyən edilib;
 4. oyunçunun rol hissi və audience segmentləri aydındır;
-5. bazar təqdimat nümunə-ləri çıxarılıb;
+5. bazar təqdimat nümunələri çıxarılıb;
 6. dizayn prinsipləri dəlil ilə dəstəklənir;
 7. imkan xəritəsi hazırlanıb;
 8. risk reyestri hazırlanıb;
 9. ideyaların qiymətləndirilməsi çərçivəsi hazırlanıb;
-10. `analysis/final/executive-genre-research-report.md` professional şəkildə tamamlanıb.
+10. `analysis/final/executive-genre-research-report.md` peşəkar şəkildə tamamlanıb.
 
 Bundan sonra ideya generation/selection ayrıca mərhələ kimi başlayır.
 
@@ -1476,10 +1476,10 @@ Bundan sonra ideya generation/selection ayrıca mərhələ kimi başlayır.
 
 Tamamlanma meyarı yalnız “bütün siyahını oxuduq” demək deyil. araşdırma aşağıdakı dörd şərt birlikdə ödənəndə bağlanır:
 
-### A. Məcburi coverage
+### A. Məcburi əhatə
 
 - bütün **Tier A** oyunları tamamlanıb və ya çıxarılma səbəbi sənədləşdirilib;
-- terminal/hacking, digital araşdırma, surveillance/information-selection və found-device/interface istiqamətlərinin hər birində ən azı bir güclü reference və bir contrast nümunəsi var.
+- terminal və hakerlik, digital araşdırma, surveillance/information-selection və found-device/interface istiqamətlərinin hər birində ən azı bir güclü reference və bir contrast nümunəsi var.
 
 ### B. Məcburi müqayisə-lar
 
@@ -1502,9 +1502,9 @@ Son 2–3 yeni deep/focused oyun:
 
 gətirmirsə və əsas nəticələr təkrar təsdiqlənirsə, əlavə oyunların marginal araşdırma value-su aşağı sayılır.
 
-Bu nöqtədən sonra yeni oyun əlavə etmək əvəzinə synthesis və decision-support sənədlərinə keçilir.
+Bu nöqtədən sonra yeni oyun əlavə etmək əvəzinə synthesis və qərar-support sənədlərinə keçilir.
 
-### D. Final decision-support package
+### D. Final qərar-support package
 
 Aşağıdakı final fayllar hazır olmadan araşdırma bitmiş sayılmır:
 
@@ -1522,12 +1522,12 @@ analysis/final/
 Bu faylların rolu:
 
 - `market-landscape.md` — bazar/subgenre xəritəsi və representative games;
-- `genre-synthesis.md` — cross-game recurring nümunə-lər;
+- `genre-synthesis.md` — oyunlararası recurring nümunə-lər;
 - `design-principles.md` — dəlil-backed dizayn qaydaları;
 - `opportunity-map.md` — həll olunmamış oyunçu/məhsul imkan-ləri;
 - `risk-register.md` — yeni concept üçün əsas risklər və validation üsulları;
 - `concept-evaluation-framework.md` — sonradan yaradılan ideyaları müqayisə etmək üçün rubric;
-- `executive-genre-research-report.md` — rəhbərliyə təqdim ediləcək əsas professional report.
+- `executive-genre-research-report.md` — rəhbərliyə təqdim ediləcək əsas peşəkar hesabat.
 
 **Yeni oyun ideyasının yaradılması araşdırma Tamamlanma meyarı-a daxil deyil.** Idea generation bu package tamamlandıqdan sonra ayrıca məhsul-kəşf mərhələsidir.
 
@@ -1537,13 +1537,13 @@ Bu faylların rolu:
 
 ### Phase 2 mövzu namizədi infrastructure
 
-Hacknet üçün bütün rəy toplusu üzrə mövzu/aspect analizindən əvvəl audit edilə bilən deterministik retrieval mərhələsi əlavə olunub:
+Hacknet üçün bütün rəy toplusu üzrə mövzu/aspect analizindən əvvəl yoxlama edilə bilən deterministik retrieval mərhələsi əlavə olunub:
 
 - `config/theme_taxonomy.yaml`
 - `src/processors/theme_candidates.py`
 - `src/reports/theme_candidate_report.py`
 
-Bu mərhələ final məna yönümlü classification deyil. Məqsədi bütün rəy corpus-da mövzu namizədlərini tapmaq, oyun müddəti və overall recommendation paylanmasını ölçmək və hər mövzu üçün manual/LLM audit sample-ları yaratmaqdır.
+Bu mərhələ final məna yönümlü classification deyil. Məqsədi bütün rəy corpus-da mövzu namizədlərini tapmaq, oyun müddəti və overall recommendation paylanmasını ölçmək və hər mövzu üçün manual/LLM yoxlama nümunə-ları yaratmaqdır.
 
 Generated çıxış-lar script lokalda işə salındıqdan sonra:
 
@@ -1560,23 +1560,23 @@ Vahid command:
 
 `python -m src.theme_pipeline --game hacknet`
 
-`positive/negative` sample-lar helpful rəy-ləri prioritetləşdirir. `audit` sample-lar isə recommendation və oyun müddəti qrupu-ları arasında deterministik balans yaradır ki, validation yalnız viral/helpful rəy-lərə bağlı qalmasın.
+`positive/negative` nümunə-lar faydalı rəyləri prioritetləşdirir. `audit` nümunə-lar isə recommendation və oyun müddəti qrupu-ları arasında deterministik balans yaradır ki, validation yalnız viral/faydalı rəylərə bağlı qalmasın.
 
 
 ### araşdırma infrastructure
 
 Steam üçün reproducible araşdırma pipeline qurulub:
 
-- metadata collection;
-- paginated English Steam rəy collection;
+- metaməlumat collection;
+- paginated ingilisdilli Steam rəyi collection;
 - immutable raw pages;
 - resume;
 - normalization;
 - deduplication;
 - oyun müddəti segmentation;
 - statistics;
-- samples;
-- deterministic report;
+- nümunələr;
+- deterministic hesabat;
 - integrity verification;
 - cross-platform line-final handling.
 
@@ -1586,19 +1586,19 @@ Hacknet Steam App ID: `365450`
 
 Verified məlumat toplusu:
 
-- raw rəylər: **11,773**
-- unique rəylər: **11,773**
-- positive: **11,082**
-- negative: **691**
+- xam rəylər: **11,773**
+- təkrarsız rəylər: **11,773**
+- müsbət: **11,082**
+- mənfi: **691**
 - müsbət rəy nisbəti: **94.13%**
 
 Verification uğurla keçir.
 
-Əsas data:
+Əsas məlumat:
 
 `data/processed/hacknet/`
 
-Deterministik report:
+Deterministik hesabat:
 
 `data/reports/hacknet/summary.md`
 
@@ -1610,13 +1610,13 @@ Hacknet üzrə əsas per-game araşdırma mərhələsi tamamlanıb:
 - `analysis/hacknet/theme-analysis.md`
 - `config/aspect_taxonomy.yaml`
 
-11,773 rəy üzrə bütün rəy toplusu üzrə mövzu namizədi scan və məna yönümlü yoxlama aparılıb. Əsas dəlil-backed nəticələr:
+11,773 rəy üzrə bütün rəy toplusu üzrə mövzu namizədi yoxlama və məna yönümlü yoxlama aparılıb. Əsas dəlil-backed nəticələr:
 
-- özünü haker kimi hiss etmə və immersion güclü satisfaction amil-ləridir;
+- özünü haker kimi hiss etmə və oyuna dalma hissi güclü satisfaction amil-ləridir;
 - hekayə, terminal və kəşf eyni experience stack-in hissələri kimi işləyir;
-- repetition əsas game-dizayn riskidir;
-- bugs/compatibility ayrıca böyük negative-rəy amil-dir;
-- selective authenticity full realism-dən daha sağlam görünür;
+- təkrarçılıq əsas oyun dizaynı riskidir;
+- bugs/compatibility ayrıca böyük mənfi-rəy amil-dir;
+- seçilmiş həqiqilik hissi tam realizm-dən daha sağlam görünür;
 - qərar sərbəstliyi/nəticə/dünyanın reaksiyası gələcək müqayisə-larda əsas imkan suallarıdır.
 
 Hacknet nəticələri artıq növbəti oyun üzərində test edilməlidir.
@@ -1625,20 +1625,20 @@ Hacknet nəticələri artıq növbəti oyun üzərində test edilməlidir.
 
 Midnight Protocol üzrə əsas araşdırma mərhələsi tamamlanıb:
 
-- verified Steam məlumat toplusu: **301 English rəy**
-- positive: **253**
-- negative: **48**
+- verified Steam məlumat toplusu: **301 ingilisdilli rəy**
+- müsbət: **253**
+- mənfi: **48**
 - `analysis/midnight-protocol/theme-analysis.md`
 - `analysis/midnight-protocol/deep-research.md`
 
 Bütün 48 mənfi rəy məna yönümlü yoxlama edilib. Əsas nəticələr:
 
-- növbə əsaslı taktiki model Hacknet-dən daha çox decision dərinlik yaradır;
-- RNG/fairness və yenidən cəhd/rollback əsas uğursuzluq amil-ləridir;
+- növbə əsaslı taktiki model Hacknet-dən daha çox qərar dərinlik yaradır;
+- RNG (təsadüfi nəticə mexanizmi) və ədalətlilik və yenidən cəhd/rollback əsas uğursuzluq amil-ləridir;
 - 1–3h cohort xüsusi risk nöqtəsidir;
-- yalnız klaviatura ilə control həm immersion amil, həm UX çətinlik-dır;
+- yalnız klaviatura ilə control həm oyuna dalma hissi amil, həm UX çətinlik-dır;
 - seçim/reputation Hacknet-də zəif olan oyunçunun qərar sərbəstliyi və təsiri/nəticə problemini xeyli yaxşı həll edir;
-- selective authenticity prinsipi ikinci oyunda da təsdiqlənir.
+- seçilmiş həqiqilik hissi prinsipi ikinci oyunda da təsdiqlənir.
 
 ### Hacknet vs Midnight Protocol
 
@@ -1646,7 +1646,7 @@ müqayisə tamamlanıb:
 
 `analysis/comparisons/hacknet-vs-midnight-protocol.md`
 
-Əsas cross-game tension:
+Əsas oyunlararası tension:
 
 ```text
 Hacknet:
@@ -1665,27 +1665,27 @@ deeper decision model
 Cyber Manhunt üzrə əsas araşdırma mərhələsi tamamlanıb:
 
 - verified Steam məlumat toplusu: **847 rəy**
-- positive: **681**
-- negative: **166**
+- müsbət: **681**
+- mənfi: **166**
 - `analysis/cyber-manhunt/theme-analysis.md`
 - `analysis/cyber-manhunt/deep-research.md`
 
 Əsas nəticələr:
 
-- 0–3h cohort çox yüksək risk daşıyır: 95 rəy-un 59-u negative-dir;
+- 0–3h cohort çox yüksək risk daşıyır: 95 rəyin 59-u mənfi-dir;
 - LINEARITY_SCRIPTING ən güclü dizayn risk-lərindən biridir;
 - lokallaşdırma/yazı keyfiyyəti text-heavy oyun gedişi-ə birbaşa təsir edir;
 - araşdırma rol hissi güclüdür, amma exact ipucu/progression dependency məntiqi nəticə çıxarma hissini zəiflədir;
-- information-driven oyun gedişi də repetition-dan immun deyil;
-- full realism tələb olunmur, selective authenticity üçüncü oyunda da işləyir.
+- information-driven oyun gedişi də təkrarçılıq-dan immun deyil;
+- tam realizm tələb olunmur, seçilmiş həqiqilik hissi üçüncü oyunda da işləyir.
 
 ### The Operator deep araşdırma
 
 The Operator üzrə əsas araşdırma mərhələsi tamamlanıb:
 
 - verified Steam məlumat toplusu: **3,781 rəy**
-- positive: **3,392**
-- negative: **389**
+- müsbət: **3,392**
+- mənfi: **389**
 - `analysis/the-operator/theme-analysis.md`
 - `analysis/the-operator/deep-research.md`
 - `analysis/comparisons/cyber-manhunt-vs-the-operator.md`
@@ -1696,7 +1696,7 @@ The Operator üzrə əsas araşdırma mərhələsi tamamlanıb:
 - interface/audio “operator” rol hissi-sini çox güclü dəstəkləyir;
 - linearlıq və zəif oyunçunun qərar sərbəstliyi və təsiri əsas dizayn riskidir;
 - final və tamamlanma hissi və qısa məzmun recommendation-a ciddi təsir edir;
-- bir dəfə istifadə olunan mechanic-lər variety yaradır, amma mastery yaratmır;
+- bir dəfə istifadə olunan mexanika-lər variety yaradır, amma mastery yaratmır;
 - aydınlıq və qərar sərbəstliyi birlikdə dizayn edilməlidir.
 
 ### Orwell deep araşdırma
@@ -1704,18 +1704,18 @@ The Operator üzrə əsas araşdırma mərhələsi tamamlanıb:
 Orwell üzrə əsas araşdırma mərhələsi tamamlanıb:
 
 - verified Steam məlumat toplusu: **8,549 rəy**
-- positive: **7,735**
-- negative: **814**
+- müsbət: **7,735**
+- mənfi: **814**
 - `analysis/orwell/theme-analysis.md`
 - `analysis/orwell/deep-research.md`
 
 Əsas nəticələr:
 
 - information selection + nəticə visibility əsas strength-dir;
-- privacy/surveillance və moral ambiguity ümumən positive amil-dir;
+- privacy/surveillance və moral ambiguity ümumən müsbət amil-dir;
 - auto-highlighting və adviser guidance məntiqi nəticə çıxarma/qərar sərbəstliyi-ni zəiflədən əsas risklərdir;
-- contradictory dəlil mənalı uncertainty yarada bilir, amma insufficient context blind seçim-a çevrilə bilər;
-- irreversible information decision yalnız informed commitment olduqda sağlamdır;
+- contradictory dəlil mənalı qeyri-müəyyənlik yarada bilir, amma insufficient context blind seçim-a çevrilə bilər;
+- geri dönməz information qərar yalnız informed commitment olduqda sağlamdır;
 - strategic qərar sərbəstliyi procedural araşdırma qərar sərbəstliyi-dən güclüdür.
 
 ### Three-game müqayisə
@@ -1730,9 +1730,9 @@ Tamamlanıb:
 - Midnight Protocol — taktiki/sistem dərinliyi;
 - Cyber Manhunt — information/məntiqi nəticə çıxarma dərinlik.
 
-Əsas cross-game hypothesis:
+Əsas oyunlararası hypothesis:
 
-> dərinlik feature sayından deyil, mənalı qərar sıxlığı-dən gəlir; repetition isə interface növündən yox, decision structure dəyişməyəndə yaranır.
+> dərinlik feature sayından deyil, mənalı qərar sıxlığı-dən gəlir; təkrarçılıq isə interface növündən yox, qərar structure dəyişməyəndə yaranır.
 
 Cyber Manhunt üçün v3 taxonomy ilə deterministik mövzu çıxış-ların lokal pipeline vasitəsilə generasiyası hələ push edilməlidir.
 
@@ -1767,7 +1767,7 @@ Bu bölmə yeni sessiyada “nə hazırdır?” sualının əsas istinad-udur.
 - ✅ `data/processed/midnight-protocol/themes/statistics.json`
 - ✅ `analysis/midnight-protocol/theme-analysis.md`
 - ✅ `analysis/midnight-protocol/deep-research.md`
-- ℹ️ `analysis/midnight-protocol/research-kickoff.md` — historical planning context, superseded
+- ℹ️ `analysis/midnight-protocol/research-kickoff.md` — historical planlama context, superseded
 
 ### Cyber Manhunt — complete
 
@@ -1776,7 +1776,7 @@ Bu bölmə yeni sessiyada “nə hazırdır?” sualının əsas istinad-udur.
 - ✅ `data/processed/cyber-manhunt/themes/statistics.json`
 - ✅ `analysis/cyber-manhunt/theme-analysis.md`
 - ✅ `analysis/cyber-manhunt/deep-research.md`
-- ℹ️ `analysis/cyber-manhunt/research-kickoff.md` — historical planning context, superseded
+- ℹ️ `analysis/cyber-manhunt/research-kickoff.md` — historical planlama context, superseded
 
 ### Completed comparisons
 
@@ -1792,7 +1792,7 @@ Bu bölmə yeni sessiyada “nə hazırdır?” sualının əsas istinad-udur.
 - ✅ `analysis/the-operator/theme-analysis.md`
 - ✅ `analysis/the-operator/deep-research.md`
 - ✅ `analysis/comparisons/cyber-manhunt-vs-the-operator.md`
-- ℹ️ `analysis/the-operator/research-kickoff.md` — historical planning context, superseded
+- ℹ️ `analysis/the-operator/research-kickoff.md` — historical planlama context, superseded
 
 ### Orwell — complete
 
@@ -1801,7 +1801,7 @@ Bu bölmə yeni sessiyada “nə hazırdır?” sualının əsas istinad-udur.
 - ⏳ deterministic v5 mövzu artifacts — local `theme_pipeline` run/push pfinal
 - ✅ `analysis/orwell/theme-analysis.md`
 - ✅ `analysis/orwell/deep-research.md`
-- ℹ️ `analysis/orwell/research-kickoff.md` — historical planning context, superseded
+- ℹ️ `analysis/orwell/research-kickoff.md` — historical planlama context, superseded
 
 ### Need to Know — current focused comparator
 
@@ -1898,12 +1898,12 @@ prototype validation
 
 # 20. Son prinsip
 
-Bu araşdırma-in uğuru çox data toplamaqda deyil.
+Bu araşdırma-in uğuru çox məlumat toplamaqda deyil.
 
 Əsas nəticə bu olmalıdır:
 
 > **Komanda yeni oyun ideyası haqqında danışanda artıq “məncə belə maraqlı olar” səviyyəsində yox, oyunçu davranışı, əvvəlki oyunların uğur və uğursuzluqları, bazar təqdimat və sistem dizaynı barədə dəlil ilə danışa bilsin.**
 
-Final report ideyanı bizim əvəzimizə yaratmayacaq.
+Final hesabat ideyanı bizim əvəzimizə yaratmayacaq.
 
 O, **daha yaxşı ideya yaratmaq və pis qərarları erkən görmək üçün qərar infrastrukturu** yaradacaq.
