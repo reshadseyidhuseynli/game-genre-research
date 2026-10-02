@@ -65,7 +65,7 @@ Oyunçu:
 2. **İpucu və dəlil qəbulu qeyri-təbii ola bilir.**
 3. **Axtarış sistemi bəzən real axtarış yox, gizlədilmiş dialoq ağacı kimi işləyir.**
 4. **Lokallaşdırma və yazı keyfiyyəti** hekayə və tapmaca anlayışına birbaşa zərər verir.
-5. **UI istifadəsində çətinlik** məntiqi düşünmə yükünü artırır.
+5. **interfeys istifadəsində çətinlik** məntiqi düşünmə yükünü artırır.
 6. **Təkrarçılıq:** profil → axtarış → hesab → ipucu dövrü tez görünə bilir.
 7. Bəzi birdəfəlik mini-oyunlar zəif izah olunur.
 8. Vaxt limiti məntiqi düşünməni sınaq-səhvə çevirə bilir.
@@ -74,7 +74,7 @@ Rəy məlumatlarında:
 - LINEARITY_SCRIPTING olan rəylərdə mənfi pay **55.88%**;
 - REPETITION — **43.86%**;
 - LOCALIZATION_WRITING — **36.17%**;
-- ümumi mənfi baseline isə **19.60%**-dir.
+- ümumi mənfi ümumi mənfi rəy göstəricisi isə **19.60%**-dir.
 
 ## 7. Kommersiya nəticəsi necə görünür?
 
@@ -84,7 +84,7 @@ Açıq dəqiq satış rəqəmi yoxdur. Mövcud siqnallar:
 - 847 yoxlanmış ingilisdilli Steam rəyi;
 - 80.40% müsbət rəy;
 - uzun oynayan qrupda yüksək məmnunluq;
-- kifayət qədər fərqli məhsul kimliyi və sonradan davam edən franchise marağı.
+- kifayət qədər fərqli məhsul kimliyi və sonradan davam edən seriya marağı.
 
 ### Nəticəni izah edən əsas hipotezlər
 
@@ -97,7 +97,7 @@ Açıq dəqiq satış rəqəmi yoxdur. Mövcud siqnallar:
 - İlk 3 saat çox yüksək risk daşıyır.
 - Lokallaşdırma ilk təəssüratı və hekayə keyfiyyətini zəiflədir.
 - “Mən özüm araşdıracağam” vədi ilə real ssenariləşdirilmiş irəliləyiş arasında uyğunsuzluq var.
-- UI və ipucu sistemi bəzi oyunçulara “tapmaca həlli” yox, “doğru pikseli tapmaq” hissi verir.
+- interfeys və ipucu sistemi bəzi oyunçulara “tapmaca həlli” yox, “doğru pikseli tapmaq” hissi verir.
 
 ## 8. Niyə daha yaxşı ola bilərdi?
 
@@ -121,7 +121,7 @@ Açıq dəqiq satış rəqəmi yoxdur. Mövcud siqnallar:
 - konkret ipucu ardıcıllığı;
 - oyunçunun bildiyini sistemin tanımaması;
 - yalnız bir doğru axtarış sorğusu;
-- məcburi UI axtarışı;
+- məcburi interfeys axtarışı;
 - zəif lokallaşdırmanı “yalnız tərcümə problemi” saymaq.
 
 ## 10. Bir cümləlik nəticə
