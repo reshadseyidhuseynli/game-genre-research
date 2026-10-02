@@ -262,7 +262,7 @@ SINGLE_USE_MECHANICS:
 - **33.33% mənfi**
 - baseline-dan **3.24×** yüksək.
 
-yaradıcı interview-də müxtəlif tool-ların hekayə beat-dən çıxaraq dizayn edildiyi görünür. oyunçu rəy-lərində isə bunun trade-off-u görünür:
+yaradıcı interview-də müxtəlif tool-ların hekayə beat-dən çıxaraq dizayn edildiyi görünür. oyunçu rəy-lərində isə bunun kompromis-u görünür:
 
 - chemical təhlil;
 - vehicle database;
@@ -404,7 +404,7 @@ Bu Cyber Manhunt və Hacknet-dən daha aşağı lexical prevalence-dir.
 
 The Operator qısa olduğuna və tool/set-piece variety istifadə etdiyinə görə təkrarçılıq başlamadan bitə bilir.
 
-Bu, maraqlı trade-off-dur:
+Bu, maraqlı kompromis-dur:
 
 > **Qısa runtime təkrarçılıq riskini azaldır, amma system mastery və content value-ni də azalda bilər.**
 
