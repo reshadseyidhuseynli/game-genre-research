@@ -1,0 +1,16 @@
+review_id,steam_app_id,game_key,game_name,language,review_text_raw,review_text_clean,recommended,created_at,updated_at,playtime_forever_minutes,playtime_at_review_minutes,playtime_last_two_weeks_minutes,votes_up,votes_funny,weighted_vote_score,steam_purchase,received_for_free,written_during_early_access,refunded,author_steam_id,author_num_games_owned,author_num_reviews,is_empty,is_very_short,review_length_chars,review_length_words,playtime_forever_hours,playtime_at_review_hours,playtime_segment,overall_sentiment
+71638660,491950,orwell,Orwell: Keeping an Eye On You,english,"Unfortunately holds your hand too much
+
+So many missed opportunities in the gameplay and story departement
+
+The game barely tries to be one step ahead of it's player, barely tries to challange the player to actualy think all the way through.. 
+
+Such a unique conscept!
+
+Lacking a greater execution 
+
+[spoiler]Choices hardly matter[/spoiler]
+
+
+Even...
+Hardly a game, you're better off playin' good ol' chess if you're here for detective work","Unfortunately holds your hand too much So many missed opportunities in the gameplay and story departement The game barely tries to be one step ahead of it's player, barely tries to challange the player to actualy think all the way through.. Such a unique conscept! Lacking a greater execution [spoiler]Choices hardly matter[/spoiler] Even... Hardly a game, you're better off playin' good ol' chess if you're here for detective work",False,2020-06-29T09:24:06+00:00,2020-12-03T11:00:07+00:00,483.0,483.0,0.0,0.0,0.0,0.5,False,True,False,False,76561198119077448,,61.0,False,False,431,69,8.05,8.05,3-10h,negative

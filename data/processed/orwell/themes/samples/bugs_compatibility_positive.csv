@@ -1,0 +1,938 @@
+review_id,steam_app_id,game_key,game_name,language,review_text_raw,review_text_clean,recommended,created_at,updated_at,playtime_forever_minutes,playtime_at_review_minutes,playtime_last_two_weeks_minutes,votes_up,votes_funny,weighted_vote_score,steam_purchase,received_for_free,written_during_early_access,refunded,author_steam_id,author_num_games_owned,author_num_reviews,is_empty,is_very_short,review_length_chars,review_length_words,playtime_forever_hours,playtime_at_review_hours,playtime_segment,overall_sentiment
+55309068,491950,orwell,Orwell: Keeping an Eye On You,english,"==={ ❤ Audience: }=== 
+☐ Kids
+☐ Everyone
+☑ Casual players
+☐ Pro players
+
+==={ ☼ Graphics: }=== 
+☐ Potato
+☐ Really bad
+☐ Bad
+☑ OK
+☐ Good
+☐ Beautiful
+☐ Masterpiece
+
+==={ $ Price/quality: }=== 
+☐ Full price
+☑ Wait for sale
+☐ Average
+☐ Refund it if you can
+☐ Don't do it
+☐ Free
+
+==={ ☣ Requirements: }=== 
+☐ 90' PC
+☑ Minimum
+☐ Medium 
+☐ Fast
+☐ High end 
+☐ NASA computer
+
+==={ ☼ Difficulty: }=== 
+☐ You just need 2 arms
+☑ Ez
+☐ Easy to learn / Hard to master
+☐ Hard (first few hours)
+☐ Dark Souls
+
+==={ ۞ Game time/length }===
+☐ Really short ( 0 - 2 hours)
+☑ Short ( 2 - 8 hours)  (Expect 5 hours)
+☐ Few hours ( 8 - 12 hours)
+☐ Long ( 12+ hours)
+☐ Endless
+
+==={ ♬ Story} ===
+☐ It doesn't have
+☐ Still better than Twilight
+☑ Average
+☐ Good
+☐ Fantastic
+
+==={ § Bugs }=== 
+☐ Game itself is one big BUG
+☐ Bugs destroying the game
+☐ Lot of bugs
+☐ Few Bugs
+☑ Nothing
+
+==={ ✦ Others: }=== 
+Singleplayer: Yes
+Multiplayer: No",==={ ❤ Audience: }=== ☐ Kids ☐ Everyone ☑ Casual players ☐ Pro players ==={ ☼ Graphics: }=== ☐ Potato ☐ Really bad ☐ Bad ☑ OK ☐ Good ☐ Beautiful ☐ Masterpiece ==={ $ Price/quality: }=== ☐ Full price ☑ Wait for sale ☐ Average ☐ Refund it if you can ☐ Don't do it ☐ Free ==={ ☣ Requirements: }=== ☐ 90' PC ☑ Minimum ☐ Medium ☐ Fast ☐ High end ☐ NASA computer ==={ ☼ Difficulty: }=== ☐ You just need 2 arms ☑ Ez ☐ Easy to learn / Hard to master ☐ Hard (first few hours) ☐ Dark Souls ==={ ۞ Game time/length }=== ☐ Really short ( 0 - 2 hours) ☑ Short ( 2 - 8 hours) (Expect 5 hours) ☐ Few hours ( 8 - 12 hours) ☐ Long ( 12+ hours) ☐ Endless ==={ ♬ Story} === ☐ It doesn't have ☐ Still better than Twilight ☑ Average ☐ Good ☐ Fantastic ==={ § Bugs }=== ☐ Game itself is one big BUG ☐ Bugs destroying the game ☐ Lot of bugs ☐ Few Bugs ☑ Nothing ==={ ✦ Others: }=== Singleplayer: Yes Multiplayer: No,True,2019-09-27T22:19:29+00:00,2022-02-12T09:32:48+00:00,287.0,287.0,0.0,67.0,6.0,0.7166987657546997,False,False,False,False,76561198027799574,,190.0,False,False,892,195,4.783333333333333,4.783333333333333,3-10h,positive
+140055445,491950,orwell,Orwell: Keeping an Eye On You,english,"[h3][i]“War is peace. Freedom is slavery. Ignorance is strength.” [/i]- George Orwell[/h3]
+
+
+Even if you haven't read anything by George Orwell, you've probably heard about 1984. The dystopia the author foresaw has undoubtedly materialized in the modern world, as most readers of the book like to point out. This assertion is without doubt true; even if you only use the internet for personal purposes, there are still a lot of data crumbs left behind. You can never be certain if someone is keeping an eye on your every online move, whether it be a post about a recent vacation, a comment made on a forum, or the address you use to sign emails. 
+This is precisely what Orwell: Keeping an Eye on You promises: it is a game about a reality that nobody wants to face but that hangs in the air.
+
+[h3][i]“The consequences of every act are included in the act itself.”[/i] - George Orwell[/h3]
+
+The game takes place in the capital of a fictional country called The Nation, where on April 12th, 2017, a terrorist attack occurs: a bomb detonates in the famous Freedom Plaza, destroying a statue and killing several people. At the same time, the police receive a note containing the first three stanzas of a German folk song called The Thoughts are Free.
+
+In 2012, The Party, a paternalistic government that leads The Nation, passed the Safety Bill, which gave the government complete freedom over citizens' personal data and the ability to spy on them using a surveillance system called Orwell. This is where your involvement with The Nation begins.
+You are the first person who has been selected to be an investigator - a citizen outside of The Nation, who will use Orwell to uncover as much data about a person as possible. You are being accompanied by an Advisor, who will connect you to the authorities. 
+
+The plot is essentially a classic detective whodunit story told in five chapters; throughout the game, multiple suspects will emerge, and your job will be to determine each person's involvement and, in the end, find the perpetrator(s) - or is it?
+The aforementioned data (which the game refers to as datachucks) gathering is the game's main essence and gameplay mechanic - you have access to a wide range of websites, phones, e-mail addresses, and even computers, where you must find information related to your lead. This isn't a difficult task because the game highlights them in blue or yellow; the latter indicates a data collision, and you must determine which is the correct data.
+
+A few things should be kept in mind with this mechanic: first, it is completely irreversible - once you upload something in the system, there is no way to change it, and the story will proceed accordingly; second, you do not need to upload every possible datachunk - at first, the game forces you to do this, but later you must be careful what you upload; and third, the game is actually a choose-your-own-adventure with a detective façade - given that there are multiple endings, your choices will have a heavy impact on the story.
+
+Orwell's strength is the moral uncertainty it contains. Players will have to weigh the pros and cons of sharing new information with the people they're investigating versus keeping it to themselves as they gather additional evidence. Because of this, players will feel more invested in the game and more emotionally connected to their choices.
+
+[h3][i]“But if thought corrupts language, language can also corrupt thought.” [/i]- George Orwell[/h3]
+
+One of the game's greatest strengths is its immersive and atmospheric presentation. The dark and minimalist art style, combined with a haunting original soundtrack, sets the perfect tone for an oppressive world governed by The Party. The user interface is sleek and intuitive, allowing easy navigation of the vast amount of information at your disposal. Towards the end of the game, the interface will get much more crowded; however, the game displays a red icon next to a document where new data chunks can be found. Furthermore, the game's soundtrack perfectly complements the dystopian atmosphere, with haunting melodies and industrial beats that immerse players in the world of surveillance and control. 
+
+Orwell does, however, have a few minor flaws. As the investigation progresses through a series of data-mining tasks, the gameplay can feel slow at times. Some players, particularly those who prefer more action-oriented experiences, may find these moments tedious. Furthermore, while the game encourages players to take different paths, the overall impact of your choices on the narrative can feel somewhat limited, leaving some room for a more dynamic and personalized experience unexplored.
+The length of the game is another aspect of the experience that could be improved. The story is interesting and the decisions are weighty, yet the game is over in a matter of hours and it left me craving for more. The game's depth of topic and potential for replay may have benefited from more content or branching routes.
+
+
+
+[h3][i]“Freedom is the freedom to say that two plus two make four. If that is granted, all else follows.”[/i]
+ - George Orwell[/h3]
+
+Orwell: Keeping an Eye On You is a fascinating and unsettling adventure that delves into the moral issues raised by omniscient monitoring and the misuse of authority. A standout in the narrative-driven genre, thanks to its engaging tale, accessible gameplay, and morally weighty choices. Even though it's not particularly long and has a few weaker points, it's a must-play if you enjoy engaging stories set in dystopian futures.
+
+[quote]Follow our Curator page, [url=https://store.steampowered.com/curator/41449676/]Summit Reviews[/url], to see more high quality reviews regularly.[/quote] 
+","[h3][i]“War is peace. Freedom is slavery. Ignorance is strength.” [/i]- George Orwell[/h3] Even if you haven't read anything by George Orwell, you've probably heard about 1984. The dystopia the author foresaw has undoubtedly materialized in the modern world, as most readers of the book like to point out. This assertion is without doubt true; even if you only use the internet for personal purposes, there are still a lot of data crumbs left behind. You can never be certain if someone is keeping an eye on your every online move, whether it be a post about a recent vacation, a comment made on a forum, or the address you use to sign emails. This is precisely what Orwell: Keeping an Eye on You promises: it is a game about a reality that nobody wants to face but that hangs in the air. [h3][i]“The consequences of every act are included in the act itself.”[/i] - George Orwell[/h3] The game takes place in the capital of a fictional country called The Nation, where on April 12th, 2017, a terrorist attack occurs: a bomb detonates in the famous Freedom Plaza, destroying a statue and killing several people. At the same time, the police receive a note containing the first three stanzas of a German folk song called The Thoughts are Free. In 2012, The Party, a paternalistic government that leads The Nation, passed the Safety Bill, which gave the government complete freedom over citizens' personal data and the ability to spy on them using a surveillance system called Orwell. This is where your involvement with The Nation begins. You are the first person who has been selected to be an investigator - a citizen outside of The Nation, who will use Orwell to uncover as much data about a person as possible. You are being accompanied by an Advisor, who will connect you to the authorities. The plot is essentially a classic detective whodunit story told in five chapters; throughout the game, multiple suspects will emerge, and your job will be to determine each person's involvement and, in the end, find the perpetrator(s) - or is it? The aforementioned data (which the game refers to as datachucks) gathering is the game's main essence and gameplay mechanic - you have access to a wide range of websites, phones, e-mail addresses, and even computers, where you must find information related to your lead. This isn't a difficult task because the game highlights them in blue or yellow; the latter indicates a data collision, and you must determine which is the correct data. A few things should be kept in mind with this mechanic: first, it is completely irreversible - once you upload something in the system, there is no way to change it, and the story will proceed accordingly; second, you do not need to upload every possible datachunk - at first, the game forces you to do this, but later you must be careful what you upload; and third, the game is actually a choose-your-own-adventure with a detective façade - given that there are multiple endings, your choices will have a heavy impact on the story. Orwell's strength is the moral uncertainty it contains. Players will have to weigh the pros and cons of sharing new information with the people they're investigating versus keeping it to themselves as they gather additional evidence. Because of this, players will feel more invested in the game and more emotionally connected to their choices. [h3][i]“But if thought corrupts language, language can also corrupt thought.” [/i]- George Orwell[/h3] One of the game's greatest strengths is its immersive and atmospheric presentation. The dark and minimalist art style, combined with a haunting original soundtrack, sets the perfect tone for an oppressive world governed by The Party. The user interface is sleek and intuitive, allowing easy navigation of the vast amount of information at your disposal. Towards the end of the game, the interface will get much more crowded; however, the game displays a red icon next to a document where new data chunks can be found. Furthermore, the game's soundtrack perfectly complements the dystopian atmosphere, with haunting melodies and industrial beats that immerse players in the world of surveillance and control. Orwell does, however, have a few minor flaws. As the investigation progresses through a series of data-mining tasks, the gameplay can feel slow at times. Some players, particularly those who prefer more action-oriented experiences, may find these moments tedious. Furthermore, while the game encourages players to take different paths, the overall impact of your choices on the narrative can feel somewhat limited, leaving some room for a more dynamic and personalized experience unexplored. The length of the game is another aspect of the experience that could be improved. The story is interesting and the decisions are weighty, yet the game is over in a matter of hours and it left me craving for more. The game's depth of topic and potential for replay may have benefited from more content or branching routes. [h3][i]“Freedom is the freedom to say that two plus two make four. If that is granted, all else follows.”[/i] - George Orwell[/h3] Orwell: Keeping an Eye On You is a fascinating and unsettling adventure that delves into the moral issues raised by omniscient monitoring and the misuse of authority. A standout in the narrative-driven genre, thanks to its engaging tale, accessible gameplay, and morally weighty choices. Even though it's not particularly long and has a few weaker points, it's a must-play if you enjoy engaging stories set in dystopian futures. [quote]Follow our Curator page, [url=https://store.steampowered.com/curator/41449676/]Summit Reviews[/url], to see more high quality reviews regularly.[/quote]",True,2023-06-14T16:51:05+00:00,2023-06-14T16:51:05+00:00,287.0,287.0,0.0,44.0,0.0,0.7647777795791626,False,False,False,False,76561198134772547,,57.0,False,False,5704,935,4.783333333333333,4.783333333333333,3-10h,positive
+48868300,491950,orwell,Orwell: Keeping an Eye On You,english,"Incredible work on this game.
+
+I felt keenly the moral dilemmas, the endings (yes, played many times) are all suitable and feel realistic and natural. Oddly enough, you struck such a balance that I never feel the ending doesn't fit with my personality and actions.
+
+A game like this has been a long time coming and you have far exceeded other attempts at similar ideas by not only making it emotive and believable but also ensuring that the interface is smooth, bug free, grammatically accurate (thanks for that), and mostly easy to read.
+
+I think my only slight issue with the game was that, being dyslexic, a couple of bits of text had to be squinted at slightly on occasion.
+
+Fab job, folks. I look forward to any other project you produce for the hungry thinking public.","Incredible work on this game. I felt keenly the moral dilemmas, the endings (yes, played many times) are all suitable and feel realistic and natural. Oddly enough, you struck such a balance that I never feel the ending doesn't fit with my personality and actions. A game like this has been a long time coming and you have far exceeded other attempts at similar ideas by not only making it emotive and believable but also ensuring that the interface is smooth, bug free, grammatically accurate (thanks for that), and mostly easy to read. I think my only slight issue with the game was that, being dyslexic, a couple of bits of text had to be squinted at slightly on occasion. Fab job, folks. I look forward to any other project you produce for the hungry thinking public.",True,2019-02-09T10:43:09+00:00,2019-02-09T10:43:09+00:00,376.0,376.0,0.0,12.0,0.0,0.6537342667579651,False,False,False,False,76561198042459064,,12.0,False,False,770,137,6.266666666666667,6.266666666666667,3-10h,positive
+44236283,491950,orwell,Orwell: Keeping an Eye On You,english,"It's original, it's played quiet, the story is captivating (it's not that bad at first, but it's good enough to be interested).
+The design is perfect for what it is, there are efforts on the soundtrack to stick with key moments, and I encountered no bug on the 4 hours it took me to reach an end ( satisfactory in addition). Handy hyper fast, the interface is much easier to use than I thought.
+
+In short, a good game ""multiple choice but with stuff to do""
+(It just lacks a bit of voice when we spy on phone conversations, sound effects would have done, but then it's good story to put a negative point)","It's original, it's played quiet, the story is captivating (it's not that bad at first, but it's good enough to be interested). The design is perfect for what it is, there are efforts on the soundtrack to stick with key moments, and I encountered no bug on the 4 hours it took me to reach an end ( satisfactory in addition). Handy hyper fast, the interface is much easier to use than I thought. In short, a good game ""multiple choice but with stuff to do"" (It just lacks a bit of voice when we spy on phone conversations, sound effects would have done, but then it's good story to put a negative point)",True,2018-08-18T19:02:00+00:00,2018-08-18T19:02:00+00:00,293.0,293.0,0.0,8.0,0.0,0.6319890022277832,False,False,False,False,76561198243562940,,85.0,False,False,602,114,4.883333333333334,4.883333333333334,3-10h,positive
+67121903,491950,orwell,Orwell: Keeping an Eye On You,english,"8/10 Very Good.
+
+Every once in a while, a game will come along that you simply won’t put down and will try to finish in one sitting. For me, Orwell fits that category, for it was thoroughly engrossing.
+
+As the name suggests, Orwell deals with privacy and government surveillance. You are an ‘investigator’ of the new Orwell application, an app which, with the right authorisation, allows you to snoop on people’s phone calls, e-mails and all their online histories at will.
+
+It is a disturbing look into a surveillance state, and yet, by putting you in charge it opens the door (and your mind) to justifying the system.
+
+In the introduction, there is a terrorist bombing that kills some people. That’s where you come in, you’re in to investigate the prime suspect and ultimately to bring down the terror cell. You pick datachunks, which is vital (and non-vital/misleading) information and assign it to a person of interest in order to shape a narrative about them.
+
+For example, you can use it properly in order to keep the authorities informed about a person’s whereabouts or connections with other people. Likewise, you can misuse it, say you might see a Twitter conversation where someone says “oh that’s torture!” (in reference to being taken out nightclubbing to dance) and the system will update to suggest that the person in question is, actually, a genuine torturer.
+
+It is pretty obvious that Orwell intends for you to use your best judgement in the situation, take it seriously as a proper investigative tool and suddenly the arguments for invasive surveillance look quite appealing, especially if you succeed in foiling terror actions. Use it inappropriately on the other hand and suddenly things look a bit bleak.
+
+For me, Orwell’s story was enticing and gripping. I was captivated trying to deny the terror actions, but also by the investigation into the terror cell. I don’t want to spoil anything, but basically, I swept through this in one sitting, without breaks, in just over four hours.
+
+Why not a higher score? Well, I did encounter some bugs. At one point in a new chapter it would keep defaulting back to the previous chapter’s screens. I had to reboot the game in order to cut this nonsense out and continue. Without these, I may very well have given a 9, but I think that perhaps, would be too generous given the nature of the game. Still, this is a very good game.","8/10 Very Good. Every once in a while, a game will come along that you simply won’t put down and will try to finish in one sitting. For me, Orwell fits that category, for it was thoroughly engrossing. As the name suggests, Orwell deals with privacy and government surveillance. You are an ‘investigator’ of the new Orwell application, an app which, with the right authorisation, allows you to snoop on people’s phone calls, e-mails and all their online histories at will. It is a disturbing look into a surveillance state, and yet, by putting you in charge it opens the door (and your mind) to justifying the system. In the introduction, there is a terrorist bombing that kills some people. That’s where you come in, you’re in to investigate the prime suspect and ultimately to bring down the terror cell. You pick datachunks, which is vital (and non-vital/misleading) information and assign it to a person of interest in order to shape a narrative about them. For example, you can use it properly in order to keep the authorities informed about a person’s whereabouts or connections with other people. Likewise, you can misuse it, say you might see a Twitter conversation where someone says “oh that’s torture!” (in reference to being taken out nightclubbing to dance) and the system will update to suggest that the person in question is, actually, a genuine torturer. It is pretty obvious that Orwell intends for you to use your best judgement in the situation, take it seriously as a proper investigative tool and suddenly the arguments for invasive surveillance look quite appealing, especially if you succeed in foiling terror actions. Use it inappropriately on the other hand and suddenly things look a bit bleak. For me, Orwell’s story was enticing and gripping. I was captivated trying to deny the terror actions, but also by the investigation into the terror cell. I don’t want to spoil anything, but basically, I swept through this in one sitting, without breaks, in just over four hours. Why not a higher score? Well, I did encounter some bugs. At one point in a new chapter it would keep defaulting back to the previous chapter’s screens. I had to reboot the game in order to cut this nonsense out and continue. Without these, I may very well have given a 9, but I think that perhaps, would be too generous given the nature of the game. Still, this is a very good game.",True,2020-04-11T21:48:55+00:00,2021-01-27T13:50:04+00:00,1103.0,298.0,0.0,8.0,0.0,0.5939088463783264,False,False,False,False,76561198000896253,,251.0,False,False,2381,412,18.383333333333333,4.966666666666667,3-10h,positive
+202826622,491950,orwell,Orwell: Keeping an Eye On You,english,"
+---{ Graphics }---
+☐ You forget what reality is
+☐ Beautiful
+☑ Good
+☐ Decent
+☐ Bad
+☐ Don‘t look too long at it
+☐ MS-DOS
+
+---{ Gameplay }---
+☐ Very good
+☑ Good
+☐ It's just gameplay
+☐ Mehh
+☐ Watch paint dry instead
+☐ Just don't
+
+---{ Audio }---
+☐ Eargasm
+☑ Very good
+☐ Good
+☐ Not too bad
+☐ Bad
+☐ I'm now deaf
+
+---{ Audience }---
+☐ Kids
+☑ Teens
+☑ Adults
+☐ Grandma
+
+---{ PC Requirements }---
+☑ Check if you can run paint
+☐ Potato
+☐ Decent
+☐ Fast
+☐ Rich boi
+☐ Ask NASA if they have a spare computer
+
+---{ Game Size }---
+☐ Floppy Disk
+☑ Old Fashioned
+☐ Workable
+☐ Big
+☐ Will eat 15% of your 1TB hard drive
+☐ You will want an entire hard drive to hold it
+☐ You will need to invest in a black hole to hold all the data
+
+---{ Difficulty }---
+☐ Just press 'W'
+☑ Easy
+☐ Easy to learn / Hard to master
+☐ Significant brain usage
+☐ Difficult
+☐ Dark Souls
+
+---{ Grind }---
+☑ Nothing to grind
+☐ Only if u care about leaderboards/ranks
+☐ Isn't necessary to progress
+☐ Average grind level
+☐ Too much grind
+☐ You'll need a second life for grinding
+
+---{ Story }---
+☐ No Story
+☐ Some lore
+☐ Average
+☑ Good
+☐ Lovely
+☐ It'll replace your life
+
+---{ Game Time }---
+☐ Long enough for a cup of coffee
+☐ Short
+☑ Average
+☐ Long
+☐ To infinity and beyond
+
+---{ Price }---
+☐ It's free!
+☐ Worth the price
+☑ If it's on sale
+☐ If u have some spare money left
+☐ Not recommended
+☐ You could also just burn your money
+
+---{ Bugs }---
+☐ Never heard of
+☑ Minor bugs
+☐ Can get annoying
+☐ ARK: Survival Evolved
+☐ The game itself is a big terrarium for bugs
+
+---{ ? / 10 }---
+☐ 1
+☐ 2
+☐ 3
+☐ 4
+☐ 5
+☐ 6
+☐ 7
+☑ 8
+☐ 9
+☐ 10
+
+Enjoyable, and scary game about modern surveillance. Play as like a NSA analyst and build profiles on people who are of interest to the government due to terrorism. Interesting story and development based on what data you decide to use on a person creating their profile. 
+","---{ Graphics }--- ☐ You forget what reality is ☐ Beautiful ☑ Good ☐ Decent ☐ Bad ☐ Don‘t look too long at it ☐ MS-DOS ---{ Gameplay }--- ☐ Very good ☑ Good ☐ It's just gameplay ☐ Mehh ☐ Watch paint dry instead ☐ Just don't ---{ Audio }--- ☐ Eargasm ☑ Very good ☐ Good ☐ Not too bad ☐ Bad ☐ I'm now deaf ---{ Audience }--- ☐ Kids ☑ Teens ☑ Adults ☐ Grandma ---{ PC Requirements }--- ☑ Check if you can run paint ☐ Potato ☐ Decent ☐ Fast ☐ Rich boi ☐ Ask NASA if they have a spare computer ---{ Game Size }--- ☐ Floppy Disk ☑ Old Fashioned ☐ Workable ☐ Big ☐ Will eat 15% of your 1TB hard drive ☐ You will want an entire hard drive to hold it ☐ You will need to invest in a black hole to hold all the data ---{ Difficulty }--- ☐ Just press 'W' ☑ Easy ☐ Easy to learn / Hard to master ☐ Significant brain usage ☐ Difficult ☐ Dark Souls ---{ Grind }--- ☑ Nothing to grind ☐ Only if u care about leaderboards/ranks ☐ Isn't necessary to progress ☐ Average grind level ☐ Too much grind ☐ You'll need a second life for grinding ---{ Story }--- ☐ No Story ☐ Some lore ☐ Average ☑ Good ☐ Lovely ☐ It'll replace your life ---{ Game Time }--- ☐ Long enough for a cup of coffee ☐ Short ☑ Average ☐ Long ☐ To infinity and beyond ---{ Price }--- ☐ It's free! ☐ Worth the price ☑ If it's on sale ☐ If u have some spare money left ☐ Not recommended ☐ You could also just burn your money ---{ Bugs }--- ☐ Never heard of ☑ Minor bugs ☐ Can get annoying ☐ ARK: Survival Evolved ☐ The game itself is a big terrarium for bugs ---{ ? / 10 }--- ☐ 1 ☐ 2 ☐ 3 ☐ 4 ☐ 5 ☐ 6 ☐ 7 ☑ 8 ☐ 9 ☐ 10 Enjoyable, and scary game about modern surveillance. Play as like a NSA analyst and build profiles on people who are of interest to the government due to terrorism. Interesting story and development based on what data you decide to use on a person creating their profile.",True,2025-08-25T01:36:02+00:00,2025-08-25T01:36:02+00:00,389.0,389.0,0.0,7.0,1.0,0.6283783912658691,True,False,False,False,76561198121545884,,31.0,False,False,1834,394,6.483333333333333,6.483333333333333,3-10h,positive
+29267704,491950,orwell,Orwell: Keeping an Eye On You,english,"In the wake of a recent bombing, someone needs to be tasked to help investigate the suspected bombers. That someone is you. You are in charge of what goes in the system and what doesn't. But is there more to it? Is there a group planning it all together, or just one person? Do you paint them as terrorists or do you leave out enough information to show them as innocent?
+
+[h1]Welcome to Orwell[/h1]
+Orwell is one of those stories that is best to go blind in, since it is the most effective the first time. Hearing or seeing anything that is related to the main story, especially the end, ruins how you would play. But why? You are playing yourself, a new recruit of a programed named Orwell tasked to investigate suspicious people regarding the recent bombing. Through, which I wished happened more, a cutscene perfectly showing why and what this game is with only visuals. If you read 1984 Orwell is similar to how the government watches their people as it was influenced from George Orwell's books.
+
+[h1]Datachunk Uploaded[/h1]
+Down to it's core, you only read highlighted items, or datachunks, and dragging them to profiles for uploading. But there is much more if you are willing. Datachunks are meant to be evaluated, is this noteworthy to put on someone's profile? Do you purposefully make someone look worse or better? Should you upload every little thing? The game tried to put you in this mindset by your supervisor's comments and by conflicting datachunks (represented by a yellow highlight) to show you can't upload every little thing. Of course, there are datachunks needed to continue. Most of the time it is very apparent the datachunk is needed as it gives something new you can look through, solve a conflicting datachunk, or a sound cue picks up. This is all combined to represent how you view the situation. How you view the people you were tasked to investigate. How you have an influence on how their life will go after Orwell injected you into their lives. Sure, they do make their own decisions, but you have the power to have them forever be seen as a threat by the government.
+
+Your first playthrough is key. It is how you would react in this situation, not how some character would. You do not know anything except what you gather. All other playthroughs after that is to see what could have happened if you did something differently. Anything you know about the main storyline ruins how you make decisions in the game. So I do recommend knowing as little as possible to get the most out of it.
+
+I suppose Orwell is too easy. You have a supervisor meant to guide you, not only in Orwell but to guide your progress through the main storyline. It is very easy to just scroll down till you see phrases or words highlighted. Trying to find conflicting datachunks quickly to get past. While there is nothing stopping you, Orwell does try to encourage you to read. The many articles and websites you visit build the world as you continually gain access. In a way, the people you investigate brings you into the world as you unknowingly destroy theirs each datachunk at a time. There has been arguments about taking away the automatic highlighting, as why should you be hired if they have a system that does it, but there is too much that one can assume is needed. It could easily become entering random phrases or words till you get it right. So this way of highlighting does take away this confusion of what is and isn't noteworthy in a wall of text or conversations.
+
+[h1]Sound[/h1]
+There's limited sounds to Orwell, having background music and computer sounds. The background soundtrack never really changes until something notewrothy and important comes into view. While computer sounds symbolizes actions, such as a sound of a phone for a phone call and a click as datachunks are being entered.
+
+[h1]Visuals[/h1]
+While you do stare at a screen of your computer, Orwell has an interesting style when it comes to pictures. They build people with polygons. This gives an interesting visual that pops out when surrounded by text and brightening up the screen. The opening cutscene is one of the places that does not primarily showcase this style, going for more of an shaded outline. While the visuals are minimal, it does look appealing.
+
+[h1]Performance[/h1]
+Orwell easily runs well. Only having a few seconds of loading in the beginning of each chapter to load everything. There also seems to be a rare bug, not allowing the player to drag or view the preview of the datachunk. Thankfully, the datachunk is not needed to continue with the story, as it persists through the save, so it may only bother those who view it as an important datachunk to include in a profile.
+
+[h1]Revisiting Orwell[/h1]
+As said before, Orwell thrives on the first playthrough. After that, you know what's going to happen. You know what choices affects those you were assigned to. That first playthrough may be remembered as you replay, but so everthing major to the story. This is where you should look up guides as more playthroughs are solely for achievements that were off of the course you took. There are a total of three offical endings, all having subtle changed down the road. There's not much replayability but to see the difference the decisions have on the suspects.
+
+[h1]Report[/h1]
++ Art style
++ Convincing characters; can easily be viewed as real people
++ Compelling story
+
++/- Your choice to see the world of Orwell
++/- Can be seen as constantly holding your hand
+
+- The phone calls and texts are either too slow or too fast. You have to activate the certain call/text for it to start, breaking immersion since no one will wait till you come into the picture. If you are fast enough you can get two calls or texts (or a combination of the two) at the same time since you are likely to look at something else during other playthroughs. 
+
+Orwell is one of those must play games. With the close hitting theme that may soon become reality. With all chapters released, you can easily have 2-3 hours of gamethrough per playthrough depending on how you choose to play. Orwell shows that you are being watched in some ways, even now, and that even you won't have the best interest for others if they have the possibility to be threats to society. Do not be afraid of going into Orwell this late, as I have and I was able to still get the most out of it.","In the wake of a recent bombing, someone needs to be tasked to help investigate the suspected bombers. That someone is you. You are in charge of what goes in the system and what doesn't. But is there more to it? Is there a group planning it all together, or just one person? Do you paint them as terrorists or do you leave out enough information to show them as innocent? [h1]Welcome to Orwell[/h1] Orwell is one of those stories that is best to go blind in, since it is the most effective the first time. Hearing or seeing anything that is related to the main story, especially the end, ruins how you would play. But why? You are playing yourself, a new recruit of a programed named Orwell tasked to investigate suspicious people regarding the recent bombing. Through, which I wished happened more, a cutscene perfectly showing why and what this game is with only visuals. If you read 1984 Orwell is similar to how the government watches their people as it was influenced from George Orwell's books. [h1]Datachunk Uploaded[/h1] Down to it's core, you only read highlighted items, or datachunks, and dragging them to profiles for uploading. But there is much more if you are willing. Datachunks are meant to be evaluated, is this noteworthy to put on someone's profile? Do you purposefully make someone look worse or better? Should you upload every little thing? The game tried to put you in this mindset by your supervisor's comments and by conflicting datachunks (represented by a yellow highlight) to show you can't upload every little thing. Of course, there are datachunks needed to continue. Most of the time it is very apparent the datachunk is needed as it gives something new you can look through, solve a conflicting datachunk, or a sound cue picks up. This is all combined to represent how you view the situation. How you view the people you were tasked to investigate. How you have an influence on how their life will go after Orwell injected you into their lives. Sure, they do make their own decisions, but you have the power to have them forever be seen as a threat by the government. Your first playthrough is key. It is how you would react in this situation, not how some character would. You do not know anything except what you gather. All other playthroughs after that is to see what could have happened if you did something differently. Anything you know about the main storyline ruins how you make decisions in the game. So I do recommend knowing as little as possible to get the most out of it. I suppose Orwell is too easy. You have a supervisor meant to guide you, not only in Orwell but to guide your progress through the main storyline. It is very easy to just scroll down till you see phrases or words highlighted. Trying to find conflicting datachunks quickly to get past. While there is nothing stopping you, Orwell does try to encourage you to read. The many articles and websites you visit build the world as you continually gain access. In a way, the people you investigate brings you into the world as you unknowingly destroy theirs each datachunk at a time. There has been arguments about taking away the automatic highlighting, as why should you be hired if they have a system that does it, but there is too much that one can assume is needed. It could easily become entering random phrases or words till you get it right. So this way of highlighting does take away this confusion of what is and isn't noteworthy in a wall of text or conversations. [h1]Sound[/h1] There's limited sounds to Orwell, having background music and computer sounds. The background soundtrack never really changes until something notewrothy and important comes into view. While computer sounds symbolizes actions, such as a sound of a phone for a phone call and a click as datachunks are being entered. [h1]Visuals[/h1] While you do stare at a screen of your computer, Orwell has an interesting style when it comes to pictures. They build people with polygons. This gives an interesting visual that pops out when surrounded by text and brightening up the screen. The opening cutscene is one of the places that does not primarily showcase this style, going for more of an shaded outline. While the visuals are minimal, it does look appealing. [h1]Performance[/h1] Orwell easily runs well. Only having a few seconds of loading in the beginning of each chapter to load everything. There also seems to be a rare bug, not allowing the player to drag or view the preview of the datachunk. Thankfully, the datachunk is not needed to continue with the story, as it persists through the save, so it may only bother those who view it as an important datachunk to include in a profile. [h1]Revisiting Orwell[/h1] As said before, Orwell thrives on the first playthrough. After that, you know what's going to happen. You know what choices affects those you were assigned to. That first playthrough may be remembered as you replay, but so everthing major to the story. This is where you should look up guides as more playthroughs are solely for achievements that were off of the course you took. There are a total of three offical endings, all having subtle changed down the road. There's not much replayability but to see the difference the decisions have on the suspects. [h1]Report[/h1] + Art style + Convincing characters; can easily be viewed as real people + Compelling story +/- Your choice to see the world of Orwell +/- Can be seen as constantly holding your hand - The phone calls and texts are either too slow or too fast. You have to activate the certain call/text for it to start, breaking immersion since no one will wait till you come into the picture. If you are fast enough you can get two calls or texts (or a combination of the two) at the same time since you are likely to look at something else during other playthroughs. Orwell is one of those must play games. With the close hitting theme that may soon become reality. With all chapters released, you can easily have 2-3 hours of gamethrough per playthrough depending on how you choose to play. Orwell shows that you are being watched in some ways, even now, and that even you won't have the best interest for others if they have the possibility to be threats to society. Do not be afraid of going into Orwell this late, as I have and I was able to still get the most out of it.",True,2017-01-15T08:41:49+00:00,2017-03-21T05:31:41+00:00,609.0,609.0,0.0,6.0,0.0,0.6063029170036316,True,False,False,False,76561198280371208,,300.0,False,False,6349,1121,10.15,10.15,10h+,positive
+51412932,491950,orwell,Orwell: Keeping an Eye On You,english,"What was originally probably intended to be a game with an anti-surveillance message subverts that same message with its game play; if you are paying attention you can prevent a bombing, bring a murderer to justice and oust a corrupt politician. While there is a point near the end of the game where the people you are watching accuse you of ruining their lives they are, without exception, actual terrorists, a murderer, an asshole who doxxed your friend, wrong about the extent of your involvement, or some combination there of. It's easy to feel like your actions have been justified.
+
+Message issues aside I recommend the game. It has an innovative, well executed idea and - most importantly - fun game play. It's a good game! Just don't play it looking for a coherent philosophy.","What was originally probably intended to be a game with an anti-surveillance message subverts that same message with its game play; if you are paying attention you can prevent a bombing, bring a murderer to justice and oust a corrupt politician. While there is a point near the end of the game where the people you are watching accuse you of ruining their lives they are, without exception, actual terrorists, a murderer, an asshole who doxxed your friend, wrong about the extent of your involvement, or some combination there of. It's easy to feel like your actions have been justified. Message issues aside I recommend the game. It has an innovative, well executed idea and - most importantly - fun game play. It's a good game! Just don't play it looking for a coherent philosophy.",True,2019-06-23T23:13:41+00:00,2019-06-23T23:13:41+00:00,1146.0,933.0,0.0,6.0,0.0,0.5750252604484558,False,True,False,False,76561198041305453,,83.0,False,False,783,135,19.1,15.55,10h+,positive
+226619728,491950,orwell,Orwell: Keeping an Eye On You,english,"The story is engaging, graphics interesting. The only annoyance (after a while) is the dragging of datachunks into Orwell, I'd rather just click on them. Game worth a try.
+
+Also I had a bug in the game after Nina passed, when I switched to web search it would randomly redirect me to her job site.","The story is engaging, graphics interesting. The only annoyance (after a while) is the dragging of datachunks into Orwell, I'd rather just click on them. Game worth a try. Also I had a bug in the game after Nina passed, when I switched to web search it would randomly redirect me to her job site.",True,2026-05-28T12:32:04+00:00,2026-05-28T12:36:11+00:00,455.0,371.0,0.0,6.0,0.0,0.558394193649292,True,False,False,False,76561198021281696,,5.0,False,False,296,55,7.583333333333333,6.183333333333334,3-10h,positive
+42076354,491950,orwell,Orwell: Keeping an Eye On You,english,"[h1] my THOUGHT(s) on Orwell [/h1]
+•You can get stuck trying to look for the information you needed to progress. But if you're determined and patient enough, you'll find it eventually. 
+•Play it for its story, not for its gameplay.
+•Be careful of the information you give.
+•Freezes sometimes, in my case, but fortunately it saves automatically.
+•Makes you regret on the choices you made.
+
+Overall, Orwell is a good game and I recommend it.","[h1] my THOUGHT(s) on Orwell [/h1] •You can get stuck trying to look for the information you needed to progress. But if you're determined and patient enough, you'll find it eventually. •Play it for its story, not for its gameplay. •Be careful of the information you give. •Freezes sometimes, in my case, but fortunately it saves automatically. •Makes you regret on the choices you made. Overall, Orwell is a good game and I recommend it.",True,2018-05-17T04:30:50+00:00,2018-05-17T04:32:49+00:00,612.0,610.0,0.0,5.0,0.0,0.5881969332695007,True,False,False,False,76561198207975055,,25.0,False,False,437,75,10.2,10.166666666666666,10h+,positive
+134649699,491950,orwell,Orwell: Keeping an Eye On You,english,"[b]TL:DR: [/b] Does 1984 ring a bell? Yes? You are all good, skip this. No? Block off four hours and prepare a lighthearted movie after to flush the existential horror.
+
+[h1]What is Orwell?[/h1]
+The player takes the role of an independent third party taking the reigns of the most powerful surveillance technology ever built tasked with the investigation of a terrorist attack on a monument in the capital of a fictitious country called The Nation. Armed with a context sensitive browser the player dives head first into one medium deep rabbit hole.
+
+[h1]Game Design | The Awesome (+2)[/h1]
+I adore the brutalist functionality of the game design. It feels like a desk job. There is nothing special to it. Everything works as one would expect it to. It should feel cold. It should provide a degree of separation from the subject while not hindering gameplay. This is one of the hardest tricks any game designer can pull off. Take it from a boring person who unironically loves to create spreadsheets for any number of things. This [i]rocks[/i].
+
+[h1]Audio design | The Terrible (-2)[/h1]
+Coming in on the opposite side of the spectrum is audio design. Or lack thereof. The only notable attempt at anything are dynamic music changes when the player comes across [i]shocking[/i] new information. And yes, I am exaggerating, because the music is exaggerating. The whiplash from the norm is that great. It arrives suddenly and leaves before it had a chance to order a frickin' latte. Then there are all the missed opportunities. The player has access to various types of data from texts, to web pages, to voice calls. Instead of a transcript it would have been great to have the few calls fully voiced. It would have brought the player even closer to the characters.
+
+[h1]Characters | The Bad (-1)[/h1]
+...of which Orwell utilizes several one dimensional archetypes with a couple of exceptions that show a hint of a second dimension. Fortunately for the game, the player is not forced to linger on any of the cast. We get just as much as we need to understand from where the wind is blowing before moving on to the next person. For better or worse, commentary on surveillance killing the human experience acts as the main character of the game and is largely responsible for the ankle deep depth of the human pawns.
+
+[h1]Closing Thoughts | The Adequate (0)[/h1]
+Orwell is a tricky proposition. On one side it is concise, excellently showcases pitfalls of absolute surveillance and should be a mandatory play on any high school, on the other side it is cynical to the core and does not allow a solution of the privacy/security conundrum. I could speculate that the original intention of the authors was to show the only winning move is not to play. However, I am writing this script seven years after the release in a world that is inching closer and closer to a world of AI driven absolute surveillance. The absolute surveillance of Orwell fails even with a human at the helm of its moral compass, what chance do we have in the real world without such an agent? At the end of the day art is a reflection of our perceived reality. I understand that having no way out nets a more chilling experience. However, if the resolution does not provide a positive outlook, something to aspire to, it leaves the observer in a very dark place.
+
+[hr][/hr]
+
+[h4]Note[/h4]
+Individual sections (and the whole game) are critiqued on a scale of [i]The Terrible (-2)[/i] from the worse to [i]The Awesome (+2)[/i].","[b]TL:DR: [/b] Does 1984 ring a bell? Yes? You are all good, skip this. No? Block off four hours and prepare a lighthearted movie after to flush the existential horror. [h1]What is Orwell?[/h1] The player takes the role of an independent third party taking the reigns of the most powerful surveillance technology ever built tasked with the investigation of a terrorist attack on a monument in the capital of a fictitious country called The Nation. Armed with a context sensitive browser the player dives head first into one medium deep rabbit hole. [h1]Game Design | The Awesome (+2)[/h1] I adore the brutalist functionality of the game design. It feels like a desk job. There is nothing special to it. Everything works as one would expect it to. It should feel cold. It should provide a degree of separation from the subject while not hindering gameplay. This is one of the hardest tricks any game designer can pull off. Take it from a boring person who unironically loves to create spreadsheets for any number of things. This [i]rocks[/i]. [h1]Audio design | The Terrible (-2)[/h1] Coming in on the opposite side of the spectrum is audio design. Or lack thereof. The only notable attempt at anything are dynamic music changes when the player comes across [i]shocking[/i] new information. And yes, I am exaggerating, because the music is exaggerating. The whiplash from the norm is that great. It arrives suddenly and leaves before it had a chance to order a frickin' latte. Then there are all the missed opportunities. The player has access to various types of data from texts, to web pages, to voice calls. Instead of a transcript it would have been great to have the few calls fully voiced. It would have brought the player even closer to the characters. [h1]Characters | The Bad (-1)[/h1] ...of which Orwell utilizes several one dimensional archetypes with a couple of exceptions that show a hint of a second dimension. Fortunately for the game, the player is not forced to linger on any of the cast. We get just as much as we need to understand from where the wind is blowing before moving on to the next person. For better or worse, commentary on surveillance killing the human experience acts as the main character of the game and is largely responsible for the ankle deep depth of the human pawns. [h1]Closing Thoughts | The Adequate (0)[/h1] Orwell is a tricky proposition. On one side it is concise, excellently showcases pitfalls of absolute surveillance and should be a mandatory play on any high school, on the other side it is cynical to the core and does not allow a solution of the privacy/security conundrum. I could speculate that the original intention of the authors was to show the only winning move is not to play. However, I am writing this script seven years after the release in a world that is inching closer and closer to a world of AI driven absolute surveillance. The absolute surveillance of Orwell fails even with a human at the helm of its moral compass, what chance do we have in the real world without such an agent? At the end of the day art is a reflection of our perceived reality. I understand that having no way out nets a more chilling experience. However, if the resolution does not provide a positive outlook, something to aspire to, it leaves the observer in a very dark place. [hr][/hr] [h4]Note[/h4] Individual sections (and the whole game) are critiqued on a scale of [i]The Terrible (-2)[/i] from the worse to [i]The Awesome (+2)[/i].",True,2023-03-14T13:59:46+00:00,2023-03-14T13:59:46+00:00,218.0,218.0,0.0,4.0,0.0,0.5833333134651184,False,False,False,False,76561197999475416,,61.0,False,False,3482,602,3.6333333333333333,3.6333333333333333,3-10h,positive
+67285220,491950,orwell,Orwell: Keeping an Eye On You,english,"This is a very interesting game, especially for anyone who has an interest in the surveillance state and the pros and cons of such a thing, mixed in with choices that really seem to matter.  I will admit that I have have, at the time of writing this review only played one playthrough, but the story was compelling and the information that I chose to put in/leave out really seemed to impact what was happening.  On top of that, the story is compelling, interesting and told through a very interesting way, feeding you snippets as you dig through the personal lives and media presence of several NPCs with various connections to one another, with a simple lock-off system that makes sense in-universe (we don't have clearance to investigate this person who has some connection to a potential suspect).
+
+Beyond that, the only real issue I have with the game is the few interface bugs.  As the game went on, I found myself getting glitched to certain websites, mostly the [spoiler]work profile of the concerned one woman after she died in a shootout with law enforcement, and occasionally it would glitch to her dating profile.  This would normally happen when I was in either the listener or insider tools, seemingly never when I was on the reader tool already.  It would just switch me over as I tried to open a file on the insider, or load up into a machine, or even when I'd try opening a new conversation in the listener.[/spoiler]
+One more slight drawback about the game is that sometimes you get told a bit too much by the game.  Game not letting you progress?  Something you thought was a lie was probably true.  Yellow highlight instead of blue?  You're going to get some information that conflicts with that.  I realise it would be a lot more work but a way to mark information as lies rather than just disabling it might help.  People don't always tell the truth and if you come to the conclusion that something true is a lie, it would be nice if the game didn't give away that you're wrong by just stopping time for you.  As for the other issue, it might be nice getting a window saying ""Hey, this piece of information you're trying to add conflicts with this other information you've already added...which one do you think is true?"", instead of just ""Hey, at some point probably in the next 10 minutes you'll get another piece of information that will conflict with this here, we know that even though in-universe we haven't made the connection that that page with the conflicting information even exists!""
+
+All in all a really great game with a simple premise, easy to learn with some fairly minor flaws that can honestly be overlooked most of the time.","This is a very interesting game, especially for anyone who has an interest in the surveillance state and the pros and cons of such a thing, mixed in with choices that really seem to matter. I will admit that I have have, at the time of writing this review only played one playthrough, but the story was compelling and the information that I chose to put in/leave out really seemed to impact what was happening. On top of that, the story is compelling, interesting and told through a very interesting way, feeding you snippets as you dig through the personal lives and media presence of several NPCs with various connections to one another, with a simple lock-off system that makes sense in-universe (we don't have clearance to investigate this person who has some connection to a potential suspect). Beyond that, the only real issue I have with the game is the few interface bugs. As the game went on, I found myself getting glitched to certain websites, mostly the [spoiler]work profile of the concerned one woman after she died in a shootout with law enforcement, and occasionally it would glitch to her dating profile. This would normally happen when I was in either the listener or insider tools, seemingly never when I was on the reader tool already. It would just switch me over as I tried to open a file on the insider, or load up into a machine, or even when I'd try opening a new conversation in the listener.[/spoiler] One more slight drawback about the game is that sometimes you get told a bit too much by the game. Game not letting you progress? Something you thought was a lie was probably true. Yellow highlight instead of blue? You're going to get some information that conflicts with that. I realise it would be a lot more work but a way to mark information as lies rather than just disabling it might help. People don't always tell the truth and if you come to the conclusion that something true is a lie, it would be nice if the game didn't give away that you're wrong by just stopping time for you. As for the other issue, it might be nice getting a window saying ""Hey, this piece of information you're trying to add conflicts with this other information you've already added...which one do you think is true?"", instead of just ""Hey, at some point probably in the next 10 minutes you'll get another piece of information that will conflict with this here, we know that even though in-universe we haven't made the connection that that page with the conflicting information even exists!"" All in all a really great game with a simple premise, easy to learn with some fairly minor flaws that can honestly be overlooked most of the time.",True,2020-04-14T10:20:16+00:00,2020-04-14T10:20:16+00:00,343.0,343.0,0.0,4.0,0.0,0.5605858564376831,True,False,False,False,76561197998525314,,12.0,False,False,2651,472,5.716666666666667,5.716666666666667,3-10h,positive
+40242887,491950,orwell,Orwell: Keeping an Eye On You,english,"When I started the game, it was going great until I encountered a bug where I could not progress. I was stuck on where you have to find out cassandra's attitude towards the assault or violence in general. Nothing new popped up. When I googled this issue, it is apparently a problem that others have encountered as well and the only solution was to start over. Maybe I will go back to it another day. It isn't a bad game though so I would still recommend.","When I started the game, it was going great until I encountered a bug where I could not progress. I was stuck on where you have to find out cassandra's attitude towards the assault or violence in general. Nothing new popped up. When I googled this issue, it is apparently a problem that others have encountered as well and the only solution was to start over. Maybe I will go back to it another day. It isn't a bad game though so I would still recommend.",True,2018-02-20T04:51:43+00:00,2018-02-22T21:52:52+00:00,43.0,43.0,0.0,4.0,1.0,0.5485761761665344,True,False,False,False,76561198081754850,,3.0,False,False,454,86,0.7166666666666667,0.7166666666666667,0-1h,positive
+41076306,491950,orwell,Orwell: Keeping an Eye On You,english,"In this game you take the role of a CIA agent in 2012 using the tool that was leaked by Edward Snowden, XKeyScore. 
+
+Your tasked with getting the guys responsible for 3 terrorist acts in jail. You quickly stumble upon a group called The Thot. Everyone in it is clearly a terrorist and should've been arrested decades ago. The whole game you are wondering what's taking your supervisor so long to finally arrest the fools. 
+
+So i finally get to the end of act 5. I identified the 3 terrorists: Everyone in the thot group, the supervisor woman (Sykes was cool, the woman is clearly shady), and the owners of the pharmaceutical company. I couldn't get the supervisor arrested nor the pharmaceutical owners. But luckily everyone in thot was jailed. Good. Then for whatever reason they wanted me arrested. Not exactly clear why this happens since I did everything right, probably a game bug.
+
+Overrall the game is pretty good. It walks the fine line between story and lack of gameplay (that's where you see the positive and negative reviews coming from). And for me it was more towards the good side of the line. I'd say it's worth it but not for 10 bucks. I got it in the humble bundle jumbo bundle.","In this game you take the role of a CIA agent in 2012 using the tool that was leaked by Edward Snowden, XKeyScore. Your tasked with getting the guys responsible for 3 terrorist acts in jail. You quickly stumble upon a group called The Thot. Everyone in it is clearly a terrorist and should've been arrested decades ago. The whole game you are wondering what's taking your supervisor so long to finally arrest the fools. So i finally get to the end of act 5. I identified the 3 terrorists: Everyone in the thot group, the supervisor woman (Sykes was cool, the woman is clearly shady), and the owners of the pharmaceutical company. I couldn't get the supervisor arrested nor the pharmaceutical owners. But luckily everyone in thot was jailed. Good. Then for whatever reason they wanted me arrested. Not exactly clear why this happens since I did everything right, probably a game bug. Overrall the game is pretty good. It walks the fine line between story and lack of gameplay (that's where you see the positive and negative reviews coming from). And for me it was more towards the good side of the line. I'd say it's worth it but not for 10 bucks. I got it in the humble bundle jumbo bundle.",True,2018-03-27T04:45:06+00:00,2018-03-27T04:45:06+00:00,225.0,224.0,0.0,3.0,1.0,0.5356622934341431,False,False,False,False,76561198049184783,,32.0,False,False,1190,214,3.75,3.7333333333333334,3-10h,positive
+174302664,491950,orwell,Orwell: Keeping an Eye On You,english,"Big Brother the game. Good story to follow wish there was more though.
+      [table]
+      [tr]
+      [th]Category[/th]
+      [th]Score[/th]
+      [/tr]
+      [tr]
+      [td] Overall Rating[/td]
+      [td]★★★★☆[/td]
+      [/tr]
+      [tr]
+      [td] Story[/td]
+      [td]★★★★★[/td]
+      [/tr]
+      [tr]
+      [td] Gameplay[/td]
+      [td]★★★★★[/td]
+      [/tr]
+      [tr]
+      [td] Graphics[/td]
+      [td]★★★★☆[/td]
+      [/tr]
+      [tr]
+      [td] Sound Design[/td]
+      [td]★★★★☆[/td]
+      [/tr]
+      [tr]
+      [td] Replay Value[/td]
+      [td]★★☆☆☆[/td]
+      [/tr]
+      [tr]
+      [td] Difficulty[/td]
+      [td]★★☆☆☆[/td]
+      [/tr]
+      [tr]
+      [td] Bug free?[/td]
+      [td]★☆☆☆☆[/td]
+      [/tr]
+      [tr]
+      [td] PC Requirements[/td]
+      [td]★☆☆☆☆[/td]
+      [/tr]
+      [tr]
+      [td] Game Length[/td]
+      [td]▰▰▰▰▰▰▱▱▱▱
+      [/td]
+      [/tr]
+      [/table]
+         Happy Watching!  
+      [hr][/hr]
+",Big Brother the game. Good story to follow wish there was more though. [table] [tr] [th]Category[/th] [th]Score[/th] [/tr] [tr] [td] Overall Rating[/td] [td]★★★★☆[/td] [/tr] [tr] [td] Story[/td] [td]★★★★★[/td] [/tr] [tr] [td] Gameplay[/td] [td]★★★★★[/td] [/tr] [tr] [td] Graphics[/td] [td]★★★★☆[/td] [/tr] [tr] [td] Sound Design[/td] [td]★★★★☆[/td] [/tr] [tr] [td] Replay Value[/td] [td]★★☆☆☆[/td] [/tr] [tr] [td] Difficulty[/td] [td]★★☆☆☆[/td] [/tr] [tr] [td] Bug free?[/td] [td]★☆☆☆☆[/td] [/tr] [tr] [td] PC Requirements[/td] [td]★☆☆☆☆[/td] [/tr] [tr] [td] Game Length[/td] [td]▰▰▰▰▰▰▱▱▱▱ [/td] [/tr] [/table] Happy Watching! [hr][/hr],True,2024-09-05T20:04:06+00:00,2024-09-05T20:04:06+00:00,237.0,237.0,0.0,3.0,0.0,0.5263266563415527,False,True,False,False,76561198168837674,,252.0,False,False,637,79,3.95,3.95,3-10h,positive
+50469540,491950,orwell,Orwell: Keeping an Eye On You,english,"Entertaining. This game is some kind of text adventure with some a nice story and some philosophical questions. As the name game suggests, is a Big Brother-inspired game. You're an investigator trying to catch the bad guys, only that the line is blurred and is up to you to who should be punished at the end.
+
+Found no bugs or had any crashes. Works fine on Win 7.
+
+The game keeps you interested and features nice art and music. Is not too long but I would say is the right amount of content before it could become boring. It has cards and achievements. This is really a niche game. Not for everyone, but if you like adult-oriented content, spying on people and to read a lot, this is for you.","Entertaining. This game is some kind of text adventure with some a nice story and some philosophical questions. As the name game suggests, is a Big Brother-inspired game. You're an investigator trying to catch the bad guys, only that the line is blurred and is up to you to who should be punished at the end. Found no bugs or had any crashes. Works fine on Win 7. The game keeps you interested and features nice art and music. Is not too long but I would say is the right amount of content before it could become boring. It has cards and achievements. This is really a niche game. Not for everyone, but if you like adult-oriented content, spying on people and to read a lot, this is for you.",True,2019-05-04T09:56:49+00:00,2019-05-04T09:56:49+00:00,458.0,458.0,0.0,2.0,0.0,0.5532727837562561,False,False,False,False,76561198120530775,,418.0,False,False,691,130,7.633333333333334,7.633333333333334,3-10h,positive
+35619514,491950,orwell,Orwell: Keeping an Eye On You,english,"I got this game in a humble bundle and hadn't actually heard about it before i got it.
+
+I always was a big fan of Investigation/Hacker games and Orwell is definitally in my taste.
+
+It's really exciting to look for clues, bug phones/e-mails and hack computers to find clues to advance the case.
+there is a good story to it aswell with lots of twists and turns and you have to make sure in some cases to choose the correct option.
+
+The graphics in the game reminds me of the old flashback game from the Amiga 500 and it feels really fresh to see that style again :-)
+
+I played it halfway thru the story in my first try and im aiming to complete it in the next play :-)
+
+Awesome game!! Highly recommend it","I got this game in a humble bundle and hadn't actually heard about it before i got it. I always was a big fan of Investigation/Hacker games and Orwell is definitally in my taste. It's really exciting to look for clues, bug phones/e-mails and hack computers to find clues to advance the case. there is a good story to it aswell with lots of twists and turns and you have to make sure in some cases to choose the correct option. The graphics in the game reminds me of the old flashback game from the Amiga 500 and it feels really fresh to see that style again :-) I played it halfway thru the story in my first try and im aiming to complete it in the next play :-) Awesome game!! Highly recommend it",True,2017-10-10T15:12:44+00:00,2017-10-10T15:12:44+00:00,257.0,191.0,0.0,2.0,0.0,0.5491803288459778,False,False,False,False,76561198000765663,,72.0,False,False,697,135,4.283333333333333,3.183333333333333,3-10h,positive
+73181205,491950,orwell,Orwell: Keeping an Eye On You,english,"TLDR: This is a very different and morally challenging game. The game play itself is easy but the story is really in depth and there are many choices that have severe consequences. It is short, but it has great replayability to explore how different choices affect the world. Definitely pick it up! 
+
+---{Graphics}---
+☐ You forget what reality is
+☐ Beautiful
+☑ Very good
+☐ Decent
+☐ Bad
+☐ Don‘t look too long at it
+
+---{Game play}---
+☑ Very good
+☐ Good
+☐ WTF
+☐ Just don‘t
+
+---{Audio}---
+☐ Eargasm
+☑ Very good
+☐ Good
+☐ Not too bad
+☐ Bad
+
+---{PC Requirements}---
+☐ Check if you can run paint
+☑ Potato
+☐ Decent
+☐ Fast
+☐ Rich Boi
+
+---{Difficulty}---
+☐ Very Easy
+☑ Easy
+☑ Morally extremely difficult
+☐ Hard
+☐ Difficult
+☐ Dark Souls
+
+---{Achievements}---
+☐ None at all :(
+☑ A small amount
+☐ Lots
+☐ Too many to count
+☐ Can get in one playthrough
+☑ A few are missable
+☑ Replaying is a must for completion
+
+---{Grind}---
+☑ Nothing to grind
+☐ Having Fun either way
+☐ Too much grind
+☐ Fk this s**t
+
+---{Story}---
+☐ What Story?
+☐ Text or Audio floating around
+☐ Average
+☐ Good
+☐ Lovely
+☑ It‘ll replace your life
+☑ I cried a bit
+
+---{Game Time}---
+☐ Better Watch it on Youtube
+☑ Short (5 hours for single playthrough)
+☐ Average 
+☐ Long
+☐ Very Long
+
+---{Replayability}---
+☐ You'll struggle to get through it once
+☐ Don't bother
+☐ Can maybe play it twice 
+☑ Multiple story lines so replay is a must
+☐ Doesn't end/So many replays
+
+---{Price}---
+☐ It’s totally free
+☑ Wait for a discount
+☑ Worth the price
+☐ Buy it and pay others to do the same
+
+
+---{Bugs}---
+☑ What is Bugs?!
+☐ Minor bugs
+☐ Can get annoying
+☐ The game itself is worse than mosquitoes on Summer","TLDR: This is a very different and morally challenging game. The game play itself is easy but the story is really in depth and there are many choices that have severe consequences. It is short, but it has great replayability to explore how different choices affect the world. Definitely pick it up! ---{Graphics}--- ☐ You forget what reality is ☐ Beautiful ☑ Very good ☐ Decent ☐ Bad ☐ Don‘t look too long at it ---{Game play}--- ☑ Very good ☐ Good ☐ WTF ☐ Just don‘t ---{Audio}--- ☐ Eargasm ☑ Very good ☐ Good ☐ Not too bad ☐ Bad ---{PC Requirements}--- ☐ Check if you can run paint ☑ Potato ☐ Decent ☐ Fast ☐ Rich Boi ---{Difficulty}--- ☐ Very Easy ☑ Easy ☑ Morally extremely difficult ☐ Hard ☐ Difficult ☐ Dark Souls ---{Achievements}--- ☐ None at all :( ☑ A small amount ☐ Lots ☐ Too many to count ☐ Can get in one playthrough ☑ A few are missable ☑ Replaying is a must for completion ---{Grind}--- ☑ Nothing to grind ☐ Having Fun either way ☐ Too much grind ☐ Fk this s**t ---{Story}--- ☐ What Story? ☐ Text or Audio floating around ☐ Average ☐ Good ☐ Lovely ☑ It‘ll replace your life ☑ I cried a bit ---{Game Time}--- ☐ Better Watch it on Youtube ☑ Short (5 hours for single playthrough) ☐ Average ☐ Long ☐ Very Long ---{Replayability}--- ☐ You'll struggle to get through it once ☐ Don't bother ☐ Can maybe play it twice ☑ Multiple story lines so replay is a must ☐ Doesn't end/So many replays ---{Price}--- ☐ It’s totally free ☑ Wait for a discount ☑ Worth the price ☐ Buy it and pay others to do the same ---{Bugs}--- ☑ What is Bugs?! ☐ Minor bugs ☐ Can get annoying ☐ The game itself is worse than mosquitoes on Summer",True,2020-07-23T22:20:53+00:00,2021-02-28T23:47:50+00:00,956.0,325.0,0.0,2.0,0.0,0.548872172832489,True,False,False,False,76561198280286232,,66.0,False,False,1627,315,15.933333333333334,5.416666666666667,3-10h,positive
+30022130,491950,orwell,Orwell: Keeping an Eye On You,english,"I had a great time with this game. It took a topical issue and made an interesting narrative with a good cast of characters. The choices were at times very difficult with unclear consequences that made the morality of what you were doing even murkier. 
+The mechanic where your supervisor only reports what you submit shows the real strength of this game- the writing. Symes can be misled very masterfully if you're careful about what you give him and when you do. Very appealing.
+I just finished my second playthrough and will do a third to get the last of the achievements.
+
+ONE MAJOR BUG - In Episode Five, when the supervisor would finish talking to you, the Orwell interface would still have the transparent blue overlay and wouldn't accept any clicks. This distrupted the flow of the finale significantly, forcing me to close and reopen the game. Happened five times over two playthroughs. Please fix","I had a great time with this game. It took a topical issue and made an interesting narrative with a good cast of characters. The choices were at times very difficult with unclear consequences that made the morality of what you were doing even murkier. The mechanic where your supervisor only reports what you submit shows the real strength of this game- the writing. Symes can be misled very masterfully if you're careful about what you give him and when you do. Very appealing. I just finished my second playthrough and will do a third to get the last of the achievements. ONE MAJOR BUG - In Episode Five, when the supervisor would finish talking to you, the Orwell interface would still have the transparent blue overlay and wouldn't accept any clicks. This distrupted the flow of the finale significantly, forcing me to close and reopen the game. Happened five times over two playthroughs. Please fix",True,2017-02-19T00:34:25+00:00,2017-02-19T00:34:25+00:00,704.0,692.0,0.0,2.0,0.0,0.5441657304763794,True,False,False,False,76561198325517263,,12.0,False,False,903,156,11.733333333333333,11.533333333333333,10h+,positive
+92482180,491950,orwell,Orwell: Keeping an Eye On You,english,"I liked this one a lot! It's a very text-based game where you play as a professional people-snooper, reading through their conversations and the like, and either [being a good government agent and landing these terrorists in prison] or [going against the government and helping expose the corruption these freedom fighters target].
+
+...conflicting data chunks found, choose one to proceed.
+
+Really though, good stuff. Good story. Relaxing and nice to play despite the rather sincere commentary on surveillance.","I liked this one a lot! It's a very text-based game where you play as a professional people-snooper, reading through their conversations and the like, and either [being a good government agent and landing these terrorists in prison] or [going against the government and helping expose the corruption these freedom fighters target]. ...conflicting data chunks found, choose one to proceed. Really though, good stuff. Good story. Relaxing and nice to play despite the rather sincere commentary on surveillance.",True,2021-05-23T18:23:20+00:00,2021-05-23T18:25:12+00:00,266.0,266.0,0.0,2.0,0.0,0.5416666865348816,False,True,False,False,76561197979193507,,112.0,False,False,508,78,4.433333333333334,4.433333333333334,3-10h,positive
+30351150,491950,orwell,Orwell: Keeping an Eye On You,english,"It's the first time I give a revew on Steam but I feel I had to do it for this game. I bought it this week and started playing yesterday. I stopped at 3 am to go to bed, then continued playing today as I was completely hooked. I did a complete playthrough in 9.5 hours, which is really great for the price. It could take less time, but I really got invested in the story and actually took time to make every decision carefully. 
+
+TL;DR : This game is a masterpiece. Buy it.
+I'll try to break down my impressions :
+
+PROS
+-AMAZING storyline! It was intricate, well written, complex... I enjoy puzzles & solving enigmas, I'm not new to it... but this game got me wandering in the dark, completely distabilized. And the side stories just adds to it.
+-Well written characters! The game is litterally about digging into targetted people's life, going as deep as possible. It could have been so bad, it could have been superficial data made up just for the story. But it was interesting. You have to make choices, decide what information you give up to Orwell and what other info you keep to yourself, and it impacts the story and these people's life. I developped sympathy for some and aversion for others. The characters felt real.
+-The ending was great. At that point, I was expecting it, but it was still so satisfying.
+-Very intuitive and easy gameplay. Just a tip : don't go too fast. Wait a bit before sending a piece of information, try to make up your own opinion with other infos first.
+-Nice art style. It's simple yet beautiful, I really enjoyed it. 
+-Nice soundtrack. The music was always appropriate and guided me through the story. 
+
+CONS
+-Only one story. I wish there was more enigmas, I wish it wasn't over! Even if I could change the playthrough slightly, it's still the same. I'm eager to play more of this game!
+-Some bugs. Was never really detrimental to my gaming experience, but still slightly annoying. I sometimes had trouble dragging the infos to the dropping box, and somtimes there was the alert symbol like I sill had unseen data chunks, which wasn't true, so I would search for missed info that weren't there. 
+
+CONCLUSION
+If you're the kind of player to aggressively click your mouse at every dialogue box to skip it as fast as possible, this game is not for you. It's a game for the critical thinkers, for people who like to pause to think and come up with theories. You have to enjoy reading, because that's basically all what you'll do... it's more of a graphic novel than a video game. But it's so delicously done, if you're open to something different and refreshing, don't hesitate any further, buy this game and dive into it. You won't regret it I promise. :)","It's the first time I give a revew on Steam but I feel I had to do it for this game. I bought it this week and started playing yesterday. I stopped at 3 am to go to bed, then continued playing today as I was completely hooked. I did a complete playthrough in 9.5 hours, which is really great for the price. It could take less time, but I really got invested in the story and actually took time to make every decision carefully. TL;DR : This game is a masterpiece. Buy it. I'll try to break down my impressions : PROS -AMAZING storyline! It was intricate, well written, complex... I enjoy puzzles & solving enigmas, I'm not new to it... but this game got me wandering in the dark, completely distabilized. And the side stories just adds to it. -Well written characters! The game is litterally about digging into targetted people's life, going as deep as possible. It could have been so bad, it could have been superficial data made up just for the story. But it was interesting. You have to make choices, decide what information you give up to Orwell and what other info you keep to yourself, and it impacts the story and these people's life. I developped sympathy for some and aversion for others. The characters felt real. -The ending was great. At that point, I was expecting it, but it was still so satisfying. -Very intuitive and easy gameplay. Just a tip : don't go too fast. Wait a bit before sending a piece of information, try to make up your own opinion with other infos first. -Nice art style. It's simple yet beautiful, I really enjoyed it. -Nice soundtrack. The music was always appropriate and guided me through the story. CONS -Only one story. I wish there was more enigmas, I wish it wasn't over! Even if I could change the playthrough slightly, it's still the same. I'm eager to play more of this game! -Some bugs. Was never really detrimental to my gaming experience, but still slightly annoying. I sometimes had trouble dragging the infos to the dropping box, and somtimes there was the alert symbol like I sill had unseen data chunks, which wasn't true, so I would search for missed info that weren't there. CONCLUSION If you're the kind of player to aggressively click your mouse at every dialogue box to skip it as fast as possible, this game is not for you. It's a game for the critical thinkers, for people who like to pause to think and come up with theories. You have to enjoy reading, because that's basically all what you'll do... it's more of a graphic novel than a video game. But it's so delicously done, if you're open to something different and refreshing, don't hesitate any further, buy this game and dive into it. You won't regret it I promise. :)",True,2017-03-06T05:49:36+00:00,2017-03-06T05:49:36+00:00,816.0,572.0,0.0,2.0,0.0,0.5332086086273193,True,False,False,False,76561198338417468,,2.0,False,False,2682,487,13.6,9.533333333333333,3-10h,positive
+29756666,491950,orwell,Orwell: Keeping an Eye On You,english,"Compelling. Immersive. Intense. Orwell is all of these things as it shows us the future of online privacy (increasingly an oxymoron in this age) and how easy it is/will be to curtail our civil liberties, even with only the best of intentions.
+
+Much like Papers, Please, this game gives you an unpopular (to say the least) but reasonably straightforward job. Soon, however, you discover just how crucial your decisions are - and how dire the consequences can be. Of course, you are simply doing your job; you're not a [i]villain[/i]... but, looking at your actions, are you distinguishable from one?
+
+Orwell is a game that touches on many important topics, including but not limited to...
+
+- privacy, both as a basic societal concept and as a political issue
+- the importance of context (and the dangers of losing/removing it)
+- whether the ends justify the means (openness to truth versus confirmation bias/cherrypicking)
+- the importance of critical reading (instead of passive credulity)
+- identity, which can be variously represented as one's experiences and/or past actions and/or speech (and the pitfalls of giving any one instance too much weight)
+- idealism and its potential for corruption
+- law as a power unto itself
+
+I enjoyed and [b]recommend[/b] this game for its well-paced character-driven story, effective mood-setting music, and overall attractive presentation.","Compelling. Immersive. Intense. Orwell is all of these things as it shows us the future of online privacy (increasingly an oxymoron in this age) and how easy it is/will be to curtail our civil liberties, even with only the best of intentions. Much like Papers, Please, this game gives you an unpopular (to say the least) but reasonably straightforward job. Soon, however, you discover just how crucial your decisions are - and how dire the consequences can be. Of course, you are simply doing your job; you're not a [i]villain[/i]... but, looking at your actions, are you distinguishable from one? Orwell is a game that touches on many important topics, including but not limited to... - privacy, both as a basic societal concept and as a political issue - the importance of context (and the dangers of losing/removing it) - whether the ends justify the means (openness to truth versus confirmation bias/cherrypicking) - the importance of critical reading (instead of passive credulity) - identity, which can be variously represented as one's experiences and/or past actions and/or speech (and the pitfalls of giving any one instance too much weight) - idealism and its potential for corruption - law as a power unto itself I enjoyed and [b]recommend[/b] this game for its well-paced character-driven story, effective mood-setting music, and overall attractive presentation.",True,2017-02-07T07:25:26+00:00,2017-02-07T08:52:03+00:00,320.0,320.0,0.0,2.0,0.0,0.5302013158798218,True,False,False,False,76561198014849103,,104.0,False,False,1374,220,5.333333333333333,5.333333333333333,3-10h,positive
+33047567,491950,orwell,Orwell: Keeping an Eye On You,english,"When I don't want to play a game that involves being eaten by animals or zombies  / killed by players / dying of hunger or freezing to death Orwell is the one for me! I find it quite relaxing actually. 
+
+I get to snoop around people's lives and gather bits of information regarding their suspect (or not) lives and behaviours in order to find out who did the crime. Questions you may ask yourself- Was the colour red being their fave colour really important to know? Should you have really dobbed in that person? Then that feeling when you realise you made a mistake... DOH! and you get a bit of a verbal dressing down by someone who looks like a toothless third year maths teacher who can only afford to eat beans on toast every other day.
+
+From what I understand there are several endings to this game depending on what you do throughout - I managed to get myself arrested last time around so this time I will play by the books and hopefully not click on my own information like an untrained monkey bashing buttons and then wonder why it actually ended the way it did!",When I don't want to play a game that involves being eaten by animals or zombies / killed by players / dying of hunger or freezing to death Orwell is the one for me! I find it quite relaxing actually. I get to snoop around people's lives and gather bits of information regarding their suspect (or not) lives and behaviours in order to find out who did the crime. Questions you may ask yourself- Was the colour red being their fave colour really important to know? Should you have really dobbed in that person? Then that feeling when you realise you made a mistake... DOH! and you get a bit of a verbal dressing down by someone who looks like a toothless third year maths teacher who can only afford to eat beans on toast every other day. From what I understand there are several endings to this game depending on what you do throughout - I managed to get myself arrested last time around so this time I will play by the books and hopefully not click on my own information like an untrained monkey bashing buttons and then wonder why it actually ended the way it did!,True,2017-06-30T17:21:12+00:00,2017-06-30T17:21:12+00:00,503.0,378.0,0.0,2.0,0.0,0.5295794606208801,True,False,False,False,76561198090695449,,2.0,False,False,1066,199,8.383333333333333,6.3,3-10h,positive
+225904869,491950,orwell,Orwell: Keeping an Eye On You,english,"An amazing game that will soon turn into real life if we don't stop the US and the EU from wanting to spy on their people everywhere and anywhere. This was shocking back then, and now with all the corruption going on, its shocking even now.","An amazing game that will soon turn into real life if we don't stop the US and the EU from wanting to spy on their people everywhere and anywhere. This was shocking back then, and now with all the corruption going on, its shocking even now.",True,2026-05-19T09:28:16+00:00,2026-05-19T09:28:16+00:00,604.0,593.0,0.0,2.0,0.0,0.5035461187362671,False,True,False,False,76561198368992467,,794.0,False,False,240,46,10.066666666666666,9.883333333333333,3-10h,positive
+44914618,491950,orwell,Orwell: Keeping an Eye On You,english,"[h1] Orwell: Keeping an Eye On You [/h1]
+
+--- [Player Base] ---
+☑ Casual players
+☐ Hardcore players
+
+
+--- [Is it for mature players?] ---
+☐ Everyone
+☑ Mature
+
+
+--- [Story] ---
+☐ Doesn't have it
+☐ Bad
+☐ Average
+☑ Good
+☐ Fantastic
+
+
+--- [Graphics] ---
+☐ Really bad
+☐ Bad
+☑ OK
+☐ Good
+☐ Beautiful 
+☐ Masterpiece
+
+
+--- [Difficulty] ---
+☐ Easy Peasy
+☑ Easy to learn but hard to master
+☐ Medium
+☐ Hard
+☐ Dark Souls
+
+
+--- [Timelength] ---
+☐ Really short ( 0 - 2 hours)
+☐ Short ( 2 - 8 hours)
+☐ Average ( 8 - 12 hours)
+☑ Long ( 12+ hours)
+☐ Endless
+
+
+--- [PC specs] ---
+☐ Toaster
+☑ Average
+☐ Solid Medium
+☐ High end
+☐ Unoptimized
+
+
+--- [Price] ---
+☑ Full price
+☐ Wait for sale
+☐ Don't do it
+☐ Free
+
+
+--- [Bugs] ---
+☐ Game itself is a bug
+☐ Lot of bugs
+☐ Few Bugs
+☑ Nothing
+
+[u] Gameplay [/u]
+Orwell allows investigations into the private communications of people of interest, but doesn't allow any one person full access. Instead, Orwell's operation is run by two groups; Investigators, persons outside of the Nation working for the government who search through the communication of target persons and upload items of interest (represented as ""datachunks""), and Advisors, people inside of the Nation who use the received datachunks to determine the course of action and to recommend actions to the authorities.
+
+[u] Review [/u]
+This game really grabs your attention from the get go, there's plenty of paths for you to take throughout the game. Most lead to the same solution but there are at least 4 endings to go through, I can imagine the game gets pretty repetitive once you've completed the game once or twice though.
+
+They may be watching as we speak 7.5/10","[h1] Orwell: Keeping an Eye On You [/h1] --- [Player Base] --- ☑ Casual players ☐ Hardcore players --- [Is it for mature players?] --- ☐ Everyone ☑ Mature --- [Story] --- ☐ Doesn't have it ☐ Bad ☐ Average ☑ Good ☐ Fantastic --- [Graphics] --- ☐ Really bad ☐ Bad ☑ OK ☐ Good ☐ Beautiful ☐ Masterpiece --- [Difficulty] --- ☐ Easy Peasy ☑ Easy to learn but hard to master ☐ Medium ☐ Hard ☐ Dark Souls --- [Timelength] --- ☐ Really short ( 0 - 2 hours) ☐ Short ( 2 - 8 hours) ☐ Average ( 8 - 12 hours) ☑ Long ( 12+ hours) ☐ Endless --- [PC specs] --- ☐ Toaster ☑ Average ☐ Solid Medium ☐ High end ☐ Unoptimized --- [Price] --- ☑ Full price ☐ Wait for sale ☐ Don't do it ☐ Free --- [Bugs] --- ☐ Game itself is a bug ☐ Lot of bugs ☐ Few Bugs ☑ Nothing [u] Gameplay [/u] Orwell allows investigations into the private communications of people of interest, but doesn't allow any one person full access. Instead, Orwell's operation is run by two groups; Investigators, persons outside of the Nation working for the government who search through the communication of target persons and upload items of interest (represented as ""datachunks""), and Advisors, people inside of the Nation who use the received datachunks to determine the course of action and to recommend actions to the authorities. [u] Review [/u] This game really grabs your attention from the get go, there's plenty of paths for you to take throughout the game. Most lead to the same solution but there are at least 4 endings to go through, I can imagine the game gets pretty repetitive once you've completed the game once or twice though. They may be watching as we speak 7.5/10",True,2018-09-24T16:08:03+00:00,2018-09-24T16:08:03+00:00,826.0,826.0,0.0,2.0,0.0,0.48059162497520447,False,True,False,False,76561198202022263,,496.0,False,False,1633,309,13.766666666666667,13.766666666666667,10h+,positive
+27405556,491950,orwell,Orwell: Keeping an Eye On You,english,Highly highly recommended. This is the absolute best game of 2016 and highly under rated. It looks incredibly basic and easy but it is anything but. Highly immersive and addictive. Crashed once but was fixed by the time episode 5 as launched the following week and it worked fine. No ending is guaranteed and no outcome is easily predictable. There are multiple endings depending what YOU choose to do and submit to Orwell. I've spent almost 3 hours on the game at the time of writing and intend on going through it doing different things the next time and see what happens. Its highly unnerving and brilliant and the soundtrack is well worth getting as the soundtrack is one of my absolute favourites. There is literraly one stage in the game where you get hacked and I thought my actual laptop was getting hacked it was done that well. The story line is brilliant and I'm hoping there will be a sequel or second season.,Highly highly recommended. This is the absolute best game of 2016 and highly under rated. It looks incredibly basic and easy but it is anything but. Highly immersive and addictive. Crashed once but was fixed by the time episode 5 as launched the following week and it worked fine. No ending is guaranteed and no outcome is easily predictable. There are multiple endings depending what YOU choose to do and submit to Orwell. I've spent almost 3 hours on the game at the time of writing and intend on going through it doing different things the next time and see what happens. Its highly unnerving and brilliant and the soundtrack is well worth getting as the soundtrack is one of my absolute favourites. There is literraly one stage in the game where you get hacked and I thought my actual laptop was getting hacked it was done that well. The story line is brilliant and I'm hoping there will be a sequel or second season.,True,2016-11-25T08:23:42+00:00,2016-11-25T08:23:42+00:00,175.0,169.0,0.0,1.0,0.0,0.5283018946647644,True,False,False,False,76561198313393780,,3.0,False,False,921,165,2.9166666666666665,2.816666666666667,1-3h,positive
+26980853,491950,orwell,Orwell: Keeping an Eye On You,english,"This game is well worth your money. It offers a superb story; a story that is especially relevant (most likely intentionally) today. There are very few bugs, and none of the bugs are gamebreaking.
+I highly recommend this game and I am suggesting that it be nominated for ""best story"" in the Steam Awards.","This game is well worth your money. It offers a superb story; a story that is especially relevant (most likely intentionally) today. There are very few bugs, and none of the bugs are gamebreaking. I highly recommend this game and I am suggesting that it be nominated for ""best story"" in the Steam Awards.",True,2016-11-24T01:44:02+00:00,2016-11-24T01:44:02+00:00,293.0,222.0,0.0,1.0,0.0,0.5283018946647644,True,False,False,False,76561198121588904,,4.0,False,False,304,54,4.883333333333334,3.7,3-10h,positive
+36609523,491950,orwell,Orwell: Keeping an Eye On You,english,"Excellent game, thoroughly enjoyed it.  Basically everything would be a spoiler so I'm not going to mention anything game specific, but it plays out like a text-based Telltale game.  Also meta, but not in an obnoxious way - I appreciate that.
+
+As for critiques, it was very irritating to discover information prior to being allowed to select, even when you *know* it is pertinent to the investigation. It felt like too much handholding (with pre-highlighted phrases), and too many bottlenecks stopping me from filling out my investigation at my own pace.  AND LET PLAYERS ZOOM OUT ON THE CONNECTIONS/CONTACTS MAP! It was infuriating scrolling around.  Also, from an intelligence standpoint, the paths to other persons in the contact networks should be labelled with their relationship (Brother, Sister, Girlfriend, etc.) and updated as you discover more information just like everything else. 
+
+Cosmetic Bug: The player can choose which primary profile picture they associate with each person, which changes that picture in all subsequent documents or interactions (calls, texts), but during one scripted cutscene it defaulted to what would probably have been the newest picture I had discovered (Nina in this case) when I had purposely switched to a prior picture. No one would normally notice, but it is still a jarring bug because they were very different pictures and it didn't make logical sense with the way I was building the narrrative for Orwell.","Excellent game, thoroughly enjoyed it. Basically everything would be a spoiler so I'm not going to mention anything game specific, but it plays out like a text-based Telltale game. Also meta, but not in an obnoxious way - I appreciate that. As for critiques, it was very irritating to discover information prior to being allowed to select, even when you *know* it is pertinent to the investigation. It felt like too much handholding (with pre-highlighted phrases), and too many bottlenecks stopping me from filling out my investigation at my own pace. AND LET PLAYERS ZOOM OUT ON THE CONNECTIONS/CONTACTS MAP! It was infuriating scrolling around. Also, from an intelligence standpoint, the paths to other persons in the contact networks should be labelled with their relationship (Brother, Sister, Girlfriend, etc.) and updated as you discover more information just like everything else. Cosmetic Bug: The player can choose which primary profile picture they associate with each person, which changes that picture in all subsequent documents or interactions (calls, texts), but during one scripted cutscene it defaulted to what would probably have been the newest picture I had discovered (Nina in this case) when I had purposely switched to a prior picture. No one would normally notice, but it is still a jarring bug because they were very different pictures and it didn't make logical sense with the way I was building the narrrative for Orwell.",True,2017-11-18T23:38:20+00:00,2017-11-18T23:38:20+00:00,388.0,387.0,0.0,1.0,0.0,0.5250000357627869,False,False,False,False,76561198035931277,,126.0,False,False,1448,233,6.466666666666667,6.45,3-10h,positive
+27912309,491950,orwell,Orwell: Keeping an Eye On You,english,"Hoooo boy. How to start.
+
+Orwell is absolutely Orwellian, but for any literature nerds like me out there, this isn't like an adaptation of 1984 or Animal Farm or even Homage to Catalonia. But The Nation, the central society that the game takes place in, is an Orwellian state. Someone's always watching. In this case, it's you. An act of terror has been committed, and it's up to you to sift through blogs, emails, telephone calls, texts, photos, even remote-accessing citizen's computers in order to find out whodunnit. Esentially, you ARE Big Brother. Similarly to Papers, Please, you work for the system. But that's where the similarities stop because Orwell is visually stunning, with an intuitive interface and in-your-face consequences for your actions.
+
+I've played every dystopian, utopian, cyberpunk, post-cyberpunk, pre-cyberpunk, and anything that even sounds like cyberpunk game I could get my hands on, and this is easily in the top five percent. Orwell allows you the freedom to choose what kind of observer/reporter you'll be. Will you try your best to do what's right by the Nation? Will you use your position on the inside to help the resistance? The choices can be subtle - I found myself making honest mistakes, people going to prison who didn't deserve it or worse. And what's equally intriguing as what's in Orwell is what is implied - the type of society you're observing, her inhabitants. There's a lot of reading, but it establishes a base for a complex and interesting world. If I had to fault it, it would be on replayability. You're allowed to explore so much and the resolution is so memorable that I can't imagine being as surprised again. Even so, I immensely enjoyed my playthrough.
+
+Orwell was worth every cent I paid for it. In fact, it's one of the best games I've played this year. It was beautiful, engaging, and timely. You won't regret playing it.","Hoooo boy. How to start. Orwell is absolutely Orwellian, but for any literature nerds like me out there, this isn't like an adaptation of 1984 or Animal Farm or even Homage to Catalonia. But The Nation, the central society that the game takes place in, is an Orwellian state. Someone's always watching. In this case, it's you. An act of terror has been committed, and it's up to you to sift through blogs, emails, telephone calls, texts, photos, even remote-accessing citizen's computers in order to find out whodunnit. Esentially, you ARE Big Brother. Similarly to Papers, Please, you work for the system. But that's where the similarities stop because Orwell is visually stunning, with an intuitive interface and in-your-face consequences for your actions. I've played every dystopian, utopian, cyberpunk, post-cyberpunk, pre-cyberpunk, and anything that even sounds like cyberpunk game I could get my hands on, and this is easily in the top five percent. Orwell allows you the freedom to choose what kind of observer/reporter you'll be. Will you try your best to do what's right by the Nation? Will you use your position on the inside to help the resistance? The choices can be subtle - I found myself making honest mistakes, people going to prison who didn't deserve it or worse. And what's equally intriguing as what's in Orwell is what is implied - the type of society you're observing, her inhabitants. There's a lot of reading, but it establishes a base for a complex and interesting world. If I had to fault it, it would be on replayability. You're allowed to explore so much and the resolution is so memorable that I can't imagine being as surprised again. Even so, I immensely enjoyed my playthrough. Orwell was worth every cent I paid for it. In fact, it's one of the best games I've played this year. It was beautiful, engaging, and timely. You won't regret playing it.",True,2016-11-28T03:33:02+00:00,2016-11-28T03:33:02+00:00,338.0,338.0,0.0,1.0,0.0,0.523809552192688,True,False,False,False,76561198055490650,,3.0,False,False,1882,320,5.633333333333334,5.633333333333334,3-10h,positive
+206084561,491950,orwell,Orwell: Keeping an Eye On You,english,"Decent game about surveillance and investigation.
+Making connections and piecing together information is compelling, albeit the means to do so can be limited by the highlighted options and if they're unlocked/available for recording at that moment.
+Regardless how limited the plot line may be, it was still enjoyable to play through.
+
+The one gameplay issue I had was a bug seemingly around since 2020 or earlier where the information popup when hovering over a data point (or fullscreen photo) might not appear, often after chapter 2.
+This can be frustrating to deal with if it happens often.
+The only temporary workarounds I found were:
+1. Logging out and in or restarting the game.
+2. Click and hold off the data point, then move and hover over the point while holding.
+Unfortunately, these aren't consistent and may not work depending on the data point.","Decent game about surveillance and investigation. Making connections and piecing together information is compelling, albeit the means to do so can be limited by the highlighted options and if they're unlocked/available for recording at that moment. Regardless how limited the plot line may be, it was still enjoyable to play through. The one gameplay issue I had was a bug seemingly around since 2020 or earlier where the information popup when hovering over a data point (or fullscreen photo) might not appear, often after chapter 2. This can be frustrating to deal with if it happens often. The only temporary workarounds I found were: 1. Logging out and in or restarting the game. 2. Click and hold off the data point, then move and hover over the point while holding. Unfortunately, these aren't consistent and may not work depending on the data point.",True,2025-10-07T01:43:42+00:00,2025-10-07T01:43:42+00:00,765.0,399.0,0.0,1.0,0.0,0.523809552192688,True,False,False,False,76561198053908311,,16.0,False,False,856,143,12.75,6.65,3-10h,positive
+26707117,491950,orwell,Orwell: Keeping an Eye On You,english,"This game is amazing. The central story itself is pretty good but what really sells it is the atmosphere as you're a cog in the survelience state machine. It's relatively short but for the price I can't really fault the length too much especially given the sheer amount of background detail in each chapter. Simply incredible. Also not sure if it's  a bug but my game crashed at the end of the fifth chapter which echoed what was happening in the game and I haven't been able to replay that save since as it crashes the game each time. Not sure if that is an intentional feature, it did freak me out though. Amazing.
+
+10/10 Atmosphere
+7.5/10 Story
+
+Well worth playing. Just be warned there's a lot of reading involved.","This game is amazing. The central story itself is pretty good but what really sells it is the atmosphere as you're a cog in the survelience state machine. It's relatively short but for the price I can't really fault the length too much especially given the sheer amount of background detail in each chapter. Simply incredible. Also not sure if it's a bug but my game crashed at the end of the fifth chapter which echoed what was happening in the game and I haven't been able to replay that save since as it crashes the game each time. Not sure if that is an intentional feature, it did freak me out though. Amazing. 10/10 Atmosphere 7.5/10 Story Well worth playing. Just be warned there's a lot of reading involved.",True,2016-11-20T06:48:59+00:00,2016-11-20T06:48:59+00:00,244.0,150.0,0.0,1.0,0.0,0.523809552192688,True,False,False,False,76561198037404257,,28.0,False,False,715,130,4.066666666666666,2.5,1-3h,positive
+44218436,491950,orwell,Orwell: Keeping an Eye On You,english,"so far in my two hour playthrough i find the gameplay simple but with a solid story to back it up
+9.5/10 for when sober
+12/10 for when high/drunk (simple gameplay to not have you think much)
+also side note this game crashed after 2 hours when i started playing it but that mainly could be due to my graphics card (gt 730) but again its a solid experiance",so far in my two hour playthrough i find the gameplay simple but with a solid story to back it up 9.5/10 for when sober 12/10 for when high/drunk (simple gameplay to not have you think much) also side note this game crashed after 2 hours when i started playing it but that mainly could be due to my graphics card (gt 730) but again its a solid experiance,True,2018-08-18T00:07:03+00:00,2018-08-18T00:07:03+00:00,267.0,226.0,0.0,1.0,0.0,0.523809552192688,False,True,False,False,76561198331449218,,22.0,False,False,354,69,4.45,3.7666666666666666,3-10h,positive
+41215788,491950,orwell,Orwell: Keeping an Eye On You,english,"9.5/10
+
+Without a doubt the best mystery game I've ever played, once I started I couldn't stop playing till the end
+
+Only reason it doesn't get a 10/10 is because of a bug that results in the game freezing and forces you to close it via task manager and having to relaunch it, fortunately, no progress is lost
+
+Aside from that, great game, definately worth the money","9.5/10 Without a doubt the best mystery game I've ever played, once I started I couldn't stop playing till the end Only reason it doesn't get a 10/10 is because of a bug that results in the game freezing and forces you to close it via task manager and having to relaunch it, fortunately, no progress is lost Aside from that, great game, definately worth the money",True,2018-04-01T22:41:38+00:00,2018-04-01T22:41:38+00:00,282.0,282.0,0.0,1.0,0.0,0.523809552192688,True,False,False,False,76561198044869364,,1.0,False,False,363,67,4.7,4.7,3-10h,positive
+31960976,491950,orwell,Orwell: Keeping an Eye On You,english,"Under the spreading chesnut tree/ I stalked you and you stalked me. From the hazards of social media, surveillance, and corrupted government to freedom of speech, right to privacy, and the essential question of being human, Orwell is a political game pointing at today's political issues. Requires pretty good English language knowledge and concentration. Loved it!","Under the spreading chesnut tree/ I stalked you and you stalked me. From the hazards of social media, surveillance, and corrupted government to freedom of speech, right to privacy, and the essential question of being human, Orwell is a political game pointing at today's political issues. Requires pretty good English language knowledge and concentration. Loved it!",True,2017-05-25T22:29:34+00:00,2017-05-25T22:29:34+00:00,587.0,488.0,0.0,1.0,0.0,0.523809552192688,True,False,False,False,76561198161571871,,3.0,False,False,365,56,9.783333333333333,8.133333333333333,3-10h,positive
+43302498,491950,orwell,Orwell: Keeping an Eye On You,english,"Awesome game overall.
++ well written story
++ in depth content
++ stylish art / graphics
++ nice sound effects and music
+- minor ui bugs
+- no manual save slots (autosave only)",Awesome game overall. + well written story + in depth content + stylish art / graphics + nice sound effects and music - minor ui bugs - no manual save slots (autosave only),True,2018-07-04T17:33:17+00:00,2018-07-04T17:33:17+00:00,282.0,282.0,0.0,1.0,0.0,0.523809552192688,True,False,False,False,76561198057643701,,4.0,False,False,172,33,4.7,4.7,3-10h,positive
+61744651,491950,orwell,Orwell: Keeping an Eye On You,english,"A few bugs, the ending should've been constructed a bit differently, but over all an excellent game!","A few bugs, the ending should've been constructed a bit differently, but over all an excellent game!",True,2020-01-12T13:40:50+00:00,2020-01-12T13:40:50+00:00,362.0,318.0,0.0,1.0,0.0,0.523809552192688,False,False,False,False,76561198136424712,,7.0,False,False,100,17,6.033333333333333,5.3,3-10h,positive
+170649851,491950,orwell,Orwell: Keeping an Eye On You,english,"Works fine on steam deck. Only issue is text size, but it's manageable. 
+
+Haven't beaten the game yet but almost done. The story and mechanics are good but i have one complaint.
+
+A major feature of the game is putting your cursor over text and having a little pop up come up to give you information. This is critical because you have to cross reference contradictory information as it's presented. This mechanic is buggy though, and sometimes doesn't show. Restarting the game is the only fix i have for this.
+
+I looked it up, and this is a old bug. Considering that this game short, and that the bug is related to a central/ critical mechanic of the game, it's pretty bad that it's present. If you're any bit impatient, this game isn't for you - because you'll have to constantly restart just to fix the issue. It's the only thing holding this game back imo. Otherwise, the core idea is pretty fun and worth a shot.
+
+3/5","Works fine on steam deck. Only issue is text size, but it's manageable. Haven't beaten the game yet but almost done. The story and mechanics are good but i have one complaint. A major feature of the game is putting your cursor over text and having a little pop up come up to give you information. This is critical because you have to cross reference contradictory information as it's presented. This mechanic is buggy though, and sometimes doesn't show. Restarting the game is the only fix i have for this. I looked it up, and this is a old bug. Considering that this game short, and that the bug is related to a central/ critical mechanic of the game, it's pretty bad that it's present. If you're any bit impatient, this game isn't for you - because you'll have to constantly restart just to fix the issue. It's the only thing holding this game back imo. Otherwise, the core idea is pretty fun and worth a shot. 3/5",True,2024-07-24T18:39:50+00:00,2024-07-24T18:39:50+00:00,289.0,280.0,0.0,1.0,0.0,0.5223627090454102,True,False,False,False,76561198409627376,,40.0,False,False,916,168,4.816666666666666,4.666666666666667,3-10h,positive
+38293845,491950,orwell,Orwell: Keeping an Eye On You,english,"TL;DR at the end.
+     ""Orwell"" is like a choose your own adventure mystery novel mated with web browser of sorts. Unlike the trailer for this game, you do not spend any time viewing cctv footage or identifying and tracking people via facial recognition in the manner made familiar by television's ""Person of Interest"" or the popular ""Watchdogs"" game series. Its not like that. Its a look at what the internet, our PCs and social networking devices look like from the perspective of an invasive government investigation. It's got some tense moments that are done well but i've seen done better.
+      If you have an interest in the themes of civil rights, criminal investigation and/or government corruption in the age of the internet (information age) you might like the game. The graphics are interesting and add to the personality of the game. The music is not memorable in itself, but musical cues when plot twists are revealed in the game are a nice and unexpected  touch. 
+     I enjoyed this game because I like a good mystery. I found the storytelling entertaining and the text based electronic surveillance compelling.  The interface, ""Orwell"" Itself,  was the low point only because it appeared to be a malleable desktop in the trailer and yet you cannot customize or edit the frames of the interface at all. ""Orwell"" was cumbersome from the start and towards the end of the story you just have pages of auto-bookmarked docs that you scarcely use. 
+     
+--TL;DR--
+Its ten bucks. Its a good story. I'd play it again if it weren't for the interface. Id recommend it to a friend with a disclaimer: ""Don't watch the trailer. It's not like that. ""","TL;DR at the end. ""Orwell"" is like a choose your own adventure mystery novel mated with web browser of sorts. Unlike the trailer for this game, you do not spend any time viewing cctv footage or identifying and tracking people via facial recognition in the manner made familiar by television's ""Person of Interest"" or the popular ""Watchdogs"" game series. Its not like that. Its a look at what the internet, our PCs and social networking devices look like from the perspective of an invasive government investigation. It's got some tense moments that are done well but i've seen done better. If you have an interest in the themes of civil rights, criminal investigation and/or government corruption in the age of the internet (information age) you might like the game. The graphics are interesting and add to the personality of the game. The music is not memorable in itself, but musical cues when plot twists are revealed in the game are a nice and unexpected touch. I enjoyed this game because I like a good mystery. I found the storytelling entertaining and the text based electronic surveillance compelling. The interface, ""Orwell"" Itself, was the low point only because it appeared to be a malleable desktop in the trailer and yet you cannot customize or edit the frames of the interface at all. ""Orwell"" was cumbersome from the start and towards the end of the story you just have pages of auto-bookmarked docs that you scarcely use. --TL;DR-- Its ten bucks. Its a good story. I'd play it again if it weren't for the interface. Id recommend it to a friend with a disclaimer: ""Don't watch the trailer. It's not like that. """,True,2017-12-14T04:00:24+00:00,2017-12-14T04:00:24+00:00,704.0,704.0,0.0,1.0,0.0,0.5222930312156677,True,False,False,False,76561198009811731,,30.0,False,False,1626,281,11.733333333333333,11.733333333333333,10h+,positive
+30153371,491950,orwell,Orwell: Keeping an Eye On You,english,"Really nice game.
+Story is interesting, opposed to what I was worried could happen aften being blown away by Episode 1.
+Game is also presented in really nice format - each episode takes around 45-60 minutes and it's nice to take a break for some thinking between them.
+Experienced one bug during the whole playthrough, but even then I could continue from almost the same moment thanks to the autosave.
+I'll definitely try to play it at least once more. :)","Really nice game. Story is interesting, opposed to what I was worried could happen aften being blown away by Episode 1. Game is also presented in really nice format - each episode takes around 45-60 minutes and it's nice to take a break for some thinking between them. Experienced one bug during the whole playthrough, but even then I could continue from almost the same moment thanks to the autosave. I'll definitely try to play it at least once more. :)",True,2017-02-24T23:40:35+00:00,2017-02-24T23:40:35+00:00,389.0,258.0,0.0,1.0,0.0,0.5205479264259338,True,False,False,False,76561197993459047,,48.0,False,False,455,81,6.483333333333333,4.3,3-10h,positive
+45623788,491950,orwell,Orwell: Keeping an Eye On You,english,A really nice gem that completely manages to hide away the fact that it is an indie game. A surprising amount of details and plot twists will make you think about today's ethics. Definitely up for grabs. Haven't encountered a single bug in the whole game.,A really nice gem that completely manages to hide away the fact that it is an indie game. A surprising amount of details and plot twists will make you think about today's ethics. Definitely up for grabs. Haven't encountered a single bug in the whole game.,True,2018-11-04T14:58:21+00:00,2018-11-04T14:58:21+00:00,1078.0,1078.0,0.0,1.0,0.0,0.5185185670852661,False,False,False,False,76561198057633094,,47.0,False,False,255,46,17.966666666666665,17.966666666666665,10h+,positive
+34105900,491950,orwell,Orwell: Keeping an Eye On You,english,"In this game, you are the government employee spying on civilians. You read their private posts, listen to their private calls, collect and disseminate information about them, until you have a full picture. It is invasive, horrifying, but might also save lives.
+Although, at what cost?
+
+George Orwell and Aldous Huxley would be proud; not in what our society has become, but in what this game truly illustrates what we have learnt from their novels. This is not a university lecture, but a fun game... but at the same time also a game that makes you reflect.
+Instead of simply reading about the dangers of how information is used, you get to experience it first-hand, and make your own decisions. Do it well and you prevents horrible things from happening.
+
+But would you be comfortable with powerful - possibly corrupt - governments doing this? Is it worth the danger of being abused?","In this game, you are the government employee spying on civilians. You read their private posts, listen to their private calls, collect and disseminate information about them, until you have a full picture. It is invasive, horrifying, but might also save lives. Although, at what cost? George Orwell and Aldous Huxley would be proud; not in what our society has become, but in what this game truly illustrates what we have learnt from their novels. This is not a university lecture, but a fun game... but at the same time also a game that makes you reflect. Instead of simply reading about the dangers of how information is used, you get to experience it first-hand, and make your own decisions. Do it well and you prevents horrible things from happening. But would you be comfortable with powerful - possibly corrupt - governments doing this? Is it worth the danger of being abused?",True,2017-08-08T15:31:31+00:00,2017-08-08T18:29:20+00:00,754.0,297.0,0.0,1.0,0.0,0.5169081687927246,True,False,False,False,76561198007182557,,28.0,False,False,883,152,12.566666666666666,4.95,3-10h,positive
+28171947,491950,orwell,Orwell: Keeping an Eye On You,english,"I liked the premise since the first time I saw this game here and it did not disapoint me. I am not a reviewer, I won't go into details of why this game is good or bad, I'm just gonna say I really enjoyed playing it.
+
+I have been writing some notes during my playthrough, but the last episode kinda took the wind of my sails. Although maybe I would wish for a little bit different gameplay [spoiler]I would like to make my own conclusions and find and solve discrepancies, for example[/spoiler] but at the end everything clicked into place and was explained why it is the way it is, so I'm just gonna mention few minor things, in hopes that the next game (if there will be any) will improve on it.
+
+[olist]
+[*]From the screenshots I thought I'd get some gameplay in 3D, where I would have to watch camera feeds or something. Turns out that's just intro.
+[*]Adviser is annoying at times. He tends to be too much ""opinionated"", in a way that he'll repeat the information you just found out and tells you that we must find out more. No way!
+[*]Sometimes it felt like everything is just too convenient. I mean, you bug someone's phone and just at that time there's a call that will move the story further with just the info you need. Also, some calls or chats had to be real time for you to properly act upon (I think), but it felt kinda weird that actors were waiting for you to see it. If you are investigating something and you get notice about new incoming messages, they will politely wait for you
+[/olist]","I liked the premise since the first time I saw this game here and it did not disapoint me. I am not a reviewer, I won't go into details of why this game is good or bad, I'm just gonna say I really enjoyed playing it. I have been writing some notes during my playthrough, but the last episode kinda took the wind of my sails. Although maybe I would wish for a little bit different gameplay [spoiler]I would like to make my own conclusions and find and solve discrepancies, for example[/spoiler] but at the end everything clicked into place and was explained why it is the way it is, so I'm just gonna mention few minor things, in hopes that the next game (if there will be any) will improve on it. [olist] [*]From the screenshots I thought I'd get some gameplay in 3D, where I would have to watch camera feeds or something. Turns out that's just intro. [*]Adviser is annoying at times. He tends to be too much ""opinionated"", in a way that he'll repeat the information you just found out and tells you that we must find out more. No way! [*]Sometimes it felt like everything is just too convenient. I mean, you bug someone's phone and just at that time there's a call that will move the story further with just the info you need. Also, some calls or chats had to be real time for you to properly act upon (I think), but it felt kinda weird that actors were waiting for you to see it. If you are investigating something and you get notice about new incoming messages, they will politely wait for you [/olist]",True,2016-12-03T23:06:49+00:00,2016-12-03T23:06:49+00:00,318.0,318.0,0.0,1.0,0.0,0.5131086111068726,True,False,False,False,76561197996986999,,1.0,False,False,1505,282,5.3,5.3,3-10h,positive
+44216479,491950,orwell,Orwell: Keeping an Eye On You,english,"So, this game.... Was something I didn't want. But, who can pass up on a free game? Maybe some can. Anyway, this game lived up to the dreadful opinions that I had of it before I ever played it. 
+
+Yes. I said dreadful. This game is not my cup of tea in any sense or form. But, I will not give it a down vote because of that. The game works. I encountered a couple bugs where I couldn't click on anything, but, nothing game breaking really. I had to restart the game, a couple times, but, it works. 
+
+So, let's get down to brass tacks. Do I recommend the game? Sure. Only if this type of game is what you like. Or, at the very least, can get into. I couldn't. I gave the game quite a bit of play, but, in the end, it's not for me. 
+
+Thumbs up anyways.","So, this game.... Was something I didn't want. But, who can pass up on a free game? Maybe some can. Anyway, this game lived up to the dreadful opinions that I had of it before I ever played it. Yes. I said dreadful. This game is not my cup of tea in any sense or form. But, I will not give it a down vote because of that. The game works. I encountered a couple bugs where I couldn't click on anything, but, nothing game breaking really. I had to restart the game, a couple times, but, it works. So, let's get down to brass tacks. Do I recommend the game? Sure. Only if this type of game is what you like. Or, at the very least, can get into. I couldn't. I gave the game quite a bit of play, but, in the end, it's not for me. Thumbs up anyways.",True,2018-08-17T21:31:07+00:00,2018-08-17T21:31:07+00:00,51.0,51.0,0.0,1.0,0.0,0.505549967288971,False,True,False,False,76561198034974495,,33.0,False,False,743,152,0.85,0.85,0-1h,positive
+195875510,491950,orwell,Orwell: Keeping an Eye On You,english,"╰┈➤ [b] Orwell: Keeping an Eye on You [/b] .　 . • ☆
+
+Time Played at Review: 7.7 hr (100% Achievements)
+
+Orwell: Keeping an Eye on You is an interactive visual novel in which you play as a digital detective, working to uncover the truth behind a suspected terrorist attack in The Nation's capital. Scour webpages, social media, and citizens' personal devices for information to share with your superiors. While not the most exciting game, Orwell managed to keep me engaged and questioning until it's (amazing) ending. While the story is relatively short, taking me around 4.5 hours to complete my first play through, there are a few alternate story paths that can be completed if you really enjoy the game. While I'm not sure there is enough content to justify picking this game up at full price, if you like visual novels and are looking for a good mystery to unravel, try grabbing Orwell next time its on sale.
+
+Other Similar Titles: Papers, Please; Death and Taxes
+
+˚₊‧꒰ა . ——— ˗ˏˋ ✮ Checklist ✮ˎˊ˗ ——— ˖ ໒꒱ ‧₊˚
+
+Performance:
+☒ Stable, no issues
+☐ Occasional bugs/glitches
+☐ Crashes/freeze issues
+☐ Poor optimization
+
+Audio:
+☐ I’d buy the OST, and I don’t say that often
+☒ Fits the tone and enhances the atmosphere
+☐ Fitting sound design, but nothing special
+☐ Turned the music off and played my own playlist
+☐ Repetitive/annoying audio
+☐ Voice acting present
+Note: Unfortunately there is no voice acting, which does take away from the immersion a little bit. However, the soundtrack/effects are perfect for the mystery/thriller vibe Orwell is going for and is used in a way that helps enhance the reading experience (e.g., sound effects going off when shocking information is uncovered)
+
+Visuals:
+☐ So pretty I stopped to stare at the trees
+☐ Clean and polished, fits the game well
+☐ Distinct style that grows on you
+☒ Basic visuals, but nothing to write home about
+☐ Some nice moments, but rough overall
+☐ Inconsistent quality across areas/scenes
+☐ Graphics? No idea, I turned everything to low
+Note: The graphics are minimalistic and clean, suiting the game's style. One thing to note is that there are no customization options for the onscreen text, which may be an issue for people who have challenges with reading certain fonts/colors considering the game is essentially an interactive novel. 
+
+Controls:
+☐ Fully customizable
+☒ Intuitive & responsive
+☐ Requires getting used to
+☐ Fighting the UI is half the game
+
+Replayability:
+☐ Send help, I forgot what sunlight looks like
+☐ High
+☐ Moderate 
+☐ Low
+☒ Fun once, now I just stare at it in my library
+Note: I really enjoyed my first play through of Orwell. The story is captivating and getting to uncover new/conflicting pieces of the puzzle bit by bit is a really interesting concept. Unfortunately, I found my subsequent achievement playthroughs to be quite tedious, since different story routes are basically identical except for minor variations not uncovered until the very end of the chapter. 
+
+Worth the Price?:
+☐ 110%, without hesitation
+☒ If you can get it on sale
+☐ Not really
+☐ Wait for updates/DLC
+☐ Bought it, played it, refunded it :,(
+
+˚₊‧꒰ა . ————— ˗ˏˋ ✮ ˎˊ˗ ————— ˖ ໒꒱ ‧₊˚
+","╰┈➤ [b] Orwell: Keeping an Eye on You [/b] . . • ☆ Time Played at Review: 7.7 hr (100% Achievements) Orwell: Keeping an Eye on You is an interactive visual novel in which you play as a digital detective, working to uncover the truth behind a suspected terrorist attack in The Nation's capital. Scour webpages, social media, and citizens' personal devices for information to share with your superiors. While not the most exciting game, Orwell managed to keep me engaged and questioning until it's (amazing) ending. While the story is relatively short, taking me around 4.5 hours to complete my first play through, there are a few alternate story paths that can be completed if you really enjoy the game. While I'm not sure there is enough content to justify picking this game up at full price, if you like visual novels and are looking for a good mystery to unravel, try grabbing Orwell next time its on sale. Other Similar Titles: Papers, Please; Death and Taxes ˚₊‧꒰ა . ——— ˗ˏˋ ✮ Checklist ✮ˎˊ˗ ——— ˖ ໒꒱ ‧₊˚ Performance: ☒ Stable, no issues ☐ Occasional bugs/glitches ☐ Crashes/freeze issues ☐ Poor optimization Audio: ☐ I’d buy the OST, and I don’t say that often ☒ Fits the tone and enhances the atmosphere ☐ Fitting sound design, but nothing special ☐ Turned the music off and played my own playlist ☐ Repetitive/annoying audio ☐ Voice acting present Note: Unfortunately there is no voice acting, which does take away from the immersion a little bit. However, the soundtrack/effects are perfect for the mystery/thriller vibe Orwell is going for and is used in a way that helps enhance the reading experience (e.g., sound effects going off when shocking information is uncovered) Visuals: ☐ So pretty I stopped to stare at the trees ☐ Clean and polished, fits the game well ☐ Distinct style that grows on you ☒ Basic visuals, but nothing to write home about ☐ Some nice moments, but rough overall ☐ Inconsistent quality across areas/scenes ☐ Graphics? No idea, I turned everything to low Note: The graphics are minimalistic and clean, suiting the game's style. One thing to note is that there are no customization options for the onscreen text, which may be an issue for people who have challenges with reading certain fonts/colors considering the game is essentially an interactive novel. Controls: ☐ Fully customizable ☒ Intuitive & responsive ☐ Requires getting used to ☐ Fighting the UI is half the game Replayability: ☐ Send help, I forgot what sunlight looks like ☐ High ☐ Moderate ☐ Low ☒ Fun once, now I just stare at it in my library Note: I really enjoyed my first play through of Orwell. The story is captivating and getting to uncover new/conflicting pieces of the puzzle bit by bit is a really interesting concept. Unfortunately, I found my subsequent achievement playthroughs to be quite tedious, since different story routes are basically identical except for minor variations not uncovered until the very end of the chapter. Worth the Price?: ☐ 110%, without hesitation ☒ If you can get it on sale ☐ Not really ☐ Wait for updates/DLC ☐ Bought it, played it, refunded it :,( ˚₊‧꒰ა . ————— ˗ˏˋ ✮ ˎˊ˗ ————— ˖ ໒꒱ ‧₊˚",True,2025-05-29T07:32:47+00:00,2025-05-29T07:32:47+00:00,461.0,461.0,0.0,1.0,0.0,0.5046584010124207,True,False,False,False,76561199817348055,,3.0,False,False,3131,544,7.683333333333334,7.683333333333334,3-10h,positive
+47804895,491950,orwell,Orwell: Keeping an Eye On You,english,"🅳🅰🅶🆂🅲🅾🆁🅴 𝟖
+
+𝕸𝖚𝖘𝖎𝖈
++Great music
+
+𝕳𝖀𝕯
++Unique
+-A few minor bugs
+
+𝕲𝖆𝖒𝖊𝖕𝖑𝖆𝖞
++Collect information about your target
++Very entertaining
+
+𝕾𝖙𝖔𝖗𝖞
++Thrilling and great story
++Well-crafted characters
++Atmospheric",🅳🅰🅶🆂🅲🅾🆁🅴 𝟖 𝕸𝖚𝖘𝖎𝖈 +Great music 𝕳𝖀𝕯 +Unique -A few minor bugs 𝕲𝖆𝖒𝖊𝖕𝖑𝖆𝖞 +Collect information about your target +Very entertaining 𝕾𝖙𝖔𝖗𝖞 +Thrilling and great story +Well-crafted characters +Atmospheric,True,2018-12-25T12:50:30+00:00,2018-12-25T12:50:30+00:00,206.0,206.0,0.0,1.0,0.0,0.5025852918624878,True,False,False,False,76561198251910768,,26.0,False,False,197,27,3.433333333333333,3.433333333333333,3-10h,positive
+26703952,491950,orwell,Orwell: Keeping an Eye On You,english,"Welcome to Orwell.
+[TRANSLATION]: Let the mindfuckery begin!
+
+After playing Orwell through all five acts, I definitely have to say that this is one fantastic game and I highly recommend it, especially if you enjoy thought-provoking storylines, investigation simulation (like Her Story), and Orwellian dystopian themes.  The best quality about this game is how immersive it is - you're not just a player, you're a major component of the plot and your decisions affect it.  I can't remember the last time a game made me step back and think about how I felt about the situations presented to me, or even reconsider what I thought was the right choice.  
+
+PROS:
+- Amazing thought-provoking storyline influenced by dystopian genres such as Brave New World by Aldous Huxley and 1984 by George Orwell.  This game allows you to decide for yourself how you perceive the situations presented to you as well as what decisions you decide to make about them.  
+- Unique innovative gameplay that involves surveillance and data mining
+- Choices DEFINITELY matter, and not just on an episodic basis, but for the overall plot as well
+- Multiple endings, with alternative plot elements that increase replay value
+- Fourth wall breakage: you're not just playing the game, you're IN it
+- Great soundtrack
+- Character development is on point - not only was there development in the people I investigated, but I also felt myself developing as well.  There were multiple points that had me thinking about certain issues presented in the game, reconsidering my decisions, and experiencing many bouts of emotional conflict.  It was awesome.
+
+CONS:
+- Lots and lots of reading: if you don't like to read, this game is NOT for you
+- There's a few bugs that need to be fixed here and there
+- To get alternate endings, you have to make an entirely new profile and start all over.  You can't just ""see what happens with other choices"" with the same profile you've used to play through the game.  
+
+Overall, for the price, it's a pretty amazing game.  Not only was it thought-provoking, but it was certainly addictive.  The gameplay length is pretty substantial and there's plenty of replay value.  So, yes, I definitely recommend this game.  I have to say this definitely ranks as one of my favorite indie games of all time.  
+
+Osmotic Studios, you guys did a fantastic job with this one - keep up the good work!","Welcome to Orwell. [TRANSLATION]: Let the mindfuckery begin! After playing Orwell through all five acts, I definitely have to say that this is one fantastic game and I highly recommend it, especially if you enjoy thought-provoking storylines, investigation simulation (like Her Story), and Orwellian dystopian themes. The best quality about this game is how immersive it is - you're not just a player, you're a major component of the plot and your decisions affect it. I can't remember the last time a game made me step back and think about how I felt about the situations presented to me, or even reconsider what I thought was the right choice. PROS: - Amazing thought-provoking storyline influenced by dystopian genres such as Brave New World by Aldous Huxley and 1984 by George Orwell. This game allows you to decide for yourself how you perceive the situations presented to you as well as what decisions you decide to make about them. - Unique innovative gameplay that involves surveillance and data mining - Choices DEFINITELY matter, and not just on an episodic basis, but for the overall plot as well - Multiple endings, with alternative plot elements that increase replay value - Fourth wall breakage: you're not just playing the game, you're IN it - Great soundtrack - Character development is on point - not only was there development in the people I investigated, but I also felt myself developing as well. There were multiple points that had me thinking about certain issues presented in the game, reconsidering my decisions, and experiencing many bouts of emotional conflict. It was awesome. CONS: - Lots and lots of reading: if you don't like to read, this game is NOT for you - There's a few bugs that need to be fixed here and there - To get alternate endings, you have to make an entirely new profile and start all over. You can't just ""see what happens with other choices"" with the same profile you've used to play through the game. Overall, for the price, it's a pretty amazing game. Not only was it thought-provoking, but it was certainly addictive. The gameplay length is pretty substantial and there's plenty of replay value. So, yes, I definitely recommend this game. I have to say this definitely ranks as one of my favorite indie games of all time. Osmotic Studios, you guys did a fantastic job with this one - keep up the good work!",True,2016-11-20T02:15:48+00:00,2016-11-20T02:15:48+00:00,1036.0,574.0,0.0,1.0,0.0,0.5022624731063843,True,False,False,False,76561198090244527,,25.0,False,False,2358,407,17.266666666666666,9.566666666666666,3-10h,positive
+134159616,491950,orwell,Orwell: Keeping an Eye On You,english,"---{ Graphics }---
+☐ You forget what reality is
+☐ Beautiful
+☐ Good
+☐ Decent
+☐ Bad
+☐ Don‘t look too long at it
+☑ MS-DOS
+
+---{ Gameplay }---
+☐ Very good
+☑ Good
+☐ It's just gameplay
+☐ Mehh
+☐ Watch paint dry instead
+☐ Just don't
+
+---{ Audio }---
+☐ Eargasm
+☐ Very good
+☐ Good
+☑ Not too bad
+☐ Bad
+☐ I'm now deaf
+
+---{ Audience }---
+☑ Kids
+☑ Teens
+☑ Adults
+☑ Grandma
+
+---{ PC Requirements }---
+☑ Check if you can run paint
+☐ Potato
+☐ Decent
+☐ Fast
+☐ Rich boi
+☐ Ask NASA if they have a spare computer
+
+---{ Difficulty }---
+☐ Just press 'W'
+☑ Easy
+☐ Easy to learn / Hard to master
+☐ Significant brain usage
+☐ Difficult
+☐ Dark Souls
+
+---{ Grind }---
+☑ Nothing to grind
+☐ Only if u care about leaderboards/ranks
+☐ Isn't necessary to progress
+☐ Average grind level
+☐ Too much grind
+☐ You'll need a second life for grinding
+
+---{ Story }---
+☐ No Story
+☐ Some lore
+☐ Average
+☐ Good
+☑ Lovely
+☐ It'll replace your life
+
+---{ Game Time }---
+☐ Long enough for a cup of coffee
+☐ Short
+☑ Average
+☐ Long
+☐ To infinity and beyond
+
+---{ Price }---
+☐ It's free!
+☑ Worth the price
+☐ If it's on sale
+☐ If u have some spare money left
+☐ Not recommended
+☐ You could also just burn your money
+
+---{ Bugs }---
+☐ Never heard of
+☑ Minor bugs
+☐ Can get annoying
+☐ ARK: Survival Evolved
+☐ The game itself is a big terrarium for bugs
+
+---{ ? / 10 }---
+☐ 1
+☐ 2
+☐ 3
+☐ 4
+☐ 5
+☐ 6
+☐ 7
+☐ 8
+☑ 9
+☐ 10
+
+",---{ Graphics }--- ☐ You forget what reality is ☐ Beautiful ☐ Good ☐ Decent ☐ Bad ☐ Don‘t look too long at it ☑ MS-DOS ---{ Gameplay }--- ☐ Very good ☑ Good ☐ It's just gameplay ☐ Mehh ☐ Watch paint dry instead ☐ Just don't ---{ Audio }--- ☐ Eargasm ☐ Very good ☐ Good ☑ Not too bad ☐ Bad ☐ I'm now deaf ---{ Audience }--- ☑ Kids ☑ Teens ☑ Adults ☑ Grandma ---{ PC Requirements }--- ☑ Check if you can run paint ☐ Potato ☐ Decent ☐ Fast ☐ Rich boi ☐ Ask NASA if they have a spare computer ---{ Difficulty }--- ☐ Just press 'W' ☑ Easy ☐ Easy to learn / Hard to master ☐ Significant brain usage ☐ Difficult ☐ Dark Souls ---{ Grind }--- ☑ Nothing to grind ☐ Only if u care about leaderboards/ranks ☐ Isn't necessary to progress ☐ Average grind level ☐ Too much grind ☐ You'll need a second life for grinding ---{ Story }--- ☐ No Story ☐ Some lore ☐ Average ☐ Good ☑ Lovely ☐ It'll replace your life ---{ Game Time }--- ☐ Long enough for a cup of coffee ☐ Short ☑ Average ☐ Long ☐ To infinity and beyond ---{ Price }--- ☐ It's free! ☑ Worth the price ☐ If it's on sale ☐ If u have some spare money left ☐ Not recommended ☐ You could also just burn your money ---{ Bugs }--- ☐ Never heard of ☑ Minor bugs ☐ Can get annoying ☐ ARK: Survival Evolved ☐ The game itself is a big terrarium for bugs ---{ ? / 10 }--- ☐ 1 ☐ 2 ☐ 3 ☐ 4 ☐ 5 ☐ 6 ☐ 7 ☐ 8 ☑ 9 ☐ 10,True,2023-03-06T01:29:38+00:00,2023-03-06T01:29:38+00:00,552.0,552.0,0.0,1.0,0.0,0.5,False,False,False,False,76561198073291757,,28.0,False,False,1346,299,9.2,9.2,3-10h,positive
+26306287,491950,orwell,Orwell: Keeping an Eye On You,english,"Great game, despite some bugs (I had to start a new profile when I changed PC's)
+
+I hope there is many more episodes to come!","Great game, despite some bugs (I had to start a new profile when I changed PC's) I hope there is many more episodes to come!",True,2016-10-30T03:28:50+00:00,2016-10-30T03:28:50+00:00,265.0,95.0,0.0,1.0,0.0,0.4948999285697937,True,False,False,False,76561198107016243,,37.0,False,False,124,25,4.416666666666667,1.5833333333333333,1-3h,positive
+39872100,491950,orwell,Orwell: Keeping an Eye On You,english,"[Spoilers included]
+
+I received the game as a gift and played it almost immediately. Interface was nice a little bit confusing at first, but Symes helped me out for the first part. Story turns very dark very quickly. Over time, a feeling of dread overwhelms me as I submit a vital-looking datachunk to be processed by Orwell. What feels real is how the use of hyperbolic sentences and phrases in the media, usually for comedic effect, can inadvertently be twisted into something that can target you as a threat to the government (case in point, Juliet talking about how Cassi 'tortures' her with muffins/cupcakes, and Symes believing 100% that Cassi indeed tortures Juliet). Scary to think how it would be in the real world.
+
+This game has me reeling. As a fan of Orwell, especially 1984, this feels like a dream. I'm sad it wasn't longer, or that it just follows one track. It reminds me of Papers, Please, with the screening and processing and comparing of vital information. So I was kind of expecting literally screening suspicious targets in the whole country. Then again, the Thought arc was very well-thought out. Again, however, I didn't expect it to end so abruptly on the 5th day. Was hoping for more.
+
+That twist during the conference call was great, but too convenient. The least suspected was the mastermind after all. But why? Were they romantically involved? Were there any signs of fanaticism, obsessive behavior? Don't get me wrong, I love how this played into the story. Just wondering if it's all to convenient for the plot so as to completely throw the investigator off.
+
+Few technical issues, such as the dialogue boxes of the advisors (Delacroix/Symes) sometimes slow down the entire game. During chapter 5, while processing the last 4 datachunks before the call, Delacroix says a reminder and my game just bugs to oblivion. I can't see her message bubble, I can't click on anything. Not to change tabs, heck not even to bring down the main menu of the game. Had to quit the game and open again, thankfully it doesn't restart at the beginning of every day if you quit midway through a chapter, else I'd have never finished it. 
+
+7.2 hours played, 2 endings down. Highly recommend and would get Orwell: Ignorance is Strength.","[Spoilers included] I received the game as a gift and played it almost immediately. Interface was nice a little bit confusing at first, but Symes helped me out for the first part. Story turns very dark very quickly. Over time, a feeling of dread overwhelms me as I submit a vital-looking datachunk to be processed by Orwell. What feels real is how the use of hyperbolic sentences and phrases in the media, usually for comedic effect, can inadvertently be twisted into something that can target you as a threat to the government (case in point, Juliet talking about how Cassi 'tortures' her with muffins/cupcakes, and Symes believing 100% that Cassi indeed tortures Juliet). Scary to think how it would be in the real world. This game has me reeling. As a fan of Orwell, especially 1984, this feels like a dream. I'm sad it wasn't longer, or that it just follows one track. It reminds me of Papers, Please, with the screening and processing and comparing of vital information. So I was kind of expecting literally screening suspicious targets in the whole country. Then again, the Thought arc was very well-thought out. Again, however, I didn't expect it to end so abruptly on the 5th day. Was hoping for more. That twist during the conference call was great, but too convenient. The least suspected was the mastermind after all. But why? Were they romantically involved? Were there any signs of fanaticism, obsessive behavior? Don't get me wrong, I love how this played into the story. Just wondering if it's all to convenient for the plot so as to completely throw the investigator off. Few technical issues, such as the dialogue boxes of the advisors (Delacroix/Symes) sometimes slow down the entire game. During chapter 5, while processing the last 4 datachunks before the call, Delacroix says a reminder and my game just bugs to oblivion. I can't see her message bubble, I can't click on anything. Not to change tabs, heck not even to bring down the main menu of the game. Had to quit the game and open again, thankfully it doesn't restart at the beginning of every day if you quit midway through a chapter, else I'd have never finished it. 7.2 hours played, 2 endings down. Highly recommend and would get Orwell: Ignorance is Strength.",True,2018-02-05T18:46:09+00:00,2018-02-05T18:46:09+00:00,429.0,232.0,0.0,1.0,0.0,0.4858044385910034,False,True,False,False,76561198324230492,,6.0,False,False,2240,387,7.15,3.8666666666666667,3-10h,positive
+138398592,491950,orwell,Orwell: Keeping an Eye On You,english,"Whoa! What a morally complex game! I've spent so much time thinking about some decisions. Some i did not think through, some turned out pretty well! It was great piecing all the information together and even if i missed some stuff, i'd say i've done a pretty decent job.
+
+Spoiler warnings ahead.
+
+What is right in this game? I honestly have no idea. The Orwell system did spy a lot on it's citizens (if only them lol), however if graphs are to be believed, the safety did increase and quite a lot. I even prevented one bombing and saved some lives!
+
+Even if that bombing was in the end meant to fight the corrupted attempts at surveillance - it was only partially justified. Did the ends justify the means? It's easy to say these few sacrifices of people through bombings might have been justified.
+
+However, as an investigator, it molded my first perception of The Thought group in a negative view. But then, without the hacker and other people's involvement would i (or for that matter anyone) be able to expose the unethical use of surveillance?
+
+Who knows. But then, it seemed like Abraham wasn't this ''great hero'' either. He was paranoic of living in that Germany town, because everyone knew someone? I did not get his motivations there.
+He even left his loving family - his wife and daughter who were quite deeply affected by that, so he can preach on university about thoughts being free? He also got traumatised in that Rhosen tech company, after he saw the failures of the earlier Orwell version, yet he became involved and sped up the process.
+
+If he was so ''understanding'' of ethics and thoughts being free, i'm sure he would've noticed that the other employers did not care about them.
+Then he gave upgrade to Orwell and was surprised that they did workarounds for his ethical codexes. It seems like his own thoughts weren't free in the first place and his decisions were quite irrational, motivated by fear.
+
+Honestly, he and Thought members, Delacroix and likely other higher ups, many other people and finally me as investigator were partially to blame. I feel like a decent amount of people were truly in fault.
+
+ALSO, i think if i didn't stop that bomb, the diplomatic talks abroad would have not worked. I mean sure, they were in part planned to keep Orwell on working, but it also seems like the Nation was doing some charitable actions in other countries too.
+
+At first i was supportive of Orwell system, howere the issue was with the higher ups being unethical jerks - with the advisor guy Symes being actually really nice guy and with nice family. I was glad he made it out safe out of his house and i hope he could live his life somewhat normally afterwards.
+
+If the Delacroix and perhaps others would have been more decent human beings and actually did have a solid ethical codex, that is well reviewed scientifically, then i believe Orwell could had been actually a successful surveillance system with way better results.
+
+In the first half of the game i was really surprised of how well the system worked. I did stop the third bombing after all. It definitely could get some improvements, like possibility of retracing data (due to new informations) and retracing arrests (i felt bad for some of them and, based on achievements, i might've arrested one or more people unjustly).
+
+This game gave me interesting insight into surveillance. With more twixes and solid, peer reviewed codex - that one has to strictly abide to, i believe this could work much better. It already did, based on the decreasing crime rates - i'm 100% sure it had caught many criminals off guard, since i was able to infiltrate the devices of the head of security herself.
+
+MAN! What a game! I certainly did not expect much from it, but it had blown my expectations! Honestly i think it's going to land in my favourites. Excellent game.
+
+I believe the game posed some really morally gray views. It's hard for me to say that one person / side is right and others wrong. I did not expect such complexity and it kind of reminds me of Attack on Titan moral dilemmas. It feels like each approach has it's downsides, but also justifications and i love that. In the end there might be no one single right choice to make. Instead it may be up to our egos and making the choice we would regret the least.","Whoa! What a morally complex game! I've spent so much time thinking about some decisions. Some i did not think through, some turned out pretty well! It was great piecing all the information together and even if i missed some stuff, i'd say i've done a pretty decent job. Spoiler warnings ahead. What is right in this game? I honestly have no idea. The Orwell system did spy a lot on it's citizens (if only them lol), however if graphs are to be believed, the safety did increase and quite a lot. I even prevented one bombing and saved some lives! Even if that bombing was in the end meant to fight the corrupted attempts at surveillance - it was only partially justified. Did the ends justify the means? It's easy to say these few sacrifices of people through bombings might have been justified. However, as an investigator, it molded my first perception of The Thought group in a negative view. But then, without the hacker and other people's involvement would i (or for that matter anyone) be able to expose the unethical use of surveillance? Who knows. But then, it seemed like Abraham wasn't this ''great hero'' either. He was paranoic of living in that Germany town, because everyone knew someone? I did not get his motivations there. He even left his loving family - his wife and daughter who were quite deeply affected by that, so he can preach on university about thoughts being free? He also got traumatised in that Rhosen tech company, after he saw the failures of the earlier Orwell version, yet he became involved and sped up the process. If he was so ''understanding'' of ethics and thoughts being free, i'm sure he would've noticed that the other employers did not care about them. Then he gave upgrade to Orwell and was surprised that they did workarounds for his ethical codexes. It seems like his own thoughts weren't free in the first place and his decisions were quite irrational, motivated by fear. Honestly, he and Thought members, Delacroix and likely other higher ups, many other people and finally me as investigator were partially to blame. I feel like a decent amount of people were truly in fault. ALSO, i think if i didn't stop that bomb, the diplomatic talks abroad would have not worked. I mean sure, they were in part planned to keep Orwell on working, but it also seems like the Nation was doing some charitable actions in other countries too. At first i was supportive of Orwell system, howere the issue was with the higher ups being unethical jerks - with the advisor guy Symes being actually really nice guy and with nice family. I was glad he made it out safe out of his house and i hope he could live his life somewhat normally afterwards. If the Delacroix and perhaps others would have been more decent human beings and actually did have a solid ethical codex, that is well reviewed scientifically, then i believe Orwell could had been actually a successful surveillance system with way better results. In the first half of the game i was really surprised of how well the system worked. I did stop the third bombing after all. It definitely could get some improvements, like possibility of retracing data (due to new informations) and retracing arrests (i felt bad for some of them and, based on achievements, i might've arrested one or more people unjustly). This game gave me interesting insight into surveillance. With more twixes and solid, peer reviewed codex - that one has to strictly abide to, i believe this could work much better. It already did, based on the decreasing crime rates - i'm 100% sure it had caught many criminals off guard, since i was able to infiltrate the devices of the head of security herself. MAN! What a game! I certainly did not expect much from it, but it had blown my expectations! Honestly i think it's going to land in my favourites. Excellent game. I believe the game posed some really morally gray views. It's hard for me to say that one person / side is right and others wrong. I did not expect such complexity and it kind of reminds me of Attack on Titan moral dilemmas. It feels like each approach has it's downsides, but also justifications and i love that. In the end there might be no one single right choice to make. Instead it may be up to our egos and making the choice we would regret the least.",True,2023-05-16T21:19:50+00:00,2023-05-17T16:03:50+00:00,1649.0,735.0,0.0,0.0,0.0,0.5,False,False,False,False,76561198060733782,,238.0,False,False,4283,764,27.483333333333334,12.25,10h+,positive

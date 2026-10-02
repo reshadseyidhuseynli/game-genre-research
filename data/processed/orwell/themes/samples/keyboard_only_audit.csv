@@ -1,0 +1,12 @@
+review_id,steam_app_id,game_key,game_name,language,review_text_raw,review_text_clean,recommended,created_at,updated_at,playtime_forever_minutes,playtime_at_review_minutes,playtime_last_two_weeks_minutes,votes_up,votes_funny,weighted_vote_score,steam_purchase,received_for_free,written_during_early_access,refunded,author_steam_id,author_num_games_owned,author_num_reviews,is_empty,is_very_short,review_length_chars,review_length_words,playtime_forever_hours,playtime_at_review_hours,playtime_segment,overall_sentiment
+47690917,491950,orwell,Orwell: Keeping an Eye On You,english,"MW2 menu music
+Take your time
+This plot escalates quickly at times
+There will be consequences for bad time managment
+Would of loved this game to have voice actors
+Seems to be rather replayable
+Many charactors with complex online personas
+
+Only issues I have with the game is that I opted to play on my laptop without a mouse so I was force to drag down scroll icons a lot... yes I tried the arrows maybe there is another shortcut but yeah. Aslo I had to exit once because all the menus locked out. Oh and don't expect to load episodes from what I have seen, you will likely need to start over completely.
+
+Got the game free from Humble Bundle finally around to playing the game now I kinda think I hsould of kept the code for the second one.","MW2 menu music Take your time This plot escalates quickly at times There will be consequences for bad time managment Would of loved this game to have voice actors Seems to be rather replayable Many charactors with complex online personas Only issues I have with the game is that I opted to play on my laptop without a mouse so I was force to drag down scroll icons a lot... yes I tried the arrows maybe there is another shortcut but yeah. Aslo I had to exit once because all the menus locked out. Oh and don't expect to load episodes from what I have seen, you will likely need to start over completely. Got the game free from Humble Bundle finally around to playing the game now I kinda think I hsould of kept the code for the second one.",True,2018-12-21T22:46:06+00:00,2018-12-21T22:46:06+00:00,353.0,350.0,0.0,0.0,0.0,0.5,False,False,False,False,76561198040850241,,69.0,False,False,739,141,5.883333333333334,5.833333333333333,3-10h,positive
