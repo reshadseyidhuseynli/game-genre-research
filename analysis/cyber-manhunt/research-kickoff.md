@@ -247,7 +247,7 @@ Bu cədvəl məlumat toplusu-dən əvvəl provisional-dır.
 - Onlar sadəcə mini-game-dir, yoxsa information loop-un hissəsidir?
 - Oyunçu target haqqında öyrəndiyi məlumatı sonradan istifadə edirmi?
 
-## 7.3. Core loop təkrarçılıq
+## 7.3. Əsas oyun dövrü təkrarçılıq
 
 - Hər case eyni:
   search → password → hack → məlumat
@@ -279,7 +279,7 @@ Bu cədvəl məlumat toplusu-dən əvvəl provisional-dır.
 - Notes/dəlil management necə işləyir?
 - Oyunçunun özü xarici note saxlamağa ehtiyac duyurmu?
 
-## 7.8. Onboarding
+## 7.8. İlkin öyrətmə
 
 - Oyun investigation grammar-ni necə öyrədir?
 - Early cases təlim hissəsi kimi işləyir?
