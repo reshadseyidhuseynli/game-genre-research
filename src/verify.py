@@ -4,6 +4,7 @@ import logging
 from src.common.config import arguments, load_game
 from src.common.io import read_json, read_jsonl, sha256
 from src.common.logging import run_cli
+from src.collectors.steam_reviews import validate
 from src.processors.clean_reviews import normalize, samples
 from src.processors.deduplicate import deduplicate
 from src.processors.statistics import calculate
@@ -24,7 +25,9 @@ def verify(game, data_dir):
     for name, checksum in manifest['page_sha256'].items():
         path = raw / 'review_pages' / name
         require(sha256(path) == checksum, f'Page checksum mismatch: {name}')
-        page_rows.extend(read_json(path)['response']['response']['reviews'])
+        page = read_json(path)
+        validate(page['response'])
+        page_rows.extend(page['response']['response'].get('reviews', []))
     source = read_jsonl(raw / 'steam_reviews.jsonl')
     require(source == page_rows, 'Raw JSONL differs from archived API pages')
     require(len(source) == manifest['raw_reviews'], 'Raw count mismatch')
@@ -36,11 +39,13 @@ def verify(game, data_dir):
     info = read_json(processed / 'processing.json')
     require(sha256(processed / 'reviews.jsonl') == info['processed_sha256'], 'Processed checksum mismatch')
     require(read_json(processed / 'statistics.json') == calculate(rows, len(source)), 'Statistics mismatch')
+
     def check_csv(path, expected_rows):
         with path.open(encoding='utf-8', newline='') as handle:
             actual = list(csv.DictReader(handle))
         expected_csv = [{k: '' if v is None else str(v) for k, v in row.items()} for row in expected_rows]
         require(actual == expected_csv, f'CSV mismatch: {path.name}')
+
     check_csv(processed / 'reviews.csv', rows)
     for name, subset in samples(rows, game['sample_size']).items():
         check_csv(processed / 'samples' / (name + '.csv'), subset)
