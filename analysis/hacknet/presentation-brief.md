@@ -80,7 +80,7 @@ Bunu göstərən faktlar:
 ### Güclü nəticəni izah edən əsas hipotezlər
 
 - Çox asan izah olunan fantaziya: “terminalda haker ol”.
-- Screenshot və videoda dərhal fərqlənən görünüş.
+- Mağaza görüntüsü və videoda dərhal fərqlənən görünüş.
 - Real hakerlik biliyi tələb etmədən texniki kompetensiya hissi.
 - Hekayə və kəşf sadə mexanikanı daşıyır.
 - İstehsal baxımından nisbətən sadə interfeys üzərində yüksək atmosfer.
