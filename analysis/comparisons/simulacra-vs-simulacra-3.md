@@ -1,0 +1,802 @@
+# SIMULACRA vs SIMULACRA 3 — Franchise outcome divergence
+
+## 1. Məqsəd
+
+Əsas sual:
+
+> **Eyni found-phone franchise-də SIMULACRA yüksək oyunçu reaksiyası alarkən SIMULACRA 3 niyə xeyli zəif nəticə göstərib və hansı dizayn dəyişiklikləri bu divergence ilə əlaqəlidir?**
+
+Bu sənəd qalib seçmək üçün deyil.
+
+Məqsəd:
+- original formula-nın real strength-lərini;
+- sequel-də əlavə olunan yeni sistemləri;
+- itirilən franchise baseline-larını;
+- future concept üçün transfer edilə bilən prinsipləri
+
+ayırmaqdır.
+
+---
+
+# 2. Dataset
+
+| Metrik | SIMULACRA | SIMULACRA 3 |
+|---|---:|---:|
+| Steam App ID | 712730 | 1925970 |
+| Dataset | 3,209 | 267 |
+| Müsbət | 2,905 | 157 |
+| Mənfi | 304 | 110 |
+| Müsbət pay | **90.53%** | **58.80%** |
+| Mənfi pay | 9.47% | **41.20%** |
+| Median playtime | 4.67h | 5.30h |
+| Average positive playtime | 7.06h | 6.10h |
+| Average negative playtime | 4.31h | 5.65h |
+
+Oyun müddəti cohort-ları:
+
+| Müddət | SIMULACRA | SIMULACRA 3 |
+|---|---:|---:|
+| 0–1h | **59.81%** | **37.50%** |
+| 1–3h | **78.83%** | 65.22% |
+| 3–10h | **92.45%** | **58.05%** |
+| 10h+ | **95.30%** | 73.91% |
+
+Əsas siqnal:
+
+> **SIMULACRA 3-də problem yalnız zəif onboarding deyil; əsas completion cohort-da da dissatisfaction yüksəkdir.**
+
+---
+
+# 3. Fundamental fantasy
+
+## SIMULACRA
+
+> **“İtkin bir insanın şəxsi telefonunu əlimdə tuturam və onun rəqəmsal həyatından həqiqəti çıxarıram.”**
+
+## SIMULACRA 3
+
+> **“Bir jurnalistlə birlikdə şəhər üzrə paranormal işi phone + Atlas vasitəsilə araşdırıram.”**
+
+Bu kiçik dəyişiklik deyil.
+
+Birincidə mərkəz:
+- insan.
+
+Üçüncüdə:
+- case/world.
+
+### Əsas divergence
+
+> **SIMULACRA character-intimacy investigation-dır; SIMULACRA 3 systematized case investigation-a daha yaxındır.**
+
+---
+
+# 4. Interface-as-world
+
+## SIMULACRA
+
+Telefon:
+- world;
+- archive;
+- social network;
+- clue space;
+- identity portrait;
+- horror source.
+
+## SIMULACRA 3
+
+Telefon:
+- interface shell;
+- clue source;
+- Atlas giriş nöqtəsi;
+- Ruby communication device;
+- set-piece controller.
+
+Telefonun rolu daha funksional, amma daha az şəxsi olur.
+
+### Nəticə
+
+> **Diegetic interface-in funksionallığı artıb, amma personality density azalıb.**
+
+Bu outcome divergence-in ən güclü izahlarından biridir.
+
+---
+
+# 5. Information intimacy
+
+## SIMULACRA
+
+Anna barədə:
+
+- münasibətlər;
+- foto;
+- video;
+- dating;
+- dostluq;
+- şəxsi conflict;
+- gündəlik həyat
+
+tapılır.
+
+Oyunçu mystery-dən əvvəl belə:
+
+> Anna-nı tanıyır.
+
+## SIMULACRA 3
+
+Paul:
+- mystery üçün vacibdir;
+- amma phone onun şəxsi həyatını eyni dərinlikdə göstərmir.
+
+World scope:
+- Stonecreek;
+- town lore;
+- location;
+- multiple events
+
+ilə böyüyür.
+
+### Trade-off
+
+```text
+SIMULACRA:
+less breadth
+→ more intimacy
+
+SIMULACRA 3:
+more breadth
+→ less intimacy
+```
+
+### Əsas prinsip
+
+> **Breadth intimacy-ni avtomatik əvəz etmir.**
+
+---
+
+# 6. “Useless” content-in dəyəri
+
+SIMULACRA-da çox detail:
+- birbaşa objective deyil;
+- amma phone-un real həyat izi olduğunu göstərir.
+
+SIMULACRA 3-də daha çox content:
+- progression-purpose;
+- Atlas-purpose;
+- story-purpose
+
+daşıyır.
+
+Bu daha efficient görünür.
+
+Amma:
+
+> relevant clue ilə irrelevant life detail arasında fərq azaldıqda discovery hissi də azalır.
+
+### Cross-game lesson
+
+> **Investigation oyununda noise bəzən gameplay ingredient-dir.**
+
+Əgər hər şey clue-dursa:
+- clue tapmaq observation deyil.
+
+---
+
+# 7. Social graph
+
+## SIMULACRA
+
+Bir neçə active personaj:
+- Greg;
+- Taylor;
+- Ashley;
+- digərləri.
+
+Bunlar:
+- bir-biri ilə ziddiyyət;
+- trust;
+- emotional reaction;
+- alternative motives
+
+yaradır.
+
+## SIMULACRA 3
+
+Ruby:
+- dominant collaborator;
+- əsas message flow;
+- guidance;
+- exposition.
+
+Digər personajlar daha az və daha zəif inkişaf edir.
+
+### Nəticə
+
+> **Multi-contact social investigation → guide-centric investigation**
+
+keçidi var.
+
+Bu:
+- clarity artırır;
+- world social density-ni azaldır.
+
+---
+
+# 8. Player role
+
+## SIMULACRA
+
+Player identity boş saxlanır.
+
+Üstünlük:
+- self-insertion.
+
+Risk:
+- niyə sən bunu edirsən?
+
+## SIMULACRA 3
+
+Player journalist intern-dir.
+
+Üstünlük:
+- objective legitimacy;
+- professional role clarity.
+
+Risk:
+- daha az self-insertion;
+- Ruby guidance dependency.
+
+### Dərs
+
+> **Concrete role clarity yaradır; amma role fantasy-ni NPC instruction simulator-a çevirməmək lazımdır.**
+
+---
+
+# 9. Atlas: real improvement direction
+
+SIMULACRA 3-ün ən güclü yeni ideyası Atlas-dır.
+
+İlk oyunun zəifliyi:
+- player notes;
+- mental linking;
+- external memory limitation.
+
+Atlas potentially:
+- location;
+- clue relation;
+- chronology;
+- progress
+
+saxlayır.
+
+Bu future design üçün real improvement-dir.
+
+### Amma implementation riski
+
+Əgər system:
+- clue relevance-i marker-lə göstərir;
+- yalnız correct scan qəbul edir;
+- player observation-u bypass edir,
+
+knowledge support:
+
+> knowledge automation-a
+
+çevrilir.
+
+### Əsas principle
+
+> **Investigation support system “nə vacibdir?” sualını yox, “tapdıqlarımı necə təşkil edirəm?” sualını həll etməlidir.**
+
+---
+
+# 10. Observation
+
+## SIMULACRA
+
+Relevant məlumat çox vaxt:
+- normal app content içində gizlənir.
+
+Player:
+- oxuyur;
+- müqayisə edir;
+- özü relevance tapır.
+
+## SIMULACRA 3
+
+Bəzi content:
+- scan/relevance marker ilə müəyyən edilir.
+
+Bu usability-ni artırır.
+
+Amma:
+- observation challenge azalır.
+
+Bu Orwell-in auto-highlighting tension-u ilə eyni principle-dir.
+
+---
+
+# 11. Puzzle design
+
+## SIMULACRA
+
+Əsas puzzle:
+- text reconstruction;
+- image reconstruction;
+- personal-info password/search.
+
+Problem:
+- repetition;
+- low depth.
+
+## SIMULACRA 3
+
+Daha çox format:
+- Atlas;
+- path/location;
+- interactive video;
+- house cameras;
+- other set-pieces.
+
+Üstünlük:
+- variety.
+
+Problem:
+- mechanic-lərin bir hissəsi single-use;
+- bəzi puzzle çox asan;
+- bəzisi çox obscure;
+- shared grammar zəifdir.
+
+### Trade-off
+
+```text
+SIMULACRA:
+consistent but repetitive
+
+SIMULACRA 3:
+varied but inconsistent
+```
+
+### Future optimum
+
+> **reusable grammar + escalating recombination**
+
+---
+
+# 12. Horror
+
+## SIMULACRA
+
+Ən güclü horror:
+- wallpaper change;
+- corrupted media;
+- message glitch;
+- device instability;
+- subtle sound.
+
+Ən zəif:
+- loud jumpscare.
+
+## SIMULACRA 3
+
+Review perception:
+- az horror;
+- az ambience;
+- az phone corruption;
+- ghost-like physical antagonist;
+- town folklore.
+
+### Vacib nuance
+
+SIMULACRA 1-də oyunçular:
+> “jumpscare çoxdur”
+
+deyirdi.
+
+SIMULACRA 3-də:
+> “scare yoxdur”
+
+deyir.
+
+Optimal nəticə:
+
+> **jumpscare count deyil, interface-native dread.**
+
+---
+
+# 13. Theme-interface fit
+
+## SIMULACRA
+
+Theme:
+- online identity;
+- dating;
+- digital persona;
+- social behavior.
+
+Interface:
+- phone.
+
+Fit:
+> çox yüksək.
+
+## SIMULACRA 3
+
+Theme:
+- town haunting;
+- folklore;
+- gentrification/community;
+- ghost-like threat.
+
+Interface:
+- phone + map.
+
+Fit:
+> daha zəif.
+
+### Principle
+
+> **Core theme core interface-in gündəlik mənası ilə bağlı olanda diegetic cohesion güclənir.**
+
+---
+
+# 14. Character reaction
+
+SIMULACRA personajları çox vaxt:
+- irritating;
+- creepy;
+- exaggerated.
+
+Bu mənfi şikayət idi.
+
+Amma onlar:
+> memorable idi.
+
+SIMULACRA 3-də dominant şikayət:
+- bland;
+- uninteresting;
+- no attachment.
+
+Bu vacib narrative design distinction-dir.
+
+### Principle
+
+> **Polarizing character bland character-dan daha çox emotional energy yarada bilər.**
+
+Əlbəttə məqsəd “qəsdən annoying” olmaq deyil.
+
+Məqsəd:
+- distinct voice;
+- motive;
+- relationship;
+- contradiction.
+
+---
+
+# 15. Choice və endings
+
+## SIMULACRA
+
+Problem:
+- hidden relationship thresholds;
+- morally questionable “good ending” routes;
+- early hidden choice late punishment.
+
+Yəni:
+> consequence çox sərt və gizlidir.
+
+## SIMULACRA 3
+
+Problem:
+- choice-lar az fərq yaradır;
+- alternative response bəzən sonra yenə deyilir;
+- good ending asan ola bilər;
+- ending divergence zəif hiss olunur.
+
+Yəni:
+> consequence çox zəifdir.
+
+### Ideal middle
+
+> **legible but non-trivial consequence.**
+
+Oyunçu:
+- qərarın riskini anlaya bilməlidir;
+- amma optimal route əvvəlcədən obvious olmamalıdır.
+
+---
+
+# 16. Replay
+
+## SIMULACRA
+
+- multiple endings;
+- New Game+;
+- faster chat.
+
+Problem:
+- çox repeated content.
+
+## SIMULACRA 3
+
+- multiple endings;
+- fast-forward/NG+ advantage zəif/yox;
+- uzun dialogue/video təkrarı.
+
+Bu:
+> direct QoL regression.
+
+### Sequel rule
+
+> **Previous QoL becomes inherited baseline.**
+
+---
+
+# 17. Pacing
+
+## SIMULACRA
+
+Problem:
+- message wait;
+- bubble spam;
+- interruptions.
+
+## SIMULACRA 3
+
+Problem:
+- exposition;
+- long dialogue;
+- low active-interaction density;
+- “too much talking”.
+
+Fərqli pacing failure-larıdır.
+
+### Common root
+
+> player control aşağı düşəndə passiv gözləmə artır.
+
+---
+
+# 18. Active set-piece
+
+SIMULACRA 3-də house/security-camera sequence çox dəyərlidir.
+
+Bu original formula-nı daha yaxşı istiqamətə genişləndirir:
+
+```text
+diegetic interface
++ observation
++ real-time pressure
++ spatial threat
++ meaningful action
+```
+
+Bu future found-device design üçün daha güclü evolution istiqamətidir.
+
+Yəni SIMULACRA 3-ün dərsi:
+
+> “original kimi qal”
+
+deyil.
+
+Dərs:
+
+> **original fantasy-ni qoruyaraq interface-native active systems əlavə et.**
+
+---
+
+# 19. Production perception
+
+SIMULACRA 3 review-lərində:
+- rushed;
+- unfinished;
+- low budget
+
+ifadələri çoxdur.
+
+Bunlar development fact deyil.
+
+Player perception-ı yaradan görünən siqnallar:
+- audio mix;
+- green screen;
+- abrupt edit;
+- few contacts/apps;
+- missing QoL;
+- single-use mechanics;
+- ending cards;
+- bugs.
+
+### Principle
+
+> **Completeness perception feature count-dan çox polish consistency + system reuse + payoff-dan gəlir.**
+
+---
+
+# 20. Early experience
+
+0–1h positive:
+
+- SIMULACRA: **59.81%**
+- SIMULACRA 3: **37.50%**
+
+İlk oyunda:
+- phone grammar dərhal tanışdır;
+- Anna mystery-si dərhal şəxsi hook verir.
+
+Üçüncüdə:
+- role setup;
+- Atlas;
+- town system;
+- less immediate intimacy
+
+daha çox onboarding yükü yaradır.
+
+### Dərs
+
+> **Meta-system əlavə edəndə familiar-interface advantage qorunmaya bilər.**
+
+---
+
+# 21. Completion experience
+
+Ən vacib difference:
+
+3–10h positive:
+
+- SIMULACRA: **92.45%**
+- SIMULACRA 3: **58.05%**
+
+Bu göstərir:
+
+> SIMULACRA 3 əsas problemi “early tutorial” deyil.
+
+Even players who stay:
+- story;
+- character;
+- horror;
+- agency;
+- replay;
+- payoff
+
+haqqında qarışıq qalırlar.
+
+Bu full-product cohesion problemidir.
+
+---
+
+# 22. Outcome divergence-i ən yaxşı izah edən dəyişikliklər
+
+## Güclü evidence
+
+1. **Personal phone density azalıb**
+2. **Character/social graph azalıb**
+3. **Theme-interface fit zəifləyib**
+4. **Horror interface layer-dən ayrılıb**
+5. **Choice reactivity zəifləyib**
+6. **Replay QoL regression**
+7. **Atlas relevance marker observation-u azalda bilir**
+8. **Scope intimacy-ni əvəz edib**
+
+## Orta evidence
+
+9. Platform/form-factor mismatch
+10. Sequel novelty azalması
+11. Higher franchise expectation
+
+## Əsas explanation olmayanlar
+
+- bug-lar təkbaşına;
+- oyun uzunluğu təkbaşına;
+- jumpscare sayı təkbaşına.
+
+---
+
+# 23. Nəyi SIMULACRA 3-dən götürmək lazımdır?
+
+1. Atlas-ın **knowledge organization** istiqaməti.
+2. House/security-camera **active interface horror**.
+3. Wider geography/location layer.
+4. Collaborator idea — amma less directive.
+5. More varied interaction format — amma reusable grammar ilə.
+6. Town/world context — amma strong personal anchor ilə.
+
+---
+
+# 24. Nəyi SIMULACRA 1-dən qorumaq lazımdır?
+
+1. Rich personal device.
+2. Multiple meaningful contacts.
+3. Incidental data.
+4. Voyeuristic discovery.
+5. Phone-native interaction.
+6. Interface corruption.
+7. Digital/social thematic cohesion.
+8. Immediate high-concept hook.
+9. Strong character voice.
+10. Replay QoL.
+
+---
+
+# 25. Ideal synthesis
+
+```text
+SIMULACRA 1:
+intimacy
++ believable phone
++ social graph
++ digital horror
+
+SIMULACRA 3:
+knowledge organization
++ location layer
++ active set-piece
+
+ideal:
+rich personal phone
+→ self-directed discovery
+→ player-built knowledge graph
+→ multiple human motives
+→ active interface-native threat
+→ legible meaningful choices
+→ visible consequence
+```
+
+---
+
+# 26. Bizim layihə üçün 12 franchise-level principle
+
+1. **Original fantasy-ni bir cümlə ilə müəyyən et və sequel sistemlərini ona qarşı test et.**
+2. Device owner character density-ni KPI kimi ölç.
+3. Relevant və irrelevant məlumat balansı saxla.
+4. Knowledge system observation-u yox, organization-u avtomatlaşdırsın.
+5. Social graph bir guide NPC-yə yığılmasın.
+6. World scope artdıqca emotional anchor da artsın.
+7. Theme interface-in real-world mənası ilə uyğun olsun.
+8. Horror interaction layer-də yaşasın.
+9. Puzzle grammar reuse + escalation ilə dərinləşsin.
+10. Choice state divergence ölçülə bilən olsun.
+11. Previous QoL sequel baseline-ıdır.
+12. New system core fantasy-ni gücləndirmirsə feature growth depth deyil.
+
+---
+
+# 27. Yekun
+
+SIMULACRA-nın yüksək nəticəsini ən yaxşı izah edən şey:
+
+> telefonun “real-looking UI” olması deyil.
+
+Əsas strength:
+
+> **telefonun bir insanın şəxsiyyəti, sosial şəbəkəsi, clue arxivi və horror mənbəyi kimi eyni anda işləməsi idi.**
+
+SIMULACRA 3:
+- daha geniş world;
+- daha formal clue system;
+- daha çox sistem ambition
+
+gətirir.
+
+Amma core reward:
+- şəxsi discovery;
+- character graph;
+- phone personality;
+- interface horror
+
+zəifləyəndə yeni layer-lər həmin itkini kompensasiya etmir.
+
+Əsas franchise lesson:
+
+> **Depth əlavə etmək üçün original interaction fantasy-ni kənara atmaq yox, onun içində daha çox meaningful decision və organization imkanları yaratmaq lazımdır.**
+
+## Mənbələr
+
+### SIMULACRA
+- `analysis/simulacra/theme-analysis.md`
+- `analysis/simulacra/deep-research.md`
+- `data/processed/simulacra/statistics.json`
+
+### SIMULACRA 3
+- `analysis/simulacra-3/theme-analysis.md`
+- `analysis/simulacra-3/deep-research.md`
+- `data/processed/simulacra-3/statistics.json`
