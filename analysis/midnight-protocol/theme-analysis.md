@@ -57,7 +57,7 @@ Oxunmuş yoxlama materialı:
 
 nümunə-lar arasında overlap var. Bunlar 173 distinct rəy demək deyil.
 
-Bu yoxlama full 253 müsbət rəy-un manual classification-ı deyil, amma bütün mənfi population-un oxunması Midnight Protocol-un uğursuzluq nümunə-ləri üçün xüsusilə güclü dəlil verir.
+Bu yoxlama full 253 müsbət rəy-un manual classification-ı deyil, amma bütün mənfi population-un oxunması Midnight Protocol-un uğursuzluq nümunələri üçün xüsusilə güclü dəlil verir.
 
 ---
 
@@ -118,7 +118,7 @@ Rəqəmlər mövzu prevalence və mənfi concentration üçün **retrieval siqna
 
 ---
 
-# 6. oyun müddəti cohort-ları
+# 6. oyun müddəti qrup-ları
 
 ## 6.1. Overall rəy nəticəsi
 
@@ -129,9 +129,9 @@ Rəqəmlər mövzu prevalence və mənfi concentration üçün **retrieval siqna
 | 3–10h | 79 | 60 | 19 | 75.95% |
 | 10h+ | 156 | 149 | 7 | **95.51%** |
 
-Midnight Protocol-da ən zəif rəy cohort-u **1–3 saat** aralığıdır.
+Midnight Protocol-da ən zəif rəy qrup-u **1–3 saat** aralığıdır.
 
-Bu Hacknet-dən fərqli nümunə-dir. Hacknet-də ən aşağı satisfaction 0–1h cohort-da idi və sonra davamlı yüksəlirdi.
+Bu Hacknet-dən fərqli nümunə-dir. Hacknet-də ən aşağı satisfaction 0–1h qrup-da idi və sonra davamlı yüksəlirdi.
 
 Midnight Protocol-da isə:
 
@@ -165,44 +165,44 @@ məna yönümlü yoxlama həmin dip üçün mümkün səbəbləri göstərir.
 
 görünür.
 
-mövzu cohort-ları bunu dəstəkləyir:
+mövzu qrup-ları bunu dəstəkləyir:
 
 ### RNG_FAIRNESS
 
-1–3h cohort:
+1–3h qrup:
 - 9 mention
 - 7 mənfi
 - **77.8% mənfi**
 
 ### RETRY_ROLLBACK
 
-1–3h cohort:
+1–3h qrup:
 - 3 mention
 - **3 mənfi**
 
 ### təkrarçılıq
 
-1–3h cohort:
+1–3h qrup:
 - 6 mention
 - 4 mənfi
 - **66.7% mənfi**
 
 ### URGENCY_TRACE
 
-1–3h cohort:
+1–3h qrup:
 - 2 mention
 - **2 mənfi**
 
 ### TERMINAL_UI
 
-1–3h cohort:
+1–3h qrup:
 - 12 mention
 - 5 mənfi
 - **41.7% mənfi**
 
 ### TACTICAL_TURN_BASED
 
-1–3h cohort:
+1–3h qrup:
 - 11 mention
 - 5 mənfi
 - **45.5% mənfi**
@@ -215,13 +215,13 @@ Bu nümunə göstərir ki, Midnight Protocol-un problem nöqtəsi “ilk ekran q
 
 ---
 
-# 8. Əsas güc: hacker fantasy dərin tactical sistemlə birləşir
+# 8. Əsas güc: hacker rol hissi dərin tactical sistemlə birləşir
 
 Explicit HACKER_FANTASY namizəd sayı cəmi 8-dir, amma hamısı müsbət rəy-dur.
 
 Regex çox dar olduğu üçün bu 2.66% real prevalence kimi qəbul edilmir.
 
-məna yönümlü yoxlama-də fantasy daha geniş formada görünür:
+məna yönümlü yoxlama-də rol hissi daha geniş formada görünür:
 
 - “feel like a hacker”;
 - keyboard-only typing;
@@ -450,7 +450,7 @@ yaradıcı özü də keyboard-only UI-nin discoverability-ni azaltdığını eti
 
 ### Əsas nəticə
 
-> **giriş üsulu gimmick özünü yalnız fantasy ilə yox, qarşılıqlı əlaqənin səmərəliliyi ilə də doğrultmalıdır.**
+> **giriş üsulu gimmick özünü yalnız rol hissi ilə yox, qarşılıqlı əlaqənin səmərəliliyi ilə də doğrultmalıdır.**
 
 Əgər keyboard daha immersive, amma ardıcıl olaraq daha yavaşdırsa, yenilik effekti tükənəndən sonra çətinlik görünür.
 
@@ -560,7 +560,7 @@ kimi elementləri yüksək qiymətləndirir.
 
 Bu Hacknet-dən əsas üstünlüklərdən biridir.
 
-Hacknet əsasən hacker fantasy və hekayə verir.
+Hacknet əsasən hacker rol hissi və hekayə verir.
 
 Midnight Protocol buna əlavə edir:
 
@@ -592,7 +592,7 @@ STORY_NARRATIVE:
 
 Bu, ən geniş mövzu-dir.
 
-10h+ cohort-da hekayə namizəd-i olan:
+10h+ qrup-da hekayə namizəd-i olan:
 
 - 100 rəy;
 - yalnız 4 mənfi.
@@ -641,7 +641,7 @@ peşəkar rəy də presentation və interface-i əsas güclərdən sayır, sound
 
 Bu Hacknet ilə başqa ortaq principle-dir:
 
-> interface-heavy oyunda audio/visual presentation sadəcə polish deyil, fantasy-nin mexaniki hissəsidir.
+> interface-heavy oyunda audio/visual presentation sadəcə polish deyil, rol hissi-nin mexaniki hissəsidir.
 
 **etibarlılıq: High**
 
@@ -737,7 +737,7 @@ Midnight Protocol Hacknet-in dayaz loop probleminə cavab olaraq daha çox siste
 - mission seçimlər;
 - hardware/program progression.
 
-Buna baxmayaraq 1–3h cohort-da satisfaction düşür.
+Buna baxmayaraq 1–3h qrup-da satisfaction düşür.
 
 Bu bizim gələcək oyun üçün ən vacib dərslərdən biridir:
 
@@ -767,7 +767,7 @@ yaradıcı:
 
 oyunçu outcome:
 
-- müsbət: çox güclü fantasy və distinctive identity;
+- müsbət: çox güclü rol hissi və distinctive identity;
 - mənfi: inefficient UI və repetitive typing.
 
 **Intent achieved, kompromis realdır.**
@@ -824,11 +824,11 @@ oyunçu outcome:
 
 # 23. Midnight Protocol-un ən güclü dizayn nailiyyətləri
 
-1. **Hacker fantasy-ni tactical qərar-making ilə birləşdirir.**
+1. **Hacker rol hissi-ni tactical qərar-making ilə birləşdirir.**
 2. **Keyboard-only giriş üsulu güclü məhsul identity yaradır.**
 3. **hekayə + seçim + reputation oyun gedişi context-i artırır.**
 4. **Loadout/build sistemi Hacknet-dən daha çox qərar sərbəstliyi verir.**
-5. **Turn-based sistem non-speed-based hacking fantasy üçün alternativ yaradır.**
+5. **Turn-based sistem non-speed-based hacking rol hissi üçün alternativ yaradır.**
 6. **Presentation və oyuna dalma hissi yüksək səviyyədədir.**
 7. **seçilmiş həqiqilik hissi real simulation olmadan işləyir.**
 8. **Side content və moral seçimlər “hacker identity” yaradır.**
@@ -836,7 +836,7 @@ oyunçu outcome:
 
 ---
 
-# 24. Əsas uğursuzluq nümunə-lər
+# 24. Əsas uğursuzluq nümunələr
 
 1. **RNG uğursuzluq-i oyunçu bacarıq-dən ayıra bilir.**
 2. **Retry/rollback/replanning modeli uğursuzluq-i daha ağrılı edir.**
@@ -903,11 +903,11 @@ olmalıdır.
 
 ---
 
-## 25.5. giriş üsulu fantasy-ni dəstəkləsin, əməliyyatı yavaşlatmasın
+## 25.5. giriş üsulu rol hissi-ni dəstəkləsin, əməliyyatı yavaşlatmasın
 
 Typing:
 
-- hacker fantasy üçün güclüdür.
+- hacker rol hissi üçün güclüdür.
 
 Amma tez-tez təkrarlanan low-value action üçün:
 
@@ -958,11 +958,11 @@ loop-u çox güclü ola bilər.
 |---|---|
 | RNG (təsadüfi nəticə mexanizmi) və ədalətlilik əsas uğursuzluq amil-dir | High |
 | Retry/recovery RNG problemini böyüdür | High |
-| 1–3h xüsusi risk cohort-udur | High |
+| 1–3h xüsusi risk qrup-udur | High |
 | hekayə əsas oyunda qalma amil-dir | High |
 | Keyboard-only güclü oyuna dalma hissi + UX kompromis yaradır | High |
 | Turn-based sistem real-time speed requirement-i uğurla azaldır | High |
-| Hacker fantasy güclü value proposition-dır | High |
+| Hacker rol hissi güclü value proposition-dır | High |
 | Loadout sistemi real qərar sərbəstliyi yaradır, amma mandatory/dominant build riski var | High |
 | seçim/reputation əsas fərqləndiricidir | High |
 | təkrarçılıq daha dərin sistemə baxmayaraq qalır | High |
@@ -1019,5 +1019,5 @@ https://www.softpedia.com/reviews/games/pc/midnight-protocol-review-534571.shtml
 **Mərhələ:** Midnight Protocol full-corpus rəy təhlil — tamamlanıb  
 **məlumat toplusu:** 301 verified English Steam rəy  
 **mənfi məna yönümlü yoxlama:** 48/48 mənfi reviews  
-**müsbət yoxlama:** faydalı + low-oyun müddəti + son dövr cohorts  
+**müsbət yoxlama:** faydalı + low-oyun müddəti + son dövr qrups  
 **Növbəti:** `analysis/midnight-protocol/deep-research.md` və sonra Hacknet vs Midnight Protocol müqayisə.
