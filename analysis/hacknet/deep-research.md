@@ -60,27 +60,21 @@ Araşdırmada əlavə olaraq bunlardan istifadə olunub:
 
 Mənbələrin tam siyahısı sənədin sonunda verilib.
 
-## 1.3. Vacib məhdudiyyət
+## 1.3. Theme analysis vəziyyəti və məhdudiyyət
 
-Hazırda bütün 11,773 review üçün avtomatik **theme classification** aparılmayıb.
+Bütün **11,773 review** üzərində deterministik full-corpus theme-candidate scan artıq aparılıb.
 
-Ona görə bu sənəddə:
+Nəticələr:
 
-> “Repetition review-lərin X%-ində qeyd olunub”
+- ən azı bir theme candidate-i tutulan review: **6,009**
+- candidate coverage: **51.04%**
+- ayrıca recommendation/playtime-balanced audit sample-ları yaradılıb və semantic yoxlama aparılıb.
 
-kimi dəqiq theme faizləri verilmir.
+Ətraflı sənəd:
 
-Hazırkı keyfiyyət nəticələri əsasən:
+`analysis/hacknet/theme-analysis.md`
 
-- ən helpful positive review-lər,
-- ən helpful negative review-lər,
-- ən yeni review-lər,
-- çox aşağı playtime review-ləri,
-- çox yüksək playtime review-ləri
-
-və xarici community/professional mənbələr üzərində qurulub.
-
-Bu, güclü pattern-ləri görmək üçün kifayətdir, amma sonrakı mərhələdə bütün dataset üzrə aspect/theme analysis aparılmalıdır.
+Vacib məhdudiyyət: bu full semantic LLM classification deyil. Keyword/regex mention frequency və Steam overall recommendation aspect sentiment kimi təqdim edilmir. Buna görə rəqəmlər pattern və risk siqnalı kimi istifadə olunur, exact population sentiment kimi yox.
 
 ---
 
@@ -1271,61 +1265,84 @@ müqayisələri bu nəticələrin Hacknet-ə məxsus, yoxsa janr səviyyəsində
 
 ---
 
-# 15. Növbəti data mərhələsi
 
-Hacknet üzrə növbəti texniki addım bütün 11,773 review-u aspect/theme səviyyəsində təsnif etməkdir.
+# 15. Full-corpus theme scan — executive nəticələr
 
-İlkin taxonomy bu sənəddən belə başlaya bilər:
+11,773 review üzərində aparılan candidate scan əvvəlki qualitative nəticələri xeyli gücləndirdi.
 
-```text
-HACKER_FANTASY
-IMMERSION
-TERMINAL
-UI
-STORY
-MYSTERY
-INVESTIGATION
-EXPLORATION
-DISCOVERY
-SOUNDTRACK
-ATMOSPHERE
-PUZZLE
-DIFFICULTY
-ONBOARDING
-REPETITION
-DEPTH
-REALISM
-TECHNICAL_ACCURACY
-PLAYER_AGENCY
-CONSEQUENCES
-PACING
-LENGTH
-REPLAYABILITY
-MOD_SUPPORT
-BUGS
-COMPATIBILITY
-ENDING
-```
+Dataset baseline negative recommendation: **5.87%**.
 
-Hər review birdən çox theme daşıya bilər.
+| Theme | Mentions | Dataset payı | Negative review payı | Baseline-a nisbət |
+|---|---:|---:|---:|---:|
+| STORY_NARRATIVE | 2,422 | 20.57% | 3.92% | 0.67× |
+| TERMINAL_UI | 2,269 | 19.27% | 7.05% | 1.20× |
+| SOUND_AUDIO | 1,116 | 9.48% | 3.58% | 0.61× |
+| IMMERSION | 910 | 7.73% | 2.42% | 0.41× |
+| INVESTIGATION_DISCOVERY | 610 | 5.18% | 3.93% | 0.67× |
+| REPETITION | 517 | 4.39% | **23.21%** | **3.95×** |
+| BUGS_COMPATIBILITY | 502 | 4.26% | **27.29%** | **4.65×** |
+| ONBOARDING_CLARITY | 462 | 3.92% | **12.55%** | **2.14×** |
+| MOD_REPLAYABILITY | 405 | 3.44% | 2.22% | 0.38× |
+| HACKER_FANTASY | 401 | 3.41% | **1.75%** | **0.30×** |
+| PLAYER_AGENCY | 154 | 1.31% | **16.23%** | **2.77×** |
+| WORLD_REACTIVITY | 48 | 0.41% | **20.83%** | **3.55×** |
 
-Məsələn:
+Bu cədvəl aspect sentiment deyil. “Negative review payı” həmin theme candidate-i olan review-lərin neçə faizinin overall Steam recommendation-ının mənfi olduğunu göstərir.
 
-```text
-"Story was great, but every server used the same commands."
-```
+Semantic audit nəticəsi:
 
-belə kodlanmalıdır:
+- **HACKER_FANTASY** — çox güclü müsbət value proposition;
+- **IMMERSION** — güclü satisfaction driver, amma repetition onu poza bilir;
+- **STORY + TERMINAL + DISCOVERY** — ayrı feature-lərdən çox vahid experience stack kimi işləyir;
+- **SOUNDTRACK** — atmosphere və tension üçün ciddi multiplier-dir;
+- **REPETITION** — ən güclü game-design failure pattern-lərindən biridir;
+- **BUGS/COMPATIBILITY** — design-dan ayrıca böyük negative-review driver-dir;
+- **REALISM** — sadə positive/negative deyil; əsas uğurlu balans selective authenticity + accessibility-dir;
+- **PLAYER AGENCY / WORLD REACTIVITY** — volume aşağı olsa da negative concentration və audit nəticələri opportunity siqnalı verir;
+- **MOD SUPPORT** — long-tail dəyər yaradır; bu theme-i qeyd edənlərin orta playtime-ı 25.19 saatdır.
 
-```text
-STORY           → positive
-REPETITION      → negative
-TERMINAL_LOOP   → negative
-```
+Əlavə co-occurrence siqnalı:
 
-Sadə positive/negative sentiment bu araşdırma üçün kifayət deyil.
+- REPETITION mention-larının **47.2%-i** TERMINAL_UI ilə;
+- **44.5%-i** STORY_NARRATIVE ilə;
+- **36.2%-i** DEPTH_CHALLENGE ilə birlikdədir.
+
+Bu, repetition probleminin kənar complaint yox, core experience ilə sıx bağlı olduğunu göstərir.
+
+Ətraflı metodologiya və semantic audit:
+
+`analysis/hacknet/theme-analysis.md`
+
+Reusable final semantic taxonomy:
+
+`config/aspect_taxonomy.yaml`
 
 ---
+
+# 16. Hacknet üzrə hazırkı yekun
+
+Hacknet üçün hazırkı evidence üç səviyyədə bir-birini dəstəkləyir:
+
+1. full Steam dataset statistikası;
+2. full-corpus theme retrieval + semantic audit;
+3. community/professional/developer external research.
+
+Ən güclü nəticə dəyişmir, amma artıq daha yaxşı dəstəklənir:
+
+> **Hacknet-in əsas məhsulu texniki realizm deyil, hacker fantasy-sidir. Terminal, story, discovery və audio birlikdə bu fantasy-ni satır; əsas zəiflik isə core hacking loop-un kifayət qədər sistemik variasiya yaratmaması və bir müddətdən sonra repetition-a çevrilməsidir.**
+
+Bizim gələcək oyun üçün məqsəd Hacknet-i “daha real” etmək olmamalıdır. Daha vacib opportunity:
+
+> **eyni güclü computer-interface fantasy-ni meaningful investigation, alternativ yanaşmalar, consequence və world reactivity ilə daha uzun müddət daşımaqdır.**
+
+Bundan sonrakı addım Hacknet haqqında daha çox eyni tip data toplamaq yox, bu hipotezləri yaxın rəqib üzərində test etməkdir.
+
+İlk comparison target:
+
+**Midnight Protocol**
+
+---
+
 
 # Mənbələr
 
@@ -1348,6 +1365,15 @@ Dataset collection və deterministic xülasə.
 **[D7]** `data/processed/hacknet/samples/low_playtime.csv`
 
 **[D8]** `data/processed/hacknet/samples/high_playtime.csv`
+
+**[D9]** `data/reports/hacknet/theme-candidates.md`  
+11,773 review üzrə deterministik full-corpus theme candidate nəticələri.
+
+**[D10]** `analysis/hacknet/theme-analysis.md`  
+Theme candidate statistikalarının semantic audit-i və evidence-backed interpretasiyası.
+
+**[D11]** `config/aspect_taxonomy.yaml`  
+Sonrakı oyunlarda da istifadə ediləcək semantic aspect taxonomy.
 
 ## Xarici mənbələr
 
@@ -1401,7 +1427,8 @@ Hacknet-in real hacking öyrətməsindən daha çox basic terminal/Linux familia
 
 # Status
 
-**Mərhələ:** Hacknet qualitative deep research — ilkin versiya  
+**Mərhələ:** Hacknet per-game deep research — əsas research mərhələsi tamamlanıb  
 **Dataset:** Verified 11,773 Steam review  
-**Tamamlanıb:** quantitative baseline + qualitative sample analysis + external research + initial design lessons  
-**Növbəti:** bütün review-lər üzrə avtomatlaşdırılmış theme/aspect classification və sonra comparison research
+**Tamamlanıb:** quantitative baseline + full-corpus theme candidate scan + semantic audit + qualitative review analysis + external research + design lessons  
+**Ətraflı theme analizi:** `analysis/hacknet/theme-analysis.md`  
+**Növbəti:** Midnight Protocol üçün eyni metodologiya və daha sonra Hacknet vs Midnight Protocol comparison
