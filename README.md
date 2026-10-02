@@ -31,6 +31,8 @@ python -m src.processors.clean_reviews --game hacknet
 python -m src.processors.statistics --game hacknet
 python -m src.reports.game_report --game hacknet
 python -m src.verify --game hacknet
+python -m src.processors.theme_candidates --game hacknet
+python -m src.reports.theme_candidate_report --game hacknet
 python -m unittest discover -s tests -v
 ```
 
@@ -139,3 +141,30 @@ game requires only a new `games` entry with `key`, `name`, and `steam_app_id`;
 select it using `--game KEY`. No game identity is hard-coded in collectors.
 
 Tests use fixtures/mocks only; they never call Steam.
+
+
+## Phase 2: theme candidate analysis
+
+After the verified Steam dataset exists, run:
+
+```powershell
+python -m src.processors.theme_candidates --game hacknet
+python -m src.reports.theme_candidate_report --game hacknet
+```
+
+The taxonomy lives in `config/theme_taxonomy.yaml`. This stage is intentionally
+a deterministic regex/keyword **candidate retrieval** pass, not final semantic
+classification. It creates:
+
+```text
+data/processed/hacknet/themes/candidates.jsonl
+data/processed/hacknet/themes/statistics.json
+data/processed/hacknet/themes/samples/<theme>_positive.csv
+data/processed/hacknet/themes/samples/<theme>_negative.csv
+data/reports/hacknet/theme-candidates.md
+```
+
+The reported positive ratio is the overall Steam recommendation ratio among
+reviews mentioning a theme. It must not be interpreted as aspect-level
+sentiment. The generated samples are inputs for manual/LLM audit and the later
+aspect-based classification described in `RESEARCH_MASTER_BRIEF.md`.
