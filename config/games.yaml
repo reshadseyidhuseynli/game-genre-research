@@ -5,5 +5,8 @@ games:
   - key: midnight-protocol
     name: Midnight Protocol
     steam_app_id: 1162700
+  - key: cyber-manhunt
+    name: Cyber Manhunt
+    steam_app_id: 1216710
 sample_size: 50
 request_delay_seconds: 2
