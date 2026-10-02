@@ -1,6 +1,6 @@
-# Hacknet Research Dataset Summary
+# Hacknet — Araşdırma məlumat toplusunun xülasəsi
 
-## Steam Metadata
+## Steam metaməlumatı
 
 - name: Hacknet
 - release_date: {&#x27;coming_soon&#x27;: False, &#x27;date&#x27;: &#x27;Aug 12, 2015&#x27;}
@@ -18,49 +18,49 @@
 - price_unit: minor currency units
 - store_url: https://store.steampowered.com/app/365450/
 
-## Dataset Size
+## Məlumat toplusunun ölçüsü
 
-- raw_reviews: 11773
-- total_reviews: 11773
-- unique_reviews: 11773
-- duplicates_removed: 0
-- Collection: 2026-10-01T19:11:08.434211+00:00 to 2026-10-02T12:27:39.069073+00:00
-- Termination: empty_page; pages: 119
+- Xam rəylər: 11773
+- Ümumi rəylər: 11773
+- Təkrarsız rəylər: 11773
+- Silinmiş təkrarlar: 0
+- Toplanma müddəti: 2026-10-01T19:11:08.434211+00:00 to 2026-10-02T12:27:39.069073+00:00
+- Dayanma səbəbi: empty_page; səhifələr: 119
 - API first-page total_matching: 11775
 - API first-page query_summary: {&quot;num_reviews&quot;: 100, &quot;review_score&quot;: 8, &quot;review_score_desc&quot;: &quot;Very Positive&quot;, &quot;total_positive&quot;: 11084, &quot;total_negative&quot;: 691, &quot;total_reviews&quot;: 11775}
-- Pagination exhausted the public query; a live API is not an atomic snapshot and may change during collection.
-- Unique collected minus first-page API total: -2
+- Açıq API səhifələməsi sona qədər oxunub; canlı API atomik kəsim deyil və toplama zamanı dəyişə bilər.
+- Toplanmış təkrarsız rəylərlə ilk səhifədəki API ümumi sayı arasındakı fərq: -2
 
-## Sentiment
+## Rəy bölgüsü
 
-- positive_reviews: 11082
-- negative_reviews: 691
-- unknown_sentiment_reviews: 0
-- positive_ratio: 0.9413
-- negative_ratio: 0.0587
+- Müsbət rəylər: 11082
+- Mənfi rəylər: 691
+- Münasibəti məlum olmayan rəylər: 0
+- Müsbət rəy nisbəti: 0.9413
+- Mənfi rəy nisbəti: 0.0587
 
-## Playtime
+## Oyun müddəti
 
-- playtime_unit: hours; all playtime statistics use playtime_at_review
-- known_playtime_reviews: 11746
-- average_playtime_at_review: 12.5583
-- median_playtime_at_review: 8.3333
+- Oyun müddəti vahidi: hours; all playtime statistics use playtime_at_review
+- Oyun müddəti məlum olan rəylər: 11746
+- Rəy anındakı orta oyun müddəti: 12.5583
+- Rəy anındakı median oyun müddəti: 8.3333
 
-## Review Quality
+## Rəy keyfiyyəti
 
-- empty_reviews: 20
-- very_short_reviews: 2160
+- Boş rəylər: 20
+- Çox qısa rəylər: 2160
 
-## Positive vs Negative Review Statistics
+## Müsbət və mənfi rəylərin müqayisəsi
 
-- average_playtime_positive: 13.0648
-- average_playtime_negative: 4.4040
-- average_votes_up_positive: 2.0507
-- average_votes_up_negative: 6.6281
+- Müsbət rəylərdə orta oyun müddəti: 13.0648
+- Mənfi rəylərdə orta oyun müddəti: 4.4040
+- Müsbət rəylərdə orta faydalı səs sayı: 2.0507
+- Mənfi rəylərdə orta faydalı səs sayı: 6.6281
 
-## Playtime Segments
+## Oyun müddəti Segments
 
-| Segment | Reviews | Positive ratio |
+| Qrup | Rəy sayı | Müsbət rəy nisbəti |
 |---|---:|---:|
 | 0-1h | 783 | 0.6705 |
 | 1-3h | 1081 | 0.8659 |
@@ -68,11 +68,11 @@
 | 10h+ | 4751 | 0.9857 |
 | unknown | 27 | 0.8519 |
 
-## Most Helpful Review Samples
+## Ən faydalı rəy nümunələri
 
-### Positive (up to 20)
+### Müsbət (maksimum 20)
 
-| Review ID | Created UTC | Votes up | Hours at review |
+| Rəy ID | Yaradılma vaxtı (UTC) | Faydalı səslər | Rəy anındakı oyun müddəti (saat) |
 |---|---|---:|---:|
 | 17512782 | 2015-08-13T00:01:53+00:00 | 1045.0000 | 26.5167 |
 | 23438798 | 2016-06-07T17:45:41+00:00 | 694.0000 | 8.9500 |
@@ -95,11 +95,11 @@
 | 23263212 | 2016-05-29T00:34:20+00:00 | 170.0000 | 4.1333 |
 | 168949985 | 2024-07-04T06:56:35+00:00 | 165.0000 | 1.0333 |
 
-Full original text is retained in the corresponding sample CSV.
+Rəylərin tam mətni uyğun nümunə CSV faylında saxlanılır.
 
-### Negative (up to 20)
+### Mənfi (maksimum 20)
 
-| Review ID | Created UTC | Votes up | Hours at review |
+| Rəy ID | Yaradılma vaxtı (UTC) | Faydalı səslər | Rəy anındakı oyun müddəti (saat) |
 |---|---|---:|---:|
 | 42882226 | 2018-06-20T18:50:36+00:00 | 857.0000 | 3.3667 |
 | 131447611 | 2023-01-24T07:15:54+00:00 | 787.0000 | 15.8833 |
@@ -122,14 +122,14 @@ Full original text is retained in the corresponding sample CSV.
 | 31951497 | 2017-05-25T13:21:05+00:00 | 30.0000 | 4.1667 |
 | 74787111 | 2020-08-23T15:17:57+00:00 | 25.0000 | 2.3667 |
 
-Full original text is retained in the corresponding sample CSV.
+Rəylərin tam mətni uyğun nümunə CSV faylında saxlanılır.
 
 
-## Recent Review Samples
+## Ən yeni rəy nümunələri
 
-### Positive (up to 20)
+### Müsbət (maksimum 20)
 
-| Review ID | Created UTC | Votes up | Hours at review |
+| Rəy ID | Yaradılma vaxtı (UTC) | Faydalı səslər | Rəy anındakı oyun müddəti (saat) |
 |---|---|---:|---:|
 | 236563308 | 2026-09-30T17:58:09+00:00 | 0.0000 | 4.1000 |
 | 236559011 | 2026-09-30T16:55:58+00:00 | 0.0000 | 21.4833 |
@@ -152,11 +152,11 @@ Full original text is retained in the corresponding sample CSV.
 | 235242824 | 2026-09-14T04:56:03+00:00 | 0.0000 | 13.4500 |
 | 235222670 | 2026-09-13T21:38:18+00:00 | 0.0000 | 17.0667 |
 
-Full original text is retained in the corresponding sample CSV.
+Rəylərin tam mətni uyğun nümunə CSV faylında saxlanılır.
 
-### Negative (up to 20)
+### Mənfi (maksimum 20)
 
-| Review ID | Created UTC | Votes up | Hours at review |
+| Rəy ID | Yaradılma vaxtı (UTC) | Faydalı səslər | Rəy anındakı oyun müddəti (saat) |
 |---|---|---:|---:|
 | 235255433 | 2026-09-14T10:38:38+00:00 | 1.0000 | 8.0333 |
 | 235045400 | 2026-09-11T21:40:55+00:00 | 0.0000 | 0.6833 |
@@ -179,22 +179,22 @@ Full original text is retained in the corresponding sample CSV.
 | 220213696 | 2026-03-08T19:31:13+00:00 | 0.0000 | 1.6333 |
 | 219227224 | 2026-02-25T21:58:42+00:00 | 10.0000 | 0.1833 |
 
-Full original text is retained in the corresponding sample CSV.
+Rəylərin tam mətni uyğun nümunə CSV faylında saxlanılır.
 
 
-## Missing Fields and Limitations
+## Çatışmayan sahələr və məhdudiyyətlər
 
-- Missing values remain null (empty CSV cells); false is not inferred from absence.
-- Metadata price uses the US store and minor currency units; it is a collection-time value.
-- Review language is Steam-provided; no independent language classification is applied.
-- Means and medians exclude missing values. Ratios use all reviews in the respective group.
-- No sales/owner estimates or textual theme/sentiment classification were collected.
+- Çatışmayan dəyərlər null kimi saxlanılır; sahənin olmamasından false nəticəsi çıxarılmır.
+- Qiymət metaməlumatı ABŞ mağazasından və valyutanın kiçik vahidlərində alınır; bu, toplama anındakı dəyərdir.
+- Rəy dili Steam tərəfindən verilir; ayrıca dil təsnifatı aparılmır.
+- Orta və median hesablamaları çatışmayan dəyərləri nəzərə almır. Nisbətlər uyğun qrupdakı bütün rəylərdən hesablanır.
+- Satış/sahiblik təxminləri və mətn üzrə mövzu/münasibət təsnifatı bu hesabatda toplanmır.
 
-- playtime_at_review_minutes: 27 missing
-- author_num_games_owned: 11773 missing
-- playtime_at_review_hours: 27 missing
+- playtime_at_review_minutes: 27 çatışmayan dəyər
+- author_num_games_owned: 11773 çatışmayan dəyər
+- playtime_at_review_hours: 27 çatışmayan dəyər
 
-## Generated Files
+## Yaradılan fayllar
 
 - `processed/hacknet/metadata.json`
 - `processed/hacknet/processing.json`
@@ -210,5 +210,5 @@ Full original text is retained in the corresponding sample CSV.
 - `raw/hacknet/reviews_manifest.json`
 - `raw/hacknet/steam_metadata.json`
 - `raw/hacknet/steam_reviews.jsonl`
-- `raw/hacknet/review_pages/`: immutable complete API pages
+- `raw/hacknet/review_pages/`: dəyişdirilməyən tam API səhifələri
 - `reports/hacknet/summary.md`
