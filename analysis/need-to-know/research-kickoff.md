@@ -2,7 +2,13 @@
 
 ## Status
 
-Bu sənəd Need to Know üçün focused comparative research istiqamətini müəyyən edir.
+Bu sənəd Need to Know üçün focused comparative research istiqamətini müəyyən etmiş tarixi kickoff sənədidir.
+
+**Araşdırma artıq tamamlanıb.** Əsas nəticələr:
+- `theme-analysis.md`
+- `deep-research.md`
+- `presentation-brief.md`
+- `../comparisons/orwell-vs-need-to-know.md`
 
 Need to Know Tier A deyil, **Tier B — Focused Comparative Research** target-dir.
 
@@ -121,7 +127,7 @@ https://www.kickstarter.com/projects/monomythgames/need-to-know-the-mass-surveil
 **Steam Community review example — launch/version caveat**  
 https://steamcommunity.com/id/Colonial_Dagger/recommended/490930
 
-## Növbəti addım
+## Nəticə statusu
 
 Config repository-yə əlavə olunub:
 
@@ -129,7 +135,20 @@ Config repository-yə əlavə olunub:
     name: Need to Know
     steam_app_id: 490930
 
-Növbəti mərhələ verified Steam review dataset collection-dır.
+Steam review dataset artıq toplanıb və processed snapshot repository-dədir:
+
+- 272 ingilisdilli rəy;
+- 178 müsbət;
+- 94 mənfi;
+- 65.44% müsbət pay;
+- 0 duplicate.
+
+Focused research və Orwell müqayisəsi tamamlanıb.
+
+Qalan reproducibility addımı:
+- `python -m src.verify --game need-to-know`
+- `python -m src.theme_pipeline --game need-to-know`
+- generasiya olunan deterministik theme artefaktlarını push etmək.
 
 
 ## Tamamlanmış araşdırmanın məcburi çıxışları
