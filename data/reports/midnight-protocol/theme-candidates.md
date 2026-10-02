@@ -1,20 +1,20 @@
-# Midnight Protocol — Theme Candidate Corpus Scan
+# Midnight Protocol — Bütün rəylər üzrə mövzu namizədlərinin yoxlanması
 
-> Bu report final semantic classification deyil. Regex/keyword qaydaları ilə tapılan
-> review namizədlərini və həmin review-lərin Steam recommendation/playtime paylanmasını göstərir.
-> Theme-in positive ratio-su aspect sentiment deyil; həmin theme-i qeyd edən review-lərin
-> overall Steam recommendation ratio-sudur.
+> Bu hesabat yekun məna yönümlü təsnifat deyil. Regex/açar söz qaydaları ilə tapılan
+> rəy namizədlərini və həmin rəylərin Steam tövsiyəsi və oyun müddəti üzrə paylanmasını göstərir.
+> Mövzunun müsbət rəy nisbəti həmin aspektə münasibət demək deyil; bu, həmin mövzunu qeyd edən
+> rəylərin ümumi Steam tövsiyə nisbətidir.
 
-## Coverage
+## Əhatə
 
-- Total reviews: 301
-- Reviews with at least one theme candidate: 226
-- Candidate coverage: 75.08%
-- Taxonomy version: 2
+- Ümumi rəylər: 301
+- Ən azı bir mövzu namizədi tutulan rəylər: 226
+- Namizəd əhatəsi: 75.08%
+- Taksonomiya versiyası: 2
 
-## Theme statistics
+## Mövzu statistikası
 
-| Theme | Azərbaycan dilində | Mentions | Share | Positive reviews | Negative reviews | Overall positive ratio | Avg playtime at review |
+| Maşın etiketi | Azərbaycan dilində | Qeyd sayı | Pay | Müsbət rəylər | Mənfi rəylər | Ümumi müsbət rəy nisbəti | Rəy anındakı orta oyun müddəti |
 |---|---|---:|---:|---:|---:|---:|---:|
 | STORY_NARRATIVE | Story və narrative | 136 | 45.18% | 121 | 15 | 88.97% | 20.40h |
 | DEPTH_CHALLENGE | Dərinlik, challenge və problem həlli | 112 | 37.21% | 88 | 24 | 78.57% | 20.14h |
@@ -42,9 +42,9 @@
 | LENGTH_CONTENT | Oyun uzunluğu və content miqdarı | 7 | 2.33% | 7 | 0 | 100.00% | 17.48h |
 | EDUCATIONAL_IMPACT | Öyrənmə və texnologiyaya maraq yaratma | 0 | 0.00% | 0 | 0 | n/a | n/a |
 
-## Top theme co-occurrences
+## Ən çox birlikdə görünən mövzular
 
-| Theme A | Theme B | Reviews |
+| Mövzu A | Mövzu B | Rəy sayı |
 |---|---|---:|
 | DEPTH_CHALLENGE | STORY_NARRATIVE | 71 |
 | LOADOUT_BUILD | STORY_NARRATIVE | 63 |
@@ -77,10 +77,10 @@
 | SOUND_AUDIO | TERMINAL_UI | 18 |
 | CHOICE_REPUTATION | DEPTH_CHALLENGE | 18 |
 
-## Interpretation rules
+## Şərh qaydaları
 
-- Bu nəticələr theme prevalence üçün ilkin retrieval siqnalıdır.
-- Bir review theme keyword-u daşısa da həmin aspect-i tərifləməyə və ya tənqid etməyə bilər.
-- Overall positive/negative recommendation aspect sentiment kimi istifadə edilməməlidir.
-- Theme-lər üzrə generated positive/negative sample CSV-ləri manual/LLM audit üçün istifadə olunmalıdır.
-- Final rəqəmlər audit edilmiş aspect classification-dan sonra analysis/<game>/deep-research.md faylına keçirilməlidir.
+- Bu nəticələr mövzuların yayılması üçün ilkin seçim siqnalıdır.
+- Bir rəydə mövzuya aid açar sözün olması həmin aspektin mütləq tərifləndiyi və ya tənqid edildiyi demək deyil.
+- Ümumi müsbət/mənfi Steam tövsiyəsi aspekt üzrə münasibət kimi istifadə edilməməlidir.
+- Mövzular üzrə yaradılan müsbət/mənfi nümunə CSV-ləri əl ilə və ya LLM ilə məna yönümlü yoxlama üçün istifadə olunur.
+- Yekun rəqəmlər yoxlanmış aspekt təsnifatından sonra analysis/<game>/deep-research.md faylına keçirilir.
