@@ -44,7 +44,7 @@ Midnight Protocol
 turn-based planning + tactical/loadout system
 ```
 
-Bu fərq bizə **əlçatanlıq ↔ dərinlik** trade-off-unun real oyunçu response-a necə təsir etdiyini görməyə imkan verir.
+Bu fərq bizə **əlçatanlıq ↔ dərinlik** kompromis-unun real oyunçu response-a necə təsir etdiyini görməyə imkan verir.
 
 ---
 
@@ -114,7 +114,7 @@ birlikdə işləməyə başlayanda satisfaction düşür.
 
 ### Əsas dərs
 
-> **First-time onboarding yalnız controls öyrətmək deyil. Core systems-in ilk dəfə bir-biri ilə qarşılaşdığı nöqtə ayrıca onboarding mərhələsidir.**
+> **First-time ilkin öyrətmə yalnız controls öyrətmək deyil. Core systems-in ilk dəfə bir-biri ilə qarşılaşdığı nöqtə ayrıca ilkin öyrətmə mərhələsidir.**
 
 ---
 
@@ -159,7 +159,7 @@ Hacknet fantasy-ni **daha tez** satır.
 
 Midnight Protocol fantasy-ni **daha dərindən** sistemləşdirir.
 
-Bu trade-off-dur, superiority deyil.
+Bu kompromis-dur, superiority deyil.
 
 ---
 
@@ -200,7 +200,7 @@ problemə çevrilir.
 
 ---
 
-# 7. Terminal / Keyboard trade-off
+# 7. Terminal / Keyboard kompromis
 
 ## Hacknet
 
@@ -597,7 +597,7 @@ Optimal sistem:
 
 ---
 
-# 16. Onboarding
+# 16. İlkin öyrətmə
 
 ## Hacknet
 
@@ -623,15 +623,15 @@ Burada problem basic təlim hissəsi deyil.
 
 Problem:
 
-> **systems onboarding.**
+> **systems ilkin öyrətmə.**
 
 ### oyunlararası principle
 
-Onboarding üç mərhələ olmalıdır:
+İlkin öyrətmə üç mərhələ olmalıdır:
 
-1. **control onboarding** — hansı düymə/command;
-2. **system onboarding** — mexanika-lər necə qarşılıqlı əlaqə edir;
-3. **strategy onboarding** — yaxşı qərar necə görünür.
+1. **control ilkin öyrətmə** — hansı düymə/command;
+2. **system ilkin öyrətmə** — mexanika-lər necə qarşılıqlı əlaqə edir;
+3. **strategy ilkin öyrətmə** — yaxşı qərar necə görünür.
 
 Hər iki oyun fərqli mərhələdə problem yaşayır.
 
@@ -843,7 +843,7 @@ Dərinlik:
 - permissions;
 - relationships;
 - network;
-- trade-offs
+- kompromiss
 
 üzərindən gəlir.
 
@@ -905,7 +905,7 @@ seçim görünən future state yaratmalıdır.
 
 Repeated trivial command thematic tax-a çevrilə bilər.
 
-## Principle 9 — Onboarding tutorialdan sonra davam edir
+## Principle 9 — İlkin öyrətmə tutorialdan sonra davam edir
 
 Systems və strategy ayrıca öyrədilməlidir.
 
