@@ -139,6 +139,7 @@ Hazır müqayisələr:
 - `cyber-manhunt-vs-mainlining.md`
 - `mainlining-vs-simulacra.md`
 - `cyber-manhunt-vs-simulacra.md`
+- `simulacra-vs-simulacra-3.md`
 
 ## `analysis/final/`
 
