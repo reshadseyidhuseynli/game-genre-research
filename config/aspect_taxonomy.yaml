@@ -1,0 +1,149 @@
+version: 1
+description: >
+  Computer-interface / hacking / digital-investigation oyunları üçün semantic aspect taxonomy.
+  Bu taxonomy final qualitative coding üçündür; regex candidate retrieval taxonomy-dən ayrıdır.
+  Bir review birdən çox aspect və hər aspect üçün ayrıca sentiment daşıya bilər.
+
+sentiments:
+  - positive
+  - negative
+  - mixed
+  - neutral
+
+aspects:
+  HACKER_FANTASY:
+    label_az: Hacker fantasy-si
+    definition: Oyunçunun özünü hacker/cyber operator kimi hiss etməsi.
+    include:
+      - feel like a hacker
+      - hacker role fantasy
+      - coolness/power fantasy
+    exclude:
+      - yalnız technical accuracy müzakirəsi
+
+  IMMERSION:
+    label_az: Immersion
+    definition: Oyunun fictional computer world-ünü inandırıcı və daxilolunan hiss etdirməsi.
+
+  TERMINAL_INTERACTION:
+    label_az: Terminal interaction
+    definition: Command-line ilə interaction-ın özü; typing, command flow və terminal hissi.
+
+  UI_USABILITY:
+    label_az: UI/UX istifadə rahatlığı
+    definition: Interface-in aydınlığı, navigation, readability, autocomplete, copy/paste və control ergonomikası.
+
+  TECHNICAL_ACCURACY:
+    label_az: Texniki düzgünlük
+    definition: Unix, networking, cybersecurity və digər texniki sistemlərin real davranışa uyğunluğu.
+
+  AUTHENTICITY:
+    label_az: Seçilmiş authenticity
+    definition: Tam realism olmadan real texniki termin və davranışların kifayət qədər inandırıcı hiss yaratması.
+
+  STORY:
+    label_az: Story
+    definition: Əsas süjet, mystery arc, ending və narrative progression.
+
+  WRITING:
+    label_az: Yazı keyfiyyəti
+    definition: Dialogue, email, logs, character writing, humor və prose keyfiyyəti.
+
+  INVESTIGATION:
+    label_az: Araşdırma və deduction
+    definition: Clue-ları tapmaq, əlaqələndirmək, hipotez qurmaq və information-dan nəticə çıxarmaq.
+
+  DISCOVERY_EXPLORATION:
+    label_az: Kəşf və exploration
+    definition: Optional files, hidden nodes, easter eggs və tapşırıqdan kənar curiosity-driven araşdırma.
+
+  MEMORABLE_MOMENTS:
+    label_az: Yadda qalan xüsusi anlar
+    definition: Normal qaydanı pozan və oyunçunun uzun müddət xatırladığı scripted/systemic hadisələr.
+
+  SYSTEM_DEPTH:
+    label_az: Sistem dərinliyi
+    definition: Mechanic-lərin qarşılıqlı əlaqəsi, strategiya, alternativ yanaşma və mastery imkanları.
+
+  PUZZLE_PROBLEM_SOLVING:
+    label_az: Puzzle və problem həlli
+    definition: Oyunçunun məlumat və mechanic-lərdən istifadə edib həqiqi problem həll etməsi.
+
+  DIFFICULTY:
+    label_az: Çətinlik
+    definition: Oyunçunun challenge səviyyəsi, difficulty curve və challenge fairness barədə feedback-i.
+
+  REPETITION:
+    label_az: Təkrarçılıq
+    definition: Eyni action/command/mission strukturunun mənalı variation olmadan təkrarlanması.
+
+  PACING_WAITING:
+    label_az: Pacing və gözləmə
+    definition: Gameplay tempi, progress-bar gözləməsi, uzun boşluqlar və ritm.
+
+  ONBOARDING:
+    label_az: Onboarding və öyrənmə
+    definition: İlk öyrətmə, tutorial, contextual guidance və ilk-session clarity.
+
+  RETURNING_PLAYER_SUPPORT:
+    label_az: Qayıdan oyunçu dəstəyi
+    definition: Fasilədən sonra controls, commands, story və objective-ləri bərpa etməyə kömək edən sistemlər.
+
+  PLAYER_AGENCY:
+    label_az: Player agency və seçim
+    definition: Oyunçunun real qərar, alternativ path və öz yanaşmasını seçmə imkanları.
+
+  CONSEQUENCES:
+    label_az: Nəticələr
+    definition: Oyunçunun action və səhvlərinin sonrakı gameplay-ə real təsiri.
+
+  WORLD_REACTIVITY:
+    label_az: Dünyanın reaktivliyi
+    definition: NPC, systems, network və world state-in oyunçunun hərəkətlərinə cavab verməsi.
+
+  URGENCY_TRACE:
+    label_az: Urgency və trace pressure
+    definition: Risk, trace, time pressure və tutulma qorxusunun gameplay təsiri.
+
+  SOUNDTRACK_AUDIO:
+    label_az: Soundtrack və audio
+    definition: Music, sound feedback, ambience və audio-nun experience-ə təsiri.
+
+  LENGTH_CONTENT:
+    label_az: Uzunluq və content həcmi
+    definition: Oyunun müddəti, content miqdarı və perceived value.
+
+  REPLAYABILITY:
+    label_az: Replayability
+    definition: Base game-i yenidən oynamaq üçün branch, alternative path və digər motivlər.
+
+  MOD_SUPPORT:
+    label_az: Mod və community content
+    definition: Workshop, custom campaigns, extensions və creator content.
+
+  BUGS:
+    label_az: Bug-lar
+    definition: Gameplay və logic səhvləri, crash və broken state-lər.
+
+  COMPATIBILITY:
+    label_az: Compatibility
+    definition: OS, hardware, resolution və launch compatibility problemləri.
+
+  SAVE_SOFTLOCK:
+    label_az: Save və softlock
+    definition: Save corruption, progress loss və recover olunmayan game-state problemləri.
+
+  EDUCATIONAL_GATEWAY:
+    label_az: Texnologiyaya maraq / gateway effekti
+    definition: Oyunun real professional training vermədən terminal, programming və cybersecurity marağı yaratması.
+
+coding_rules:
+  - Overall Steam recommendation aspect sentiment kimi istifadə edilməməlidir.
+  - Bir review eyni aspect üçün həm müsbət, həm mənfi fikir verirsə mixed seç.
+  - Aspect review-da həqiqətən müzakirə olunmursa label vermə.
+  - Realism və authenticity ayrılmalıdır: "not realistic but feels convincing" TECHNICAL_ACCURACY negative/mixed, AUTHENTICITY positive ola bilər.
+  - Terminal interaction və UI usability ayrılmalıdır: typing enjoyable ola bilər, shell usability eyni review-da negative ola bilər.
+  - Bug/compatibility/save problemləri game-design complaint-lərindən ayrıca saxlanmalıdır.
+  - Story və writing eyni deyil; süjet bəyənilə, yazı tənqid edilə bilər.
+  - Repetition yalnız "eyni şey çox təkrarlanır" mənası olduqda tətbiq edilməlidir.
+  - Consequence və world reactivity ayrılmalıdır: action nəticəsi şəxsi/progression səviyyədə ola bilər, dünya reaktiv olmaya bilər.
