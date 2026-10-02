@@ -1360,6 +1360,26 @@ Bundan sonra ideya generation/selection ayrıca mərhələ kimi başlayır.
 
 ## Tamamlanan
 
+### Phase 2 theme-candidate infrastructure
+
+Hacknet üçün full-corpus theme/aspect analizindən əvvəl audit edilə bilən deterministik retrieval mərhələsi əlavə olunub:
+
+- `config/theme_taxonomy.yaml`
+- `src/processors/theme_candidates.py`
+- `src/reports/theme_candidate_report.py`
+
+Bu mərhələ final semantic classification deyil. Məqsədi bütün review corpus-da theme namizədlərini tapmaq, playtime və overall recommendation paylanmasını ölçmək və hər theme üçün manual/LLM audit sample-ları yaratmaqdır.
+
+Generated output-lar script lokalda işə salındıqdan sonra:
+
+- `data/processed/hacknet/themes/candidates.jsonl`
+- `data/processed/hacknet/themes/statistics.json`
+- `data/processed/hacknet/themes/samples/`
+- `data/reports/hacknet/theme-candidates.md`
+
+olacaq.
+
+
 ### Research infrastructure
 
 Steam üçün reproducible research pipeline qurulub:
