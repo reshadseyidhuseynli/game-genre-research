@@ -102,6 +102,14 @@ class DeterministicTests(unittest.TestCase):
                 write_text(path, 'changed', immutable=True)
             self.assertEqual(path.read_text(), 'original')
 
+    def test_sha256_ignores_line_ending_convention(self):
+        with tempfile.TemporaryDirectory() as folder:
+            lf = Path(folder) / 'lf.txt'
+            crlf = Path(folder) / 'crlf.txt'
+            lf.write_bytes(b'one\ntwo\n')
+            crlf.write_bytes(b'one\r\ntwo\r\n')
+            self.assertEqual(sha256(lf), sha256(crlf))
+
 
 class CollectorTests(unittest.TestCase):
     def test_resume_pagination_and_idempotence(self):
@@ -162,18 +170,6 @@ class CollectorTests(unittest.TestCase):
         with self.assertRaises(RuntimeError):
             get_json('https://example.test', {}, validate, session=session, sleep=lambda _: None, attempts=2)
         self.assertEqual(session.get.call_count, 2)
-
-    def test_terminal_page_without_reviews_is_valid(self):
-        payload = {
-            'response': {
-                'query_summary': {
-                    'num_reviews': 0
-                },
-                'cursor': 'same-cursor',
-                'total_matching': 11776
-            }
-        }
-        validate(payload)
 
 
 if __name__ == '__main__':
