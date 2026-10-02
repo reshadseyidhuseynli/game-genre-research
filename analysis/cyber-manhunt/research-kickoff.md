@@ -2,9 +2,15 @@
 
 ## Status
 
-Bu sənəd Cyber Manhunt üzrə Steam dataset toplanmazdan əvvəl hazırlanmış ilkin product/design research brief-dir.
+Bu sənəd Cyber Manhunt dataset-dən əvvəl hazırlanmış kickoff sənədidir və historical planning context kimi saxlanılır.
 
-Final player nəticələri yalnız verified Steam review dataset, theme/aspect analysis və external source triangulation-dan sonra veriləcək.
+Research artıq tamamlanıb. Cari nəticələr üçün:
+
+- `analysis/cyber-manhunt/deep-research.md`
+- `analysis/cyber-manhunt/theme-analysis.md`
+- `analysis/comparisons/hacknet-midnight-protocol-cyber-manhunt.md`
+
+istifadə olunmalıdır.
 
 ---
 
@@ -426,7 +432,7 @@ Developer project description və development materialları.
 
 # 12. Status
 
-**Mərhələ:** Cyber Manhunt research kickoff  
+**Mərhələ:** kickoff — superseded  
 **Steam target:** 1216710  
-**Dataset:** hələ repository-də yoxdur  
-**Növbəti:** verified English Steam review dataset collection.
+**Verified dataset:** 847 reviews  
+**Current source of truth:** `analysis/cyber-manhunt/deep-research.md`
