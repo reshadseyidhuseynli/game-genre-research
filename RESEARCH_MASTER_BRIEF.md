@@ -2038,69 +2038,54 @@ Bu bölmə yeni sessiyada “nə hazırdır?” sualının əsas istinad-udur.
 Hazırda yaradılmayıb:
 
 - ⏳ `analysis/final/market-landscape.md`
-- ⏳ `analysis/final/genre-synthesis.md`
-- ⏳ `analysis/final/design-principles.md`
-- ⏳ `analysis/final/opportunity-map.md`
-- ⏳ `analysis/final/risk-register.md`
-- ⏳ `analysis/final/concept-evaluation-framework.md`
+- ✅ `analysis/final/genre-synthesis.md`
+- ✅ `analysis/final/design-principles.md`
+- ✅ `analysis/final/opportunity-map.md`
+- ✅ `analysis/final/risk-register.md`
+- ✅ `analysis/final/concept-evaluation-framework.md`
 - ⏳ `analysis/final/executive-genre-research-report.md`
 
 Bu inventory hər major milestone-dan sonra yenilənməlidir.
 
 # 18. Hazırkı növbəti addım
 
-**Bütün məcburi Tier A oyunları tamamlanıb.**
+**Bütün məcburi Tier A oyunları, minimum müqayisələr və əsas cross-game synthesis tamamlanıb.**
 
-Tamamlanan Tier A set:
+Hazır final sənədlər:
 
-- ✅ Hacknet
-- ✅ Midnight Protocol
-- ✅ Cyber Manhunt
-- ✅ The Operator
-- ✅ Orwell: Keeping an Eye On You
-- ✅ Mainlining
-- ✅ SIMULACRA
-- ✅ SIMULACRA 3
+- ✅ `analysis/final/genre-synthesis.md`
+- ✅ `analysis/final/design-principles.md`
+- ✅ `analysis/final/opportunity-map.md`
+- ✅ `analysis/final/risk-register.md`
+- ✅ `analysis/final/concept-evaluation-framework.md`
 
-Minimum məcburi müqayisələr də tamamlanıb:
+Qalan final package:
 
-- ✅ Hacknet vs Midnight Protocol
-- ✅ Cyber Manhunt vs The Operator
-- ✅ Cyber Manhunt vs Mainlining
-- ✅ Orwell vs Need to Know
-- ✅ SIMULACRA vs SIMULACRA 3
-
-Araşdırma artıq **cross-game synthesis və final qərar-support package** mərhələsinə keçir.
+- ⏳ `analysis/final/market-landscape.md`
+- ⏳ `analysis/final/executive-genre-research-report.md`
 
 Növbəti əsas iş:
 
-1. bütün tamamlanmış Tier A və focused comparator nəticələrindən recurring pattern-ləri çıxar;
-2. saturation check apar — yeni major rol hissi və ya failure mode boşluğu qalıb-qalmadığını yoxla;
-3. yalnız konkret boşluq material şəkildə final nəticəni dəyişə bilərsə əlavə Tier B focused araşdırma et;
-4. əks halda aşağıdakı final sənədlərə keç:
+## Market landscape
 
-```text
-analysis/final/
-├── market-landscape.md
-├── genre-synthesis.md
-├── design-principles.md
-├── opportunity-map.md
-├── risk-register.md
-├── concept-evaluation-framework.md
-└── executive-genre-research-report.md
-```
+Məqsəd:
+- janr/subgenre xəritəsini;
+- representative successful / medium / weak nümunələri;
+- əsas məhsul positioning formalarını;
+- interface/role archetype-larını;
+- açıq kommersiya və review traction siqnallarını
 
-İlk synthesis işi:
+bir sənəddə toplamaq.
 
-> **`analysis/final/genre-synthesis.md` — bütün oyunlardan recurring rol hissi, uğur driver-ları, uğursuzluq pattern-ləri, depth modelləri, interface prinsipləri, agency/consequence və information-design nəticələrini birləşdirmək.**
+Bu mərhələdə cari bazar məlumatları dəyişə bildiyi üçün Steam/store/public source göstəriciləri yenidən yoxlanmalıdır.
 
-Cari saturation siqnalı:
+Market landscape tamamlandıqdan sonra:
 
-- müxtəlif interface formaları artıq əhatə olunub: terminal, desktop, browser/database, iş stansiyası, surveillance sistemi və phone;
-- strong və weak outcome nümunələri var;
-- knowledge-state, repetition, interface affordance, guidance/agency, character intimacy, consequence visibility və replay/recovery pattern-ləri bir neçə oyunda təkrarlanıb.
+> **`executive-genre-research-report.md` bütün per-game və synthesis nəticələrini rəhbərlik üçün birləşdirən yekun əsas hesabat olacaq.**
 
-Buna görə default istiqamət yeni oyun toplamaq deyil, **synthesis**-dir. Yeni oyun yalnız final nəticədə konkret dəlil boşluğu aşkar olunarsa əlavə edilir.
+Cari research saturation nəticəsi:
+
+> Əsas janr sualları üzrə əlavə full oyun araşdırmasının marginal dəyəri aşağı görünür. Yeni Tier B araşdırma yalnız market landscape və executive synthesis zamanı konkret dəlil boşluğu aşkar edilərsə açılmalıdır.
 
 ---
 
