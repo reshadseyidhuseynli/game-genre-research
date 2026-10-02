@@ -134,6 +134,15 @@ class CollectorTests(unittest.TestCase):
         with self.assertRaises(ValueError):
             validate({'response': {'reviews': [review(language='french')], 'cursor': 'next'}})
 
+    def test_terminal_page_without_reviews_is_valid(self):
+        validate({
+            'response': {
+                'query_summary': {'num_reviews': 0},
+                'cursor': 'same-cursor',
+                'total_matching': 11776
+            }
+        })
+
     def test_retry_429_and_malformed(self):
         rate = Mock(status_code=429, headers={'Retry-After': '5'})
         malformed = Mock(status_code=200)
