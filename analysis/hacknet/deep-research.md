@@ -767,7 +767,7 @@ Amma həmin faylda:
 
 olanda eyni action maraqlı olur.
 
-Deməli interfeys-game dizaynında **məzmun yazı açarfiyyəti** core mexanika qədər vacib ola bilər.
+Deməli interfeys-game dizaynında **məzmun yazı keyfiyyəti** core mexanika qədər vacib ola bilər.
 
 Bu bizim komanda üçün də yaxşı uyğunluqdur, çünki hekayə writer və designer-in işi oyun gedişi-in mərkəzinə daxil ola bilər.
 
@@ -910,7 +910,7 @@ Accessibility
     ↓
 Simple repeatable rules
     ↓
-Fast fantasy payoff
+Fast rol hissi payoff
     ↓
 Pattern becomes obvious
     ↓
@@ -1240,7 +1240,7 @@ Hacknet-in əsas uğuru onun “hakerlik simulator” olmasında deyil.
 
 Əsas uğur budur:
 
-> **Sadə qarşılıqlı əlaqə-ları, güclü fictional OS, real texniki terminlərin seçilmiş istifadəsi, hekayə, exploration, soundtrack və bir neçə çox yadda qalan hadisə ilə birləşdirərək oyunçuya özünü haker kimi hiss etmə-si satır.**
+> **Sadə qarşılıqlı əlaqə-ları, güclü uydurma əməliyyat sistemi, real texniki terminlərin seçilmiş istifadəsi, hekayə, exploration, soundtrack və bir neçə çox yadda qalan hadisə ilə birləşdirərək oyunçuya özünü haker kimi hiss etmə-si satır.**
 
 Əsas zəifliyi də bunun əks tərəfidir:
 
