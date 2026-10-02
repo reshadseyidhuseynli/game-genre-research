@@ -1,0 +1,83 @@
+review_id,steam_app_id,game_key,game_name,language,review_text_raw,review_text_clean,recommended,created_at,updated_at,playtime_forever_minutes,playtime_at_review_minutes,playtime_last_two_weeks_minutes,votes_up,votes_funny,weighted_vote_score,steam_purchase,received_for_free,written_during_early_access,refunded,author_steam_id,author_num_games_owned,author_num_reviews,is_empty,is_very_short,review_length_chars,review_length_words,playtime_forever_hours,playtime_at_review_hours,playtime_segment,overall_sentiment
+45151106,365450,hacknet,Hacknet,english,"
+Good: 
+[list]
+    [*]the command line UI is accurate, and makes you feel a lot like a real hacker.
+    [*]nice music
+    [*]lots of little easter eggs
+    [*]technically very accurate (uses correct port numbers, IP addresses, and more)
+[/list]
+
+Bad: 
+[list]
+   [*]core gameplay is extremely repetitive and time consuming (which is an awful combination)
+[/list]
+
+The core gameplay of Hacknet revolves around you, a hacker, who can run several different programs to hack into a server and complete some task for a client. For example, hacking into the fried chicken chain CFC server and stealing the list of 11 secret herbs and spices.
+
+It's an interesting concept to start with, however the game falls extremely short in that the gameplay never evolves into anything that is challenging or involves meaningful decision making. 
+
+Hacking each server in the entire game is exactly the same. That is no exaggeration. You literally do the exact same 3-7 things for each server you encounter in order to hack into it. And the worst part about this process is that the ""hacking"" requires no user interaction. You simply wait 1-2 minutes for the hacking programs to finish, and then you complete whatever task you were assigned to do on the server.
+
+At no point do you need to make any in game decisions when hacking. At no point do you have any decision to make that can affect the gameplay. And that's really where it all falls apart for me. What am I really doing in this game? Because the game really lacks in the feeling of accomplishment.
+
+I can completely understand how this gameplay can appeal to people who want to feel like a hacker, because the game definitely hits the mark in that regard. But once you get past that, you realise there is very little ""gameplay"" to be had. It just feels like a demo.","Good: [list] [*]the command line UI is accurate, and makes you feel a lot like a real hacker. [*]nice music [*]lots of little easter eggs [*]technically very accurate (uses correct port numbers, IP addresses, and more) [/list] Bad: [list] [*]core gameplay is extremely repetitive and time consuming (which is an awful combination) [/list] The core gameplay of Hacknet revolves around you, a hacker, who can run several different programs to hack into a server and complete some task for a client. For example, hacking into the fried chicken chain CFC server and stealing the list of 11 secret herbs and spices. It's an interesting concept to start with, however the game falls extremely short in that the gameplay never evolves into anything that is challenging or involves meaningful decision making. Hacking each server in the entire game is exactly the same. That is no exaggeration. You literally do the exact same 3-7 things for each server you encounter in order to hack into it. And the worst part about this process is that the ""hacking"" requires no user interaction. You simply wait 1-2 minutes for the hacking programs to finish, and then you complete whatever task you were assigned to do on the server. At no point do you need to make any in game decisions when hacking. At no point do you have any decision to make that can affect the gameplay. And that's really where it all falls apart for me. What am I really doing in this game? Because the game really lacks in the feeling of accomplishment. I can completely understand how this gameplay can appeal to people who want to feel like a hacker, because the game definitely hits the mark in that regard. But once you get past that, you realise there is very little ""gameplay"" to be had. It just feels like a demo.",False,2018-10-07T05:11:42+00:00,2018-10-07T05:11:42+00:00,205.0,205.0,0.0,35.0,3.0,0.7357282638549805,False,True,False,False,76561198352551562,,39.0,False,False,1776,311,3.4166666666666665,3.4166666666666665,3-10h,negative
+43903682,365450,hacknet,Hacknet,english,"didnt make me to hackerman :(
+ 
+game doesnt work!",didnt make me to hackerman :( game doesnt work!,False,2018-08-03T05:06:38+00:00,2018-08-03T05:08:28+00:00,320.0,18.0,0.0,1.0,0.0,0.523809552192688,False,True,False,False,76561198447260100,,34.0,False,False,47,9,5.333333333333333,0.3,0-1h,negative
+55589849,365450,hacknet,Hacknet,english,"I feel slightly bad giving this game a negative review given that I enjoyed most of the time I spent playing it, but I honestly can't recommend it.
+
+The positives are more than adequately covered in other reviews, but for completeness: It does a solid job of recreating the Hollywood hacker fantasy, with hacks and counter-hacks, proxies, firewalls, trace countdowns, and all that good stuff. The story is nicely paced, with plenty of humour and knowing pop-culture references as you move from small-time nuisance hacks to big-time corporate takedowns. And there is a mildly satisfying payoff when you figure out the occasional less-than-straightforward mission or discover a new mechanic.
+
+Therein lies one of the major problems for me, though. For the most part the missions are fairly routine and don't really require any genuine creativity or problem-solving. You are pretty much handed the tools you need as you need them, and for each obstacle you need to overcome there will be a single tool for the job. As an example: the procedure for bypassing a firewall is to repeatedly type the 'analyze' command until you get the solution, and then to type in that solution - once you have done that once, it is entirely routine. I rarely felt clever solving the missions, and for a game like this I consider that a major failing.
+
+As another reviewer pointed out, there are also elements of the game that seem to be either completely superficial or just unfinished. The best example is the scrubbing of logs, which is quite laborious, but presented at the beginning of the game as a vital measure to cover your tracks. So, the player diligently does so, until inevitably one time they forget, and then DUN DUN DUN...nothing. Apparently this feature is better implemented in the DLC extensions, but I didn't get that far.
+
+Finally, the aspect of the game that ultimately ruined it for me: it is possible to irrevocably break your save game and have no way to recover. If you accidentally delete a file that is mission-critical to the main storyline, and don't notice until the next auto-save (or you save the game yourself), it's game over. This happened to me at about the 4.5 hour mark, and while it certainly wouldn't have taken me that long to get back to the same point from scratch, the game just doesn't work as a rogue-like - I would be going through exactly the same fiddly steps to complete exactly the same routine missions, and I just couldn't face it.
+
+If you want to play a hacking game with a similar aesthetic but some genuine code-based problem-solving, I'd strongly recommend EXAPUNKS, or for an absolutely brilliant command-prompt-based-rogue-like try Duskers.","I feel slightly bad giving this game a negative review given that I enjoyed most of the time I spent playing it, but I honestly can't recommend it. The positives are more than adequately covered in other reviews, but for completeness: It does a solid job of recreating the Hollywood hacker fantasy, with hacks and counter-hacks, proxies, firewalls, trace countdowns, and all that good stuff. The story is nicely paced, with plenty of humour and knowing pop-culture references as you move from small-time nuisance hacks to big-time corporate takedowns. And there is a mildly satisfying payoff when you figure out the occasional less-than-straightforward mission or discover a new mechanic. Therein lies one of the major problems for me, though. For the most part the missions are fairly routine and don't really require any genuine creativity or problem-solving. You are pretty much handed the tools you need as you need them, and for each obstacle you need to overcome there will be a single tool for the job. As an example: the procedure for bypassing a firewall is to repeatedly type the 'analyze' command until you get the solution, and then to type in that solution - once you have done that once, it is entirely routine. I rarely felt clever solving the missions, and for a game like this I consider that a major failing. As another reviewer pointed out, there are also elements of the game that seem to be either completely superficial or just unfinished. The best example is the scrubbing of logs, which is quite laborious, but presented at the beginning of the game as a vital measure to cover your tracks. So, the player diligently does so, until inevitably one time they forget, and then DUN DUN DUN...nothing. Apparently this feature is better implemented in the DLC extensions, but I didn't get that far. Finally, the aspect of the game that ultimately ruined it for me: it is possible to irrevocably break your save game and have no way to recover. If you accidentally delete a file that is mission-critical to the main storyline, and don't notice until the next auto-save (or you save the game yourself), it's game over. This happened to me at about the 4.5 hour mark, and while it certainly wouldn't have taken me that long to get back to the same point from scratch, the game just doesn't work as a rogue-like - I would be going through exactly the same fiddly steps to complete exactly the same routine missions, and I just couldn't face it. If you want to play a hacking game with a similar aesthetic but some genuine code-based problem-solving, I'd strongly recommend EXAPUNKS, or for an absolutely brilliant command-prompt-based-rogue-like try Duskers.",False,2019-10-13T18:09:59+00:00,2019-10-13T18:09:59+00:00,332.0,332.0,0.0,1.0,0.0,0.49624061584472656,True,False,False,False,76561198134270486,,42.0,False,False,2672,454,5.533333333333333,5.533333333333333,3-10h,negative
+142642379,365450,hacknet,Hacknet,english,"How would hacking be without knowledge, skills or creativity? 
+
+The same ""hacks"" get applied repetitively to open ports and then read/download/delete files over and over again. I've seen more challenging escape rooms.
+
+Don't get me wrong - It's amazing for an indie game developed by one person. But on the other hand there are CTFs with a nice story out there that keep me busy without making me feel like in a hamster wheel. If you are into cyber security, don't waste your time with this. 
+
+But if you have zero knowledge and want to feel like a hacker, this game teaches a few basics about handling a Linux-like OS (with wine for .exe files) and simulates how to move through a network.
+
+It would be great to focus on only a few stories and individualize the targets instead of seeing generic ancient bash content on every PC. Also I missed a proper C2 setup with own proxies that I can create, privilege escalation and lateral movement instead of being admin immediately, alternating attack vectors and the option to create scripts or at least files (""touch"") and directories (""mkdir""). This would have been a nice starting point to start playing around, break things out of curiosity and discover the possibilities instead of moving inside the box all the time.","How would hacking be without knowledge, skills or creativity? The same ""hacks"" get applied repetitively to open ports and then read/download/delete files over and over again. I've seen more challenging escape rooms. Don't get me wrong - It's amazing for an indie game developed by one person. But on the other hand there are CTFs with a nice story out there that keep me busy without making me feel like in a hamster wheel. If you are into cyber security, don't waste your time with this. But if you have zero knowledge and want to feel like a hacker, this game teaches a few basics about handling a Linux-like OS (with wine for .exe files) and simulates how to move through a network. It would be great to focus on only a few stories and individualize the targets instead of seeing generic ancient bash content on every PC. Also I missed a proper C2 setup with own proxies that I can create, privilege escalation and lateral movement instead of being admin immediately, alternating attack vectors and the option to create scripts or at least files (""touch"") and directories (""mkdir""). This would have been a nice starting point to start playing around, break things out of curiosity and discover the possibilities instead of moving inside the box all the time.",False,2023-07-23T13:05:28+00:00,2023-07-25T12:11:39+00:00,1278.0,482.0,0.0,0.0,0.0,0.4761904776096344,True,False,False,False,76561198063835465,,4.0,False,False,1261,219,21.3,8.033333333333333,3-10h,negative
+55536964,365450,hacknet,Hacknet,english,"If you're looking for a hacking game this can be a lot of fun.  I just found it too tedious, I guess I'm not going to be a hacker in this life.","If you're looking for a hacking game this can be a lot of fun. I just found it too tedious, I guess I'm not going to be a hacker in this life.",False,2019-10-10T12:31:28+00:00,2019-10-10T12:31:28+00:00,32.0,28.0,0.0,0.0,0.0,0.4761904776096344,False,False,False,False,76561197998598944,,1455.0,False,False,142,32,0.5333333333333333,0.4666666666666667,0-1h,negative
+73993073,365450,hacknet,Hacknet,english,"i mean why not i always wanted to be a hacker 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+no i did not",i mean why not i always wanted to be a hacker no i did not,False,2020-08-08T20:32:32+00:00,2020-08-08T20:32:32+00:00,527.0,527.0,0.0,0.0,1.0,0.4715127646923065,False,True,False,False,76561198334161365,,53.0,False,False,58,15,8.783333333333333,8.783333333333333,3-10h,negative
+35610638,365450,hacknet,Hacknet,english,"[i]Disclaimer: if you can't type fast or can't type without looking at your keyboard, I DEFINITELY DO NOT recommend this game. These skills are essential to playing the game.[/i]
+
+Hacknet is a power fantasy game that lets you step into the shoes of a Powerful Hackerman who does Neat Hacker Things like hacking websites, hacking mainframes, hacking tablets, and hacking other people's PCs. And all with the same six console commands! It's almost like magic, actually.
+
+The game gets stale pretty quickly. It shakes things up from time to time, but mostly the only difference between levels/missions/""puzzles"" is whether you need to read, delete, or steal a file. Even one of the most creative missions [spoiler](Are you Kidding me?, where you lose your GUI and must navigate through text alone)[/spoiler] still just boils down to that.
+
+If you really want to feel like a Powerful Hackerman, visit [url=http://hackertyper.com]this[/url] site, mash your keyboard, and save yourself $11.","[i]Disclaimer: if you can't type fast or can't type without looking at your keyboard, I DEFINITELY DO NOT recommend this game. These skills are essential to playing the game.[/i] Hacknet is a power fantasy game that lets you step into the shoes of a Powerful Hackerman who does Neat Hacker Things like hacking websites, hacking mainframes, hacking tablets, and hacking other people's PCs. And all with the same six console commands! It's almost like magic, actually. The game gets stale pretty quickly. It shakes things up from time to time, but mostly the only difference between levels/missions/""puzzles"" is whether you need to read, delete, or steal a file. Even one of the most creative missions [spoiler](Are you Kidding me?, where you lose your GUI and must navigate through text alone)[/spoiler] still just boils down to that. If you really want to feel like a Powerful Hackerman, visit [url=http://hackertyper.com]this[/url] site, mash your keyboard, and save yourself $11.",False,2017-10-10T05:17:06+00:00,2017-10-10T05:17:06+00:00,340.0,340.0,0.0,0.0,0.0,0.4304635524749756,True,False,False,False,76561198064714925,,16.0,False,False,981,156,5.666666666666667,5.666666666666667,3-10h,negative

@@ -1,0 +1,502 @@
+{
+  "method": "deterministic_regex_candidate_retrieval",
+  "warning": "Theme hits are retrieval candidates, not final semantic/aspect labels. Positive ratio is the Steam recommendation ratio among reviews mentioning the theme, not aspect-level sentiment.",
+  "taxonomy_version": 1,
+  "taxonomy_sha256": "e31273d4b5967a0471ed9c2e4c5a067cfdc3b543e5ba879e4911d958a152bfb1",
+  "total_reviews": 11773,
+  "reviews_with_any_theme_candidate": 6009,
+  "coverage_ratio": 0.5104051643591269,
+  "themes": {
+    "HACKER_FANTASY": {
+      "label_az": "Hacker fantasy-si",
+      "mention_count": 401,
+      "mention_ratio": 0.03406098700416207,
+      "positive_reviews": 394,
+      "negative_reviews": 7,
+      "positive_ratio": 0.9825436408977556,
+      "average_playtime_at_review_hours": 11.446716541978388,
+      "playtime_segments": {
+        "0-1h": 24,
+        "1-3h": 42,
+        "10h+": 150,
+        "3-10h": 185
+      }
+    },
+    "IMMERSION": {
+      "label_az": "Immersion və atmosferə daxil olma",
+      "mention_count": 910,
+      "mention_ratio": 0.0772955066677992,
+      "positive_reviews": 888,
+      "negative_reviews": 22,
+      "positive_ratio": 0.9758241758241758,
+      "average_playtime_at_review_hours": 13.36216960352423,
+      "playtime_segments": {
+        "0-1h": 24,
+        "1-3h": 65,
+        "10h+": 434,
+        "3-10h": 385,
+        "unknown": 2
+      }
+    },
+    "TERMINAL_UI": {
+      "label_az": "Terminal və command-line interfeysi",
+      "mention_count": 2269,
+      "mention_ratio": 0.19272912596619382,
+      "positive_reviews": 2109,
+      "negative_reviews": 160,
+      "positive_ratio": 0.9294843543411194,
+      "average_playtime_at_review_hours": 12.073508616880247,
+      "playtime_segments": {
+        "0-1h": 122,
+        "1-3h": 205,
+        "10h+": 957,
+        "3-10h": 979,
+        "unknown": 6
+      }
+    },
+    "STORY_NARRATIVE": {
+      "label_az": "Story və narrative",
+      "mention_count": 2422,
+      "mention_ratio": 0.20572496390045017,
+      "positive_reviews": 2327,
+      "negative_reviews": 95,
+      "positive_ratio": 0.9607762180016516,
+      "average_playtime_at_review_hours": 14.428389187698247,
+      "playtime_segments": {
+        "0-1h": 50,
+        "1-3h": 95,
+        "10h+": 1254,
+        "3-10h": 1018,
+        "unknown": 5
+      }
+    },
+    "INVESTIGATION_DISCOVERY": {
+      "label_az": "Araşdırma, kəşf və clue tapma",
+      "mention_count": 610,
+      "mention_ratio": 0.05181347150259067,
+      "positive_reviews": 586,
+      "negative_reviews": 24,
+      "positive_ratio": 0.9606557377049181,
+      "average_playtime_at_review_hours": 15.625849780701754,
+      "playtime_segments": {
+        "0-1h": 13,
+        "1-3h": 29,
+        "10h+": 331,
+        "3-10h": 235,
+        "unknown": 2
+      }
+    },
+    "SOUND_AUDIO": {
+      "label_az": "Soundtrack və audio",
+      "mention_count": 1116,
+      "mention_ratio": 0.09479317081457572,
+      "positive_reviews": 1076,
+      "negative_reviews": 40,
+      "positive_ratio": 0.96415770609319,
+      "average_playtime_at_review_hours": 14.593096735549565,
+      "playtime_segments": {
+        "0-1h": 34,
+        "1-3h": 57,
+        "10h+": 583,
+        "3-10h": 439,
+        "unknown": 3
+      }
+    },
+    "REPETITION": {
+      "label_az": "Təkrarçılıq",
+      "mention_count": 517,
+      "mention_ratio": 0.04391404060137603,
+      "positive_reviews": 397,
+      "negative_reviews": 120,
+      "positive_ratio": 0.7678916827852998,
+      "average_playtime_at_review_hours": 11.636299161831076,
+      "playtime_segments": {
+        "0-1h": 24,
+        "1-3h": 43,
+        "10h+": 200,
+        "3-10h": 250
+      }
+    },
+    "DEPTH_CHALLENGE": {
+      "label_az": "Dərinlik, challenge və problem həlli",
+      "mention_count": 1534,
+      "mention_ratio": 0.13029813981143293,
+      "positive_reviews": 1438,
+      "negative_reviews": 96,
+      "positive_ratio": 0.9374185136897001,
+      "average_playtime_at_review_hours": 13.802617801047122,
+      "playtime_segments": {
+        "0-1h": 48,
+        "1-3h": 96,
+        "10h+": 745,
+        "3-10h": 639,
+        "unknown": 6
+      }
+    },
+    "REALISM_ACCURACY": {
+      "label_az": "Realizm və texniki düzgünlük",
+      "mention_count": 932,
+      "mention_ratio": 0.07916418924658115,
+      "positive_reviews": 894,
+      "negative_reviews": 38,
+      "positive_ratio": 0.9592274678111588,
+      "average_playtime_at_review_hours": 14.306698994252873,
+      "playtime_segments": {
+        "0-1h": 46,
+        "1-3h": 74,
+        "10h+": 402,
+        "3-10h": 406,
+        "unknown": 4
+      }
+    },
+    "ONBOARDING_CLARITY": {
+      "label_az": "Onboarding, tutorial və aydınlıq",
+      "mention_count": 462,
+      "mention_ratio": 0.03924233415442113,
+      "positive_reviews": 404,
+      "negative_reviews": 58,
+      "positive_ratio": 0.8744588744588745,
+      "average_playtime_at_review_hours": 11.094083694083693,
+      "playtime_segments": {
+        "0-1h": 49,
+        "1-3h": 49,
+        "10h+": 178,
+        "3-10h": 186
+      }
+    },
+    "WORLD_REACTIVITY": {
+      "label_az": "Consequence, urgency və dünyanın reaktivliyi",
+      "mention_count": 48,
+      "mention_ratio": 0.004077125626433364,
+      "positive_reviews": 38,
+      "negative_reviews": 10,
+      "positive_ratio": 0.7916666666666666,
+      "average_playtime_at_review_hours": 19.696180555555554,
+      "playtime_segments": {
+        "0-1h": 3,
+        "10h+": 26,
+        "3-10h": 19
+      }
+    },
+    "UI_USABILITY": {
+      "label_az": "UI/UX və istifadə rahatlığı",
+      "mention_count": 534,
+      "mention_ratio": 0.04535802259407118,
+      "positive_reviews": 487,
+      "negative_reviews": 47,
+      "positive_ratio": 0.9119850187265918,
+      "average_playtime_at_review_hours": 12.78060776942356,
+      "playtime_segments": {
+        "0-1h": 23,
+        "1-3h": 41,
+        "10h+": 233,
+        "3-10h": 235,
+        "unknown": 2
+      }
+    },
+    "BUGS_COMPATIBILITY": {
+      "label_az": "Bug və compatibility",
+      "mention_count": 502,
+      "mention_ratio": 0.0426399388431156,
+      "positive_reviews": 365,
+      "negative_reviews": 137,
+      "positive_ratio": 0.7270916334661355,
+      "average_playtime_at_review_hours": 9.928891115564461,
+      "playtime_segments": {
+        "0-1h": 60,
+        "1-3h": 40,
+        "10h+": 196,
+        "3-10h": 203,
+        "unknown": 3
+      }
+    },
+    "LENGTH_CONTENT": {
+      "label_az": "Oyun uzunluğu və content miqdarı",
+      "mention_count": 143,
+      "mention_ratio": 0.012146436762082732,
+      "positive_reviews": 138,
+      "negative_reviews": 5,
+      "positive_ratio": 0.965034965034965,
+      "average_playtime_at_review_hours": 13.231351981351981,
+      "playtime_segments": {
+        "0-1h": 6,
+        "1-3h": 2,
+        "10h+": 76,
+        "3-10h": 59
+      }
+    },
+    "MOD_REPLAYABILITY": {
+      "label_az": "Mod, Workshop və replayability",
+      "mention_count": 405,
+      "mention_ratio": 0.03440074747303151,
+      "positive_reviews": 396,
+      "negative_reviews": 9,
+      "positive_ratio": 0.9777777777777777,
+      "average_playtime_at_review_hours": 25.19230452674897,
+      "playtime_segments": {
+        "0-1h": 8,
+        "1-3h": 5,
+        "10h+": 257,
+        "3-10h": 135
+      }
+    },
+    "PLAYER_AGENCY": {
+      "label_az": "Seçim və player agency",
+      "mention_count": 154,
+      "mention_ratio": 0.01308077805147371,
+      "positive_reviews": 129,
+      "negative_reviews": 25,
+      "positive_ratio": 0.8376623376623377,
+      "average_playtime_at_review_hours": 11.316774891774891,
+      "playtime_segments": {
+        "0-1h": 4,
+        "1-3h": 16,
+        "10h+": 56,
+        "3-10h": 78
+      }
+    },
+    "PACING_WAITING": {
+      "label_az": "Pacing, gözləmə və temp",
+      "mention_count": 46,
+      "mention_ratio": 0.003907245391998641,
+      "positive_reviews": 40,
+      "negative_reviews": 6,
+      "positive_ratio": 0.8695652173913043,
+      "average_playtime_at_review_hours": 11.555797101449276,
+      "playtime_segments": {
+        "0-1h": 1,
+        "1-3h": 2,
+        "10h+": 22,
+        "3-10h": 21
+      }
+    },
+    "EDUCATIONAL_IMPACT": {
+      "label_az": "Öyrənmə və texnologiyaya maraq yaratma",
+      "mention_count": 107,
+      "mention_ratio": 0.009088592542257709,
+      "positive_reviews": 104,
+      "negative_reviews": 3,
+      "positive_ratio": 0.9719626168224299,
+      "average_playtime_at_review_hours": 15.935046728971962,
+      "playtime_segments": {
+        "0-1h": 8,
+        "1-3h": 8,
+        "10h+": 44,
+        "3-10h": 47
+      }
+    }
+  },
+  "top_theme_pairs": [
+    {
+      "themes": [
+        "STORY_NARRATIVE",
+        "TERMINAL_UI"
+      ],
+      "count": 833
+    },
+    {
+      "themes": [
+        "DEPTH_CHALLENGE",
+        "STORY_NARRATIVE"
+      ],
+      "count": 726
+    },
+    {
+      "themes": [
+        "SOUND_AUDIO",
+        "STORY_NARRATIVE"
+      ],
+      "count": 625
+    },
+    {
+      "themes": [
+        "DEPTH_CHALLENGE",
+        "TERMINAL_UI"
+      ],
+      "count": 573
+    },
+    {
+      "themes": [
+        "REALISM_ACCURACY",
+        "TERMINAL_UI"
+      ],
+      "count": 491
+    },
+    {
+      "themes": [
+        "SOUND_AUDIO",
+        "TERMINAL_UI"
+      ],
+      "count": 437
+    },
+    {
+      "themes": [
+        "IMMERSION",
+        "STORY_NARRATIVE"
+      ],
+      "count": 394
+    },
+    {
+      "themes": [
+        "REALISM_ACCURACY",
+        "STORY_NARRATIVE"
+      ],
+      "count": 390
+    },
+    {
+      "themes": [
+        "TERMINAL_UI",
+        "UI_USABILITY"
+      ],
+      "count": 353
+    },
+    {
+      "themes": [
+        "DEPTH_CHALLENGE",
+        "SOUND_AUDIO"
+      ],
+      "count": 350
+    },
+    {
+      "themes": [
+        "INVESTIGATION_DISCOVERY",
+        "STORY_NARRATIVE"
+      ],
+      "count": 348
+    },
+    {
+      "themes": [
+        "IMMERSION",
+        "TERMINAL_UI"
+      ],
+      "count": 314
+    },
+    {
+      "themes": [
+        "STORY_NARRATIVE",
+        "UI_USABILITY"
+      ],
+      "count": 296
+    },
+    {
+      "themes": [
+        "INVESTIGATION_DISCOVERY",
+        "TERMINAL_UI"
+      ],
+      "count": 281
+    },
+    {
+      "themes": [
+        "DEPTH_CHALLENGE",
+        "REALISM_ACCURACY"
+      ],
+      "count": 278
+    },
+    {
+      "themes": [
+        "DEPTH_CHALLENGE",
+        "INVESTIGATION_DISCOVERY"
+      ],
+      "count": 250
+    },
+    {
+      "themes": [
+        "REPETITION",
+        "TERMINAL_UI"
+      ],
+      "count": 244
+    },
+    {
+      "themes": [
+        "MOD_REPLAYABILITY",
+        "STORY_NARRATIVE"
+      ],
+      "count": 234
+    },
+    {
+      "themes": [
+        "REPETITION",
+        "STORY_NARRATIVE"
+      ],
+      "count": 230
+    },
+    {
+      "themes": [
+        "DEPTH_CHALLENGE",
+        "IMMERSION"
+      ],
+      "count": 225
+    },
+    {
+      "themes": [
+        "IMMERSION",
+        "SOUND_AUDIO"
+      ],
+      "count": 225
+    },
+    {
+      "themes": [
+        "ONBOARDING_CLARITY",
+        "TERMINAL_UI"
+      ],
+      "count": 223
+    },
+    {
+      "themes": [
+        "DEPTH_CHALLENGE",
+        "UI_USABILITY"
+      ],
+      "count": 195
+    },
+    {
+      "themes": [
+        "BUGS_COMPATIBILITY",
+        "STORY_NARRATIVE"
+      ],
+      "count": 189
+    },
+    {
+      "themes": [
+        "ONBOARDING_CLARITY",
+        "STORY_NARRATIVE"
+      ],
+      "count": 189
+    },
+    {
+      "themes": [
+        "DEPTH_CHALLENGE",
+        "REPETITION"
+      ],
+      "count": 187
+    },
+    {
+      "themes": [
+        "REALISM_ACCURACY",
+        "SOUND_AUDIO"
+      ],
+      "count": 187
+    },
+    {
+      "themes": [
+        "SOUND_AUDIO",
+        "UI_USABILITY"
+      ],
+      "count": 158
+    },
+    {
+      "themes": [
+        "INVESTIGATION_DISCOVERY",
+        "SOUND_AUDIO"
+      ],
+      "count": 158
+    },
+    {
+      "themes": [
+        "DEPTH_CHALLENGE",
+        "ONBOARDING_CLARITY"
+      ],
+      "count": 154
+    }
+  ],
+  "source_reviews_sha256": "7da510daf60791ceafe9f55730610fd04d1871eda232ec08641ed6d5bd898242"
+}
