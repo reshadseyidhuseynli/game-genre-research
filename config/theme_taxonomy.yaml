@@ -7,205 +7,204 @@ themes:
   HACKER_FANTASY:
     label_az: Hacker fantasy-si
     patterns:
-      - "\\bfeel(?:s|ing)? like (?:a |an )?(?:real )?hacker\\b"
-      - "\\b(?:be|being|become|becoming) (?:a |an )?hacker\\b"
-      - "\bwannabe hacker\\b"
-      - "\bhackerman\\b"
-      - "\bhacker fantasy\\b"
+      - '\bfeel(?:s|ing)? like (?:a |an )?(?:real )?hacker\b'
+      - '\b(?:be|being|become|becoming) (?:a |an )?hacker\b'
+      - '\bwannabe hacker\b'
+      - '\bhackerman\b'
+      - '\bhacker fantasy\b'
 
   IMMERSION:
     label_az: Immersion və atmosferə daxil olma
     patterns:
-      - "\bimmers(?:ive|ion|ed)\\b"
-      - "\bimmersed\\b"
-      - "\bfelt like\\b"
-      - "\bmakes? (?:me|you) feel\\b"
-      - "\bin the game\\b"
+      - '\bimmers(?:ive|ion|ed)\b'
+      - '\bimmersed\b'
+      - '\bfelt like\b'
+      - '\bmakes? (?:me|you) feel\b'
+      - '\bin the game\b'
 
   TERMINAL_UI:
     label_az: Terminal və command-line interfeysi
     patterns:
-      - "\bterminal\\b"
-      - "\bcommand[- ]?line\\b"
-      - "\bcli\\b"
-      - "\bshell\\b"
-      - "\bunix\\b"
-      - "\blinux\\b"
-      - "\bbash\\b"
-      - "\bcommands?\\b"
+      - '\bterminal\b'
+      - '\bcommand[- ]?line\b'
+      - '\bcli\b'
+      - '\bshell\b'
+      - '\bunix\b'
+      - '\blinux\b'
+      - '\bbash\b'
+      - '\bcommands?\b'
 
   STORY_NARRATIVE:
     label_az: Story və narrative
     patterns:
-      - "\bstory(?:line)?\\b"
-      - "\bplot\\b"
-      - "\bnarrative\\b"
-      - "\bcharacters?\\b"
-      - "\bending\\b"
-      - "\bstorytelling\\b"
+      - '\bstory(?:line)?\b'
+      - '\bplot\b'
+      - '\bnarrative\b'
+      - '\bcharacters?\b'
+      - '\bending\b'
+      - '\bstorytelling\b'
 
   INVESTIGATION_DISCOVERY:
     label_az: Araşdırma, kəşf və clue tapma
     patterns:
-      - "\binvestigat(?:e|ion|ing)\\b"
-      - "\bdetective\\b"
-      - "\bdiscover(?:y|ed|ing)?\\b"
-      - "\bexplor(?:e|ing|ation|able)\\b"
-      - "\bclues?\\b"
-      - "\bsecrets?\\b"
-      - "\bsnoop(?:ing)?\\b"
-      - "\btreasure hunt\\b"
+      - '\binvestigat(?:e|ion|ing)\b'
+      - '\bdetective\b'
+      - '\bdiscover(?:y|ed|ing)?\b'
+      - '\bexplor(?:e|ing|ation|able)\b'
+      - '\bclues?\b'
+      - '\bsecrets?\b'
+      - '\bsnoop(?:ing)?\b'
+      - '\btreasure hunt\b'
 
   SOUND_AUDIO:
     label_az: Soundtrack və audio
     patterns:
-      - "\bsoundtrack\\b"
-      - "\bmusic\\b"
-      - "\baudio\\b"
-      - "\bsound design\\b"
-      - "\bsounds?\\b"
+      - '\bsoundtrack\b'
+      - '\bmusic\b'
+      - '\baudio\b'
+      - '\bsound design\b'
+      - '\bsounds?\b'
 
   REPETITION:
     label_az: Təkrarçılıq
     patterns:
-      - "\brepetit(?:ive|ion|ious)\\b"
-      - "\bmonoton(?:ous|y)\\b"
-      - "\brinse and repeat\\b"
-      - "\bsame commands?\\b"
-      - "\bsame thing(?:s)?\\b"
-      - "\bover and over\\b"
-      - "\btedious\\b"
-      - "\bchore\\b"
+      - '\brepetit(?:ive|ion|ious)\b'
+      - '\bmonoton(?:ous|y)\b'
+      - '\brinse and repeat\b'
+      - '\bsame commands?\b'
+      - '\bsame thing(?:s)?\b'
+      - '\bover and over\b'
+      - '\btedious\b'
+      - '\bchore\b'
 
   DEPTH_CHALLENGE:
     label_az: Dərinlik, challenge və problem həlli
     patterns:
-      - "\bdepth\\b"
-      - "\bshallow\\b"
-      - "\bchalleng(?:e|ing|ed)\\b"
-      - "\bproblem[- ]?solving\\b"
-      - "\bstrategy\\b"
-      - "\bpuzzles?\\b"
-      - "\btoo easy\\b"
-      - "\btoo hard\\b"
-      - "\bdifficult(?:y)?\\b"
+      - '\bdepth\b'
+      - '\bshallow\b'
+      - '\bchalleng(?:e|ing|ed)\b'
+      - '\bproblem[- ]?solving\b'
+      - '\bstrategy\b'
+      - '\bpuzzles?\b'
+      - '\btoo easy\b'
+      - '\btoo hard\b'
+      - '\bdifficult(?:y)?\b'
 
   REALISM_ACCURACY:
     label_az: Realizm və texniki düzgünlük
     patterns:
-      - "\brealis(?:m|tic|tically)\\b"
-      - "\breal hacking\\b"
-      - "\bactual hacking\\b"
-      - "\binaccura(?:te|cy)\\b"
-      - "\baccur(?:ate|acy)\\b"
-      - "\bauthentic(?:ity)?\\b"
-      - "\breal unix\\b"
-      - "\breal[- ]world\\b"
+      - '\brealis(?:m|tic|tically)\b'
+      - '\breal hacking\b'
+      - '\bactual hacking\b'
+      - '\binaccura(?:te|cy)\b'
+      - '\baccur(?:ate|acy)\b'
+      - '\bauthentic(?:ity)?\b'
+      - '\breal unix\b'
+      - '\breal[- ]world\b'
 
   ONBOARDING_CLARITY:
     label_az: Onboarding, tutorial və aydınlıq
     patterns:
-      - "\btutorial\\b"
-      - "\bhand[- ]?holding\\b"
-      - "\binstructions?\\b"
-      - "\bunclear\\b"
-      - "\bconfus(?:ing|ed)\\b"
-      - "\blearning curve\\b"
-      - "\bhelp (?:page|command|list)\\b"
-      - "\bmemor(?:ize|ise|izing|ising) commands?\\b"
-      - "\brelearn\\b"
+      - '\btutorial\b'
+      - '\bhand[- ]?holding\b'
+      - '\binstructions?\b'
+      - '\bunclear\b'
+      - '\bconfus(?:ing|ed)\b'
+      - '\blearning curve\b'
+      - '\bhelp (?:page|command|list)\b'
+      - '\bmemor(?:ize|ise|izing|ising) commands?\b'
+      - '\brelearn\b'
 
   WORLD_REACTIVITY:
     label_az: Consequence, urgency və dünyanın reaktivliyi
     patterns:
-      - "\bconsequences?\\b"
-      - "\bworld (?:is|feels) (?:not )?alive\\b"
-      - "\bno sense of urgency\\b"
-      - "\burgency\\b"
-      - "\benemy hackers?\\b"
-      - "\blogs? (?:are|were|feel|felt) useless\\b"
-      - "\bno point (?:in )?(?:deleting|clearing) (?:the )?logs?\\b"
-      - "\breactiv(?:e|ity)\\b"
+      - '\bconsequences?\b'
+      - '\bworld (?:is|feels) (?:not )?alive\b'
+      - '\bno sense of urgency\b'
+      - '\burgency\b'
+      - '\benemy hackers?\b'
+      - '\blogs? (?:are|were|feel|felt) useless\b'
+      - '\bno point (?:in )?(?:deleting|clearing) (?:the )?logs?\b'
+      - '\breactiv(?:e|ity)\b'
 
   UI_USABILITY:
     label_az: UI/UX və istifadə rahatlığı
     patterns:
-      - "\binterface\\b"
-      - "\bui\\b"
-      - "\bautocomplete\\b"
-      - "\bauto[- ]?complete\\b"
-      - "\bscroll\\b"
-      - "\bfile management\\b"
-      - "\bcluttered\\b"
-      - "\bunintuitive\\b"
-      - "\bkeyboard only\\b"
+      - '\binterface\b'
+      - '\bui\b'
+      - '\bautocomplete\b'
+      - '\bauto[- ]?complete\b'
+      - '\bscroll\b'
+      - '\bfile management\b'
+      - '\bcluttered\b'
+      - '\bunintuitive\b'
+      - '\bkeyboard only\b'
 
   BUGS_COMPATIBILITY:
     label_az: Bug və compatibility
     patterns:
-      - "\bbugs?\\b"
-      - "\bcrash(?:es|ed|ing)?\\b"
-      - "\bfreez(?:e|es|ing)\\b"
-      - "\bsoft[- ]?lock(?:ed|ing)?\\b"
-      - "\bcorrupt(?:ed|ion)?\\b"
-      - "\bblack screen\\b"
-      - "\bwon't launch\\b"
-      - "\bwouldn't launch\\b"
-      - "\bdoesn't start\\b"
-      - "\bdoesnt start\\b"
-      - "\bcompatibility\\b"
-      - "\bresolution\\b"
-      - "\bmemory leak\\b"
+      - '\bbugs?\b'
+      - '\bcrash(?:es|ed|ing)?\b'
+      - '\bfreez(?:e|es|ing)\b'
+      - '\bsoft[- ]?lock(?:ed|ing)?\b'
+      - '\bcorrupt(?:ed|ion)?\b'
+      - '\bblack screen\b'
+      - '\bwon.t launch\b'
+      - '\bwouldn.t launch\b'
+      - '\bdoesn.t start\b'
+      - '\bcompatibility\b'
+      - '\bresolution\b'
+      - '\bmemory leak\b'
 
   LENGTH_CONTENT:
     label_az: Oyun uzunluğu və content miqdarı
     patterns:
-      - "\btoo short\\b"
-      - "\breally short\\b"
-      - "\bgame (?:is|was|feels|felt) short\\b"
-      - "\bgame length\\b"
-      - "\blength\\b"
-      - "\bmore content\\b"
-      - "\bnot enough content\\b"
+      - '\btoo short\b'
+      - '\breally short\b'
+      - '\bgame (?:is|was|feels|felt) short\b'
+      - '\bgame length\b'
+      - '\blength\b'
+      - '\bmore content\b'
+      - '\bnot enough content\b'
 
   MOD_REPLAYABILITY:
     label_az: Mod, Workshop və replayability
     patterns:
-      - "\bmods?\\b"
-      - "\bmod support\\b"
-      - "\bworkshop\\b"
-      - "\breplay(?:ability|able|ed|ing)?\\b"
-      - "\bcustom (?:campaigns?|missions?|extensions?)\\b"
-      - "\bextension framework\\b"
+      - '\bmods?\b'
+      - '\bmod support\b'
+      - '\bworkshop\b'
+      - '\breplay(?:ability|able|ed|ing)?\b'
+      - '\bcustom (?:campaigns?|missions?|extensions?)\b'
+      - '\bextension framework\b'
 
   PLAYER_AGENCY:
     label_az: Seçim və player agency
     patterns:
-      - "\bchoices?\\b"
-      - "\blinear\\b"
-      - "\bmultiple endings?\\b"
-      - "\bbranch(?:ing|es)?\\b"
-      - "\bforced to\\b"
-      - "\bonly one way\\b"
-      - "\bfreedom\\b"
+      - '\bchoices?\b'
+      - '\blinear\b'
+      - '\bmultiple endings?\b'
+      - '\bbranch(?:ing|es)?\b'
+      - '\bforced to\b'
+      - '\bonly one way\b'
+      - '\bfreedom\b'
 
   PACING_WAITING:
     label_az: Pacing, gözləmə və temp
     patterns:
-      - "\bpacing\\b"
-      - "\btoo slow\\b"
-      - "\bslow(?:ly)?\\b"
-      - "\bwaiting\\b"
-      - "\bwait (?:for|quite|until)\\b"
-      - "\bwatching animations?\\b"
-      - "\btime pressure\\b"
+      - '\bpacing\b'
+      - '\btoo slow\b'
+      - '\bslow(?:ly)?\b'
+      - '\bwaiting\b'
+      - '\bwait (?:for|quite|until)\b'
+      - '\bwatching animations?\b'
+      - '\btime pressure\b'
 
   EDUCATIONAL_IMPACT:
     label_az: Öyrənmə və texnologiyaya maraq yaratma
     patterns:
-      - "\blearn(?:ed|t|ing)? (?:linux|unix|commands?|programming|coding|networking|cybersecurity)\\b"
-      - "\btaught me\\b"
-      - "\binspired me\\b"
-      - "\bstarted my love for computers\\b"
-      - "\bintroduction to\\b"
-      - "\bgot me into\\b"
+      - '\blearn(?:ed|t|ing)? (?:linux|unix|commands?|programming|coding|networking|cybersecurity)\b'
+      - '\btaught me\b'
+      - '\binspired me\b'
+      - '\bstarted my love for computers\b'
+      - '\bintroduction to\b'
+      - '\bgot me into\b'
