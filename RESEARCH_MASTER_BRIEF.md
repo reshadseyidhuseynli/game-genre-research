@@ -1952,13 +1952,30 @@ Bu bölmə yeni sessiyada “nə hazırdır?” sualının əsas istinad-udur.
 - ✅ `analysis/need-to-know/deep-research.md`
 - ✅ `analysis/need-to-know/presentation-brief.md`
 - ✅ `analysis/comparisons/orwell-vs-need-to-know.md`
-- ⏳ lokal reproducibility run: `python -m src.verify --game need-to-know`
-- ⏳ deterministik theme artefaktları: `python -m src.theme_pipeline --game need-to-know` və generated faylların push-u
+- ✅ lokal reproducibility run tamamlanıb
+- ✅ deterministik theme artefaktları repository-dədir (`data/processed/need-to-know/themes/`, `data/reports/need-to-know/theme-candidates.md`)
 
 Əsas nəticə:
 - surveillance/privacy premise-i və moral ambiguity özü problem deyil;
 - ən böyük risklər early onboarding/UI, semantic reasoning ilə exact rule acceptance arasındakı fərq, təkrarçılıq və progression tərəfindən məcbur edilən seçimlərdir;
 - Orwell daha az seçim səthi ilə daha aydın consequence chain qurduğu üçün real agency hissi daha güclü görünür.
+
+### Mainlining — current Tier A target
+
+- ✅ Steam App ID yoxlanıb: **454950**
+- ✅ `config/games.yaml` entry əlavə olunub
+- ✅ `analysis/mainlining/research-kickoff.md`
+- ⏳ Steam məlumat toplusu — gözlənilir
+- ⏳ verification/statistics — gözlənilir
+- ⏳ deterministik mövzu artefaktları — gözlənilir
+- ⏳ `analysis/mainlining/theme-analysis.md`
+- ⏳ `analysis/mainlining/deep-research.md`
+- ⏳ `analysis/mainlining/presentation-brief.md`
+- ⏳ `analysis/comparisons/cyber-manhunt-vs-mainlining.md`
+
+Əsas araşdırma sualı:
+
+> Cyber Manhunt-un scripted investigation və Need to Know-un constrained-agency problemlərinə qarşı Mainlining hacking + investigation + evidence modelində nəyi fərqli edir və bu fərqlər oyunçu nəticəsinə necə təsir edir?
 
 ### Final package
 
@@ -1976,27 +1993,41 @@ Bu inventory hər major milestone-dan sonra yenilənməlidir.
 
 # 18. Hazırkı növbəti addım
 
-**Need to Know focused comparator tamamlanıb.**
+**Mainlining — Tier A araşdırması başlayıb.**
 
-Əvvəl reproducibility işini bağla:
+Tamamlanıb:
 
-1. `python -m src.verify --game need-to-know`
-2. `python -m src.theme_pipeline --game need-to-know`
-3. generated `data/processed/need-to-know/themes/` və `data/reports/need-to-know/theme-candidates.md` fayllarını push et.
+1. Steam App ID yoxlanıb: `454950`
+2. `config/games.yaml` entry əlavə olunub
+3. `analysis/mainlining/research-kickoff.md` yaradılıb
 
-Sonra növbəti əsas Tier A target:
+Növbəti addım Steam dataset collection-dır:
 
-1. **Mainlining**
-2. **SIMULACRA**
-3. **SIMULACRA 3**
+```bash
+python -m src.pipeline --game mainlining
+```
 
-Mainlining üçün əsas müqayisə sualı:
+Pipeline bitdikdən sonra:
 
-> Cyber Manhunt-un scripted investigation və Need to Know-un constrained-agency problemlərinə qarşı Mainlining hacking + investigation + choice modelində nəyi fərqli edir və bu fərqlər oyunçu nəticəsinə necə təsir edir?
+```bash
+python -m src.verify --game mainlining
+python -m src.theme_pipeline --game mainlining
+```
 
-Need to Know mərhələsindən çıxan yeni cross-game prinsip:
+generated raw/processed/report/theme artefaktlarını push et.
 
-> **Feature sayı və seçim UI-si real agency deyil; meaningful decision density oyunçunun başa düşdüyü, niyyətinə uyğun verdiyi və nəticəsini changed world state-də gördüyü qərarlarla ölçülməlidir.**
+Sonra:
+
+- bütün mənfi rəylər mümkün olduğu qədər tam semantic audit;
+- müsbət helpful/recent/playtime-stratified audit;
+- `theme-analysis.md`;
+- `deep-research.md`;
+- `presentation-brief.md`;
+- `analysis/comparisons/cyber-manhunt-vs-mainlining.md`.
+
+Əsas müqayisə hipotezi:
+
+> **Investigation oyunu oyunçunun knowledge state-ni tanımadıqda, problem fərqli interface-lərdə eyni formada təkrarlanır: Cyber Manhunt-da exact clue path, Need to Know-da exact rule acceptance, Mainlining-də isə yoxlanmalı olan exact evidence/person/location acceptance.**
 
 ---
 
