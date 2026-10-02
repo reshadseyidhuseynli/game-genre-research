@@ -190,11 +190,11 @@ Cyber Manhunt-un oyunda qalma sistemi əsasən:
 
 üzərindədir.
 
-Bu Hacknet ilə oxşardır, amma information chain burada daha explicit core loop-dur.
+Bu Hacknet ilə oxşardır, amma information chain burada daha explicit əsas oyun dövrü-dur.
 
 ---
 
-# 7. Onboarding və Early-session Risk
+# 7. İlkin öyrətmə və Early-session Risk
 
 ## 7.1. 0–1h
 
@@ -485,7 +485,7 @@ Bir neçə rəy-da oyunçu ümumi oyunu bəyəndiyini, amma bu mandatory segment
 
 ### Principle
 
-> **Mandatory side-system əsas core loop qədər polished olmalıdır; yoxsa bir neçə dəqiqəlik zəif mexanika saatlarla qurulan goodwill-i məhv edə bilər.**
+> **Mandatory side-system əsas əsas oyun dövrü qədər polished olmalıdır; yoxsa bir neçə dəqiqəlik zəif mexanika saatlarla qurulan goodwill-i məhv edə bilər.**
 
 ---
 
@@ -644,7 +644,7 @@ oyunçu peşəkar technical knowledge olmadan oynaya bilir.
 3. **Clue collection bəzən UI hunt-a çevrilir.**
 4. **Search real search space əvəzinə expected query routing olur.**
 5. **təkrarçılıq case content dəyişsə belə qalır.**
-6. **One-off puzzle-lər əlavə onboarding cost yaradır.**
+6. **One-off puzzle-lər əlavə ilkin öyrətmə cost yaradır.**
 7. **Timer bəzi reasoning segmentlərini trial-and-error-a çevirir.**
 8. **UI çətinlik working-memory yükünü artırır.**
 9. **Ethical message bəzən preachy hiss olunur.**
