@@ -134,6 +134,22 @@ class DeterministicTests(unittest.TestCase):
 
 
 
+
+    def test_surveillance_information_theme_detection(self):
+        taxonomy = load_taxonomy()
+        detected = detect_themes(
+            'The surveillance system highlights private information and forces me to '
+            'choose between contradictory evidence. Once I submit the data I cannot '
+            'retract it, and the consequences affect the story.',
+            taxonomy
+        )
+        self.assertIn('PRIVACY_SURVEILLANCE', detected)
+        self.assertIn('AUTO_HIGHLIGHTING', detected)
+        self.assertIn('CONTRADICTORY_EVIDENCE', detected)
+        self.assertIn('INFORMATION_IRREVERSIBILITY', detected)
+        self.assertIn('INFORMATION_SELECTION', detected)
+        self.assertIn('CONSEQUENCE_VISIBILITY', detected)
+
     def test_focused_investigation_theme_detection(self):
         taxonomy = load_taxonomy()
         detected = detect_themes(
