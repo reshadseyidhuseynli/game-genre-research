@@ -1,4 +1,4 @@
-version: 3
+version: 4
 description: >
   Computer-interface / hacking / digital-investigation oyunları üçün semantic aspect taxonomy.
   Bu taxonomy final qualitative coding üçündür; regex candidate retrieval taxonomy-dən ayrıdır.
@@ -201,6 +201,26 @@ aspects:
     label_az: Etik və sosial mövzular
     definition: Privacy, cyber violence, harassment, moral dilemma və oyunun sosial mesajının təsiri.
 
+  HANDHOLDING_GUIDANCE:
+    label_az: Həddindən artıq yönləndirmə
+    definition: Oyunun player-a növbəti addımı və nəticəni o qədər açıq deməsi ki, deduction və agency hissi azalır.
+
+  ENDING_CLOSURE:
+    label_az: Ending və closure
+    definition: Finalın hekayəni kifayət qədər tamamlaması, cliffhanger və unresolved thread-lərin player satisfaction-a təsiri.
+
+  SAVE_REPLAY:
+    label_az: Save və replay rahatlığı
+    definition: Manual save, autosave, skippability, replay və alternative outcome-ları yoxlamaq üçün recovery/navigation imkanları.
+
+  SINGLE_USE_MECHANICS:
+    label_az: Bir dəfə istifadə olunan mechanic-lər
+    definition: Yeni tool və sistemlərin yalnız bir sequence-də istifadə olunması və sonradan dərinləşdirilməməsi.
+
+  DIALOGUE_EXPOSITION:
+    label_az: Dialogue və exposition yükü
+    definition: Passiv dinləmə, uzun exposition, cutscene və voice-delivery-nin active investigation vaxtına təsiri.
+
 coding_rules:
   - Overall Steam recommendation aspect sentiment kimi istifadə edilməməlidir.
   - Bir review eyni aspect üçün həm müsbət, həm mənfi fikir verirsə mixed seç.
@@ -219,3 +239,7 @@ coding_rules:
   - Linearity/scripted progression ayrıca label-lənməlidir: düzgün nəticəni əvvəlcədən bilmək progression trigger-i keçməyə kifayət etmirsə bu agency və deduction-dan fərqli problemdir.
   - Text-heavy oyunlarda LOCALIZATION_WRITING gameplay keyfiyyətinə birbaşa təsir edə bilər; tərcümə sadəcə presentation problemi sayılmamalıdır.
   - Puzzle clarity və difficulty ayrılmalıdır: puzzle çətin ola bilər, amma həll məntiqi sonradan izah edilə bilirsə fair qala bilər.
+  - Ending və overall story sentiment ayrılmalıdır: player story-ni sevib final closure-a görə negative recommendation verə bilər.
+  - Hand-holding ilə onboarding ayrılmalıdır: onboarding öyrədir, hand-holding isə artıq öyrənilmiş qərarı player əvəzinə verir.
+  - Single-use mechanic çox müxtəliflik yarada bilər, amma mastery və system depth yaratmaya bilər.
+  - Dialogue/exposition yaxşı yazılmış olsa belə active-investigation vaxtını sıxışdırırsa ayrıca pacing problemi kimi label-lənə bilər.
