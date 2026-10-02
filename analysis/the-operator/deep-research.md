@@ -2,7 +2,7 @@
 
 ## Rəhbərlik üçün xülasə
 
-The Operator rəqəmsal araşdırma janrında çox güclü **“arxa planda işləyən operator” rol hissidir** yaradır. Oyunun əsas üstünlüyü böyük açıq axtarış sahəsi qurmaq yox, oyunçuya spesifik təhlil alətləri verib hər epizodu cilalanmış, kinematik və yüksək oyuna dalma hissi ilə təqdim etməsidir.
+The Operator rəqəmsal araşdırma janrında çox güclü **“arxa planda işləyən operator” rol hissi** yaradır. Oyunun əsas üstünlüyü böyük açıq axtarış sahəsi qurmaq yox, oyunçuya xüsusi təhlil alətləri verib hər epizodu cilalanmış, kinematik və yüksək oyuna dalma hissi ilə təqdim etməsidir.
 
 Yoxlanmış Steam məlumat toplusu:
 
