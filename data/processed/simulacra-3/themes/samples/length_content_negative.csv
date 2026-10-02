@@ -1,0 +1,19 @@
+review_id,steam_app_id,game_key,game_name,language,review_text_raw,review_text_clean,recommended,created_at,updated_at,playtime_forever_minutes,playtime_at_review_minutes,playtime_last_two_weeks_minutes,votes_up,votes_funny,weighted_vote_score,steam_purchase,received_for_free,written_during_early_access,refunded,author_steam_id,author_num_games_owned,author_num_reviews,is_empty,is_very_short,review_length_chars,review_length_words,playtime_forever_hours,playtime_at_review_hours,playtime_segment,overall_sentiment
+124427534,1925970,simulacra-3,SIMULACRA 3,english,"SIM - Sara Is Missing = good game (but too short)
+Simulacra 1 = very good game
+Simulacra: Pipe Dreams = good game
+Simulacra 2 = meh game
+Simulacra 3 = bad as hell
+The game feels totaly unfinished, they didn't even bother to add new bgms or try to use ""that good bgm from simulacra 1""
+There aren't even any scary random noises in background like ""door knocking"", ""heavy breathing"".
+There are only few puzzles to finish, they even didn't add any password breaking sequence...
+They did't add that many apps to use and this ""new app"" with tracking is frustrating to use.
+They did't even bother to add random glitch effects on the phone...
+
+There are any hidden quests/easter eggs like ""Gateway 31"" in Simulacra 1.
+You can't call to anyone (even emergency services like 999) and only 1 time, only 1 character ""Ruby"" will call to you...
+There are only few characters and they are just like a plastic dolls, without emotions and souls. 
+This entire world seems dead.
+
+In conclusion: 
+I beg of you: Don't waste your precious time and money on this shi*y game.","SIM - Sara Is Missing = good game (but too short) Simulacra 1 = very good game Simulacra: Pipe Dreams = good game Simulacra 2 = meh game Simulacra 3 = bad as hell The game feels totaly unfinished, they didn't even bother to add new bgms or try to use ""that good bgm from simulacra 1"" There aren't even any scary random noises in background like ""door knocking"", ""heavy breathing"". There are only few puzzles to finish, they even didn't add any password breaking sequence... They did't add that many apps to use and this ""new app"" with tracking is frustrating to use. They did't even bother to add random glitch effects on the phone... There are any hidden quests/easter eggs like ""Gateway 31"" in Simulacra 1. You can't call to anyone (even emergency services like 999) and only 1 time, only 1 character ""Ruby"" will call to you... There are only few characters and they are just like a plastic dolls, without emotions and souls. This entire world seems dead. In conclusion: I beg of you: Don't waste your precious time and money on this shi*y game.",False,2022-10-26T17:23:34+00:00,2022-10-26T17:23:34+00:00,250.0,250.0,0.0,3.0,1.0,0.5007792115211487,True,False,False,False,76561198957415853,,9.0,False,False,1047,189,4.166666666666667,4.166666666666667,3-10h,negative

@@ -1,0 +1,58 @@
+{
+  "name": "SIMULACRA 3",
+  "release_date": {
+    "coming_soon": false,
+    "date": "Oct 25, 2022"
+  },
+  "developers": [
+    "Kaigan Games"
+  ],
+  "publishers": [
+    "Soft Source"
+  ],
+  "is_free": false,
+  "short_description": "The town of Stonecreek is haunted. People keep disappearing into thin air, leaving nothing but an eerie symbol behind. With the townsfolk gripped with fear, use a missing victim's phone to unlock the truth in the third entry of the acclaimed horror series, SIMULACRA.",
+  "genres": [
+    {
+      "id": "23",
+      "description": "Indie"
+    },
+    {
+      "id": "28",
+      "description": "Simulation"
+    }
+  ],
+  "categories": [
+    {
+      "id": 2,
+      "description": "Single-player"
+    },
+    {
+      "id": 22,
+      "description": "Steam Achievements"
+    },
+    {
+      "id": 55,
+      "description": "DualShock Controller Support"
+    },
+    {
+      "id": 18,
+      "description": "Partial Controller Support"
+    },
+    {
+      "id": 23,
+      "description": "Steam Cloud"
+    },
+    {
+      "id": 62,
+      "description": "Family Sharing"
+    }
+  ],
+  "supported_languages": "English<strong>*</strong>, Simplified Chinese<br><strong>*</strong>languages with full audio support",
+  "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1925970/header.jpg?t=1778132262",
+  "steam_app_id": 1925970,
+  "price": 349,
+  "currency": "USD",
+  "price_unit": "minor currency units",
+  "store_url": "https://store.steampowered.com/app/1925970/"
+}

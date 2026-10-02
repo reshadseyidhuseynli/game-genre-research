@@ -1,0 +1,11 @@
+review_id,steam_app_id,game_key,game_name,language,review_text_raw,review_text_clean,recommended,created_at,updated_at,playtime_forever_minutes,playtime_at_review_minutes,playtime_last_two_weeks_minutes,votes_up,votes_funny,weighted_vote_score,steam_purchase,received_for_free,written_during_early_access,refunded,author_steam_id,author_num_games_owned,author_num_reviews,is_empty,is_very_short,review_length_chars,review_length_words,playtime_forever_hours,playtime_at_review_hours,playtime_segment,overall_sentiment
+124407712,1925970,simulacra-3,SIMULACRA 3,english,"The game feels unfinished. 
+
+I went into this game with high hopes. Starts off like 1 and 2, you get a phone under weird circumstances. 
+This one however is different. There is a lot of mechanics they teach you along the way. That they just use 1 time. There is a perfect sequence to use the trace mechanic, instead they chose to use a ""Dark Mode"" mechanic out of no where, that had no tutorial. (this took me 30 minutes to figure out) 
+
+The phone experience is just weird on 3. No real personality to the phone. Even after you unlock the texts, feels bland, doesn't feel like a phone that any human had used ever. 
+
+The story is fine, build up is weird and the pacing is odd. 
+
+I would give it a try, but 3 is just not as suspenseful as the first 2 entries in the series.","The game feels unfinished. I went into this game with high hopes. Starts off like 1 and 2, you get a phone under weird circumstances. This one however is different. There is a lot of mechanics they teach you along the way. That they just use 1 time. There is a perfect sequence to use the trace mechanic, instead they chose to use a ""Dark Mode"" mechanic out of no where, that had no tutorial. (this took me 30 minutes to figure out) The phone experience is just weird on 3. No real personality to the phone. Even after you unlock the texts, feels bland, doesn't feel like a phone that any human had used ever. The story is fine, build up is weird and the pacing is odd. I would give it a try, but 3 is just not as suspenseful as the first 2 entries in the series.",False,2022-10-26T08:40:35+00:00,2022-10-26T08:40:35+00:00,365.0,365.0,0.0,20.0,0.0,0.7250461578369141,True,False,False,False,76561197991776328,,8.0,False,False,763,150,6.083333333333333,6.083333333333333,3-10h,negative
