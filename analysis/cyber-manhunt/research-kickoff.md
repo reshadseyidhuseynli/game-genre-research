@@ -1,10 +1,10 @@
-# Cyber Manhunt — Research Kickoff
+# Cyber Manhunt — araşdırma Kickoff
 
 ## Status
 
-Bu sənəd Cyber Manhunt dataset-dən əvvəl hazırlanmış kickoff sənədidir və historical planning context kimi saxlanılır.
+Bu sənəd Cyber Manhunt məlumat toplusu-dən əvvəl hazırlanmış kickoff sənədidir və historical planlama context kimi saxlanılır.
 
-Research artıq tamamlanıb. Cari nəticələr üçün:
+araşdırma artıq tamamlanıb. Cari nəticələr üçün:
 
 - `analysis/cyber-manhunt/deep-research.md`
 - `analysis/cyber-manhunt/theme-analysis.md`
@@ -16,15 +16,15 @@ istifadə olunmalıdır.
 
 # 1. Niyə Cyber Manhunt növbəti oyundur?
 
-Hacknet və Midnight Protocol əsasən **hacking fantasy + computer-interface interaction** xəttini araşdırdı.
+Hacknet və Midnight Protocol əsasən **hacking fantasy + computer-interface qarşılıqlı əlaqə** xəttini araşdırdı.
 
-Cyber Manhunt research-i başqa vacib istiqamətə keçirir:
+Cyber Manhunt araşdırma-i başqa vacib istiqamətə keçirir:
 
-> **digital investigation + social engineering + information discovery + privacy/consequence**
+> **digital investigation + social engineering + information discovery + privacy/nəticə**
 
 Bu çox vacib keçiddir.
 
-Hazır iki oyundan çıxan əsas opportunity:
+Hazır iki oyundan çıxan əsas imkan:
 
 ```text
 Hacknet:
@@ -42,19 +42,19 @@ Cyber Manhunt aşağıdakı sualı test etməyə imkan verir:
 
 ---
 
-# 2. Product snapshot
+# 2. məhsul snapshot
 
 Steam App ID: **1216710**
 
 - Name: Cyber Manhunt
-- Developer: Aluba Van+ / əvvəl Aluba Studio
+- yaradıcı: Aluba Van+ / əvvəl Aluba Studio
 - Publisher: 摸鱼游戏, Aluba Van+
 - Early Access: August 2020
 - Full release: 2 February 2021
 - Base US price: $9.99
-- Current Steam English review display: təxminən **816 review, 80% positive**
-- Recent review display: təxminən **76% positive**
-- Single-player
+- Current Steam English rəy display: təxminən **816 rəy, 80% müsbət**
+- son dövr rəy display: təxminən **76% müsbət**
+- Single-oyunçu
 - Demo available
 - DLC content mövcuddur
 
@@ -64,16 +64,16 @@ Steam tags:
 - Hacking
 - Mystery
 - Detective
-- Story Rich
+- hekayə Rich
 - Investigation
 - Crime
 - Immersive Sim
 - Psychological Horror
 - Linear
 
-Bu dəfə “hacking” store identity-nin yalnız bir hissəsidir.
+Bu dəfə “hacking” mağaza identity-nin yalnız bir hissəsidir.
 
-Dominant player activity daha çox:
+Dominant oyunçu activity daha çox:
 
 > **information investigation**
 
@@ -85,20 +85,20 @@ kimi görünür.
 
 Steam oyunu belə təsvir edir:
 
-> story-oriented puzzle game focusing on big data, hacking, citizen privacy, and social problems.
+> hekayə-oriented puzzle game focusing on big məlumat, hacking, citizen privacy, and social problems.
 
 Core systems arasında rəsmi səhifə bunları göstərir:
 
-- picture analysis;
+- picture təhlil;
 - phishing;
 - information search;
 - tracking;
 - puzzle solving;
 - hacking;
 - social engineering;
-- story decisions.
+- hekayə decisions.
 
-Bu research üçün vacibdir, çünki player interaction yalnız “server-i aç” deyil.
+Bu araşdırma üçün vacibdir, çünki oyunçu qarşılıqlı əlaqə yalnız “server-i aç” deyil.
 
 Loop daha çox belə görünür:
 
@@ -118,22 +118,22 @@ Bu, bizim axtardığımız **information → access → information** circular l
 
 ---
 
-# 4. Developer intent
+# 4. yaradıcı intent
 
-Official Steam description və developer materiallarında bir neçə güclü məqsəd görünür.
+Official Steam description və yaradıcı materiallarında bir neçə güclü məqsəd görünür.
 
 ## 4.1. Real sosial problemlər
 
-Game theme:
+Game mövzu:
 
-- big data;
+- big məlumat;
 - privacy loss;
 - cyber violence;
 - doxxing / personal information exposure;
 - online judgment;
 - social engineering.
 
-Developer yalnız “cool hacking” fantasy yaratmaq istəməyib.
+yaradıcı yalnız “cool hacking” fantasy yaratmaq istəməyib.
 
 Məqsəd həm də:
 
@@ -147,7 +147,7 @@ Bu Hacknet və Midnight Protocol-dan fərqlidir.
 
 ## 4.2. Real hadisələrdən inspiration
 
-Developer bir çox plot-un real social events-dən ilham aldığını yazır.
+yaradıcı bir çox plot-un real social events-dən ilham aldığını yazır.
 
 Bu narrative-in:
 
@@ -159,9 +159,9 @@ yaratmasına xidmət edir.
 
 ---
 
-## 4.3. Social engineering core design-dir
+## 4.3. Social engineering core dizayn-dir
 
-Developer komandası:
+yaradıcı komandası:
 
 - security/hacking mütəxəssislərindən məlumat topladığını;
 - ayrıca social-engineering discussion group qurduğunu;
@@ -178,7 +178,7 @@ Araşdırılan sahələr arasında:
 
 olub.
 
-Bu çox vacib design difference-dir:
+Bu çox vacib dizayn difference-dir:
 
 > Cyber Manhunt hacking-i yalnız software-system problemi kimi yox, **human-information problem** kimi görür.
 
@@ -186,7 +186,7 @@ Bu çox vacib design difference-dir:
 
 # 5. Creative inspirations
 
-Official store materialında developer aşağıdakı oyun və media təsirlərini qeyd edir:
+Official mağaza materialında yaradıcı aşağıdakı oyun və media təsirlərini qeyd edir:
 
 - This War of Mine
 - Papers, Please
@@ -194,13 +194,13 @@ Official store materialında developer aşağıdakı oyun və media təsirlərin
 - Who Am I: No System Is Safe
 - Searching
 
-Burada iki design xətti görünür.
+Burada iki dizayn xətti görünür.
 
-## 5.1. Games that make player think outside the game
+## 5.1. Games that make oyunçu think outside the game
 
 This War of Mine və Papers, Please:
 
-> mechanic + ethical/social meaning
+> mexanika + ethical/social meaning
 
 modelidir.
 
@@ -208,9 +208,9 @@ modelidir.
 
 Searching:
 
-> computer/phone details vasitəsilə story tapmaq.
+> computer/phone details vasitəsilə hekayə tapmaq.
 
-Bu bizim research scope-la birbaşa üst-üstə düşür.
+Bu bizim araşdırma əhatə dairəsi-la birbaşa üst-üstə düşür.
 
 ---
 
@@ -220,19 +220,19 @@ Bu bizim research scope-la birbaşa üst-üstə düşür.
 |---|---|---|---|
 | Core fantasy | Hacker | Tactical hacker | Hacker / digital investigator |
 | Main action | Commands + breach | Tactical network movement | Search + connect information + social engineering |
-| Main depth | Story/exploration | Tactical systems | Information relationships |
-| Failure risk | Repetition | RNG/friction | Linear puzzle / clue ambiguity hipotezi |
-| Story | Mystery | Narrative RPG | Social thriller / case structure |
-| Agency | Limited | Strong reputation/choices | Story judgment/consequence araşdırılmalıdır |
-| Realism | Selective technical authenticity | Gameified tactical authenticity | Social-engineering / information authenticity |
+| Main dərinlik | hekayə/exploration | Tactical systems | Information relationships |
+| uğursuzluq risk | təkrarçılıq | RNG/çətinlik | Linear puzzle / clue ambiguity hipotezi |
+| hekayə | Mystery | Narrative RPG | Social thriller / case structure |
+| qərar sərbəstliyi | Limited | Strong reputation/seçimlər | hekayə judgment/nəticə araşdırılmalıdır |
+| realizm | Selective technical həqiqilik hissi | Gameified tactical həqiqilik hissi | Social-engineering / information həqiqilik hissi |
 | Interface | Terminal + OS | Keyboard-only terminal/network | Browser/database/profile/device-style tools |
-| Main skill | Command execution + exploration | Planning/build | Deduction/search/inference |
+| Main bacarıq | əmrlərin icrası + exploration | planlama/build | Deduction/search/inference |
 
-Bu cədvəl dataset-dən əvvəl provisional-dır.
+Bu cədvəl məlumat toplusu-dən əvvəl provisional-dır.
 
 ---
 
-# 7. Əsas research sualları
+# 7. Əsas araşdırma sualları
 
 ## 7.1. Information discovery
 
@@ -243,27 +243,27 @@ Bu cədvəl dataset-dən əvvəl provisional-dır.
 
 ## 7.2. Social engineering
 
-- Phishing və human manipulation mechanic-ləri maraqlıdırmı?
+- Phishing və human manipulation mexanika-ləri maraqlıdırmı?
 - Onlar sadəcə mini-game-dir, yoxsa information loop-un hissəsidir?
 - Oyunçu target haqqında öyrəndiyi məlumatı sonradan istifadə edirmi?
 
-## 7.3. Core loop repetition
+## 7.3. Core loop təkrarçılıq
 
 - Hər case eyni:
-  search → password → hack → data
+  search → password → hack → məlumat
   strukturuna çevrilirmi?
-- Yeni case-lər yeni reasoning tələb edir, yoxsa yalnız yeni story content?
+- Yeni case-lər yeni reasoning tələb edir, yoxsa yalnız yeni hekayə content?
 
-## 7.4. Story vs gameplay
+## 7.4. hekayə vs oyun gedişi
 
-- Story gameplay-i mənalı edir?
-- Yoxsa player əsasən text oxuyur və mechanic sadəcə keçid rolunu oynayır?
+- hekayə oyun gedişi-i mənalı edir?
+- Yoxsa oyunçu əsasən text oxuyur və mexanika sadəcə keçid rolunu oynayır?
 - Case structure pacing-i necə təsir edir?
 
-## 7.5. Player agency
+## 7.5. oyunçu qərar sərbəstliyi
 
 - Oyunçu həqiqətən qərar verir?
-- “good/evil judgment” gameplay və story-yə nə qədər təsir edir?
+- “good/evil judgment” oyun gedişi və hekayə-yə nə qədər təsir edir?
 - Case outcome-ları dəyişirmi?
 
 ## 7.6. Ethical tension
@@ -276,33 +276,33 @@ Bu cədvəl dataset-dən əvvəl provisional-dır.
 
 - Multi-window/interface investigation rahatdırmı?
 - Information overload yaranırmı?
-- Notes/evidence management necə işləyir?
+- Notes/dəlil management necə işləyir?
 - Oyunçunun özü xarici note saxlamağa ehtiyac duyurmu?
 
 ## 7.8. Onboarding
 
 - Oyun investigation grammar-ni necə öyrədir?
-- Early cases tutorial kimi işləyir?
-- Difficulty clue ambiguity-dənmi, mechanic complexity-dənmi gəlir?
+- Early cases təlim hissəsi kimi işləyir?
+- Difficulty clue ambiguity-dənmi, mexanika mürəkkəblik-dənmi gəlir?
 
 ## 7.9. Translation/writing
 
-English dataset üçün ayrıca vacibdir:
+English məlumat toplusu üçün ayrıca vacibdir:
 
-- localization story comprehension-a təsir edirmi?
+- localization hekayə comprehension-a təsir edirmi?
 - awkward writing puzzle həllini çətinləşdirirmi?
 - character dialogue və social themes nə qədər yaxşı ötürülür?
 
-## 7.10. Recent sentiment
+## 7.10. son dövr sentiment
 
 Steam current display-də:
 
 - all-time English ~80%;
-- recent ~76%.
+- son dövr ~76%.
 
-Dataset toplandıqdan sonra yoxlanmalıdır:
+məlumat toplusu toplandıqdan sonra yoxlanmalıdır:
 
-> newer feedback-də hansı complaint-lər artıb?
+> newer geribildirim-də hansı complaint-lər artıb?
 
 ---
 
@@ -325,33 +325,33 @@ PUZZLE_LOGIC
 LINEARITY
 ```
 
-Bunlar dataset oxunmadan final taxonomy-yə əlavə edilməməlidir.
+Bunlar məlumat toplusu oxunmadan final taxonomy-yə əlavə edilməməlidir.
 
-Əvvəl sample audit aparılacaq.
+Əvvəl nümunə yoxlama aparılacaq.
 
 ---
 
-# 9. Əsas comparison hypotheses
+# 9. Əsas müqayisə hypotheses
 
 ## Hipotez 1
 
-> Information-based depth Hacknet/Midnight Protocol-dakı command/tactical repetition-dan daha davamlı ola bilər.
+> Information-based dərinlik Hacknet/Midnight Protocol-dakı command/tactical təkrarçılıq-dan daha davamlı ola bilər.
 
 Test:
 
 - case variety;
 - investigation praise;
-- repetition complaints.
+- təkrarçılıq complaints.
 
 ## Hipotez 2
 
-> Social engineering player-a “human system hacking” fantasy-si verir və full technical simulation-a ehtiyacı azaldır.
+> Social engineering oyunçu-a “human system hacking” fantasy-si verir və full technical simulation-a ehtiyacı azaldır.
 
 Test:
 
 - social engineering praise;
-- realism complaint;
-- player fantasy language.
+- realizm complaint;
+- oyunçu fantasy language.
 
 ## Hipotez 3
 
@@ -363,25 +363,25 @@ Test:
 - avtomatik əlaqələndirir;
 - nəticəni özü deyirsə
 
-interaction “search checklist”ə çevrilə bilər.
+qarşılıqlı əlaqə “search checklist”ə çevrilə bilər.
 
 ## Hipotez 4
 
-> Strong story investigation loop-un repetition-ını gizlədə bilər, amma həll etməz.
+> Strong hekayə investigation loop-un təkrarçılıq-ını gizlədə bilər, amma həll etməz.
 
 Bu Hacknet nəticəsi ilə müqayisə ediləcək.
 
 ## Hipotez 5
 
-> Privacy və cyber-violence themes player consequence hissini artırır.
+> Privacy və cyber-violence themes oyunçu nəticə hissini artırır.
 
-Midnight Protocol-da moral identity gameplay system vasitəsilə gəlir.
+Midnight Protocol-da moral identity oyun gedişi system vasitəsilə gəlir.
 
-Cyber Manhunt-da bu daha çox narrative/social consequence vasitəsilə gələ bilər.
+Cyber Manhunt-da bu daha çox narrative/social nəticə vasitəsilə gələ bilər.
 
 ---
 
-# 10. Dataset workflow
+# 10. məlumat toplusu iş axını
 
 Config artıq repository-yə əlavə olunub:
 
@@ -410,23 +410,23 @@ Steam collection
 
 # 11. Public sources
 
-## [W1] Steam Store
+## [W1] Steam mağaza
 
 https://store.steampowered.com/app/1216710/
 
-Rəsmi positioning, gameplay systems, themes, creative inspirations, developer/publisher/release məlumatı.
+Rəsmi positioning, oyun gedişi systems, themes, creative inspirations, yaradıcı/publisher/release məlumatı.
 
-## [W2] Gamersky / developer interview — Aluba Studio
+## [W2] Gamersky / yaradıcı interview — Aluba Studio
 
 https://club.gamersky.com/activity/435462
 
-Developer origin, team, social-engineering research, privacy theme və real-life inspiration haqqında material.
+yaradıcı origin, team, social-engineering araşdırma, privacy mövzu və real-life inspiration haqqında material.
 
 ## [W3] Indienova project page
 
 https://indienova.com/g/cyber-manhunt
 
-Developer project description və development materialları.
+yaradıcı project description və development materialları.
 
 ---
 
@@ -434,5 +434,5 @@ Developer project description və development materialları.
 
 **Mərhələ:** kickoff — superseded  
 **Steam target:** 1216710  
-**Verified dataset:** 847 reviews  
+**Verified məlumat toplusu:** 847 reviews  
 **Current source of truth:** `analysis/cyber-manhunt/deep-research.md`
