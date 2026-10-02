@@ -2011,6 +2011,30 @@ Bu bölmə yeni sessiyada “nə hazırdır?” sualının əsas istinad-udur.
 - yazı/lokallaşdırma, dialoqla həddindən artıq yönləndirmə, təkrarlanan reconstruction puzzle-ları və gizli ending şərtləri əsas risklərdir;
 - interface-as-world modelində realizm vizual oxşarlıqdan çox oyunçunun tanıdığı əsas affordance-ların qorunmasıdır.
 
+### SIMULACRA 3 — current Tier A target
+
+- ✅ Steam App ID yoxlanıb: **1925970**
+- ✅ `config/games.yaml` entry əlavə olunub
+- ✅ `analysis/simulacra-3/research-kickoff.md`
+- ⏳ Steam məlumat toplusu
+- ⏳ verification/statistics
+- ⏳ deterministik v5 mövzu artefaktları
+- ⏳ semantic audit
+- ⏳ `analysis/simulacra-3/theme-analysis.md`
+- ⏳ `analysis/simulacra-3/deep-research.md`
+- ⏳ `analysis/simulacra-3/presentation-brief.md`
+- ⏳ `analysis/comparisons/simulacra-vs-simulacra-3.md`
+
+Cari xarici baseline:
+- Steam release: **25 oktyabr 2022**
+- developer: **Kaigan Games**
+- publisher: **Soft Source**
+- cari Steam all-review göstəricisi: təxminən **328 rəy / 56% müsbət / Mixed**
+
+Əsas araşdırma sualı:
+
+> İlk SIMULACRA-nın yüksək nəticə göstərən phone-as-world formulundan SIMULACRA 3-də hansı dizayn və təqdimat elementləri dəyişib və həmin dəyişikliklərin hansıları daha zəif oyunçu reaksiyası ilə əlaqəlidir?
+
 ### Final package
 
 Hazırda yaradılmayıb:
@@ -2027,51 +2051,43 @@ Bu inventory hər major milestone-dan sonra yenilənməlidir.
 
 # 18. Hazırkı növbəti addım
 
-**SIMULACRA Tier A araşdırması tamamlanıb.**
+**SIMULACRA tamamlanıb və SIMULACRA 3 Tier A araşdırması başlayıb.**
 
-Tamamlanan əsas çıxışlar:
+SIMULACRA 3 üçün artıq tamamlanıb:
 
-- `analysis/simulacra/theme-analysis.md`
-- `analysis/simulacra/deep-research.md`
-- `analysis/simulacra/presentation-brief.md`
-- `analysis/comparisons/mainlining-vs-simulacra.md`
-- `analysis/comparisons/cyber-manhunt-vs-simulacra.md`
+1. Steam App ID yoxlanıb: `1925970`
+2. `config/games.yaml` entry əlavə olunub
+3. `analysis/simulacra-3/research-kickoff.md` yaradılıb
 
-Növbəti məcburi Tier A target:
+Cari mağaza baseline-ı:
+- release: **25 oktyabr 2022**
+- developer: **Kaigan Games**
+- publisher: **Soft Source**
+- Steam all-review display: təxminən **328 rəy / 56% müsbət / Mixed**
 
-## SIMULACRA 3
+Növbəti addım lokal dataset pipeline-dır:
 
-Əsas məqsəd:
+```bash
+py -m src.pipeline --game simulacra-3
+py -m src.verify --game simulacra-3
+py -m src.theme_pipeline --game simulacra-3
+```
 
-> **Eyni found-device franchise-də ilk SIMULACRA-nın yüksək nəticə göstərən phone-as-world formulundan SIMULACRA 3-də nə dəyişib və hansı dəyişikliklər daha zəif oyunçu reaksiyası ilə əlaqəlidir?**
+Generated raw/processed/report/theme artefaktlarını push etdikdən sonra:
 
-Xüsusi baseline-lar:
+- mümkün olduğu halda bütün mənfi rəylərin semantic audit-i;
+- positive helpful/recent/playtime-stratified audit;
+- franchise/creator context;
+- `analysis/simulacra-3/theme-analysis.md`;
+- `analysis/simulacra-3/deep-research.md`;
+- `analysis/simulacra-3/presentation-brief.md`;
+- məcburi `analysis/comparisons/simulacra-vs-simulacra-3.md`.
 
-- phone/interface immersion;
-- information discovery;
-- app və media müxtəlifliyi;
-- writing və acting;
-- puzzle dərinliyi;
-- dialogue və qərar sərbəstliyi;
-- ending/consequence;
-- horror delivery;
-- pacing;
-- replayability;
-- phone-native affordance-lar.
+Əsas müqayisə hipotezi:
 
-SIMULACRA 2 master brief-də **Tier C kontekst** olaraq qalır. SIMULACRA 3 müqayisəsində konkret boşluq yaranarsa məqsədli şəkildə istifadə ediləcək; özbaşına full Tier A araşdırmaya qaldırılmır.
+> **SIMULACRA 3-də daha geniş town-scale scope və Atlas kimi formal investigation qatları ilk oyunun şəxsi məlumat intimacy-sini və sadə phone-native immersion-u gücləndirə də, zəiflədə də bilər; dataset hansı istiqamətin dominant olduğunu müəyyən edəcək.**
 
-Növbəti addım:
-
-1. SIMULACRA 3 Steam App ID və məhsul məlumatını yoxla;
-2. `config/games.yaml` entry əlavə et;
-3. `analysis/simulacra-3/research-kickoff.md` yarat;
-4. lokal dataset pipeline-ı `py` ilə işə sal;
-5. sonra `analysis/comparisons/simulacra-vs-simulacra-3.md` məcburi müqayisəsini tamamla.
-
-SIMULACRA-dan çıxan yeni oyunlararası prinsip:
-
-> **Interface-as-world modelində tanış cihazın ən böyük üstünlüyü tutorial yükünü azaltmaqdır; ən böyük borcu isə oyunçunun real həyatdan gətirdiyi affordance və davranış gözləntilərini ödəməkdir.**
+SIMULACRA 2 Tier C kontekst olaraq qalır və yalnız franchise fərqini izah etmək üçün lazım olan qədər araşdırılacaq.
 
 ---
 
