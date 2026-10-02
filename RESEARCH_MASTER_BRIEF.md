@@ -53,24 +53,34 @@ Yeni AI sessiyası və ya yeni komanda üzvü bu ardıcıllıqla başlamalıdır
 
 ## Oyun üzrə `analysis/<game>/` qovluğu üçün məcburi standart
 
-Tamamlanmış hər oyun qovluğunda **yalnız bu 3 fayl** saxlanmalıdır:
+Tamamlanmış hər tam araşdırma oyun qovluğunda **yalnız bu 4 fayl** saxlanmalıdır:
 
 ```text
 analysis/<game>/
 ├── research-kickoff.md
 ├── theme-analysis.md
-└── deep-research.md
+├── deep-research.md
+└── presentation-brief.md
 ```
 
 Rollar:
 
 - `research-kickoff.md` — məlumat toplanmazdan əvvəl məqsəd, əsas suallar və ilkin fərziyyələr;
 - `theme-analysis.md` — rəy məlumatları, mövzu statistikası və məna yönümlü yoxlamanın detallı dəlil qatı;
-- `deep-research.md` — komanda və rəhbərlik üçün əsas yekun oyun hesabatı.
+- `deep-research.md` — komanda və rəhbərlik üçün əsas yekun, ətraflı oyun hesabatı;
+- `presentation-brief.md` — görüşlərdə 2–5 dəqiqəyə oyunu izah etmək üçün qısa, amma dolu təqdimat xülasəsi.
 
-Araşdırma zamanı yaradılan aralıq audit, korpus yoxlaması, qeydlər və sınaq faylları son nəticələr bu üç sənədə inteqrasiya edildikdən sonra `analysis/<game>/` qovluğunda saxlanmamalıdır. Lazım gəlsə onların tarixçəsi Git-də qalır.
+Araşdırma zamanı yaradılan aralıq yoxlama, korpus qeydləri və sınaq faylları son nəticələr bu dörd sənədə inteqrasiya edildikdən sonra `analysis/<game>/` qovluğunda saxlanmamalıdır. Lazım gəlsə onların tarixçəsi Git-də qalır.
 
-Bu qaydanın məqsədi bütün oyunlarda eyni naviqasiya və sənəd strukturu saxlamaqdır.
+Tövsiyə edilən oxu ardıcıllığı:
+1. sürətli məlumat üçün `presentation-brief.md`;
+2. ətraflı nəticə üçün `deep-research.md`;
+3. rəqəmləri və rəy dəlillərini yoxlamaq üçün `theme-analysis.md`;
+4. ilkin fərziyyələri görmək üçün `research-kickoff.md`.
+
+Bütün repo üzrə daha ətraflı oxu bələdçisi: `analysis/README.md`.
+
+Bu qaydanın məqsədi bütün oyunlarda eyni naviqasiya, sənəd strukturu və komanda təqdimatı formatı saxlamaqdır.
 
 Sənədlərin rolu:
 
@@ -79,10 +89,12 @@ Sənədlərin rolu:
 | `RESEARCH_MASTER_BRIEF.md` | Layihənin məqsədi, metodologiyası, deliverable standartı və cari araşdırma istiqaməti |
 | `AGENTS.md` | Kod, məlumat collection, reproducibility və pipeline qaydaları |
 | `README.md` | Texniki setup və command-lar |
+| `analysis/README.md` | Hesabatların rolu və tövsiyə edilən oxuma ardıcıllığı |
 | `data/raw/<game>/` | Mənbədən gələn dəyişdirilməmiş xam məlumat |
 | `data/processed/<game>/` | Təmizlənmiş və təhlil-ready məlumat |
 | `data/reports/<game>/summary.md` | Avtomatik, deterministik statistik xülasə; interpretasiya etmir |
-| `analysis/<game>/deep-research.md` | Həmin oyun üzrə qualitative + quantitative + external araşdırma interpretasiyası |
+| `analysis/<game>/presentation-brief.md` | Komanda görüşləri üçün 2–5 dəqiqəlik yığcam oyun təqdimatı |
+| `analysis/<game>/deep-research.md` | Həmin oyun üzrə keyfiyyət və kəmiyyət məlumatlarını birləşdirən ətraflı yekun araşdırma |
 | `analysis/comparisons/` | Oxşar oyunların birbaşa müqayisəsi |
 | `analysis/final/` | Rəhbərliyə və komanda qərarlarına təqdim ediləcək yekun sənədlər |
 
@@ -420,8 +432,8 @@ hazırlanmalıdır.
 | Hacknet | Terminal/özünü haker kimi hiss etmə və əlçatanlıq baseline | **Tamamlanıb** |
 | Midnight Protocol | taktiki/system-dərinlik contrast | **Tamamlanıb** |
 | Cyber Manhunt | Information/məntiqi nəticə çıxarma və social-engineering modeli | **Tamamlanıb** |
-| The Operator | Focused dəlil-təhlil və modern araşdırma UX | **Növbəti** |
-| Orwell: Keeping an Eye On You | Surveillance, information selection, ethics | Not started |
+| The Operator | Məqsədli dəlil təhlili və müasir araşdırma UX | **Tamamlanıb** |
+| Orwell: Keeping an Eye On You | Müşahidə, məlumat seçimi və etika | **Tamamlanıb** |
 | Mainlining | Hacking + araşdırma + seçim; underperforming comparator | Not started |
 | SIMULACRA | Found-device/phone araşdırma baseline | Not started |
 | SIMULACRA 3 | Eyni franchise daxilində weaker outcome müqayisə | Not started |
@@ -814,15 +826,41 @@ Bu sənəd sadəcə mənbə summary deyil; **dizayn/məhsul interpretation** olm
 
 ---
 
-## 10.0. Hər oyun üçün standart üç fayl
+## Mərhələ 14 — Təqdimat xülasəsi
 
-Tier A oyunları və tam araşdırılan digər oyunlar üçün `analysis/<game>/` qovluğu mümkün qədər eyni üç fayldan ibarət olmalıdır:
+Dərin araşdırma tamamlandıqdan sonra:
+
+`analysis/<game>/presentation-brief.md`
+
+hazırlanmalıdır.
+
+Bu fayl komanda və rəhbərlik görüşündə 2–5 dəqiqəlik təqdimat üçün nəzərdə tutulur və aşağıdakı suallara qısa cavab verməlidir:
+
+1. Oyun nədir və əsas rol hissi nədir?
+2. Əsas bazar/rəy göstəriciləri hansılardır?
+3. Oyunçu niyə başlayır?
+4. Oyunçu niyə davam edir?
+5. Ən güclü tərəflər hansılardır?
+6. Ən zəif tərəflər hansılardır?
+7. Kommersiya nəticəsi haqqında hansı faktiki siqnallar var?
+8. Uğuru və ya zəif nəticəni izah edən əsas hipotezlər hansılardır?
+9. Bizim layihə üçün nəyi götürmək, nədən qaçmaq lazımdır?
+10. Oyunu bir cümlədə necə yekunlaşdırmaq olar?
+
+Satış rəqəmi açıq və etibarlı mənbədən məlum deyilsə, uydurma və ya estimate dəqiq satış kimi yazılmamalıdır. Steam rəy həcmi və digər siqnallar ayrıca göstərilməli, səbəb izahları **hipotez** kimi işarələnməlidir.
+
+---
+
+## 10.0. Hər oyun üçün standart dörd fayl
+
+Tier A oyunları və tam araşdırılan digər oyunlar üçün `analysis/<game>/` qovluğu eyni dörd fayldan ibarət olmalıdır:
 
 ```text
 analysis/<game>/
 ├── research-kickoff.md
 ├── theme-analysis.md
-└── deep-research.md
+├── deep-research.md
+└── presentation-brief.md
 ```
 
 Bu faylların rolları fərqlidir:
@@ -865,7 +903,23 @@ Burada:
 
 birləşdirilir və komandanın istifadə edə biləcəyi nəticələr çıxarılır.
 
-Komanda üzvü bir oyun haqqında yalnız bir sənəd oxuyacaqsa, ilk seçim `deep-research.md` olmalıdır.
+Komanda üzvü bir oyun haqqında ətraflı yalnız bir sənəd oxuyacaqsa, `deep-research.md` seçilməlidir.
+
+### `presentation-brief.md`
+
+Komanda görüşü və rəhbərlik təqdimatı üçün yığcam xülasədir.
+
+Mütləq ehtiva etməlidir:
+- bir cümləlik əsas nəticə;
+- oyun və bazar/rəy göstəriciləri;
+- əsas rol hissi;
+- oyunçunun başlama və davam etmə motivləri;
+- güclü və zəif tərəflər;
+- kommersiya nəticəsinin faktiki siqnalları;
+- uğur/zəiflik izah hipotezləri;
+- bizim layihə üçün götürüləcək və qaçılacaq məqamlar.
+
+Bu fayl yeni dəlil mənbəyi deyil; `deep-research.md`, `theme-analysis.md` və yoxlanmış məlumatlardan yığcamlaşdırılır.
 
 ---
 
@@ -1554,7 +1608,7 @@ Tamamlanma meyarı yalnız “bütün siyahını oxuduq” demək deyil. araşd�
 
 ### A. Məcburi əhatə
 
-- bütün **Tier A** oyunları tamamlanıb və ya çıxarılma səbəbi sənədləşdirilib;
+- bütün **Tier A** oyunları tamamlanıb və ya çıxarılma səbəbi sənədləşdirilib; tamamlanmış hər Tier A oyunda standart dörd fayl, o cümlədən `presentation-brief.md`, hazırdır;
 - terminal və hakerlik, digital araşdırma, surveillance/information-selection və found-device/interface istiqamətlərinin hər birində ən azı bir güclü reference və bir contrast nümunəsi var.
 
 ### B. Məcburi müqayisə-lar
@@ -1562,7 +1616,7 @@ Tamamlanma meyarı yalnız “bütün siyahını oxuduq” demək deyil. araşd�
 Minimum aşağıdakı müqayisə-lar olmalıdır:
 
 - Hacknet vs Midnight Protocol — **tamamlanıb**;
-- Cyber Manhunt vs The Operator — planned;
+- Cyber Manhunt vs The Operator — **tamamlanıb**;
 - Cyber Manhunt vs Mainlining — planned;
 - Orwell vs Need to Know — planned;
 - SIMULACRA vs SIMULACRA 3 — planned.
@@ -1824,6 +1878,7 @@ Bu bölmə yeni sessiyada “nə hazırdır?” sualının əsas istinad-udur.
 - ✅ `RESEARCH_MASTER_BRIEF.md`
 - ✅ `AGENTS.md`
 - ✅ `README.md`
+- ✅ `analysis/README.md`
 - ✅ `config/games.yaml`
 - ✅ `config/theme_taxonomy.yaml`
 - ✅ `config/aspect_taxonomy.yaml`
@@ -1836,6 +1891,7 @@ Bu bölmə yeni sessiyada “nə hazırdır?” sualının əsas istinad-udur.
 - ✅ `analysis/hacknet/research-kickoff.md` — ilkin araşdırma planı; tamamlandıqdan sonra tarixi kontekst kimi saxlanılır
 - ✅ `analysis/hacknet/theme-analysis.md`
 - ✅ `analysis/hacknet/deep-research.md`
+- ✅ `analysis/hacknet/presentation-brief.md`
 
 ### Midnight Protocol — complete
 
@@ -1844,6 +1900,7 @@ Bu bölmə yeni sessiyada “nə hazırdır?” sualının əsas istinad-udur.
 - ✅ `data/processed/midnight-protocol/themes/statistics.json`
 - ✅ `analysis/midnight-protocol/theme-analysis.md`
 - ✅ `analysis/midnight-protocol/deep-research.md`
+- ✅ `analysis/midnight-protocol/presentation-brief.md`
 - ℹ️ `analysis/midnight-protocol/research-kickoff.md` — historical planlama context, superseded
 
 ### Cyber Manhunt — complete
@@ -1853,6 +1910,7 @@ Bu bölmə yeni sessiyada “nə hazırdır?” sualının əsas istinad-udur.
 - ✅ `data/processed/cyber-manhunt/themes/statistics.json`
 - ✅ `analysis/cyber-manhunt/theme-analysis.md`
 - ✅ `analysis/cyber-manhunt/deep-research.md`
+- ✅ `analysis/cyber-manhunt/presentation-brief.md`
 - ℹ️ `analysis/cyber-manhunt/research-kickoff.md` — historical planlama context, superseded
 
 ### Completed comparisons
@@ -1862,30 +1920,34 @@ Bu bölmə yeni sessiyada “nə hazırdır?” sualının əsas istinad-udur.
 
 ### The Operator — complete
 
-- ✅ verified Steam məlumat toplusu: **3,781 rəylər**
+- ✅ verified Steam məlumat toplusu: **3,781 rəy**
 - ✅ `data/reports/the-operator/summary.md`
 - ✅ `data/reports/the-operator/theme-candidates.md`
 - ✅ `data/processed/the-operator/themes/statistics.json`
 - ✅ `analysis/the-operator/theme-analysis.md`
 - ✅ `analysis/the-operator/deep-research.md`
+- ✅ `analysis/the-operator/presentation-brief.md`
 - ✅ `analysis/comparisons/cyber-manhunt-vs-the-operator.md`
 - ℹ️ `analysis/the-operator/research-kickoff.md` — historical planlama context, superseded
 
 ### Orwell — complete
 
-- ✅ verified Steam məlumat toplusu: **8,549 rəylər**
+- ✅ verified Steam məlumat toplusu: **8,549 rəy**
 - ✅ `data/reports/orwell/summary.md`
-- ⏳ deterministic v5 mövzu artifacts — local `theme_pipeline` run/push pfinal
+- ⏳ deterministik v5 mövzu faylları — yerli `theme_pipeline` işlədilib push edilməlidir
 - ✅ `analysis/orwell/theme-analysis.md`
 - ✅ `analysis/orwell/deep-research.md`
+- ✅ `analysis/orwell/presentation-brief.md`
 - ℹ️ `analysis/orwell/research-kickoff.md` — historical planlama context, superseded
 
 ### Need to Know — current focused comparator
 
 - ✅ `analysis/need-to-know/research-kickoff.md`
-- ⏳ Steam məlumat toplusu — pfinal
-- ⏳ focused araşdırma — pfinal
-- ⏳ `analysis/comparisons/orwell-vs-need-to-know.md` — pfinal
+- ⏳ Steam məlumat toplusu — gözlənilir
+- ⏳ məqsədli araşdırma — gözlənilir
+- ⏳ `analysis/comparisons/orwell-vs-need-to-know.md` — gözlənilir
+
+Need to Know araşdırması tamamlandıqda `analysis/need-to-know/presentation-brief.md` də standart çıxış kimi hazırlanmalıdır.
 
 ### Final package
 
