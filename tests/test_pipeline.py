@@ -6,7 +6,7 @@ from unittest.mock import Mock
 import requests
 from src.common.config import load_game
 from src.common.http import get_json
-from src.common.io import read_jsonl, write_text, sha256
+from src.common.io import read_jsonl, write_text, write_csv, sha256
 from src.collectors.steam_metadata import normalize_metadata
 from src.collectors.steam_reviews import collect, validate
 from src.processors.clean_reviews import normalize, samples
@@ -109,6 +109,15 @@ class DeterministicTests(unittest.TestCase):
             lf.write_bytes(b'one\ntwo\n')
             crlf.write_bytes(b'one\r\ntwo\r\n')
             self.assertEqual(sha256(lf), sha256(crlf))
+
+    def test_csv_preserves_embedded_crlf(self):
+        with tempfile.TemporaryDirectory() as folder:
+            path = Path(folder) / 'rows.csv'
+            write_csv(path, [{'text': 'one\r\ntwo'}], ['text'])
+            with path.open(encoding='utf-8', newline='') as handle:
+                import csv
+                rows = list(csv.DictReader(handle))
+            self.assertEqual(rows, [{'text': 'one\r\ntwo'}])
 
 
 class CollectorTests(unittest.TestCase):
