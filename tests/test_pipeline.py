@@ -132,6 +132,21 @@ class DeterministicTests(unittest.TestCase):
         self.assertIn('SOUND_AUDIO', detected)
         self.assertIn('IMMERSION', detected)
 
+    def test_tactical_hacking_theme_detection(self):
+        taxonomy = load_taxonomy()
+        detected = detect_themes(
+            'This keyboard-only turn-based game has great loadout choices, '
+            'but RNG forced me to rollback the mission after the trace meter filled.',
+            taxonomy
+        )
+        self.assertIn('KEYBOARD_ONLY', detected)
+        self.assertIn('TACTICAL_TURN_BASED', detected)
+        self.assertIn('LOADOUT_BUILD', detected)
+        self.assertIn('RNG_FAIRNESS', detected)
+        self.assertIn('RETRY_ROLLBACK', detected)
+        self.assertIn('URGENCY_TRACE', detected)
+
+
     def test_theme_candidate_statistics_are_not_aspect_sentiment(self):
         taxonomy = load_taxonomy()
         positive = normalize(review(review='Great story but very repetitive same commands.'), GAME)
