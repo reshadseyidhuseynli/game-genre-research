@@ -68,6 +68,44 @@ def _rank(rows, sentiment, size):
     )[:size]
 
 
+def _audit_sample(rows, size):
+    """Deterministic balanced sample across recommendation and playtime cohorts."""
+    if size <= 0:
+        return []
+    buckets = []
+    for sentiment in ('positive', 'negative'):
+        for segment in ('0-1h', '1-3h', '3-10h', '10h+', 'unknown'):
+            subset = [
+                row for row in rows
+                if row.get('overall_sentiment') == sentiment and row.get('playtime_segment') == segment
+            ]
+            subset = sorted(
+                subset,
+                key=lambda row: (
+                    -(row.get('review_length_words') or 0),
+                    -(row.get('votes_up') or 0),
+                    row['review_id'],
+                )
+            )
+            if subset:
+                buckets.append(subset)
+
+    selected = []
+    offset = 0
+    while len(selected) < size:
+        progressed = False
+        for bucket in buckets:
+            if offset < len(bucket):
+                selected.append(bucket[offset])
+                progressed = True
+                if len(selected) == size:
+                    break
+        if not progressed:
+            break
+        offset += 1
+    return selected
+
+
 def calculate(rows, taxonomy, sample_size):
     theme_rows = {name: [] for name in taxonomy['themes']}
     candidates = []
@@ -133,6 +171,7 @@ def calculate(rows, taxonomy, sample_size):
         samples[name] = {
             'positive': _rank(subset, 'positive', sample_size),
             'negative': _rank(subset, 'negative', sample_size),
+            'audit': _audit_sample(subset, sample_size),
         }
     return candidates, stats, samples
 
@@ -146,6 +185,7 @@ def generate(game, data_dir, taxonomy_path=DEFAULT_TAXONOMY):
     candidates, stats, samples = calculate(rows, taxonomy, game['sample_size'])
 
     target = data_dir / 'processed' / game['key'] / 'themes'
+    stats['source_reviews_sha256'] = sha256(source)
     write_jsonl(target / 'candidates.jsonl', candidates)
     write_json(target / 'statistics.json', stats)
 
