@@ -1,10 +1,10 @@
-# Hacknet vs Midnight Protocol — Dizayn və Player Response Müqayisəsi
+# Hacknet vs Midnight Protocol — Dizayn və oyunçu Response Müqayisəsi
 
-## 1. Comparison Question
+## 1. müqayisə Question
 
 Bu müqayisənin əsas sualı:
 
-> **Eyni geniş “terminal/hacking” fantasy-si daxilində Hacknet-in sadə, real-time və accessibility-first modeli ilə Midnight Protocol-un daha dərin, turn-based və tactical modeli oyunçu təcrübəsini necə dəyişir?**
+> **Eyni geniş “terminal/hacking” fantasy-si daxilində Hacknet-in sadə, real-time və əlçatanlıq-first modeli ilə Midnight Protocol-un daha dərin, turn-based və tactical modeli oyunçu təcrübəsini necə dəyişir?**
 
 Məqsəd “hansı oyun daha yaxşıdır?” demək deyil.
 
@@ -12,7 +12,7 @@ Məqsəd:
 
 - hansı problem hansı yanaşma ilə həll olunur;
 - hansı yeni risk yaranır;
-- hansı design principle iki oyunda da təkrarlanır;
+- hansı dizayn principle iki oyunda da təkrarlanır;
 - gələcək yeni concept üçün hansı middle-ground daha güclü görünür
 
 suallarına cavab verməkdir.
@@ -24,12 +24,12 @@ suallarına cavab verməkdir.
 Ortaq əsaslar:
 
 - hacker fantasy;
-- terminal/keyboard interaction;
+- terminal/keyboard qarşılıqlı əlaqə;
 - fictional computer environment;
-- single-player;
-- story-driven structure;
+- single-oyunçu;
+- hekayə-driven structure;
 - real texniki terminlərin seçilmiş istifadəsi;
-- abstract hacking mechanics;
+- abstract hacking mexanikalar;
 - network/system infiltration;
 - indie production;
 - computer interface-in oyunun özünə çevrilməsi.
@@ -44,44 +44,44 @@ Midnight Protocol
 turn-based planning + tactical/loadout system
 ```
 
-Bu fərq bizə **accessibility ↔ depth** trade-off-unun real player response-a necə təsir etdiyini görməyə imkan verir.
+Bu fərq bizə **əlçatanlıq ↔ dərinlik** trade-off-unun real oyunçu response-a necə təsir etdiyini görməyə imkan verir.
 
 ---
 
-# 3. Dataset snapshot
+# 3. məlumat toplusu snapshot
 
 | Metrik | Hacknet | Midnight Protocol |
 |---|---:|---:|
 | Verified English Steam reviews | 11,773 | 301 |
-| Positive | 11,082 | 253 |
-| Negative | 691 | 48 |
-| Positive ratio | **94.13%** | **84.05%** |
-| Avg playtime — positive review | 13.06h | 17.01h |
-| Avg playtime — negative review | 4.40h | 5.59h |
-| Median playtime | — | 11.70h |
+| müsbət | 11,082 | 253 |
+| mənfi | 691 | 48 |
+| müsbət ratio | **94.13%** | **84.05%** |
+| Avg oyun müddəti — müsbət rəy | 13.06h | 17.01h |
+| Avg oyun müddəti — mənfi rəy | 4.40h | 5.59h |
+| Median oyun müddəti | — | 11.70h |
 
-Dataset ölçüləri çox fərqlidir. Buna görə absolute mention count-lar oyunlar arasında birbaşa müqayisə edilmir.
+məlumat toplusu ölçüləri çox fərqlidir. Buna görə absolute mention count-lar oyunlar arasında birbaşa müqayisə edilmir.
 
-Əsas comparison:
+Əsas müqayisə:
 
-- pattern direction;
+- nümunə direction;
 - baseline-a nisbət;
-- semantic audit;
-- playtime cohort shape;
-- developer intent.
+- məna yönümlü yoxlama;
+- oyun müddəti cohort shape;
+- yaradıcı intent.
 
 ---
 
-# 4. Playtime cohort müqayisəsi
+# 4. oyun müddəti cohort müqayisəsi
 
-| Playtime | Hacknet positive | Midnight Protocol positive |
+| oyun müddəti | Hacknet müsbət | Midnight Protocol müsbət |
 |---|---:|---:|
 | 0–1h | **67.05%** | 76.19% |
 | 1–3h | 86.59% | **62.22%** |
 | 3–10h | 95.79% | 75.95% |
 | 10h+ | 98.57% | 95.51% |
 
-Bu table ən vacib comparison siqnallarından biridir.
+Bu table ən vacib müqayisə siqnallarından biridir.
 
 ## Hacknet
 
@@ -89,7 +89,7 @@ Bu table ən vacib comparison siqnallarından biridir.
 
 > **ilk saat**
 
-Terminal və command vocabulary dərhal friction yarada bilər.
+Terminal və command vocabulary dərhal çətinlik yarada bilər.
 
 Amma oyunu keçən reviewer cohort-larda recommendation sürətlə yüksəlir.
 
@@ -101,14 +101,14 @@ Amma oyunu keçən reviewer cohort-larda recommendation sürətlə yüksəlir.
 
 > **1–3 saat**
 
-Yəni tutorialın özü yox, tutorialdan sonra:
+Yəni təlim hissəsiın özü yox, tutorialdan sonra:
 
 - loadout;
 - RNG;
 - trace;
 - SysOp;
 - limited slots;
-- failure/retry
+- uğursuzluq/retry
 
 birlikdə işləməyə başlayanda satisfaction düşür.
 
@@ -118,7 +118,7 @@ birlikdə işləməyə başlayanda satisfaction düşür.
 
 ---
 
-# 5. Hook və Player Fantasy
+# 5. Hook və oyunçu Fantasy
 
 ## Hacknet
 
@@ -145,7 +145,7 @@ Fantasy daha layered-dir:
 
 > “Keyboard ilə network daxilində tactical hacker oluram və hansı hacker olmaq istədiyimə qərar verirəm.”
 
-Əlavə layer-lər:
+Əlavə qat-lər:
 
 - loadout;
 - tactical network;
@@ -165,13 +165,13 @@ Bu trade-off-dur, superiority deyil.
 
 # 6. Realizm: hər iki oyun eyni fundamental nəticəyə gəlir
 
-Hacknet developer intent:
+Hacknet yaradıcı intent:
 
 > oyunçunu hacker kimi hiss etdirmək.
 
-Midnight Protocol developer intent:
+Midnight Protocol yaradıcı intent:
 
-> fun game first, hacking theme second.
+> fun game first, hacking mövzu second.
 
 Hər iki oyunda:
 
@@ -183,20 +183,20 @@ istifadə edilir.
 
 Amma heç biri full real-world hacking simulation deyil.
 
-Player feedback də bunu əsasən qəbul edir.
+oyunçu geribildirim də bunu əsasən qəbul edir.
 
-## Cross-game principle
+## oyunlararası principle
 
-> **Bu janr üçün full realism tələb deyil. Selective authenticity + coherent fantasy daha sağlam hədəfdir.**
+> **Bu janr üçün tam realizm tələb deyil. seçilmiş həqiqilik hissi + ardıcıl fantasy daha sağlam hədəfdir.**
 
-Realism yalnız:
+realizm yalnız:
 
 - marketing “real simulator” expectation yaradanda;
 - interface real sistemə çox bənzəyib davranışı fərqli olanda
 
 problemə çevrilir.
 
-**Confidence: High**
+**etibarlılıq: High**
 
 ---
 
@@ -206,7 +206,7 @@ problemə çevrilir.
 
 Terminal:
 
-- əsas fantasy driver;
+- əsas fantasy amil;
 - GUI ilə birlikdə işləyir;
 - technical user real Unix behavior gözləyə bilər.
 
@@ -219,14 +219,14 @@ Terminal:
 Keyboard-only:
 
 - daha güclü thematic commitment;
-- distinctive product identity;
-- developer tərəfindən əsas immersion source kimi dizayn edilib.
+- distinctive məhsul identity;
+- yaradıcı tərəfindən əsas oyuna dalma hissi source kimi dizayn edilib.
 
 Əsas complaint:
 
 > “click-lə daha sürətli edəcəyim şeyi niyə yazmalıyam?”
 
-### Cross-game nəticə
+### oyunlararası nəticə
 
 Terminal/keyboard iki ayrı problem yaradır:
 
@@ -262,9 +262,9 @@ probe
 
 Problem:
 
-- pattern tez görünür;
+- nümunə tez görünür;
 - tool = key olur;
-- decision density aşağı düşür.
+- qərar density aşağı düşür.
 
 ## Midnight Protocol
 
@@ -282,15 +282,15 @@ intel
 
 Üstünlük:
 
-- daha çox planning;
+- daha çox planlama;
 - build;
 - tactical route;
 - resource management;
-- consequence.
+- nəticə.
 
 Problem:
 
-- complexity;
+- mürəkkəblik;
 - hidden information;
 - RNG;
 - repetitive low-value commands;
@@ -298,44 +298,44 @@ Problem:
 
 ### Əsas lesson
 
-> **Hacknet-də problem “too little decision”; Midnight Protocol-da risk “too much system friction”.**
+> **Hacknet-də problem “too little qərar”; Midnight Protocol-da risk “too much system çətinlik”.**
 
-Gələcək concept üçün məqsəd “daha çox mechanic” deyil.
+Gələcək concept üçün məqsəd “daha çox mexanika” deyil.
 
 Məqsəd:
 
-> **yüksək meaningful-decision density.**
+> **yüksək meaningful-qərar density.**
 
 ---
 
-# 9. Repetition
+# 9. təkrarçılıq
 
 ## Hacknet
 
-REPETITION candidate:
+təkrarçılıq namizəd:
 
 - 517 reviews;
-- 23.21% negative review ratio;
-- Hacknet baseline-dan **3.95×** yüksək negative concentration.
+- 23.21% mənfi rəy ratio;
+- Hacknet baseline-dan **3.95×** yüksək mənfi concentration.
 
-Repetition core failure pattern-dir.
+təkrarçılıq core uğursuzluq nümunə-dir.
 
 ## Midnight Protocol
 
-REPETITION candidate:
+təkrarçılıq namizəd:
 
 - 19 reviews;
-- 36.84% negative;
+- 36.84% mənfi;
 - Midnight baseline-dan **2.31×** yüksək.
 
-Absolute negative rate daha yüksəkdir, amma relative-to-game baseline daha zəifdir.
+Absolute mənfi rate daha yüksəkdir, amma relative-to-game baseline daha zəifdir.
 
-Midnight Protocol repetition-ı tam həll etmir, amma:
+Midnight Protocol təkrarçılıq-ı tam həll etmir, amma:
 
 - loadout;
-- mission-specific mechanics;
+- mission-specific mexanikalar;
 - SysOps;
-- choices;
+- seçimlər;
 - bosses;
 - handcrafted levels
 
@@ -343,31 +343,31 @@ variation yaradır.
 
 ### Nəticə
 
-> **System depth repetition-ı azalda bilir, amma fundamental action grammar dəyişmirsə tam yox etmir.**
+> **System dərinlik təkrarçılıq-ı azalda bilir, amma fundamental action grammar dəyişmirsə tam yox etmir.**
 
-**Confidence: High**
+**etibarlılıq: High**
 
 ---
 
-# 10. Depth
+# 10. dərinlik
 
 ## Hacknet
 
-Depth daha çox:
+dərinlik daha çox:
 
-- story context;
+- hekayə context;
 - exploration;
 - optional files
 
 tərəfdən gəlir.
 
-Hacking mechanic-in özü nisbətən sadədir.
+Hacking mexanika-in özü nisbətən sadədir.
 
 ## Midnight Protocol
 
-Depth birbaşa gameplay system-dən gəlir:
+dərinlik birbaşa oyun gedişi system-dən gəlir:
 
-- action economy;
+- hərəkət büdcəsi;
 - loadout;
 - memory/slices;
 - stealth/aggression;
@@ -380,40 +380,40 @@ Bu Hacknet-in əsas mexaniki boşluğunu həll edir.
 
 Amma əlavə risk:
 
-- tutorial complexity;
+- təlim hissəsi mürəkkəblik;
 - bad RNG;
 - dominant/məcburi tool-lar;
 - wrong build;
-- retry friction.
+- retry çətinlik.
 
 ### Principle
 
-> **Depth əlavə ediləndə onun information cost-u, learning cost-u və failure cost-u birlikdə dizayn edilməlidir.**
+> **dərinlik əlavə ediləndə onun information cost-u, learning cost-u və uğursuzluq cost-u birlikdə dizayn edilməlidir.**
 
 ---
 
-# 11. Failure modeli
+# 11. uğursuzluq modeli
 
 Bu iki oyunun ən vacib fərqlərindən biridir.
 
 ## Hacknet
 
-Player failure çox vaxt:
+oyunçu uğursuzluq çox vaxt:
 
 - speed;
 - timing;
-- command execution;
+- əmrlərin icrası;
 - trace
 
 ilə əlaqələndirilə bilir.
 
-Player deyə bilir:
+oyunçu deyə bilir:
 
 > “mən daha yaxşı etməliydim.”
 
 ## Midnight Protocol
 
-Failure bəzən:
+uğursuzluq bəzən:
 
 - random trace;
 - SysOp movement;
@@ -423,15 +423,15 @@ Failure bəzən:
 
 ilə gəlir.
 
-Player deyə bilər:
+oyunçu deyə bilər:
 
 > “bu dəfə roll pis idi.”
 
 Bu mastery loop üçün daha təhlükəlidir.
 
-### Cross-game principle
+### oyunlararası principle
 
-> **Failure oyuncuya öz qərarı haqqında information verməlidir.**
+> **uğursuzluq oyuncuya öz qərarı haqqında information verməlidir.**
 
 Randomness:
 
@@ -444,7 +444,7 @@ amma əsas nəticəni izah edən dominant faktor olmamalıdır.
 
 # 12. Retry və Recovery
 
-Hacknet failure-dan sonra retry daha conventional hiss olunur.
+Hacknet uğursuzluq-dan sonra retry daha conventional hiss olunur.
 
 Midnight Protocol-da isə:
 
@@ -458,19 +458,19 @@ daha çox complaint yaradır.
 
 Bu çox vacib lesson-dir:
 
-> **Challenge design ilə recovery design bir sistemdir.**
+> **çətinlik dizayn ilə recovery dizayn bir sistemdir.**
 
 Difficult mission yaxşı ola bilər.
 
-Difficult mission + incomplete information + random failure + weak recovery birlikdə frustration yaradır.
+Difficult mission + incomplete information + random uğursuzluq + weak recovery birlikdə frustration yaradır.
 
 ---
 
-# 13. Story
+# 13. hekayə
 
 ## Hacknet
 
-Story:
+hekayə:
 
 - mystery;
 - email;
@@ -478,15 +478,15 @@ Story:
 - hidden systems;
 - scripted memorable moments.
 
-Fantasy-ni daşıyır və repetition-a context verir.
+Fantasy-ni daşıyır və təkrarçılıq-a context verir.
 
 ## Midnight Protocol
 
-Story:
+hekayə:
 
-- 45.18% candidate coverage;
-- tactical gameplay;
-- choice;
+- 45.18% namizəd əhatə;
+- tactical oyun gedişi;
+- seçim;
 - reputation;
 - side missions;
 - endings
@@ -495,19 +495,19 @@ ilə daha sistemik inteqrasiya olunur.
 
 ### Ortaq nəticə
 
-Hər iki oyunda story “əlavə content” deyil.
+Hər iki oyunda hekayə “əlavə content” deyil.
 
-> **Story core retention sistemidir.**
+> **hekayə core oyunda qalma sistemidir.**
 
 ### Fərq
 
 Hacknet:
 
-> story-ni əsasən tapırsan.
+> hekayə-ni əsasən tapırsan.
 
 Midnight Protocol:
 
-> story-ni tapırsan və qismən formalaşdırırsan.
+> hekayə-ni tapırsan və qismən formalaşdırırsan.
 
 ---
 
@@ -533,13 +533,13 @@ hissi güclüdür.
 
 ## Midnight Protocol
 
-Optional data və secrets var.
+Optional məlumat və secrets var.
 
-Amma tactical board layer daha dominantdır.
+Amma tactical board qat daha dominantdır.
 
-Choice/reputation daha güclü olsa da organic snooping Hacknet-də daha təbii görünür.
+seçim/reputation daha güclü olsa da organic snooping Hacknet-də daha təbii görünür.
 
-### Opportunity
+### imkan
 
 Gələcək oyun üçün ən güclü hybrid:
 
@@ -551,29 +551,29 @@ Midnight Protocol-style meaningful choices/consequences
 
 ---
 
-# 15. Player Agency və Consequences
+# 15. oyunçu qərar sərbəstliyi və nəticələr
 
 ## Hacknet
 
-Theme analysis-də:
+mövzu təhlil-də:
 
-- PLAYER_AGENCY negative concentration: 2.77× baseline;
+- PLAYER_AGENCY mənfi concentration: 2.77× baseline;
 - WORLD_REACTIVITY: 3.55× baseline.
 
 Aşağı volume, amma complaint aydındır:
 
 - linearity;
-- log-ların real consequence yaratmaması;
+- log-ların real nəticə yaratmaması;
 - world response zəifliyi.
 
 ## Midnight Protocol
 
-Choice/reputation:
+seçim/reputation:
 
-- yüksək positive signal;
-- long-play review-lərdə güclü satisfaction driver.
+- yüksək müsbət signal;
+- long-play rəy-lərdə güclü satisfaction amil.
 
-Player:
+oyunçu:
 
 - moral direction;
 - mission;
@@ -587,13 +587,13 @@ Player:
 
 Midnight Protocol Hacknet-in əsas boşluqlarından birini real şəkildə həll edir:
 
-> **player identity və consequence.**
+> **oyunçu identity və nəticə.**
 
-Amma bəzən consequence həddindən artıq permanent hiss olunur.
+Amma bəzən nəticə həddindən artıq permanent hiss olunur.
 
 Optimal sistem:
 
-> meaningful, visible, recoverable-but-not-free consequence.
+> meaningful, visible, recoverable-but-not-free nəticə.
 
 ---
 
@@ -601,7 +601,7 @@ Optimal sistem:
 
 ## Hacknet
 
-ONBOARDING candidate relative negative concentration:
+ONBOARDING namizəd relative mənfi concentration:
 
 **2.14× baseline**
 
@@ -609,28 +609,28 @@ ONBOARDING candidate relative negative concentration:
 
 - terminal vocabulary;
 - nə etməli olduğunu bilməmək;
-- returning-player memory.
+- returning-oyunçu memory.
 
 ## Midnight Protocol
 
-Overall ONBOARDING candidate baseline-a yaxındır.
+Overall ONBOARDING namizəd baseline-a yaxındır.
 
-Amma playtime cohort ciddi problem göstərir:
+Amma oyun müddəti cohort ciddi problem göstərir:
 
-- 1–3h positive ratio yalnız 62.22%.
+- 1–3h müsbət ratio yalnız 62.22%.
 
-Burada problem basic tutorial deyil.
+Burada problem basic təlim hissəsi deyil.
 
 Problem:
 
 > **systems onboarding.**
 
-### Cross-game principle
+### oyunlararası principle
 
 Onboarding üç mərhələ olmalıdır:
 
 1. **control onboarding** — hansı düymə/command;
-2. **system onboarding** — mechanic-lər necə interaction edir;
+2. **system onboarding** — mexanika-lər necə qarşılıqlı əlaqə edir;
 3. **strategy onboarding** — yaxşı qərar necə görünür.
 
 Hər iki oyun fərqli mərhələdə problem yaşayır.
@@ -642,10 +642,10 @@ Hər iki oyun fərqli mərhələdə problem yaşayır.
 Hər iki oyunda:
 
 - sound/music;
-- terminal feedback;
+- terminal geribildirim;
 - cyber visual language
 
-güclü positive signal verir.
+güclü müsbət signal verir.
 
 Hacknet-də soundtrack xüsusilə iconic praise alır.
 
@@ -653,7 +653,7 @@ Midnight Protocol-da presentation çox bəyənilir, amma soundtrack variety üç
 
 ### Principle
 
-> **Computer-interface janrında audiovisual feedback normal UI polish deyil; gameplay fantasy-nin bir hissəsidir.**
+> **Computer-interface janrında audiovisual geribildirim normal UI polish deyil; oyun gedişi fantasy-nin bir hissəsidir.**
 
 ---
 
@@ -673,7 +673,7 @@ Yadda qalan:
 
 Yadda qalan:
 
-- story twists;
+- hekayə twists;
 - special handcrafted missions;
 - fourth-wall secrets;
 - game/save-file ilə oynayan easter egg-lər;
@@ -685,21 +685,21 @@ Hər iki oyun göstərir:
 
 > **normal rule set-i nadir hallarda pozan momentlər uzunmüddətli yaddaş yaradır.**
 
-Memorable-event density content quantity-dən ayrıca design metric kimi düşünülə bilər.
+Memorable-event density content quantity-dən ayrıca dizayn metric kimi düşünülə bilər.
 
 ---
 
-# 19. Product Positioning
+# 19. məhsul Positioning
 
 ## Hacknet
 
 Risk:
 
-“hacking simulator” dili technical realism expectation yarada bilər.
+“hacking simulator” dili technical realizm expectation yarada bilər.
 
 ## Midnight Protocol
 
-Store daha düzgün olaraq:
+mağaza daha düzgün olaraq:
 
 - tactical;
 - narrative-driven;
@@ -708,7 +708,7 @@ Store daha düzgün olaraq:
 
 deyir.
 
-Buna baxmayaraq bəzi player-lər yenə hacking game mental model-i ilə gəlir və:
+Buna baxmayaraq bəzi oyunçu-lər yenə hacking game mental model-i ilə gəlir və:
 
 > “bu chess/board game-dir”
 
@@ -716,21 +716,21 @@ deyə disappointment yaşayır.
 
 ### Principle
 
-> **Store promise yalnız theme-ni yox, dominant cognitive activity-ni izah etməlidir.**
+> **mağaza promise yalnız mövzu-ni yox, dominant cognitive activity-ni izah etməlidir.**
 
 Məsələn:
 
 - typing?
 - deduction?
 - tactics?
-- story?
+- hekayə?
 - management?
 
-Player hansı işi ən çox edəcəyini bilməlidir.
+oyunçu hansı işi ən çox edəcəyini bilməlidir.
 
 ---
 
-# 20. Successful Pattern-lər
+# 20. Successful nümunə-lər
 
 Hər iki oyunda təkrarlanan:
 
@@ -740,17 +740,17 @@ Hacker olmaq güclü hook-dur.
 
 ## 20.2. Interface-as-world
 
-UI gameplay və fiction-dır.
+UI oyun gedişi və fiction-dır.
 
-## 20.3. Selective authenticity
+## 20.3. seçilmiş həqiqilik hissi
 
 Real terminology full simulation-dan daha faydalı ola bilər.
 
-## 20.4. Story integration
+## 20.4. hekayə integration
 
-Narrative abstract mechanic-ə meaning verir.
+Narrative abstract mexanika-ə meaning verir.
 
-## 20.5. Audio/visual feedback
+## 20.5. Audio/visual geribildirim
 
 Static computer interface-i emosional experience-ə çevirir.
 
@@ -760,7 +760,7 @@ Gizli məlumat və secret-lər hacker fantasy-yə çox uyğundur.
 
 ---
 
-# 21. Fərqli failure pattern-lər
+# 21. Fərqli uğursuzluq nümunə-lər
 
 ## Hacknet
 
@@ -782,11 +782,11 @@ deeper systems
 → frustration
 ```
 
-Bu research üçün ən vacib nəticədir.
+Bu araşdırma üçün ən vacib nəticədir.
 
 ---
 
-# 22. Design Space xəritəsi
+# 22. dizayn Space xəritəsi
 
 ```text
                      MORE SYSTEMIC DEPTH
@@ -807,8 +807,8 @@ Bu sadə xəritədə ideal gələcək concept mütləq ortada deyil.
 
 Amma araşdırma göstərir ki, bizim hədəf:
 
-- Hacknet-dən daha çox decision depth;
-- Midnight Protocol-dan daha az opaque friction
+- Hacknet-dən daha çox qərar dərinlik;
+- Midnight Protocol-dan daha az opaque çətinlik
 
 ola bilər.
 
@@ -816,7 +816,7 @@ ola bilər.
 
 # 23. Gələcək concept üçün optimal istiqamət hipotezi
 
-Hazırkı iki oyun evidence-i əsasında:
+Hazırkı iki oyun dəlil-i əsasında:
 
 > **“Easy to understand, hard to master” hacker/digital-investigation experience.**
 
@@ -832,9 +832,9 @@ hissini alır.
 
 ### Low syntax tax
 
-Commands fantasy verir, amma syntax memory əsas skill deyil.
+Commands fantasy verir, amma syntax memory əsas bacarıq deyil.
 
-### High information decision density
+### High information qərar density
 
 Dərinlik:
 
@@ -847,17 +847,17 @@ Dərinlik:
 
 üzərindən gəlir.
 
-### Explainable failure
+### Explainable uğursuzluq
 
-Player failure səbəbini başa düşür.
+oyunçu uğursuzluq səbəbini başa düşür.
 
 ### Recon before commitment
 
 Blind loadout azdır.
 
-### Meaningful consequences
+### Meaningful nəticələr
 
-World/player options dəyişir.
+World/oyunçu options dəyişir.
 
 ### Flexible recovery
 
@@ -869,37 +869,37 @@ Optional exploration timer ilə davamlı cəzalandırılmır.
 
 ---
 
-# 24. Transferable Design Principles
+# 24. Transferable dizayn Principles
 
 ## Principle 1 — Fantasy first, simulation second
 
 İki oyun da bunu təsdiqləyir.
 
-## Principle 2 — Complexity görünə bilər, amma interaction sadə qalmalıdır
+## Principle 2 — mürəkkəblik görünə bilər, amma qarşılıqlı əlaqə sadə qalmalıdır
 
 Visual/system fantasy dərin görünə bilər.
 
-Player action grammar aydın olmalıdır.
+oyunçu action grammar aydın olmalıdır.
 
-## Principle 3 — Depth = decision quality, feature count deyil
+## Principle 3 — dərinlik = qərar quality, feature count deyil
 
 Daha çox tool və system avtomatik dərinlik yaratmır.
 
-## Principle 4 — Failure explainable olmalıdır
+## Principle 4 — uğursuzluq explainable olmalıdır
 
-RNG dominant failure driver olmamalıdır.
+RNG dominant uğursuzluq amil olmamalıdır.
 
-## Principle 5 — Recovery challenge-in bir hissəsidir
+## Principle 5 — Recovery çətinlik-in bir hissəsidir
 
 Retry ayrıca UX deyil.
 
-## Principle 6 — Information discovery core mechanic ola bilər
+## Principle 6 — Information discovery core mexanika ola bilər
 
 Sadəcə “lore” kimi yox.
 
-## Principle 7 — Consequence player identity yaradır
+## Principle 7 — nəticə oyunçu identity yaradır
 
-Choice görünən future state yaratmalıdır.
+seçim görünən future state yaratmalıdır.
 
 ## Principle 8 — Keyboard/terminal yalnız high-value action üçün istifadə edilməlidir
 
@@ -915,18 +915,18 @@ Bu genre buna xüsusilə uyğundur.
 
 ---
 
-# 25. Opportunity Map
+# 25. imkan Map
 
-| Opportunity | Hacknet evidence | Midnight evidence | Potential value |
+| imkan | Hacknet dəlil | Midnight dəlil | Potential value |
 |---|---|---|---|
-| Deeper information investigation | Güclü curiosity, dayaz breach loop | Investigation müsbətdir, tactical layer dominantdır | High |
-| Meaningful consequence | Zəif reactivity complaint | Choice/reputation güclüdür | High |
-| Deterministic tactical depth | Hacknet depth azdır | MP depth yaxşı, RNG risklidir | High |
+| Deeper information investigation | Güclü curiosity, dayaz breach loop | Investigation müsbətdir, tactical qat dominantdır | High |
+| Meaningful nəticə | Zəif reactivity complaint | seçim/reputation güclüdür | High |
+| Deterministic tactical dərinlik | Hacknet dərinlik azdır | MP dərinlik yaxşı, RNG risklidir | High |
 | Recon-driven loadout | Tool-key loop | Blind/wrong loadout complaint | High |
-| Hybrid keyboard UX | Terminal fantasy, shell friction | Keyboard fantasy, efficiency friction | High |
-| Returning-player support | Command memory problemi | Complex system memory riski | Medium-High |
-| Dynamic world response | Hacknet zəifdir | MP daha çox narrative consequence verir | High |
-| Creator/community content | Hacknet mod long-tail | MP Workshop/level editor mövcuddur, evidence zəifdir | Medium |
+| Hybrid keyboard UX | Terminal fantasy, shell çətinlik | Keyboard fantasy, efficiency çətinlik | High |
+| Returning-oyunçu support | Command memory problemi | Complex system memory riski | Medium-High |
+| Dynamic world response | Hacknet zəifdir | MP daha çox narrative nəticə verir | High |
+| Creator/icma content | Hacknet mod long-tail | MP Workshop/level editor mövcuddur, dəlil zəifdir | Medium |
 
 ---
 
@@ -934,20 +934,20 @@ Bu genre buna xüsusilə uyğundur.
 
 | Risk | Hacknet | Midnight Protocol | Gələcək validation |
 |---|---|---|---|
-| Repetition | High evidence | High evidence | 30–60 min repeated-loop playtest |
-| Syntax/UI friction | Medium-High | High | novice + technical user testing |
-| Complexity cliff | Lower | High | post-tutorial cohort test |
+| təkrarçılıq | High dəlil | High dəlil | 30–60 min repeated-loop playtest |
+| Syntax/UI çətinlik | Medium-High | High | novice + technical user testing |
+| mürəkkəblik cliff | Lower | High | post-təlim hissəsi cohort test |
 | RNG unfairness | Low | High | deterministic-vs-random prototype |
-| Weak consequences | High | Lower | consequence visibility test |
-| Blind planning | Low | High | recon/loadout UX test |
-| Story masking weak mechanics | Medium | Medium | mechanics-only prototype |
-| Technical stability | High negative driver | Medium | long-session/save-state QA |
+| Weak nəticələr | High | Lower | nəticə visibility test |
+| Blind planlama | Low | High | recon/loadout UX test |
+| hekayə masking weak mexanikalar | Medium | Medium | mexanikalar-only prototype |
+| Technical stability | High mənfi amil | Medium | long-session/save-state QA |
 
 ---
 
 # 27. Nəyi hələ bilmirik?
 
-- Midnight Protocol-un aşağı market traction səbəbi;
+- Midnight Protocol-un aşağı bazar traction səbəbi;
 - keyboard-only control-un conversion-a real təsiri;
 - Steam demo conversion;
 - Workshop usage;
@@ -959,9 +959,9 @@ Bu suallar üçün növbəti oyunlar lazımdır.
 
 ---
 
-# 28. Comparison nəticəsi
+# 28. müqayisə nəticəsi
 
-Hacknet və Midnight Protocol birlikdə çox aydın design tension göstərir.
+Hacknet və Midnight Protocol birlikdə çox aydın dizayn tension göstərir.
 
 Hacknet deyir:
 
@@ -969,19 +969,19 @@ Hacknet deyir:
 
 Amma nəticə:
 
-> repetition və shallow decision riski.
+> təkrarçılıq və dayaz qərar riski.
 
 Midnight Protocol deyir:
 
-> **Fantasy-ni tactical depth və meaningful choice ilə dərinləşdir.**
+> **Fantasy-ni tactical dərinlik və meaningful seçim ilə dərinləşdir.**
 
 Amma nəticə:
 
-> complexity, fairness və recovery riski.
+> mürəkkəblik, fairness və recovery riski.
 
 Bizim üçün əsas nəticə:
 
-> **Optimal hacker/interface game nə Hacknet qədər mexaniki sadə, nə də Midnight Protocol qədər opaque tactical friction-a bağlı olmalıdır. Dərinlik information, choice, consequence və sistem əlaqələrindən gəlməli; input və failure isə mümkün qədər aydın qalmalıdır.**
+> **Optimal hacker/interface game nə Hacknet qədər mexaniki sadə, nə də Midnight Protocol qədər opaque tactical çətinlik-a bağlı olmalıdır. Dərinlik information, seçim, nəticə və sistem əlaqələrindən gəlməli; giriş üsulu və uğursuzluq isə mümkün qədər aydın qalmalıdır.**
 
 Bu hələ genre-level final prinsip deyil.
 
@@ -1003,21 +1003,21 @@ Növbəti oyunlar — xüsusilə Cyber Manhunt, Mainlining və The Operator — 
 - `analysis/midnight-protocol/theme-analysis.md`
 - `data/processed/midnight-protocol/statistics.json`
 
-## Developer / public
+## yaradıcı / public
 
 Hacknet sources:
 - `analysis/hacknet/deep-research.md` source section
 
 Midnight Protocol:
-- https://www.gamedeveloper.com/design/hacking-answers-tactical-narrative-game-midnight-protocol
-- https://store.steampowered.com/app/1162700/
+- https://www.gamedeveloper.com/dizayn/hacking-answers-tactical-narrative-game-midnight-protocol
+- https://mağaza.steampowered.com/app/1162700/
 - https://www.quartertothree.com/fp/2022/01/16/midnight-protocol-hacks-into-the-sweet-spot-between-storytelling-and-strategy/
-- https://www.softpedia.com/reviews/games/pc/midnight-protocol-review-534571.shtml
+- https://www.softpedia.com/reviews/games/pc/midnight-protocol-rəy-534571.shtml
 
 ---
 
 # Status
 
-**Comparison:** tamamlanıb  
+**müqayisə:** tamamlanıb  
 **Games:** Hacknet + Midnight Protocol  
-**Növbəti research məqsədi:** terminal-hacking nəticələrini digital-investigation oyunlarında test etmək.
+**Növbəti araşdırma məqsədi:** terminal-hacking nəticələrini digital-investigation oyunlarında test etmək.
