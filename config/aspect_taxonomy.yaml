@@ -1,4 +1,4 @@
-version: 4
+version: 5
 description: >
   Computer-interface / hacking / digital-investigation oyunları üçün semantic aspect taxonomy.
   Bu taxonomy final qualitative coding üçündür; regex candidate retrieval taxonomy-dən ayrıdır.
@@ -221,6 +221,42 @@ aspects:
     label_az: Dialogue və exposition yükü
     definition: Passiv dinləmə, uzun exposition, cutscene və voice-delivery-nin active investigation vaxtına təsiri.
 
+  INFORMATION_SELECTION:
+    label_az: Məlumat seçimi və ötürülməsi
+    definition: Tapılmış məlumatdan hansının sistemə, rəhbərə və ya başqa aktora ötürüləcəyinə dair qərarın mənalılığı.
+
+  PRIVACY_SURVEILLANCE:
+    label_az: Privacy və surveillance
+    definition: Şəxsi məlumatın izlənməsi, monitorinqi və təhlükəsizlik–azadlıq balansının gameplay və narrative təsiri.
+
+  CONSEQUENCE_VISIBILITY:
+    label_az: Nəticələrin görünməsi
+    definition: Player seçiminin character, story, system və future state üzərində nəticəsinin nə qədər tez və aydın görünməsi.
+
+  CONTRADICTORY_EVIDENCE:
+    label_az: Ziddiyyətli evidence
+    definition: Bir-biri ilə uyğun gəlməyən, yanlış, subyektiv və ya kontekstdən çıxmış məlumatların müqayisəsi və qərara təsiri.
+
+  INFORMATION_IRREVERSIBILITY:
+    label_az: Geri dönməz information decision
+    definition: Məlumat göndərildikdən və ya seçildikdən sonra qərarı dəyişmək, düzəltmək və ya geri almaq imkanının olub-olmaması.
+
+  READING_LOAD:
+    label_az: Oxu yükü
+    definition: Text-heavy interaction-ın diqqət, pacing, comprehension və player fatigue-a təsiri.
+
+  MORAL_AMBIGUITY:
+    label_az: Moral ambiguity
+    definition: Açıq doğru/yanlış cavab əvəzinə etik trade-off, qeyri-müəyyənlik və player conscience üzərindən qərar yaratmaq.
+
+  AUTO_HIGHLIGHTING:
+    label_az: Avtomatik highlight və clue guidance
+    definition: Relevant görünən məlumatın UI tərəfindən əvvəlcədən işarələnməsinin deduction, reading və discovery hissinə təsiri.
+
+  INTERPRETATION_GUIDANCE:
+    label_az: Interpretasiya yönləndirməsi
+    definition: NPC və ya sistemin evidence-in nə demək olduğunu player əvəzinə şərh etməsi və bunun agency/deduction-a təsiri.
+
 coding_rules:
   - Overall Steam recommendation aspect sentiment kimi istifadə edilməməlidir.
   - Bir review eyni aspect üçün həm müsbət, həm mənfi fikir verirsə mixed seç.
@@ -243,3 +279,7 @@ coding_rules:
   - Hand-holding ilə onboarding ayrılmalıdır: onboarding öyrədir, hand-holding isə artıq öyrənilmiş qərarı player əvəzinə verir.
   - Single-use mechanic çox müxtəliflik yarada bilər, amma mastery və system depth yaratmaya bilər.
   - Dialogue/exposition yaxşı yazılmış olsa belə active-investigation vaxtını sıxışdırırsa ayrıca pacing problemi kimi label-lənə bilər.
+  - Information selection ilə consequence visibility ayrılmalıdır: seçim maraqlı ola bilər, amma nəticə görünmürsə agency hissi zəifləyə bilər.
+  - Contradictory evidence challenge yarada bilər, amma player yeni evidence gəldikdə qərarı yeniləyə bilmirsə INFORMATION_IRREVERSIBILITY ayrıca negative ola bilər.
+  - Auto-highlighting accessibility yaradır, amma discovery və deduction-u player-dan alırsa AUTO_HIGHLIGHTING negative ola bilər.
+  - Moral ambiguity ilə political/message agreement ayrılmalıdır: player oyunun mövqeyi ilə razılaşmadan da dilemma design-ını müsbət qiymətləndirə bilər.
