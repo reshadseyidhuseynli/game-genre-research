@@ -2,11 +2,17 @@
 
 ## Status
 
-Bu sənəd Midnight Protocol üzrə per-game deep research başlamazdan əvvəl ilkin product/market və design-intent snapshot-ıdır.
+Bu sənəd Midnight Protocol research başlamazdan əvvəl hazırlanmış ilkin kickoff sənədidir və historical planning context kimi saxlanılır.
 
-Steam review dataset hələ repository-də toplanmayıb. Ona görə bu sənəddəki player-feedback nəticələri yalnız public store/community/professional mənbələrdən gələn **ilkin hipotezlərdir**.
+Research artıq tamamlanıb.
 
-Final nəticələr Steam review dataset və theme/aspect analysis-dan sonra hazırlanacaq.
+Əsas yekun sənədlər:
+
+- `analysis/midnight-protocol/deep-research.md`
+- `analysis/midnight-protocol/theme-analysis.md`
+- `analysis/comparisons/hacknet-vs-midnight-protocol.md`
+
+Aşağıdakı bölmələr dataset-dən əvvəl qurulmuş hipotezləri göstərir və final nəticə kimi istifadə edilməməlidir.
 
 ---
 
@@ -485,7 +491,7 @@ Current/base price və public store history context.
 
 ---
 
-# 11. Növbəti konkret addım
+# 11. Research tamamlandıqdan sonrakı qeyd
 
 Repository config-də artıq:
 
@@ -497,6 +503,6 @@ steam_app_id: 1162700
 
 əlavə olunub.
 
-İndi Steam dataset toplanmalı və verify edilməlidir.
+Steam dataset sonradan toplanıb və verify edilib: **301 English review**.
 
-Dataset push edildikdən sonra bu kickoff sənədi final `deep-research.md` üçün input olacaq.
+Bu kickoff-da qurulan əsas hipotezlər final research-də test edilib. Cari nəticələr üçün `analysis/midnight-protocol/deep-research.md` istifadə olunmalıdır.
