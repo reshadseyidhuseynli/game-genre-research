@@ -1661,7 +1661,7 @@ Bu faylların rolu:
 
 **Yeni oyun ideyasının yaradılması araşdırma Tamamlanma meyarı-a daxil deyil.** Idea generation bu package tamamlandıqdan sonra ayrıca məhsul-kəşf mərhələsidir.
 
-# 17. Cari vəziyyət — 2026-10-02
+# 17. Cari vəziyyət — 2026-10-03
 
 ## Tamamlanan
 
@@ -1934,20 +1934,31 @@ Bu bölmə yeni sessiyada “nə hazırdır?” sualının əsas istinad-udur.
 
 - ✅ verified Steam məlumat toplusu: **8,549 rəy**
 - ✅ `data/reports/orwell/summary.md`
-- ⏳ deterministik v5 mövzu faylları — yerli `theme_pipeline` işlədilib push edilməlidir
+- ✅ deterministik v5 mövzu faylları repository-dədir (`data/processed/orwell/themes/`, `data/reports/orwell/theme-candidates.md`)
 - ✅ `analysis/orwell/theme-analysis.md`
 - ✅ `analysis/orwell/deep-research.md`
 - ✅ `analysis/orwell/presentation-brief.md`
 - ℹ️ `analysis/orwell/research-kickoff.md` — historical planlama context, superseded
 
-### Need to Know — current focused comparator
+### Need to Know — focused comparator tamamlanıb
 
+- ✅ Steam məlumat toplusu: **272 ingilisdilli rəy**
+- ✅ müsbət: **178**
+- ✅ mənfi: **94**
+- ✅ müsbət pay: **65.44%**
+- ✅ `data/reports/need-to-know/summary.md`
 - ✅ `analysis/need-to-know/research-kickoff.md`
-- ⏳ Steam məlumat toplusu — gözlənilir
-- ⏳ məqsədli araşdırma — gözlənilir
-- ⏳ `analysis/comparisons/orwell-vs-need-to-know.md` — gözlənilir
+- ✅ `analysis/need-to-know/theme-analysis.md`
+- ✅ `analysis/need-to-know/deep-research.md`
+- ✅ `analysis/need-to-know/presentation-brief.md`
+- ✅ `analysis/comparisons/orwell-vs-need-to-know.md`
+- ⏳ lokal reproducibility run: `python -m src.verify --game need-to-know`
+- ⏳ deterministik theme artefaktları: `python -m src.theme_pipeline --game need-to-know` və generated faylların push-u
 
-Need to Know araşdırması tamamlandıqda `analysis/need-to-know/presentation-brief.md` də standart çıxış kimi hazırlanmalıdır.
+Əsas nəticə:
+- surveillance/privacy premise-i və moral ambiguity özü problem deyil;
+- ən böyük risklər early onboarding/UI, semantic reasoning ilə exact rule acceptance arasındakı fərq, təkrarçılıq və progression tərəfindən məcbur edilən seçimlərdir;
+- Orwell daha az seçim səthi ilə daha aydın consequence chain qurduğu üçün real agency hissi daha güclü görünür.
 
 ### Final package
 
@@ -1965,29 +1976,27 @@ Bu inventory hər major milestone-dan sonra yenilənməlidir.
 
 # 18. Hazırkı növbəti addım
 
-**Orwell deterministic mövzu artifacts + Need to Know focused comparator.**
+**Need to Know focused comparator tamamlanıb.**
 
-Orwell məlumat toplusu və əsas araşdırma tamamlanıb.
+Əvvəl reproducibility işini bağla:
 
-Əvvəl reproducibility artefaktlarını yarat:
+1. `python -m src.verify --game need-to-know`
+2. `python -m src.theme_pipeline --game need-to-know`
+3. generated `data/processed/need-to-know/themes/` və `data/reports/need-to-know/theme-candidates.md` fayllarını push et.
 
-1. `python -m src.theme_pipeline --game orwell`
-2. generated `data/processed/orwell/themes/` və `data/reports/orwell/theme-candidates.md` fayllarını push et.
+Sonra növbəti əsas Tier A target:
 
-Sonra Tier B focused comparator: **Need to Know**
+1. **Mainlining**
+2. **SIMULACRA**
+3. **SIMULACRA 3**
 
-- key: `need-to-know`
-- Steam App ID: `490930`
-- kickoff: `analysis/need-to-know/research-kickoff.md`
+Mainlining üçün əsas müqayisə sualı:
 
-Əsas müqayisə sualı:
+> Cyber Manhunt-un scripted investigation və Need to Know-un constrained-agency problemlərinə qarşı Mainlining hacking + investigation + choice modelində nəyi fərqli edir və bu fərqlər oyunçu nəticəsinə necə təsir edir?
 
-> Orwell-un information-selection / nəticə modeli oxşar premise-li, daha geniş qərar sərbəstliyi vəd edən Need to Know-dan niyə daha yaxşı oyunçu reaksiyası alır?
+Need to Know mərhələsindən çıxan yeni cross-game prinsip:
 
-Need to Know focused müqayisə tamamlandıqdan sonra növbəti Tier A target:
-- Mainlining
-- SIMULACRA
-- SIMULACRA 3
+> **Feature sayı və seçim UI-si real agency deyil; meaningful decision density oyunçunun başa düşdüyü, niyyətinə uyğun verdiyi və nəticəsini changed world state-də gördüyü qərarlarla ölçülməlidir.**
 
 ---
 
