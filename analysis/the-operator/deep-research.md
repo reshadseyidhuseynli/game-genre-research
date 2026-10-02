@@ -2,28 +2,28 @@
 
 ## Rəhbərlik üçün xülasə
 
-The Operator rəqəmsal araşdırma janrında çox güclü **“arxa planda işləyən operator” rol hissidir** yaradır. Oyunun əsas üstünlüyü böyük açıq axtarış sahəsi qurmaq yox, oyunçuya spesifik təhlil alətləri verib hər epizod-i cilalanmış, kinematik və yüksək oyuna dalma hissi ilə təqdim etməsidir.
+The Operator rəqəmsal araşdırma janrında çox güclü **“arxa planda işləyən operator” rol hissidir** yaradır. Oyunun əsas üstünlüyü böyük açıq axtarış sahəsi qurmaq yox, oyunçuya spesifik təhlil alətləri verib hər epizodu cilalanmış, kinematik və yüksək oyuna dalma hissi ilə təqdim etməsidir.
 
 Yoxlanmış Steam məlumat toplusu:
 
 - **3,781 rəy**
 - 3,392 müsbət
 - 389 mənfi
-- **89.71% müsbət ratio**
+- **89.71% müsbət rəy nisbəti**
 
 Əsas nəticə:
 
-> **The Operator Cyber Manhunt-un ipucu qeyri-müəyyənliyi və qarışıq məlumat axtarışı problemini məqsədli alətlər, daha aydın UI və yüksək təqdimat keyfiyyəti ilə azaldır; amma bunu oyunçu sərbəstlik və prosedur səviyyəsində məntiqi nəticə çıxarma hesabına edir.**
+> **The Operator Cyber Manhunt-un ipucu qeyri-müəyyənliyi və qarışıq məlumat axtarışı problemini məqsədli alətlər, daha aydın UI və yüksək təqdimat açarfiyyəti ilə azaldır; amma bunu oyunçu sərbəstliyi və prosedur səviyyəsində məntiqi nəticə çıxarma hesabına edir.**
 
 Yəni problem:
 
 ```text
 Cyber Manhunt:
-çox information / sərt clue jurnal qeydiic
-→ player stuck və scripted progression hissi
+çox məlumat / sərt ipucu məntiqi
+→ oyunçunun ilişib qalması və əvvəlcədən ssenariləşdirilmiş irəliləyiş hissi
 
 The Operator:
-focused information / yüksək yönləndirmə
+məqsədli məlumat / yüksək yönləndirmə
 → az çaşqınlıq
 → amma həddindən artıq yönləndirmə və zəif qərar sərbəstliyi riski
 ```
@@ -36,7 +36,7 @@ The Operator-un əsas gücləri:
 - aydın və müxtəlif xüsusi tapmaca səhnələri;
 - triller tempi;
 - qısa oyun müddəti sayəsində aşağı təkrarçılıq;
-- strong narrative təqdimat.
+- güclü hekayə təqdimatı.
 
 Əsas zəifliklər:
 
@@ -50,7 +50,7 @@ The Operator-un əsas gücləri:
 
 Ən vacib dizayn dərsi:
 
-> **Araşdırma oyun gedişində çaşqınlıq-u azaltmaq üçün oyunçunun məntiqi düşünmə sərbəstlik-unu azaltmaq lazım deyil. aydınlıq və qərar sərbəstliyi eyni anda dizayn edilməlidir.**
+> **Araşdırma oyun gedişində çaşqınlığı azaltmaq üçün oyunçunun məntiqi düşünmə sərbəstliyini azaltmaq lazım deyil. Aydınlıq və qərar sərbəstliyi eyni anda dizayn edilməlidir.**
 
 Ətraflı kəmiyyət yönümlü sənəd:
 
@@ -58,12 +58,12 @@ The Operator-un əsas gücləri:
 
 ---
 
-# 1. Araşdırmanın əhatəsi və məlumat keyfiyyəti
+# 1. Araşdırmanın əhatəsi və məlumat açarfiyyəti
 
 məlumat toplusunun kəsimi: **2026-10-02**
 
 - ümumi rəylər: 3,781
-- müsbət ratio: 89.71%
+- müsbət rəy nisbəti: 89.71%
 - orta oyun müddəti: 4.67h
 - median oyun müddəti: 3.90h
 - müsbət orta oyun müddəti: 4.71h
@@ -80,9 +80,9 @@ Xarici mənbə araşdırması:
 
 - Steam mağazası
 - oyunun yaradıcısı ilə müsahibə
-- Gamereactor müsahibə
-- GameSpew rəy
-- Gamereactor rəy
+- Gamereactor müsahibəsi
+- GameSpew rəyi
+- Gamereactor rəyi
 
 ---
 
@@ -94,15 +94,15 @@ Steam App ID: **1771980**
 - Naşir: Bureau 81, indienova
 - Buraxılış: 22 July 2024
 - tək oyunçulu
-- Detective / Investigation / Puzzle / Mystery / Simulation təqdimat
-- full ingilis dili səsləndirmə
-- hazırkı Steam təqdimat “FDI operator” rol hissidir üzərindədir.
+- Detektiv / Araşdırma / Tapmaca / Sirr / Simulyasiya təqdimat
+- tam ingilis dili səsləndirmə
+- Hazırkı Steam təqdimatı “FDI operator” rol hissi üzərində qurulub.
 
-mağazanın verdiyi vəd:
+Mağazanın verdiyi vəd:
 
-> sahə agenti-lərə proqram təminatı və məlumat bazaları vasitəsilə kömək et, clue-ları analiz et, puzzle-ləri həll et və mystery-ni aç.
+> sahə agentlərinə proqram təminatı və məlumat bazaları vasitəsilə kömək et, ipuclarını analiz et, tapmacaları həll et və sirri aç.
 
-Bu təqdimat Cyber Manhunt-dan daha focused-dır.
+Bu təqdimat Cyber Manhunt-dan daha fokuslanmışdır.
 
 oyunçuya böyük “internet” vermir.
 
@@ -118,31 +118,31 @@ verir.
 
 Ən doğru qısa təsvir:
 
-> **uydurma dövlət əməliyyat sistemi daxilində oynanan hekayə-driven operator/investigation tapmaca oyunu.**
+> **uydurma dövlət əməliyyat sistemi daxilində oynanan hekayə yönümlü operator və araşdırma tapmaca oyunu.**
 
 Əsas oyun dövrü:
 
 ```text
-agent-dən problem al
+agentdən problem al
 → evidence aç
 → uyğun analysis tool seç
 → relevant məlumatı müəyyən et
 → nəticəni agent-ə ver
-→ yeni evidence/story beat açılır
-→ növbəti focused problem
+→ yeni evidence/hekayə beat açılır
+→ növbəti məqsədli problem
 ```
 
 Bu Cyber Manhunt-un:
 
 ```text
-search → profile → account → clue → next information
+search → profile → account → clue → next məlumat
 ```
 
 dövründən daha dar və daha seçilmiş və nəzarətli-dır.
 
 ---
 
-# 4. oyunçu Fantasy
+# 4. Oyunçunun rol hissi
 
 The Operator-un rol hissidir:
 
@@ -173,9 +173,9 @@ ilə “peşəkar operator” görünüşü alır.
 oyunçu fiziki olaraq hadisə yerində deyil, amma:
 - agent-in qərarı;
 - təhlükə;
-- investigation direction
+- araşdırma direction
 
-onun verdiyi information-dan asılıdır.
+onun verdiyi məlumat-dan asılıdır.
 
 Bu “dəstək rolu fantasy” janr üçün çox dəyərli fərqləndiricidir.
 
@@ -200,9 +200,9 @@ vədini verir.
 
 Amma The Operator daha peşəkar və strukturlaşdırılmış görünür.
 
-Bu gözlənti çox vacibdir, çünki mənfi rəy-lərin əsas hissəsi məhz:
+Bu gözlənti çox vacibdir, çünki mənfi rəylərin əsas hissəsi məhz:
 
-> “mən daha çox investigation gözləyirdim, daha çox hekayə aldım”
+> “mən daha çox araşdırma gözləyirdim, daha çox hekayə aldım”
 
 deyir.
 
@@ -238,7 +238,7 @@ sualına görə davam edir.
 
 oyun müddəti:
 
-| Segment | müsbət ratio |
+| Segment | müsbət rəy nisbəti |
 |---|---:|
 | 0–1h | **61.54%** |
 | 1–3h | 84.07% |
@@ -253,7 +253,7 @@ Bu onu göstərir ki:
 
 > The Operator-un qarşılıqlı əlaqə grammar-i oyunçuya daha tez aydın olur.
 
-Early mənfi rəy-lərdə əsas problem:
+Early mənfi rəylərdə əsas problem:
 - controls yox;
 - gözlənti uyğunsuzluğu;
 - linearity-ni erkən hiss etmək;
@@ -281,7 +281,7 @@ The Operator dərinlik-i üfüqi müxtəliflik ilə qurur:
 
 Bu ilk baxışda geniş toolbox yaradır.
 
-Amma rəy-lər göstərir ki, bir çox system:
+Amma rəylər göstərir ki, bir çox system:
 - bir dəfə;
 - bir epizod;
 - bir hekayə beat
@@ -315,15 +315,15 @@ INVESTIGATION_DISCOVERY:
 
 Bu məlumat toplusu baseline-dan təxminən iki dəfə yüksək mənfi concentration göstərir.
 
-Səbəb investigation concept-in pis olması deyil.
+Səbəb araşdırma concept-in pis olması deyil.
 
 Əksinə, oyunçu-lər concept-i çox istəyir.
 
 Problem gözlənti gap-dır.
 
-rəy-lərdə:
+rəylərdə:
 - “more işs”;
-- “more deduction”;
+- “more məntiqi nəticə çıxarma”;
 - “let me figure it out”;
 - “too much yönləndirmə”;
 - “visual novel”
@@ -400,7 +400,7 @@ Amma kompromis:
 - oyunçu özü problem əhatə dairəsi-u müəyyən etmir;
 - next step çox tez məlum olur;
 - wrong cavab bəzən real uğursuzluq deyil;
-- deduction əvəzinə validation hissi yarana bilir.
+- məntiqi nəticə çıxarma əvəzinə validation hissi yarana bilir.
 
 ### Principle
 
@@ -417,7 +417,7 @@ Amma ENDING_CLOSURE:
 - **28.02% mənfi**;
 - baseline-dan 2.72× yüksək.
 
-mənfi rəy-lərin çoxunda belə paradoks var:
+mənfi rəylərin çoxunda belə paradoks var:
 
 > “oyunu çox bəyəndim, amma ending-ə görə recommend etmirəm.”
 
@@ -444,9 +444,9 @@ görünürsə qərar sərbəstliyi və tamamlanma hissi problemləri bir-birini 
 
 # 13. Qısa oyun müddəti — həm üstünlük, həm zəiflik
 
-The Operator təxminən bir neçə saatlıq focused experience-dir.
+The Operator təxminən bir neçə saatlıq məqsədli experience-dir.
 
-Bu müsbət rəy-lərdə:
+Bu müsbət rəylərdə:
 - no filler;
 - one sitting;
 - kinematik;
@@ -454,7 +454,7 @@ Bu müsbət rəy-lərdə:
 
 kimi təriflənir.
 
-mənfi rəy-lərdə:
+mənfi rəylərdə:
 - “təlim hissəsi bitəndə oyun bitdi”;
 - “tool-ları öyrəndim, amma istifadə etmədim”;
 - “bir neçə ayrı iş gözləyirdim”;
@@ -464,7 +464,7 @@ kimi görünür.
 
 ### məhsul üzrə əsas dərs
 
-> **Qısa oyun yalnız promise də qısa və focused olanda problemsizdir.**
+> **Qısa oyun yalnız promise də qısa və məqsədli olanda problemsizdir.**
 
 Əgər mağaza fantasy “peşəkar operator system”dırsa, oyunçu həmin system-də ustalaşma gözləyə bilər.
 
@@ -475,12 +475,12 @@ kimi görünür.
 Ən çox praise alan puzzle-lər:
 - bomb/manual epizod;
 - video/dəlil təhlil;
-- focused məlumat müqayisə;
+- məqsədli məlumat müqayisə;
 - stressli real-time-like situations.
 
-Bu puzzle-lərin ortaq cəhəti:
+Bu tapmacaların ortaq cəhəti:
 
-> oyunçuya raw information verilir və düzgün nəticəni çıxarmaq lazımdır.
+> oyunçuya raw məlumat verilir və düzgün nəticəni çıxarmaq lazımdır.
 
 Ən az satisfying hissələr:
 - solution dərhal deyilir;
@@ -506,7 +506,7 @@ müsbət oyunçu geribildirim bunu təsdiqləyir.
 
 Cyber Manhunt-la müqayisədə:
 - daha az clutter;
-- daha focused tasks;
+- daha məqsədli tasks;
 - daha peşəkar proqram təminatı hissi;
 - daha az clue-click ambiguity
 
@@ -553,7 +553,7 @@ Problem:
 
 ### Principle
 
-> **Narrative oyunçunun deduction-ını əvəz etməməlidir; onun nəticələrini dramatize etməlidir.**
+> **Narrative oyunçunun məntiqi nəticə çıxarma-ını əvəz etməməlidir; onun nəticələrini dramatize etməlidir.**
 
 ---
 
@@ -563,7 +563,7 @@ SAVE_REPLAY:
 - 128 mentions
 - 31.25% mənfi.
 
-yaradıcı oyunu bir dəfə oynama experience kimi düşünür.
+Yaradıcı oyunu bir dəfə oynama experience kimi düşünür.
 
 Bu ardıcıl dizayn intent-dir.
 
@@ -661,21 +661,21 @@ Cyber Manhunt-un risk modeli:
 ```text
 broad search
 → ipucu qeyri-müəyyənliyi
-→ exact trigger
+→ dəqiq trigger
 → stuck / frustration
 ```
 
 The Operator:
 
 ```text
-focused tool
+məqsədli tool
 → clear məqsəd
 → strong yönləndirmə
 → low ambiguity
 → low procedural sərbəstlik
 ```
 
-Bu iki oyun birlikdə investigation dizayn-in əsas continuum-unu göstərir:
+Bu iki oyun birlikdə araşdırma dizayn-in əsas continuum-unu göstərir:
 
 ```text
 TOO OPEN / OPAQUE
@@ -694,7 +694,7 @@ Gələcək concept üçün hədəf:
 ## Saxlamağa dəyər
 
 - operator/support-role fantasy;
-- focused peşəkar tools;
+- məqsədli peşəkar tools;
 - in-world OS;
 - high səs/voice integration;
 - dəlil-specific UI;
@@ -750,11 +750,11 @@ Verdiyin yanlış və ya incomplete təhlil future iş state-i dəyişir.
 
 The Operator-un tight iş pacing-i saxlanır, amma multiple independent işs ustalaşma yaradır.
 
-## 23.6. hekayə reacts to investigation
+## 23.6. hekayə reacts to araşdırma
 
 hekayə oyunçuya nə tapacağını diktə etmir.
 
-oyunçunun tapdığı və qaçırdığı information hekayə branch-ləri dəyişir.
+oyunçunun tapdığı və qaçırdığı məlumat hekayə branch-ləri dəyişir.
 
 ---
 
@@ -768,7 +768,7 @@ oyunçunun tapdığı və qaçırdığı information hekayə branch-ləri dəyi�
 | Ending/tamamlanma hissi tövsiyə-a ciddi təsir edir | High |
 | Qısa oyun müddəti həm strength, həm value riskidir | High |
 | Tool variety dərinlik yaratmır | High |
-| Hand-holding deduction-u zəiflədir | High |
+| Hand-holding məntiqi nəticə çıxarma-u zəiflədir | High |
 | Focused əhatə dairəsi Cyber Manhunt-dan daha az ipucu qeyri-müəyyənliyi yaradır | Medium-High |
 | Short oyun müddəti təkrarçılıq-ı azaldır | Medium |
 | Multiple-iş systemic version üçün latent demand var | Medium-High |
@@ -783,7 +783,7 @@ oyunçunun tapdığı və qaçırdığı information hekayə branch-ləri dəyi�
 4. Tool reuse artanda təkrarçılıq yaranarmı?
 5. Real branching və nəticə production cost-u nə qədər artırar?
 6. Orwell bu qərar sərbəstliyi/ethics continuum-da harada yerləşir?
-7. Mainlining hacking + investigation loop-u procedural sərbəstlik baxımından nə qədər fərqlidir?
+7. Mainlining hakerlik + araşdırma loop-u procedural sərbəstlik baxımından nə qədər fərqlidir?
 
 ---
 
@@ -800,9 +800,9 @@ oyunçunun tapdığı və qaçırdığı information hekayə branch-ləri dəyi�
 
 - Steam mağazası — https://mağaza.steampowered.com/app/1771980/
 - oyunun yaradıcısı ilə — https://www.gamedeveloper.com/dizayn/the-operator-is-a-crime-solving-game-delivered-entirely-with-ui
-- Gamereactor müsahibə — https://www.gamereactor.eu/video/694403/Bureau%2B81s%2BBastien%2BGiafferi%2Bon%2Bbeing%2Bthe%2Bguy%2Bbehind%2Bthe%2Bchair%2Bin%2BThe%2BOperator/
-- GameSpew rəy — https://www.gamespew.com/2024/07/the-operator-rəy/
-- Gamereactor rəy — https://www.gamereactor.eu/the-operator-1411543/
+- Gamereactor müsahibəsi — https://www.gamereactor.eu/video/694403/Bureau%2B81s%2BBastien%2BGiafferi%2Bon%2Bbeing%2Bthe%2Bguy%2Bbehind%2Bthe%2Bchair%2Bin%2BThe%2BOperator/
+- GameSpew rəyi — https://www.gamespew.com/2024/07/the-operator-rəy/
+- Gamereactor rəyi — https://www.gamereactor.eu/the-operator-1411543/
 
 ---
 
