@@ -1485,41 +1485,66 @@ deeper decision model
 → fairness + recovery + friction risk
 ```
 
-### Cyber Manhunt kickoff
+### Cyber Manhunt deep research
 
-Növbəti target config-ə əlavə olunub:
+Cyber Manhunt üzrə əsas research mərhələsi tamamlanıb:
 
-- key: `cyber-manhunt`
-- Steam App ID: `1216710`
+- verified Steam dataset: **847 review**
+- positive: **681**
+- negative: **166**
+- `analysis/cyber-manhunt/theme-analysis.md`
+- `analysis/cyber-manhunt/deep-research.md`
 
-İlkin research:
+Əsas nəticələr:
 
-`analysis/cyber-manhunt/research-kickoff.md`
+- 0–3h cohort çox yüksək risk daşıyır: 95 review-un 59-u negative-dir;
+- LINEARITY_SCRIPTING ən güclü design risk-lərindən biridir;
+- localization/writing text-heavy gameplay-ə birbaşa təsir edir;
+- investigation fantasy güclüdür, amma exact clue/progression dependency deduction hissini zəiflədir;
+- information-driven gameplay də repetition-dan immun deyil;
+- full realism tələb olunmur, selective authenticity üçüncü oyunda da işləyir.
 
-Bu mərhələ terminal hacking nəticələrini digital investigation, social engineering, privacy və information-deduction gameplay-də test edəcək.
+### Three-game comparison
+
+Tamamlanıb:
+
+`analysis/comparisons/hacknet-midnight-protocol-cyber-manhunt.md`
+
+Üç depth modeli müqayisə olunur:
+
+- Hacknet — execution depth;
+- Midnight Protocol — tactical/system depth;
+- Cyber Manhunt — information/deduction depth.
+
+Əsas cross-game hypothesis:
+
+> Depth feature sayından deyil, meaningful decision density-dən gəlir; repetition isə interface növündən yox, decision structure dəyişməyəndə yaranır.
+
+Cyber Manhunt üçün v3 taxonomy ilə deterministik theme output-ların lokal pipeline vasitəsilə generasiyası hələ push edilməlidir.
 
 ---
 
 # 18. Hazırkı növbəti addım
 
-**Cyber Manhunt Steam dataset collection və verification.**
+**Cyber Manhunt deterministic theme artifacts + növbəti digital-investigation target.**
 
-Hacknet və Midnight Protocol per-game research və onların comparison-u tamamlanıb.
+Cyber Manhunt dataset və analysis tamamlanıb.
 
-Növbəti addımlar:
+Əvvəl reproducibility artefaktlarını yarat:
 
-1. `python -m src.pipeline --game cyber-manhunt` ilə English Steam dataset topla;
-2. verification uğurla tamamlanmalıdır;
-3. generated raw/processed/report fayllarını repository-yə push et;
-4. basic statistics və helpful/recent/low/high samples-i audit et;
-5. Cyber Manhunt-specific taxonomy-ni yalnız data tələb etdikdən sonra genişləndir;
-6. full candidate scan və semantic audit apar;
-7. `analysis/cyber-manhunt/deep-research.md` hazırla;
-8. nəticələri Hacknet/Midnight Protocol ilə digital-investigation səviyyəsində müqayisə et.
+1. `python -m src.theme_pipeline --game cyber-manhunt`
+2. generated `data/processed/cyber-manhunt/themes/` və `data/reports/cyber-manhunt/theme-candidates.md` fayllarını push et.
 
-İlkin brief:
+Bundan sonra növbəti research target seçilməlidir.
 
-`analysis/cyber-manhunt/research-kickoff.md`
+Hazır ən yüksək informasiya dəyərli namizədlər:
+- The Operator — modern evidence/investigation workflow;
+- Mainlining — hacking + investigation + choice;
+- Orwell — information selection + surveillance + ethics.
+
+Prioritet sual:
+
+> Cyber Manhunt-un scripted investigation problemini başqa digital-investigation oyunları necə həll edir?
 
 ---
 
