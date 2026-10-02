@@ -1,0 +1,25 @@
+{
+  "endpoint": "https://api.steampowered.com/IUserReviewsService/GetAppReviews/v1/",
+  "params": {
+    "appid": 712730,
+    "languages": [
+      "english"
+    ],
+    "filter": 1,
+    "review_type": 0,
+    "purchase_type": 1,
+    "num_per_page": 100,
+    "filter_offtopic_activity": false,
+    "cursor": "AoJ438WbxN8Ccf2xigE="
+  },
+  "collected_at": "2026-10-02T21:52:01.090626+00:00",
+  "response": {
+    "response": {
+      "query_summary": {
+        "num_reviews": 0
+      },
+      "cursor": "AoJ438WbxN8Ccf2xigE=",
+      "total_matching": 3209
+    }
+  }
+}

@@ -1,0 +1,252 @@
+{
+  "endpoint": "https://api.steampowered.com/IUserReviewsService/GetAppReviews/v1/",
+  "params": {
+    "appid": 712730,
+    "languages": [
+      "english"
+    ],
+    "filter": 1,
+    "review_type": 0,
+    "purchase_type": 1,
+    "num_per_page": 100,
+    "filter_offtopic_activity": false,
+    "cursor": "AoJ4pdGu0d8Cf6HwigE="
+  },
+  "collected_at": "2026-10-02T21:51:58.549419+00:00",
+  "response": {
+    "response": {
+      "query_summary": {
+        "num_reviews": 9
+      },
+      "reviews": [
+        {
+          "recommendationid": "36392048",
+          "author": {
+            "steamid": "76561198091658375",
+            "num_reviews": 15,
+            "playtime_forever": 473,
+            "playtime_last_two_weeks": 0,
+            "playtime_at_review": 72,
+            "last_played": 1512613484
+          },
+          "language": "english",
+          "review": "This game is awesome! :D Amazing storyline and very fun! A definate must get!",
+          "timestamp_created": 1510216298,
+          "timestamp_updated": 1510216298,
+          "voted_up": true,
+          "votes_up": 0,
+          "votes_funny": 0,
+          "weighted_vote_score": 0.5,
+          "comment_count": 0,
+          "steam_purchase": true,
+          "received_for_free": false,
+          "written_during_early_access": false,
+          "primarily_steam_deck": false,
+          "refunded": false
+        },
+        {
+          "recommendationid": "36388687",
+          "author": {
+            "steamid": "76561198057663754",
+            "num_reviews": 4,
+            "playtime_forever": 251,
+            "playtime_last_two_weeks": 0,
+            "playtime_at_review": 84,
+            "last_played": 1510202446
+          },
+          "language": "english",
+          "review": "Ok... this game sometimes gives me a goosebump... I love game with multiple ending.. and I got the worst one. hahaha",
+          "timestamp_created": 1510199920,
+          "timestamp_updated": 1510199920,
+          "voted_up": true,
+          "votes_up": 0,
+          "votes_funny": 0,
+          "weighted_vote_score": 0.5,
+          "comment_count": 0,
+          "steam_purchase": false,
+          "received_for_free": false,
+          "written_during_early_access": false,
+          "primarily_steam_deck": false,
+          "refunded": false
+        },
+        {
+          "recommendationid": "36383352",
+          "author": {
+            "steamid": "76561198141411541",
+            "num_reviews": 60,
+            "playtime_forever": 393,
+            "playtime_last_two_weeks": 0,
+            "playtime_at_review": 259,
+            "last_played": 1564036326
+          },
+          "language": "english",
+          "review": "Holy hell this game is so creepy! I really want to know more! Also, I'm scared as hell right now.",
+          "timestamp_created": 1510174629,
+          "timestamp_updated": 1510174629,
+          "voted_up": true,
+          "votes_up": 7,
+          "votes_funny": 6,
+          "weighted_vote_score": 0.5841636061668396,
+          "comment_count": 0,
+          "steam_purchase": true,
+          "received_for_free": false,
+          "written_during_early_access": false,
+          "primarily_steam_deck": false,
+          "refunded": false
+        },
+        {
+          "recommendationid": "36382593",
+          "author": {
+            "steamid": "76561198120796309",
+            "num_reviews": 1,
+            "playtime_forever": 760,
+            "playtime_last_two_weeks": 0,
+            "playtime_at_review": 521,
+            "last_played": 1520303982
+          },
+          "language": "english",
+          "review": "This game was actually extremely enticing, it definitely kept you on your feet and made sure you were looking at everything. I also especially loved the puzzles within this game I definitely recommend it to others!",
+          "timestamp_created": 1510171811,
+          "timestamp_updated": 1510171811,
+          "voted_up": true,
+          "votes_up": 0,
+          "votes_funny": 0,
+          "weighted_vote_score": 0.5,
+          "comment_count": 0,
+          "steam_purchase": true,
+          "received_for_free": false,
+          "written_during_early_access": false,
+          "primarily_steam_deck": false,
+          "refunded": false
+        },
+        {
+          "recommendationid": "36352654",
+          "author": {
+            "steamid": "76561198098769787",
+            "num_reviews": 1,
+            "playtime_forever": 413,
+            "playtime_last_two_weeks": 0,
+            "playtime_at_review": 366,
+            "last_played": 1510333910
+          },
+          "language": "english",
+          "review": "A bigger better version of SIM, I appreciate this quiet a bit.",
+          "timestamp_created": 1510090468,
+          "timestamp_updated": 1510090468,
+          "voted_up": true,
+          "votes_up": 7,
+          "votes_funny": 0,
+          "weighted_vote_score": 0.5650163292884827,
+          "comment_count": 0,
+          "steam_purchase": true,
+          "received_for_free": false,
+          "written_during_early_access": false,
+          "primarily_steam_deck": false,
+          "refunded": false
+        },
+        {
+          "recommendationid": "36336813",
+          "author": {
+            "steamid": "76561198104050698",
+            "num_reviews": 4,
+            "playtime_forever": 1290,
+            "playtime_last_two_weeks": 0,
+            "playtime_at_review": 1219,
+            "last_played": 1673065985
+          },
+          "language": "english",
+          "review": "This game was a wild experience all the way through. I honestly don't want to spoil anything for you all but if you want a very uneasy feeling throughout the entire game, pick this up. You won't be disappointed. It will make you rethink about how much you depend on technology once all is said and done.",
+          "timestamp_created": 1510034871,
+          "timestamp_updated": 1510034871,
+          "voted_up": true,
+          "votes_up": 8,
+          "votes_funny": 0,
+          "weighted_vote_score": 0.6049160361289978,
+          "comment_count": 1,
+          "steam_purchase": true,
+          "received_for_free": false,
+          "written_during_early_access": false,
+          "primarily_steam_deck": false,
+          "refunded": false
+        },
+        {
+          "recommendationid": "36316189",
+          "author": {
+            "steamid": "76561198098298357",
+            "num_reviews": 21,
+            "playtime_forever": 360,
+            "playtime_last_two_weeks": 0,
+            "playtime_at_review": 360,
+            "last_played": 1510283625
+          },
+          "language": "english",
+          "review": "Woooooowww, I'm a big fan of this new niche of games, orwell, replica, and honestly this is is the best of its kind! the puzzles can get repetitive but their better then most, the story is really interesting and if you get the ending i got replay value is through the roof!\n\nI WILL WARN YOU\nthe acting is badd, it ranges from sub par to TOMMY WISEAU LEVEL CRINGE. \n\nalso it can hold you back sometimes, sortve pushes you through steps when you already have an idea of whats going on. But at other times it does a gret job of making a story and letting you figure things out for yourself.\n\nEither way its a really great game, it isn't terrifying but it has some real creepy moments, I Highly reccomend!",
+          "timestamp_created": 1509951814,
+          "timestamp_updated": 1509951814,
+          "voted_up": true,
+          "votes_up": 1,
+          "votes_funny": 0,
+          "weighted_vote_score": 0.5024875402450562,
+          "comment_count": 0,
+          "steam_purchase": true,
+          "received_for_free": false,
+          "written_during_early_access": false,
+          "primarily_steam_deck": false,
+          "refunded": false
+        },
+        {
+          "recommendationid": "36314813",
+          "author": {
+            "steamid": "76561198320603386",
+            "num_reviews": 8,
+            "playtime_forever": 238,
+            "playtime_last_two_weeks": 0,
+            "playtime_at_review": 175,
+            "last_played": 1537414924
+          },
+          "language": "english",
+          "review": "SiM was a terrible game, rather people wanna say it or not, it was a stunning idea but it failed horribly. But this game, it feels like everything learned everything they did wrong and fixed it with flying colors. I'm kind of following my own path with it right now, but there are about five endings. For 4.99, it was indeed worth the money for a game with so much.",
+          "timestamp_created": 1509944000,
+          "timestamp_updated": 1509944000,
+          "voted_up": true,
+          "votes_up": 1,
+          "votes_funny": 0,
+          "weighted_vote_score": 0.4958333373069763,
+          "comment_count": 0,
+          "steam_purchase": true,
+          "received_for_free": false,
+          "written_during_early_access": false,
+          "primarily_steam_deck": false,
+          "refunded": false
+        },
+        {
+          "recommendationid": "36278225",
+          "author": {
+            "steamid": "76561198044082346",
+            "num_reviews": 30,
+            "playtime_forever": 320,
+            "playtime_last_two_weeks": 0,
+            "playtime_at_review": 320,
+            "last_played": 1509818050
+          },
+          "language": "english",
+          "review": "[This review made after getting two bad endings out of 5 possible endings]\n\nI like this game and I would recommend it, first and foremost, to players that are interested in STORY or, at least, world \nbuilding. The game is not difficult: picture puzzles, word arranging, and some light fact searching comprise the bulk of the challenges. The meat of the game is in the dialogue choices, and this is where the replayability come from. You don't really get locked out of most options when taking/talking different ways, so you can express your moral flexibility without fearing that you'll reach a dead-end. As for content, they did a decent job of fleshing out with stuff that makes it feel like a \"lived with\" phone. The game does a good job of simulating smartphone usage with the apps, pics and their poses, vids, and social media content. A nice touch, is that there is a checklist of tasks that would help the truly clueless and serve as a guide for those looking for certain keystone events to play around with on subsequent playthroughs. This checklist is out of the way though for those who don't want hints on what to do next.\n\n\nOn the negative side, some of the voice acting, for me, was off if not \"unsuitable\". The delivery of the voice only lines truly felt and sounded \"rehearsed\". The VOs not sounding natural kind of sticks out like a sore thumb amid the aptness of the pictures and videos to a phone setting. The worst offender of this, sorry to say to the voice actor, is the Greg character. Truly, to me, it sounded like he was voicing a cartoon character instead of making a call, and it kind of took me out of the general mood of the game.\n\nI think, the ending, will be pretty hit or miss for some people as well. I want to liken how the ending progresses to one of the scenes in a movie, but that would probably spoil it a bit. It's just that most people that saw it back then went \"Wait what was that again?\" Don't get me wrong, I'm fine with the endings I got (two bad endings), but the way to the climax was tedious, especially since I don't know if there is a message skip button for when you are doing a replay and you know what is going to be said. A note on the endings I got, it seems like you get locked to a set of outcomes after some threshold. I know my choices at the end didn't end up changing any of my final options. \n\nAll in all, a decent casual horror sim game with some replayability, a fleshed out setting, hit or miss voice acting, and an endgame sequence (not ending, the stuff leading up to the ending) that'll make you go \"excuse you? whowherewhenhowwhywhatnow?\". \n\nFor now, at full price, it would depend on your affinity for games like these to buy it for around a 5 hour single playthrough (worth it if you go with the $1 per hour of gameplay mindset). It is a decent recommend to buy if it ever has a sale at some point though.",
+          "timestamp_created": 1509822443,
+          "timestamp_updated": 1509822443,
+          "voted_up": true,
+          "votes_up": 15,
+          "votes_funny": 0,
+          "weighted_vote_score": 0.6592926979064941,
+          "comment_count": 2,
+          "steam_purchase": true,
+          "received_for_free": false,
+          "written_during_early_access": false,
+          "primarily_steam_deck": false,
+          "refunded": false
+        }
+      ],
+      "cursor": "AoJ438WbxN8Ccf2xigE=",
+      "total_matching": 3209
+    }
+  }
+}
