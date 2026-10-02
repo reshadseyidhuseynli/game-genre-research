@@ -130,3 +130,15 @@ Config repository-yə əlavə olunub:
     steam_app_id: 490930
 
 Növbəti mərhələ verified Steam review dataset collection-dır.
+
+
+## Tamamlanmış araşdırmanın məcburi çıxışları
+
+Need to Know araşdırması tamamlandıqda qovluq standart dörd fayldan ibarət olmalıdır:
+
+- research-kickoff.md — ilkin suallar və fərziyyələr;
+- theme-analysis.md — rəy məlumatlarının kəmiyyət və məna yönümlü təhlili;
+- deep-research.md — ətraflı yekun oyun araşdırması;
+- presentation-brief.md — komanda görüşü üçün 2–5 dəqiqəlik yığcam təqdimat xülasəsi.
+
+presentation-brief.md ayrıca yeni araşdırma aparmır; dərin araşdırma və rəy dəlillərindən yalnız ən vacib nəticələri çıxarır. Kommersiya nəticəsi izah edilərkən dəqiq satış faktı ilə səbəb hipotezi ayrılmalıdır.
