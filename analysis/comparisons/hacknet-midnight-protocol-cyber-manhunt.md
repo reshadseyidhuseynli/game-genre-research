@@ -34,7 +34,7 @@ məlumat toplusu ölçüləri çox fərqlidir. Absolute mention count-lar birba�
 | 3–10h müsbət | 95.79% | 75.95% | 80.49% |
 | 10h+ müsbət | 98.57% | 95.51% | 90.72% |
 
-Üç oyun üç fərqli onboarding problemi göstərir.
+Üç oyun üç fərqli ilkin öyrətmə problemi göstərir.
 
 ## Hacknet
 
@@ -73,7 +73,7 @@ ilə expectation mismatch yarada bilir.
 
 ### oyunlararası principle
 
-> **Onboarding yalnız controls öyrətmək deyil. oyunçu-in oyunun “necə düşünülməli olduğunu” öyrəndiyi mərhələ ayrıca dizayn edilməlidir.**
+> **İlkin öyrətmə yalnız controls öyrətmək deyil. oyunçu-in oyunun “necə düşünülməli olduğunu” öyrəndiyi mərhələ ayrıca dizayn edilməlidir.**
 
 ---
 
@@ -423,7 +423,7 @@ Bunları sadəcə feature stack etmək düzgün deyil.
 
 Əsas sual:
 
-> **Bir dominant core loop daxilində bunların hansı minimum kombinasiyası ən yüksək qərar density yaradır?**
+> **Bir dominant əsas oyun dövrü daxilində bunların hansı minimum kombinasiyası ən yüksək qərar density yaradır?**
 
 ---
 
