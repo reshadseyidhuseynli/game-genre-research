@@ -14,5 +14,8 @@ games:
   - key: orwell
     name: "Orwell: Keeping an Eye On You"
     steam_app_id: 491950
+  - key: need-to-know
+    name: Need to Know
+    steam_app_id: 490930
 sample_size: 50
 request_delay_seconds: 2
