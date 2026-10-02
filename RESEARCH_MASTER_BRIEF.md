@@ -1960,22 +1960,28 @@ Bu bölmə yeni sessiyada “nə hazırdır?” sualının əsas istinad-udur.
 - ən böyük risklər early onboarding/UI, semantic reasoning ilə exact rule acceptance arasındakı fərq, təkrarçılıq və progression tərəfindən məcbur edilən seçimlərdir;
 - Orwell daha az seçim səthi ilə daha aydın consequence chain qurduğu üçün real agency hissi daha güclü görünür.
 
-### Mainlining — current Tier A target
+### Mainlining — complete
 
-- ✅ Steam App ID yoxlanıb: **454950**
-- ✅ `config/games.yaml` entry əlavə olunub
+- ✅ verified Steam məlumat toplusu: **304 rəy**
+- ✅ müsbət: **230**
+- ✅ mənfi: **74**
+- ✅ müsbət pay: **75.66%**
+- ✅ deterministik v5 mövzu artefaktları
+- ✅ 74/74 mənfi rəy üzrə məna yönümlü audit
+- ✅ 39 məqsədli müsbət rəy auditi
 - ✅ `analysis/mainlining/research-kickoff.md`
-- ⏳ Steam məlumat toplusu — gözlənilir
-- ⏳ verification/statistics — gözlənilir
-- ⏳ deterministik mövzu artefaktları — gözlənilir
-- ⏳ `analysis/mainlining/theme-analysis.md`
-- ⏳ `analysis/mainlining/deep-research.md`
-- ⏳ `analysis/mainlining/presentation-brief.md`
-- ⏳ `analysis/comparisons/cyber-manhunt-vs-mainlining.md`
+- ✅ `analysis/mainlining/theme-analysis.md`
+- ✅ `analysis/mainlining/deep-research.md`
+- ✅ `analysis/mainlining/presentation-brief.md`
+- ✅ `analysis/comparisons/cyber-manhunt-vs-mainlining.md`
 
-Əsas araşdırma sualı:
-
-> Cyber Manhunt-un scripted investigation və Need to Know-un constrained-agency problemlərinə qarşı Mainlining hacking + investigation + evidence modelində nəyi fərqli edir və bu fərqlər oyunçu nəticəsinə necə təsir edir?
+Əsas nəticələr:
+- Mainlining-in əsas gücü real hacking deyil, **desktop daxilində məlumatı əlaqələndirib işi özün həll etmək competence fantasy-sidir**;
+- ən böyük dizayn problemi logical evidence ilə system-accepted exact evidence arasındakı fərqdir;
+- arrest feedback suspect/evidence/location komponentlərindən hansının səhv olduğunu kifayət qədər aydın göstərmir;
+- `REPETITION`, `BUGS_COMPATIBILITY`, `TERMINAL_UI` və `UI_USABILITY` əsas mənfi risklərdir;
+- Cyber Manhunt exact clue route, Need to Know exact rule acceptance, Mainlining isə exact evidence acceptance ilə eyni knowledge-state problemini fərqli formada təkrarlayır;
+- investigation sistemi designer-in click history-sini yox, oyunçunun təsdiqlənə bilən knowledge state-ni modelləşdirməlidir.
 
 ### Final package
 
@@ -1993,41 +1999,48 @@ Bu inventory hər major milestone-dan sonra yenilənməlidir.
 
 # 18. Hazırkı növbəti addım
 
-**Mainlining — Tier A araşdırması başlayıb.**
+**Mainlining Tier A araşdırması tamamlanıb.**
 
-Tamamlanıb:
+Növbəti əsas Tier A target:
 
-1. Steam App ID yoxlanıb: `454950`
-2. `config/games.yaml` entry əlavə olunub
-3. `analysis/mainlining/research-kickoff.md` yaradılıb
+## SIMULACRA
 
-Növbəti addım Steam dataset collection-dır:
+SIMULACRA found-device / phone-interface xəttinin əsas baseline oyunudur.
+
+Əsas araşdırma sualı:
+
+> **Desktop/browser/terminal tipli oyunlardan fərqli olaraq telefonun özünü oyun dünyasına çevirmək investigation, immersion, informasiya yaddaşı, agency və qorxu/təzyiq hissini necə dəyişir?**
+
+Xüsusi müqayisə istiqamətləri:
+
+- interface-as-world: Mainlining desktop vs SIMULACRA phone;
+- information discovery: Cyber Manhunt vs SIMULACRA;
+- clue relationship və scripted progression;
+- found-device immersion;
+- phone-native affordance-lar;
+- media/text/audio/video məlumatlarının birlikdə işləməsi;
+- choice/consequence;
+- pacing və jump-scare/horror təzyiqinin deduction-a təsiri.
+
+Növbəti iş:
+
+1. SIMULACRA üçün düzgün Steam App ID və məhsul məlumatını yoxla;
+2. `config/games.yaml` entry yarat;
+3. `analysis/simulacra/research-kickoff.md` hazırla;
+4. lokal dataset pipeline:
 
 ```bash
-python -m src.pipeline --game mainlining
+py -m src.pipeline --game simulacra
+py -m src.verify --game simulacra
+py -m src.theme_pipeline --game simulacra
 ```
 
-Pipeline bitdikdən sonra:
+5. generated artefaktları push et;
+6. sonra tam Tier A audit və hesabatlar.
 
-```bash
-python -m src.verify --game mainlining
-python -m src.theme_pipeline --game mainlining
-```
+Mainlining-dən çıxan yeni cross-game principle:
 
-generated raw/processed/report/theme artefaktlarını push et.
-
-Sonra:
-
-- bütün mənfi rəylər mümkün olduğu qədər tam semantic audit;
-- müsbət helpful/recent/playtime-stratified audit;
-- `theme-analysis.md`;
-- `deep-research.md`;
-- `presentation-brief.md`;
-- `analysis/comparisons/cyber-manhunt-vs-mainlining.md`.
-
-Əsas müqayisə hipotezi:
-
-> **Investigation oyunu oyunçunun knowledge state-ni tanımadıqda, problem fərqli interface-lərdə eyni formada təkrarlanır: Cyber Manhunt-da exact clue path, Need to Know-da exact rule acceptance, Mainlining-də isə yoxlanmalı olan exact evidence/person/location acceptance.**
+> **Digital investigation-da düzgün cavabın dəyəri yalnız oyunçunun onu tapmasında deyil; sistem həmin bilik vəziyyətini designer-in konkret click/file yolu olmadan tanıya bilməlidir.**
 
 ---
 
