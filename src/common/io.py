@@ -52,4 +52,7 @@ def write_csv(path, rows, fields):
 
 
 def sha256(path):
-    return hashlib.sha256(Path(path).read_bytes()).hexdigest()
+    # Git may check text files out with CRLF on Windows. Snapshot integrity
+    # should depend on textual content, not the host OS line-ending convention.
+    data = Path(path).read_bytes().replace(b'\r\n', b'\n').replace(b'\r', b'\n')
+    return hashlib.sha256(data).hexdigest()
