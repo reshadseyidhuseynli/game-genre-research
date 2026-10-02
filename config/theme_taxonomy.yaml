@@ -1,4 +1,4 @@
-version: 2
+version: 3
 description: >
   Computer-interface / hacking / digital-investigation oyunları üçün deterministik theme-candidate retrieval taxonomy.
   Bu qaydalar final semantic classification deyil; review-ləri sonrakı aspect analysis
@@ -300,3 +300,125 @@ themes:
       - '\bbranching dialogue\b'
       - '\bside quests?\b'
       - '\bside missions?\b'
+
+
+  LOCALIZATION_WRITING:
+    label_az: Lokalizasiya, yazı və dialoq keyfiyyəti
+    patterns:
+      - '\btranslat(?:e|ed|ion|ions)\b'
+      - '\bgrammar\b'
+      - '\bgrammatical\b'
+      - '\bspelling\b'
+      - '\btypos?\b'
+      - '\bbroken english\b'
+      - '\benglish (?:is|was|version)\b'
+      - '\bdialogue\b'
+      - '\bwriting\b'
+      - '\bwording\b'
+      - '\bvoice acting\b'
+      - '\bvoice actors?\b'
+      - '\bpronunciation\b'
+
+  LINEARITY_SCRIPTING:
+    label_az: Linearity və sərt scripted progression
+    patterns:
+      - '\blinear(?:ity)?\b'
+      - '\bin order\b'
+      - '\bright (?:part|point|time)\b'
+      - '\bexact (?:piece|clue|evidence|answer)\b'
+      - '\bpredefined\b'
+      - '\brailroad(?:ed|ing)?\b'
+      - '\bone (?:correct )?(?:path|way)\b'
+      - '\bsequence break\b'
+      - '\bwon.t let you\b'
+      - '\bdoesn.t let you\b'
+      - '\bforced to\b'
+
+  CLUE_EVIDENCE_QUALITY:
+    label_az: Clue və evidence keyfiyyəti
+    patterns:
+      - '\bclues?\b'
+      - '\bevidence\b'
+      - '\bpertinent\b'
+      - '\brelevant\b'
+      - '\bhighlight(?:ed|ing)?\b'
+      - '\bhover(?:ing)?\b'
+      - '\bmissing (?:a )?clue\b'
+      - '\blast clue\b'
+
+  DEDUCTION_REASONING:
+    label_az: Deduction və reasoning
+    patterns:
+      - '\bdeduct(?:ion|ive)\b'
+      - '\breasoning\b'
+      - '\blogic(?:al)?\b'
+      - '\bfigure out\b'
+      - '\bpiece(?:d|ing)? (?:it|the story|things) together\b'
+      - '\bguess(?:ing)?\b'
+      - '\baha\b'
+
+  PUZZLE_CLARITY:
+    label_az: Puzzle aydınlığı və fairness
+    patterns:
+      - '\bpuzzles?\b'
+      - '\briddles?\b'
+      - '\bminigames?\b'
+      - '\binstructions?\b'
+      - '\bexplain(?:ed|ation)?\b'
+      - '\bconfus(?:ing|ed)\b'
+      - '\bunclear\b'
+      - '\bcryptic\b'
+      - '\barbitrary\b'
+      - '\btrial and error\b'
+
+  INFORMATION_SEARCH:
+    label_az: Information search və data gathering
+    patterns:
+      - '\bsearch(?:ing)?\b'
+      - '\bgoogl(?:e|ing)\b'
+      - '\bgogo\b'
+      - '\btoothbook\b'
+      - '\bprofiles?\b'
+      - '\baccounts?\b'
+      - '\bemails?\b'
+      - '\bwebpages?\b'
+      - '\bdata[- ]collection\b'
+      - '\bgather(?:ing)? (?:data|information|clues)\b'
+
+  SOCIAL_ENGINEERING:
+    label_az: Social engineering və phishing
+    patterns:
+      - '\bphish(?:ing)?\b'
+      - '\bsocial engineering\b'
+      - '\bimpersonat(?:e|ing|ion)\b'
+      - '\banonymous call\b'
+      - '\bphone call\b'
+
+  TIMED_EVENTS:
+    label_az: Timed event və time-limit friction
+    patterns:
+      - '\btime limit\b'
+      - '\btimed\b'
+      - '\btimer\b'
+      - '\bcountdown\b'
+      - '\btime sensitive\b'
+
+  PUBLIC_OPINION_MINIGAME:
+    label_az: Public opinion / influence minigame
+    patterns:
+      - '\bpublic (?:image|opinion|influence)\b'
+      - '\bmedia articles?\b'
+      - '\bpopularity\b'
+
+  ETHICAL_SOCIAL_THEME:
+    label_az: Etik və sosial mövzular
+    patterns:
+      - '\bprivacy\b'
+      - '\bcyber violence\b'
+      - '\bcyberbully(?:ing)?\b'
+      - '\bbullying\b'
+      - '\bharassment\b'
+      - '\bmoral(?:ity)?\b'
+      - '\bethic(?:s|al)?\b'
+      - '\bsocial issues?\b'
+      - '\bpreach(?:y|ing)?\b'
