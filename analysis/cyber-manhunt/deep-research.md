@@ -2,18 +2,18 @@
 
 ## Rəhbərlik üçün xülasə
 
-Cyber Manhunt əvvəlki iki reference oyundan fərqli olaraq dərinliyi terminal əmrlərinin icrası və taktiki hərəkət büdcəsi-dən yox, **məlumat kəşfi, deduction, sosial kontekst və hekayə yönümlü araşdırma** üzərindən qurur.
+Cyber Manhunt əvvəlki iki istinad oyunundan fərqli olaraq dərinliyi terminal əmrlərinin icrası və taktiki hərəkət büdcəsindən yox, **məlumat kəşfi, məntiqi nəticə çıxarma, sosial kontekst və hekayə yönümlü araşdırma** üzərindən qurur.
 
 Yoxlanmış Steam məlumat toplusu:
 
 - 847 rəy
 - 681 müsbət
 - 166 mənfi
-- **80.40% müsbət ratio**
+- **80.40% müsbət rəy nisbəti**
 
 Ən vacib nəticə:
 
-> **Cyber Manhunt-un əsas gücü “internetdə iz axtaran rəqəmsal araşdırmaçı” rol hissidirdir; əsas zəifliyi isə oyunçunun öz məntiqi nəticə çıxarma və intuisiya-u ilə irəliləməsi əvəzinə tez-tez əvvəlcədən təyin olunmuş ipucu ardıcıllığı və irəliləyiş şərtlərinə bağlanmasıdır.**
+> **Cyber Manhunt-un əsas gücü “internetdə iz axtaran rəqəmsal araşdırmaçı” rol hissidir; əsas zəifliyi isə oyunçunun öz məntiqi nəticə çıxarma və intuisiyası ilə irəliləməsi əvəzinə tez-tez əvvəlcədən təyin olunmuş ipucu ardıcıllığı və irəliləyiş şərtlərinə bağlanmasıdır.**
 
 Oyun real dəyər yaradır:
 - hekayə və iş üzrə maraq;
@@ -25,12 +25,12 @@ Oyun real dəyər yaradır:
 Amma bu dəyər aşağıdakılarla zəifləyir:
 - sərt xətti irəliləyiş;
 - ipucu və dəlilin sistem tərəfindən qəbulu problemləri;
-- lokallaşdırma və yazı keyfiyyəti keyfiyyəti;
+- lokallaşdırma və yazı açarfiyyəti;
 - UI istifadəsində çətinlik;
 - təkrarlanan məlumat iş axını;
-- bəzi birdəfəlik mini-oyun-lərdə aydınlıq və vaxtlama problemi.
+- bəzi birdəfəlik mini-oyunlarda aydınlıq və vaxtlama problemi.
 
-Ən ciddi məhsul siqnalı ilk sessiya qrupu-dadır:
+Ən ciddi məhsul siqnalı ilk sessiya qrupundadır:
 
 - 0–1h: **27.78% müsbət**
 - 1–3h: **44.07% müsbət**
@@ -44,7 +44,7 @@ Amma bu dəyər aşağıdakılarla zəifləyir:
 
 ---
 
-# 1. Araşdırmanın əhatəsi və məlumat keyfiyyəti
+# 1. Araşdırmanın əhatəsi və məlumat açarfiyyəti
 
 məlumat toplusunun kəsimi: **2026-10-02**
 
@@ -63,7 +63,7 @@ məlumat toplusunun kəsimi: **2026-10-02**
 - `data/processed/cyber-manhunt/statistics.json`
 - `data/reports/cyber-manhunt/summary.md`
 
-Steam-in ingilis dili kimi qaytardığı mətn toplusu daxilində bəzi başqa-dilli rəy-lər də var. Buna görə rəy sayı və tövsiyə statistikasını istifadə edirik, amma söz əsaslı mövzu faizi exact “ingilis dili oyunçu kütləsi yayılma” kimi təqdim edilmir.
+Steam-in ingilisdilli kimi qaytardığı mətn toplusu daxilində bəzi başqa-dilli rəylər də var. Buna görə rəy sayı və tövsiyə statistikasını istifadə edirik, amma söz əsaslı mövzu faizi dəqiq “ingilisdilli oyunçular arasında yayılma” kimi təqdim edilmir.
 
 ---
 
@@ -76,16 +76,16 @@ Steam App ID: **1216710**
 - Erkən Giriş: August 2020
 - tək oyunçulu
 - Demo mövcuddur
-- Əsas təqdimat: hekayə-oriented tapmaca oyunu
-- Mövzular: böyük məlumat kütlələri, məxfilik, kiber zorakılıq, onlayn mühakimə, investigation.
+- Əsas təqdimat: hekayə yönümlü tapmaca oyunu
+- Mövzular: böyük məlumat kütlələri, məxfilik, kiber zorakılıq, onlayn mühakimə, araşdırma.
 
-yaradıcı oyunu sadəcə “cool hacking” rol hissidir kimi yox, real internet davranışları və sosial zərər mövzuları üzərindən qurmaq istədiyini açıq şəkildə bildirir.
+Yaradıcı oyunu sadəcə “cəlbedici hakerlik” rol hissidir kimi yox, real internet davranışları və sosial zərər mövzuları üzərindən qurmaq istədiyini açıq şəkildə bildirir.
 
 Bu Cyber Manhunt-u Hacknet və Midnight Protocol-dan ayırır:
 
 ```text
-Hacknet → hacker fantasy
-Midnight Protocol → tactical hacker fantasy
+Hacknet → özünü haker kimi hiss etmə
+Midnight Protocol → tactical özünü haker kimi hiss etmə
 Cyber Manhunt → rəqəmsal araşdırmaçı və sosial/kiber müşahidəçi fantasy
 ```
 
@@ -97,7 +97,7 @@ Cyber Manhunt → rəqəmsal araşdırmaçı və sosial/kiber müşahidəçi fan
 
 > **Computer-interfeys daxilində oynanan hekayə-driven rəqəmsal araşdırma və sosial mühəndislik tapmaca oyunu.**
 
-Core experience:
+Əsas təcrübə:
 
 ```text
 iş haqqında ilkin məlumat
@@ -105,20 +105,20 @@ iş haqqında ilkin məlumat
 → şəxslər və əlaqələr haqqında profil qur
 → əlavə giriş imkanları aç
 → yeni məlumat tap
-→ clue-ları əlaqələndir
+→ ipuclarını əlaqələndir
 → məntiqi düşünmə/puzzle mərhələsi
-→ iş və story nəticəsi
+→ iş və hekayə nəticəsi
 ```
 
 Burada ən vacib fərq budur:
 
-> Access əldə etmək məqsəd deyil; yeni information qat-ə keçid vasitəsidir.
+> Access əldə etmək məqsəd deyil; yeni məlumat qat-ə keçid vasitəsidir.
 
-Bu, bizim əvvəlki araşdırma-də axtardığımız circular information loop-a çox yaxındır.
+Bu, bizim əvvəlki araşdırma-də axtardığımız dairəvi məlumat dövrü-a çox yaxındır.
 
 ---
 
-# 4. oyunçu Fantasy
+# 4. Oyunçunun rol hissi
 
 Cyber Manhunt-un əsas rol hissidir:
 
@@ -126,15 +126,15 @@ Cyber Manhunt-un əsas rol hissidir:
 
 Bu fantasy üç hissədən yaranır.
 
-## 4.1. Information power
+## 4.1. Məlumat üstünlüyü
 
 Oyunçu əvvəl az məlumat bilir, sonra hədəf şəxs haqqında çox şey öyrənir.
 
-Bu progression özü reward yaradır.
+Bu irəliləyişin özü mükafat hissi yaradır.
 
 ## 4.2. Rəqəmsal müşahidə və maraq
 
-rəy-lərdə “nosey”, “sleuth”, “investigation”, “digging through information” tipli ifadələr görünür.
+rəylərdə “nosey”, “sleuth”, “araşdırma”, “digging through məlumat” tipli ifadələr görünür.
 
 oyunçu yalnız məqsəd üçün yox, “burada başqa nə var?” marağı ilə davam edə bilir.
 
@@ -148,16 +148,16 @@ Bu Hacknet-in fayl sistemi curiosity-sini daha social direction-a aparır.
 
 # 5. İnsanlar niyə başlayır?
 
-Əsas hook-lar:
+Əsas ilkin cəlbedici amillər:
 
-- Orwell tipli investigation fantasy;
+- Orwell tipli araşdırma fantasy;
 - hacker/detective premise;
 - computer desktop interfeys;
 - real həyatdakı məxfilik və cyber themes;
 - hekayə mystery;
 - unusual indie concept.
 
-mağaza page və rəy-lərdən görünən gözlənti:
+mağaza page və rəylərdən görünən gözlənti:
 
 > “mən məlumatları özüm tapıb birləşdirəcəyəm.”
 
@@ -171,15 +171,15 @@ kimi hiss olunursa, disappointment çox tez yaranır.
 
 # 6. İnsanlar niyə davam edir?
 
-10h+ cohort-da müsbət ratio **90.72%**-dir.
+10h+ cohort-da müsbət rəy nisbəti **90.72%**-dir.
 
 Bu causation deyil, amma uzun oynayan audience-in nəyi dəyərləndirdiyini nümunə-lar göstərir:
 
 - iş-lərin bir-birinə bağlanması;
 - dark hekayə;
 - characters və motivations;
-- information accumulation;
-- investigation atmosphere;
+- məlumat accumulation;
+- araşdırma atmosphere;
 - puzzle variety;
 - social themes;
 - hekayə revelations.
@@ -190,7 +190,7 @@ Cyber Manhunt-un oyunda qalma sistemi əsasən:
 
 üzərindədir.
 
-Bu Hacknet ilə oxşardır, amma information chain burada daha explicit əsas oyun dövrü-dur.
+Bu Hacknet ilə oxşardır, amma məlumat chain burada daha explicit əsas oyun dövrü-dur.
 
 ---
 
@@ -218,8 +218,8 @@ Bu üç oyunda gördüyümüz ən sərt early-rəy profile-dir.
 
 nümunə yoxlama early mənfi geribildirim-i əsasən bunlara bağlayır:
 
-- investigation-ın çox linear hiss olunması;
-- clue-ların oyunçuya “tapdırılması” əvəzinə UI tərəfindən göstərilməsi;
+- araşdırma-ın çox linear hiss olunması;
+- ipuclarının oyunçuya “tapdırılması” əvəzinə UI tərəfindən göstərilməsi;
 - translation;
 - UI istifadəsində çətinlik;
 - sadələşdirilmiş qarşılıqlı əlaqə;
@@ -246,7 +246,7 @@ Cyber Manhunt-un böyük üstünlüyü budur:
 
 Dərinlik üçün çox sayda combat/tactical system lazım deyil.
 
-Dərinlik information relationships-dən yarana bilər.
+Dərinlik məlumat relationships-dən yarana bilər.
 
 Məsələn:
 
@@ -268,11 +268,11 @@ Belə graph oyunçuya böyük qərar space verə bilər.
 
 Amma current implementation tez-tez bu graph-i tam sərbəst buraxmır.
 
-rəy-lərdə:
+rəylərdə:
 - “already knew cavab but game did not accept it”;
 - “wrong clue source”;
 - “same search later suddenly works”;
-- “exact dəlil required”
+- “dəqiq dəlil required”
 
 tipli complaint-lər təkrarlanır.
 
@@ -308,7 +308,7 @@ olur.
 
 ### dizayn dərsi
 
-> **oyunçunun həqiqətən bildiyi məlumat progress üçün valid olmalıdır, hətta onu designer-in nəzərdə tutduğu exact route ilə tapmayıbsa.**
+> **oyunçunun həqiqətən bildiyi məlumat progress üçün valid olmalıdır, hətta onu designer-in nəzərdə tutduğu dəqiq route ilə tapmayıbsa.**
 
 Bu gələcək concept üçün çox vacibdir.
 
@@ -321,7 +321,7 @@ CLUE_EVIDENCE_QUALITY:
 - 120 mentions
 - **29.17% mənfi**
 
-rəy-lərdə iki opposite problem var.
+rəylərdə iki opposite problem var.
 
 ## Too explicit
 
@@ -357,7 +357,7 @@ Core fantasy güclüdür.
 
 Problem search engine-in çox deterministic olmasıdır.
 
-Əgər yalnız exact expected query işləyirsə:
+Əgər yalnız dəqiq expected query işləyirsə:
 
 > search system deyil, disguised diajurnal qeydiue tree yaranır.
 
@@ -370,7 +370,7 @@ Gələcək dizayn üçün imkan:
 - redundant dəlil;
 - conflicting sources.
 
-Bu information oyun gedişi-ə real ustalaşma verə bilər.
+Bu məlumat oyun gedişi-ə real ustalaşma verə bilər.
 
 ---
 
@@ -384,17 +384,17 @@ oyunçu experience-də bu:
 - trust;
 - personal context
 
-kimi human information-u oyun gedişi materialına çevirir.
+kimi human məlumat-u oyun gedişi materialına çevirir.
 
 Bu çox güclü concept direction-dır.
 
-Amma bəzi rəy-lər execution-u trial-and-error kimi qəbul edir.
+Amma bəzi rəylər execution-u trial-and-error kimi qəbul edir.
 
 ### dizayn dərsi
 
-> **Human qarşılıqlı əlaqə puzzle-i “correct diajurnal qeydiue option” yox, əvvəl topladığın information-dan leverage istifadə etmək üzərində qurulmalıdır.**
+> **Human qarşılıqlı əlaqə puzzle-i “correct diajurnal qeydiue option” yox, əvvəl topladığın məlumat-dan leverage istifadə etmək üzərində qurulmalıdır.**
 
-Bu zaman investigation və social qarşılıqlı əlaqə eyni loop-a çevrilir.
+Bu zaman araşdırma və social qarşılıqlı əlaqə eyni loop-a çevrilir.
 
 ---
 
@@ -433,7 +433,7 @@ LOCALIZATION_WRITING isə ayrıca çox güclü risk-dir:
 > **Text-driven game-də writing və localization mexanika qədər core production discipline-dir.**
 
 Poor ifadələr:
-- clue jurnal qeydiic-i;
+- ipucu məntiqi-i;
 - character believability-ni;
 - puzzle instruction-u;
 - emotional nəticə-i
@@ -446,7 +446,7 @@ bir anda zəiflədə bilir.
 
 Cyber Manhunt təkrarçılıq-ı qırmaq üçün müxtəlif one-off puzzle və minigame-lər istifadə edir.
 
-Bu müsbət rəy-lərdə variety kimi təriflənir.
+Bu müsbət rəylərdə variety kimi təriflənir.
 
 Amma PUZZLE_CLARITY:
 
@@ -499,7 +499,7 @@ təkrarçılıq:
 
 Cyber Manhunt sübut edir ki:
 
-> information oyun gedişi özü avtomatik variation yaratmır.
+> məlumat oyun gedişi özü avtomatik variation yaratmır.
 
 Əgər hər hədəf şəxs:
 
@@ -521,7 +521,7 @@ Bu artıq üç oyunda təkrarlanan principle-dir:
 
 # 17. UI/UX
 
-UI investigation game-də xüsusilə vacibdir.
+UI araşdırma game-də xüsusilə vacibdir.
 
 oyunçu eyni anda:
 - müxtəlif şəxsləri;
@@ -536,14 +536,14 @@ Yəni UI:
 
 > **oyunçunun external working memory-sidir.**
 
-rəy-lərdə scroll, hover, click detection, layout və platform-specific issues məntiqi düşünmə cost-u artırır.
+rəylərdə scroll, hover, click detection, layout və platform-specific issues məntiqi düşünmə cost-u artırır.
 
 Gələcək concept üçün:
 - dəlil board;
-- search history;
+- search hihekayə;
 - pinned facts;
 - relationship graph;
-- back/forward history;
+- back/forward hihekayə;
 - open tabs;
 - automatic provenance
 
@@ -560,19 +560,19 @@ REALISM_ACCURACY:
 
 yaradıcı real social events və subject-matter araşdırma istifadə edib.
 
-oyunçu-lər full technical realizm tələb etmir.
+oyunçu-lər tam technical realizm tələb etmir.
 
 Onlara daha çox lazım olan:
 
 - tanınan behavior;
-- plausible information chain;
+- plausible məlumat chain;
 - human mistakes;
 - məxfilik leakage jurnal qeydiic;
 - ardıcıl cause/effect.
 
 Bu artıq üç oyun üzrə güclənən oyunlararası prinsip-dir:
 
-> **seçilmiş həqiqilik hissi full simulation-dan daha effektiv ola bilər.**
+> **seçilmiş həqiqilik hissi tam simulation-dan daha effektiv ola bilər.**
 
 ---
 
@@ -586,9 +586,9 @@ yaradıcı-in əsas məqsədlərindən biri:
 
 haqqında oyunçu-i düşündürməkdir.
 
-Bu mövzular müsbət rəy-lərdə meaningful sayılır.
+Bu mövzular müsbət rəylərdə meaningful sayılır.
 
-Amma bəzi mənfi rəy-lər:
+Amma bəzi mənfi rəylər:
 - moralizing;
 - stereotypes;
 - forced message
@@ -605,8 +605,8 @@ Amma bəzi mənfi rəy-lər:
 
 | Intent | Outcome |
 |---|---|
-| Real-world social resonance | Güclü concept, amma ingilis dili writing keyfiyyəti təsiri azalda bilir |
-| Accessible cyber-investigation | əlçatanlıq yüksəkdir, amma bəzi oyunçu üçün dərinlik çox scripted-dir |
+| Real-world social resonance | Güclü concept, amma ingilis dili writing açarfiyyəti təsiri azalda bilir |
+| Accessible cyber-araşdırma | əlçatanlıq yüksəkdir, amma bəzi oyunçu üçün dərinlik çox scripted-dir |
 | Social-engineering həqiqilik hissi | mövzu güclüdür, mexanika dərinlik mixed-dir |
 | hekayə-driven puzzle | hekayə oyunda qalma yaradır, puzzle aydınlıq inconsistent-dir |
 | Realistic relevance | tam realizm tələb olunmadan yaxşı işləyir |
@@ -667,7 +667,7 @@ Exact query dependency minimum olmalıdır.
 
 ## 23.4. Information → hypothesis → action → nəticə loop qur
 
-Sadəcə information → next məqsəd yox.
+Sadəcə məlumat → next məqsəd yox.
 
 ## 23.5. Writing oyun gedişi budget-in hissəsidir
 
@@ -689,7 +689,7 @@ Investigation thinking time-a ehtiyac duyur.
 
 # 24. imkan Map
 
-## 24.1. Organic information graph
+## 24.1. Organic məlumat graph
 
 Static progression chain əvəzinə networked dəlil.
 
@@ -703,7 +703,7 @@ oyunçu öz theory-sini qurur və sistem bunu test etməyə imkan verir.
 
 ## 24.4. Social nəticə
 
-Tapdığın information yalnız puzzle açmır, person/world state dəyişir.
+Tapdığın məlumat yalnız puzzle açmır, person/world state dəyişir.
 
 ## 24.5. Better dəlil UX
 
@@ -727,7 +727,7 @@ Midnight Protocol
 tactical/system depth
 
 Cyber Manhunt
-information/deduction depth
+məlumat/məntiqi nəticə çıxarma depth
 ```
 
 Hər üçündə eyni problem başqa formada görünür:
@@ -742,7 +742,7 @@ Bu artıq genre-level dizayn principle üçün güclü dəlil-dir.
 
 Ən maraqlı hybrid istiqamət:
 
-> **Hacknet-in oyuna dalma hissi və organic snooping-i + Midnight Protocol-un meaningful nəticə-u + Cyber Manhunt-un information graph/deduction rol hissidir.**
+> **Hacknet-in oyuna dalma hissi və organic snooping-i + Midnight Protocol-un meaningful nəticə-u + Cyber Manhunt-un məlumat graph/məntiqi nəticə çıxarma rol hissidir.**
 
 Amma bu feature stacking kimi edilməməlidir.
 
@@ -754,9 +754,9 @@ Core dizayn əvvəlcə bir əsas fantasy və bir əsas qərar loop ətrafında q
 
 1. Cyber Manhunt 2 original-dakı linearity və dəlil-state problemlərini nə qədər həll edib?
 2. Original-da ingilis dili localization improvement patch-ləri rəy cohort-larında ölçülə bilərmi?
-3. The Operator eyni information-driven loop-u daha az scripted hiss etdirirmi?
-4. Orwell daha az mexanika ilə daha güclü deduction/ethical tension yaradırmı?
-5. Mainlining information-search və hacking arasında necə balans qurur?
+3. The Operator eyni məlumat-driven loop-u daha az scripted hiss etdirirmi?
+4. Orwell daha az mexanika ilə daha güclü məntiqi nəticə çıxarma/ethical tension yaradırmı?
+5. Mainlining məlumat-search və hakerlik arasında necə balans qurur?
 6. Search sərbəstlik artanda oyunçu çaşqınlıq nə qədər artır?
 
 ---
