@@ -1,0 +1,15 @@
+review_id,steam_app_id,game_key,game_name,language,review_text_raw,review_text_clean,recommended,created_at,updated_at,playtime_forever_minutes,playtime_at_review_minutes,playtime_last_two_weeks_minutes,votes_up,votes_funny,weighted_vote_score,steam_purchase,received_for_free,written_during_early_access,refunded,author_steam_id,author_num_games_owned,author_num_reviews,is_empty,is_very_short,review_length_chars,review_length_words,playtime_forever_hours,playtime_at_review_hours,playtime_segment,overall_sentiment
+170570791,1771980,the-operator,The Operator,english,"[h1]Meh[/h1]
+
+This is one of the games where I wish there would be a ""Meh"" option.
+
+I plaid the Demo and was looking forward to the games release as this sort of ""operate and solve puzzles from your PC"" ones are much to my liking. 
+
+Unfortunately the game itself was quite linear, very few and quite easy puzzles and the story sort of foreseeable. 
+
+Choices matter a little bit, but as soon as you had your play through you will only see the results at the very end. There is no save function, no chapters, so if you wanna try out other choices you will have to go through the exact same stuff another time - which is a bit boring as the story is very linear.
+
+Perfect game if you want to click a few buttons every once in a while and not think to much. 
+
+","[h1]Meh[/h1] This is one of the games where I wish there would be a ""Meh"" option. I plaid the Demo and was looking forward to the games release as this sort of ""operate and solve puzzles from your PC"" ones are much to my liking. Unfortunately the game itself was quite linear, very few and quite easy puzzles and the story sort of foreseeable. Choices matter a little bit, but as soon as you had your play through you will only see the results at the very end. There is no save function, no chapters, so if you wanna try out other choices you will have to go through the exact same stuff another time - which is a bit boring as the story is very linear. Perfect game if you want to click a few buttons every once in a while and not think to much.",False,2024-07-23T17:48:01+00:00,2024-07-23T17:53:43+00:00,191.0,191.0,0.0,1.0,0.0,0.523809552192688,True,False,False,False,76561198134086349,,5.0,False,False,746,147,3.183333333333333,3.183333333333333,3-10h,negative
+179176230,1771980,the-operator,The Operator,english,"No save point, to much slow animation and the game is kind of short. A scam.","No save point, to much slow animation and the game is kind of short. A scam.",False,2024-11-16T19:59:04+00:00,2024-11-16T19:59:04+00:00,247.0,247.0,0.0,0.0,0.0,0.3963414430618286,True,False,False,False,76561198140542913,,10.0,False,False,76,16,4.116666666666666,4.116666666666666,3-10h,negative

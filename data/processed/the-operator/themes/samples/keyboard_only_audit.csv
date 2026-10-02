@@ -1,0 +1,22 @@
+review_id,steam_app_id,game_key,game_name,language,review_text_raw,review_text_clean,recommended,created_at,updated_at,playtime_forever_minutes,playtime_at_review_minutes,playtime_last_two_weeks_minutes,votes_up,votes_funny,weighted_vote_score,steam_purchase,received_for_free,written_during_early_access,refunded,author_steam_id,author_num_games_owned,author_num_reviews,is_empty,is_very_short,review_length_chars,review_length_words,playtime_forever_hours,playtime_at_review_hours,playtime_segment,overall_sentiment
+207616603,1771980,the-operator,The Operator,english,"Is it a short game?
+Yes...about 3-4 hours or less depending on your problem-solving skills.
+
+Is it a hard puzzle/deduction game?
+Somewhat.
+
+Is it similar to other hacking game where you have to type command lines?
+Not really...you'll mostly using your mouse with minimal typing required.
+
+Does it have voice acting?
+Yes...and really good ones.
+
+Is it worth the price?
+This game has all the action & suspense that Ice Cube's War Of The Worlds movie wished it had.",Is it a short game? Yes...about 3-4 hours or less depending on your problem-solving skills. Is it a hard puzzle/deduction game? Somewhat. Is it similar to other hacking game where you have to type command lines? Not really...you'll mostly using your mouse with minimal typing required. Does it have voice acting? Yes...and really good ones. Is it worth the price? This game has all the action & suspense that Ice Cube's War Of The Worlds movie wished it had.,True,2025-10-26T07:50:28+00:00,2025-10-26T07:50:28+00:00,228.0,228.0,0.0,0.0,0.0,0.5,True,False,False,False,76561198006500943,,20.0,False,False,458,79,3.8,3.8,3-10h,positive
+171034830,1771980,the-operator,The Operator,english,"The game has potential but it is way overpriced for how long it takes. Will take 5 hours tops if you take your time to get all of the achievements. Also unfortunately it seems like the game is very linear, there are a few decisions you can make but I doubt they would change much to the ending. Also, there is a plot twist that is supposed to be a huge reveal and that I unfortunately saw coming a mile away, and I think most people would too.
+
+Also, there is a terminal in the game, which is a neat touch, but it has some bugs (some commands that are listed in help don't work like they should) and it is never used besides typing commands that you are told to type. I was initially very excited about it but ended up disappointed that it doesn't have much use.
+
+** Spoilers below **
+
+For example, at some point you are given a command to call someone by typing their IP in the terminal, so I started writing down everyone's IP since I thought it would be useful later and I would be able to call them, but no. 99% of the notes I took in the notepad ended up being useless because the game's story lacks depth.","The game has potential but it is way overpriced for how long it takes. Will take 5 hours tops if you take your time to get all of the achievements. Also unfortunately it seems like the game is very linear, there are a few decisions you can make but I doubt they would change much to the ending. Also, there is a plot twist that is supposed to be a huge reveal and that I unfortunately saw coming a mile away, and I think most people would too. Also, there is a terminal in the game, which is a neat touch, but it has some bugs (some commands that are listed in help don't work like they should) and it is never used besides typing commands that you are told to type. I was initially very excited about it but ended up disappointed that it doesn't have much use. ** Spoilers below ** For example, at some point you are given a command to call someone by typing their IP in the terminal, so I started writing down everyone's IP since I thought it would be useful later and I would be able to call them, but no. 99% of the notes I took in the notepad ended up being useless because the game's story lacks depth.",False,2024-07-29T15:20:12+00:00,2024-07-29T15:22:44+00:00,291.0,291.0,0.0,0.0,0.0,0.4761904776096344,True,False,False,False,76561198043460519,,46.0,False,False,1108,217,4.85,4.85,3-10h,negative
