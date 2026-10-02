@@ -1,0 +1,45 @@
+review_id,steam_app_id,game_key,game_name,language,review_text_raw,review_text_clean,recommended,created_at,updated_at,playtime_forever_minutes,playtime_at_review_minutes,playtime_last_two_weeks_minutes,votes_up,votes_funny,weighted_vote_score,steam_purchase,received_for_free,written_during_early_access,refunded,author_steam_id,author_num_games_owned,author_num_reviews,is_empty,is_very_short,review_length_chars,review_length_words,playtime_forever_hours,playtime_at_review_hours,playtime_segment,overall_sentiment
+168661370,490930,need-to-know,Need to Know,english,"I'm not terribly far into this game, but good god is it scratching the Orwell-formed itch in my brain that's been sitting around for the last few years. It's more like Not Tonight in its mechanics and ease of play/pacing, but it has the right vibe to entertain any Orwell fan (especially if, like me, you were disappointed by Ignorance is Strength).","I'm not terribly far into this game, but good god is it scratching the Orwell-formed itch in my brain that's been sitting around for the last few years. It's more like Not Tonight in its mechanics and ease of play/pacing, but it has the right vibe to entertain any Orwell fan (especially if, like me, you were disappointed by Ignorance is Strength).",True,2024-07-01T03:57:32+00:00,2024-07-01T03:57:32+00:00,1728.0,60.0,0.0,0.0,0.0,0.5,True,False,False,False,76561198292663645,,13.0,False,False,349,62,28.8,1.0,1-3h,positive
+44430348,490930,need-to-know,Need to Know,english,"The intro, with slowly changing black screens with a line of info on what happened in the world is too slow. No skipping, and pressing ESC opens the menu screen hidden, so everything stops.
+
+In the first ""interview"" there is actually a fail condition. Doesn't tell you how, why spesifically or anything. Just, ""You were not right and had a life in web development"" Seriously? a fail condition in the first ""gameplay"" portion?  
+
+Stay away.","The intro, with slowly changing black screens with a line of info on what happened in the world is too slow. No skipping, and pressing ESC opens the menu screen hidden, so everything stops. In the first ""interview"" there is actually a fail condition. Doesn't tell you how, why spesifically or anything. Just, ""You were not right and had a life in web development"" Seriously? a fail condition in the first ""gameplay"" portion? Stay away.",False,2018-08-28T19:06:46+00:00,2018-08-28T19:06:46+00:00,37.0,14.0,0.0,12.0,2.0,0.3310789167881012,False,False,False,False,76561197989891744,,3.0,False,False,435,75,0.6166666666666667,0.23333333333333334,0-1h,negative
+102796001,490930,need-to-know,Need to Know,english,"Image you have a good core gameplay idea. From there you have two ways to make a game out of it.
+Number 1 is trying to expand that gameplay idea with many additions and variations.
+Number 2 is an nearly endless loop of the same basic idea with nothing more then graphical changes (aka the way most mobile games work).
+Now guess which way the devs of this game take. Right. Number 2.
+
+This was one of the hardest games for me in the last years to force myself to get all achievements.
+But the game isn't hard. Instead it is very easy, but unnecessary long (real playtime around 20 hours) and amazingly boring.
+The ground premise of the story and the first hours of gameplay were really good and kept me going.
+But soon all the flaws popped up:
+
+- While some missions tell you, there is time pressure ... there is no countdown gameplay wise.
+- There is no way to arrange your screen with nearly 1/2 of unnecessary infos for the mission, 1/5 for the mission info and only the rest for the changing mission data you need to process.
+- While the game has a linear story and missions, that follow up older ones, there is no database or such and using info from it in further investigations.
+- The very few times, the game expands the gameplay and make it a bit more complex (for example compare infos from different suspects), it ruins this step, by not changing your possible way to process the data.
+
+The funny thing is, that with a way shorter game length/less missions (around five hours) I would have looked other all these flaws and would have given this game a thumbs up.","Image you have a good core gameplay idea. From there you have two ways to make a game out of it. Number 1 is trying to expand that gameplay idea with many additions and variations. Number 2 is an nearly endless loop of the same basic idea with nothing more then graphical changes (aka the way most mobile games work). Now guess which way the devs of this game take. Right. Number 2. This was one of the hardest games for me in the last years to force myself to get all achievements. But the game isn't hard. Instead it is very easy, but unnecessary long (real playtime around 20 hours) and amazingly boring. The ground premise of the story and the first hours of gameplay were really good and kept me going. But soon all the flaws popped up: - While some missions tell you, there is time pressure ... there is no countdown gameplay wise. - There is no way to arrange your screen with nearly 1/2 of unnecessary infos for the mission, 1/5 for the mission info and only the rest for the changing mission data you need to process. - While the game has a linear story and missions, that follow up older ones, there is no database or such and using info from it in further investigations. - The very few times, the game expands the gameplay and make it a bit more complex (for example compare infos from different suspects), it ruins this step, by not changing your possible way to process the data. The funny thing is, that with a way shorter game length/less missions (around five hours) I would have looked other all these flaws and would have given this game a thumbs up.",False,2021-11-14T22:04:26+00:00,2021-11-14T22:04:26+00:00,1768.0,1768.0,0.0,9.0,0.0,0.6058632135391235,True,False,False,False,76561197971269084,,76.0,False,False,1569,292,29.466666666666665,29.466666666666665,10h+,negative
+44474902,490930,need-to-know,Need to Know,english,"Will probably be good in 6 to 12 months. Currently not woth your time.
+
+Pros:
+Compelling Story
+Interesting Plot Development
+Nice Artwork
+
+Cons:
+Unituitive & slow UI
+Unclear fail conditions within the first few minutes of starting
+Strange save points (It is possible to be stuck in a loop of failure as the savepoint is after a wrong decision, but before the game ends).
+Settings menu is basically empty of options.
+The entire map constantly pans for no reason making it hard to use.
+
+How to fix quickly: Remove the pointless animation of game elements like buttons and evidence.
+Remove the insane pauses between actions.
+Give the player more time to play and less time to wait around for boring animations to finish.
+Clearly explain how new rules work
+PLAYTEST THE GAME A FEW TIMES!
+
+TL;DR: I have been a long time backer of this game but I can't recommend it in its current state. 
+","Will probably be good in 6 to 12 months. Currently not woth your time. Pros: Compelling Story Interesting Plot Development Nice Artwork Cons: Unituitive & slow UI Unclear fail conditions within the first few minutes of starting Strange save points (It is possible to be stuck in a loop of failure as the savepoint is after a wrong decision, but before the game ends). Settings menu is basically empty of options. The entire map constantly pans for no reason making it hard to use. How to fix quickly: Remove the pointless animation of game elements like buttons and evidence. Remove the insane pauses between actions. Give the player more time to play and less time to wait around for boring animations to finish. Clearly explain how new rules work PLAYTEST THE GAME A FEW TIMES! TL;DR: I have been a long time backer of this game but I can't recommend it in its current state.",False,2018-08-30T22:20:23+00:00,2018-08-30T22:20:23+00:00,1672.0,651.0,0.0,3.0,0.0,0.5067230463027954,False,False,False,False,76561198080825637,,14.0,False,False,877,155,27.866666666666667,10.85,10h+,negative

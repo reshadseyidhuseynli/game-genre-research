@@ -1,0 +1,21 @@
+review_id,steam_app_id,game_key,game_name,language,review_text_raw,review_text_clean,recommended,created_at,updated_at,playtime_forever_minutes,playtime_at_review_minutes,playtime_last_two_weeks_minutes,votes_up,votes_funny,weighted_vote_score,steam_purchase,received_for_free,written_during_early_access,refunded,author_steam_id,author_num_games_owned,author_num_reviews,is_empty,is_very_short,review_length_chars,review_length_words,playtime_forever_hours,playtime_at_review_hours,playtime_segment,overall_sentiment
+204239439,490930,need-to-know,Need to Know,english,"I loved this game. Recommend.
+
+Selling point:
+The morally ambigious writing and the logical characters. The game makes you feel you are part of a 90s political thriller, set in the modern world.
+
+Pros:
+- writing is amazing
+- puzzles are logical and set in the real world
+- aesthetics are minimalistic, but cool (my only gripe is that some people looked bizarre),
+- game duration (game changes pace once it gets slightly repetitive, which was welcome)
+- world-building (despite its conspiracy context, the game is very much grounded in the real world both in terms of politics and technology, and everything felt contemporary, even in its future years)
+- achievements (100% completion is based on completing the game, not on some wild goose chase)
+
+Cons:
+- UI (common visual glitches, although I do play on linux which may add glitches; animations are slow, changing suspects is slow, link puzzles between multiple suspects are slow not due to complexity of puzzle but due to UI problems; clicking on suspects is difficult even if you remove map scrolling)
+- some puzzle solutions have obtuse or small consequences, could have kept its linearity but with some more impact on world, you do get some comics balloons for some optional objectives
+- game does push you to become a government bot, even if your character disagrees wildly with that (but this is somewhat necessary from a writing standpoint).
+
+In Brief:
+This is a very good game for someone who is interested in mass surveillance, abuse of power, corporate capitalism, world politics, solving puzzles, and in general feeling like a special part of an important conspiracy.","I loved this game. Recommend. Selling point: The morally ambigious writing and the logical characters. The game makes you feel you are part of a 90s political thriller, set in the modern world. Pros: - writing is amazing - puzzles are logical and set in the real world - aesthetics are minimalistic, but cool (my only gripe is that some people looked bizarre), - game duration (game changes pace once it gets slightly repetitive, which was welcome) - world-building (despite its conspiracy context, the game is very much grounded in the real world both in terms of politics and technology, and everything felt contemporary, even in its future years) - achievements (100% completion is based on completing the game, not on some wild goose chase) Cons: - UI (common visual glitches, although I do play on linux which may add glitches; animations are slow, changing suspects is slow, link puzzles between multiple suspects are slow not due to complexity of puzzle but due to UI problems; clicking on suspects is difficult even if you remove map scrolling) - some puzzle solutions have obtuse or small consequences, could have kept its linearity but with some more impact on world, you do get some comics balloons for some optional objectives - game does push you to become a government bot, even if your character disagrees wildly with that (but this is somewhat necessary from a writing standpoint). In Brief: This is a very good game for someone who is interested in mass surveillance, abuse of power, corporate capitalism, world politics, solving puzzles, and in general feeling like a special part of an important conspiracy.",True,2025-09-13T13:58:16+00:00,2025-09-13T13:58:16+00:00,1600.0,1600.0,0.0,0.0,0.0,0.5,True,False,False,False,76561197985846700,,7.0,False,False,1626,272,26.666666666666668,26.666666666666668,10h+,positive
