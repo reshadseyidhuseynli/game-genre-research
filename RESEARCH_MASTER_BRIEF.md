@@ -1683,6 +1683,25 @@ The Operator üzrə əsas research mərhələsi tamamlanıb:
 - bir dəfə istifadə olunan mechanic-lər variety yaradır, amma mastery yaratmır;
 - clarity və agency birlikdə dizayn edilməlidir.
 
+### Orwell deep research
+
+Orwell üzrə əsas research mərhələsi tamamlanıb:
+
+- verified Steam dataset: **8,549 review**
+- positive: **7,735**
+- negative: **814**
+- `analysis/orwell/theme-analysis.md`
+- `analysis/orwell/deep-research.md`
+
+Əsas nəticələr:
+
+- information selection + consequence visibility əsas strength-dir;
+- privacy/surveillance və moral ambiguity ümumən positive driver-dir;
+- auto-highlighting və adviser guidance deduction/agency-ni zəiflədən əsas risklərdir;
+- contradictory evidence meaningful uncertainty yarada bilir, amma insufficient context blind choice-a çevrilə bilər;
+- irreversible information decision yalnız informed commitment olduqda sağlamdır;
+- strategic agency procedural investigation agency-dən güclüdür.
+
 ### Three-game comparison
 
 Tamamlanıb:
@@ -1752,19 +1771,28 @@ Bu bölmə yeni sessiyada “nə hazırdır?” sualının source of truth-udur.
 
 - ✅ verified Steam dataset: **3,781 reviews**
 - ✅ `data/reports/the-operator/summary.md`
-- ⏳ deterministic v4 theme artifacts — local `theme_pipeline` run/push pending
+- ✅ `data/reports/the-operator/theme-candidates.md`
+- ✅ `data/processed/the-operator/themes/statistics.json`
 - ✅ `analysis/the-operator/theme-analysis.md`
 - ✅ `analysis/the-operator/deep-research.md`
 - ✅ `analysis/comparisons/cyber-manhunt-vs-the-operator.md`
 - ℹ️ `analysis/the-operator/research-kickoff.md` — historical planning context, superseded
 
-### Orwell — current target
+### Orwell — complete
 
-- ✅ `analysis/orwell/research-kickoff.md`
+- ✅ verified Steam dataset: **8,549 reviews**
+- ✅ `data/reports/orwell/summary.md`
+- ⏳ deterministic v5 theme artifacts — local `theme_pipeline` run/push pending
+- ✅ `analysis/orwell/theme-analysis.md`
+- ✅ `analysis/orwell/deep-research.md`
+- ℹ️ `analysis/orwell/research-kickoff.md` — historical planning context, superseded
+
+### Need to Know — current focused comparator
+
+- ✅ `analysis/need-to-know/research-kickoff.md`
 - ⏳ Steam dataset — pending
-- ⏳ theme analysis — pending
-- ⏳ deep research — pending
-- ⏳ Orwell vs Need to Know comparison — pending
+- ⏳ focused research — pending
+- ⏳ `analysis/comparisons/orwell-vs-need-to-know.md` — pending
 
 ### Final package
 
@@ -1782,26 +1810,26 @@ Bu inventory hər major milestone-dan sonra yenilənməlidir.
 
 # 18. Hazırkı növbəti addım
 
-**The Operator deterministic theme artifacts + Orwell dataset collection.**
+**Orwell deterministic theme artifacts + Need to Know focused comparator.**
 
-The Operator dataset və əsas research tamamlanıb.
+Orwell dataset və əsas research tamamlanıb.
 
 Əvvəl reproducibility artefaktlarını yarat:
 
-1. `python -m src.theme_pipeline --game the-operator`
-2. generated `data/processed/the-operator/themes/` və `data/reports/the-operator/theme-candidates.md` fayllarını push et.
+1. `python -m src.theme_pipeline --game orwell`
+2. generated `data/processed/orwell/themes/` və `data/reports/orwell/theme-candidates.md` fayllarını push et.
 
-Növbəti Tier A target: **Orwell: Keeping an Eye On You**
+Sonra Tier B focused comparator: **Need to Know**
 
-- key: `orwell`
-- Steam App ID: `491950`
-- kickoff: `analysis/orwell/research-kickoff.md`
+- key: `need-to-know`
+- Steam App ID: `490930`
+- kickoff: `analysis/need-to-know/research-kickoff.md`
 
-Əsas research sualı:
+Əsas comparison sualı:
 
-> information selection və consequence digital investigation-a real agency əlavə edirmi?
+> Orwell-un information-selection / consequence modeli oxşar premise-li, daha geniş agency vəd edən Need to Know-dan niyə daha yaxşı player response alır?
 
-Orwell-dan sonra planned Tier A target:
+Need to Know focused comparison tamamlandıqdan sonra növbəti Tier A target:
 - Mainlining
 - SIMULACRA
 - SIMULACRA 3
