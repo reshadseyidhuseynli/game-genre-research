@@ -793,6 +793,61 @@ Bu sənəd sadəcə mənbə summary deyil; **dizayn/məhsul interpretation** olm
 
 ---
 
+## 10.0. Hər oyun üçün standart üç fayl
+
+Tier A oyunları və tam araşdırılan digər oyunlar üçün `analysis/<game>/` qovluğu mümkün qədər eyni üç fayldan ibarət olmalıdır:
+
+```text
+analysis/<game>/
+├── research-kickoff.md
+├── theme-analysis.md
+└── deep-research.md
+```
+
+Bu faylların rolları fərqlidir:
+
+### `research-kickoff.md`
+
+Araşdırmadan əvvəl cavablandırılacaq sualları, ilkin hipotezləri, oyunun niyə seçildiyini və hansı müqayisə üçün istifadə ediləcəyini müəyyən edir.
+
+Bu sənəd son nəticə deyil.
+
+Araşdırma tamamlandıqdan sonra kickoff faylı tarixi plan sənədi kimi saxlanılır və status hissəsində əsas nəticə sənədlərinə keçid verilir.
+
+Əgər oyun araşdırması bu standart formalaşmamışdan əvvəl aparılıbsa, sonradan yaradılan kickoff faylı açıq şəkildə **retrospektiv şəkildə bərpa edilmiş** sənəd kimi işarələnməlidir. Sonradan əldə edilmiş nəticələr guya əvvəlcədən bilinirmiş kimi təqdim edilməməlidir.
+
+### `theme-analysis.md`
+
+Steam rəyləri və digər geniş rəy məlumatları üzərində aparılan kəmiyyət və məna yönümlü təhlili saxlayır:
+
+- mövzu namizədləri;
+- rəy nisbətləri;
+- oyun müddəti qrupları;
+- məna yönümlü yoxlama;
+- əsas müsbət və mənfi nümunələr;
+- metodoloji məhdudiyyətlər.
+
+Bu fayl dəlil və ölçmə qatıdır.
+
+### `deep-research.md`
+
+Həmin oyun üzrə əsas yekun araşdırma sənədidir.
+
+Burada:
+
+- məlumat toplusu;
+- açıq mənbələr;
+- yaradıcı məqsədləri;
+- oyunçu rəyləri;
+- oyun dizaynı;
+- məhsul nəticələri
+
+birləşdirilir və komandanın istifadə edə biləcəyi nəticələr çıxarılır.
+
+Komanda üzvü bir oyun haqqında yalnız bir sənəd oxuyacaqsa, ilk seçim `deep-research.md` olmalıdır.
+
+---
+
 # 10. Hər oyun üçün deep-araşdırma hesabat standartı
 
 Hər `analysis/<game>/deep-research.md` mümkün qədər eyni peşəkar strukturu izləməlidir.
@@ -1757,6 +1812,7 @@ Bu bölmə yeni sessiyada “nə hazırdır?” sualının əsas istinad-udur.
 - ✅ `data/reports/hacknet/summary.md`
 - ✅ `data/reports/hacknet/theme-candidates.md`
 - ✅ `data/processed/hacknet/themes/statistics.json`
+- ✅ `analysis/hacknet/research-kickoff.md` — retrospektiv şəkildə bərpa edilmiş ilkin plan
 - ✅ `analysis/hacknet/theme-analysis.md`
 - ✅ `analysis/hacknet/deep-research.md`
 
