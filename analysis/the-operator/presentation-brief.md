@@ -48,15 +48,15 @@ Oyun böyük açıq internet vermir. Əvəzində hər problem üçün daha məqs
 ## 5. Ən güclü tərəflər
 
 1. **Çox güclü və fərqli operator fantaziyası.**
-2. **UI və audio çox yüksək immersion yaradır.**
+2. **interfeys və audio çox yüksək immersion yaradır.**
 3. **Tapmacalar adətən aydın və təqdimatı güclüdür.**
 4. **Məqsədli dəlil dəsti** oyunçunun lazımsız məlumat içində itmə riskini azaldır.
-5. **Qısa runtime** təkrarçılığın böyüməsinin qarşısını alır.
+5. **Qısa oyun müddəti** təkrarçılığın böyüməsinin qarşısını alır.
 6. Hər yeni səhnə vizual və mexaniki olaraq fərqli görünə bilir.
 
 ## 6. Əsas zəif tərəflər
 
-1. **Xəttilik və zəif procedural agency.**
+1. **Xəttilik və zəif procedural qərar sərbəstliyi.**
 2. **Həddindən artıq yönləndirmə.** Oyun bəzən nəticəni oyunçu əvəzinə izah edir.
 3. **Seçimlərin real nəticəsi zəifdir.**
 4. **Final/closure problemi** ümumi məmnunluğu aşağı sala bilir.
@@ -68,7 +68,7 @@ Rəy məlumatlarında:
 - LINEARITY_SCRIPTING olan rəylərdə mənfi pay **40.00%**;
 - PLAYER_AGENCY — **32.73%**;
 - ENDING_CLOSURE — **28.02%**;
-- ümumi mənfi baseline isə **10.29%**-dir.
+- ümumi mənfi ümumi mənfi rəy göstəricisi isə **10.29%**-dir.
 
 ## 7. Kommersiya nəticəsi necə görünür?
 
@@ -83,10 +83,10 @@ Bunu göstərən faktlar:
 ### Güclü nəticəni izah edən əsas hipotezlər
 
 - Bir cümlədə çox asan izah olunan rol: “sahə agentlərinin arxasındakı operator”.
-- Screenshot və videoda peşəkar proqram interfeysi dərhal görünür.
+- Mağaza görüntüsü və videoda peşəkar proqram interfeysi dərhal görünür.
 - Araşdırma oyunu istəyən, amma çox açıq və qarışıq sistem istəməyən auditoriya üçün əlçatandır.
-- Qısa runtime satınalma riskini və yorğunluğu azaldır.
-- Səs aktyorluğu və cinematic pacing məhsulu “kiçik, amma polished” göstərir.
+- Qısa oyun müddəti satınalma riskini və yorğunluğu azaldır.
+- Səs aktyorluğu və kinematik pacing məhsulu “kiçik, amma polished” göstərir.
 
 ### Nəticəni məhdudlaşdıran amillər
 
@@ -108,7 +108,7 @@ Bunu göstərən faktlar:
 **Götür:**
 - peşəkar alət hissi;
 - aydın problem çərçivəsi;
-- in-world UI;
+- in-world interfeys;
 - audio ilə uzaq hadisəni canlı göstərmək;
 - qısa və yadda qalan tapmaca səhnələri.
 
@@ -121,7 +121,7 @@ Bunu göstərən faktlar:
 
 ## 10. Bir cümləlik nəticə
 
-> **The Operator göstərir ki, araşdırmanı daha aydın və cilalanmış etmək mümkün olsa da, həddindən artıq guidance oyunçunu “araşdırmaçı”dan “göstərilən addımları yerinə yetirən istifadəçi”yə çevirə bilər.**
+> **The Operator göstərir ki, araşdırmanı daha aydın və cilalanmış etmək mümkün olsa da, həddindən artıq yönləndirmə oyunçunu “araşdırmaçı”dan “göstərilən addımları yerinə yetirən istifadəçi”yə çevirə bilər.**
 
 Ətraflı sənəd: deep-research.md  
 Rəy dəlilləri: theme-analysis.md
