@@ -1,35 +1,35 @@
-# The Operator — Review Theme Analizi
+# The Operator — rəy mövzu Analizi
 
 ## 1. Məqsəd
 
-Bu sənəd The Operator üçün verified Steam review dataset üzərində full-corpus theme scan və semantic audit nəticələrini saxlayır.
+Bu sənəd The Operator üçün verified Steam rəy məlumat toplusu üzərində full-corpus mövzu yoxlama və məna yönümlü yoxlama nəticələrini saxlayır.
 
 Əsas sual:
 
-> Focused analysis tools və daha polished UI Cyber Manhunt-da gördüyümüz scripted-investigation problemini həll edirmi?
+> Focused təhlil tools və daha polished UI Cyber Manhunt-da gördüyümüz scripted-investigation problemini həll edirmi?
 
 Qısa cavab:
 
-> **Qismən.** The Operator investigation fantasy-ni daha aydın, polished və accessible təqdim edir, amma player-a verilən real procedural agency məhduddur. Əsas risk artıq clue ambiguity deyil; **linearity, hand-holding, meaningful choice çatışmazlığı, qısa content və closure problemidir.**
+> **Qismən.** The Operator investigation fantasy-ni daha aydın, polished və accessible təqdim edir, amma oyunçu-a verilən real procedural qərar sərbəstliyi məhduddur. Əsas risk artıq clue ambiguity deyil; **linearity, hand-holding, meaningful seçim çatışmazlığı, qısa content və closure problemidir.**
 
 ---
 
-## 2. Dataset
+## 2. məlumat toplusu
 
 Snapshot: **2026-10-02**
 
 - Total reviews: **3,781**
-- Positive: **3,392**
-- Negative: **389**
-- Positive ratio: **89.71%**
-- Negative baseline: **10.29%**
-- Average playtime at review: **4.67h**
-- Median playtime: **3.90h**
-- Positive review average playtime: **4.71h**
-- Negative review average playtime: **4.35h**
+- müsbət: **3,392**
+- mənfi: **389**
+- müsbət ratio: **89.71%**
+- mənfi baseline: **10.29%**
+- orta oyun müddəti at rəy: **4.67h**
+- Median oyun müddəti: **3.90h**
+- müsbət rəy orta oyun müddəti: **4.71h**
+- mənfi rəy orta oyun müddəti: **4.35h**
 - Very short reviews: **479**
 
-Əsas data:
+Əsas məlumat:
 
 - `data/processed/the-operator/reviews.jsonl`
 - `data/processed/the-operator/statistics.json`
@@ -37,9 +37,9 @@ Snapshot: **2026-10-02**
 
 ---
 
-## 3. Playtime cohort-ları
+## 3. oyun müddəti cohort-ları
 
-| Playtime | Reviews | Positive ratio |
+| oyun müddəti | Reviews | müsbət ratio |
 |---|---:|---:|
 | 0–1h | 52 | **61.54%** |
 | 1–3h | 427 | 84.07% |
@@ -50,8 +50,8 @@ The Operator-da əsas risk ilk saatdır, amma Cyber Manhunt qədər sərt deyil.
 
 0–1h cohort-un zəifliyi iki qrupa bölünür:
 
-- product expectation mismatch;
-- çox tez “railroaded / story-first” hissi alan player-lər.
+- məhsul expectation mismatch;
+- çox tez “railroaded / hekayə-first” hissi alan oyunçu-lər.
 
 3–10h cohort çox güclüdür; bu da game-in əsas 3–5 saatlıq run uzunluğuna uyğundur.
 
@@ -59,25 +59,25 @@ The Operator-da əsas risk ilk saatdır, amma Cyber Manhunt qədər sərt deyil.
 
 ---
 
-## 4. Full-corpus candidate scan
+## 4. Full-corpus namizəd yoxlama
 
 Reusable taxonomy:
 
 - `config/theme_taxonomy.yaml` — v4
 - `config/aspect_taxonomy.yaml` — v4
 
-Ən azı bir candidate theme tutulan review: **66.81%**
+Ən azı bir namizəd mövzu tutulan rəy: **66.81%**
 
-Dataset baseline negative ratio: **10.29%**
+məlumat toplusu baseline mənfi ratio: **10.29%**
 
-| Theme | Mentions | Dataset payı | Negative review payı | Baseline-a nisbət |
+| mövzu | Mentions | məlumat toplusu payı | mənfi rəy payı | Baseline-a nisbət |
 |---|---:|---:|---:|---:|
 | STORY_NARRATIVE | 1,983 | 52.45% | 14.52% | 1.41× |
 | DEPTH_CHALLENGE | 752 | 19.89% | 16.49% | 1.60× |
 | PUZZLE_CLARITY | 667 | 17.64% | 16.79% | 1.63× |
 | ENDING_CLOSURE | 489 | 12.93% | **28.02%** | **2.72×** |
 | INVESTIGATION_DISCOVERY | 452 | 11.95% | **20.13%** | **1.96×** |
-| IMMERSION | 398 | 10.53% | 10.05% | 0.98× |
+| oyuna dalma hissi | 398 | 10.53% | 10.05% | 0.98× |
 | SOUND_AUDIO | 395 | 10.45% | **7.09%** | **0.69×** |
 | LOCALIZATION_WRITING | 321 | 8.49% | **20.87%** | **2.03×** |
 | LENGTH_CONTENT | 280 | 7.41% | **21.43%** | **2.08×** |
@@ -89,67 +89,67 @@ Dataset baseline negative ratio: **10.29%**
 | UI_USABILITY | 110 | 2.91% | **20.91%** | **2.03×** |
 | ONBOARDING_CLARITY | 66 | 1.75% | **40.91%** | **3.98×** |
 | REALISM_ACCURACY | 62 | 1.64% | 11.29% | 1.10× |
-| REPETITION | 46 | 1.22% | **28.26%** | **2.75×** |
+| təkrarçılıq | 46 | 1.22% | **28.26%** | **2.75×** |
 | BUGS_COMPATIBILITY | 45 | 1.19% | **28.89%** | **2.81×** |
 | HANDHOLDING_GUIDANCE | 33 | 0.87% | **36.36%** | **3.53×** |
 | SINGLE_USE_MECHANICS | 30 | 0.79% | **33.33%** | **3.24×** |
 
-Bu rəqəmlər aspect sentiment deyil. Onlar həmin theme-i qeyd edən review-lərdə negative recommendation konsentrasiyasını göstərir.
+Bu rəqəmlər aspect sentiment deyil. Onlar həmin mövzu-i qeyd edən rəy-lərdə mənfi recommendation konsentrasiyasını göstərir.
 
 ---
 
-## 5. Əsas nəticə: polished investigation, amma aşağı procedural agency
+## 5. Əsas nəticə: polished investigation, amma aşağı procedural qərar sərbəstliyi
 
-The Operator-un UI-si, presentation-ı və tool-ları çox player üçün inandırıcı “operator” fantasy-si yaradır.
+The Operator-un UI-si, presentation-ı və tool-ları çox oyunçu üçün inandırıcı “operator” fantasy-si yaradır.
 
-Positive review-lərdə:
+müsbət rəy-lərdə:
 
-- database və analysis tools;
-- evidence comparison;
-- video/image analysis;
+- database və təhlil tools;
+- dəlil müqayisə;
+- video/image təhlil;
 - sound və voice acting;
 - OS presentation;
 - “man in the chair” rolu
 
 tez-tez praise olunur.
 
-Amma negative review-lərin ən güclü pattern-i budur:
+Amma mənfi rəy-lərin ən güclü nümunə-i budur:
 
-> **Player araşdırma aparırmış kimi görünür, amma çox vaxt növbəti addım və nəticə əvvəlcədən ciddi şəkildə təyin olunub.**
+> **oyunçu araşdırma aparırmış kimi görünür, amma çox vaxt növbəti addım və nəticə əvvəlcədən ciddi şəkildə təyin olunub.**
 
-PLAYER_AGENCY və LINEARITY_SCRIPTING yüksək negative concentration göstərir.
+PLAYER_AGENCY və LINEARITY_SCRIPTING yüksək mənfi concentration göstərir.
 
 ---
 
-## 6. Linearity / agency
+## 6. Linearity / qərar sərbəstliyi
 
 ### LINEARITY_SCRIPTING
 
 - 175 mentions
-- 70 negative
-- **40.00% negative**
+- 70 mənfi
+- **40.00% mənfi**
 - baseline-dan **3.89×** yüksək.
 
 ### PLAYER_AGENCY
 
 - 220 mentions
-- 72 negative
-- **32.73% negative**
+- 72 mənfi
+- **32.73% mənfi**
 - baseline-dan **3.18×** yüksək.
 
-Bu iki theme 151 review-da birlikdə görünür.
+Bu iki mövzu 151 rəy-da birlikdə görünür.
 
 Əsas complaint:
 
 - seçimlər eyni nəticəyə aparır;
 - yalnız bir ending var;
-- player düzgün nəticəyə özü gəlsə də story onu öz tempi ilə irəli aparır;
-- “yanlış” action çox vaxt real failure yaratmır, sadəcə sistem düz istiqaməti deyir;
+- oyunçu düzgün nəticəyə özü gəlsə də hekayə onu öz tempi ilə irəli aparır;
+- “yanlış” action çox vaxt real uğursuzluq yaratmır, sadəcə sistem düz istiqaməti deyir;
 - investigation puzzle-dan çox interactive narrative hissi yaranır.
 
-### Design lesson
+### dizayn lesson
 
-> **Investigation fantasy üçün tool realism kifayət deyil. Player nəticəni necə tapacağı və nə edəcəyi üzərində real təsir hiss etməlidir.**
+> **Investigation fantasy üçün tool realizm kifayət deyil. oyunçu nəticəni necə tapacağı və nə edəcəyi üzərində real təsir hiss etməlidir.**
 
 ---
 
@@ -158,16 +158,16 @@ Bu iki theme 151 review-da birlikdə görünür.
 HANDHOLDING_GUIDANCE:
 
 - 33 explicit mentions
-- **36.36% negative**
+- **36.36% mənfi**
 - baseline-dan **3.53×** yüksək.
 
 DEDUCTION_REASONING:
 
 - 146 mentions
-- **23.97% negative**
+- **23.97% mənfi**
 - baseline-dan 2.33× yüksək.
 
-Review-lərdə ən sərt complaint:
+rəy-lərdə ən sərt complaint:
 
 > “oyun mənə nəyi tapacağımı deyir, sonra tapdığımı özü izah edir.”
 
@@ -179,19 +179,19 @@ Cyber Manhunt:
 The Operator:
 - route çox aydın ola bilir, amma buna görə real inference azalır.
 
-### Cross-game insight
+### oyunlararası insight
 
-> Investigation game həm çox sərt, həm də çox yönləndirici ola bilər. Optimal sistem player-a kifayət qədər context verir, amma conclusion-u onun yerinə çıxarmır.
+> Investigation game həm çox sərt, həm də çox yönləndirici ola bilər. Optimal sistem oyunçu-a kifayət qədər context verir, amma conclusion-u onun yerinə çıxarmır.
 
 ---
 
-## 8. Story əsas gücdür, ending əsas riskdir
+## 8. hekayə əsas gücdür, ending əsas riskdir
 
-STORY_NARRATIVE dataset-in **52.45%**-ində tutulur.
+STORY_NARRATIVE məlumat toplusu-in **52.45%**-ində tutulur.
 
-Bu The Operator-un story-first nature-ni təsdiqləyir.
+Bu The Operator-un hekayə-first nature-ni təsdiqləyir.
 
-Positive review-lər:
+müsbət rəy-lər:
 - X-Files atmosferi;
 - thriller pacing;
 - conspiracy mystery;
@@ -204,25 +204,25 @@ haqqında çox müsbətdir.
 Amma ENDING_CLOSURE:
 
 - 489 mentions
-- 137 negative
-- **28.02% negative**
+- 137 mənfi
+- **28.02% mənfi**
 - baseline-dan **2.72×** yüksək.
 
-ENDING_CLOSURE və STORY_NARRATIVE 487 review-da birlikdə görünür.
+ENDING_CLOSURE və STORY_NARRATIVE 487 rəy-da birlikdə görünür.
 
 Əsas complaint:
 - abrupt ending;
 - cliffhanger;
 - closure çatışmazlığı;
 - yalnız bir nəticə;
-- player choices-in finala təsir etməməsi;
+- oyunçu seçimlər-in finala təsir etməməsi;
 - “prologue / first act” hissi.
 
-### Design lesson
+### dizayn lesson
 
 > **Short narrative game-də final bütün experience-in dəyərini retroaktiv olaraq dəyişə bilər.**
 
-Player 3–5 saat boyunca story-yə yüksək investisiya verirsə, ending ayrıca product-critical system-dir.
+oyunçu 3–5 saat boyunca hekayə-yə yüksək investisiya verirsə, ending ayrıca məhsul-critical system-dir.
 
 ---
 
@@ -231,21 +231,21 @@ Player 3–5 saat boyunca story-yə yüksək investisiya verirsə, ending ayrıc
 LENGTH_CONTENT:
 
 - 280 mentions
-- **21.43% negative**
+- **21.43% mənfi**
 - baseline-dan **2.08×** yüksək.
 
-Negative review-lərdə əsas fikir:
-- mechanic-lər maraqlıdır;
-- player onları yeni öyrənəndə oyun bitir;
+mənfi rəy-lərdə əsas fikir:
+- mexanika-lər maraqlıdır;
+- oyunçu onları yeni öyrənəndə oyun bitir;
 - bir neçə fərqli independent case gözlənilir;
 - actual content bir əsas conspiracy arc-a çevrilir;
 - price/value expectation pozula bilir.
 
 Maraqlı tərəf:
 
-Positive review-lərin bir hissəsi məhz qısa uzunluğu üstünlük sayır:
+müsbət rəy-lərin bir hissəsi məhz qısa uzunluğu üstünlük sayır:
 - padding yoxdur;
-- repetition başlamadan bitir;
+- təkrarçılıq başlamadan bitir;
 - bir oturuşda oynana bilir.
 
 ### Nəticə
@@ -254,20 +254,20 @@ Positive review-lərin bir hissəsi məhz qısa uzunluğu üstünlük sayır:
 
 ---
 
-## 10. Single-use mechanics
+## 10. Single-use mexanikalar
 
 SINGLE_USE_MECHANICS:
 
 - 30 explicit mentions
-- **33.33% negative**
+- **33.33% mənfi**
 - baseline-dan **3.24×** yüksək.
 
-Developer interview-də müxtəlif tool-ların story beat-dən çıxaraq dizayn edildiyi görünür. Player review-lərində isə bunun trade-off-u görünür:
+yaradıcı interview-də müxtəlif tool-ların hekayə beat-dən çıxaraq dizayn edildiyi görünür. oyunçu rəy-lərində isə bunun trade-off-u görünür:
 
-- chemical analysis;
+- chemical təhlil;
 - vehicle database;
 - terminal tricks;
-- xüsusi evidence tool-ları
+- xüsusi dəlil tool-ları
 
 tez-tez yalnız bir sequence üçün istifadə olunur.
 
@@ -275,59 +275,59 @@ Bu variety yaradır, amma mastery yaratmır.
 
 ### Principle
 
-> **Bir mechanic yalnız bir dəfə istifadə olunursa, o mechanic deyil, set-piece ola bilər.**
+> **Bir mexanika yalnız bir dəfə istifadə olunursa, o mexanika deyil, set-piece ola bilər.**
 
-Bu pis deyil. Amma store/game fantasy “professional operator toolbox”dırsa, player tool-ların sonradan kombinə olunmasını gözləyə bilər.
+Bu pis deyil. Amma mağaza/game fantasy “peşəkar operator toolbox”dırsa, oyunçu tool-ların sonradan kombinə olunmasını gözləyə bilər.
 
 ---
 
-## 11. Puzzle design
+## 11. Puzzle dizayn
 
 PUZZLE_CLARITY:
 
 - 667 mentions
-- 16.79% negative.
+- 16.79% mənfi.
 
 DEPTH_CHALLENGE:
 
 - 752 mentions
-- 16.49% negative.
+- 16.49% mənfi.
 
-Ümumi player response puzzle-lərə daha çox müsbətdir, xüsusilə:
+Ümumi oyunçu response puzzle-lərə daha çox müsbətdir, xüsusilə:
 - bomb sequence;
 - manual-based reasoning;
-- image/video analysis;
-- code/data comparison.
+- image/video təhlil;
+- code/məlumat müqayisə.
 
 Amma complaint:
 - çox puzzle asandır;
 - səhv seçim dərhal correct edilir;
 - bəzi sequence-lər “moon logic” və ya over-scripted görünür;
-- ən maraqlı mechanic-lər təkrar istifadə olunmur.
+- ən maraqlı mexanika-lər təkrar istifadə olunmur.
 
 ### Nəticə
 
-> The Operator clarity-ni Cyber Manhunt-dan daha yaxşı idarə edir, amma bəzi player üçün difficulty-ni çox aşağı salır.
+> The Operator aydınlıq-ni Cyber Manhunt-dan daha yaxşı idarə edir, amma bəzi oyunçu üçün difficulty-ni çox aşağı salır.
 
 ---
 
-## 12. UI və immersion
+## 12. UI və oyuna dalma hissi
 
-IMMERSION:
+oyuna dalma hissi:
 
 - 398 mentions
-- negative ratio baseline-a yaxın: **10.05%**
+- mənfi ratio baseline-a yaxın: **10.05%**
 
 SOUND_AUDIO:
 
 - 395 mentions
-- yalnız **7.09% negative**
+- yalnız **7.09% mənfi**
 
 UI_USABILITY:
 - 110 mentions
-- **20.91% negative**
+- **20.91% mənfi**
 
-Positive evidence:
+müsbət dəlil:
 - fictional OS;
 - clean high-tech interface;
 - voice acting;
@@ -337,7 +337,7 @@ Positive evidence:
 - terminal;
 - full-screen desk-work fantasy.
 
-Developer Bastien Giafferi interface-i real OS-lərdən elementlər götürərək, hər tool-un “real software necə işləyərdi?” sualı ilə dizayn etdiyini deyir. Terminal isə əvvəl daha böyük role üçün düşünülüb, sonra immersion/completeness layer-i kimi saxlanıb.
+yaradıcı Bastien Giafferi interface-i real OS-lərdən elementlər götürərək, hər tool-un “real software necə işləyərdi?” sualı ilə dizayn etdiyini deyir. Terminal isə əvvəl daha böyük role üçün düşünülüb, sonra oyuna dalma hissi/completeness qat-i kimi saxlanıb.
 
 ### Nəticə
 
@@ -352,23 +352,23 @@ Cyber Manhunt-la müqayisədə UI daha polished və focused görünür.
 SAVE_REPLAY:
 
 - 128 mentions
-- **31.25% negative**
+- **31.25% mənfi**
 - baseline-dan **3.04×** yüksək.
 
 Complaint:
 - manual save yoxdur;
 - dialogue/cutscene skip məhduddur;
-- choice-ların real nəticəsi az olsa da alternative outcome yoxlamaq inconvenientdir;
+- seçim-ların real nəticəsi az olsa da alternative outcome yoxlamaq inconvenientdir;
 - achievement/replay üçün uzun passiv hissələri yenidən keçmək lazım gəlir.
 
-Single-playthrough intent developer tərəfindən açıq şəkildə qeyd edilib.
+Single-playthrough intent yaradıcı tərəfindən açıq şəkildə qeyd edilib.
 
-Bu design intent-dir, bug deyil.
+Bu dizayn intent-dir, bug deyil.
 
-Amma player expectation:
-- dialogue choices;
-- consequence promise;
-- detective agency
+Amma oyunçu expectation:
+- dialogue seçimlər;
+- nəticə promise;
+- detective qərar sərbəstliyi
 
 olduqda replay/recovery ehtiyacı yüksəlir.
 
@@ -379,38 +379,38 @@ olduqda replay/recovery ehtiyacı yüksəlir.
 DIALOGUE_EXPOSITION:
 
 - 232 mentions
-- 16.38% negative.
+- 16.38% mənfi.
 
-Voice acting və story presentation ümumən güclüdür.
+Voice acting və hekayə presentation ümumən güclüdür.
 
 Problem:
 - passiv dinləmə active investigation vaxtını sıxışdıranda;
-- unskippable content replay friction yaratdıqda;
-- exposition player-in özü çıxara biləcəyi nəticəni izah etdikdə.
+- unskippable content replay çətinlik yaratdıqda;
+- exposition oyunçu-in özü çıxara biləcəyi nəticəni izah etdikdə.
 
 ### Principle
 
-> **Narrative delivery player reasoning-in yerini tutmamalıdır.**
+> **Narrative delivery oyunçu reasoning-in yerini tutmamalıdır.**
 
 ---
 
-## 15. Repetition
+## 15. təkrarçılıq
 
-REPETITION explicit mention:
-- cəmi 46 review;
-- 28.26% negative.
+təkrarçılıq explicit mention:
+- cəmi 46 rəy;
+- 28.26% mənfi.
 
 Bu Cyber Manhunt və Hacknet-dən daha aşağı lexical prevalence-dir.
 
-The Operator qısa olduğuna və tool/set-piece variety istifadə etdiyinə görə repetition başlamadan bitə bilir.
+The Operator qısa olduğuna və tool/set-piece variety istifadə etdiyinə görə təkrarçılıq başlamadan bitə bilir.
 
 Bu, maraqlı trade-off-dur:
 
-> **Qısa runtime repetition riskini azaldır, amma system mastery və content value-ni də azalda bilər.**
+> **Qısa runtime təkrarçılıq riskini azaldır, amma system mastery və content value-ni də azalda bilər.**
 
 ---
 
-## 16. Developer intent vs player outcome
+## 16. yaradıcı intent vs oyunçu outcome
 
 ### Intent: “guy in the chair” fantasy
 
@@ -420,21 +420,21 @@ UI, voice, databases və remote-agent relationship bunu gücləndirir.
 
 ### Intent: focused puzzle structure
 
-Developer məhdud evidence subset-i verib specific problem həll etdirməyin puzzle design-i yaxşılaşdırdığını deyir.
+yaradıcı məhdud dəlil subset-i verib specific problem həll etdirməyin puzzle dizayn-i yaxşılaşdırdığını deyir.
 
-**Outcome:** clarity yaxşıdır, amma bəzi player üçün autonomy azalır.
+**Outcome:** aydınlıq yaxşıdır, amma bəzi oyunçu üçün autonomy azalır.
 
-### Intent: immersion-first OS
+### Intent: oyuna dalma hissi-first OS
 
 **Outcome:** uğurludur.
 
 Presentation ən güclü tərəflərdəndir.
 
-### Intent: single-playthrough story
+### Intent: single-playthrough hekayə
 
-**Outcome:** coherent short experience yaradır, amma:
+**Outcome:** ardıcıl short experience yaradır, amma:
 - replay;
-- choice;
+- seçim;
 - ending;
 - price/value
 
@@ -446,55 +446,55 @@ expectation-ları ilə toqquşa bilir.
 
 İlkin hipotez:
 
-> Focused analysis tools scripted investigation problemini azalda bilər.
+> Focused təhlil tools scripted investigation problemini azalda bilər.
 
 Nəticə:
 
-> **Focused tools clue ambiguity və UI confusion-u azaldır, amma procedural agency-ni avtomatik artırmır.**
+> **Focused tools clue ambiguity və UI confusion-u azaldır, amma procedural qərar sərbəstliyi-ni avtomatik artırmır.**
 
 Cyber Manhunt:
 - search space daha geniş;
 - clue logic daha messy;
-- player bəzən stuck olur.
+- oyunçu bəzən stuck olur.
 
 The Operator:
 - search space daha dar və polished;
-- player nadir hallarda uzun müddət stuck olur;
+- oyunçu nadir hallarda uzun müddət stuck olur;
 - amma tez-tez “mən həll etdim” yox, “mənə göstərilən addımı etdim” hissi yarana bilir.
 
-Bu çox vacib design nəticəsidir.
+Bu çox vacib dizayn nəticəsidir.
 
 ---
 
-## 18. Evidence-backed design lessons
+## 18. dəlil-backed dizayn lessons
 
-1. **Focused investigation scope clarity-ni yaxşılaşdırır.**
-2. **Hand-holding clarity ilə eyni şey deyil.**
-3. **Player knowledge və procedural agency ayrıca system kimi dizayn edilməlidir.**
-4. **Short runtime repetition-a qarşı vasitədir, amma mastery-ni məhdudlaşdıra bilər.**
-5. **Tool variety system depth deyil.**
-6. **Ending short narrative product üçün kritik satisfaction layer-dir.**
-7. **Choice təqdim edilirsə consequence expectation yaranır.**
+1. **Focused investigation əhatə dairəsi aydınlıq-ni yaxşılaşdırır.**
+2. **Hand-holding aydınlıq ilə eyni şey deyil.**
+3. **oyunçu knowledge və procedural qərar sərbəstliyi ayrıca system kimi dizayn edilməlidir.**
+4. **Short runtime təkrarçılıq-a qarşı vasitədir, amma mastery-ni məhdudlaşdıra bilər.**
+5. **Tool variety system dərinlik deyil.**
+6. **Ending short narrative məhsul üçün kritik satisfaction qat-dir.**
+7. **seçim təqdim edilirsə nəticə expectation yaranır.**
 8. **UI və audio interface-game fantasy-nin əsas hissəsidir.**
-9. **Single-playthrough intent store/narrative promise ilə uyğunlaşdırılmalıdır.**
-10. **Investigation player-a ən azı bəzi nəticələri guidance olmadan çıxarmağa imkan verməlidir.**
+9. **Single-playthrough intent mağaza/narrative promise ilə uyğunlaşdırılmalıdır.**
+10. **Investigation oyunçu-a ən azı bəzi nəticələri guidance olmadan çıxarmağa imkan verməlidir.**
 
 ---
 
-## 19. Confidence
+## 19. etibarlılıq
 
-| Nəticə | Confidence |
+| Nəticə | etibarlılıq |
 |---|---|
-| Interface/immersion əsas gücdür | High |
-| Story əsas satisfaction driver-dir | High |
-| Linearity və weak agency əsas design riskidir | High |
-| Ending/closure negative recommendation-a ciddi təsir edir | High |
+| Interface/oyuna dalma hissi əsas gücdür | High |
+| hekayə əsas satisfaction amil-dir | High |
+| Linearity və weak qərar sərbəstliyi əsas dizayn riskidir | High |
+| Ending/closure mənfi recommendation-a ciddi təsir edir | High |
 | Qısa content expectation mismatch yaradır | High |
 | Focused tools Cyber Manhunt-dan daha aşağı clue ambiguity yaradır | Medium-High |
 | Hand-holding real deduction hissini azaldır | High |
-| Single-use mechanics mastery-ni məhdudlaşdırır | Medium-High |
-| Save/replay modeli choice expectation ilə toqquşur | Medium-High |
-| Short runtime repetition riskini azaldır | Medium |
+| Single-use mexanikalar mastery-ni məhdudlaşdırır | Medium-High |
+| Save/replay modeli seçim expectation ilə toqquşur | Medium-High |
+| Short runtime təkrarçılıq riskini azaldır | Medium |
 
 ---
 
@@ -505,20 +505,20 @@ Bu çox vacib design nəticəsidir.
 - `data/processed/the-operator/statistics.json`
 - `data/processed/the-operator/reviews.jsonl`
 - `data/reports/the-operator/summary.md`
-- helpful/recent/low/high playtime samples
+- faydalı/son dövr/low/high oyun müddəti nümunələr
 
 ### Xarici
 
-- Steam Store — https://store.steampowered.com/app/1771980/
-- Game Developer — https://www.gamedeveloper.com/design/the-operator-is-a-crime-solving-game-delivered-entirely-with-ui
+- Steam mağaza — https://mağaza.steampowered.com/app/1771980/
+- Game yaradıcı — https://www.gamedeveloper.com/dizayn/the-operator-is-a-crime-solving-game-delivered-entirely-with-ui
 - Gamereactor interview — https://www.gamereactor.eu/video/694403/Bureau%2B81s%2BBastien%2BGiafferi%2Bon%2Bbeing%2Bthe%2Bguy%2Bbehind%2Bthe%2Bchair%2Bin%2BThe%2BOperator/
-- GameSpew review — https://www.gamespew.com/2024/07/the-operator-review/
-- Gamereactor review — https://www.gamereactor.eu/the-operator-1411543/
+- GameSpew rəy — https://www.gamespew.com/2024/07/the-operator-rəy/
+- Gamereactor rəy — https://www.gamereactor.eu/the-operator-1411543/
 
 ---
 
 # Status
 
-**Mərhələ:** full-corpus review analysis — tamamlanıb  
-**Dataset:** 3,781 verified reviews  
-**Növbəti:** `analysis/the-operator/deep-research.md` və Cyber Manhunt vs The Operator comparison.
+**Mərhələ:** full-corpus rəy təhlil — tamamlanıb  
+**məlumat toplusu:** 3,781 verified reviews  
+**Növbəti:** `analysis/the-operator/deep-research.md` və Cyber Manhunt vs The Operator müqayisə.
