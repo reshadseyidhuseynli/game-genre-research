@@ -2,16 +2,20 @@
 
 ## Status
 
-Bu sənəd SIMULACRA üçün məlumat toplusu toplanmazdan əvvəl hazırlanmış kickoff sənədidir.
+Bu sənəd SIMULACRA üçün məlumat toplusu toplanmazdan əvvəl hazırlanmış tarixi kickoff sənədidir.
+
+**Araşdırma artıq tamamlanıb.** Cari əsas sənədlər:
+
+- `analysis/simulacra/theme-analysis.md`
+- `analysis/simulacra/deep-research.md`
+- `analysis/simulacra/presentation-brief.md`
+- `analysis/comparisons/mainlining-vs-simulacra.md`
+- `analysis/comparisons/cyber-manhunt-vs-simulacra.md`
 
 **Tier:** A — tam dərin araşdırma  
 **Steam App ID:** `712730`
 
-Cari mərhələ:
-
-> **research kickoff → Steam dataset collection**
-
-Final nəticələr bu sənəddə yazılmayacaq. Məqsəd araşdırmadan əvvəl sualları və fərziyyələri açıq saxlamaqdır.
+Kickoff-un məqsədi ilkin sualları və fərziyyələri saxlamaqdır; final nəticə üçün yuxarıdakı sənədlər əsas istinaddır.
 
 ---
 
@@ -683,15 +687,13 @@ Narrative immersion, relatable character və player-verb yanaşması.
 
 # 15. Status
 
-**Mərhələ:** kickoff tamamlanıb  
+**Mərhələ:** araşdırma tamamlanıb  
 **Tier:** A  
 **Steam target:** 712730  
-**Config:** repository-yə əlavə olunub  
-**Dataset:** hələ repository-də yoxdur  
-**Növbəti:**
-
-```bash
-py -m src.pipeline --game simulacra
-py -m src.verify --game simulacra
-py -m src.theme_pipeline --game simulacra
-```
+**Verified dataset:** **3,209 rəy**  
+**Müsbət:** **2,905**  
+**Mənfi:** **304**  
+**Müsbət pay:** **90.53%**  
+**Deterministik v5 theme artefaktları:** tamamlanıb  
+**Məna yönümlü audit:** 304/304 mənfi + 45 məqsədli müsbət rəy  
+**Növbəti əsas Tier A:** SIMULACRA 3
