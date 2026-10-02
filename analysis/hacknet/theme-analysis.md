@@ -210,7 +210,7 @@ oyuna dalma hissi:
 yoxlama-də oyuna dalma hissi aşağıdakılardan yaranır:
 
 - terminal;
-- fictional OS;
+- uydurma əməliyyat sistemi;
 - real terminlər;
 - hekayə;
 - trace pressure;
@@ -475,7 +475,7 @@ MOD_təkrar oynama dəyəri:
 - 405 namizəd rəy;
 - 97.78% overall müsbət rəy nisbəti;
 - orta oyun müddəti: **25.19 saat** — mövzu-lər arasında ən yüksək göstəricilərdən biri;
-- 257 mention 10h+ cohort-dadır.
+- 257 mention 10h+ qrup-dadır.
 
 Bu causation deyil: uzun oynayan oyunçu mod haqqında daha çox yaza bilər.
 
@@ -687,7 +687,7 @@ Bugs ən yüksək mənfi concentration verir.
 1. namizəd retrieval məna yönümlü model deyil.
 2. mövzu frequency lexical əhatə-dən asılıdır.
 3. Overall Steam tövsiyəsi aspekt üzrə münasibət deyil.
-4. yoxlama nümunə-lar faydalı və cohort-balanced seçimlərdən ibarətdir; population-random survey deyil.
+4. yoxlama nümunə-lar faydalı və qrup-balanced seçimlərdən ibarətdir; population-random survey deyil.
 5. rəy yazanlar bütün oyunçu population-u təmsil etmir.
 6. oyun müddəti ilə sentiment əlaqəsi self-selection daşıyır.
 7. Co-occurrence causation deyil.
