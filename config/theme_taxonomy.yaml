@@ -1,6 +1,6 @@
-version: 1
+version: 2
 description: >
-  Hacknet review corpus üçün deterministik theme-candidate retrieval taxonomy.
+  Computer-interface / hacking / digital-investigation oyunları üçün deterministik theme-candidate retrieval taxonomy.
   Bu qaydalar final semantic classification deyil; review-ləri sonrakı aspect analysis
   və manual/LLM audit üçün namizəd kimi seçir.
 themes:
@@ -208,3 +208,95 @@ themes:
       - '\bstarted my love for computers\b'
       - '\bintroduction to\b'
       - '\bgot me into\b'
+
+
+  TACTICAL_TURN_BASED:
+    label_az: Turn-based taktika və action economy
+    patterns:
+      - '\bturn[- ]based\b'
+      - '\btactical\b'
+      - '\baction economy\b'
+      - '\btwo actions?\b'
+      - '\baction points?\b'
+      - '\bboard game\b'
+      - '\bchess\b'
+
+  RNG_FAIRNESS:
+    label_az: RNG, luck və fairness
+    patterns:
+      - '\brng\b'
+      - '\brandom(?:ness|ly)?\b'
+      - '\bluck(?:y|ier|iest)?\b'
+      - '\bbad luck\b'
+      - '\bdice rolls?\b'
+      - '\bpercentage[- ]based\b'
+      - '\bprocgen\b'
+      - '\bunwinnable\b'
+
+  RETRY_ROLLBACK:
+    label_az: Retry, rollback və mission recovery
+    patterns:
+      - '\brollback(?:s|ing)?\b'
+      - '\brestart(?:ing|ed)? (?:the )?(?:mission|level|map)\b'
+      - '\bretry(?:ing|ied)?\b'
+      - '\bdo[- ]?overs?\b'
+      - '\bsave scumm(?:ing|ed)?\b'
+      - '\breplay failed missions?\b'
+      - '\bone chance\b'
+      - '\blocked out\b'
+      - '\bmanual save\b'
+      - '\bno save\b'
+      - '\bundo\b'
+
+  LOADOUT_BUILD:
+    label_az: Loadout, deck və build seçimi
+    patterns:
+      - '\bloadout\b'
+      - '\bdeck\b'
+      - '\bprograms?\b'
+      - '\bhardware\b'
+      - '\btoolset\b'
+      - '\btools?\b'
+      - '\bslots?\b'
+      - '\bbuilds?\b'
+      - '\bconfiguration\b'
+      - '\bequip(?:ped|ment)?\b'
+
+  KEYBOARD_ONLY:
+    label_az: Keyboard-only control
+    patterns:
+      - '\bkeyboard[- ]only\b'
+      - '\bkeyboard only\b'
+      - '\bno mouse\b'
+      - '\bwithout (?:a )?mouse\b'
+      - '\btyping commands?\b'
+      - '\btype commands?\b'
+      - '\bcommand[- ]driven\b'
+
+  URGENCY_TRACE:
+    label_az: Trace, turn cap və urgency
+    patterns:
+      - '\btrace meter\b'
+      - '\btrace counter\b'
+      - '\btrace mechanic\b'
+      - '\bgetting traced\b'
+      - '\bbeing traced\b'
+      - '\bturn caps?\b'
+      - '\bturn limits?\b'
+      - '\btime limits?\b'
+      - '\bcountdown\b'
+      - '\btrace time\b'
+
+  CHOICE_REPUTATION:
+    label_az: Moral seçim, reputation və branching
+    patterns:
+      - '\breputation\b'
+      - '\bblack hat\b'
+      - '\bwhite hat\b'
+      - '\bmoral(?:ity)?\b'
+      - '\bethics?\b'
+      - '\bchoices? matter\b'
+      - '\bstory branching\b'
+      - '\bbranching dialogue\b'
+      - '\bside quests?\b'
+      - '\bside missions?\b'
