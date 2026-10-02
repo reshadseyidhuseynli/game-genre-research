@@ -1,4 +1,4 @@
-version: 1
+version: 2
 description: >
   Computer-interface / hacking / digital-investigation oyunları üçün semantic aspect taxonomy.
   Bu taxonomy final qualitative coding üçündür; regex candidate retrieval taxonomy-dən ayrıdır.
@@ -64,6 +64,30 @@ aspects:
   SYSTEM_DEPTH:
     label_az: Sistem dərinliyi
     definition: Mechanic-lərin qarşılıqlı əlaqəsi, strategiya, alternativ yanaşma və mastery imkanları.
+
+  TACTICAL_TURN_BASED:
+    label_az: Turn-based taktika və action economy
+    definition: Turn strukturu, action economy, board-game/chess hissi və tactical planning-in gameplay keyfiyyəti.
+
+  RNG_FAIRNESS:
+    label_az: RNG və fairness
+    definition: Randomness, luck, probability və nəticələrin player skill/decision ilə ədalətli əlaqəsi.
+
+  LOADOUT_BUILD:
+    label_az: Loadout və build seçimi
+    definition: Programs, hardware, deck, tool slots və mission öncəsi build qərarlarının dərinliyi və faydası.
+
+  RETRY_ROLLBACK:
+    label_az: Retry, rollback və recovery
+    definition: Mission restart, rollback, retry, manual save/undo və failure-dan sonra recovery modelinin keyfiyyəti.
+
+  KEYBOARD_ONLY:
+    label_az: Keyboard-only control
+    definition: Mouse-suz, typing/keyboard əsaslı input modelinin immersion və usability-yə təsiri.
+
+  CHOICE_REPUTATION:
+    label_az: Moral seçim və reputation
+    definition: Black/white hat, reputation, branching, side-mission və moral decision sistemlərinin mənalılığı.
 
   PUZZLE_PROBLEM_SOLVING:
     label_az: Puzzle və problem həlli
@@ -147,3 +171,7 @@ coding_rules:
   - Story və writing eyni deyil; süjet bəyənilə, yazı tənqid edilə bilər.
   - Repetition yalnız "eyni şey çox təkrarlanır" mənası olduqda tətbiq edilməlidir.
   - Consequence və world reactivity ayrılmalıdır: action nəticəsi şəxsi/progression səviyyədə ola bilər, dünya reaktiv olmaya bilər.
+  - RNG/fairness ayrıca qiymətləndirilməlidir: challenge çətin ola bilər, amma oyunçu failure-i öz qərarı ilə əlaqələndirə bilmirsə RNG_FAIRNESS negative ola bilər.
+  - Keyboard-only input immersion üçün positive, usability üçün negative ola bilər; KEYBOARD_ONLY və UI_USABILITY ayrıca label-lənməlidir.
+  - Loadout/build müxtəlifliyi yalnız çox seçim olması ilə positive sayılmır; dominant build və məcburi slotlar varsa mixed/negative ola bilər.
+  - Retry/rollback sistemi PLAYER_AGENCY-dən ayrıdır; seçim çox olsa belə failure-dan recovery zəif ola bilər.
