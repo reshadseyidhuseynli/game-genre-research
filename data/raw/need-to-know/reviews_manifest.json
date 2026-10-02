@@ -1,0 +1,36 @@
+{
+  "endpoint": "https://api.steampowered.com/IUserReviewsService/GetAppReviews/v1/",
+  "params": {
+    "appid": 490930,
+    "languages": [
+      "english"
+    ],
+    "filter": 1,
+    "review_type": 0,
+    "purchase_type": 1,
+    "num_per_page": 100,
+    "filter_offtopic_activity": false
+  },
+  "started_at": "2026-10-02T17:46:04.124285+00:00",
+  "finished_at": "2026-10-02T17:46:11.724198+00:00",
+  "completed": true,
+  "termination": "empty_page",
+  "pages": 4,
+  "raw_reviews": 272,
+  "query_summary": {
+    "num_reviews": 100,
+    "review_score": 5,
+    "review_score_desc": "Mixed",
+    "total_positive": 178,
+    "total_negative": 94,
+    "total_reviews": 272
+  },
+  "total_matching_first_page": 272,
+  "raw_sha256": "b35721cffaa4ab69d6849deaee982e1c5529141321d6414e279ab9c0351017b7",
+  "page_sha256": {
+    "000000.json": "52be406ac383c026e3986577e14e41e96017ba475d09aae6c78b97f994e3489c",
+    "000001.json": "6123e7489aa678e5c0338460c16382505bf7a7c1c621a7dcda5bbf8c39522315",
+    "000002.json": "4dff034c5bfa494dcc54710a26b3c03645501c1238b62ed2fc7bc1f9dce88fa1",
+    "000003.json": "0fc33280f48539a514b851e2787e63c085e9c1ade6f0c33a97bcaf037425b073"
+  }
+}
