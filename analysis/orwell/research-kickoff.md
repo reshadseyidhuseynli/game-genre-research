@@ -68,7 +68,7 @@ modelinə keçir.
 3. Contradictory information necə idarə olunur?
 4. nəticə kifayət qədər görünəndirmi?
 5. Ethical tension oyun gedişi-dən doğur, yoxsa yalnız narrative mesaj kimi qalır?
-6. oyunçu information-u gizlətmək və ya ötürmək arasında meaningful trade-off görürmü?
+6. oyunçu information-u gizlətmək və ya ötürmək arasında meaningful kompromis görürmü?
 7. Search/araşdırma hissəsi Cyber Manhunt qədər scripted görünürmü?
 8. dəlil interface oyunçu knowledge-i yaxşı idarə edirmi?
 9. Reading load nə qədər yüksəkdir?
