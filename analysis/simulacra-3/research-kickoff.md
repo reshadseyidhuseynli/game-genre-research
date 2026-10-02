@@ -2,16 +2,19 @@
 
 ## Status
 
-Bu sənəd SIMULACRA 3 üçün məlumat toplusu toplanmazdan əvvəl hazırlanmış kickoff sənədidir.
+Bu sənəd SIMULACRA 3 üçün məlumat toplusu toplanmazdan əvvəl hazırlanmış tarixi kickoff sənədidir.
+
+**Araşdırma artıq tamamlanıb.** Cari əsas sənədlər:
+
+- `analysis/simulacra-3/theme-analysis.md`
+- `analysis/simulacra-3/deep-research.md`
+- `analysis/simulacra-3/presentation-brief.md`
+- `analysis/comparisons/simulacra-vs-simulacra-3.md`
 
 **Tier:** A — tam dərin araşdırma  
 **Steam App ID:** `1925970`
 
-Cari mərhələ:
-
-> **research kickoff → Steam dataset collection**
-
-Bu sənəd final nəticə deyil. Məqsəd ilk SIMULACRA üçün artıq qurduğumuz baseline-a qarşı sequel/franchise dəyişikliklərini əvvəlcədən açıq suallara çevirməkdir.
+Kickoff-un məqsədi ilkin sualları və fərziyyələri saxlamaqdır; final nəticə üçün yuxarıdakı sənədlər əsas istinaddır.
 
 ---
 
@@ -652,15 +655,13 @@ franchise design baseline kimi istifadə ediləcək.
 
 # 18. Status
 
-**Mərhələ:** kickoff tamamlanıb  
+**Mərhələ:** araşdırma tamamlanıb  
 **Tier:** A  
 **Steam target:** **1925970**  
-**Config:** repository-yə əlavə olunub  
-**Dataset:** gözlənilir  
-**Növbəti:**
-
-```bash
-py -m src.pipeline --game simulacra-3
-py -m src.verify --game simulacra-3
-py -m src.theme_pipeline --game simulacra-3
-```
+**Verified dataset:** **267 rəy**  
+**Müsbət:** **157**  
+**Mənfi:** **110**  
+**Müsbət pay:** **58.80%**  
+**Deterministik v5 theme artefaktları:** tamamlanıb  
+**Məna yönümlü audit:** 110/110 mənfi + 43 məqsədli müsbət rəy  
+**Məcburi franchise comparison:** tamamlanıb
