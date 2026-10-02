@@ -2,7 +2,14 @@
 
 ## Status
 
-Bu sənəd Orwell üçün Steam dataset toplanmazdan əvvəl research istiqamətini müəyyən edir.
+Bu sənəd Orwell dataset-dən əvvəl hazırlanmış kickoff sənədidir və historical planning context kimi saxlanılır.
+
+Research artıq tamamlanıb. Cari source of truth:
+
+- `analysis/orwell/deep-research.md`
+- `analysis/orwell/theme-analysis.md`
+
+Need to Know focused comparator ayrıca növbəti mərhələdir.
 
 ## Niyə növbəti Tier A target budur?
 
@@ -111,4 +118,4 @@ Config repository-yə əlavə olunub:
     name: Orwell: Keeping an Eye On You
     steam_app_id: 491950
 
-Növbəti mərhələ verified Steam review dataset collection-dır.
+Verified dataset sonradan toplanıb: **8,549 review**. Kickoff hipotezləri final research-də test edilib və bu sənəd artıq source of truth deyil.
