@@ -11,5 +11,8 @@ games:
   - key: the-operator
     name: The Operator
     steam_app_id: 1771980
+  - key: orwell
+    name: "Orwell: Keeping an Eye On You"
+    steam_app_id: 491950
 sample_size: 50
 request_delay_seconds: 2
