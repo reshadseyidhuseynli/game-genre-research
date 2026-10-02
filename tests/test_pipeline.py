@@ -133,6 +133,21 @@ class DeterministicTests(unittest.TestCase):
         self.assertIn('IMMERSION', detected)
 
 
+
+    def test_focused_investigation_theme_detection(self):
+        taxonomy = load_taxonomy()
+        detected = detect_themes(
+            'The game keeps hand-holding me, the ending is an abrupt cliffhanger, '
+            'there is no manual save, and several mechanics are used only once. '
+            'Too much unskippable exposition-heavy dialogue.',
+            taxonomy
+        )
+        self.assertIn('HANDHOLDING_GUIDANCE', detected)
+        self.assertIn('ENDING_CLOSURE', detected)
+        self.assertIn('SAVE_REPLAY', detected)
+        self.assertIn('SINGLE_USE_MECHANICS', detected)
+        self.assertIn('DIALOGUE_EXPOSITION', detected)
+
     def test_digital_investigation_theme_detection(self):
         taxonomy = load_taxonomy()
         detected = detect_themes(
