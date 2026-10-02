@@ -99,7 +99,7 @@ Məqsəd:
 
 yaradıcı özü downside olaraq discoverability problemini qəbul edir.
 
-Yəni dizayn trade-off əvvəldən şüurludur:
+Yəni dizayn kompromis əvvəldən şüurludur:
 
 ```text
 immersion/fantasy
@@ -131,7 +131,7 @@ Bu oyunlararası principle ola bilər, amma oyunçu məlumat ilə ayrıca yoxlan
 
 ---
 
-## 3.4. Onboarding ən çətin hissələrdən biri olub
+## 3.4. İlkin öyrətmə ən çətin hissələrdən biri olub
 
 yaradıcı terminalın qorxuducu ola bildiyini və:
 
@@ -139,13 +139,13 @@ yaradıcı terminalın qorxuducu ola bildiyini və:
 - resource system;
 - terminal qarşılıqlı əlaqə
 
-kimi sistemlərin onboarding-i çətinləşdirdiyini deyir.
+kimi sistemlərin ilkin öyrətmə-i çətinləşdirdiyini deyir.
 
 təlim hissəsi/demo oyunun ən çox iteration edilən hissələrindən biri olub və convention playtest-lərindən geniş geribildirim toplanıb.
 
 Bu bizim üçün güclü müqayisə sualı yaradır:
 
-> Hacknet və Midnight Protocol hər ikisi hacker fantasy üçün terminal istifadə edir, amma terminalın yaratdığı onboarding cost-u necə idarə edirlər?
+> Hacknet və Midnight Protocol hər ikisi hacker fantasy üçün terminal istifadə edir, amma terminalın yaratdığı ilkin öyrətmə cost-u necə idarə edirlər?
 
 ---
 
@@ -391,9 +391,9 @@ Midnight Protocol məlumat toplusu-i toplandıqdan sonra prioritet suallar:
 4. RNG/uğursuzluq fairness nə qədər böyük complaint-dir?
 5. Turn caps və trace pressure tension yaradır, yoxsa experimentation-ı öldürür?
 6. Reputation və etik seçim-lar real **oyunçu qərar sərbəstliyi/nəticə** yaradırmı?
-7. Narrative core loop-u gücləndirir, yoxsa mexanika-dan ayrı qalır?
+7. Narrative əsas oyun dövrü-u gücləndirir, yoxsa mexanika-dan ayrı qalır?
 8. Investigation/discovery nə qədər əhəmiyyətlidir?
-9. Onboarding və command discoverability mənfi rəy-lərdə nə qədər görünür?
+9. İlkin öyrətmə və command discoverability mənfi rəy-lərdə nə qədər görünür?
 10. Niyə çox müsbət critical/oyunçu response olmasına baxmayaraq Steam rəy volume Hacknet-dən çox aşağıdır?
 11. Problem game quality, discoverability, positioning, niche mürəkkəblik, launch timing, marketing reach, yoxsa başqa faktordur?
 12. Workshop/level editor long-tail yaradıb, yoxsa icma scale çox kiçik qalıb?
@@ -429,7 +429,7 @@ Midnight Protocol üçün yeni aspect-lər yalnız məlumat tələb edərsə əl
 
 Hazırda yalnız external dəlil əsasında ən dəyərli hipotez budur:
 
-> **Midnight Protocol Hacknet-in dayaz hacking loop problemini daha tactical və systemic mexanikalar ilə həll etməyə çalışır, amma bunun müqabilində daha yüksək cognitive/onboarding cost, keyboard-only çətinlik və RNG/retry riskləri yaradır.**
+> **Midnight Protocol Hacknet-in dayaz hacking loop problemini daha tactical və systemic mexanikalar ilə həll etməyə çalışır, amma bunun müqabilində daha yüksək cognitive/ilkin öyrətmə cost, keyboard-only çətinlik və RNG/retry riskləri yaradır.**
 
 Əgər Steam məlumat toplusu bunu təsdiqləsə, bizim gələcək oyun üçün çox vacib principle çıxacaq:
 
@@ -451,7 +451,7 @@ App ID, release, yaradıcı/publisher, tags, rəy status, mağaza positioning v�
 
 https://www.gamedeveloper.com/design/hacking-answers-tactical-narrative-game-midnight-protocol
 
-Ən vacib yaradıcı-intent mənbəyi: board-game inspiration, keyboard-only dizayn, realizm philosophy, onboarding iteration, turn-based transition, narrative focus.
+Ən vacib yaradıcı-intent mənbəyi: board-game inspiration, keyboard-only dizayn, realizm philosophy, ilkin öyrətmə iteration, turn-based transition, narrative focus.
 
 ## [W3] Softpedia rəy
 
@@ -481,7 +481,7 @@ oyunçu geribildirim: RNG, turn caps, keyboard controls, dərinlik, save system.
 
 https://steamcommunity.com/app/1162700/discussions/
 
-Onboarding, controls, waiting, təlim hissəsi və quality-of-life complaint nümunələri.
+İlkin öyrətmə, controls, waiting, təlim hissəsi və quality-of-life complaint nümunələri.
 
 ## [W8] SteamDB
 
