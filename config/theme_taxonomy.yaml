@@ -1,4 +1,4 @@
-version: 3
+version: 4
 description: >
   Computer-interface / hacking / digital-investigation oyunları üçün deterministik theme-candidate retrieval taxonomy.
   Bu qaydalar final semantic classification deyil; review-ləri sonrakı aspect analysis
@@ -422,3 +422,64 @@ themes:
       - '\bethic(?:s|al)?\b'
       - '\bsocial issues?\b'
       - '\bpreach(?:y|ing)?\b'
+
+
+  HANDHOLDING_GUIDANCE:
+    label_az: Həddindən artıq yönləndirmə və hand-holding
+    patterns:
+      - '\bhand[- ]?holding\b'
+      - '\bholds? your hand\b'
+      - '\btreats? you like (?:an )?idiot\b'
+      - '\btells? you exactly\b'
+      - '\bspoon[- ]?fed\b'
+      - '\bspoonfeeding\b'
+
+  ENDING_CLOSURE:
+    label_az: Ending, closure və cliffhanger
+    patterns:
+      - '\bending\b'
+      - '\bcliff[- ]?hanger\b'
+      - '\babrupt ending\b'
+      - '\bunsatisfying ending\b'
+      - '\bno closure\b'
+      - '\bno resolution\b'
+      - '\bunresolved\b'
+      - '\bsequel bait\b'
+
+  SAVE_REPLAY:
+    label_az: Save, replay və skippability
+    patterns:
+      - '\bmanual save\b'
+      - '\bno save\b'
+      - '\bsave system\b'
+      - '\bautosave\b'
+      - '\bunskippable\b'
+      - '\bcan.t skip\b'
+      - '\bcannot skip\b'
+      - '\breplayability\b'
+      - '\breplay value\b'
+
+  SINGLE_USE_MECHANICS:
+    label_az: Bir dəfə istifadə olunan və zəif dərinləşdirilən mechanic-lər
+    patterns:
+      - '\bused only once\b'
+      - '\bonly used once\b'
+      - '\buse it once\b'
+      - '\bnever used again\b'
+      - '\bone[- ]off mechanic\b'
+      - '\bone[- ]off mechanics\b'
+      - '\bunderused\b'
+      - '\bunder-utilised\b'
+      - '\bunderutilized\b'
+
+  DIALOGUE_EXPOSITION:
+    label_az: Dialogue, exposition və passiv dinləmə
+    patterns:
+      - '\bexposition\b'
+      - '\bexposition-heavy\b'
+      - '\bvoice acting\b'
+      - '\bvoice actor\b'
+      - '\blistening to\b'
+      - '\blisten to\b'
+      - '\bcutscenes?\b'
+      - '\bblack screen\b'
