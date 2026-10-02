@@ -1,0 +1,469 @@
+# Mainlining vs SIMULACRA — Interface-as-world müqayisəsi
+
+## 1. Məqsəd
+
+Əsas sual:
+
+> **Desktop və telefon kimi real həyatdan tanış iki interface oyun dünyasının özü olduqda immersion, onboarding, informasiya işi və usability necə fərqlənir?**
+
+Bu müqayisə “qalib” seçmir.
+
+Mainlining və SIMULACRA eyni fundamental yanaşmanın iki fərqli formasını göstərir:
+
+- **Mainlining** — rəqəmsal iş desktop-u;
+- **SIMULACRA** — şəxsi telefon.
+
+---
+
+## 2. Dataset snapshot-u
+
+| Metrik | Mainlining | SIMULACRA |
+|---|---:|---:|
+| Rəy sayı | 304 | 3,209 |
+| Müsbət | 230 | 2,905 |
+| Mənfi | 74 | 304 |
+| Müsbət payı | 75.66% | **90.53%** |
+| Median oyun müddəti | 4.82h | 4.67h |
+| 0–1h müsbət | 34.78% | **59.81%** |
+| 1–3h müsbət | 62.50% | **78.83%** |
+| 3–10h müsbət | 80.10% | **92.45%** |
+| 10h+ müsbət | 96.88% | 95.30% |
+
+Dataset ölçüləri çox fərqlidir; rəqəmlər “oyun balı” deyil.
+
+Əsas siqnal:
+
+> SIMULACRA ilk sessiyada tanış interface qrammatikasından daha böyük onboarding üstünlüyü alır.
+
+---
+
+## 3. Interface-in sosial mənası
+
+### Mainlining — desktop
+
+Desktop:
+
+- iş;
+- fayl;
+- terminal;
+- browser;
+- notepad;
+- məhsuldarlıq
+
+semantikasını daşıyır.
+
+Oyunçunun fantasy-si:
+
+> **“Mən peşəkar cyber-investigator kimi işi həll edirəm.”**
+
+### SIMULACRA — telefon
+
+Telefon:
+
+- şəxsi mesajlar;
+- münasibətlər;
+- foto;
+- sosial profil;
+- private history;
+- identity
+
+semantikasını daşıyır.
+
+Oyunçunun fantasy-si:
+
+> **“Mən başqa insanın şəxsi həyatının içindəyəm.”**
+
+### Nəticə
+
+> **Eyni interface-as-world texnikası istifadə olunsa da, hardware və gündəlik sosial məna oyunçunun rol hissini dəyişir.**
+
+---
+
+## 4. Onboarding
+
+Mainlining-də oyunçu bilməlidir:
+
+- command syntax;
+- hansı app nə edir;
+- suspect/evidence/location submission;
+- window davranışı.
+
+SIMULACRA-da:
+
+- message;
+- gallery;
+- browser;
+- contacts;
+- social app
+
+artıq tanışdır.
+
+Bu fərq 0–1h göstəricisində də istiqamətcə görünür:
+
+- Mainlining: **34.78%**
+- SIMULACRA: **59.81%**
+
+### Principle
+
+> **Real-world interaction grammar nə qədər geniş tanınırsa, tutorial yükü bir o qədər azala bilər.**
+
+---
+
+## 5. Familiarity-nin qiyməti: affordance expectation
+
+Tanış interface yalnız üstünlük deyil.
+
+Oyunçu həmin sistem haqqında əvvəlki biliklərini gətirir.
+
+### Mainlining
+
+Terminal/desktop görür və gözləyir:
+
+- copy/paste;
+- cursor editing;
+- command history;
+- düzgün error;
+- resize/minimize.
+
+Bunlar çatışmadıqda friction yüksəkdir.
+
+### SIMULACRA
+
+Telefon görür və gözləyir:
+
+- normal scroll;
+- video timeline;
+- rahat app switching;
+- zəng/contact davranışı;
+- notification control.
+
+Bunlar çatışmadıqda immersion çat verir.
+
+### Əsas prinsip
+
+> **Familiar interface-in görünüşünü borc alırsansa, onun ən əsas affordance-larını da borc alırsan.**
+
+---
+
+## 6. UI external working memory kimi
+
+### Mainlining
+
+Oyunçu:
+
+- IP;
+- alias;
+- website;
+- evidence;
+- suspect;
+- location
+
+saxlayır.
+
+Amma:
+
+- notepad zəifdir;
+- case-lər arasında notes/files itir;
+- pəncərə idarəsi narahatdır.
+
+Bu working-memory yükünü artırır.
+
+### SIMULACRA
+
+Telefonun özü artıq archive-dir:
+
+- chat history;
+- gallery;
+- contacts;
+- email.
+
+Bu daha təbii external memory yaradır.
+
+Amma:
+
+- çox app arasında context switching;
+- uzun message history;
+- interruption
+
+yenə yük yaradır.
+
+### Nəticə
+
+> SIMULACRA information memory-ni interface daxilində daha təbii saxlayır; Mainlining isə oyunçunu daha çox xarici qeyd aparmağa məcbur edə bilir.
+
+---
+
+## 7. Information reward
+
+### Mainlining
+
+Məlumat:
+
+> cinayəti sübut etmək üçün materialdır.
+
+Reward:
+
+> competence.
+
+### SIMULACRA
+
+Məlumat:
+
+- clue;
+- character detail;
+- relationship;
+- privacy violation;
+- horror context
+
+rolunu eyni anda oynayır.
+
+Reward:
+
+> competence + curiosity + intimacy.
+
+### Principle
+
+> **Məlumat bir neçə emosional və funksional rol daşıyanda discovery density yüksəlir.**
+
+---
+
+## 8. Əsas interaction verb
+
+### Mainlining
+
+```text
+tap
+→ hack et
+→ yüklə
+→ sübut et
+```
+
+### SIMULACRA
+
+```text
+oxu
+→ əlaqələndir
+→ danış
+→ cihaz daxilində hərəkət et
+```
+
+Mainlining daha procedural competence yönümlüdür.
+
+SIMULACRA daha relational/narrative interaction yönümlüdür.
+
+---
+
+## 9. Sistemə etibar problemi
+
+### Mainlining
+
+Əsas trust failure:
+
+> **məntiqli dəlilim var, amma sistem exact file-i qəbul etmir.**
+
+Bu semantic acceptance problemidir.
+
+### SIMULACRA
+
+Əsas trust failure:
+
+> **mən başqa cür davranmaq istəyirəm, amma dialoq/progression məni konkret yola itələyir.**
+
+Bu intent acceptance problemidir.
+
+### Ortaq kök
+
+> **Interface azadlıq hissi yaradırsa, sistem həmin azadlığı real state dəyişiklikləri ilə dəstəkləməlidir.**
+
+---
+
+## 10. Repetition
+
+Mainlining:
+
+```text
+website
+→ ping
+→ hack
+→ list
+→ download
+```
+
+SIMULACRA:
+
+```text
+read
+→ dialogue
+→ text/image restore
+→ read
+```
+
+Mainlining-də repetition daha çox prosedur əmrlərdədir.
+
+SIMULACRA-da daha çox:
+
+- bərpa mini-game;
+- mesaj gözləmə;
+- replay zamanı eyni content.
+
+### Principle
+
+> **Interface dəyişsə də cognitive task dəyişmirsə təkrarçılıq qalır.**
+
+---
+
+## 11. Immersion mənbəyi
+
+### Mainlining
+
+Immersion:
+
+> “real iş kompüterində cyber-agentəm.”
+
+Gücləndirən:
+- OS parody;
+- terminal;
+- files;
+- desktop.
+
+Sındıran:
+- real desktop affordance çatışmazlığı;
+- bug;
+- exact evidence.
+
+### SIMULACRA
+
+Immersion:
+
+> “bu real şəxsin telefonudur.”
+
+Gücləndirən:
+- şəxsi mesaj;
+- video;
+- foto;
+- phone interaction;
+- device glitch.
+
+Sındıran:
+- unnatural dialogue;
+- acting;
+- jumpscare;
+- missing phone affordance.
+
+### Nəticə
+
+> **Interface-as-world immersion ən zəif komponent qədər inandırıcıdır.**
+
+---
+
+## 12. Horror imkanları
+
+Mainlining horror oyunu deyil.
+
+Amma comparison vacib bir imkan göstərir:
+
+### Desktop
+
+qorxu:
+- sistem breach;
+- unauthorized access;
+- file dəyişməsi;
+- unknown process;
+- remote control
+
+kimi işləyə bilər.
+
+### Phone
+
+qorxu:
+- şəxsi mesajın dəyişməsi;
+- kontaktın özbaşına yazması;
+- kamera/media corruption;
+- identity takeover
+
+kimi daha intim hiss olunur.
+
+SIMULACRA sübut edir:
+
+> **interface-in normal qaydasını pozmaq özü horror mechanic ola bilər.**
+
+---
+
+## 13. Device form factor
+
+Mainlining PC-də təbii formatdır.
+
+SIMULACRA mobil cihazda daha təbii hiss oluna bilər.
+
+Bu göstərir:
+
+> **fictional interface seçimi target hardware-dən ayrı qərar deyil.**
+
+Əgər dünya telefondursa:
+- touch;
+- physical hold;
+- orientation;
+- notification feel
+
+game-feel-ə təsir edir.
+
+---
+
+## 14. Məhsul mövqeyi
+
+Mainlining bəzən:
+
+> hacking simulator
+
+gözləntisi yaradıb, amma əslində point-and-click investigation-a yaxındır.
+
+SIMULACRA isə:
+
+> missing woman’s phone
+
+premise-i ilə real dominant interaction-a daha yaxın marketinq qurur.
+
+Bu expectation alignment SIMULACRA-nın üstünlüklərindən biridir.
+
+---
+
+## 15. Bizim layihə üçün dərslər
+
+1. Interface seçimi yalnız vizual tema deyil, hazır mental model seçimidir.
+2. Familiar interface tutorial cost-u azaldır.
+3. Familiarity ilə birlikdə affordance borcu yaranır.
+4. UI external memory kimi işləməlidir.
+5. Məlumat yalnız objective yox, character reward da ola bilər.
+6. Procedural competence və relational agency fərqli fantasy-lərdir.
+7. “Azad interface” arxasında sərt scripted logic saxlamamaq lazımdır.
+8. Hardware form factor prototype mərhələsində yoxlanmalıdır.
+9. Interface corruption thematic mechanic kimi güclüdür.
+10. Realizm görünüşdən çox davranış consistency-sidir.
+
+---
+
+## 16. Nəticə
+
+Mainlining göstərir:
+
+> **desktop interface peşəkar competence fantasy-si üçün güclüdür, amma real desktop davranışını yaxşı daşımalıdır.**
+
+SIMULACRA göstərir:
+
+> **telefon interface-i onboarding-i azaldır və məlumatı daha şəxsi edir; eyni interface horror, narrative və choice səthinə çevrilə bilər.**
+
+Birlikdə əsas principle:
+
+> **Interface-as-world uğurlu olmaq üçün yalnız dünyaya bənzəməməlidir; oyunçunun həmin interface haqqında real həyatdan gətirdiyi davranış gözləntilərini də məqsədli şəkildə idarə etməlidir.**
+
+## Mənbələr
+
+### Mainlining
+- `analysis/mainlining/theme-analysis.md`
+- `analysis/mainlining/deep-research.md`
+- `data/processed/mainlining/statistics.json`
+
+### SIMULACRA
+- `analysis/simulacra/theme-analysis.md`
+- `analysis/simulacra/deep-research.md`
+- `data/processed/simulacra/statistics.json`
