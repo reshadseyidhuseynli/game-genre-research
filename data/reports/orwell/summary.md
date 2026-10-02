@@ -1,6 +1,6 @@
-# Orwell: Keeping an Eye On You Research Dataset Summary
+# Orwell: Keeping an Eye On You — Araşdırma məlumat toplusunun xülasəsi
 
-## Steam Metadata
+## Steam metaməlumatı
 
 - name: Orwell: Keeping an Eye On You
 - release_date: {&#x27;coming_soon&#x27;: False, &#x27;date&#x27;: &#x27;Oct 27, 2016&#x27;}
@@ -18,49 +18,49 @@
 - price_unit: minor currency units
 - store_url: https://store.steampowered.com/app/491950/
 
-## Dataset Size
+## Məlumat toplusunun ölçüsü
 
-- raw_reviews: 8549
-- total_reviews: 8549
-- unique_reviews: 8549
-- duplicates_removed: 0
-- Collection: 2026-10-02T17:17:59.846448+00:00 to 2026-10-02T17:21:58.928246+00:00
-- Termination: empty_page; pages: 87
+- Xam rəylər: 8549
+- Ümumi rəylər: 8549
+- Təkrarsız rəylər: 8549
+- Silinmiş təkrarlar: 0
+- Toplanma müddəti: 2026-10-02T17:17:59.846448+00:00 to 2026-10-02T17:21:58.928246+00:00
+- Dayanma səbəbi: empty_page; səhifələr: 87
 - API first-page total_matching: 8550
 - API first-page query_summary: {&quot;num_reviews&quot;: 100, &quot;review_score&quot;: 8, &quot;review_score_desc&quot;: &quot;Very Positive&quot;, &quot;total_positive&quot;: 7736, &quot;total_negative&quot;: 814, &quot;total_reviews&quot;: 8550}
-- Pagination exhausted the public query; a live API is not an atomic snapshot and may change during collection.
-- Unique collected minus first-page API total: -1
+- Açıq API səhifələməsi sona qədər oxunub; canlı API atomik kəsim deyil və toplama zamanı dəyişə bilər.
+- Toplanmış təkrarsız rəylərlə ilk səhifədəki API ümumi sayı arasındakı fərq: -1
 
-## Sentiment
+## Rəy bölgüsü
 
-- positive_reviews: 7735
-- negative_reviews: 814
-- unknown_sentiment_reviews: 0
-- positive_ratio: 0.9048
-- negative_ratio: 0.0952
+- Müsbət rəylər: 7735
+- Mənfi rəylər: 814
+- Münasibəti məlum olmayan rəylər: 0
+- Müsbət rəy nisbəti: 0.9048
+- Mənfi rəy nisbəti: 0.0952
 
-## Playtime
+## Oyun müddəti
 
-- playtime_unit: hours; all playtime statistics use playtime_at_review
-- known_playtime_reviews: 8441
-- average_playtime_at_review: 6.4112
-- median_playtime_at_review: 5.0667
+- Oyun müddəti vahidi: hours; all playtime statistics use playtime_at_review
+- Oyun müddəti məlum olan rəylər: 8441
+- Rəy anındakı orta oyun müddəti: 6.4112
+- Rəy anındakı median oyun müddəti: 5.0667
 
-## Review Quality
+## Rəy keyfiyyəti
 
-- empty_reviews: 10
-- very_short_reviews: 1060
+- Boş rəylər: 10
+- Çox qısa rəylər: 1060
 
-## Positive vs Negative Review Statistics
+## Müsbət və mənfi rəylərin müqayisəsi
 
-- average_playtime_positive: 6.6207
-- average_playtime_negative: 4.4345
-- average_votes_up_positive: 1.3259
-- average_votes_up_negative: 4.8403
+- Müsbət rəylərdə orta oyun müddəti: 6.6207
+- Mənfi rəylərdə orta oyun müddəti: 4.4345
+- Müsbət rəylərdə orta faydalı səs sayı: 1.3259
+- Mənfi rəylərdə orta faydalı səs sayı: 4.8403
 
-## Playtime Segments
+## Oyun müddəti Segments
 
-| Segment | Reviews | Positive ratio |
+| Qrup | Rəy sayı | Müsbət rəy nisbəti |
 |---|---:|---:|
 | 0-1h | 357 | 0.5434 |
 | 1-3h | 896 | 0.7946 |
@@ -68,11 +68,11 @@
 | 10h+ | 1124 | 0.9528 |
 | unknown | 108 | 0.9537 |
 
-## Most Helpful Review Samples
+## Ən faydalı rəy nümunələri
 
-### Positive (up to 20)
+### Müsbət (maksimum 20)
 
-| Review ID | Created UTC | Votes up | Hours at review |
+| Rəy ID | Yaradılma vaxtı (UTC) | Faydalı səslər | Rəy anındakı oyun müddəti (saat) |
 |---|---|---:|---:|
 | 32198180 | 2017-06-05T12:41:46+00:00 | 268.0000 | 4.0000 |
 | 44192608 | 2018-08-16T17:51:09+00:00 | 266.0000 | 0.7333 |
@@ -95,11 +95,11 @@
 | 55309068 | 2019-09-27T22:19:29+00:00 | 67.0000 | 4.7833 |
 | 59589877 | 2019-12-10T03:59:21+00:00 | 65.0000 | 6.8667 |
 
-Full original text is retained in the corresponding sample CSV.
+Rəylərin tam mətni uyğun nümunə CSV faylında saxlanılır.
 
-### Negative (up to 20)
+### Mənfi (maksimum 20)
 
-| Review ID | Created UTC | Votes up | Hours at review |
+| Rəy ID | Yaradılma vaxtı (UTC) | Faydalı səslər | Rəy anındakı oyun müddəti (saat) |
 |---|---|---:|---:|
 | 36498831 | 2017-11-13T20:19:04+00:00 | 185.0000 | 0.8167 |
 | 31957760 | 2017-05-25T19:03:36+00:00 | 173.0000 | 15.2667 |
@@ -122,14 +122,14 @@ Full original text is retained in the corresponding sample CSV.
 | 141245718 | 2023-07-03T21:32:43+00:00 | 35.0000 | 1.8333 |
 | 29616776 | 2017-01-31T23:40:40+00:00 | 35.0000 | 3.2667 |
 
-Full original text is retained in the corresponding sample CSV.
+Rəylərin tam mətni uyğun nümunə CSV faylında saxlanılır.
 
 
-## Recent Review Samples
+## Ən yeni rəy nümunələri
 
-### Positive (up to 20)
+### Müsbət (maksimum 20)
 
-| Review ID | Created UTC | Votes up | Hours at review |
+| Rəy ID | Yaradılma vaxtı (UTC) | Faydalı səslər | Rəy anındakı oyun müddəti (saat) |
 |---|---|---:|---:|
 | 236191994 | 2026-09-25T23:12:42+00:00 | 0.0000 | 3.0000 |
 | 235722115 | 2026-09-20T21:14:40+00:00 | 7.0000 | 30.8667 |
@@ -152,11 +152,11 @@ Full original text is retained in the corresponding sample CSV.
 | 232933332 | 2026-08-16T01:40:01+00:00 | 0.0000 | 5.1167 |
 | 232926264 | 2026-08-15T23:15:15+00:00 | 0.0000 | 3.7000 |
 
-Full original text is retained in the corresponding sample CSV.
+Rəylərin tam mətni uyğun nümunə CSV faylında saxlanılır.
 
-### Negative (up to 20)
+### Mənfi (maksimum 20)
 
-| Review ID | Created UTC | Votes up | Hours at review |
+| Rəy ID | Yaradılma vaxtı (UTC) | Faydalı səslər | Rəy anındakı oyun müddəti (saat) |
 |---|---|---:|---:|
 | 233824165 | 2026-08-27T14:16:38+00:00 | 3.0000 | 5.1000 |
 | 233803330 | 2026-08-27T07:50:43+00:00 | 1.0000 | 35.2000 |
@@ -179,22 +179,22 @@ Full original text is retained in the corresponding sample CSV.
 | 227356384 | 2026-06-06T22:12:12+00:00 | 0.0000 | 0.3500 |
 | 226374528 | 2026-05-25T09:26:53+00:00 | 0.0000 | 8.0333 |
 
-Full original text is retained in the corresponding sample CSV.
+Rəylərin tam mətni uyğun nümunə CSV faylında saxlanılır.
 
 
-## Missing Fields and Limitations
+## Çatışmayan sahələr və məhdudiyyətlər
 
-- Missing values remain null (empty CSV cells); false is not inferred from absence.
-- Metadata price uses the US store and minor currency units; it is a collection-time value.
-- Review language is Steam-provided; no independent language classification is applied.
-- Means and medians exclude missing values. Ratios use all reviews in the respective group.
-- No sales/owner estimates or textual theme/sentiment classification were collected.
+- Çatışmayan dəyərlər null kimi saxlanılır; sahənin olmamasından false nəticəsi çıxarılmır.
+- Qiymət metaməlumatı ABŞ mağazasından və valyutanın kiçik vahidlərində alınır; bu, toplama anındakı dəyərdir.
+- Rəy dili Steam tərəfindən verilir; ayrıca dil təsnifatı aparılmır.
+- Orta və median hesablamaları çatışmayan dəyərləri nəzərə almır. Nisbətlər uyğun qrupdakı bütün rəylərdən hesablanır.
+- Satış/sahiblik təxminləri və mətn üzrə mövzu/münasibət təsnifatı bu hesabatda toplanmır.
 
-- playtime_at_review_minutes: 108 missing
-- author_num_games_owned: 8549 missing
-- playtime_at_review_hours: 108 missing
+- playtime_at_review_minutes: 108 çatışmayan dəyər
+- author_num_games_owned: 8549 çatışmayan dəyər
+- playtime_at_review_hours: 108 çatışmayan dəyər
 
-## Generated Files
+## Yaradılan fayllar
 
 - `processed/orwell/metadata.json`
 - `processed/orwell/processing.json`
@@ -210,5 +210,5 @@ Full original text is retained in the corresponding sample CSV.
 - `raw/orwell/reviews_manifest.json`
 - `raw/orwell/steam_metadata.json`
 - `raw/orwell/steam_reviews.jsonl`
-- `raw/orwell/review_pages/`: immutable complete API pages
+- `raw/orwell/review_pages/`: dəyişdirilməyən tam API səhifələri
 - `reports/orwell/summary.md`
