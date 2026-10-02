@@ -192,3 +192,26 @@ istifadə olunur.
 Belə hallarda sənəddə “satışın səbəbi” fakt kimi yox, **kommersiya nəticəsini izah edən hipotez** kimi yazılmalıdır.
 
 Məqsəd zəif dəlildən saxta dəqiqlik yaratmamaqdır.
+
+
+---
+
+# 8. Hazır final qərar paketi
+
+Araşdırma mərhələsi tamamlandıqdan sonra əsas oxuma ardıcıllığı:
+
+1. `analysis/final/executive-genre-research-report.md` — rəhbərlik üçün 20–40 dəqiqəlik yekun hesabat
+2. `analysis/final/market-landscape.md` — bazar/subgenre xəritəsi və representative məhsullar
+3. `analysis/final/genre-synthesis.md` — oyunlararası recurring pattern-lər
+4. `analysis/final/design-principles.md` — yeni concept üçün dəlil-backed qaydalar
+5. `analysis/final/opportunity-map.md` — həll olunmamış məhsul/dizayn imkanları
+6. `analysis/final/risk-register.md` — əsas risklər və erkən validation
+7. `analysis/final/concept-evaluation-framework.md` — yaradılacaq ideyaları eyni rubric ilə müqayisə etmək
+
+Əgər yalnız bir final sənəd oxunacaqsa:
+
+> **`executive-genre-research-report.md`**
+
+seçilməlidir.
+
+Bundan sonrakı mərhələ research yox, **concept generation → concept evaluation → prototype validation** mərhələsidir.
