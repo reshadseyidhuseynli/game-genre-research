@@ -45,7 +45,7 @@ def write_jsonl(path, rows, immutable=False):
 def write_csv(path, rows, fields):
     import io
     buffer = io.StringIO(newline='')
-    writer = csv.DictWriter(buffer, fieldnames=fields)
+    writer = csv.DictWriter(buffer, fieldnames=fields, lineterminator='\n')
     writer.writeheader()
     writer.writerows(rows)
     write_text(path, buffer.getvalue())
