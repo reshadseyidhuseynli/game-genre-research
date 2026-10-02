@@ -31,6 +31,7 @@ python -m src.processors.clean_reviews --game hacknet
 python -m src.processors.statistics --game hacknet
 python -m src.reports.game_report --game hacknet
 python -m src.verify --game hacknet
+python -m src.theme_pipeline --game hacknet
 python -m src.processors.theme_candidates --game hacknet
 python -m src.reports.theme_candidate_report --game hacknet
 python -m unittest discover -s tests -v
@@ -148,6 +149,12 @@ Tests use fixtures/mocks only; they never call Steam.
 After the verified Steam dataset exists, run:
 
 ```powershell
+python -m src.theme_pipeline --game hacknet
+```
+
+Equivalent lower-level commands:
+
+```powershell
 python -m src.processors.theme_candidates --game hacknet
 python -m src.reports.theme_candidate_report --game hacknet
 ```
@@ -161,10 +168,13 @@ data/processed/hacknet/themes/candidates.jsonl
 data/processed/hacknet/themes/statistics.json
 data/processed/hacknet/themes/samples/<theme>_positive.csv
 data/processed/hacknet/themes/samples/<theme>_negative.csv
+data/processed/hacknet/themes/samples/<theme>_audit.csv
 data/reports/hacknet/theme-candidates.md
 ```
 
 The reported positive ratio is the overall Steam recommendation ratio among
 reviews mentioning a theme. It must not be interpreted as aspect-level
-sentiment. The generated samples are inputs for manual/LLM audit and the later
-aspect-based classification described in `RESEARCH_MASTER_BRIEF.md`.
+sentiment. The positive/negative samples prioritize helpful reviews for qualitative reading.
+The audit samples are deterministically balanced across recommendation and playtime
+cohorts to reduce helpful-review bias. All are inputs for manual/LLM audit and the
+later aspect-based classification described in `RESEARCH_MASTER_BRIEF.md`.
