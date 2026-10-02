@@ -434,8 +434,8 @@ hazırlanmalıdır.
 | Cyber Manhunt | Information/məntiqi nəticə çıxarma və social-engineering modeli | **Tamamlanıb** |
 | The Operator | Məqsədli dəlil təhlili və müasir araşdırma UX | **Tamamlanıb** |
 | Orwell: Keeping an Eye On You | Müşahidə, məlumat seçimi və etika | **Tamamlanıb** |
-| Mainlining | Hacking + araşdırma + seçim; underperforming comparator | Not started |
-| SIMULACRA | Found-device/phone araşdırma baseline | Not started |
+| Mainlining | Hacking + araşdırma + seçim; underperforming comparator | **Tamamlanıb** |
+| SIMULACRA | Found-device/phone araşdırma baseline | **Tamamlanıb** |
 | SIMULACRA 3 | Eyni franchise daxilində weaker outcome müqayisə | Not started |
 
 Tier A siyahısı araşdırma-in əsas məcburi oyun setidir. Oyun yalnız ciddi məlumat-access problemi və ya əhatə dairəsi dəyişməsi səbəbilə çıxarıla bilər; səbəb master brief-də qeyd edilməlidir.
@@ -1617,8 +1617,8 @@ Minimum aşağıdakı müqayisə-lar olmalıdır:
 
 - Hacknet vs Midnight Protocol — **tamamlanıb**;
 - Cyber Manhunt vs The Operator — **tamamlanıb**;
-- Cyber Manhunt vs Mainlining — planned;
-- Orwell vs Need to Know — planned;
+- Cyber Manhunt vs Mainlining — **tamamlanıb**;
+- Orwell vs Need to Know — **tamamlanıb**;
 - SIMULACRA vs SIMULACRA 3 — planned.
 
 Lazım olduqda 3+ oyunlu thematic müqayisə-lar ayrıca hazırlanır.
@@ -1917,6 +1917,11 @@ Bu bölmə yeni sessiyada “nə hazırdır?” sualının əsas istinad-udur.
 
 - ✅ `analysis/comparisons/hacknet-vs-midnight-protocol.md`
 - ✅ `analysis/comparisons/hacknet-midnight-protocol-cyber-manhunt.md`
+- ✅ `analysis/comparisons/cyber-manhunt-vs-the-operator.md`
+- ✅ `analysis/comparisons/cyber-manhunt-vs-mainlining.md`
+- ✅ `analysis/comparisons/orwell-vs-need-to-know.md`
+- ✅ `analysis/comparisons/mainlining-vs-simulacra.md`
+- ✅ `analysis/comparisons/cyber-manhunt-vs-simulacra.md`
 
 ### The Operator — complete
 
@@ -1983,6 +1988,29 @@ Bu bölmə yeni sessiyada “nə hazırdır?” sualının əsas istinad-udur.
 - Cyber Manhunt exact clue route, Need to Know exact rule acceptance, Mainlining isə exact evidence acceptance ilə eyni knowledge-state problemini fərqli formada təkrarlayır;
 - investigation sistemi designer-in click history-sini yox, oyunçunun təsdiqlənə bilən knowledge state-ni modelləşdirməlidir.
 
+### SIMULACRA — complete
+
+- ✅ verified Steam məlumat toplusu: **3,209 rəy**
+- ✅ müsbət: **2,905**
+- ✅ mənfi: **304**
+- ✅ müsbət pay: **90.53%**
+- ✅ deterministik v5 mövzu artefaktları
+- ✅ 304/304 mənfi rəy üzrə məna yönümlü audit
+- ✅ 45 məqsədli müsbət rəy auditi
+- ✅ `analysis/simulacra/research-kickoff.md`
+- ✅ `analysis/simulacra/theme-analysis.md`
+- ✅ `analysis/simulacra/deep-research.md`
+- ✅ `analysis/simulacra/presentation-brief.md`
+- ✅ `analysis/comparisons/mainlining-vs-simulacra.md`
+- ✅ `analysis/comparisons/cyber-manhunt-vs-simulacra.md`
+
+Əsas nəticələr:
+- phone-as-world formatı tanış interaction qrammatikası sayəsində ilkin öyrətmə yükünü xeyli azaldır;
+- şəxsi məlumatı araşdırmaq həm funksional clue, həm də emosional maraq mükafatı yaradır;
+- ən güclü horror nümunələri jumpscare-dan yox, tanış interface qaydalarının pozulmasından gəlir;
+- yazı/lokallaşdırma, dialoqla həddindən artıq yönləndirmə, təkrarlanan reconstruction puzzle-ları və gizli ending şərtləri əsas risklərdir;
+- interface-as-world modelində realizm vizual oxşarlıqdan çox oyunçunun tanıdığı əsas affordance-ların qorunmasıdır.
+
 ### Final package
 
 Hazırda yaradılmayıb:
@@ -1999,58 +2027,51 @@ Bu inventory hər major milestone-dan sonra yenilənməlidir.
 
 # 18. Hazırkı növbəti addım
 
-**Mainlining Tier A araşdırması tamamlanıb.**
+**SIMULACRA Tier A araşdırması tamamlanıb.**
 
-Növbəti əsas Tier A target:
+Tamamlanan əsas çıxışlar:
 
-## SIMULACRA
+- `analysis/simulacra/theme-analysis.md`
+- `analysis/simulacra/deep-research.md`
+- `analysis/simulacra/presentation-brief.md`
+- `analysis/comparisons/mainlining-vs-simulacra.md`
+- `analysis/comparisons/cyber-manhunt-vs-simulacra.md`
 
-SIMULACRA found-device / phone-interface xəttinin əsas baseline oyunudur.
+Növbəti məcburi Tier A target:
 
-Artıq tamamlanıb:
+## SIMULACRA 3
 
-- ✅ Steam App ID yoxlanıb: **712730**
-- ✅ `config/games.yaml` entry əlavə olunub
-- ✅ `analysis/simulacra/research-kickoff.md`
+Əsas məqsəd:
 
-Cari mərhələ:
+> **Eyni found-device franchise-də ilk SIMULACRA-nın yüksək nəticə göstərən phone-as-world formulundan SIMULACRA 3-də nə dəyişib və hansı dəyişikliklər daha zəif oyunçu reaksiyası ilə əlaqəlidir?**
 
-- ⏳ Steam dataset collection
-- ⏳ verification/statistics
-- ⏳ deterministik theme artefaktları
-- ⏳ semantic audit və Tier A hesabatları
+Xüsusi baseline-lar:
 
-Əsas araşdırma sualı:
+- phone/interface immersion;
+- information discovery;
+- app və media müxtəlifliyi;
+- writing və acting;
+- puzzle dərinliyi;
+- dialogue və qərar sərbəstliyi;
+- ending/consequence;
+- horror delivery;
+- pacing;
+- replayability;
+- phone-native affordance-lar.
 
-> **Desktop/browser/terminal tipli oyunlardan fərqli olaraq telefonun özünü oyun dünyasına çevirmək investigation, immersion, informasiya yaddaşı, agency və qorxu/təzyiq hissini necə dəyişir?**
+SIMULACRA 2 master brief-də **Tier C kontekst** olaraq qalır. SIMULACRA 3 müqayisəsində konkret boşluq yaranarsa məqsədli şəkildə istifadə ediləcək; özbaşına full Tier A araşdırmaya qaldırılmır.
 
-Xüsusi müqayisə istiqamətləri:
+Növbəti addım:
 
-- interface-as-world: Mainlining desktop vs SIMULACRA phone;
-- information discovery: Cyber Manhunt vs SIMULACRA;
-- clue relationship və scripted progression;
-- found-device immersion;
-- phone-native affordance-lar;
-- media/text/audio/video məlumatlarının birlikdə işləməsi;
-- choice/consequence;
-- pacing və jump-scare/horror təzyiqinin deduction-a təsiri.
+1. SIMULACRA 3 Steam App ID və məhsul məlumatını yoxla;
+2. `config/games.yaml` entry əlavə et;
+3. `analysis/simulacra-3/research-kickoff.md` yarat;
+4. lokal dataset pipeline-ı `py` ilə işə sal;
+5. sonra `analysis/comparisons/simulacra-vs-simulacra-3.md` məcburi müqayisəsini tamamla.
 
-Növbəti iş:
+SIMULACRA-dan çıxan yeni oyunlararası prinsip:
 
-1. lokal dataset pipeline:
-
-```bash
-py -m src.pipeline --game simulacra
-py -m src.verify --game simulacra
-py -m src.theme_pipeline --game simulacra
-```
-
-2. generated artefaktları push et;
-3. sonra tam Tier A audit və hesabatlar.
-
-Mainlining-dən çıxan yeni cross-game principle:
-
-> **Digital investigation-da düzgün cavabın dəyəri yalnız oyunçunun onu tapmasında deyil; sistem həmin bilik vəziyyətini designer-in konkret click/file yolu olmadan tanıya bilməlidir.**
+> **Interface-as-world modelində tanış cihazın ən böyük üstünlüyü tutorial yükünü azaltmaqdır; ən böyük borcu isə oyunçunun real həyatdan gətirdiyi affordance və davranış gözləntilərini ödəməkdir.**
 
 ---
 
