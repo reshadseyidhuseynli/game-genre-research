@@ -1427,54 +1427,64 @@ Deterministik report:
 
 `data/reports/hacknet/summary.md`
 
-### Hacknet qualitative deep research
+### Hacknet deep research
 
-İlkin deep research hazırlanıb:
+Hacknet üzrə əsas per-game research mərhələsi tamamlanıb:
 
-`analysis/hacknet/deep-research.md`
+- `analysis/hacknet/deep-research.md`
+- `analysis/hacknet/theme-analysis.md`
+- `config/aspect_taxonomy.yaml`
 
-Bu sənəddə artıq:
+11,773 review üzrə full-corpus theme candidate scan və semantic audit aparılıb. Əsas evidence-backed nəticələr:
 
-- hacker fantasy;
-- immersion;
-- story;
-- exploration;
-- soundtrack;
-- repetition;
-- shallow tool-loop;
-- world reactivity;
-- technical-audience expectation;
-- returning-player problemi;
-- technical issues;
-- ilkin design lessons
+- hacker fantasy və immersion güclü satisfaction driver-ləridir;
+- story, terminal və discovery eyni experience stack-in hissələri kimi işləyir;
+- repetition əsas game-design riskidir;
+- bugs/compatibility ayrıca böyük negative-review driver-dir;
+- selective authenticity full realism-dən daha sağlam görünür;
+- agency/consequence/world reactivity gələcək comparison-larda əsas opportunity suallarıdır.
 
-araşdırılıb.
+Hacknet nəticələri artıq növbəti oyun üzərində test edilməlidir.
 
-Bu hələ final Hacknet report deyil.
+### Midnight Protocol kickoff
+
+Növbəti comparison target repository config-ə əlavə olunub:
+
+- key: `midnight-protocol`
+- Steam App ID: `1162700`
+
+İlkin external research:
+
+`analysis/midnight-protocol/research-kickoff.md`
+
+Developer intent, keyboard-only design, turn-based hacking, onboarding, RNG/failure və Hacknet comparison hipotezləri sənədləşdirilib.
+
+Steam review dataset hələ toplanmayıb.
 
 ---
 
 # 18. Hazırkı növbəti addım
 
-**Hacknet full theme/aspect analysis.**
+**Midnight Protocol Steam dataset collection və verification.**
 
-Növbəti sessiya özbaşına ikinci oyuna keçməməlidir.
+Hazırda Hacknet research milestone-u tamamlanıb.
 
-Əvvəl:
+Növbəti addımlar:
 
-1. Hacknet review taxonomy-ni finalize et;
-2. full 11,773 review üçün aspect/theme classification strategiyasını seç;
-3. classification output schema müəyyən et;
-4. mümkün qədər full dataset-i classify et;
-5. audit/validation apar;
-6. quantitative theme nəticələrini `analysis/hacknet/deep-research.md`-ə əlavə et;
-7. Hacknet report-u per-game standard-a yaxınlaşdır.
+1. `python -m src.pipeline --game midnight-protocol` ilə Steam metadata və English review dataset topla;
+2. verification uğurla tamamlanmalıdır;
+3. generated raw/processed/report fayllarını repository-yə push et;
+4. basic statistics-i oxu;
+5. Midnight Protocol üçün theme candidate scan işə sal;
+6. semantic audit apar;
+7. `analysis/midnight-protocol/deep-research.md` hazırla;
+8. sonra `analysis/comparisons/hacknet-vs-midnight-protocol.md` yarat.
 
-Bundan sonra tövsiyə olunan növbəti comparison oyunu:
+İlkin external research artıq:
 
-**Midnight Protocol**
+`analysis/midnight-protocol/research-kickoff.md`
 
-çünki Hacknet-ə yaxın terminal/hacking/narrative reference-dir və nəticə fərqi comparison üçün yüksək informasiya dəyəri verir.
+faylındadır.
 
 ---
 
