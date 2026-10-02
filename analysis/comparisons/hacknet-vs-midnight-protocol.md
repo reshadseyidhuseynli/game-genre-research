@@ -4,7 +4,7 @@
 
 Bu müqayisənin əsas sualı:
 
-> **Eyni geniş “terminal/hacking” fantasy-si daxilində Hacknet-in sadə, real-time və əlçatanlıq-first modeli ilə Midnight Protocol-un daha dərin, turn-based və tactical modeli oyunçu təcrübəsini necə dəyişir?**
+> **Eyni geniş “terminal/hacking” rol hissi-si daxilində Hacknet-in sadə, real-time və əlçatanlıq-first modeli ilə Midnight Protocol-un daha dərin, turn-based və tactical modeli oyunçu təcrübəsini necə dəyişir?**
 
 Məqsəd “hansı oyun daha yaxşıdır?” demək deyil.
 
@@ -23,7 +23,7 @@ suallarına cavab verməkdir.
 
 Ortaq əsaslar:
 
-- hacker fantasy;
+- hacker rol hissi;
 - terminal/keyboard qarşılıqlı əlaqə;
 - fictional computer environment;
 - single-oyunçu;
@@ -67,12 +67,12 @@ məlumat toplusu ölçüləri çox fərqlidir. Buna görə absolute mention coun
 - nümunə direction;
 - baseline-a nisbət;
 - məna yönümlü yoxlama;
-- oyun müddəti cohort shape;
+- oyun müddəti qrup shape;
 - yaradıcı intent.
 
 ---
 
-# 4. oyun müddəti cohort müqayisəsi
+# 4. oyun müddəti qrup müqayisəsi
 
 | oyun müddəti | Hacknet müsbət | Midnight Protocol müsbət |
 |---|---:|---:|
@@ -91,7 +91,7 @@ Bu table ən vacib müqayisə siqnallarından biridir.
 
 Terminal və command vocabulary dərhal çətinlik yarada bilər.
 
-Amma oyunu keçən reviewer cohort-larda recommendation sürətlə yüksəlir.
+Amma oyunu keçən reviewer qrup-larda recommendation sürətlə yüksəlir.
 
 ## Midnight Protocol
 
@@ -118,17 +118,17 @@ birlikdə işləməyə başlayanda satisfaction düşür.
 
 ---
 
-# 5. Hook və oyunçu Fantasy
+# 5. Hook və oyunçu Rol hissi
 
 ## Hacknet
 
-Əsas fantasy:
+Əsas rol hissi:
 
 > “Terminalda hacker oluram.”
 
 Çox sadə və dərhal başa düşülür.
 
-Fantasy-ni yaradan:
+Rol hissi-ni yaradan:
 
 - terminal;
 - commands;
@@ -141,7 +141,7 @@ Fantasy-ni yaradan:
 
 ## Midnight Protocol
 
-Fantasy daha layered-dir:
+Rol hissi daha layered-dir:
 
 > “Keyboard ilə network daxilində tactical hacker oluram və hansı hacker olmaq istədiyimə qərar verirəm.”
 
@@ -155,9 +155,9 @@ Fantasy daha layered-dir:
 
 ### Nəticə
 
-Hacknet fantasy-ni **daha tez** satır.
+Hacknet rol hissi-ni **daha tez** satır.
 
-Midnight Protocol fantasy-ni **daha dərindən** sistemləşdirir.
+Midnight Protocol rol hissi-ni **daha dərindən** sistemləşdirir.
 
 Bu kompromis-dur, superiority deyil.
 
@@ -187,7 +187,7 @@ oyunçu geribildirim də bunu əsasən qəbul edir.
 
 ## oyunlararası principle
 
-> **Bu janr üçün tam realizm tələb deyil. seçilmiş həqiqilik hissi + ardıcıl fantasy daha sağlam hədəfdir.**
+> **Bu janr üçün tam realizm tələb deyil. seçilmiş həqiqilik hissi + ardıcıl rol hissi daha sağlam hədəfdir.**
 
 realizm yalnız:
 
@@ -206,7 +206,7 @@ problemə çevrilir.
 
 Terminal:
 
-- əsas fantasy amil;
+- əsas rol hissi amil;
 - GUI ilə birlikdə işləyir;
 - technical user real Unix behavior gözləyə bilər.
 
@@ -258,7 +258,7 @@ probe
 Üstünlük:
 
 - tez öyrənilir;
-- fantasy payoff sürətlidir.
+- rol hissi payoff sürətlidir.
 
 Problem:
 
@@ -478,7 +478,7 @@ hekayə:
 - hidden systems;
 - scripted memorable moments.
 
-Fantasy-ni daşıyır və təkrarçılıq-a context verir.
+Rol hissi-ni daşıyır və təkrarçılıq-a context verir.
 
 ## Midnight Protocol
 
@@ -615,7 +615,7 @@ ONBOARDING namizəd relative mənfi concentration:
 
 Overall ONBOARDING namizəd baseline-a yaxındır.
 
-Amma oyun müddəti cohort ciddi problem göstərir:
+Amma oyun müddəti qrup ciddi problem göstərir:
 
 - 1–3h müsbət ratio yalnız 62.22%.
 
@@ -630,7 +630,7 @@ Problem:
 İlkin öyrətmə üç mərhələ olmalıdır:
 
 1. **control ilkin öyrətmə** — hansı düymə/command;
-2. **system ilkin öyrətmə** — mexanika-lər necə qarşılıqlı əlaqə edir;
+2. **system ilkin öyrətmə** — mexanikalar necə qarşılıqlı əlaqə edir;
 3. **strategy ilkin öyrətmə** — yaxşı qərar necə görünür.
 
 Hər iki oyun fərqli mərhələdə problem yaşayır.
@@ -653,7 +653,7 @@ Midnight Protocol-da presentation çox bəyənilir, amma soundtrack variety üç
 
 ### Principle
 
-> **Computer-interface janrında audiovisual geribildirim normal UI polish deyil; oyun gedişi fantasy-nin bir hissəsidir.**
+> **Computer-interface janrında audiovisual geribildirim normal UI polish deyil; oyun gedişi rol hissi-nin bir hissəsidir.**
 
 ---
 
@@ -730,11 +730,11 @@ oyunçu hansı işi ən çox edəcəyini bilməlidir.
 
 ---
 
-# 20. Successful nümunə-lər
+# 20. Successful nümunələr
 
 Hər iki oyunda təkrarlanan:
 
-## 20.1. Clear fantasy
+## 20.1. Clear rol hissi
 
 Hacker olmaq güclü hook-dur.
 
@@ -756,11 +756,11 @@ Static computer interface-i emosional experience-ə çevirir.
 
 ## 20.6. Curiosity
 
-Gizli məlumat və secret-lər hacker fantasy-yə çox uyğundur.
+Gizli məlumat və secret-lər hacker rol hissi-yə çox uyğundur.
 
 ---
 
-# 21. Fərqli uğursuzluq nümunə-lər
+# 21. Fərqli uğursuzluq nümunələr
 
 ## Hacknet
 
@@ -822,7 +822,7 @@ Hazırkı iki oyun dəlil-i əsasında:
 
 Core properties:
 
-### Immediate fantasy
+### Immediate rol hissi
 
 İlk 5–10 dəqiqədə oyunçu:
 
@@ -832,7 +832,7 @@ hissini alır.
 
 ### Low syntax tax
 
-Commands fantasy verir, amma syntax memory əsas bacarıq deyil.
+Commands rol hissi verir, amma syntax memory əsas bacarıq deyil.
 
 ### High information qərar density
 
@@ -871,13 +871,13 @@ Optional exploration timer ilə davamlı cəzalandırılmır.
 
 # 24. Transferable dizayn Principles
 
-## Principle 1 — Fantasy first, simulation second
+## Principle 1 — Rol hissi first, simulation second
 
 İki oyun da bunu təsdiqləyir.
 
 ## Principle 2 — mürəkkəblik görünə bilər, amma qarşılıqlı əlaqə sadə qalmalıdır
 
-Visual/system fantasy dərin görünə bilər.
+Visual/system rol hissi dərin görünə bilər.
 
 oyunçu action grammar aydın olmalıdır.
 
@@ -923,7 +923,7 @@ Bu genre buna xüsusilə uyğundur.
 | Meaningful nəticə | Zəif reactivity complaint | seçim/reputation güclüdür | High |
 | Deterministic tactical dərinlik | Hacknet dərinlik azdır | MP dərinlik yaxşı, RNG risklidir | High |
 | Recon-driven loadout | Tool-key loop | Blind/wrong loadout complaint | High |
-| Hybrid keyboard UX | Terminal fantasy, shell çətinlik | Keyboard fantasy, efficiency çətinlik | High |
+| Hybrid keyboard UX | Terminal rol hissi, shell çətinlik | Keyboard rol hissi, efficiency çətinlik | High |
 | Returning-oyunçu support | Command memory problemi | Complex system memory riski | Medium-High |
 | Dynamic world response | Hacknet zəifdir | MP daha çox narrative nəticə verir | High |
 | Creator/icma content | Hacknet mod long-tail | MP Workshop/level editor mövcuddur, dəlil zəifdir | Medium |
@@ -936,7 +936,7 @@ Bu genre buna xüsusilə uyğundur.
 |---|---|---|---|
 | təkrarçılıq | High dəlil | High dəlil | 30–60 min repeated-loop playtest |
 | Syntax/UI çətinlik | Medium-High | High | novice + technical user testing |
-| mürəkkəblik cliff | Lower | High | post-təlim hissəsi cohort test |
+| mürəkkəblik cliff | Lower | High | post-təlim hissəsi qrup test |
 | RNG unfairness | Low | High | deterministic-vs-random prototype |
 | Weak nəticələr | High | Lower | nəticə visibility test |
 | Blind planlama | Low | High | recon/loadout UX test |
@@ -965,7 +965,7 @@ Hacknet və Midnight Protocol birlikdə çox aydın dizayn tension göstərir.
 
 Hacknet deyir:
 
-> **Fantasy-ni tez ver, controls sadə saxla.**
+> **Rol hissi-ni tez ver, controls sadə saxla.**
 
 Amma nəticə:
 
@@ -973,7 +973,7 @@ Amma nəticə:
 
 Midnight Protocol deyir:
 
-> **Fantasy-ni tactical dərinlik və meaningful seçim ilə dərinləşdir.**
+> **Rol hissi-ni tactical dərinlik və meaningful seçim ilə dərinləşdir.**
 
 Amma nəticə:
 
