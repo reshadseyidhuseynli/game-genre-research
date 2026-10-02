@@ -120,7 +120,7 @@ verir.
 
 > **Fictional government OS daxilində oynanan hekayə-driven operator/investigation puzzle game.**
 
-Core loop:
+Əsas oyun dövrü:
 
 ```text
 agent-dən problem al
@@ -261,7 +261,7 @@ Early mənfi rəy-lərdə əsas problem:
 
 ### Lesson
 
-> **Early-session onboarding yalnız mexanika aydınlıq yox, məhsul truthfulness problemidir.**
+> **Early-session ilkin öyrətmə yalnız mexanika aydınlıq yox, məhsul truthfulness problemidir.**
 
 oyunçu ilk 30–60 dəqiqədə oyunun dominant activity-sini düzgün anlamalıdır.
 
@@ -395,7 +395,7 @@ Bu dizayn uğurludur:
 - pacing nəzarətdə qalır;
 - cinematic sequence pozulmur.
 
-Amma trade-off:
+Amma kompromis:
 
 - oyunçu özü problem əhatə dairəsi-u müəyyən etmir;
 - next step çox tez məlum olur;
@@ -607,7 +607,7 @@ Amma cost:
 - system reuse azalır;
 - content production cost artır.
 
-### Trade-off
+### Kompromis
 
 ```text
 more bespoke sequences
