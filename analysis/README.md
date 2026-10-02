@@ -137,6 +137,8 @@ Hazır müqayisələr:
 - `cyber-manhunt-vs-the-operator.md`
 - `orwell-vs-need-to-know.md`
 - `cyber-manhunt-vs-mainlining.md`
+- `mainlining-vs-simulacra.md`
+- `cyber-manhunt-vs-simulacra.md`
 
 ## `analysis/final/`
 
