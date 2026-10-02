@@ -6,7 +6,7 @@ Bu sənəd Hacknet oyununun sadəcə statistik xülasəsi deyil. Məqsəd oyunun
 
 Bu sənəddə üç məlumat tipi ayrılır:
 
-- **Faktiki məlumat** — Steam rəy məlumat toplusu, metaməlumat və yaradıcı tərəfindən verilən məlumatlar.
+- **Faktiki məlumat** — Steam rəy məlumatları toplusu, metaməlumat və yaradıcı tərəfindən verilən məlumatlar.
 - **Oyunçu rəylərindən müşahidə** — seçilmiş faydalı, son dövr, az oyun müddətli və çox oyun müddətli rəy nümunələrində təkrarlanan mövzular.
 - **Dizayn nəticəsi / hipotez** — yuxarıdakı məlumatlardan çıxarılan, lakin digər oyunlarla müqayisə olunana qədər janr qaydası kimi qəbul edilməməli nəticələr.
 
@@ -22,7 +22,7 @@ Bu sənəd isə həmin datanın **məna və oyun dizaynı baxımından şərhidi
 
 ## 1.1. Daxili Steam məlumat toplusu
 
-Repository-də Hacknet üçün:
+Repo-da Hacknet üçün:
 
 - 11,773 ingilisdilli Steam rəyi
 - 11,773 təkrarsız rəy
@@ -33,7 +33,7 @@ Repository-də Hacknet üçün:
 - 2,160 rəy çox qısadır
 - 20 rəy boşdur
 
-məlumat toplusunun kəsimi-ı 2026-10-01 — 2026-10-02 tarixlərində toplanıb.
+məlumat toplusunun kəsimi 2026-10-01 — 2026-10-02 tarixlərində toplanıb.
 
 Əsas fayllar:
 
@@ -62,19 +62,19 @@ Mənbələrin tam siyahısı sənədin sonunda verilib.
 
 ## 1.3. Mövzu təhlilinin vəziyyəti və məhdudiyyət
 
-Bütün **11,773 rəy** üzərində deterministik bütün rəy toplusu üzrə mövzu namizədi yoxlama artıq aparılıb.
+Bütün **11,773 rəy** üzərində deterministik bütün rəy toplusu üzrə mövzu namizədlərinin yoxlanması artıq aparılıb.
 
 Nəticələr:
 
 - ən azı bir mövzu namizədi tutulan rəy: **6,009**
-- namizəd əhatə: **51.04%**
+- namizəd əhatəsi: **51.04%**
 - ayrıca tövsiyə və oyun müddəti üzrə balanslaşdırılmış yoxlama nümunələri yaradılıb və məna yönümlü yoxlama aparılıb.
 
 Ətraflı sənəd:
 
 `analysis/hacknet/theme-analysis.md`
 
-Vacib məhdudiyyət: bu LLM ilə tam məna yönümlü təsnifat deyil. Açar söz/regex üzrə qeyd tezliyi və Steam ümumi tövsiyə aspekt üzrə münasibət kimi təqdim edilmir. Buna görə rəqəmlər nümunə və risk siqnalı kimi istifadə olunur, ümumi oyunçu kütləsinin dəqiq münasibəti kimi yox.
+Vacib məhdudiyyət: bu LLM ilə tam məna yönümlü təsnifat deyil. Açar söz/regex üzrə qeyd tezliyi və Steam üzrə ümumi tövsiyə göstəricisi aspekt münasibəti kimi təqdim edilmir. Buna görə rəqəmlər nümunə və risk siqnalı kimi istifadə olunur, ümumi oyunçu kütləsinin dəqiq münasibəti kimi yox.
 
 ---
 
@@ -84,7 +84,7 @@ Hacknet özünü “terminal əsaslı hakerlik simulyatoru” kimi təqdim edir,
 
 > **Terminal interfeysi daxilində oynanan hekayə yönümlü hakerlik macərası / araşdırma oyunu.**
 
-Oyun real hakerlik-i tam simulyasiya etmir.
+Oyun real hakerliyi tam simulyasiya etmir.
 
 Əsas loop təxminən belədir:
 
@@ -118,7 +118,7 @@ Yəni prioritet belə olmayıb:
 
 ```text
 real hakerlik simulation
-→ gameplay
+→ oyun gedişi
 → təqdimat
 ```
 
@@ -128,7 +128,7 @@ real hakerlik simulation
 "hacker kimi hiss etmək"
 → uyğun interfeys
 → uyğun əmrlər
-→ uyğun story
+→ uyğun hekayə
 → uyğun səs/musiqi
 → uyğun hakerliyin sadələşdirilmiş modeli
 ```
@@ -223,7 +223,7 @@ qeyd olunur.
 
 Bu vacib fərqdir:
 
-> Oyunçu eyni hacking mexanikasını təkrar edir, amma narrative context həmin təkrarın bir hissəsini mənalı saxlayır.
+> Oyunçu eyni hakerlik mexanikasını təkrar edir, amma narrative context həmin təkrarın bir hissəsini mənalı saxlayır.
 
 ---
 
@@ -242,7 +242,7 @@ Atmosfer bir neçə sistemin birlikdə işləməsindən yaranır:
 
 peşəkar rəy və Steam rəylərində soundtrack xüsusilə tez-tez təriflənir.
 
-Musiqi yalnız fon deyil. Trace və hacking epizod-lərində temp və gərginlik hissini gücləndirir.
+Musiqi yalnız fon deyil. Trace və hakerlik epizod-lərində temp və gərginlik hissini gücləndirir.
 
 ---
 
@@ -348,7 +348,7 @@ Amma digər tərəfdən bu sadələşdirmə oyunu:
 
 - programmer olmayan;
 - Linux bilməyən;
-- hacking təcrübəsi olmayan
+- hakerlik təcrübəsi olmayan
 
 insanlar üçün əlçatan edir.
 
@@ -477,7 +477,7 @@ Bu, bizim üçün Hacknet-dən çıxan ən vacib mənfi dərsdir.
 
 ## 7.2. alət-lar problem həll etmə vasitəsindən “açar”a çevrilir
 
-Bir çox mənfi rəyin əsas narazılığı real hakerlik-in olmaması deyil.
+Bir çox mənfi rəyin əsas narazılığı real hakerliyin olmaması deyil.
 
 Problem budur ki:
 
@@ -487,7 +487,7 @@ Problem budur ki:
 
 Yəni alət seçimi çox vaxt qərar deyil.
 
-Sadəcə uyğun lock üçün uyğun key-dir.
+Sadəcə uyğun lock üçün uyğun açar-dir.
 
 Bu da oyunçunun qərar sərbəstliyi və təsiri-ni azaldır.
 
@@ -530,7 +530,7 @@ Bu oyuna dalma hissi üçün təhlükəlidir.
 - basic əmrlər yoxdur;
 - wildcard davranışı qeyri-dəqiqdir;
 - file management çox məhduddur;
-- hacking proqramları “magic alət” kimi işləyir;
+- hakerlik proqramları “magic alət” kimi işləyir;
 - real security iş axını-a bənzəmir.
 
 Maraqlısı budur ki, yaradıcı özü əsas məqsədi realizm yox, hiss kimi izah edir.
@@ -543,7 +543,7 @@ Bizim oyun üçün nəticə:
 
 > Əgər məhsul rol hissi-dir, onu “real simulator” kimi satmaq risklidir.
 
-“Terminal hacking thriller”, “digital araşdırma game”, “fictional hacking OS” kimi təqdimat daha sağlam ola bilər.
+“Terminal hakerlik thriller”, “digital araşdırma game”, “fictional hakerlik OS” kimi təqdimat daha sağlam ola bilər.
 
 ---
 
@@ -736,7 +736,7 @@ Bu kiçik komanda üçün çox effektiv dizayndır.
 
 ## 9.3. Realizm yox, seçilmiş həqiqilik hissi
 
-Hacknet real hakerlik-in bütün kompleksliyini götürmür.
+Hacknet real hakerliyin bütün kompleksliyini götürmür.
 
 Onun əvəzinə ən tanınan işarələri götürür:
 
@@ -767,7 +767,7 @@ Amma həmin faylda:
 
 olanda eyni action maraqlı olur.
 
-Deməli interfeys-game dizaynında **məzmun yazı keyfiyyəti** core mexanika qədər vacib ola bilər.
+Deməli interfeys-game dizaynında **məzmun yazı açarfiyyəti** core mexanika qədər vacib ola bilər.
 
 Bu bizim komanda üçün də yaxşı uyğunluqdur, çünki hekayə writer və designer-in işi oyun gedişi-in mərkəzinə daxil ola bilər.
 
@@ -886,7 +886,7 @@ Onları hiss etmək üçün davamlı playtest lazımdır.
 
 Hacknet-in uğuru və əsas problemi eyni sistemdən gəlir.
 
-Sadələşdirilmiş hacking:
+Sadələşdirilmiş hakerlik:
 
 **üstünlükdür**, çünki:
 
@@ -959,7 +959,7 @@ Fake OS sadəcə skin olsa, yenilik effekti tez bitəcək.
 UI daxilindəki hər element mümkün qədər:
 
 - oyun gedişi;
-- information;
+- məlumat;
 - hekayə;
 - qərar
 
@@ -989,7 +989,7 @@ Problem strukturu dəyişməlidir.
 
 ---
 
-## Qayda 4 — alət-lar “key” yox, seçim yaratmalıdır
+## Qayda 4 — alət-lar “açar” yox, seçim yaratmalıdır
 
 Yaxşı alət:
 
@@ -1000,7 +1000,7 @@ qədər deterministik olmamalıdır.
 Mümkün qədər bir neçə yanaşma olmalıdır:
 
 - technical exploit;
-- social information;
+- social məlumat;
 - credential reuse;
 - metaməlumat;
 - phishing;
@@ -1056,7 +1056,7 @@ mexanika kimi göstərilirsə, onların nəticə-i olmalıdır.
 
 Real terminojurnal qeydiy faydalıdır.
 
-“Real hacking simulator” vədi isə təhlükəlidir.
+“Real hakerlik simulator” vədi isə təhlükəlidir.
 
 Technical istifadəçi həmin anda real həyatdakı behavior gözləməyə başlayır.
 
@@ -1127,7 +1127,7 @@ azdır.
 
 Bunun əvəzinə:
 
-- keyboard sound;
+- açarboard sound;
 - connection sound;
 - alert;
 - izlənmə;
@@ -1155,7 +1155,7 @@ Writer:
 - conversations;
 - identities;
 - secrets;
-- misinformation;
+- misməlumat;
 - ipucus
 
 vasitəsilə oyun gedişi məzmun yaradır.
@@ -1188,9 +1188,9 @@ Hacknet-də araşdırma var, amma core breach loop çox vaxt ayrıca qalır.
 Daha yaxşı model:
 
 ```text
-information → giriş
-giriş → new information
-new information → social leverage
+məlumat → giriş
+giriş → new məlumat
+new məlumat → social leverage
 social leverage → alternate giriş
 ```
 
@@ -1228,7 +1228,7 @@ Dərinlik başqa yerdən gələ bilər:
 - network topojurnal qeydiy;
 - nəticə;
 - time pressure;
-- incomplete information.
+- incomplete məlumat.
 
 Bu həm daha əlçatan, həm də daha oyunvari dərinlik yarada bilər.
 
@@ -1236,7 +1236,7 @@ Bu həm daha əlçatan, həm də daha oyunvari dərinlik yarada bilər.
 
 # 14. Hacknet haqqında indiki əsas nəticə
 
-Hacknet-in əsas uğuru onun “hacking simulator” olmasında deyil.
+Hacknet-in əsas uğuru onun “hakerlik simulator” olmasında deyil.
 
 Əsas uğur budur:
 
@@ -1244,7 +1244,7 @@ Hacknet-in əsas uğuru onun “hacking simulator” olmasında deyil.
 
 Əsas zəifliyi də bunun əks tərəfidir:
 
-> **Oyunçu core hacking epizod-nin strukturunu başa düşəndə sistemin arxasındakı sadəlik görünür və rol hissi təkrarçılıq-a çevrilə bilir.**
+> **Oyunçu core hakerlik epizod-nin strukturunu başa düşəndə sistemin arxasındakı sadəlik görünür və rol hissi təkrarçılıq-a çevrilə bilir.**
 
 Bizim gələcək oyun üçün hədəf Hacknet-i daha “real” etmək olmamalıdır.
 
@@ -1287,7 +1287,7 @@ məlumat toplusu baseline mənfi tövsiyə: **5.87%**.
 | PLAYER_AGENCY | 154 | 1.31% | **16.23%** | **2.77×** |
 | WORLD_REACTIVITY | 48 | 0.41% | **20.83%** | **3.55×** |
 
-Bu cədvəl aspekt üzrə münasibət deyil. “mənfi rəy payı” həmin mövzu namizədi olan rəylərin neçə faizinin overall Steam tövsiyəsi-ının mənfi olduğunu göstərir.
+Bu cədvəl aspekt üzrə münasibət deyil. “mənfi rəy payı” həmin mövzu namizədi olan rəylərin neçə faizinin ümumi Steam tövsiyəsi-ının mənfi olduğunu göstərir.
 
 məna yönümlü yoxlama nəticəsi:
 
@@ -1295,7 +1295,7 @@ məna yönümlü yoxlama nəticəsi:
 - **oyuna dalma hissi** — güclü satisfaction amil, amma təkrarçılıq onu poza bilir;
 - **hekayə + TERMINAL + kəşf** — ayrı feature-lərdən çox vahid experience stack kimi işləyir;
 - **SOUNDTRACK** — atmosphere və tension üçün ciddi multiplier-dir;
-- **təkrarçılıq** — ən güclü oyun dizaynı uğursuzluq nümunəsi-lərindən biridir;
+- **təkrarçılıq** — ən güclü oyun dizaynı uğursuzluq nümunələrindən biridir;
 - **BUGS/COMPATIBILITY** — dizayn-dan ayrıca böyük mənfi-rəy amil-dir;
 - **realizm** — sadə müsbət/mənfi deyil; əsas uğurlu balans seçilmiş həqiqilik hissi + əlçatanlıq-dir;
 - **oyunçunun qərar sərbəstliyi və təsiri / dünyanın reaksiyası** — volume aşağı olsa da mənfi concentration və yoxlama nəticələri imkan siqnalı verir;
@@ -1323,13 +1323,13 @@ Reusable final məna yönümlü taxonomy:
 
 Hacknet üçün hazırkı dəlil üç səviyyədə bir-birini dəstəkləyir:
 
-1. full Steam məlumat toplusu statistikası;
+1. tam Steam məlumat toplusu statistikası;
 2. bütün rəy toplusu üzrə mövzu retrieval + məna yönümlü yoxlama;
 3. icma/peşəkar/yaradıcı external araşdırma.
 
 Ən güclü nəticə dəyişmir, amma artıq daha yaxşı dəstəklənir:
 
-> **Hacknet-in əsas məhsulu texniki realizm deyil, özünü haker kimi hiss etmə-sidir. Terminal, hekayə, kəşf və səs birlikdə bu rol hissini satır; əsas zəiflik isə core hacking loop-un kifayət qədər sistemik variasiya yaratmaması və bir müddətdən sonra təkrarçılıq-a çevrilməsidir.**
+> **Hacknet-in əsas məhsulu texniki realizm deyil, özünü haker kimi hiss etmə-sidir. Terminal, hekayə, kəşf və səs birlikdə bu rol hissini satır; əsas zəiflik isə core hakerlik loop-un kifayət qədər sistemik variasiya yaratmaması və bir müddətdən sonra təkrarçılıq-a çevrilməsidir.**
 
 Bizim gələcək oyun üçün məqsəd Hacknet-i “daha real” etmək olmamalıdır. Daha vacib imkan:
 
@@ -1349,7 +1349,7 @@ Bundan sonrakı addım Hacknet haqqında daha çox eyni tip məlumat toplamaq yo
 ## Daxili repository mənbələri
 
 **[D1]** `data/processed/hacknet/statistics.json`  
-Hacknet Steam rəy məlumat toplusun əsas statistikası.
+Hacknet Steam rəy məlumatları toplusun əsas statistikası.
 
 **[D2]** `data/reports/hacknet/summary.md`  
 məlumat toplusu collection və deterministic xülasə.
@@ -1429,6 +1429,6 @@ Hacknet-in real hakerlik öyrətməsindən daha çox basic terminal/Linux famili
 
 **Mərhələ:** Hacknet per-game deep araşdırma — əsas araşdırma mərhələsi tamamlanıb  
 **məlumat toplusu:** Verified 11,773 Steam rəy  
-**Tamamlanıb:** kəmiyyət yönümlü baseline + bütün rəy toplusu üzrə mövzu namizədi yoxlama + məna yönümlü yoxlama + qualitative rəy təhlil + external araşdırma + dizayn dərsis  
+**Tamamlanıb:** kəmiyyət yönümlü baseline + bütün rəy toplusu üzrə mövzu namizədlərinin yoxlanması + məna yönümlü yoxlama + qualitative rəy təhlil + external araşdırma + dizayn dərsis  
 **Ətraflı mövzu analizi:** `analysis/hacknet/theme-analysis.md`  
 **Növbəti:** Midnight Protocol üçün eyni metodojurnal qeydiiya və daha sonra Hacknet vs Midnight Protocol müqayisə
