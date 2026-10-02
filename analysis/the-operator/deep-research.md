@@ -13,7 +13,7 @@ Yoxlanmış Steam məlumat toplusu:
 
 Əsas nəticə:
 
-> **The Operator Cyber Manhunt-un ipucu qeyri-müəyyənliyi və qarışıq məlumat axtarışı problemini məqsədli alətlər, daha aydın UI və yüksək təqdimat açarfiyyəti ilə azaldır; amma bunu oyunçu sərbəstliyi və prosedur səviyyəsində məntiqi nəticə çıxarma hesabına edir.**
+> **The Operator Cyber Manhunt-un ipucu qeyri-müəyyənliyi və qarışıq məlumat axtarışı problemini məqsədli alətlər, daha aydın UI və yüksək təqdimat keyfiyyəti ilə azaldır; amma bunu oyunçu sərbəstliyi və prosedur səviyyəsində məntiqi nəticə çıxarma hesabına edir.**
 
 Yəni problem:
 
@@ -30,8 +30,8 @@ məqsədli məlumat / yüksək yönləndirmə
 
 The Operator-un əsas gücləri:
 
-- güclü operator fantasy;
-- çox cilalanmış fictional OS;
+- güclü operator rol hissi;
+- çox cilalanmış uydurma əməliyyat sistemi;
 - səs və səsləndirmə;
 - aydın və müxtəlif xüsusi tapmaca səhnələri;
 - triller tempi;
@@ -58,9 +58,9 @@ The Operator-un əsas gücləri:
 
 ---
 
-# 1. Araşdırmanın əhatəsi və məlumat açarfiyyəti
+# 1. Araşdırmanın əhatəsi və məlumat keyfiyyəti
 
-məlumat toplusunun kəsimi: **2026-10-02**
+Məlumat toplusunun kəsimi: **2026-10-02**
 
 - ümumi rəylər: 3,781
 - müsbət rəy nisbəti: 89.71%
@@ -150,7 +150,7 @@ The Operator-un rol hissidir:
 
 yaradıcı Bastien Giafferi bunu X-Files-də nümunə analiz edən lab/operator rolundan çıxardığını izah edir.
 
-Fantasy üç qatla qurulur.
+Rol hissi üç qatla qurulur.
 
 ## 4.1. Məlumat üstünlüyü
 
@@ -177,7 +177,7 @@ oyunçu fiziki olaraq hadisə yerində deyil, amma:
 
 onun verdiyi məlumat-dan asılıdır.
 
-Bu “dəstək rolu fantasy” janr üçün çox dəyərli fərqləndiricidir.
+Bu “dəstək rolu rol hissi” janr üçün çox dəyərli fərqləndiricidir.
 
 ---
 
@@ -186,7 +186,7 @@ Bu “dəstək rolu fantasy” janr üçün çox dəyərli fərqləndiricidir.
 Əsas hook:
 
 - iş masası/əməliyyat sistemi interfeys;
-- FBI/FDI analitik fantasy;
+- FBI/FDI analitik rol hissi;
 - cinayət araşdırması;
 - X-Files/sui-qəsd atmosferi;
 - məlumat bazası alətləri;
@@ -247,7 +247,7 @@ oyun müddəti:
 
 İlk saat müəyyən risk daşıyır.
 
-Amma Cyber Manhunt-dan fərqli olaraq 1–3h cohort sürətlə yaxşılaşır.
+Amma Cyber Manhunt-dan fərqli olaraq 1–3h qrup sürətlə yaxşılaşır.
 
 Bu onu göstərir ki:
 
@@ -466,7 +466,7 @@ kimi görünür.
 
 > **Qısa oyun yalnız promise də qısa və məqsədli olanda problemsizdir.**
 
-Əgər mağaza fantasy “peşəkar operator system”dırsa, oyunçu həmin system-də ustalaşma gözləyə bilər.
+Əgər mağaza rol hissi “peşəkar operator system”dırsa, oyunçu həmin system-də ustalaşma gözləyə bilər.
 
 ---
 
@@ -529,7 +529,7 @@ Bu çox sağlam müsbət signal-dır.
 Voice:
 - remote agent relationship-i canlı edir;
 - action sahədə olsa da oyunçu onu hiss edir;
-- “chair behind action” fantasy-ni gücləndirir.
+- “chair behind action” rol hissi-ni gücləndirir.
 
 Audio burada polish deyil.
 
@@ -626,7 +626,7 @@ Bu gələcək concept üçün production baxımından çox vacibdir.
 
 **Uğurlu.**
 
-oyunçu-lər operator fantasy-ni aydın hiss edir.
+oyunçu-lər operator rol hissi-ni aydın hiss edir.
 
 ## Realistic OS oyuna dalma hissi
 
@@ -693,7 +693,7 @@ Gələcək concept üçün hədəf:
 
 ## Saxlamağa dəyər
 
-- operator/support-role fantasy;
+- operator/support-role rol hissi;
 - məqsədli peşəkar tools;
 - in-world OS;
 - high səs/voice integration;
@@ -762,7 +762,7 @@ oyunçunun tapdığı və qaçırdığı məlumat hekayə branch-ləri dəyişir
 
 | Nəticə | etibarlılıq |
 |---|---|
-| Operator fantasy əsas gücdür | High |
+| Operator rol hissi əsas gücdür | High |
 | UI və səs oyuna dalma hissi çox güclüdür | High |
 | Linearity və weak qərar sərbəstliyi əsas riskdir | High |
 | Ending/tamamlanma hissi tövsiyə-a ciddi təsir edir | High |
