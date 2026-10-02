@@ -2037,55 +2037,61 @@ Bu bölmə yeni sessiyada “nə hazırdır?” sualının əsas istinad-udur.
 
 Hazırda yaradılmayıb:
 
-- ⏳ `analysis/final/market-landscape.md`
+- ✅ `analysis/final/market-landscape.md`
 - ✅ `analysis/final/genre-synthesis.md`
 - ✅ `analysis/final/design-principles.md`
 - ✅ `analysis/final/opportunity-map.md`
 - ✅ `analysis/final/risk-register.md`
 - ✅ `analysis/final/concept-evaluation-framework.md`
-- ⏳ `analysis/final/executive-genre-research-report.md`
+- ✅ `analysis/final/executive-genre-research-report.md`
 
 Bu inventory hər major milestone-dan sonra yenilənməlidir.
 
 # 18. Hazırkı növbəti addım
 
-**Bütün məcburi Tier A oyunları, minimum müqayisələr və əsas cross-game synthesis tamamlanıb.**
+**Araşdırma mərhələsi tamamlanıb.**
 
-Hazır final sənədlər:
+Məcburi Tier A oyunları:
+- ✅ tamamlanıb
 
+Minimum məcburi müqayisələr:
+- ✅ tamamlanıb
+
+Final research package:
+- ✅ `analysis/final/market-landscape.md`
 - ✅ `analysis/final/genre-synthesis.md`
 - ✅ `analysis/final/design-principles.md`
 - ✅ `analysis/final/opportunity-map.md`
 - ✅ `analysis/final/risk-register.md`
 - ✅ `analysis/final/concept-evaluation-framework.md`
+- ✅ `analysis/final/executive-genre-research-report.md`
 
-Qalan final package:
+Praktik stop condition ödənib:
+- terminal/hacking, digital investigation, surveillance və found-device istiqamətlərində həm güclü, həm contrast nümunələr var;
+- recurring failure mode-lar bir neçə oyunda təkrar təsdiqlənib;
+- yeni full Tier B araşdırmanın marginal dəyəri aşağıdır;
+- market landscape əlavə fundamental boşluq aşkar etməyib;
+- rəhbərlik üçün yekun hesabat hazırdır.
 
-- ⏳ `analysis/final/market-landscape.md`
-- ⏳ `analysis/final/executive-genre-research-report.md`
+## Növbəti mərhələ — Product Discovery / Concept Generation
 
-Növbəti əsas iş:
+Bu artıq research mərhələsi deyil.
 
-## Market landscape
+Tövsiyə edilən ardıcıllıq:
 
-Məqsəd:
-- janr/subgenre xəritəsini;
-- representative successful / medium / weak nümunələri;
-- əsas məhsul positioning formalarını;
-- interface/role archetype-larını;
-- açıq kommersiya və review traction siqnallarını
+1. `analysis/final/opportunity-map.md` əsasında bir neçə fərqli concept variant yarat;
+2. hər biri üçün one-line fantasy + core loop + information model yaz;
+3. `analysis/final/concept-evaluation-framework.md` ilə müqayisə et;
+4. hard gate-ləri keçən 2–3 fərqli concept saxla;
+5. hər concept üçün ən böyük hipotezi ən ucuz prototiplə təkzib etməyə çalış;
+6. target audience ilə role comprehension, first insight, semantic acceptance və consequence test et;
+7. yalnız bundan sonra böyük production scope barədə qərar ver.
 
-bir sənəddə toplamaq.
+Research-in ən güclü opportunity hypothesis-i:
 
-Bu mərhələdə cari bazar məlumatları dəyişə bildiyi üçün Steam/store/public source göstəriciləri yenidən yoxlanmalıdır.
+> **oyunçunun öz reasoning-ni semantic knowledge state kimi quran, bir neçə keçərli evidence yolunu qəbul edən, player-built knowledge graph istifadə edən və qərarın informasiya dünyasında görünən consequence yaratdığı interface-as-world investigation sistemi.**
 
-Market landscape tamamlandıqdan sonra:
-
-> **`executive-genre-research-report.md` bütün per-game və synthesis nəticələrini rəhbərlik üçün birləşdirən yekun əsas hesabat olacaq.**
-
-Cari research saturation nəticəsi:
-
-> Əsas janr sualları üzrə əlavə full oyun araşdırmasının marginal dəyəri aşağı görünür. Yeni Tier B araşdırma yalnız market landscape və executive synthesis zamanı konkret dəlil boşluğu aşkar edilərsə açılmalıdır.
+Yeni reference oyun yalnız konkret concept üçün dəlil boşluğu yaranarsa focused şəkildə araşdırılmalıdır.
 
 ---
 
