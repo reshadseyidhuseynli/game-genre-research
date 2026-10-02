@@ -2,7 +2,7 @@
 
 ## Rəhbərlik üçün xülasə
 
-Midnight Protocol terminal və hakerlik janrında Hacknet-dən fərqli bir problem həll etməyə çalışır: hakerlik-i sürətli əmrlərin icrası kimi yox, **növbə əsaslı taktiki qərar sistemi** kimi təqdim edir.
+Midnight Protocol terminal və hakerlik janrında Hacknet-dən fərqli bir problem həll etməyə çalışır: hakerliyi sürətli əmrlərin icrası kimi yox, **növbə əsaslı taktiki qərar sistemi** kimi təqdim edir.
 
 Oyun bunu üç əsas qatı birləşdirərək edir:
 
@@ -61,7 +61,7 @@ Hacknet ilə birlikdə baxanda artıq iki oyunlararası prinsip güclənir:
 
 ---
 
-# 1. Araşdırmanın əhatəsi və məlumat açarfiyyəti
+# 1. Araşdırmanın əhatəsi və məlumat keyfiyyəti
 
 ## 1.1. Steam məlumat toplusu
 
@@ -304,7 +304,7 @@ STORY_NARRATIVE namizəd-i:
 - 136 rəy
 - məlumat toplusun 45.18%-i.
 
-10h+ cohort-da hekayə mention edən 100 rəydən yalnız 4-ü mənfidir.
+10h+ qrup-da hekayə mention edən 100 rəydən yalnız 4-ü mənfidir.
 
 Bu çox güclü oyunda qalma siqnalıdır.
 
@@ -336,7 +336,7 @@ deyir.
 - 45 rəylər
 - yalnız 62.22% müsbət.
 
-Bu məlumat toplusu-də ən zəif cohort-dur.
+Bu məlumat toplusu-də ən zəif qrup-dur.
 
 Bu çox vacibdir.
 
@@ -466,7 +466,7 @@ Bəzi oyunçu üçün:
 
 Bu onlar üçün haker rol hissini zəiflədir.
 
-Əsas problem mexanika-in açarfiyyəti yox, gözlənti-dır.
+Əsas problem mexanika-in keyfiyyəti yox, gözlənti-dır.
 
 mağaza page taktiki RPG deyir, amma “hakerlik” word-u daha güclü prior gözlənti yarada bilər.
 
@@ -636,7 +636,7 @@ Bəzi long-play müsbət rəylər:
 
 sayəsində late game-in daha güclü olduğunu qeyd edir.
 
-Bu 10h+ cohort-un çox yüksək 95.51% müsbət rəy nisbəti-su ilə uyğun gəlir.
+Bu 10h+ qrup-un çox yüksək 95.51% müsbət rəy nisbəti-su ilə uyğun gəlir.
 
 Amma bu causation deyil.
 
@@ -1124,7 +1124,7 @@ Bunu belə xülasə etmək olar:
 
 ```text
 Hacknet
-fast fantasy payoff
+fast rol hissi payoff
 ↓
 simple loop
 ↓
