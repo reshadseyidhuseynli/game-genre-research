@@ -436,7 +436,7 @@ hazırlanmalıdır.
 | Orwell: Keeping an Eye On You | Müşahidə, məlumat seçimi və etika | **Tamamlanıb** |
 | Mainlining | Hacking + araşdırma + seçim; underperforming comparator | **Tamamlanıb** |
 | SIMULACRA | Found-device/phone araşdırma baseline | **Tamamlanıb** |
-| SIMULACRA 3 | Eyni franchise daxilində weaker outcome müqayisə | Not started |
+| SIMULACRA 3 | Eyni franchise daxilində weaker outcome müqayisə | **Tamamlanıb** |
 
 Tier A siyahısı araşdırma-in əsas məcburi oyun setidir. Oyun yalnız ciddi məlumat-access problemi və ya əhatə dairəsi dəyişməsi səbəbilə çıxarıla bilər; səbəb master brief-də qeyd edilməlidir.
 
@@ -1619,7 +1619,7 @@ Minimum aşağıdakı müqayisə-lar olmalıdır:
 - Cyber Manhunt vs The Operator — **tamamlanıb**;
 - Cyber Manhunt vs Mainlining — **tamamlanıb**;
 - Orwell vs Need to Know — **tamamlanıb**;
-- SIMULACRA vs SIMULACRA 3 — planned.
+- SIMULACRA vs SIMULACRA 3 — **tamamlanıb**.
 
 Lazım olduqda 3+ oyunlu thematic müqayisə-lar ayrıca hazırlanır.
 
@@ -2011,29 +2011,27 @@ Bu bölmə yeni sessiyada “nə hazırdır?” sualının əsas istinad-udur.
 - yazı/lokallaşdırma, dialoqla həddindən artıq yönləndirmə, təkrarlanan reconstruction puzzle-ları və gizli ending şərtləri əsas risklərdir;
 - interface-as-world modelində realizm vizual oxşarlıqdan çox oyunçunun tanıdığı əsas affordance-ların qorunmasıdır.
 
-### SIMULACRA 3 — current Tier A target
+### SIMULACRA 3 — complete
 
-- ✅ Steam App ID yoxlanıb: **1925970**
-- ✅ `config/games.yaml` entry əlavə olunub
+- ✅ verified Steam məlumat toplusu: **267 rəy**
+- ✅ müsbət: **157**
+- ✅ mənfi: **110**
+- ✅ müsbət pay: **58.80%**
+- ✅ deterministik v5 mövzu artefaktları
+- ✅ 110/110 mənfi rəy üzrə məna yönümlü audit
+- ✅ 43 məqsədli müsbət rəy auditi
 - ✅ `analysis/simulacra-3/research-kickoff.md`
-- ⏳ Steam məlumat toplusu
-- ⏳ verification/statistics
-- ⏳ deterministik v5 mövzu artefaktları
-- ⏳ semantic audit
-- ⏳ `analysis/simulacra-3/theme-analysis.md`
-- ⏳ `analysis/simulacra-3/deep-research.md`
-- ⏳ `analysis/simulacra-3/presentation-brief.md`
-- ⏳ `analysis/comparisons/simulacra-vs-simulacra-3.md`
+- ✅ `analysis/simulacra-3/theme-analysis.md`
+- ✅ `analysis/simulacra-3/deep-research.md`
+- ✅ `analysis/simulacra-3/presentation-brief.md`
+- ✅ `analysis/comparisons/simulacra-vs-simulacra-3.md`
 
-Cari xarici baseline:
-- Steam release: **25 oktyabr 2022**
-- developer: **Kaigan Games**
-- publisher: **Soft Source**
-- cari Steam all-review göstəricisi: təxminən **328 rəy / 56% müsbət / Mixed**
-
-Əsas araşdırma sualı:
-
-> İlk SIMULACRA-nın yüksək nəticə göstərən phone-as-world formulundan SIMULACRA 3-də hansı dizayn və təqdimat elementləri dəyişib və həmin dəyişikliklərin hansıları daha zəif oyunçu reaksiyası ilə əlaqəlidir?
+Əsas nəticələr:
+- SIMULACRA 3 daha geniş town-scale scope və Atlas kimi formal investigation sistemi əlavə edir, amma ilk oyunun şəxsi phone intimacy-sini zəiflədir;
+- phone personality, character/social graph, digital horror və choice reactivity aşağı düşür;
+- Atlas knowledge organization üçün güclü istiqamətdir, lakin relevance marker-ləri observation işini avtomatlaşdıra bilər;
+- house/security-camera sequence interface-native active investigation üçün güclü müsbət nümunədir;
+- sequel-də əvvəl həll edilmiş QoL problemlərinin geri qayıtması və franchise thematic contract-ın dəyişməsi satisfaction-a əlavə risk yaradır.
 
 ### Final package
 
@@ -2051,43 +2049,58 @@ Bu inventory hər major milestone-dan sonra yenilənməlidir.
 
 # 18. Hazırkı növbəti addım
 
-**SIMULACRA tamamlanıb və SIMULACRA 3 Tier A araşdırması başlayıb.**
+**Bütün məcburi Tier A oyunları tamamlanıb.**
 
-SIMULACRA 3 üçün artıq tamamlanıb:
+Tamamlanan Tier A set:
 
-1. Steam App ID yoxlanıb: `1925970`
-2. `config/games.yaml` entry əlavə olunub
-3. `analysis/simulacra-3/research-kickoff.md` yaradılıb
+- ✅ Hacknet
+- ✅ Midnight Protocol
+- ✅ Cyber Manhunt
+- ✅ The Operator
+- ✅ Orwell: Keeping an Eye On You
+- ✅ Mainlining
+- ✅ SIMULACRA
+- ✅ SIMULACRA 3
 
-Cari mağaza baseline-ı:
-- release: **25 oktyabr 2022**
-- developer: **Kaigan Games**
-- publisher: **Soft Source**
-- Steam all-review display: təxminən **328 rəy / 56% müsbət / Mixed**
+Minimum məcburi müqayisələr də tamamlanıb:
 
-Növbəti addım lokal dataset pipeline-dır:
+- ✅ Hacknet vs Midnight Protocol
+- ✅ Cyber Manhunt vs The Operator
+- ✅ Cyber Manhunt vs Mainlining
+- ✅ Orwell vs Need to Know
+- ✅ SIMULACRA vs SIMULACRA 3
 
-```bash
-py -m src.pipeline --game simulacra-3
-py -m src.verify --game simulacra-3
-py -m src.theme_pipeline --game simulacra-3
+Araşdırma artıq **cross-game synthesis və final qərar-support package** mərhələsinə keçir.
+
+Növbəti əsas iş:
+
+1. bütün tamamlanmış Tier A və focused comparator nəticələrindən recurring pattern-ləri çıxar;
+2. saturation check apar — yeni major rol hissi və ya failure mode boşluğu qalıb-qalmadığını yoxla;
+3. yalnız konkret boşluq material şəkildə final nəticəni dəyişə bilərsə əlavə Tier B focused araşdırma et;
+4. əks halda aşağıdakı final sənədlərə keç:
+
+```text
+analysis/final/
+├── market-landscape.md
+├── genre-synthesis.md
+├── design-principles.md
+├── opportunity-map.md
+├── risk-register.md
+├── concept-evaluation-framework.md
+└── executive-genre-research-report.md
 ```
 
-Generated raw/processed/report/theme artefaktlarını push etdikdən sonra:
+İlk synthesis işi:
 
-- mümkün olduğu halda bütün mənfi rəylərin semantic audit-i;
-- positive helpful/recent/playtime-stratified audit;
-- franchise/creator context;
-- `analysis/simulacra-3/theme-analysis.md`;
-- `analysis/simulacra-3/deep-research.md`;
-- `analysis/simulacra-3/presentation-brief.md`;
-- məcburi `analysis/comparisons/simulacra-vs-simulacra-3.md`.
+> **`analysis/final/genre-synthesis.md` — bütün oyunlardan recurring rol hissi, uğur driver-ları, uğursuzluq pattern-ləri, depth modelləri, interface prinsipləri, agency/consequence və information-design nəticələrini birləşdirmək.**
 
-Əsas müqayisə hipotezi:
+Cari saturation siqnalı:
 
-> **SIMULACRA 3-də daha geniş town-scale scope və Atlas kimi formal investigation qatları ilk oyunun şəxsi məlumat intimacy-sini və sadə phone-native immersion-u gücləndirə də, zəiflədə də bilər; dataset hansı istiqamətin dominant olduğunu müəyyən edəcək.**
+- müxtəlif interface formaları artıq əhatə olunub: terminal, desktop, browser/database, iş stansiyası, surveillance sistemi və phone;
+- strong və weak outcome nümunələri var;
+- knowledge-state, repetition, interface affordance, guidance/agency, character intimacy, consequence visibility və replay/recovery pattern-ləri bir neçə oyunda təkrarlanıb.
 
-SIMULACRA 2 Tier C kontekst olaraq qalır və yalnız franchise fərqini izah etmək üçün lazım olan qədər araşdırılacaq.
+Buna görə default istiqamət yeni oyun toplamaq deyil, **synthesis**-dir. Yeni oyun yalnız final nəticədə konkret dəlil boşluğu aşkar olunarsa əlavə edilir.
 
 ---
 
