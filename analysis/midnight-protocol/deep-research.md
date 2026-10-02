@@ -1,8 +1,8 @@
 # Midnight Protocol — Dərin araşdırma
 
-## Executive Summary
+## Rəhbərlik üçün xülasə
 
-Midnight Protocol terminal/hacking janrında Hacknet-dən fərqli bir problem həll etməyə çalışır: hacking-i sürətli command execution kimi yox, **turn-based tactical decision system** kimi təqdim edir.
+Midnight Protocol terminal/hacking janrında Hacknet-dən fərqli bir problem həll etməyə çalışır: hacking-i sürətli command execution kimi yox, **növbə əsaslı taktiki decision system** kimi təqdim edir.
 
 Oyun bunu üç əsas layer-i birləşdirərək edir:
 
@@ -14,67 +14,67 @@ turn-based tactical network gameplay
 story / moral choice / reputation
 ```
 
-Verified Steam dataset:
+Verified Steam məlumat toplusu:
 
-- 301 English review
+- 301 English rəy
 - 253 positive
 - 48 negative
-- 84.05% positive ratio
+- 84.05% müsbət rəy nisbəti
 
 Əsas nəticə:
 
-> **Midnight Protocol Hacknet-in shallow “tool = key” probleminə real mechanical depth əlavə edir, amma bunun əvəzində RNG/fairness, retry/recovery, loadout uncertainty, keyboard-only friction və tutorial-sonrası complexity problemləri yaradır.**
+> **Midnight Protocol Hacknet-in shallow “alət = key” probleminə real mechanical dərinlik əlavə edir, amma bunun əvəzində RNG/fairness, yenidən cəhd/bərpa, alət dəsti uncertainty, yalnız klaviatura ilə çətinlik və tutorial-sonrası complexity problemləri yaradır.**
 
 Oyunun ən güclü tərəfləri:
 
-- hacker fantasy;
+- özünü haker kimi hiss etmə;
 - immersion;
-- story;
-- turn-based planning;
-- loadout/build seçimi;
-- moral choice və reputation;
+- hekayə;
+- növbə əsaslı planning;
+- alət dəsti/quruluş seçimi;
+- moral seçim və reputation;
 - stylish UI/audio;
 - selective authenticity.
 
 Ən ciddi problemlər:
 
-- RNG səbəbilə failure-in player skill-dən ayrılması;
-- rollback/retry modelinin bunu daha ağrılı etməsi;
+- RNG səbəbilə uğursuzluq-in oyunçu skill-dən ayrılması;
+- rollback/yenidən cəhd modelinin bunu daha ağrılı etməsi;
 - trace/turn-cap-lərin experimentation ilə toqquşması;
-- keyboard-only control-un bəzi action-ları süni şəkildə yavaşlatması;
-- tutorial-dan sonra 1–3 saatlıq mərhələdə yüksək friction;
+- yalnız klaviatura ilə control-un bəzi action-ları süni şəkildə yavaşlatması;
+- tutorial-dan sonra 1–3 saatlıq mərhələdə yüksək çətinlik;
 - daha çox sistem olmasına baxmayaraq müəyyən mərhələdə repetition;
-- bəzi decision/consequence-ların həddindən artıq sərt və irreversible hiss olunması.
+- bəzi decision/nəticə-ların həddindən artıq sərt və irreversible hiss olunması.
 
-Ən vacib product lesson:
+Ən vacib məhsul lesson:
 
-> **Depth repetition problemini azalda bilər, amma depth özü yaxşı design demək deyil. Oyunçunun hər qərarı başa düşülən, planlana bilən və failure zamanı izah edilə bilən olmalıdır.**
+> **dərinlik repetition problemini azalda bilər, amma dərinlik özü yaxşı dizayn demək deyil. Oyunçunun hər qərarı başa düşülən, planlana bilən və uğursuzluq zamanı izah edilə bilən olmalıdır.**
 
 Hacknet ilə birlikdə baxanda artıq iki cross-game principle güclənir:
 
-1. **full realism lazım deyil; selective authenticity + coherent fantasy işləyir;**
-2. **terminal/keyboard input fantasy-ni gücləndirir, amma interaction efficiency pozulanda novelty friction-a çevrilir.**
+1. **full realism lazım deyil; selective authenticity + coherent rol hissi işləyir;**
+2. **terminal/keyboard giriş rol hissi-ni gücləndirir, amma interaction efficiency pozulanda novelty çətinlik-a çevrilir.**
 
-Ətraflı review data:
+Ətraflı rəy data:
 
 `analysis/midnight-protocol/theme-analysis.md`
 
 ---
 
-# 1. Research Scope və Data Quality
+# 1. Araşdırmanın əhatəsi və məlumat keyfiyyəti
 
-## 1.1. Steam dataset
+## 1.1. Steam məlumat toplusu
 
 Snapshot: **2026-10-02**
 
-- raw reviews: 301
-- unique reviews: 301
+- raw rəylər: 301
+- unique rəylər: 301
 - positive: 253
 - negative: 48
-- positive ratio: 84.05%
-- median playtime at review: 11.70h
-- average positive review playtime: 17.01h
-- average negative review playtime: 5.59h
+- müsbət rəy nisbəti: 84.05%
+- median oyun müddəti at rəy: 11.70h
+- average müsbət rəy oyun müddəti: 17.01h
+- average mənfi rəy oyun müddəti: 5.59h
 
 Raw/processed data:
 
@@ -82,16 +82,16 @@ Raw/processed data:
 - `data/processed/midnight-protocol/`
 - `data/reports/midnight-protocol/summary.md`
 
-## 1.2. Semantic audit
+## 1.2. məna yönümlü yoxlama
 
 Oxunub:
 
-- bütün 48 negative review;
-- 50 ən helpful positive review;
-- 50 low-playtime review;
-- 25 recent positive review.
+- bütün 48 mənfi rəy;
+- 50 ən helpful müsbət rəy;
+- 50 low-oyun müddəti rəy;
+- 25 recent müsbət rəy.
 
-Bu, negative failure pattern-ləri üçün yüksək confidence verir.
+Bu, negative uğursuzluq nümunəsi-ləri üçün yüksək etibarlılıq verir.
 
 ## 1.3. Xarici mənbələr
 
@@ -99,22 +99,22 @@ Bu, negative failure pattern-ləri üçün yüksək confidence verir.
 
 - Steam Store;
 - Game Developer Sam Agten interview;
-- Quarter to Three review;
-- Softpedia review;
-- əvvəlki kickoff external research.
+- Quarter to Three rəy;
+- Softpedia rəy;
+- əvvəlki kickoff external araşdırma.
 
 ## 1.4. Limitations
 
-- Steam reviewer-lər bütün player population deyil;
-- overall recommendation aspect sentiment deyil;
-- candidate theme scan regex-based retrieval-dir;
-- playtime correlation causation deyil;
-- store display review count ilə Steam API snapshot fərqlənə bilər;
+- Steam rəy müəllifi-lər bütün oyunçu population deyil;
+- overall recommendation aspekt üzrə münasibət deyil;
+- namizəd mövzu scan regex-based retrieval-dir;
+- oyun müddəti correlation causation deyil;
+- store display rəy count ilə Steam API snapshot fərqlənə bilər;
 - bəzi launch-era problemlər patch-lərlə dəyişmiş ola bilər.
 
 ---
 
-# 2. Product / Market Snapshot
+# 2. Məhsul və bazar görünüşü
 
 Steam App ID: **1162700**
 
@@ -122,21 +122,21 @@ Steam App ID: **1162700**
 - Publisher: Iceberg Interactive
 - Release: 13 October 2021
 - Base US price: $14.99
-- Genres: Action, Adventure, Indie, RPG, Strategy
+- Genres: Action, Adventure, Indie, RPG, strategiya
 - Steam Workshop
 - level editor
 - Steam Cloud
-- keyboard-only positioning
+- yalnız klaviatura ilə təqdimat
 
 Steam store description:
 
-> tactical narrative-driven RPG with unique keyboard-only controls
+> taktiki narrative-driven RPG with unique yalnız klaviatura ilə controls
 
 Store promise üç hissəyə bölünür:
 
-1. hacking fantasy;
-2. tactical RPG;
-3. story/choice.
+1. hacking rol hissi;
+2. taktiki RPG;
+3. hekayə/seçim.
 
 Bu Hacknet-dən vacib şəkildə fərqlənir.
 
@@ -148,7 +148,7 @@ kimi oxunur.
 
 Midnight Protocol isə:
 
-> “hacking theme içində tactical RPG”
+> “hacking mövzu içində taktiki RPG”
 
 kimi daha düzgün anlaşılır.
 
@@ -160,7 +160,7 @@ Bu distinction düzgün kommunikasiya edilməsə expectation mismatch yaranır.
 
 Ən düzgün qısa təsvir:
 
-> **Keyboard-only interface daxilində oynanan turn-based tactical network RPG və narrative puzzle game.**
+> **yalnız klaviatura ilə interface daxilində oynanan növbə əsaslı taktiki network RPG və narrative puzzle game.**
 
 Oyun real hacking simulator deyil.
 
@@ -191,9 +191,9 @@ Dərinlik həmin sadə grammar ətrafında qurulur.
 
 ---
 
-# 4. Əsas player fantasy
+# 4. Əsas oyunçunun rol hissi
 
-Midnight Protocol-un fantasy-si sadəcə:
+Midnight Protocol-un rol hissi-si sadəcə:
 
 > “hacker olum”
 
@@ -201,34 +201,34 @@ deyil.
 
 Daha düzgün:
 
-> **“hazırlıq görən, network daxilində tactical qərarlar verən və hansı hacker olmaq istədiyinə özü qərar verən operator olum.”**
+> **“hazırlıq görən, network daxilində taktiki qərarlar verən və hansı hacker olmaq istədiyinə özü qərar verən operator olum.”**
 
-Fantasy üç layer-də qurulur.
+rol hissi üç layer-də qurulur.
 
-## 4.1. Physical fantasy
+## 4.1. Physical rol hissi
 
 Real keyboard istifadə olunur.
 
 Oyunçu command yazır.
 
-Bu physical input fictional activity ilə uyğun gəlir.
+Bu physical giriş fictional activity ilə uyğun gəlir.
 
-## 4.2. Tactical fantasy
+## 4.2. taktiki rol hissi
 
 Oyunçu:
 
-- loadout hazırlayır;
+- alət dəsti hazırlayır;
 - route seçir;
 - trace idarə edir;
 - ICE və SysOp threat-lərini qiymətləndirir;
 - resource bölür.
 
-## 4.3. Identity fantasy
+## 4.3. Identity rol hissi
 
 Oyunçu:
 
 - white/grey/black hat reputation;
-- moral choice;
+- moral seçim;
 - target haqqında optional məlumat;
 - side mission;
 - bank/data/privacy qərarları
@@ -243,21 +243,21 @@ Midnight Protocol ikinci və üçüncü layer-i daha çox inkişaf etdirir.
 
 # 5. İnsanlar niyə başlayır?
 
-## 5.1. Distinctive keyboard-only hook
+## 5.1. Distinctive yalnız klaviatura ilə ilkin cəlbedicilik
 
 Screenshot və store description-da dərhal fərqlənir.
 
 “Only keyboard”:
 
 - qeyri-adi görünür;
-- hacker fantasy-ni bir cümlədə izah edir;
+- özünü haker kimi hiss etmə-ni bir cümlədə izah edir;
 - conventional game controls-dan fərqlənir.
 
-Bu yaxşı marketing hook-dur.
+Bu yaxşı marketing ilkin cəlbedicilik-dur.
 
 ## 5.2. Hacking genre audience
 
-Review-lərdə davamlı müqayisələr var:
+rəy-lərdə davamlı müqayisələr var:
 
 - Hacknet;
 - Uplink;
@@ -265,21 +265,21 @@ Review-lərdə davamlı müqayisələr var:
 - Netrunner;
 - Zachtronics.
 
-Deməli product mövcud niche audience-in tanıdığı mental model-ə düşür.
+Deməli məhsul mövcud niche audience-in tanıdığı mental model-ə düşür.
 
-## 5.3. Story premise
+## 5.3. hekayə premise
 
-Player character Data əvvəl doxx olunub.
+oyunçu character Data əvvəl doxx olunub.
 
 Core mystery:
 
 > kim və niyə?
 
-Bu dərhal player goal yaradır.
+Bu dərhal oyunçu goal yaradır.
 
-## 5.4. Tactical novelty
+## 5.4. taktiki novelty
 
-Hacking game üçün turn-based model qeyri-adidir.
+Hacking game üçün növbə əsaslı model qeyri-adidir.
 
 Bu həm novelty, həm də riskdir.
 
@@ -287,43 +287,43 @@ Bu həm novelty, həm də riskdir.
 
 # 6. İnsanlar niyə davam edir?
 
-Review evidence-ə görə əsas retention səbəbləri:
+rəy dəlil-ə görə əsas oyunda qalma səbəbləri:
 
-1. story;
-2. tactical system mastery;
+1. hekayə;
+2. taktiki system mastery;
 3. new programs/hardware;
-4. moral choices/reputation;
+4. moral seçimlər/reputation;
 5. side missions;
-6. discovery/secrets;
-7. build experimentation;
-8. hacker fantasy;
+6. kəşf/secrets;
+7. quruluş experimentation;
+8. özünü haker kimi hiss etmə;
 9. atmosphere.
 
-STORY_NARRATIVE candidate-i:
+STORY_NARRATIVE namizəd-i:
 
-- 136 review
-- dataset-in 45.18%-i.
+- 136 rəy
+- məlumat toplusu-in 45.18%-i.
 
-10h+ cohort-da story mention edən 100 review-dan yalnız 4-ü negative-dir.
+10h+ cohort-da hekayə mention edən 100 rəy-dan yalnız 4-ü negative-dir.
 
-Bu çox güclü retention siqnalıdır.
+Bu çox güclü oyunda qalma siqnalıdır.
 
 ---
 
-# 7. Onboarding və ilk sessiya
+# 7. ilkin öyrətmə və ilk sessiya
 
 ## 7.1. İlk saat tam disaster deyil
 
 0–1h:
 
-- 21 reviews
+- 21 rəylər
 - 76.19% positive.
 
 Yəni interface dərhal bütün oyunçuları itirmir.
 
-Bir çox early review:
+Bir çox early rəy:
 
-- keyboard-only control-un tez başa düşüldüyünü;
+- yalnız klaviatura ilə control-un tez başa düşüldüyünü;
 - tutorial-ın faydalı olduğunu;
 - visual presentation-ın güclü olduğunu
 
@@ -333,10 +333,10 @@ deyir.
 
 1–3h:
 
-- 45 reviews
+- 45 rəylər
 - yalnız 62.22% positive.
 
-Bu dataset-də ən zəif cohort-dur.
+Bu məlumat toplusu-də ən zəif cohort-dur.
 
 Bu çox vacibdir.
 
@@ -344,25 +344,25 @@ Tutorial ilk mechanics-i izah edə bilir.
 
 Problem daha sonra başlayır:
 
-- real loadout decisions;
+- real alət dəsti decisions;
 - trace;
-- randomness;
+- təsadüfilik;
 - SysOp;
 - limited slots;
-- failure/retry;
+- uğursuzluq/yenidən cəhd;
 - harder missions
 
 birlikdə işə düşəndə.
 
 Yəni:
 
-> **initial onboarding ilə systems onboarding eyni şey deyil.**
+> **initial ilkin öyrətmə ilə systems ilkin öyrətmə eyni şey deyil.**
 
 ## 7.3. Developer intent ilə uyğunluq
 
-Developer Sam Agten onboarding-in çox çətin olduğunu və tutorial/demo-nun ən çox iteration edilən hissə olduğunu deyir.
+Developer Sam Agten ilkin öyrətmə-in çox çətin olduğunu və tutorial/demo-nun ən çox iteration edilən hissə olduğunu deyir.
 
-Bu review pattern ilə uyğun gəlir.
+Bu rəy nümunə ilə uyğun gəlir.
 
 Ancaq lesson budur:
 
@@ -370,13 +370,13 @@ Ancaq lesson budur:
 
 ---
 
-# 8. Core Loop və System Depth
+# 8. əsas oyun dövrü və sistem dərinliyi
 
-Midnight Protocol Hacknet-dən daha dərin core loop qurur.
+Midnight Protocol Hacknet-dən daha dərin əsas oyun dövrü qurur.
 
 Əlavə decision layer-ləri:
 
-- deck/loadout;
+- deck/alət dəsti;
 - limited slots;
 - memory/slices;
 - stealth vs aggression;
@@ -385,21 +385,21 @@ Midnight Protocol Hacknet-dən daha dərin core loop qurur.
 - route;
 - trace;
 - optional objectives;
-- reputation consequences.
+- reputation nəticələr.
 
 Bu real improvement-dir.
 
 Amma iki problem qalır.
 
-## 8.1. Mandatory tools real choice-ni azalda bilər
+## 8.1. Mandatory alətlər real seçim-ni azalda bilər
 
-Bir review-da oyunçu 5 slot-dan:
+Bir rəy-da oyunçu 5 slot-dan:
 
 - cloak;
 - sniffer;
 - dagger
 
-kimi tool-ların praktiki olaraq məcburi olduğunu qeyd edir.
+kimi alət-ların praktiki olaraq məcburi olduğunu qeyd edir.
 
 Əgər 5 slot-dan 3-ü mandatory-dirsə:
 
@@ -407,20 +407,20 @@ kimi tool-ların praktiki olaraq məcburi olduğunu qeyd edir.
 
 Real decision space daha kiçikdir.
 
-## 8.2. Dominant build problemi
+## 8.2. Dominant quruluş problemi
 
-Long-play positive review-lərdə belə qeyd olunur ki:
+Long-play müsbət rəy-lərdə belə qeyd olunur ki:
 
 - çox program var;
 - amma effektiv bir configuration tapdıqdan sonra çox mission üçün onu dəyişməyə ehtiyac azalır.
 
-Bu classic build-system problemidir:
+Bu classic quruluş-system problemidir:
 
-> content variety var, strategic necessity azdır.
+> məzmun variety var, strategic necessity azdır.
 
 ---
 
-# 9. Turn-based model nəyi həll edir?
+# 9. növbə əsaslı model nəyi həll edir?
 
 Developer əvvəl real-time model düşünüb.
 
@@ -429,9 +429,9 @@ Playtest nəticəsində:
 - stressli;
 - fun olmayan
 
-hiss etdiyi üçün turn-based-a keçib.
+hiss etdiyi üçün növbə əsaslı-a keçib.
 
-Bu qərarın real üstünlükləri review-lərdə görünür.
+Bu qərarın real üstünlükləri rəy-lərdə görünür.
 
 ## 9.1. Speed requirement azalır
 
@@ -443,19 +443,19 @@ Network state-i analiz etmək olur.
 
 ## 9.3. Accessibility artır
 
-Non-technical və slow typist player üçün daha əlçatandır.
+Non-technical və slow typist oyunçu üçün daha əlçatandır.
 
-## 9.4. Tactical identity yaranır
+## 9.4. taktiki identity yaranır
 
 Oyun Hacknet clone olmaqdan çıxır.
 
 ---
 
-# 10. Turn-based model hansı yeni problemi yaradır?
+# 10. növbə əsaslı model hansı yeni problemi yaradır?
 
 ## 10.1. “Hacking yox, board game” expectation mismatch
 
-Bütün negative review audit-də ən aydın theme-lərdən biri budur.
+Bütün mənfi rəy audit-də ən aydın mövzu-lərdən biri budur.
 
 Bəzi oyunçu üçün:
 
@@ -464,13 +464,13 @@ Bəzi oyunçu üçün:
 - SysOps = enemy pieces;
 - two actions = board-game action economy.
 
-Bu onlar üçün hacking fantasy-ni zəiflədir.
+Bu onlar üçün hacking rol hissi-ni zəiflədir.
 
 Əsas problem mechanic-in keyfiyyəti yox, expectation-dır.
 
-Store page tactical RPG deyir, amma “hacking” word-u daha güclü prior expectation yarada bilər.
+Store page taktiki RPG deyir, amma “hacking” word-u daha güclü prior expectation yarada bilər.
 
-## 10.2. Typing-in gameplay funksiyası azalır
+## 10.2. Typing-in oyun gedişi funksiyası azalır
 
 Real-time Hacknet-də typing:
 
@@ -480,13 +480,13 @@ Real-time Hacknet-də typing:
 
 ilə bağlıdır.
 
-Turn-based Midnight Protocol-da isə typing bəzən sadəcə UI layer-dir.
+növbə əsaslı Midnight Protocol-da isə typing bəzən sadəcə UI layer-dir.
 
-Bu bəzi reviewer-lərdə belə sual yaradır:
+Bu bəzi rəy müəllifi-lərdə belə sual yaradır:
 
 > əgər time pressure yoxdur, niyə click etmək əvəzinə bunu yazmalıyam?
 
-Deməli input thematicdir, amma mechanical necessity hər zaman güclü deyil.
+Deməli giriş thematicdir, amma mechanical necessity hər zaman güclü deyil.
 
 ---
 
@@ -501,7 +501,7 @@ RNG_FAIRNESS:
 - 36.11% negative
 - overall baseline-dan 2.26× yüksək.
 
-Bütün 48 negative review audit-i də bunu təsdiqləyir.
+Bütün 48 mənfi rəy audit-i də bunu təsdiqləyir.
 
 Ən çox qeyd olunan nümunələr:
 
@@ -512,11 +512,11 @@ Bütün 48 negative review audit-i də bunu təsdiqləyir.
 - critical-like events;
 - mission state uncertainty.
 
-Problem randomness özü deyil.
+Problem təsadüfilik özü deyil.
 
 Problem:
 
-> oyunçu failure-i skill feedback kimi istifadə edə bilmir.
+> oyunçu uğursuzluq-i skill geribildirim kimi istifadə edə bilmir.
 
 Hacknet-də uğursuzluq tez-tez:
 
@@ -524,7 +524,7 @@ Hacknet-də uğursuzluq tez-tez:
 
 kimi anlaşılır.
 
-Midnight Protocol-da bəzi failure-lər:
+Midnight Protocol-da bəzi uğursuzluq-lər:
 
 > “daha yaxşı roll gəlməli idi”
 
@@ -534,11 +534,11 @@ Bu mastery satisfaction-a zərbə vurur.
 
 ---
 
-# 12. Retry / rollback / recovery
+# 12. yenidən cəhd / rollback / bərpa
 
 RNG problemindən sonra ikinci böyük risk budur.
 
-RETRY_ROLLBACK:
+yenidən cəhd_ROLLBACK:
 
 - 20 mentions
 - 35% negative.
@@ -547,21 +547,21 @@ Complaint-lər:
 
 - mission restart;
 - rollback;
-- wrong loadout ilə ilişmək;
+- wrong alət dəsti ilə ilişmək;
 - re-plan etmək imkanı;
 - manual save;
 - failed mission-in permanent bağlanması;
 - game restart ilə workaround.
 
-Əsas design principle:
+Əsas dizayn principle:
 
-> **Failure cost-u challenge ilə proporsional olmalıdır.**
+> **uğursuzluq cost-u çətinlik ilə proporsional olmalıdır.**
 
-Əgər player:
+Əgər oyunçu:
 
 - bütün relevant info-ya sahib deyil;
 - random outcome yaşayır;
-- sonra permanent content itirirsə
+- sonra permanent məzmun itirirsə
 
 sistem unfair hiss olunur.
 
@@ -571,17 +571,17 @@ sistem unfair hiss olunur.
 
 Trace əvvəlcə yaxşı tension yaradır.
 
-Bu hacker fantasy üçün vacibdir.
+Bu özünü haker kimi hiss etmə üçün vacibdir.
 
 Amma Midnight Protocol-da trace eyni zamanda:
 
 - action budget;
 - exploration budget;
-- optional content budget
+- optional məzmun budget
 
 olur.
 
-Bəzi review-lərdə trace:
+Bəzi rəy-lərdə trace:
 
 - interesting;
 - exciting;
@@ -596,15 +596,15 @@ Digərlərində isə:
 - mandatory cloak slot yaradır;
 - luck dependency artırır.
 
-URGENCY_TRACE candidate-lərinin 50%-i negative review-dur.
+URGENCY_TRACE namizəd-lərinin 50%-i mənfi rəy-dur.
 
-Bu volume aşağıdır, amma semantic audit güclüdür.
+Bu volume aşağıdır, amma məna yönümlü yoxlama güclüdür.
 
 ---
 
 # 14. Repetition
 
-Midnight Protocol Hacknet-dən daha çox variation və build depth verir.
+Midnight Protocol Hacknet-dən daha çox variation və quruluş dərinlik verir.
 
 Amma repetition yenə mövcuddur.
 
@@ -627,7 +627,7 @@ move
 
 Mission-specific twist-lər bunu qırır.
 
-Bəzi long-play positive review-lər:
+Bəzi long-play müsbət rəy-lər:
 
 - boss-like encounters;
 - handcrafted missions;
@@ -636,38 +636,38 @@ Bəzi long-play positive review-lər:
 
 sayəsində late game-in daha güclü olduğunu qeyd edir.
 
-Bu 10h+ cohort-un çox yüksək 95.51% positive ratio-su ilə uyğun gəlir.
+Bu 10h+ cohort-un çox yüksək 95.51% müsbət rəy nisbəti-su ilə uyğun gəlir.
 
 Amma bu causation deyil.
 
 ---
 
-# 15. UI/UX və Keyboard-only
+# 15. UI/UX və yalnız klaviatura ilə
 
 ## 15.1. Niyə işləyir?
 
 Developer-in məqsədi:
 
-> fiziki keyboard-u fantasy-nin hissəsinə çevirmək.
+> fiziki keyboard-u rol hissi-nin hissəsinə çevirmək.
 
-Review-lərdə bu açıq şəkildə işləyir.
+rəy-lərdə bu açıq şəkildə işləyir.
 
-Positive feedback:
+Positive geribildirim:
 
 - typing satisfying;
-- keyboard hacker fantasy-ni artırır;
+- keyboard özünü haker kimi hiss etmə-ni artırır;
 - mouse olmaması distinctive hiss edir;
 - “in the zone” state yaradır.
 
 ## 15.2. Niyə işləmir?
 
-Negative feedback:
+Negative geribildirim:
 
 - click-lə daha sürətli ediləcək action-lar;
 - node name yazmaq;
 - repeated “end”;
 - typo;
-- help output discoverability;
+- help çıxış discoverability;
 - command alias problemləri;
 - menu navigation;
 - command context.
@@ -676,7 +676,7 @@ Negative feedback:
 
 > **immersive interaction ilə efficient interaction eyni şey deyil.**
 
-Gələcək oyunda hər input hər ikisini mümkün qədər təmin etməlidir.
+Gələcək oyunda hər giriş hər ikisini mümkün qədər təmin etməlidir.
 
 ---
 
@@ -686,13 +686,13 @@ Developer açıq deyir:
 
 > real hacking simulyasiyası məqsəd deyil.
 
-Review-lərin böyük hissəsi bunu qəbul edir.
+rəy-lərin böyük hissəsi bunu qəbul edir.
 
-Positive player-lər tez-tez:
+Positive oyunçu-lər tez-tez:
 
 - “real deyil”;
 - “gameified”;
-- “puzzle/strategy”
+- “puzzle/strategiya”
 
 deyib yenə oyunu çox bəyənirlər.
 
@@ -700,13 +700,13 @@ Deməli Hacknet-də tapılan principle burada da görünür:
 
 > **technical realism requirement deyil; coherent selective authenticity daha vacibdir.**
 
-Real terms, terminal, network graph, programs və cybersecurity references fantasy-ni dəstəkləyir.
+Real terms, terminal, network graph, programs və cybersecurity references rol hissi-ni dəstəkləyir.
 
 ---
 
-# 17. Narrative və Content Design
+# 17. Narrative və məzmun dizayn
 
-Story oyunun ən böyük üstünlüklərindən biridir.
+hekayə oyunun ən böyük üstünlüklərindən biridir.
 
 Narrative delivery:
 
@@ -718,7 +718,7 @@ Narrative delivery:
 - reputation;
 - network findings.
 
-Review-lərdə story:
+rəy-lərdə hekayə:
 
 - gripping;
 - surprising;
@@ -727,53 +727,53 @@ Review-lərdə story:
 
 kimi təsvir olunur.
 
-Bəzi negative feedback:
+Bəzi negative geribildirim:
 
 - twist-lərin kifayət qədər grounding olmaması;
-- late story-nin qarışıqlaşması;
-- müəyyən choice consequence-ların ağır olması
+- late hekayə-nin qarışıqlaşması;
+- müəyyən seçim nəticə-ların ağır olması
 
 ilə bağlıdır.
 
-Amma overall story signal çox güclüdür.
+Amma overall hekayə signal çox güclüdür.
 
 ---
 
-# 18. Choice, Reputation və Hacker Identity
+# 18. seçim, Reputation və Hacker Identity
 
 Midnight Protocol-un Hacknet-dən ən vacib fərqi budur.
 
-Player:
+oyunçu:
 
 - bank hesabına toxuna bilər;
 - privacy-ni qoruya bilər;
 - black/white/grey hat direction seçə bilər;
 - mission qəbul/reject edə bilər;
-- side content aça və bağlaya bilər;
-- endings-ə təsir edə bilər.
+- side məzmun aça və bağlaya bilər;
+- finals-ə təsir edə bilər.
 
 Bu:
 
 > “hacker kimi hiss edirəm”
 
-fantasy-sini:
+rol hissi-sini:
 
 > “mən necə hackerəm?”
 
 səviyyəsinə çıxarır.
 
-Bu çox güclü design opportunity-dir.
+Bu çox güclü dizayn imkan-dir.
 
 ---
 
-# 19. Investigation və Discovery
+# 19. araşdırma və kəşf
 
 Midnight Protocol-da:
 
 - intranet;
 - optional intel;
 - side information;
-- hidden clues;
+- hidden ipucus;
 - secrets;
 - easter eggs
 
@@ -787,28 +787,28 @@ Amma difference:
 
 Hacknet-də filesystem curiosity daha organic görünür.
 
-Midnight Protocol-da tactical mission grammar daha dominantdır.
+Midnight Protocol-da taktiki mission grammar daha dominantdır.
 
-Bu gələcək oyun üçün opportunity göstərir:
+Bu gələcək oyun üçün imkan göstərir:
 
-> Hacknet-in organic information exploration-u + Midnight Protocol-un meaningful choices-i birləşdirilə bilər.
+> Hacknet-in organic information exploration-u + Midnight Protocol-un mənalı seçims-i birləşdirilə bilər.
 
 ---
 
 # 20. Audio / Visual Presentation
 
-Positive feedback güclüdür.
+Positive geribildirim güclüdür.
 
 Praise:
 
 - minimalist UI;
 - node animations;
 - cyberpunk visual language;
-- sound feedback;
+- sound geribildirim;
 - atmosphere;
 - procedural/music feel.
 
-Professional review-lərdə soundtrack variety bəzi hallarda zəiflik kimi qeyd olunur.
+Professional rəy-lərdə soundtrack variety bəzi hallarda zəiflik kimi qeyd olunur.
 
 Lakin ümumi təqdimat oyunun ən güclü elementlərindəndir.
 
@@ -820,7 +820,7 @@ Bu genre üçün artıq ikinci dəfə eyni principle görünür:
 
 # 21. Technical Issues
 
-BUGS_COMPATIBILITY candidate sayı:
+BUGS_COMPATIBILITY namizəd sayı:
 
 - 12;
 - 4 negative;
@@ -832,37 +832,37 @@ Amma report-larda:
 
 - softlock;
 - audio bug;
-- localization text scaling;
+- lokallaşdırma text scaling;
 - mission state;
 - control/alias edge cases
 
 görünür.
 
-Hacknet ilə müqayisədə technical complaints əsas dominant failure deyil.
+Hacknet ilə müqayisədə technical complaints əsas dominant uğursuzluq deyil.
 
 ---
 
 # 22. Audience Segments
 
-## 22.1. Hacker fantasy audience
+## 22.1. özünü haker kimi hiss etmə audience
 
 Axtardığı:
 
 - keyboard;
 - terminal;
 - cyber aesthetic;
-- “I’m in” fantasy.
+- “I’m in” rol hissi.
 
 Midnight Protocol burada güclüdür.
 
-## 22.2. Tactical/puzzle audience
+## 22.2. taktiki/puzzle audience
 
 Axtardığı:
 
 - planning;
-- loadout;
+- alət dəsti;
 - action economy;
-- build;
+- quruluş;
 - mission optimization.
 
 Bu Midnight Protocol-un Hacknet-dən daha yaxşı xidmət etdiyi audience-dir.
@@ -873,9 +873,9 @@ Axtardığı:
 
 - characters;
 - mystery;
-- choice;
+- seçim;
 - reputation;
-- endings.
+- finals.
 
 Oyunun çox güclü ikinci audience-i budur.
 
@@ -883,9 +883,9 @@ Oyunun çox güclü ikinci audience-i budur.
 
 Bu audience risklidir.
 
-Midnight Protocol özünü simulator-dan daha çox tactical RPG kimi position etdiyi üçün Hacknet-dən daha yaxşı expectation management edir.
+Midnight Protocol özünü simulator-dan daha çox taktiki RPG kimi position etdiyi üçün Hacknet-dən daha yaxşı expectation management edir.
 
-Amma bəzi reviewer yenə:
+Amma bəzi rəy müəllifi yenə:
 
 > “bu hacking deyil, board game-dir”
 
@@ -893,17 +893,17 @@ deyir.
 
 ---
 
-# 23. Developer Intent vs Player Outcome
+# 23. Yaradıcı məqsədi ilə oyunçu təcrübəsinin müqayisəsi
 
-| Developer intent | Player outcome |
+| Developer intent | oyunçu outcome |
 |---|---|
-| Keyboard immersion | Güclü fantasy yaradır, amma UX friction realdır |
+| Keyboard immersion | Güclü rol hissi yaradır, amma UX çətinlik realdır |
 | Fun over realism | Böyük ölçüdə uğurludur |
-| Turn-based planning | Speed stress azalır, tactical identity yaranır |
-| Simple board-game grammar | Öyrənilə bilir, amma system layering 1–3h friction yaradır |
-| Deep build options | Real choice var, amma mandatory/dominant build riskləri qalır |
-| Narrative focus | Güclü retention driver-dir |
-| Curiosity/secrets | Positive, amma core tactical loop qədər dominant deyil |
+| növbə əsaslı planning | Speed stress azalır, taktiki identity yaranır |
+| Simple board-game grammar | Öyrənilə bilir, amma system layering 1–3h çətinlik yaradır |
+| Deep quruluş options | Real seçim var, amma mandatory/dominant quruluş riskləri qalır |
+| Narrative focus | Güclü oyunda qalma amil-dir |
+| Curiosity/secrets | Positive, amma core taktiki loop qədər dominant deyil |
 
 ---
 
@@ -911,7 +911,7 @@ deyir.
 
 ## 24.1. Distinctive concept
 
-Keyboard-only tactical hacking RPG asanlıqla fərqlənir.
+yalnız klaviatura ilə taktiki hacking RPG asanlıqla fərqlənir.
 
 ## 24.2. Strong experience stack
 
@@ -925,142 +925,142 @@ typing
 
 bir-birini dəstəkləyir.
 
-## 24.3. Real player agency
+## 24.3. Real oyunçunun qərar sərbəstliyi və təsiri
 
-Hacknet-dən fərqli olaraq player identity və mission choice daha sistemikdir.
+Hacknet-dən fərqli olaraq oyunçu identity və mission seçim daha sistemikdir.
 
-## 24.4. Narrative tactical gameplay-i mənalı edir
+## 24.4. Narrative taktiki oyun gedişi-i mənalı edir
 
-Abstract nodes sadəcə puzzle deyil; story context daşıyır.
+Abstract nodes sadəcə puzzle deyil; hekayə context daşıyır.
 
 ## 24.5. Long-session audience üçün yüksək satisfaction
 
-10h+ review-lərin 95.51%-i positive-dir.
+10h+ rəy-lərin 95.51%-i positive-dir.
 
-Bu selection bias daşısa da, oyunu qəbul edən audience-də deep satisfaction olduğunu göstərir.
+Bu seçim qərəzi daşısa da, oyunu qəbul edən audience-də deep satisfaction olduğunu göstərir.
 
 ---
 
 # 25. Niyə daha böyük hit olmayıb? — açıq hipotez
 
-Bu sualın tam cavabı dataset-də yoxdur.
+Bu sualın tam cavabı məlumat toplusu-də yoxdur.
 
-Steam store current display ilə verified API review snapshot arasında da count fərqi var, ona görə traction comparison ehtiyatla aparılmalıdır.
+Steam store current display ilə verified API rəy snapshot arasında da count fərqi var, ona görə traction müqayisə ehtiyatla aparılmalıdır.
 
-Mövcud evidence bir neçə mümkün izah verir:
+Mövcud dəlil bir neçə mümkün izah verir:
 
 ## 25.1. Concept izahı çətindir
 
 “Hacking game” deyəndə bəzi oyunçu Hacknet/Uplink gözləyir.
 
-“Tactical RPG” deyəndə isə terminal/keyboard niche görünür.
+“taktiki RPG” deyəndə isə terminal/keyboard niche görünür.
 
-Product iki audience arasında qalır.
+məhsul iki audience arasında qalır.
 
-## 25.2. Keyboard-only yüksək-friction hook ola bilər
+## 25.2. yalnız klaviatura ilə yüksək-çətinlik ilkin cəlbedicilik ola bilər
 
 Fərqləndirir, amma eyni zamanda audience-i daraldır.
 
 ## 25.3. İlk 1–3 saat risklidir
 
-Potential player tutorial-dan sonra core system complexity ilə üzləşir.
+Potential oyunçu tutorial-dan sonra core system complexity ilə üzləşir.
 
-## 25.4. Tactical board-game identity hacking audience-in bir hissəsinə uyğun deyil
+## 25.4. taktiki board-game identity hacking audience-in bir hissəsinə uyğun deyil
 
-Product quality yaxşı olsa da TAM daha dar ola bilər.
+məhsul quality yaxşı olsa da TAM daha dar ola bilər.
 
 ## 25.5. Discoverability/marketing
 
-Recent review-lərdə “niyə bu oyun bu qədər bilinmir?” fikri görünür.
+Recent rəy-lərdə “niyə bu oyun bu qədər bilinmir?” fikri görünür.
 
-Amma bunun səbəbini public review data ilə sübut etmək mümkün deyil.
+Amma bunun səbəbini public rəy data ilə sübut etmək mümkün deyil.
 
-**Confidence: Low-Medium**
+**etibarlılıq: Low-Medium**
 
 ---
 
-# 26. Bizim üçün saxlanmalı design dərsləri
+# 26. Bizim üçün saxlanmalı dizayn dərsləri
 
 ## Saxlamağa dəyər
 
-### 1. Fantasy + systems integration
+### 1. rol hissi + systems integration
 
-Hacker fantasy yalnız skin deyil.
+özünü haker kimi hiss etmə yalnız skin deyil.
 
 Interaction-la bağlanmalıdır.
 
 ### 2. Moral identity
 
-Player “hacker” olmaqdan əlavə “necə hacker” olduğunu seçə bilər.
+oyunçu “hacker” olmaqdan əlavə “necə hacker” olduğunu seçə bilər.
 
-### 3. Tactical planning
+### 3. taktiki planning
 
-Speed skill yeganə challenge forması olmamalıdır.
+Speed skill yeganə çətinlik forması olmamalıdır.
 
-### 4. Loadout preparation
+### 4. alət dəsti preparation
 
-Mission öncəsi qərar gameplay-in hissəsi ola bilər.
+Mission öncəsi qərar oyun gedişi-in hissəsi ola bilər.
 
-### 5. Narrative consequence
+### 5. Narrative nəticə
 
-Choice story və future options-a təsir edə bilər.
+seçim hekayə və future options-a təsir edə bilər.
 
 ### 6. Selective authenticity
 
 Real jargon və coherent logic kifayətdir.
 
-### 7. Keyboard as fantasy device
+### 7. Keyboard as rol hissi device
 
-Fiziki input theme ilə uyğun gələndə immersion artır.
+Fiziki giriş mövzu ilə uyğun gələndə immersion artır.
 
 ---
 
 # 27. Qaçmalı olduğumuz risklər
 
-## 1. Hidden information + irreversible failure
+## 1. Hidden information + irreversible uğursuzluq
 
 Bu fairness-i dağıda bilər.
 
 ## 2. RNG nəticəni skill-dən çox müəyyən etməsi
 
-Failure learnable qalmalıdır.
+uğursuzluq learnable qalmalıdır.
 
-## 3. Mandatory build masquerading as choice
+## 3. Mandatory quruluş masquerading as seçim
 
-Tool sayı depth demək deyil.
+alət sayı dərinlik demək deyil.
 
 ## 4. Repeated command overhead
 
-Thematic input mechanical tax-a çevrilməməlidir.
+Thematic giriş mechanical tax-a çevrilməməlidir.
 
 ## 5. Tutorial sonrası complexity cliff
 
-İlk tutorial keçildikdən sonra onboarding davam etməlidir.
+İlk tutorial keçildikdən sonra ilkin öyrətmə davam etməlidir.
 
 ## 6. Timer/trace curiosity-ni öldürməsi
 
-Investigation üçün nəfəs sahəsi lazımdır.
+araşdırma üçün nəfəs sahəsi lazımdır.
 
 ## 7. Genre expectation mismatch
 
-Store promise actual core loop-u düzgün anlatmalıdır.
+Store promise actual əsas oyun dövrü-u düzgün anlatmalıdır.
 
 ---
 
-# 28. Opportunity-lər
+# 28. imkan-lər
 
-## 28.1. Hacknet immersion + Midnight agency
+## 28.1. Hacknet immersion + Midnight qərar sərbəstliyi
 
-Ən güclü opportunity:
+Ən güclü imkan:
 
-- Hacknet-in organic filesystem/information discovery-si;
-- Midnight Protocol-un choice/reputation/consequence sistemi.
+- Hacknet-in organic filesystem/məlumat kəşfi-si;
+- Midnight Protocol-un seçim/reputation/nəticə sistemi.
 
-## 28.2. Explainable tactical hacking
+## 28.2. Explainable taktiki hacking
 
-Tactical depth saxla, amma randomness minimum və readable olsun.
+taktiki dərinlik saxla, amma təsadüfilik minimum və readable olsun.
 
-## 28.3. Recon-before-loadout
+## 28.3. Recon-before-alət dəsti
 
 Mission haqqında əvvəlcədən:
 
@@ -1071,22 +1071,22 @@ Mission haqqında əvvəlcədən:
 
 ver.
 
-Player risk seçsin.
+oyunçu risk seçsin.
 
-## 28.4. Flexible failure recovery
+## 28.4. Flexible uğursuzluq bərpa
 
-Retry:
+yenidən cəhd:
 
 - re-plan;
-- loadout change;
+- alət dəsti change;
 - checkpoint;
-- optional consequence
+- optional nəticə
 
 ilə işləyə bilər.
 
-## 28.5. Hybrid input
+## 28.5. Hybrid giriş
 
-Keyboard fantasy saxlanıla bilər, amma:
+Keyboard rol hissi saxlanıla bilər, amma:
 
 - autocomplete;
 - history;
@@ -1094,9 +1094,9 @@ Keyboard fantasy saxlanıla bilər, amma:
 - click-equivalent optional shortcuts;
 - context-aware suggestions
 
-friction-i azalda bilər.
+çətinlik-i azalda bilər.
 
-## 28.6. Information → decision → consequence loop
+## 28.6. Information → decision → nəticə loop
 
 ```text
 discover information
@@ -1106,7 +1106,7 @@ discover information
 → world changes
 ```
 
-bu janr üçün çox güclü systemic core ola bilər.
+bu janr üçün çox güclü sistemli core ola bilər.
 
 ---
 
@@ -1114,11 +1114,11 @@ bu janr üçün çox güclü systemic core ola bilər.
 
 Hacknet:
 
-> daha sadə, daha dərhal fantasy, daha az systemic choice.
+> daha sadə, daha dərhal rol hissi, daha az sistemli seçim.
 
 Midnight Protocol:
 
-> daha dərin tactical/identity systems, amma daha yüksək cognitive və fairness risk.
+> daha dərin taktiki/identity systems, amma daha yüksək cognitive və fairness risk.
 
 Bunu belə xülasə etmək olar:
 
@@ -1144,16 +1144,16 @@ Bizim gələcək concept üçün hədəf bu iki ekstrem arasında optimal nöqt�
 
 # 30. Açıq suallar
 
-1. Midnight Protocol-un aşağı review volume-unun əsas market səbəbi nədir?
-2. Keyboard-only input audience-i nə qədər daraldıb?
+1. Midnight Protocol-un aşağı rəy volume-unun əsas bazar səbəbi nədir?
+2. yalnız klaviatura ilə giriş audience-i nə qədər daraldıb?
 3. Demo conversion haqqında public data varmı?
 4. Workshop/level editor real long-tail yaradıbmı?
-5. Turn-based və optional real-time mode arasında usage pattern məlumdurmu?
+5. növbə əsaslı və optional real-time mode arasında usage nümunə məlumdurmu?
 6. RNG complaint-lərin hansı hissəsi son patch-lərdən əvvəlki versiyaya aiddir?
-7. Eyni tactical depth daha deterministic sistemlə daha geniş audience tapa bilərdimi?
-8. Choice/reputation sistemi başqa interface-game-lərdə də eyni dəyəri verirmi?
+7. Eyni taktiki dərinlik daha deterministic sistemlə daha geniş audience tapa bilərdimi?
+8. seçim/reputation sistemi başqa interface-game-lərdə də eyni dəyəri verirmi?
 
-Bu suallar cross-game research-də izlənməlidir.
+Bu suallar cross-game araşdırma-də izlənməlidir.
 
 ---
 
@@ -1182,21 +1182,21 @@ Bu suallar cross-game research-də izlənməlidir.
 **[W1] Steam Store — Midnight Protocol**  
 https://store.steampowered.com/app/1162700/
 
-**[W2] Game Developer — Hacking for answers in tactical narrative game Midnight Protocol**  
+**[W2] Game Developer — Hacking for answers in taktiki narrative game Midnight Protocol**  
 https://www.gamedeveloper.com/design/hacking-answers-tactical-narrative-game-midnight-protocol
 
-**[W3] Quarter to Three — Midnight Protocol hacks into the sweet spot between storytelling and strategy**  
+**[W3] Quarter to Three — Midnight Protocol hacks into the sweet spot between storytelling and strategiya**  
 https://www.quartertothree.com/fp/2022/01/16/midnight-protocol-hacks-into-the-sweet-spot-between-storytelling-and-strategy/
 
-**[W4] Softpedia — Midnight Protocol Review**  
+**[W4] Softpedia — Midnight Protocol rəy**  
 https://www.softpedia.com/reviews/games/pc/midnight-protocol-review-534571.shtml
 
 ---
 
-# Status
+# vəziyyət
 
-**Mərhələ:** Midnight Protocol per-game deep research — əsas mərhələ tamamlanıb  
-**Dataset:** 301 verified English Steam review  
-**Negative reviews audited:** 48/48  
-**Full-corpus candidate coverage:** 75.08%  
+**Mərhələ:** Midnight Protocol per-game deep araşdırma — əsas mərhələ tamamlanıb  
+**məlumat toplusu:** 301 verified English Steam rəy  
+**mənfi rəys audited:** 48/48  
+**bütün rəy toplusu üzrə namizəd coverage:** 75.08%  
 **Növbəti:** `analysis/comparisons/hacknet-vs-midnight-protocol.md`
