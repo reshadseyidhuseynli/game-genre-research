@@ -52,8 +52,8 @@ Bu, aspect-level positive sentiment deyil.
 # 3. Corpus coverage
 
 - Total review: **11,773**
-- Ən azı bir theme candidate-i tapılan review: **6,086**
-- Candidate coverage: **51.69%**
+- Ən azı bir theme candidate-i tapılan review: **6,009**
+- Candidate coverage: **51.05%**
 - Ümumi dataset positive ratio: **94.13%**
 - Ümumi dataset negative ratio: **5.87%**
 
@@ -77,7 +77,7 @@ Bu səbəbdən candidate coverage final theme coverage kimi şərh edilməməlid
 | STORY_NARRATIVE | Story və narrative | 2,422 | 20.57% | 96.08% | 0.67× | 14.43h |
 | TERMINAL_UI | Terminal / command-line | 2,269 | 19.27% | 92.95% | 1.20× | 12.07h |
 | DEPTH_CHALLENGE | Dərinlik / challenge / puzzle | 1,534 | 13.03% | 93.74% | 1.07× | 13.80h |
-| IMMERSION | Immersion | 1,140 | 9.68% | 96.14% | 0.66× | 14.29h |
+| IMMERSION | Immersion | 910 | 7.73% | 97.58% | 0.41× | 13.36h |
 | SOUND_AUDIO | Soundtrack / audio | 1,116 | 9.48% | 96.42% | 0.61× | 14.59h |
 | REALISM_ACCURACY | Realizm / texniki düzgünlük | 932 | 7.92% | 95.92% | 0.69× | 14.31h |
 | INVESTIGATION_DISCOVERY | Araşdırma / kəşf | 610 | 5.18% | 96.07% | 0.67× | 15.63h |
@@ -87,8 +87,8 @@ Bu səbəbdən candidate coverage final theme coverage kimi şərh edilməməlid
 | ONBOARDING_CLARITY | Tutorial / aydınlıq | 462 | 3.92% | 87.45% | **2.14×** | 11.09h |
 | MOD_REPLAYABILITY | Mod / Workshop / replay | 405 | 3.44% | 97.78% | 0.38× | 25.19h |
 | HACKER_FANTASY | Hacker fantasy-si | 401 | 3.41% | **98.25%** | 0.30× | 11.45h |
-| PACING_WAITING | Pacing / gözləmə | 311 | 2.64% | 90.03% | **1.70×** | 13.20h |
-| PLAYER_AGENCY | Seçim / agency | 224 | 1.90% | 84.82% | **2.59×** | 11.79h |
+| PACING_WAITING | Pacing / gözləmə | 46 | 0.39% | 86.96% | **2.22×** | 11.56h |
+| PLAYER_AGENCY | Seçim / agency | 154 | 1.31% | 83.77% | **2.77×** | 11.32h |
 | LENGTH_CONTENT | Oyun uzunluğu / content | 143 | 1.21% | 96.50% | 0.60× | 13.23h |
 | EDUCATIONAL_IMPACT | Öyrənmə / texnologiyaya maraq | 107 | 0.91% | 97.20% | 0.48× | 15.94h |
 | WORLD_REACTIVITY | Consequence / urgency / reactivity | 48 | 0.41% | 79.17% | **3.55×** | 19.70h |
@@ -183,10 +183,10 @@ Bu theme-in keyword taxonomy-si genişləndirilməlidir.
 
 `PLAYER_AGENCY`:
 
-- 224 mention
-- 34 negative
-- 84.82% overall positive
-- **2.59× negative enrichment**
+- 154 mention
+- 25 negative
+- 83.77% overall positive
+- **2.77× negative enrichment**
 
 Bu nəticə əvvəlki "tool = key" və linear workflow müşahidəsi ilə uyğun gəlir.
 
@@ -534,7 +534,6 @@ Yanlışdır. Correlation var, causation sübut olunmayıb.
 - REALISM_ACCURACY — həm praise, həm complaint eyni keyword-lardan istifadə edir
 - PLAYER_AGENCY — story choice və gameplay choice qarışır
 - PACING_WAITING — normal "wait" ifadələri false positive yarada bilər
-- IMMERSION — "in the game" pattern-i genişdir
 
 ## Aşağı recall ehtimalı yüksəkdir
 
@@ -664,3 +663,27 @@ Növbəti addım:
 - Method: deterministic regex/keyword candidate retrieval
 - Final semantic classification: **hələ aparılmayıb**
 - Next: priority theme semantic audit + aspect classification
+
+
+---
+
+# 16. Taxonomy revision note
+
+İlkin corpus scan-dən sonra manual audit zamanı bəzi regex-lərin false positive yaratdığı görüldü və taxonomy yeniləndi.
+
+Əsas dəyişikliklər:
+
+- `IMMERSION`: çox geniş `in the game` pattern-i çıxarıldı.
+- `PLAYER_AGENCY`: generic `branch` pattern-i çıxarıldı; software/XNA branch kimi false positive-lər azaltdı.
+- `PACING_WAITING`: generic `waiting` / `slow` pattern-ləri daraldıldı; `can't wait to play` kimi positive ifadələrin pacing problemi kimi sayılmasının qarşısı alındı.
+
+Revision sonrası əsas dəyişən rəqəmlər:
+
+- corpus candidate coverage: **51.05%**
+- IMMERSION: **910**
+- PLAYER_AGENCY: **154**
+- PACING_WAITING: **46**
+
+Bu revision research prinsipini göstərir:
+
+> Deterministik retrieval nəticələri manual semantic audit ilə yoxlanmadan final evidence kimi qəbul edilmir.
