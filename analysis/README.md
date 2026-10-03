@@ -50,6 +50,7 @@ Oxuma ardıcıllığı:
 `analysis/comparisons/` qovluğunda oyunlararası müqayisələr saxlanılır. Əsas olanlar:
 
 - `1. hacknet-vs-midnight-protocol.md`
+- `2. hacknet-midnight-protocol-cyber-manhunt.md`
 - `3. cyber-manhunt-vs-the-operator.md`
 - `4. cyber-manhunt-vs-mainlining.md`
 - `5. orwell-vs-need-to-know.md`
