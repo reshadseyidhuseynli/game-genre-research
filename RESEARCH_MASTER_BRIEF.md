@@ -4,7 +4,7 @@
 
 Bu sənəd **Oyun Janrı Araşdırması** layihəsinin əsas kontekst və davamlılıq sənədidir.
 
-Əgər əvvəlki ChatGPT söhbətinin konteksti itərsə, yeni chat açılsa və ya layihəni başqa bir AI/komanda üzvü davam etdirsə, əvvəlcə bu fayl oxunmalıdır. Bu sənəd layihənin:
+Əgər əvvəlki ChatGPT söhbətinin konteksti itərsə, yeni chat açılsa və ya layihəni başqa bir AI və ya şəxs davam etdirsə, əvvəlcə bu fayl oxunmalıdır. Bu sənəd layihənin:
 
 - məqsədini;
 - araşdırma suallarını;
@@ -14,18 +14,18 @@ Bu sənəd **Oyun Janrı Araşdırması** layihəsinin əsas kontekst və davaml
 - hər oyun üçün görüləcək işi;
 - oyunlararası müqayisə üsulunu;
 - yekun təqdimat sənədlərini;
-- rəhbərliyə təqdim ediləcək yekun hesabat strukturunu;
+- yekun hesabat strukturunu;
 - cari vəziyyəti və növbəti addımı
 
 müəyyən edir.
 
-Bu layihənin məqsədi **indidən oyun ideyası seçmək deyil**. Məqsəd ideya yaratmazdan və dəqiqləşdirməzdən əvvəl bazarda mövcud olan oxşar oyunları sistemli şəkildə öyrənmək, işləyən və işləməyən nümunələri tapmaq və komandanın sonrakı konsept qərarlarını dəlil ilə dəstəkləməkdir.
+Bu layihənin məqsədi **indidən oyun ideyası seçmək deyil**. Məqsəd ideya yaratmazdan və dəqiqləşdirməzdən əvvəl bazarda mövcud olan oxşar oyunları sistemli şəkildə öyrənmək, işləyən və işləməyən nümunələri tapmaq və sonrakı konsept qərarlarını dəlil ilə dəstəkləməkdir.
 
 ---
 
 ## Dil standartı — məcburi qayda
 
-Bütün rəhbərlik və komanda üçün hazırlanan araşdırma sənədlərinin əsas dili **Azərbaycan dili** olmalıdır.
+Bütün araşdırma sənədlərinin əsas dili **Azərbaycan dili** olmalıdır.
 
 Qaydalar:
 
@@ -41,7 +41,7 @@ Bu qayda əvvəlki və gələcək bütün `analysis/` sənədlərinə tətbiq ed
 
 # 1. Yeni sessiyada konteksti necə bərpa etmək lazımdır?
 
-Yeni AI sessiyası və ya yeni komanda üzvü bu ardıcıllıqla başlamalıdır:
+Yeni AI sessiyası və ya layihəni davam etdirən şəxs bu ardıcıllıqla başlamalıdır:
 
 1. **Bu faylı tam oxu:** `RESEARCH_MASTER_BRIEF.md`
 2. **məlumat pipeline qaydalarını oxu:** `AGENTS.md`
@@ -67,7 +67,7 @@ Rollar:
 
 - `4. research-kickoff.md` — məlumat toplanmazdan əvvəl məqsəd, əsas suallar və ilkin fərziyyələr;
 - `3. theme-analysis.md` — rəy məlumatları, mövzu statistikası və məna yönümlü yoxlamanın detallı dəlil qatı;
-- `2. deep-research.md` — komanda və rəhbərlik üçün əsas yekun, ətraflı oyun hesabatı;
+- `2. deep-research.md` — əsas yekun, ətraflı oyun hesabatı;
 - `1. presentation-brief.md` — görüşlərdə 2–5 dəqiqəyə oyunu izah etmək üçün qısa, amma dolu təqdimat xülasəsi.
 
 Araşdırma zamanı yaradılan aralıq yoxlama, korpus qeydləri və sınaq faylları son nəticələr bu dörd sənədə inteqrasiya edildikdən sonra `analysis/<game>/` qovluğunda saxlanmamalıdır. Lazım gəlsə onların tarixçəsi Git-də qalır.
@@ -80,7 +80,7 @@ Tövsiyə edilən oxu ardıcıllığı:
 
 Bütün repo üzrə daha ətraflı oxu bələdçisi: `analysis/README.md`.
 
-Bu qaydanın məqsədi bütün oyunlarda eyni naviqasiya, sənəd strukturu və komanda təqdimatı formatı saxlamaqdır.
+Bu qaydanın məqsədi bütün oyunlarda eyni naviqasiya, sənəd strukturu və təqdimat formatı saxlamaqdır.
 
 Sənədlərin rolu:
 
@@ -93,10 +93,10 @@ Sənədlərin rolu:
 | `data/raw/<game>/` | Mənbədən gələn dəyişdirilməmiş xam məlumat |
 | `data/processed/<game>/` | Təmizlənmiş və təhlil-ready məlumat |
 | `data/reports/<game>/summary.md` | Avtomatik, deterministik statistik xülasə; interpretasiya etmir |
-| `analysis/<game>/1. presentation-brief.md` | Komanda görüşləri üçün 2–5 dəqiqəlik yığcam oyun təqdimatı |
+| `analysis/<game>/1. presentation-brief.md` | 2–5 dəqiqəlik yığcam oyun təqdimatı |
 | `analysis/<game>/2. deep-research.md` | Həmin oyun üzrə keyfiyyət və kəmiyyət məlumatlarını birləşdirən ətraflı yekun araşdırma |
 | `analysis/comparisons/` | Oxşar oyunların birbaşa müqayisəsi |
-| `analysis/final/` | Rəhbərliyə və komanda qərarlarına təqdim ediləcək yekun sənədlər |
+| `analysis/final/` | Yekun qərar sənədləri |
 
 Əgər sənədlər arasında araşdırma məqsədi baxımından uyğunsuzluq varsa, bu master brief əsas götürülür. Kod/məlumat integrity məsələlərində isə `AGENTS.md` qaydaları qorunmalıdır.
 
@@ -133,11 +133,11 @@ Pure programming puzzle oyunları — məsələn yalnız kod yazmaq və ya elekt
 
 # 3. Biz hansı qərara hazırlaşırıq?
 
-Bu araşdırma-in sonunda komanda yeni oyun ideyasını yaratmalı və ya mövcud ideyaları dəqiqləşdirməlidir.
+Bu araşdırmanın sonunda yeni oyun ideyaları yaradılmalı və ya mövcud ideyalar dəqiqləşdirilməlidir.
 
 Yəni araşdırmanın əsas biznes/məhsul sualı belədir:
 
-> **Bu geniş janrda hansı oyunçu rol hissi-si, oyun gedişi loop-u, UI modeli, narrative delivery üsulu və sistem dərinliyi işləyir; hansı yanaşmalar təkrarçılıq, confusion, dayaz oyun gedişi, yanlış expectation və zəif bazar response yaradır; bizim komanda hansı imkan-ləri daha ağıllı şəkildə hədəfləyə bilər?**
+> **Bu geniş janrda hansı oyunçu rol hissi-si, oyun gedişi loop-u, UI modeli, narrative delivery üsulu və sistem dərinliyi işləyir; hansı yanaşmalar təkrarçılıq, confusion, dayaz oyun gedişi, yanlış expectation və zəif bazar response yaradır; hansı imkanlar daha ağıllı şəkildə hədəflənə bilər?**
 
 Araşdırmanın məqsədi “filan oyunu kopyalayaq” nəticəsinə gəlmək deyil.
 
@@ -149,7 +149,7 @@ Məqsəd:
 4. oyunçu expectation-ları anlamaq;
 5. underserved / zəif həll olunmuş ehtiyacları tapmaq;
 6. yeni concept üçün dizayn constraint və imkan-lər yaratmaq;
-7. komandanın ideyaları yalnız zövqlə deyil, dəlil ilə qiymətləndirməsinə imkan verməkdir.
+7. ideyaların yalnız zövqlə deyil, dəlil ilə qiymətləndirilməsinə imkan verməkdir.
 
 ---
 
@@ -834,7 +834,7 @@ Dərin araşdırma tamamlandıqdan sonra:
 
 hazırlanmalıdır.
 
-Bu fayl komanda və rəhbərlik görüşündə 2–5 dəqiqəlik təqdimat üçün nəzərdə tutulur və aşağıdakı suallara qısa cavab verməlidir:
+Bu fayl 2–5 dəqiqəlik təqdimat üçün nəzərdə tutulur və aşağıdakı suallara qısa cavab verməlidir:
 
 1. Oyun nədir və əsas rol hissi nədir?
 2. Əsas bazar/rəy göstəriciləri hansılardır?
@@ -901,13 +901,13 @@ Burada:
 - oyun dizaynı;
 - məhsul nəticələri
 
-birləşdirilir və komandanın istifadə edə biləcəyi nəticələr çıxarılır.
+birləşdirilir və istifadə edilə bilən nəticələr çıxarılır.
 
-Komanda üzvü bir oyun haqqında ətraflı yalnız bir sənəd oxuyacaqsa, `2. deep-research.md` seçilməlidir.
+Bir oyun haqqında ətraflı yalnız bir sənəd oxunacaqsa, `2. deep-research.md` seçilməlidir.
 
 ### `1. presentation-brief.md`
 
-Komanda görüşü və rəhbərlik təqdimatı üçün yığcam xülasədir.
+Yığcam təqdimat xülasəsidir.
 
 Mütləq ehtiva etməlidir:
 - bir cümləlik əsas nəticə;
@@ -927,7 +927,7 @@ Bu fayl yeni dəlil mənbəyi deyil; `2. deep-research.md`, `3. theme-analysis.m
 
 Hər `analysis/<game>/2. deep-research.md` mümkün qədər eyni peşəkar strukturu izləməlidir.
 
-## 1. Rəhbərlik üçün xülasə
+## 1. Yekun xülasə
 
 1–2 səhifəlik qısa nəticə:
 
@@ -937,7 +937,7 @@ Hər `analysis/<game>/2. deep-research.md` mümkün qədər eyni peşəkar struk
 - niyə oyunçular oynayır;
 - bizim üçün ən vacib 3–5 dərs.
 
-Rəhbər yalnız bu bölməni oxusa belə əsas mənzərəni anlamalıdır.
+Yalnız bu bölmə oxunsa belə əsas mənzərə aydın olmalıdır.
 
 ## 2. Araşdırmanın əhatəsi və məlumat keyfiyyəti
 
@@ -1165,7 +1165,7 @@ Məqsəd **oyunlar arasında təkrarlanan nümunələri** çıxarmaqdır.
 
 Struktur:
 
-## 1. Rəhbərlik üçün xülasə
+## 1. Yekun xülasə
 
 ## 2. Genre / Category Definition
 
@@ -1246,7 +1246,7 @@ Yalnız bir neçə oyunda yox, oyunlararası dəlil ilə dəstəklənən qaydala
 
 ---
 
-# 13. Rəhbərliyə təqdim ediləcək FINAL hesabat
+# 13. FINAL hesabat
 
 Əsas peşəkar deliverable:
 
@@ -1258,13 +1258,13 @@ Bu sənəd araşdırma arxivindən fərqlənməlidir.
 
 Məqsəd:
 
-> rəhbərin və game/məhsul komandasının 20–40 dəqiqə ərzində bazarı, oyunçu ehtiyaclarını, işləyən/işləməyən nümunələri və concept development üçün əsas constraint-ləri anlaya bilməsi.
+> 20–40 dəqiqə ərzində bazarı, oyunçu ehtiyaclarını, işləyən/işləməyən nümunələri və concept development üçün əsas constraint-ləri anlamağa imkan vermək.
 
 Final hesabat aşağıdakı struktura sahib olmalıdır.
 
 ---
 
-## 1. Rəhbərlik üçün xülasə
+## 1. Yekun xülasə
 
 Maksimum yüksək informasiya sıxlığı.
 
@@ -1494,7 +1494,7 @@ araşdırma bitəndən sonra:
 
 ## 14. Methodology və Limitations
 
-Rəhbər üçün də görünən olmalıdır.
+Bu da görünən olmalıdır.
 
 - Steam rəy bias;
 - public-məlumat limitations;
@@ -1536,7 +1536,7 @@ Onlar peşəkar araşdırma deliverable kimi hazırlanmalıdır.
 - hər vacib nəticənin mənbəsi olmalıdır;
 - çox uzun rəy quote-ları istifadə edilməməlidir;
 - raw məlumat əsas mətni boğmamalıdır;
-- leadership üçün ən vacib məlumat yuxarıda olmalıdır;
+- ən vacib məlumat yuxarıda olmalıdır;
 - detail appendix və per-game hesabat-lara ötürülməlidir.
 
 ## Vizual standart
@@ -1657,7 +1657,7 @@ Bu faylların rolu:
 - `5. opportunity-map.md` — həll olunmamış oyunçu/məhsul imkan-ləri;
 - `6. risk-register.md` — yeni concept üçün əsas risklər və validation üsulları;
 - `7. concept-evaluation-framework.md` — sonradan yaradılan ideyaları müqayisə etmək üçün rubric;
-- `1. executive-genre-research-report.md` — rəhbərliyə təqdim ediləcək əsas peşəkar hesabat.
+- `1. executive-genre-research-report.md` — əsas peşəkar yekun hesabat.
 
 **Yeni oyun ideyasının yaradılması araşdırma Tamamlanma meyarı-a daxil deyil.** Idea generation bu package tamamlandıqdan sonra ayrıca məhsul-kəşf mərhələsidir.
 
@@ -2071,7 +2071,7 @@ Praktik stop condition ödənib:
 - recurring failure mode-lar bir neçə oyunda təkrar təsdiqlənib;
 - yeni full Tier B araşdırmanın marginal dəyəri aşağıdır;
 - market landscape əlavə fundamental boşluq aşkar etməyib;
-- rəhbərlik üçün yekun hesabat hazırdır.
+- yekun hesabat hazırdır.
 
 ## Növbəti mərhələ — Product Discovery / Concept Generation
 
@@ -2145,7 +2145,7 @@ Bu araşdırma-in uğuru çox məlumat toplamaqda deyil.
 
 Əsas nəticə bu olmalıdır:
 
-> **Komanda yeni oyun ideyası haqqında danışanda artıq “məncə belə maraqlı olar” səviyyəsində yox, oyunçu davranışı, əvvəlki oyunların uğur və uğursuzluqları, bazar təqdimat və sistem dizaynı barədə dəlil ilə danışa bilsin.**
+> **Yeni oyun ideyaları artıq “məncə belə maraqlı olar” səviyyəsində yox, oyunçu davranışı, əvvəlki oyunların uğur və uğursuzluqları, bazar təqdimatı və sistem dizaynı barədə dəlil ilə qiymətləndirilə bilsin.**
 
 Final hesabat ideyanı bizim əvəzimizə yaratmayacaq.
 
