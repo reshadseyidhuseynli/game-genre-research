@@ -1,16 +1,16 @@
-# Analysis — Oxu bələdçisi
+# Təhlil — Oxu bələdçisi
 
 Bu qovluq oyun araşdırmalarını, müqayisələri və yekun janr nəticələrini saxlayır.
 
 ## Tövsiyə edilən ümumi oxuma ardıcıllığı
 
 1. `analysis/final/1. executive-genre-research-report.md` — bütün araşdırmanın qısa yekunu
-2. `analysis/final/2. market-landscape.md` — bazar və alt-janr xəritəsi
-3. `analysis/final/3. genre-synthesis.md` — oyunlararası əsas nəticələr
+2. `analysis/final/2. market-landscape.md` — bazarın və alt janrların ümumi mənzərəsi
+3. `analysis/final/3. genre-synthesis.md` — oyunlar arasında təkrarlanan əsas nəticələr
 4. `analysis/final/4. design-principles.md` — gələcək oyun üçün dizayn prinsipləri
-5. `analysis/final/5. opportunity-map.md` — bazar və dizayn imkanları
+5. `analysis/final/5. opportunity-map.md` — bazarda və dizaynda görünən imkanlar
 6. `analysis/final/6. risk-register.md` — əsas risklər
-7. `analysis/final/7. concept-evaluation-framework.md` — gələcək konseptləri müqayisə etmək üçün çərçivə
+7. `analysis/final/7. concept-evaluation-framework.md` — gələcək oyun ideyalarını müqayisə etmək üçün qiymətləndirmə çərçivəsi
 
 Yalnız bir sənəd oxunacaqsa: **`1. executive-genre-research-report.md`**.
 
@@ -30,8 +30,8 @@ Oxuma ardıcıllığı:
 
 1. **`1. presentation-brief.md`** — 2–5 dəqiqəlik sürətli məlumat
 2. **`2. deep-research.md`** — əsas ətraflı hesabat
-3. **`3. theme-analysis.md`** — rəy/dataset dəlilləri
-4. **`4. research-kickoff.md`** — araşdırmadan əvvəlki suallar və hipotezlər
+3. **`3. theme-analysis.md`** — rəylərdən və məlumat toplusundan çıxarılan dəlillər
+4. **`4. research-kickoff.md`** — araşdırmadan əvvəl müəyyən edilmiş suallar və ilkin fərziyyələr
 
 ## Araşdırılmış oyunlar
 
@@ -69,4 +69,4 @@ Bunlar əsas oxu sənədləri deyil; `3. theme-analysis.md` və dərin hesabatla
 
 ---
 
-Hazırkı status: **research tamamlanıb; növbəti mərhələ concept generation → evaluation → prototype validation-dır.**
+Hazırkı vəziyyət: **araşdırma tamamlanıb; növbəti mərhələ oyun ideyalarının yaradılması → qiymətləndirilməsi → prototiplə yoxlanmasıdır.**
