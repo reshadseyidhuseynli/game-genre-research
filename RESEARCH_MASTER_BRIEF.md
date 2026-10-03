@@ -57,26 +57,26 @@ Tamamlanmış hər tam araşdırma oyun qovluğunda **yalnız bu 4 fayl** saxlan
 
 ```text
 analysis/<game>/
-├── research-kickoff.md
-├── theme-analysis.md
-├── deep-research.md
-└── presentation-brief.md
+├── 4. research-kickoff.md
+├── 3. theme-analysis.md
+├── 2. deep-research.md
+└── 1. presentation-brief.md
 ```
 
 Rollar:
 
-- `research-kickoff.md` — məlumat toplanmazdan əvvəl məqsəd, əsas suallar və ilkin fərziyyələr;
-- `theme-analysis.md` — rəy məlumatları, mövzu statistikası və məna yönümlü yoxlamanın detallı dəlil qatı;
-- `deep-research.md` — komanda və rəhbərlik üçün əsas yekun, ətraflı oyun hesabatı;
-- `presentation-brief.md` — görüşlərdə 2–5 dəqiqəyə oyunu izah etmək üçün qısa, amma dolu təqdimat xülasəsi.
+- `4. research-kickoff.md` — məlumat toplanmazdan əvvəl məqsəd, əsas suallar və ilkin fərziyyələr;
+- `3. theme-analysis.md` — rəy məlumatları, mövzu statistikası və məna yönümlü yoxlamanın detallı dəlil qatı;
+- `2. deep-research.md` — komanda və rəhbərlik üçün əsas yekun, ətraflı oyun hesabatı;
+- `1. presentation-brief.md` — görüşlərdə 2–5 dəqiqəyə oyunu izah etmək üçün qısa, amma dolu təqdimat xülasəsi.
 
 Araşdırma zamanı yaradılan aralıq yoxlama, korpus qeydləri və sınaq faylları son nəticələr bu dörd sənədə inteqrasiya edildikdən sonra `analysis/<game>/` qovluğunda saxlanmamalıdır. Lazım gəlsə onların tarixçəsi Git-də qalır.
 
 Tövsiyə edilən oxu ardıcıllığı:
-1. sürətli məlumat üçün `presentation-brief.md`;
-2. ətraflı nəticə üçün `deep-research.md`;
-3. rəqəmləri və rəy dəlillərini yoxlamaq üçün `theme-analysis.md`;
-4. ilkin fərziyyələri görmək üçün `research-kickoff.md`.
+1. sürətli məlumat üçün `1. presentation-brief.md`;
+2. ətraflı nəticə üçün `2. deep-research.md`;
+3. rəqəmləri və rəy dəlillərini yoxlamaq üçün `3. theme-analysis.md`;
+4. ilkin fərziyyələri görmək üçün `4. research-kickoff.md`.
 
 Bütün repo üzrə daha ətraflı oxu bələdçisi: `analysis/README.md`.
 
@@ -93,8 +93,8 @@ Sənədlərin rolu:
 | `data/raw/<game>/` | Mənbədən gələn dəyişdirilməmiş xam məlumat |
 | `data/processed/<game>/` | Təmizlənmiş və təhlil-ready məlumat |
 | `data/reports/<game>/summary.md` | Avtomatik, deterministik statistik xülasə; interpretasiya etmir |
-| `analysis/<game>/presentation-brief.md` | Komanda görüşləri üçün 2–5 dəqiqəlik yığcam oyun təqdimatı |
-| `analysis/<game>/deep-research.md` | Həmin oyun üzrə keyfiyyət və kəmiyyət məlumatlarını birləşdirən ətraflı yekun araşdırma |
+| `analysis/<game>/1. presentation-brief.md` | Komanda görüşləri üçün 2–5 dəqiqəlik yığcam oyun təqdimatı |
+| `analysis/<game>/2. deep-research.md` | Həmin oyun üzrə keyfiyyət və kəmiyyət məlumatlarını birləşdirən ətraflı yekun araşdırma |
 | `analysis/comparisons/` | Oxşar oyunların birbaşa müqayisəsi |
 | `analysis/final/` | Rəhbərliyə və komanda qərarlarına təqdim ediləcək yekun sənədlər |
 
@@ -423,7 +423,7 @@ Bu oyunlar final genre conclusions üçün əsas dəlil bazasını təşkil edir
 - external araşdırma;
 - yaradıcı intent;
 - peşəkar/icma mənbələr;
-- `analysis/<game>/deep-research.md`
+- `analysis/<game>/2. deep-research.md`
 
 hazırlanmalıdır.
 
@@ -818,7 +818,7 @@ Marketing expectation ilə actual oyun gedişi arasında mismatch ayrıca qeyd o
 
 Bütün dəlil birləşdirilərək:
 
-`analysis/<game>/deep-research.md`
+`analysis/<game>/2. deep-research.md`
 
 hazırlanır.
 
@@ -830,7 +830,7 @@ Bu sənəd sadəcə mənbə summary deyil; **dizayn/məhsul interpretation** olm
 
 Dərin araşdırma tamamlandıqdan sonra:
 
-`analysis/<game>/presentation-brief.md`
+`analysis/<game>/1. presentation-brief.md`
 
 hazırlanmalıdır.
 
@@ -857,15 +857,15 @@ Tier A oyunları və tam araşdırılan digər oyunlar üçün `analysis/<game>/
 
 ```text
 analysis/<game>/
-├── research-kickoff.md
-├── theme-analysis.md
-├── deep-research.md
-└── presentation-brief.md
+├── 4. research-kickoff.md
+├── 3. theme-analysis.md
+├── 2. deep-research.md
+└── 1. presentation-brief.md
 ```
 
 Bu faylların rolları fərqlidir:
 
-### `research-kickoff.md`
+### `4. research-kickoff.md`
 
 Araşdırmadan əvvəl cavablandırılacaq sualları, ilkin hipotezləri, oyunun niyə seçildiyini və hansı müqayisə üçün istifadə ediləcəyini müəyyən edir.
 
@@ -875,7 +875,7 @@ Araşdırma tamamlandıqdan sonra kickoff faylı tarixi plan sənədi kimi saxla
 
 Əgər oyun araşdırması bu standart formalaşmamışdan əvvəl aparılıbsa, sonradan yaradılan kickoff faylı açıq şəkildə **retrospektiv şəkildə bərpa edilmiş** sənəd kimi işarələnməlidir. Sonradan əldə edilmiş nəticələr guya əvvəlcədən bilinirmiş kimi təqdim edilməməlidir.
 
-### `theme-analysis.md`
+### `3. theme-analysis.md`
 
 Steam rəyləri və digər geniş rəy məlumatları üzərində aparılan kəmiyyət və məna yönümlü təhlili saxlayır:
 
@@ -888,7 +888,7 @@ Steam rəyləri və digər geniş rəy məlumatları üzərində aparılan kəmi
 
 Bu fayl dəlil və ölçmə qatıdır.
 
-### `deep-research.md`
+### `2. deep-research.md`
 
 Həmin oyun üzrə əsas yekun araşdırma sənədidir.
 
@@ -903,9 +903,9 @@ Burada:
 
 birləşdirilir və komandanın istifadə edə biləcəyi nəticələr çıxarılır.
 
-Komanda üzvü bir oyun haqqında ətraflı yalnız bir sənəd oxuyacaqsa, `deep-research.md` seçilməlidir.
+Komanda üzvü bir oyun haqqında ətraflı yalnız bir sənəd oxuyacaqsa, `2. deep-research.md` seçilməlidir.
 
-### `presentation-brief.md`
+### `1. presentation-brief.md`
 
 Komanda görüşü və rəhbərlik təqdimatı üçün yığcam xülasədir.
 
@@ -919,13 +919,13 @@ Mütləq ehtiva etməlidir:
 - uğur/zəiflik izah hipotezləri;
 - bizim layihə üçün götürüləcək və qaçılacaq məqamlar.
 
-Bu fayl yeni dəlil mənbəyi deyil; `deep-research.md`, `theme-analysis.md` və yoxlanmış məlumatlardan yığcamlaşdırılır.
+Bu fayl yeni dəlil mənbəyi deyil; `2. deep-research.md`, `3. theme-analysis.md` və yoxlanmış məlumatlardan yığcamlaşdırılır.
 
 ---
 
 # 10. Hər oyun üçün deep-araşdırma hesabat standartı
 
-Hər `analysis/<game>/deep-research.md` mümkün qədər eyni peşəkar strukturu izləməlidir.
+Hər `analysis/<game>/2. deep-research.md` mümkün qədər eyni peşəkar strukturu izləməlidir.
 
 ## 1. Rəhbərlik üçün xülasə
 
@@ -1157,7 +1157,7 @@ Bu müqayisədən bizim layihəyə nə keçir?
 
 Path:
 
-`analysis/final/genre-synthesis.md`
+`analysis/final/3. genre-synthesis.md`
 
 Bu sənəd individual oyunları təkrar xülasə etməməlidir.
 
@@ -1250,7 +1250,7 @@ Yalnız bir neçə oyunda yox, oyunlararası dəlil ilə dəstəklənən qaydala
 
 Əsas peşəkar deliverable:
 
-`analysis/final/executive-genre-research-report.md`
+`analysis/final/1. executive-genre-research-report.md`
 
 Sonradan eyni sənəd PDF/slide deck formasına çevrilə bilər.
 
@@ -1595,7 +1595,7 @@ araşdırma mərhələsi o zaman tamamlanmış sayılır ki:
 7. imkan xəritəsi hazırlanıb;
 8. risk reyestri hazırlanıb;
 9. ideyaların qiymətləndirilməsi çərçivəsi hazırlanıb;
-10. `analysis/final/executive-genre-research-report.md` peşəkar şəkildə tamamlanıb.
+10. `analysis/final/1. executive-genre-research-report.md` peşəkar şəkildə tamamlanıb.
 
 Bundan sonra ideya generation/selection ayrıca mərhələ kimi başlayır.
 
@@ -1608,7 +1608,7 @@ Tamamlanma meyarı yalnız “bütün siyahını oxuduq” demək deyil. araşd�
 
 ### A. Məcburi əhatə
 
-- bütün **Tier A** oyunları tamamlanıb və ya çıxarılma səbəbi sənədləşdirilib; tamamlanmış hər Tier A oyunda standart dörd fayl, o cümlədən `presentation-brief.md`, hazırdır;
+- bütün **Tier A** oyunları tamamlanıb və ya çıxarılma səbəbi sənədləşdirilib; tamamlanmış hər Tier A oyunda standart dörd fayl, o cümlədən `1. presentation-brief.md`, hazırdır;
 - terminal və hakerlik, digital araşdırma, surveillance/information-selection və found-device/interface istiqamətlərinin hər birində ən azı bir güclü reference və bir contrast nümunəsi var.
 
 ### B. Məcburi müqayisə-lar
@@ -1640,24 +1640,24 @@ Aşağıdakı final fayllar hazır olmadan araşdırma bitmiş sayılmır:
 
 ```text
 analysis/final/
-├── market-landscape.md
-├── genre-synthesis.md
-├── design-principles.md
-├── opportunity-map.md
-├── risk-register.md
-├── concept-evaluation-framework.md
-└── executive-genre-research-report.md
+├── 2. market-landscape.md
+├── 3. genre-synthesis.md
+├── 4. design-principles.md
+├── 5. opportunity-map.md
+├── 6. risk-register.md
+├── 7. concept-evaluation-framework.md
+└── 1. executive-genre-research-report.md
 ```
 
 Bu faylların rolu:
 
-- `market-landscape.md` — bazar/subgenre xəritəsi və representative games;
-- `genre-synthesis.md` — oyunlararası recurring nümunələr;
-- `design-principles.md` — dəlil-backed dizayn qaydaları;
-- `opportunity-map.md` — həll olunmamış oyunçu/məhsul imkan-ləri;
-- `risk-register.md` — yeni concept üçün əsas risklər və validation üsulları;
-- `concept-evaluation-framework.md` — sonradan yaradılan ideyaları müqayisə etmək üçün rubric;
-- `executive-genre-research-report.md` — rəhbərliyə təqdim ediləcək əsas peşəkar hesabat.
+- `2. market-landscape.md` — bazar/subgenre xəritəsi və representative games;
+- `3. genre-synthesis.md` — oyunlararası recurring nümunələr;
+- `4. design-principles.md` — dəlil-backed dizayn qaydaları;
+- `5. opportunity-map.md` — həll olunmamış oyunçu/məhsul imkan-ləri;
+- `6. risk-register.md` — yeni concept üçün əsas risklər və validation üsulları;
+- `7. concept-evaluation-framework.md` — sonradan yaradılan ideyaları müqayisə etmək üçün rubric;
+- `1. executive-genre-research-report.md` — rəhbərliyə təqdim ediləcək əsas peşəkar hesabat.
 
 **Yeni oyun ideyasının yaradılması araşdırma Tamamlanma meyarı-a daxil deyil.** Idea generation bu package tamamlandıqdan sonra ayrıca məhsul-kəşf mərhələsidir.
 
@@ -1736,8 +1736,8 @@ Deterministik hesabat:
 
 Hacknet üzrə əsas per-game araşdırma mərhələsi tamamlanıb:
 
-- `analysis/hacknet/deep-research.md`
-- `analysis/hacknet/theme-analysis.md`
+- `analysis/hacknet/2. deep-research.md`
+- `analysis/hacknet/3. theme-analysis.md`
 - `config/aspect_taxonomy.yaml`
 
 11,773 rəy üzrə bütün rəy toplusu üzrə mövzu namizədi yoxlama və məna yönümlü yoxlama aparılıb. Əsas dəlil-backed nəticələr:
@@ -1758,8 +1758,8 @@ Midnight Protocol üzrə əsas araşdırma mərhələsi tamamlanıb:
 - verified Steam məlumat toplusu: **301 ingilisdilli rəy**
 - müsbət: **253**
 - mənfi: **48**
-- `analysis/midnight-protocol/theme-analysis.md`
-- `analysis/midnight-protocol/deep-research.md`
+- `analysis/midnight-protocol/3. theme-analysis.md`
+- `analysis/midnight-protocol/2. deep-research.md`
 
 Bütün 48 mənfi rəy məna yönümlü yoxlama edilib. Əsas nəticələr:
 
@@ -1774,7 +1774,7 @@ Bütün 48 mənfi rəy məna yönümlü yoxlama edilib. Əsas nəticələr:
 
 müqayisə tamamlanıb:
 
-`analysis/comparisons/hacknet-vs-midnight-protocol.md`
+`analysis/comparisons/1. hacknet-vs-midnight-protocol.md`
 
 Əsas oyunlararası tension:
 
@@ -1797,8 +1797,8 @@ Cyber Manhunt üzrə əsas araşdırma mərhələsi tamamlanıb:
 - verified Steam məlumat toplusu: **847 rəy**
 - müsbət: **681**
 - mənfi: **166**
-- `analysis/cyber-manhunt/theme-analysis.md`
-- `analysis/cyber-manhunt/deep-research.md`
+- `analysis/cyber-manhunt/3. theme-analysis.md`
+- `analysis/cyber-manhunt/2. deep-research.md`
 
 Əsas nəticələr:
 
@@ -1816,9 +1816,9 @@ The Operator üzrə əsas araşdırma mərhələsi tamamlanıb:
 - verified Steam məlumat toplusu: **3,781 rəy**
 - müsbət: **3,392**
 - mənfi: **389**
-- `analysis/the-operator/theme-analysis.md`
-- `analysis/the-operator/deep-research.md`
-- `analysis/comparisons/cyber-manhunt-vs-the-operator.md`
+- `analysis/the-operator/3. theme-analysis.md`
+- `analysis/the-operator/2. deep-research.md`
+- `analysis/comparisons/3. cyber-manhunt-vs-the-operator.md`
 
 Əsas nəticələr:
 
@@ -1836,8 +1836,8 @@ Orwell üzrə əsas araşdırma mərhələsi tamamlanıb:
 - verified Steam məlumat toplusu: **8,549 rəy**
 - müsbət: **7,735**
 - mənfi: **814**
-- `analysis/orwell/theme-analysis.md`
-- `analysis/orwell/deep-research.md`
+- `analysis/orwell/3. theme-analysis.md`
+- `analysis/orwell/2. deep-research.md`
 
 Əsas nəticələr:
 
@@ -1852,7 +1852,7 @@ Orwell üzrə əsas araşdırma mərhələsi tamamlanıb:
 
 Tamamlanıb:
 
-`analysis/comparisons/hacknet-midnight-protocol-cyber-manhunt.md`
+`analysis/comparisons/2. hacknet-midnight-protocol-cyber-manhunt.md`
 
 Üç dərinlik modeli müqayisə olunur:
 
@@ -1888,40 +1888,40 @@ Bu bölmə yeni sessiyada “nə hazırdır?” sualının əsas istinad-udur.
 - ✅ `data/reports/hacknet/summary.md`
 - ✅ `data/reports/hacknet/theme-candidates.md`
 - ✅ `data/processed/hacknet/themes/statistics.json`
-- ✅ `analysis/hacknet/research-kickoff.md` — ilkin araşdırma planı; tamamlandıqdan sonra tarixi kontekst kimi saxlanılır
-- ✅ `analysis/hacknet/theme-analysis.md`
-- ✅ `analysis/hacknet/deep-research.md`
-- ✅ `analysis/hacknet/presentation-brief.md`
+- ✅ `analysis/hacknet/4. research-kickoff.md` — ilkin araşdırma planı; tamamlandıqdan sonra tarixi kontekst kimi saxlanılır
+- ✅ `analysis/hacknet/3. theme-analysis.md`
+- ✅ `analysis/hacknet/2. deep-research.md`
+- ✅ `analysis/hacknet/1. presentation-brief.md`
 
 ### Midnight Protocol — complete
 
 - ✅ `data/reports/midnight-protocol/summary.md`
 - ✅ `data/reports/midnight-protocol/theme-candidates.md`
 - ✅ `data/processed/midnight-protocol/themes/statistics.json`
-- ✅ `analysis/midnight-protocol/theme-analysis.md`
-- ✅ `analysis/midnight-protocol/deep-research.md`
-- ✅ `analysis/midnight-protocol/presentation-brief.md`
-- ℹ️ `analysis/midnight-protocol/research-kickoff.md` — historical planlama context, superseded
+- ✅ `analysis/midnight-protocol/3. theme-analysis.md`
+- ✅ `analysis/midnight-protocol/2. deep-research.md`
+- ✅ `analysis/midnight-protocol/1. presentation-brief.md`
+- ℹ️ `analysis/midnight-protocol/4. research-kickoff.md` — historical planlama context, superseded
 
 ### Cyber Manhunt — complete
 
 - ✅ `data/reports/cyber-manhunt/summary.md`
 - ✅ `data/reports/cyber-manhunt/theme-candidates.md`
 - ✅ `data/processed/cyber-manhunt/themes/statistics.json`
-- ✅ `analysis/cyber-manhunt/theme-analysis.md`
-- ✅ `analysis/cyber-manhunt/deep-research.md`
-- ✅ `analysis/cyber-manhunt/presentation-brief.md`
-- ℹ️ `analysis/cyber-manhunt/research-kickoff.md` — historical planlama context, superseded
+- ✅ `analysis/cyber-manhunt/3. theme-analysis.md`
+- ✅ `analysis/cyber-manhunt/2. deep-research.md`
+- ✅ `analysis/cyber-manhunt/1. presentation-brief.md`
+- ℹ️ `analysis/cyber-manhunt/4. research-kickoff.md` — historical planlama context, superseded
 
 ### Completed comparisons
 
-- ✅ `analysis/comparisons/hacknet-vs-midnight-protocol.md`
-- ✅ `analysis/comparisons/hacknet-midnight-protocol-cyber-manhunt.md`
-- ✅ `analysis/comparisons/cyber-manhunt-vs-the-operator.md`
-- ✅ `analysis/comparisons/cyber-manhunt-vs-mainlining.md`
-- ✅ `analysis/comparisons/orwell-vs-need-to-know.md`
-- ✅ `analysis/comparisons/mainlining-vs-simulacra.md`
-- ✅ `analysis/comparisons/cyber-manhunt-vs-simulacra.md`
+- ✅ `analysis/comparisons/1. hacknet-vs-midnight-protocol.md`
+- ✅ `analysis/comparisons/2. hacknet-midnight-protocol-cyber-manhunt.md`
+- ✅ `analysis/comparisons/3. cyber-manhunt-vs-the-operator.md`
+- ✅ `analysis/comparisons/4. cyber-manhunt-vs-mainlining.md`
+- ✅ `analysis/comparisons/5. orwell-vs-need-to-know.md`
+- ✅ `analysis/comparisons/6. mainlining-vs-simulacra.md`
+- ✅ `analysis/comparisons/7. cyber-manhunt-vs-simulacra.md`
 
 ### The Operator — complete
 
@@ -1929,21 +1929,21 @@ Bu bölmə yeni sessiyada “nə hazırdır?” sualının əsas istinad-udur.
 - ✅ `data/reports/the-operator/summary.md`
 - ✅ `data/reports/the-operator/theme-candidates.md`
 - ✅ `data/processed/the-operator/themes/statistics.json`
-- ✅ `analysis/the-operator/theme-analysis.md`
-- ✅ `analysis/the-operator/deep-research.md`
-- ✅ `analysis/the-operator/presentation-brief.md`
-- ✅ `analysis/comparisons/cyber-manhunt-vs-the-operator.md`
-- ℹ️ `analysis/the-operator/research-kickoff.md` — historical planlama context, superseded
+- ✅ `analysis/the-operator/3. theme-analysis.md`
+- ✅ `analysis/the-operator/2. deep-research.md`
+- ✅ `analysis/the-operator/1. presentation-brief.md`
+- ✅ `analysis/comparisons/3. cyber-manhunt-vs-the-operator.md`
+- ℹ️ `analysis/the-operator/4. research-kickoff.md` — historical planlama context, superseded
 
 ### Orwell — complete
 
 - ✅ verified Steam məlumat toplusu: **8,549 rəy**
 - ✅ `data/reports/orwell/summary.md`
 - ✅ deterministik v5 mövzu faylları repository-dədir (`data/processed/orwell/themes/`, `data/reports/orwell/theme-candidates.md`)
-- ✅ `analysis/orwell/theme-analysis.md`
-- ✅ `analysis/orwell/deep-research.md`
-- ✅ `analysis/orwell/presentation-brief.md`
-- ℹ️ `analysis/orwell/research-kickoff.md` — historical planlama context, superseded
+- ✅ `analysis/orwell/3. theme-analysis.md`
+- ✅ `analysis/orwell/2. deep-research.md`
+- ✅ `analysis/orwell/1. presentation-brief.md`
+- ℹ️ `analysis/orwell/4. research-kickoff.md` — historical planlama context, superseded
 
 ### Need to Know — focused comparator tamamlanıb
 
@@ -1952,11 +1952,11 @@ Bu bölmə yeni sessiyada “nə hazırdır?” sualının əsas istinad-udur.
 - ✅ mənfi: **94**
 - ✅ müsbət pay: **65.44%**
 - ✅ `data/reports/need-to-know/summary.md`
-- ✅ `analysis/need-to-know/research-kickoff.md`
-- ✅ `analysis/need-to-know/theme-analysis.md`
-- ✅ `analysis/need-to-know/deep-research.md`
-- ✅ `analysis/need-to-know/presentation-brief.md`
-- ✅ `analysis/comparisons/orwell-vs-need-to-know.md`
+- ✅ `analysis/need-to-know/4. research-kickoff.md`
+- ✅ `analysis/need-to-know/3. theme-analysis.md`
+- ✅ `analysis/need-to-know/2. deep-research.md`
+- ✅ `analysis/need-to-know/1. presentation-brief.md`
+- ✅ `analysis/comparisons/5. orwell-vs-need-to-know.md`
 - ✅ lokal reproducibility run tamamlanıb
 - ✅ deterministik theme artefaktları repository-dədir (`data/processed/need-to-know/themes/`, `data/reports/need-to-know/theme-candidates.md`)
 
@@ -1974,11 +1974,11 @@ Bu bölmə yeni sessiyada “nə hazırdır?” sualının əsas istinad-udur.
 - ✅ deterministik v5 mövzu artefaktları
 - ✅ 74/74 mənfi rəy üzrə məna yönümlü audit
 - ✅ 39 məqsədli müsbət rəy auditi
-- ✅ `analysis/mainlining/research-kickoff.md`
-- ✅ `analysis/mainlining/theme-analysis.md`
-- ✅ `analysis/mainlining/deep-research.md`
-- ✅ `analysis/mainlining/presentation-brief.md`
-- ✅ `analysis/comparisons/cyber-manhunt-vs-mainlining.md`
+- ✅ `analysis/mainlining/4. research-kickoff.md`
+- ✅ `analysis/mainlining/3. theme-analysis.md`
+- ✅ `analysis/mainlining/2. deep-research.md`
+- ✅ `analysis/mainlining/1. presentation-brief.md`
+- ✅ `analysis/comparisons/4. cyber-manhunt-vs-mainlining.md`
 
 Əsas nəticələr:
 - Mainlining-in əsas gücü real hacking deyil, **desktop daxilində məlumatı əlaqələndirib işi özün həll etmək competence fantasy-sidir**;
@@ -1997,12 +1997,12 @@ Bu bölmə yeni sessiyada “nə hazırdır?” sualının əsas istinad-udur.
 - ✅ deterministik v5 mövzu artefaktları
 - ✅ 304/304 mənfi rəy üzrə məna yönümlü audit
 - ✅ 45 məqsədli müsbət rəy auditi
-- ✅ `analysis/simulacra/research-kickoff.md`
-- ✅ `analysis/simulacra/theme-analysis.md`
-- ✅ `analysis/simulacra/deep-research.md`
-- ✅ `analysis/simulacra/presentation-brief.md`
-- ✅ `analysis/comparisons/mainlining-vs-simulacra.md`
-- ✅ `analysis/comparisons/cyber-manhunt-vs-simulacra.md`
+- ✅ `analysis/simulacra/4. research-kickoff.md`
+- ✅ `analysis/simulacra/3. theme-analysis.md`
+- ✅ `analysis/simulacra/2. deep-research.md`
+- ✅ `analysis/simulacra/1. presentation-brief.md`
+- ✅ `analysis/comparisons/6. mainlining-vs-simulacra.md`
+- ✅ `analysis/comparisons/7. cyber-manhunt-vs-simulacra.md`
 
 Əsas nəticələr:
 - phone-as-world formatı tanış interaction qrammatikası sayəsində ilkin öyrətmə yükünü xeyli azaldır;
@@ -2020,11 +2020,11 @@ Bu bölmə yeni sessiyada “nə hazırdır?” sualının əsas istinad-udur.
 - ✅ deterministik v5 mövzu artefaktları
 - ✅ 110/110 mənfi rəy üzrə məna yönümlü audit
 - ✅ 43 məqsədli müsbət rəy auditi
-- ✅ `analysis/simulacra-3/research-kickoff.md`
-- ✅ `analysis/simulacra-3/theme-analysis.md`
-- ✅ `analysis/simulacra-3/deep-research.md`
-- ✅ `analysis/simulacra-3/presentation-brief.md`
-- ✅ `analysis/comparisons/simulacra-vs-simulacra-3.md`
+- ✅ `analysis/simulacra-3/4. research-kickoff.md`
+- ✅ `analysis/simulacra-3/3. theme-analysis.md`
+- ✅ `analysis/simulacra-3/2. deep-research.md`
+- ✅ `analysis/simulacra-3/1. presentation-brief.md`
+- ✅ `analysis/comparisons/8. simulacra-vs-simulacra-3.md`
 
 Əsas nəticələr:
 - SIMULACRA 3 daha geniş town-scale scope və Atlas kimi formal investigation sistemi əlavə edir, amma ilk oyunun şəxsi phone intimacy-sini zəiflədir;
@@ -2037,13 +2037,13 @@ Bu bölmə yeni sessiyada “nə hazırdır?” sualının əsas istinad-udur.
 
 Hazırda yaradılmayıb:
 
-- ✅ `analysis/final/market-landscape.md`
-- ✅ `analysis/final/genre-synthesis.md`
-- ✅ `analysis/final/design-principles.md`
-- ✅ `analysis/final/opportunity-map.md`
-- ✅ `analysis/final/risk-register.md`
-- ✅ `analysis/final/concept-evaluation-framework.md`
-- ✅ `analysis/final/executive-genre-research-report.md`
+- ✅ `analysis/final/2. market-landscape.md`
+- ✅ `analysis/final/3. genre-synthesis.md`
+- ✅ `analysis/final/4. design-principles.md`
+- ✅ `analysis/final/5. opportunity-map.md`
+- ✅ `analysis/final/6. risk-register.md`
+- ✅ `analysis/final/7. concept-evaluation-framework.md`
+- ✅ `analysis/final/1. executive-genre-research-report.md`
 
 Bu inventory hər major milestone-dan sonra yenilənməlidir.
 
@@ -2058,13 +2058,13 @@ Minimum məcburi müqayisələr:
 - ✅ tamamlanıb
 
 Final research package:
-- ✅ `analysis/final/market-landscape.md`
-- ✅ `analysis/final/genre-synthesis.md`
-- ✅ `analysis/final/design-principles.md`
-- ✅ `analysis/final/opportunity-map.md`
-- ✅ `analysis/final/risk-register.md`
-- ✅ `analysis/final/concept-evaluation-framework.md`
-- ✅ `analysis/final/executive-genre-research-report.md`
+- ✅ `analysis/final/2. market-landscape.md`
+- ✅ `analysis/final/3. genre-synthesis.md`
+- ✅ `analysis/final/4. design-principles.md`
+- ✅ `analysis/final/5. opportunity-map.md`
+- ✅ `analysis/final/6. risk-register.md`
+- ✅ `analysis/final/7. concept-evaluation-framework.md`
+- ✅ `analysis/final/1. executive-genre-research-report.md`
 
 Praktik stop condition ödənib:
 - terminal/hacking, digital investigation, surveillance və found-device istiqamətlərində həm güclü, həm contrast nümunələr var;
@@ -2079,9 +2079,9 @@ Bu artıq research mərhələsi deyil.
 
 Tövsiyə edilən ardıcıllıq:
 
-1. `analysis/final/opportunity-map.md` əsasında bir neçə fərqli concept variant yarat;
+1. `analysis/final/5. opportunity-map.md` əsasında bir neçə fərqli concept variant yarat;
 2. hər biri üçün one-line fantasy + core loop + information model yaz;
-3. `analysis/final/concept-evaluation-framework.md` ilə müqayisə et;
+3. `analysis/final/7. concept-evaluation-framework.md` ilə müqayisə et;
 4. hard gate-ləri keçən 2–3 fərqli concept saxla;
 5. hər concept üçün ən böyük hipotezi ən ucuz prototiplə təkzib etməyə çalış;
 6. target audience ilə role comprehension, first insight, semantic acceptance və consequence test et;
