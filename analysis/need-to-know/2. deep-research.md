@@ -1,0 +1,529 @@
+# Need to Know — Dərin fokuslu araşdırma
+
+## 1. Rəhbərlik üçün xülasə
+
+Need to Know-un ən vacib dərsi “surveillance mövzusu zəif bazardır” deyil.
+
+Əksinə, həm rəy məlumatları, həm də uzun oynayan müsbət rəylər göstərir ki:
+
+> **müşahidə, şəxsi məlumat, dövlət gücü və mənəvi kompromis güclü oyunçu marağı yaradır.**
+
+Əsas problem bu marağın hansı iş axınına çevrilməsidir.
+
+Need to Know çox geniş vəd verir:
+
+- insanları araşdır;
+- təhlükəni özün qiymətləndir;
+- Department-a xidmət et və ya ona qarşı çıx;
+- məlumat sızdır;
+- şəxsi qazanc götür;
+- daha çox güc əldə et;
+- seçimlərinin nəticəsini gör.
+
+Praktik oyunçu təcrübəsində isə üç əsas sürtünmə yaranır:
+
+1. **erkən aydınlıq və UI borcu** — oyunçu nə etməli olduğunu başa düşmədən uğursuz ola bilir;
+2. **semantic investigation əvəzinə rule-matching** — “mən nə düşünürəm?” sualı “sistem hansı exact markeri istəyir?” sualına çevrilir;
+3. **vəd edilən geniş qərar sərbəstliyi ilə progression-compatible seçimlərin sayı arasında boşluq**.
+
+Bu üç problem bir-birini gücləndirir.
+
+---
+
+## 2. Məhsul və bazar görünüşü
+
+- Developer: **Monomyth Games**
+- Publisher: **Monomyth Games**
+- Steam App ID: **490930**
+- Steam release: **28 avqust 2018**
+- Janr: Adventure / Indie / Simulation
+- Hazırkı Steam mağaza göstəricisi: **Mostly Positive — 175 rəy, 74% müsbət**
+- Hazırkı mağaza qiyməti: **$14.99**
+
+Kickstarter kampaniyası güclü ilkin maraq yaradıb. Bu, son məhsulun satış nəticəsini sübut etmir, amma premise-in bazarda diqqət çəkdiyini göstərən acquisition siqnalıdır.
+
+Araşdırma API snapshot-u:
+
+- 272 ingilisdilli rəy
+- 178 müsbət
+- 94 mənfi
+- **65.44% müsbət**
+- median oyun müddəti: **7.99 saat**
+
+Steam mağaza summary-si ilə API snapshot-u eyni filtr səthi deyil; onların fərqinin səbəbi ayrıca paritet yoxlaması olmadan təxmin edilmir.
+
+---
+
+## 3. Oyunun mahiyyəti
+
+Əsas rol hissi:
+
+> **“Mən insanların həyatına çıxışı olan dövlət analitikiyəm; kimin təhlükəli olduğunu və gücü necə istifadə edəcəyimi müəyyən edirəm.”**
+
+Sadələşdirilmiş əsas oyun dövrü:
+
+```text
+assignment / rules
+→ suspect profilləri
+→ şəxsi məlumatı oxu
+→ tələb olunan dəlili müəyyən et
+→ tool ilə dəlili işarələ
+→ suspect üçün qərar ver
+→ performance / compliance nəticəsi
+→ clearance progression
+→ yeni powers / yeni mission formaları
+→ home / relationship / data-selling qatları
+→ növbəti gün
+```
+
+Fantasy səviyyəsində isə vəd daha genişdir:
+
+```text
+insanı tanı
+→ təhlükəni qiymətləndir
+→ gücdən necə istifadə edəcəyinə qərar ver
+→ nəticəni gör
+```
+
+Əsas problem bu iki modelin hər zaman üst-üstə düşməməsidir.
+
+---
+
+## 4. Oyunçu niyə başlayır?
+
+Əsas ilkin cəlbedicilik:
+
+- “Big Brother-da sən sistemin içindəsən” premise-i;
+- dövlət müşahidəsi və məxfilik mövzusu;
+- başqa insanların rəqəmsal həyatını araşdırmaq marağı;
+- karyera və clearance progression;
+- daha güclü surveillance alətləri;
+- mənəvi dilemma və seçim vədi;
+- Papers, Please və Orwell-a yaxın, amma daha geniş sistemli məhsul görüntüsü.
+
+Premise-in güclü olması həm Kickstarter marağında, həm də rəylərdə görünür.
+
+---
+
+## 5. Oyunçu niyə davam edir?
+
+Müsbət və uzun-session rəylərində ən sabit motivlər:
+
+- hekayə;
+- siyasi thriller atmosferi;
+- personajlar;
+- clearance yüksəldikcə sistemin dəyişməsi;
+- daha güclü alətlərin açılması;
+- insanların şəxsi məlumatlarını daha dərindən görmək;
+- dövlətin həm təhlükəni dayandırması, həm də gücü sui-istifadə etməsi;
+- bəzi memorable missiyalar;
+- soundtrack və vizual üslub.
+
+Əhəmiyyətli finding:
+
+> **Story zəif əsas oyun dövrünü müəyyən müddət daşıya bilir.**
+
+Amma uzun mənfi rəylər göstərir ki, hekayə təkrarçılığı və UI friction-u sonsuz kompensasiya etmir.
+
+---
+
+## 6. İlk sessiya və ilkin öyrətmə
+
+Oyun müddəti qrupları:
+
+| Müddət | Rəy sayı | Müsbət payı |
+|---|---:|---:|
+| 0–1 saat | 28 | **21.43%** |
+| 1–3 saat | 45 | **48.89%** |
+| 3–10 saat | 87 | **71.26%** |
+| 10+ saat | 112 | **78.57%** |
+
+Correlation səbəb-nəticə deyil, amma early-session risk çox güclüdür.
+
+Erkən mənfi rəylərin əsas səbəbləri:
+
+- mission-u necə başladacağını bilməmək;
+- tutorialın zəif və ya qaçırıla bilən olması;
+- tool funksiyalarının aydın olmaması;
+- “safe”, “match”, “threat” fərqinin zəif izahı;
+- səhv cavabın niyə səhv olduğunun görünməməsi;
+- pəncərə və klik davranışının qarışıq olması;
+- yavaş, unskippable intro və keçidlər;
+- launch dövründə bug və soft-lock-lar.
+
+Əsas problem:
+
+> **Oyunçu strateji və ya etik səhv etdiyi üçün yox, sistemin prosedurunu anlamadığı üçün uğursuz ola bilir.**
+
+Bu, ustalaşma hissini zəiflədir.
+
+---
+
+## 7. UI/UX və düşünmə yükü
+
+UI vizual olaraq bəzi oyunçular tərəfindən bəyənilir.
+
+Amma iş aləti kimi təkrarlanan problemlər:
+
+- rules panel evidence-i örtür;
+- xəritə hərəkət edir;
+- profilləri müqayisə etmək ləngdir;
+- pəncərələr böyük və cluttered hiss olunur;
+- klik hədəfləri zəifdir;
+- geri/bağla davranışı aydın deyil;
+- animasiyalar işi ləngidir;
+- bir neçə suspect müqayisəsi tələb edən missiyalarda workspace zəif qalır.
+
+Dizayn prinsipi:
+
+> **Information-heavy oyunda UI yalnız görünüş deyil; oyunçunun external working memory-sidir.**
+
+Əgər oyun iki və ya daha çox mənbəni müqayisə tələb edirsə, UI həmin mənbələri eyni anda rahat saxlamağı dəstəkləməlidir.
+
+---
+
+## 8. Dəlil sistemi və epistemik ədalət
+
+Ən vacib tənqid “puzzle çətin idi” deyil.
+
+Daha konkret problem:
+
+> oyunçu ilə sistem “düzgün dəlil” anlayışında həmişə razılaşmır.
+
+Təkrarlanan nümunələr:
+
+- qayda ilə qəbul edilən dəlilin mənası arasında uyğunsuzluq;
+- doğru faktın yanlış UI yolu ilə işarələnməsi və credit verilməməsi;
+- qismən düzgün reasoning üçün zəif credit;
+- typo və yazı səhvinin puzzle məlumatına qarışması;
+- cəzanın mükafatdan daha ağır hiss olunması.
+
+Bu halda failure:
+
+```text
+mən yanlış düşündüm
+```
+
+əvəzinə
+
+```text
+sistemin gizli acceptance rule-unı tapmadım
+```
+
+kimi hiss olunur.
+
+Gələcək sistem üçün dəlil üç qata bölünməlidir:
+
+1. **fakt** — nə tapıldı;
+2. **interpretasiya** — fakt nə deməkdir;
+3. **prosedur** — oyunçu bunu necə təqdim etdi.
+
+Prosedur səhvi interpretasiya səhvi ilə eyni cəza almamalıdır.
+
+---
+
+## 9. Qərar sərbəstliyi: geniş feature set real seçim demək deyil
+
+Need to Know-da çox sayda seçim səthi var:
+
+- suspect classification;
+- executive powers;
+- underground groups;
+- data selling;
+- şəxsi həyat;
+- assets/status;
+- dialogue;
+- story relationships.
+
+Kağız üzərində bu Orwell-dan daha genişdir.
+
+Amma qərar sərbəstliyi feature sayı ilə yox, alternativ future state-lərlə hiss olunur.
+
+Mənfi auditdə ən vacib recurring pattern:
+
+```text
+choice A → story continues
+choice B → game over / retry
+```
+
+və ya:
+
+```text
+“yox” seç
+→ sistem həmin contact / obligation-u yenə əlavə edir
+```
+
+Bu, branch görüntüsü yaradır, amma davam edən fərqli dünya vəziyyəti yaratmır.
+
+### Prinsip
+
+> **Qərar sərbəstliyi = seçim menyusu deyil; sistemin oyunçunun niyyətini qəbul edib fərqli, davam edən vəziyyət yaratmasıdır.**
+
+---
+
+## 10. Nəticə və uğursuzluq dizaynı
+
+Rəsmi məhsul dili “significant consequences” vəd edir.
+
+Rəylərdə iki fərqli nəticə problemi görünür.
+
+### 10.1. Qeyri-şəffaf performans nəticəsi
+
+- hansı evidence-in niyə yanlış olduğu görünmür;
+- reward/penalty nisbəti ədalətsiz hiss olunur;
+- yaxşı performansla boss reaksiyası arasında uyğunsuzluq ola bilir;
+- bəzi mission failure-ları story məntiqinə uyğun reaksiya yaratmır.
+
+### 10.2. Choice-as-fail-state
+
+Bəzi mənəvi mövqelər:
+
+- alternativ hekayə yaratmır;
+- sadəcə run-ı bitirir və oyunçunu geri qaytarır.
+
+### Prinsip
+
+> **Nəticə oyunçunun seçimini qəbul etməlidir; cəza onu ləğv etməməlidir.**
+
+Mənfi nəticə də agency-dir — əgər dünya həmin seçimlə davam edirsə.
+
+---
+
+## 11. Təkrarçılıq və sistem dərinliyi
+
+Need to Know çox feature-ə malikdir.
+
+Buna baxmayaraq təkrarçılıq şikayəti qalır.
+
+Bu vacibdir, çünki:
+
+> **feature variety ≠ decision variety**
+
+Əsas iş uzun müddət:
+
+- qayda oxu;
+- profil aç;
+- uyğun məlumatı tap;
+- mark et;
+- növbəti suspect
+
+olaraq qalırsa, yeni kosmetik context və tool sayı loop-u avtomatik dərinləşdirmir.
+
+`REPETITION` namizədlərində orta oyun müddəti təxminən **18.9 saatdır**. Deməli, problem yalnız ilk təəssürat deyil.
+
+Yeni clearance səviyyəsi yalnız daha çox məlumat yox, **yeni reasoning problemi** açmalıdır.
+
+---
+
+## 12. Pacing və content miqdarı
+
+Core loop-u sevənlər uzunluğu dəyər hesab edə bilir.
+
+Amma uzun mənfi rəylərdə:
+
+- home mission-ları;
+- data-selling relationship maintenance;
+- oxşar classification işi;
+- gec açılan variation;
+- story beat-ləri arasındakı uzun məsafə
+
+tez-tez tənqid olunur.
+
+Əsas prinsip:
+
+> **Content length yalnız saat deyil; yeni qərar formalarının açılma sürətidir.**
+
+Eyni qərar qrammatikası 20 saat qalırsa, “çox content” həmişə üstünlük deyil.
+
+---
+
+## 13. Hekayə və dünya quruculuğu
+
+Need to Know-un ən stabil güclərindən biridir.
+
+Müsbət rəylər:
+
+- hekayənin düşündürücü olmasını;
+- Department-in tam karikatura olmamasını;
+- bəzi surveillance tədbirlərinin real təhlükələri dayandırmasını;
+- eyni gücün sui-istifadə edilə bilməsini;
+- clearance ilə xarakterin sosial mövqeyinin dəyişməsini;
+- insanların şəxsi profillərinin detallı olmasını
+
+tərifləyir.
+
+Bu yaradıcı intent-lə uyğundur: oyun birtərəfli “surveillance bad” lecture olmamalıdır.
+
+Əsas dərs:
+
+> **Ən güclü mənəvi qeyri-müəyyənlik “hansı dialoq cavabı yaxşıdır?”dan yox, eyni sistemin həm faydalı, həm qorxulu nəticələr yaratmasından gəlir.**
+
+---
+
+## 14. Yaradıcı məqsədi ilə oyunçu nəticəsinin müqayisəsi
+
+Yaradıcı məqsədi:
+
+- oyunçunu “izlənən” yox, “izləyən” etmək;
+- güc verərək right/wrong sərhədini bulanıqlaşdırmaq;
+- şəxsi məlumatı pozmağın oyunçunun öz hərəkəti kimi emosional ağırlıq yaratması;
+- karyera, pul və statusun mənəvi kompromislə rəqabət etməsi;
+- müşahidə debatında birtərəfli mövqe tutmamaq.
+
+İşləyən hissələr:
+
+- premise güclüdür;
+- surveillance və moral ambiguity müsbət siqnal verir;
+- hekayə və dünya quruculuğu dəyərlidir.
+
+Əsas uyğunsuzluq:
+
+> **oyun oyunçuya mənəvi mövqe seçdirdiyini deyir, amma bəzi kritik sistemlər həmin mövqelərdən yalnız bir neçəsini progression-compatible edir.**
+
+Bu, sadəcə “az branch” problemi deyil.
+
+Bu, **məhsul vədi ↔ sistem davranışı** uyğunsuzluğudur.
+
+---
+
+## 15. Texniki problemlərin zaman konteksti
+
+Launch rəylərində:
+
+- crash;
+- soft-lock;
+- save corruption;
+- təkrarlanan intro;
+- yoxa çıxan notification;
+- resolution;
+- klik və pəncərə davranışı
+
+çox güclü görünür.
+
+Amma bunu avtomatik indiki vəziyyət kimi təqdim etmək düzgün deyil.
+
+Dəlil:
+
+- bəzi post-launch rəylər patch-lərin tutorial və bug-ları yaxşılaşdırdığını bildirir;
+- bəzi launch mənfi rəyləri sonradan original rəylərinin current version-u tam əks etdirmədiyini qeyd edir;
+- daha yeni rəylərdə isə müəyyən UI glitch, soft-lock və progression problemi nümunələri qalır.
+
+Ən düzgün nəticə:
+
+- **launch severity: yüksək**
+- **patch-lərlə yaxşılaşma: dəlilli**
+- **tam yox olma: təsdiqlənmir**
+
+---
+
+## 16. Bazar nəticəsi barədə nə demək olar?
+
+Mövcud dəlildən təhlükəsiz nəticə:
+
+- premise əvvəlcədən güclü maraq yaradıb;
+- hazırkı Steam rəy həcmi nisbətən kiçikdir;
+- bizim geniş API snapshot-ımızda 65.44% recommendation görünür;
+- execution problemləri rəy məlumatında güclü və təkrarlanan şəkildə görünür.
+
+Amma:
+
+> “satışın aşağı olmasının səbəbi X-dir”
+
+kimi causal hökm çıxarmaq olmaz.
+
+Satış rəqəmi, wishlist conversion, refund rate, launch traffic və marketing spend yoxdur.
+
+Daha düzgün hipotez:
+
+> **Güclü concept acquisition yarada bilər, amma early-session friction və promise–delivery mismatch word-of-mouth və oyunda qalma üçün risk yaradır.**
+
+---
+
+## 17. Əsas uğur pattern-ləri
+
+1. Güclü və izahı asan premise.
+2. Real dünyaya yaxın surveillance mövzusu.
+3. “Watcher” rolunun mənəvi narahatlığı.
+4. Clearance progression ilə güc eskalasiyası.
+5. Story və character detail.
+6. Bəzi yadda qalan missiyalar.
+7. Atmosfer və musiqi.
+8. Məlumat profillərinin voyeuristic curiosity yaratması.
+9. Routine işdən top-secret dünyaya qalxmaq fantasy-si.
+
+---
+
+## 18. Əsas uğursuzluq pattern-ləri
+
+1. İlkin öyrətmə və UI clarity zəifliyi.
+2. Semantic reasoning ilə exact acceptance rule arasındakı boşluq.
+3. Sərt və bəzən qeyri-şəffaf penalty.
+4. “Choice”in bəzən sadəcə fail condition olması.
+5. Feature breadth-in decision depth yaratmaması.
+6. Təkrarçılığın uzun content ilə böyüməsi.
+7. Home/side sistemlərin məcburi maintenance kimi hiss olunması.
+8. Launch technical debt.
+9. Bəzi persistent UI/soft-lock problemləri.
+10. Marketing-də geniş agency promise-i ilə real progression arasındakı fərq.
+
+---
+
+## 19. Bizim layihə üçün dizayn dərsləri
+
+### Saxlamağa / öyrənməyə dəyər
+
+- surveillance və şəxsi məlumat fantasy-si;
+- gücün tədricən artması;
+- moral ambiguity;
+- insan profillərinin dərinləşməsi;
+- story ilə sistemin eyni mövzunu daşıması;
+- “watcher” rolunun yaratdığı məsuliyyət.
+
+### Qaçmalı olduğumuz risklər
+
+- ilk saatda prosedur qarışıqlığı;
+- oyunçunun semantik olaraq doğru nəticəsini UI ritualına uduzdurmaq;
+- moral choice-u game-over filterinə çevirmək;
+- geniş feature set-i real dərinlik saymaq;
+- bürokratik mövzunu pis UX ilə simulyasiya etmək;
+- eyni qərar qrammatikasını həddindən artıq uzatmaq;
+- consequence-i yalnız hidden score kimi saxlamaq.
+
+---
+
+## 20. Açıq suallar
+
+- Steam mağaza summary-si ilə API snapshot-u arasındakı filtr fərqi dəqiq nədir?
+- Son build-də hansı launch bug-ları tam aradan qalxıb?
+- Store promise-in branch expectation-a təsiri nə qədər böyükdür?
+- Kickstarter backer expectation-u mənfi rəyləri nə qədər sərtləşdirib?
+- Hansı konkret mission types təkrarçılığı real şəkildə qırır?
+- Player-lərin ən çox bəyəndiyi clearance powers hansılardır?
+- Exact sales/owner məlumatı varmı və etibarlı açıq mənbədən təsdiqlənə bilərmi?
+
+---
+
+## 21. Mənbələr və dəlil qeydləri
+
+### Daxili
+
+- `analysis/need-to-know/research-kickoff.md`
+- `analysis/need-to-know/theme-analysis.md`
+- `data/reports/need-to-know/summary.md`
+- `data/processed/need-to-know/reviews.jsonl`
+- `data/processed/need-to-know/statistics.json`
+- `data/raw/need-to-know/reviews_manifest.json`
+
+### Xarici
+
+- Steam — https://store.steampowered.com/app/490930/
+- Official site — https://needtoknowgame.com/
+- Kickstarter — https://www.kickstarter.com/projects/monomythgames/need-to-know-the-mass-surveillance-thriller-game
+- Adelaide Review creator interview — https://www.adelaidereview.com.au/latest/opinion/2016/05/10/adelaide-game-developers-find-global-audience-need-to-know/
+
+## Status
+
+**Tier:** B — məqsədli comparator  
+**Araşdırma:** tamamlanıb  
+**Qalan reproducibility işi:** lokal `src.verify` və `src.theme_pipeline` run/push  
+**Növbəti:** `analysis/comparisons/orwell-vs-need-to-know.md`
